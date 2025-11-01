@@ -50,7 +50,7 @@
     <string name="activated">Aktyvuota</string>
     <string name="partial_activated">Iš dalies aktyvuota</string>
     <string name="system_inject_fail_summary">Nepavyko įšvirkšti sistemos pagrindo</string>
-    <string name="system_inject_fail"><![CDATA[Tai pasitaiko retai ir gali būti dėl <b>"Magisk"</b> arba kai kurių nekokybiškų "Magisk" modulių.<br/>Pabandykite išjungti kitus "Magisk" modulius, išskyrus "Riru" ir "LSPosed", arba pateikite visą žurnalą kūrėjams.]]></string>
+    <string name="system_inject_fail"><![CDATA[Tai pasitaiko retai ir gali būti dėl <b>"Magisk"</b> arba kai kurių nekokybiškų "Magisk" modulių.<br/>Pabandykite išjungti kitus "Magisk" modulius, išskyrus "Zygisk" ir "LSPosed", arba pateikite visą žurnalą kūrėjams.]]></string>
     <string name="system_prop_incorrect_summary">Neteisingas sistemos rekvizitas</string>
     <string name="system_prop_incorrect"><![CDATA[Ištrintos arba pakeistos kai kurios būtinos sistemos savybės.<br/>Moduliai kartais gali būti pripažinti negaliojančiais.]]></string>
     <string name="need_update">Reikia atnaujinti</string>

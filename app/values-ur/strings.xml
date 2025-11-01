@@ -46,7 +46,7 @@
     <string name="activated">یہ چالو ہے۔</string>
     <string name="partial_activated">جزوی طور پر فعال</string>
     <string name="system_inject_fail_summary">سسٹم فریم ورک انجکشن ناکام۔</string>
-    <string name="system_inject_fail"><![CDATA[یہ نایاب ہے اور یہ <b>Magisk</b> یا کچھ کم معیار کے Magisk ماڈیولز کی وجہ سے ہو سکتا ہے۔<br/>براہ کرم Riru اور LSPosed کے علاوہ Magisk ماڈیولز کو غیر فعال کرنے کی کوشش کریں یا مکمل لاگ ڈویلپرز کو جمع کرائیں۔]]></string>
+    <string name="system_inject_fail"><![CDATA[یہ نایاب ہے اور یہ <b>Magisk</b> یا کچھ کم معیار کے Magisk ماڈیولز کی وجہ سے ہو سکتا ہے۔<br/>براہ کرم Zygisk اور LSPosed کے علاوہ Magisk ماڈیولز کو غیر فعال کرنے کی کوشش کریں یا مکمل لاگ ڈویلپرز کو جمع کرائیں۔]]></string>
     <string name="system_prop_incorrect_summary">سسٹم پروپ غلط ہے۔</string>
     <string name="system_prop_incorrect"><![CDATA[سسٹم کی کچھ ضروری خصوصیات حذف یا ترمیم کی گئیں۔<br/>ماڈیول کبھی کبھار باطل ہو سکتے ہیں۔]]></string>
     <string name="need_update">اپ ڈیٹ درکار ہے۔</string>

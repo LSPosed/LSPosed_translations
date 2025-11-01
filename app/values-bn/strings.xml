@@ -46,7 +46,7 @@
     <string name="activated">সক্রিয়</string>
     <string name="partial_activated">আংশিক সক্রিয়</string>
     <string name="system_inject_fail_summary">সিস্টেম ফ্রেমওয়ার্ক ইনজেকশন ব্যর্থ হয়েছে</string>
-    <string name="system_inject_fail"><![CDATA[এটি বিরল এবং <b>Magisk</b> বা কিছু নিম্নমানের Magisk মডিউলের কারণে হতে পারে।<br/>অনুগ্রহ করে Riru এবং LSPosed ব্যতীত Magisk মডিউলগুলি নিষ্ক্রিয় করার চেষ্টা করুন বা বিকাশকারীদের কাছে সম্পূর্ণ লগ জমা দিন।]]></string>
+    <string name="system_inject_fail"><![CDATA[এটি বিরল এবং <b>Magisk</b> বা কিছু নিম্নমানের Magisk মডিউলের কারণে হতে পারে।<br/>অনুগ্রহ করে Zygisk এবং LSPosed ব্যতীত Magisk মডিউলগুলি নিষ্ক্রিয় করার চেষ্টা করুন বা বিকাশকারীদের কাছে সম্পূর্ণ লগ জমা দিন।]]></string>
     <string name="system_prop_incorrect_summary">সিস্টেম প্রপ ভুল</string>
     <string name="system_prop_incorrect"><![CDATA[কিছু প্রয়োজনীয় সিস্টেম বৈশিষ্ট্য মুছে ফেলা বা সংশোধন করা হয়েছে.<br/>মডিউল মাঝে মাঝে অবৈধ হতে পারে।]]></string>
     <string name="need_update">আপডেট করতে হবে</string>

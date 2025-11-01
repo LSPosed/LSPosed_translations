@@ -50,7 +50,7 @@
     <string name="activated">Активирован</string>
     <string name="partial_activated">Частично активирован</string>
     <string name="system_inject_fail_summary">Ошибка внедрения системного фреймворка</string>
-    <string name="system_inject_fail"><![CDATA[Это редкость и может быть вызвано <b>Magisk</b> или несовместимыми модулями Magisk.<br/>Пожалуйста, попробуйте отключить модули Magisk кроме Riru и LSPosed или пришлите полные логи разработчику]]></string>
+    <string name="system_inject_fail"><![CDATA[Это редкость и может быть вызвано <b>Magisk</b> или несовместимыми модулями Magisk.<br/>Пожалуйста, попробуйте отключить модули Magisk кроме Zygisk и LSPosed или пришлите полные логи разработчику]]></string>
     <string name="system_prop_incorrect_summary">Неправильные системные настройки</string>
     <string name="system_prop_incorrect"><![CDATA[Неправильные системные настройки.<br/>Некоторые системные настройки нужные для работы удалены или изменены.<br/>Модули могут не работать должным образом]]></string>
     <string name="need_update">Требуется обновление</string>

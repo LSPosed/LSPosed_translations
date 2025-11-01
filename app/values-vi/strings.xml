@@ -44,7 +44,7 @@
     <string name="activated">Đã được kích hoạt</string>
     <string name="partial_activated">Một phần đã được kích hoạt</string>
     <string name="system_inject_fail_summary">Không thể nhúng vào khung hệ thống</string>
-    <string name="system_inject_fail"><![CDATA[Trường hợp này khá hiếm khi xảy ra và có thể lý do bởi <b>Magisk</b> hoặc 1 số mô-đun Magisk kém chất lượng.<br/>Hãy thử vô hiệu hóa những mô-đun Magisk đó, thử chạy riêng Riru và LSPosed mà thôi hoặc thông báo nhật ký tới những nhà phát triển.]]></string>
+    <string name="system_inject_fail"><![CDATA[Trường hợp này khá hiếm khi xảy ra và có thể lý do bởi <b>Magisk</b> hoặc 1 số mô-đun Magisk kém chất lượng.<br/>Hãy thử vô hiệu hóa những mô-đun Magisk đó, thử chạy riêng Zygisk và LSPosed mà thôi hoặc thông báo nhật ký tới những nhà phát triển.]]></string>
     <string name="system_prop_incorrect_summary">Thông tin hệ thống không đúng</string>
     <string name="system_prop_incorrect"><![CDATA[Một số thuộc tính hệ thống cần thiết đã bị xóa hoặc sửa đổi.<br/> Đôi khi, các mô-đun có thể sẽ mất hiệu lực.]]></string>
     <string name="need_update">Cần được cập nhật</string>

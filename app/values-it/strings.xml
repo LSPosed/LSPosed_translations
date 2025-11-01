@@ -46,7 +46,7 @@
     <string name="activated">Attivo</string>
     <string name="partial_activated">Parzialmente attivo</string>
     <string name="system_inject_fail_summary">Injection del framework di sistema fallita</string>
-    <string name="system_inject_fail"><![CDATA[L\'injection del framework di sistema è fallita.<br/>Questo problema si verifica raramente e può essere causato da <b>Magisk</b> o da alcuni moduli Magisk di scarsa qualità.<br/>Prova a disabilitare i moduli Magisk tranne Riru e LSPosed o invia il log completo agli sviluppatori.]]></string>
+    <string name="system_inject_fail"><![CDATA[L\'injection del framework di sistema è fallita.<br/>Questo problema si verifica raramente e può essere causato da <b>Magisk</b> o da alcuni moduli Magisk di scarsa qualità.<br/>Prova a disabilitare i moduli Magisk tranne Zygisk e LSPosed o invia il log completo agli sviluppatori.]]></string>
     <string name="system_prop_incorrect_summary">Proprietà di sistema errate</string>
     <string name="system_prop_incorrect"><![CDATA[Alcune proprietà di sistema necessarie sono state eliminate o modificate.<br/>In alcuni casi i moduli potrebbero non funzionare.]]></string>
     <string name="need_update">Aggiornamento richiesto</string>

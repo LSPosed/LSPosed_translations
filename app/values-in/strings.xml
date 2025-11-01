@@ -44,7 +44,7 @@
     <string name="activated">Diaktifkan</string>
     <string name="partial_activated">Diaktifkan sebagian</string>
     <string name="system_inject_fail_summary">Injeksi Kerangka Sistem gagal</string>
-    <string name="system_inject_fail"><![CDATA[Ini jarang terjadi dan mungkin disebabkan oleh <b>Magisk</b> atau beberapa modul Magisk berkualitas rendah.<br/>Coba nonaktifkan modul Magisk selain Riru dan LSPosed atau kirimkan log lengkap ke pengembang.]]></string>
+    <string name="system_inject_fail"><![CDATA[Ini jarang terjadi dan mungkin disebabkan oleh <b>Magisk</b> atau beberapa modul Magisk berkualitas rendah.<br/>Coba nonaktifkan modul Magisk selain Zygisk dan LSPosed atau kirimkan log lengkap ke pengembang.]]></string>
     <string name="system_prop_incorrect_summary">Prop sistem salah</string>
     <string name="system_prop_incorrect"><![CDATA[Beberapa properti sistem yang diperlukan dihapus atau diubah.<br/>Modul terkadang tidak valid.]]></string>
     <string name="need_update">Butuh pembaruan</string>

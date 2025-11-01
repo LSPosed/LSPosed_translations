@@ -46,7 +46,7 @@
     <string name="activated">Aktiveret</string>
     <string name="partial_activated">Delvist aktiveret</string>
     <string name="system_inject_fail_summary">System Framework injektion mislykkedes</string>
-    <string name="system_inject_fail"><![CDATA[Dette er sjældent og kan være forårsaget af <b>Magisk</b> eller nogle lavkvalitets Magisk moduler.<br/>Prøv at deaktivere andre Magisk moduler end Riru og LSPosed eller indsende fuld log til udviklere.]]></string>
+    <string name="system_inject_fail"><![CDATA[Dette er sjældent og kan være forårsaget af <b>Magisk</b> eller nogle lavkvalitets Magisk moduler.<br/>Prøv at deaktivere andre Magisk moduler end Zygisk og LSPosed eller indsende fuld log til udviklere.]]></string>
     <string name="system_prop_incorrect_summary">System prop forkert</string>
     <string name="system_prop_incorrect"><![CDATA[Nogle nødvendige systemegenskaber slettet eller ændret.<br/>Moduler kan ugyldiggøre lejlighedsvis.]]></string>
     <string name="need_update">Skal opdateres</string>

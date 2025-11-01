@@ -48,7 +48,7 @@
     <string name="activated">Aktiviran</string>
     <string name="partial_activated">Djelomično aktiviran</string>
     <string name="system_inject_fail_summary">Injektiranje u System Framework nije uspjelo</string>
-    <string name="system_inject_fail"><![CDATA[Ovo je rijetko i može biti uzrokovano aplikacijom <b>Magisk</b> ili nekim Magisk modulima niske kvalitete.<br/>Pokušajte onemogućiti Magisk module koji nisu Riru i LSPosed ili pošaljite cijeli zapis programerima.]]></string>
+    <string name="system_inject_fail"><![CDATA[Ovo je rijetko i može biti uzrokovano aplikacijom <b>Magisk</b> ili nekim Magisk modulima niske kvalitete.<br/>Pokušajte onemogućiti Magisk module koji nisu Zygisk i LSPosed ili pošaljite cijeli zapis programerima.]]></string>
     <string name="system_prop_incorrect_summary">Svojstva sustava nisu ispravna</string>
     <string name="system_prop_incorrect"><![CDATA[Neka od potrebnih svojstva sustava su izbrisana ili izmijenjena.<br/>Moduli povremeno mogu biti nedostupni.]]></string>
     <string name="need_update">Treba ažurirati</string>

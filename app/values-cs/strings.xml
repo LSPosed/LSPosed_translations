@@ -50,7 +50,7 @@
     <string name="activated">Aktivováno</string>
     <string name="partial_activated">Částečně aktivováno</string>
     <string name="system_inject_fail_summary">Načtení System Framework se nezdařilo</string>
-    <string name="system_inject_fail"><![CDATA[Toto je vzácné a může to být způsobeno <b>Magisk</b>em nebo některými málo kvalitními moduly Magisku.<br/>Zkuste vypnout moduly Magisk jiné než Riru a LSPosed nebo odešlete kompletní log vývojářům.]]></string>
+    <string name="system_inject_fail"><![CDATA[Toto je vzácné a může to být způsobeno <b>Magisk</b>em nebo některými málo kvalitními moduly Magisku.<br/>Zkuste vypnout moduly Magisk jiné než Zygisk a LSPosed nebo odešlete kompletní log vývojářům.]]></string>
     <string name="system_prop_incorrect_summary">Nesprávné systémové prop</string>
     <string name="system_prop_incorrect"><![CDATA[Některé potřebné systémové vlastnosti byly odstraněny nebo změněny.<br/>Moduly mohou být někdy neplatné a tedy nefunkční.]]></string>
     <string name="need_update">Je třeba aktualizovat</string>

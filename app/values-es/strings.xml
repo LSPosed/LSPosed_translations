@@ -46,7 +46,7 @@
     <string name="activated">Activado</string>
     <string name="partial_activated">Parcialmente activado</string>
     <string name="system_inject_fail_summary">System Framework injection failed</string>
-    <string name="system_inject_fail"><![CDATA[This is rare and may be caused by <b>Magisk</b> or some low-quality Magisk modules.<br/>Please try to disable Magisk modules other than Riru and LSPosed or submit full log to developers.]]></string>
+    <string name="system_inject_fail"><![CDATA[This is rare and may be caused by <b>Magisk</b> or some low-quality Magisk modules.<br/>Please try to disable Magisk modules other than Zygisk and LSPosed or submit full log to developers.]]></string>
     <string name="system_prop_incorrect_summary">System prop incorrect</string>
     <string name="system_prop_incorrect"><![CDATA[Some necessary system properties deleted or modified.<br/>Modules may invalidate occasionally.]]></string>
     <string name="need_update">Need to update</string>

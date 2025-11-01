@@ -46,7 +46,7 @@
     <string name="activated">Çalak kirin</string>
     <string name="partial_activated">Qismî aktîf kirin</string>
     <string name="system_inject_fail_summary">Derzkirina Çarçoveya Pergalê têk çû</string>
-    <string name="system_inject_fail"><![CDATA[Ev kêm e û dibe ku ji hêla <b>Magisk</b> an hin modulên Magisk-a kêm-kalîteyê ve çêbibe.<br/>Ji kerema xwe hewl bidin ku modulên Magisk ji bilî Riru û LSPosed neçalak bikin an jî têketinek tevahî ji pêşdebiran re bişînin.]]></string>
+    <string name="system_inject_fail"><![CDATA[Ev kêm e û dibe ku ji hêla <b>Magisk</b> an hin modulên Magisk-a kêm-kalîteyê ve çêbibe.<br/>Ji kerema xwe hewl bidin ku modulên Magisk ji bilî Zygisk û LSPosed neçalak bikin an jî têketinek tevahî ji pêşdebiran re bişînin.]]></string>
     <string name="system_prop_incorrect_summary">Pêşniyara pergalê xelet e</string>
     <string name="system_prop_incorrect"><![CDATA[Hin taybetmendiyên pergalê yên pêwîst jêbirin an guherandin.<br/>Dibe ku modul carinan betal bibin.]]></string>
     <string name="need_update">Pêdivî ye ku nûve bike</string>

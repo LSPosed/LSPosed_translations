@@ -44,7 +44,7 @@
     <string name="activated">有効化済み</string>
     <string name="partial_activated">部分的に有効化済み</string>
     <string name="system_inject_fail_summary">システムフレームワークへのパッチに失敗しました</string>
-    <string name="system_inject_fail"><![CDATA[本現象はごく稀に発生し、<b>Magisk</b>もしくは低品質な Magiskモジュールが原因で発生します。<br/>RiruとLSPosed以外のMagiskモジュールを一時的に無効化してみるか、開発者へすべてのログを提出して下さい。]]></string>
+    <string name="system_inject_fail"><![CDATA[本現象はごく稀に発生し、<b>Magisk</b>もしくは低品質な Magiskモジュールが原因で発生します。<br/>ZygiskとLSPosed以外のMagiskモジュールを一時的に無効化してみるか、開発者へすべてのログを提出して下さい。]]></string>
     <string name="system_prop_incorrect_summary">システム設定が正しくありません</string>
     <string name="system_prop_incorrect"><![CDATA[必須のシステム設定が変更もしくは削除されています。<br/>モジュールが無効化される場合があります。]]></string>
     <string name="need_update">更新が必要です</string>
