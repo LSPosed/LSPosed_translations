@@ -57,7 +57,7 @@
     <string name="info_system_version">系统版本</string>
     <string name="info_device">设备</string>
     <string name="info_system_abi">系统架构</string>
-    <string name="info_dex2oat_wrapper">Dex 优化器包装</string>
+    <string name="info_dex2oat_wrapper">Dex 封装器优化</string>
     <string name="enabled">已启用</string>
     <string name="not_enabled">未启用</string>
     <string name="supported">支持</string>
@@ -223,6 +223,7 @@
     <string name="color_deep_orange">深橙</string>
     <string name="color_brown">棕色</string>
     <string name="color_blue_grey">灰蓝</string>
+
     <string name="safe_mode">安全模式</string>
     <string name="safe_mode_summary">LSPosed 处于安全模式</string>
     <string name="safe_mode_summary2">所有 Xposed 模块不可用，直到下次重启。\n一些模块导致了系统崩溃，请找出并禁用这些模块并向模块开发者反馈。</string>
