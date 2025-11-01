@@ -50,7 +50,7 @@
     <string name="activated">Aktivované</string>
     <string name="partial_activated">Čiastočne aktivované</string>
     <string name="system_inject_fail_summary">Vstreknutie systémového rámca zlyhalo</string>
-    <string name="system_inject_fail"><![CDATA[Je to zriedkavé a môže to byť spôsobené <b>Magisk</b> alebo niektorými nekvalitnými modulmi Magisk.<br/>Skúste vypnúť iné moduly Magisk ako Riru a LSPosed alebo pošlite vývojárom celý log.]]></string>
+    <string name="system_inject_fail"><![CDATA[Je to zriedkavé a môže to byť spôsobené <b>Magisk</b> alebo niektorými nekvalitnými modulmi Magisk.<br/>Skúste vypnúť iné moduly Magisk ako Zygisk a LSPosed alebo pošlite vývojárom celý log.]]></string>
     <string name="system_prop_incorrect_summary">Nesprávna opora systému</string>
     <string name="system_prop_incorrect"><![CDATA[Niektoré potrebné vlastnosti systému boli odstránené alebo upravené.<br/>Moduly sa môžu občas znefunkčniť.]]></string>
     <string name="need_update">Je potrebné aktualizovať</string>

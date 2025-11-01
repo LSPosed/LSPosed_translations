@@ -47,7 +47,7 @@ JJ108</string>
     <string name="activated">Aktiviert</string>
     <string name="partial_activated">Teilweise aktiviert</string>
     <string name="system_inject_fail_summary">System-Framework-Injektion fehlgeschlagen</string>
-    <string name="system_inject_fail"><![CDATA[Dies ist selten und kann durch <b>Magisk</b> oder einige minderwertige Magisk Module verursacht werden.<br/>Bitte deaktiviere alle Magisk-Module bis auf Riru und LSPosed, oder sende eine vollständige Fehlermeldung an die Entwickler.]]></string>
+    <string name="system_inject_fail"><![CDATA[Dies ist selten und kann durch <b>Magisk</b> oder einige minderwertige Magisk Module verursacht werden.<br/>Bitte deaktiviere alle Magisk-Module bis auf Zygisk und LSPosed, oder sende eine vollständige Fehlermeldung an die Entwickler.]]></string>
     <string name="system_prop_incorrect_summary">System-Prop falsch</string>
     <string name="system_prop_incorrect"><![CDATA[Einige notwendige Systemeigenschaften wurden gelöscht oder geändert.<br/>Module können gelegentlich außer Kraft gesetzt werden.]]></string>
     <string name="need_update">Aktualisierung erforderlich</string>
