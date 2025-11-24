@@ -57,7 +57,7 @@
     <string name="info_system_version">系统版本</string>
     <string name="info_device">设备</string>
     <string name="info_system_abi">系统架构</string>
-    <string name="info_dex2oat_wrapper">Dex 封装器优化</string>
+    <string name="info_dex2oat_wrapper">Dex 优化器包装</string>
     <string name="enabled">已启用</string>
     <string name="not_enabled">未启用</string>
     <string name="supported">支持</string>
