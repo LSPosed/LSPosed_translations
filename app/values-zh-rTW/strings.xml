@@ -228,7 +228,7 @@
     <string name="safe_mode_summary2">所有 Xposed 模組不可用，直到下次重新啟動。\n 一些模組導致了系統當機，請找出並禁用這些模組並同模組開發者反饋。</string>
     <string name="disable_all_modules">禁用所有模組</string>
     <string name="confirm_disable_all_modules">確認？</string>
-<plurals name="message_disable_all_modules">
+    <plurals name="message_disable_all_modules">
         <item quantity="other">%d 個模組將被停用\n 此操作不可逆轉</item>
     </plurals>
     <string name="disable_success_title">成功</string>
