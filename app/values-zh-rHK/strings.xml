@@ -216,7 +216,6 @@
     <string name="color_deep_orange">深橙</string>
     <string name="color_brown">棕色</string>
     <string name="color_blue_grey">藍灰</string>
-    </plurals>
     <string name="disable_success_title">成功</string>
     <string name="hook_debug_title">Hook 調試</string>
     <string name="debugging_title">調試</string>
