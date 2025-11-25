@@ -216,6 +216,15 @@
     <string name="color_deep_orange">深橙</string>
     <string name="color_brown">棕色</string>
     <string name="color_blue_grey">藍灰</string>
+
+    <string name="safe_mode">安全模式</string>
+    <string name="safe_mode_summary">LSPosed 處於安全模式</string>
+    <string name="safe_mode_summary2">所有嘅 Xposed 模組不可用，直到下次重新啟動。 \n一些模組導致了系統崩潰，請搵到並停用這些模組並向模組開發者回饋。</string>
+    <string name="disable_all_modules">停用所有模組</string>
+    <string name="confirm_disable_all_modules">確定？</string>
+    <plurals name="message_disable_all_modules">
+        <item quantity="other">%d 個模組將被停用\n此操作不可撤銷</item>
+    </plurals>
     <string name="disable_success_title">成功</string>
     <string name="hook_debug_title">Hook 調試</string>
     <string name="debugging_title">調試</string>
