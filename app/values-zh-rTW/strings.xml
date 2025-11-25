@@ -229,7 +229,7 @@
     <string name="disable_all_modules">禁用所有模組</string>
     <string name="confirm_disable_all_modules">確認？</string>
     <plurals name="message_disable_all_modules">
-        <item quantity="other">%d 個模組將被停用\n 此操作不可逆轉</item>
+        <item quantity="other">%d 個模組將被停用\n此操作不可逆轉</item>
     </plurals>
     <string name="disable_success_title">成功</string>
     <string name="hook_debug_title">Hook 除錯</string>
