@@ -36,7 +36,7 @@
         <item quantity="other">%d 個模組可更新</item>
     </plurals>
     <string name="about_view_source_code"><![CDATA[在 %1$s 檢視原始碼<br/>加入我們的 %2$s 頻道]]></string>
-    <string name="translators" comment="Dear translators, please add your home page here following the format. There can be more than one translator. So feel free to append yourself.">DarKnighT0v0</string>
+    <string name="translators" comment="Dear translators, please add your home page here following the format. There can be more than one translator. So feel free to append yourself.">DarKnighT0v0,Lingmiao </string>
     <string name="install">安裝</string>
     <string name="install_summary">點選安裝 LSPosed</string>
     <string name="not_installed">未安裝</string>
@@ -49,22 +49,25 @@
     <string name="system_prop_incorrect"><![CDATA[部分必須的系統屬性被刪除或被修改，<br/>模組可能會隨機失效。]]></string>
     <string name="need_update">需要更新</string>
     <string name="please_update_summary">請安裝最新版本的 LSPosed</string>
-    <string name="info_api_version">API版本</string>
+    <string name="developer_warning_title">模組開發者提示</string>
+    <string name="developer_warning_summary">請在 Android Studio 上禁用部署最佳化，或使用 `gradlew installDebug` 指令進行安裝，否則無法更新模組。</string>
+    <string name="info_api_version">API 版本</string>
     <string name="info_framework_version">架構版本</string>
+    <string name="info_manager_package_name">管理器套件名稱</string>
     <string name="info_system_version">系統版本</string>
-    <string name="info_device">裝置版本</string>
+    <string name="info_device">裝置</string>
     <string name="info_system_abi">系統架構</string>
     <string name="info_dex2oat_wrapper">Dex 最佳化包裝函式</string>
     <string name="enabled">已啟用</string>
     <string name="not_enabled">未啟用</string>
     <string name="supported">支援</string>
     <string name="unsupported">不支援</string>
-    <string name="android_version_unsatisfied">系統版本不受支援</string>
+    <string name="android_version_unsatisfied">系統版本不獲支援</string>
     <string name="crashed">崩潰</string>
     <string name="mount_failed">加載失敗</string>
     <string name="update_lsposed">更新 LSPosed</string>
-    <string name="update_lsposed_msg">確認更新LSPosed? 此裝置會於更新完成後重啟</string>
-    <string name="info_copied">已複製到剪貼簿</string>
+    <string name="update_lsposed_msg">確定要更新LSPosed嗎？此裝置會於更新完成後重新啟動</string>
+    <string name="info_copied">已複製至剪貼簿</string>
     <!-- WelcomeDialog -->
     <string name="parasitic_welcome">歡迎使用 LSPosed</string>
     <string name="parasitic_welcome_summary">您正在使用寄生管理員，它可以從通知中開啟。</string>
@@ -75,6 +78,7 @@
     <string name="menuSaveToSd">儲存</string>
     <string name="nav_item_logs_verbose">詳細記錄</string>
     <string name="nav_item_logs_module">模組記錄</string>
+    <string name="logs_saving">正在儲存日誌，請稍候</string>
     <string name="logs_saved">記錄已儲存</string>
     <string name="logs_save_failed2">儲存失敗：\n%s</string>
     <string name="menuClearLog">立即清理記錄</string>
@@ -106,6 +110,8 @@
     <string name="install_to_user_message">確定要為用戶 %2$s 安裝 %1$s 嗎？建議手動安裝或多開，透過 LSPosed 強制安裝可能會出現問題。</string>
     <string name="expand">展開</string>
     <string name="collapse">收起</string>
+    <string name="reset_scope_request_setting">重設作用域請求設定</string>
+    <string name="reset_scope_request_setting_done">已重設作用域請求設定</string>
     <!-- AppListActivity -->
     <string name="compile_speed">重新最佳化</string>
     <string name="compile_speed_msg">正在最佳化…</string>
@@ -193,6 +199,7 @@
     <string name="module_release_no_more">沒有更舊版本</string>
     <string name="repo_load_failed">模組存放庫載入失敗：%s</string>
     <string name="sort_upgradable_first">可更新優先</string>
+    <string name="installed">已安裝</string>
     <plurals name="module_release_assets_download_count">
         <item quantity="other">%d 次下載</item>
     </plurals>
@@ -216,4 +223,21 @@
     <string name="color_deep_orange">深橙</string>
     <string name="color_brown">棕色</string>
     <string name="color_blue_grey">藍灰</string>
+
+    <string name="safe_mode_summary">LSPosed 喺安全模式</string>
+    <string name="safe_mode_summary2">所有 Xposed 模組不可用，直到下次重新啟動。\n 一些模組導致了系統崩潰，請找出並禁用這些模組並向模組開發者提供意見回饋。</string>
+    <string name="disable_all_modules">停用所有模組</string>
+    <string name="confirm_disable_all_modules">確認操作？</string>
+    <plurals name="message_disable_all_modules">
+        <item quantity="other">%d 個模組將被停用\n此操作不可還原</item>
+    </plurals>
+    <string name="disable_success_title">成功</string>
+    <string name="hook_debug_title">Hook 偵錯</string>
+    <string name="debugging_title">偵錯</string>
+    <string name="hook_debug_summary">允許轉儲被 hook 進程的 hook 偵錯資訊，可能帶來性能影響</string>
+    <string name="dump_hook_debug_title">轉儲 Hook 偵錯資訊</string>
+    <string name="dump_hook_debug_summary">將轉儲 Hook 偵錯資訊輸出到 /data/adb/lspd/log</string>
+    <plurals name="disable_success_message">
+        <item quantity="other">已停用 %d 個模組</item>
+    </plurals>
 </resources>
