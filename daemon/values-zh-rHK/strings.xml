@@ -18,4 +18,19 @@
     <string name="scope_approve">核准</string>
     <string name="scope_deny">拒絕</string>
     <string name="nerver_ask_again">永不詢問</string>
+    <string name="lsposed_safemode_notification_title">LSPosed 喺安全模式</string>
+    <string name="lsposed_safemode_notification_content">所有 Xposed 模組已經停用，直至下次重新啟動為止</string>
+    <string name="safe_mode_disable_all_modules">停用所有模組</string>
+    <string name="lsposed_safemode_cleared_notification_title">所有模組已被停用</string>
+    <plurals name="lsposed_safemode_cleared_notification_content">
+        <item quantity="other">%d 個模組已被停用</item>
+    </plurals>
+    <string name="lsposed_safemode_clear_confirm_notification_title">確認操作？</string>
+    <plurals name="lsposed_safemode_clear_confirm_notification_content">
+        <item quantity="other">%d 個模組將被停用\n此操作不可還原</item>
+    </plurals>
+    <string name="safe_mode_reboot">重新啟動</string>
+    <string name="safe_mode_channel_name">安全模式</string>
+    <string name="safe_mode_open_manager">開啟管理器</string>
+    <string name="safe_mode_back">返回</string>
 </resources>
