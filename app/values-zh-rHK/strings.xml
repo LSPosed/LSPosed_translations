@@ -216,4 +216,14 @@
     <string name="color_deep_orange">深橙</string>
     <string name="color_brown">棕色</string>
     <string name="color_blue_grey">藍灰</string>
+    </plurals>
+    <string name="disable_success_title">成功</string>
+    <string name="hook_debug_title">Hook 調試</string>
+    <string name="debugging_title">調試</string>
+    <string name="hook_debug_summary">允許轉儲被 hook 進程的 hook 偵錯訊息，可能帶來效能影響</string>
+    <string name="dump_hook_debug_title">轉儲 Hook 偵錯訊息</string>
+    <string name="dump_hook_debug_summary">轉儲 Hook 偵錯資訊到 /data/adb/lspd/log</string>
+    <plurals name="disable_success_message">
+        <item quantity="other">已停用 %d 個模組</item>
+    </plurals>
 </resources>
