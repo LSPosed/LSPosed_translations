@@ -239,4 +239,5 @@
     <string name="dump_hook_debug_summary">將轉儲 Hook 除錯信息輸出到 /data/adb/lspd/log</string>
     <plurals name="disable_success_message">
         <item quantity="other">已禁用 %d 個模組</item>
+    </plurals>
 </resources>
