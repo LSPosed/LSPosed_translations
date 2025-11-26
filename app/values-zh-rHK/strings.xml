@@ -26,7 +26,7 @@
     </plurals>
     <string name="Logs">日誌</string>
     <string name="Settings">設定</string>
-    <string name="feedback_or_suggestion">意見或建議</string>
+    <string name="feedback_or_suggestion">回饋或建議</string>
     <string name="About">關於</string>
     <string name="module_repo">模組庫</string>
     <string name="module_repo_up_to_date">所有模組已經係最新</string>
@@ -142,7 +142,7 @@
     <string name="reboot">重啟系統</string>
     <string name="menu_hide">隱藏</string>
     <!-- ModulesActivity and AppListActivity -->
-    <string name="modules_other_app">喺其他 App 中查看</string>
+    <string name="modules_other_app">喺其他 App 度查看</string>
     <string name="module_app_info">應用程式資訊</string>
     <string name="list_empty">¯\\\\_(ツ)_\/¯\n呢度乜都冇</string>
     <!-- SettingsActivity -->
