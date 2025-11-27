@@ -26,17 +26,17 @@
     </plurals>
     <string name="Logs">日誌</string>
     <string name="Settings">設定</string>
-    <string name="feedback_or_suggestion">回饋或建議</string>
+    <string name="feedback_or_suggestion">反饋或建議</string>
     <string name="About">關於</string>
     <string name="module_repo">模組庫</string>
-    <string name="module_repo_up_to_date">所有模組已經係最新</string>
+    <string name="module_repo_up_to_date">所有模組已經係最新版本</string>
     <string name="module_repo_published_time">發佈於 %s</string>
     <string name="module_repo_updated_time">更新於 %s</string>
     <plurals name="module_repo_upgradable">
         <item quantity="other">%d 個模組可以更新</item>
     </plurals>
     <string name="about_view_source_code"><![CDATA[喺 %1$s 查看源碼<br/>加入我哋嘅 %2$s 頻道]]></string>
-    <string name="translators" comment="Dear translators, please add your home page here following the format. There can be more than one translator. So feel free to append yourself.">DarKnighT0v0,MiToverG422</string>
+    <string name="translators" comment="Dear translators, please add your home page here following the format. There can be more than one translator. So feel free to append yourself.">DarKnighT0v0、MiToverG422</string>
     <string name="install">安裝</string>
     <string name="install_summary">撳呢度安裝 LSPosed</string>
     <string name="not_installed">未安裝</string>
@@ -148,7 +148,7 @@
     <!-- SettingsActivity -->
     <string name="settings_group_framework">框架</string>
     <string name="settings_disable_verbose_log">停用詳細日誌</string>
-    <string name="settings_disable_verbose_log_summary">回報問題嗰陣要求包含詳細日誌</string>
+    <string name="settings_disable_verbose_log_summary">回報問題嘅時候要附上詳細日誌</string>
     <string name="pure_black_dark_theme">使用純黑深色主題</string>
     <string name="pure_black_dark_theme_summary">啟用深色模式時使用純黑色背景</string>
     <string name="settings_group_theme">主題</string>
@@ -179,7 +179,7 @@
     <string name="update_channel_bate">測試版 (Beta)</string>
     <string name="update_channel_nightly">每夜版 (Nightly)</string>
     <string name="settings_xposed_api_call_protection">Xposed API 調用保護</string>
-    <string name="settings_xposed_api_call_protection_summary">封鎖動態載入嘅模組代碼使用 Xposed API，噉樣做可能會整壞某啲模組，但有助於安全性</string>
+    <string name="settings_xposed_api_call_protection_summary">封鎖動態載入嘅模組代碼使用 Xposed API，噉樣做可能會令到有啲模組失咗效，但有助於安全性</string>
     <!-- Module Repo -->
     <string name="module_readme">睇我</string>
     <string name="module_releases">版本</string>
@@ -219,7 +219,7 @@
   
         <string name="safe_mode">安全模式</string>
     <string name="safe_mode_summary">LSPosed 處於安全模式</string>
-    <string name="safe_mode_summary2">所有 Xposed 模組暫時用唔到，直至下次重啟。\n有模組搞到系統崩潰，請搵出並停用呢啲模組，同埋向開發者反映。</string>
+    <string name="safe_mode_summary2">所有嘅 Xposed 模組唔可用，直到下次重啟。\n有模組搞到系統崩潰，請搵出並停用呢啲模組，同埋向開發者反映。</string>
     <string name="disable_all_modules">停用所有模組</string>
     <string name="confirm_disable_all_modules">確定？</string>
     <plurals name="message_disable_all_modules">
