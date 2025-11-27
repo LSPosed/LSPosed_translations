@@ -171,7 +171,7 @@
     <string name="settings_language">語言</string>
     <string name="settings_translation_contributors">譯者</string>
     <string name="settings_translation">參與翻譯</string>
-    <string name="settings_translation_summary">幫我哋翻譯 %s 做你嘅語言</string>
+    <string name="settings_translation_summary">幫我哋將 %s 譯做你嘅語言~</string>
     <string name="settings_enable_status_notification">狀態通知</string>
     <string name="settings_enable_status_notification_summary">顯示通知以便開啟寄生管理器</string>
     <string name="settings_update_channel">更新頻道</string>
@@ -179,7 +179,7 @@
     <string name="update_channel_bate">測試版 (Beta)</string>
     <string name="update_channel_nightly">每夜版 (Nightly)</string>
     <string name="settings_xposed_api_call_protection">Xposed API 調用保護</string>
-    <string name="settings_xposed_api_call_protection_summary">封鎖動態載入嘅模組代碼使用 Xposed API，咁樣做可能會整壞某啲模組，但有助於安全性</string>
+    <string name="settings_xposed_api_call_protection_summary">封鎖動態載入嘅模組代碼使用 Xposed API，噉樣做可能會整壞某啲模組，但有助於安全性</string>
     <!-- Module Repo -->
     <string name="module_readme">睇我</string>
     <string name="module_releases">版本</string>
