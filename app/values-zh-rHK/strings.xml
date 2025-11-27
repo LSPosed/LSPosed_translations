@@ -148,7 +148,7 @@
     <!-- SettingsActivity -->
     <string name="settings_group_framework">框架</string>
     <string name="settings_disable_verbose_log">停用詳細日誌</string>
-    <string name="settings_disable_verbose_log_summary">回報問題嘅時候要附上詳細日誌</string>
+    <string name="settings_disable_verbose_log_summary">反饋問題嘅時候要附上詳細日誌</string>
     <string name="pure_black_dark_theme">使用純黑深色主題</string>
     <string name="pure_black_dark_theme_summary">啟用深色模式時使用純黑色背景</string>
     <string name="settings_group_theme">主題</string>
