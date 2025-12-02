@@ -93,12 +93,12 @@
     <string name="no_min_version_specified">呢個模組未指定需要嘅 Xposed 版本</string>
     <string name="warning_min_version_too_low">呢個模組適用於 %1$d 版本嘅 Xposed，由於版本 %2$d 嘅變更唔兼容，所以已經停用咗此模組</string>
     <string name="warning_installed_on_external_storage">由於此模組安裝咗喺 SD 卡而無法載入，請將佢搬返去內置儲存空間</string>
-    <string name="module_uninstall">移除</string>
+    <string name="module_uninstall">卸載</string>
     <string name="module_settings">模組設定</string>
     <string name="view_in_repo">喺倉庫查看</string>
-    <string name="module_uninstall_message">你確定要移除呢個模組？</string>
-    <string name="module_uninstalled">已移除 %1$s</string>
-    <string name="module_uninstall_failed">移除失敗</string>
+    <string name="module_uninstall_message">你確定要卸載呢個模組？</string>
+    <string name="module_uninstalled">已卸載 %1$s</string>
+    <string name="module_uninstall_failed">卸載失敗</string>
     <string name="add_module_to_user">幫用戶安裝模組</string>
     <string name="module_installed">已為用戶 %2$s 安裝模組 %1$s</string>
     <string name="module_install_failed">模組安裝失敗</string>
@@ -110,7 +110,7 @@
     <string name="compile_speed">重新優化</string>
     <string name="compile_speed_msg">優化緊…</string>
     <string name="compile_done">優化完成</string>
-    <string name="app_launch">執行</string>
+    <string name="app_launch">啟動App</string>
     <string name="compile_failed">優化失敗或返回值係空嘅</string>
     <string name="compile_failed_with_info">優化失敗： </string>
     <string name="sort_by_name">App 名稱</string>
