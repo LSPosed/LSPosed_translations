@@ -110,7 +110,7 @@
     <string name="compile_speed">重新優化</string>
     <string name="compile_speed_msg">優化緊…</string>
     <string name="compile_done">優化完成</string>
-    <string name="app_launch">啟動App</string>
+    <string name="app_launch">啟動</string>
     <string name="compile_failed">優化失敗或返回值係空嘅</string>
     <string name="compile_failed_with_info">優化失敗： </string>
     <string name="sort_by_name">App 名稱</string>
