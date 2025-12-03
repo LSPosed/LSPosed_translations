@@ -179,7 +179,7 @@
     <string name="update_channel_bate">測試版 (Beta)</string>
     <string name="update_channel_nightly">每夜版 (Nightly)</string>
     <string name="settings_xposed_api_call_protection">Xposed API 調用保護</string>
-    <string name="settings_xposed_api_call_protection_summary">封鎖動態載入嘅模組代碼使用 Xposed API，噉樣做可能會令到有啲模組失咗效，但有助於安全性</string>
+    <string name="settings_xposed_api_call_protection_summary">封鎖模組動態載入嘅代碼使用 Xposed API，噉樣做可能會令到有啲模組失效，但有助於安全性</string>
     <!-- Module Repo -->
     <string name="module_readme">睇我</string>
     <string name="module_releases">版本</string>
@@ -219,7 +219,7 @@
   
         <string name="safe_mode">安全模式</string>
     <string name="safe_mode_summary">LSPosed 處於安全模式</string>
-    <string name="safe_mode_summary2">所有嘅 Xposed 模組唔可用，直到下次重啟。\n有模組搞到系統崩潰，請搵出並停用呢啲模組，同埋向開發者反映。</string>
+    <string name="safe_mode_summary2">全部 Xposed 模組都唔用得，直到下次重啟。\n有模組搞崩潰䣳個系統，請搵出並停用呢啲模組，同埋向佢嘅開發者反映。</string>
     <string name="disable_all_modules">停用所有模組</string>
     <string name="confirm_disable_all_modules">確定？</string>
     <plurals name="message_disable_all_modules">
