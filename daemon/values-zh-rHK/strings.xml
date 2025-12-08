@@ -10,7 +10,7 @@
     <string name="xposed_module_updated_notification_content_system">%s 更新咗，因為作用範圍包埋系統框架，需要重啟先會生效。</string>
     <string name="module_updated_channel_name">模組更新完成</string>
     <string name="status_channel_name">LSPosed 狀態</string>
-    <string name="lsposed_running_notification_title">LSPosed 載入咗</string>
+    <string name="lsposed_running_notification_title">LSPosed 已載入</string>
     <string name="lsposed_running_notification_content">撳通知開啟管理器</string>
     <string name="xposed_module_request_scope_title">作用範圍請求</string>
     <string name="xposed_module_request_scope_content">用戶 %2$s 嘅 %1$s 請求將 %3$s 加到去佢嘅作用範圍。</string>
