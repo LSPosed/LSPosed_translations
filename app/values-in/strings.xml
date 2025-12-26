@@ -184,6 +184,9 @@
     <string name="update_channel_nightly">Rilis harian</string>
     <string name="settings_xposed_api_call_protection">Proteksi panggilan API Xposed</string>
     <string name="settings_xposed_api_call_protection_summary">Blokir kode modul yang dimuat secara dinamis untuk menggunakan Xposed API, ini mungkin mengganggu beberapa modul namun lebih aman</string>
+    <string name="settings_invalidate_inline_hooks">Invalidasi inline hook</string>
+    <string name="settings_invalidate_inline_hooks_summary">Melakukan pembersihan libart.so. Ini berisiko menyebabkan malfungsi dan rusak acak. Aktifkan hanya jika deteksi tidak bisa dilewati.</string>
+    <string name="settings_invalidate_inline_hooks_warning">Jangan melaporkan bug apa pun pada pengembang saat opsi ini diaktifkan.</string>
     <!-- Module Repo -->
     <string name="module_readme">Baca aku</string>
     <string name="module_releases">Rilis</string>
