@@ -44,7 +44,7 @@
     <string name="activated">Diaktifkan</string>
     <string name="partial_activated">Diaktifkan sebagian</string>
     <string name="system_inject_fail_summary">Injeksi Kerangka Sistem gagal</string>
-    <string name="system_inject_fail"><![CDATA[Ini jarang terjadi dan mungkin disebabkan oleh <b>Magisk</b> atau beberapa modul Magisk berkualitas rendah.<br/>Coba nonaktifkan modul Magisk selain Riru dan LSPosed atau kirimkan log lengkap ke pengembang.]]></string>
+    <string name="system_inject_fail"><![CDATA[Ini jarang terjadi dan mungkin disebabkan oleh <b>Magisk</b> atau beberapa modul Magisk berkualitas rendah.<br/>Coba nonaktifkan modul Magisk selain LSPosed atau kirimkan log lengkap ke pengembang.]]></string>
     <string name="system_prop_incorrect_summary">Prop sistem salah</string>
     <string name="system_prop_incorrect"><![CDATA[Beberapa properti sistem yang diperlukan dihapus atau diubah.<br/>Modul terkadang tidak valid.]]></string>
     <string name="need_update">Butuh pembaruan</string>
@@ -93,7 +93,7 @@
     <string name="warning_xposed_min_version">Modul ini memerlukan versi Xposed yang lebih baru (%d) sehingga tidak dapat diaktifkan</string>
     <string name="warning_target_version_higher">Modul ini dirancang untuk versi Xposed yang lebih baru (%d) sehingga beberapa fungsi mungkin tidak berfungsi</string>
     <string name="no_min_version_specified">Modul ini tidak menentukan versi Xposed yang diperlukan.</string>
-    <string name="warning_min_version_too_low">Modul ini dibuat untuk Xposed versi %1$d, tetapi karena perubahan yang tidak kompatibel di versi %2$d, modul ini telah dinonaktifkanModul ini dibuat untuk Xposed versi %1$d, tetapi karena perubahan yang tidak kompatibel di versi %2$d, modul ini telah dinonaktifkan</string>
+    <string name="warning_min_version_too_low">Modul ini dibuat untuk Xposed versi %1$d, tetapi karena perubahan yang tidak kompatibel pada versi %2$d, telah dinonaktifkan</string>
     <string name="warning_installed_on_external_storage">Modul ini tidak dapat dimuat karena terpasang di kartu SD, harap pindahkan ke penyimpanan internal</string>
     <string name="module_uninstall">Copot</string>
     <string name="module_settings">Pengaturan modul</string>
@@ -108,6 +108,8 @@
     <string name="install_to_user_message">Ingin memasang %1$s ke pengguna %2$s? Disarankan untuk memasang secara manual, memaksa pemasangan melalui LSPosed dapat menyebabkan masalah.</string>
     <string name="expand">perluas</string>
     <string name="collapse">ciutkan</string>
+    <string name="reset_scope_request_setting">Atur ulang permintaan cakupan</string>
+    <string name="reset_scope_request_setting_done">Atur ulang permintaan cakupan selesai</string>
     <!-- AppListActivity -->
     <string name="compile_speed">Mengoptimalkan ulang</string>
     <string name="compile_speed_msg">Mengoptimalkan…</string>
@@ -134,12 +136,12 @@
     <string name="update_available">Pembaruan tersedia: %1$s</string>
     <string name="module_disabled_no_selection">Modul %s telah dinonaktifkan karena tidak ada aplikasi yang dipilih.</string>
     <string name="android_framework">Kerangka kerja sistem</string>
-    <string name="menu_backup_and_restore">Cadangan</string>
+    <string name="menu_backup_and_restore">Pencadangan</string>
     <string name="menu_backup">Cadangkan</string>
     <string name="menu_restore">Pulihkan</string>
     <string name="force_stop">Paksa berhenti</string>
     <string name="force_stop_dlg_title">Paksa berhenti?</string>
-    <string name="force_stop_dlg_text">Jika Anda menghentikan paksa aplikasi, mungkin dapat bekerja tidak semestinya.</string>
+    <string name="force_stop_dlg_text">Jika Anda menghentikan paksa aplikasi, mungkin dapat menyebabkan tidak berfungsi sebagaimana mestinya.</string>
     <string name="reboot_required">Mulai ulang diperlukan agar perubahan ini dapat diterapkan</string>
     <string name="reboot">Mulai ulang</string>
     <string name="menu_hide">Sembunyikan</string>
@@ -197,8 +199,7 @@
     <string name="sort_upgradable_first">Dapat diupgrade terlebih dahulu</string>
     <string name="installed">Terpasang</string>
     <plurals name="module_release_assets_download_count">
-        <item quantity="other">%d unduh
-%d unduhan</item>
+        <item quantity="other">%d unduhan</item>
     </plurals>
     <!-- Colors -->
     <string name="color_sakura">Sakura</string>
@@ -210,7 +211,7 @@
     <string name="color_blue">Biru</string>
     <string name="color_light_blue">Biru muda</string>
     <string name="color_cyan">Cyan</string>
-    <string name="color_teal">Hijau toska</string>
+    <string name="color_teal">Hijau kebiruan</string>
     <string name="color_green">Hijau</string>
     <string name="color_light_green">Hijau muda</string>
     <string name="color_lime">Hijau limau</string>
@@ -220,4 +221,21 @@
     <string name="color_deep_orange">Jingga gelap</string>
     <string name="color_brown">Coklat</string>
     <string name="color_blue_grey">Abu-abu kebiruan</string>
+    <string name="safe_mode">Mode Aman</string>
+    <string name="safe_mode_summary">LSPosed berada dalam mode aman</string>
+    <string name="safe_mode_summary2">Semua modul Xposed tidak tersedia hingga mulai ulang berikutnya. \nBeberapa modul menyebabkan kerusakan sistem. Silakan temukan dan nonaktifkan modul ini, lalu berikan masukan kepada pengembang modul tersebut.</string>
+    <string name="disable_all_modules">Nonaktifkan semua modul</string>
+    <string name="confirm_disable_all_modules">Konfirmasi?</string>
+    <plurals name="message_disable_all_modules">
+        <item quantity="other">%d modul akan dinonaktifkan.\nOperasi ini tidak dapat dibatalkan.</item>
+    </plurals>
+    <string name="disable_success_title">Berhasil</string>
+    <string name="hook_debug_title">Debug Hook</string>
+    <string name="debugging_title">Debugging</string>
+    <string name="hook_debug_summary">Izinkan pengambilan informasi debug hook dari proses ter-hook, yang dapat memengaruhi kinerja</string>
+    <string name="dump_hook_debug_title">Ambil info debug hook</string>
+    <string name="dump_hook_debug_summary">Ambil informasi debug hook ke /data/adb/lspd/log</string>
+    <plurals name="disable_success_message">
+        <item quantity="other">Modul %d dinonaktifkan</item>
+    </plurals>
 </resources>
