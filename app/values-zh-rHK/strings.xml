@@ -49,6 +49,8 @@
     <string name="system_prop_incorrect"><![CDATA[部分必須嘅系統屬性俾人刪除或修改咗，<br/>模組可能會隨機失效。]]></string>
     <string name="need_update">需要更新</string>
     <string name="please_update_summary">請安裝最新版本嘅 LSPosed</string>
+    <string name="developer_warning_title">给模块开发者的提示</string>
+    <string name="developer_warning_summary">请在 Android Studio 上禁用部署优化，或使用 `gradlew installDebug` 命令进行安装，否则无法更新模块。</string>
     <string name="info_api_version">API 版本</string>
     <string name="info_framework_version">框架版本</string>
     <string name="info_system_version">系統版本</string>
@@ -180,6 +182,9 @@
     <string name="update_channel_nightly">每夜版 (Nightly)</string>
     <string name="settings_xposed_api_call_protection">Xposed API 調用保護</string>
     <string name="settings_xposed_api_call_protection_summary">封鎖模組動態載入嘅代碼使用 Xposed API，噉樣做可能會令到有啲模組失效，但有助於安全性</string>
+    <string name="settings_invalidate_inline_hooks">还原内联钩子</string>
+    <string name="settings_invalidate_inline_hooks_summary">清理 libart.so，这会导致随机故障和崩溃，仅当无法打开特定应用时使用。</string>
+    <string name="settings_invalidate_inline_hooks_warning">不要在启用此选项时报告任何问题</string>
     <!-- Module Repo -->
     <string name="module_readme">睇我</string>
     <string name="module_releases">版本</string>
