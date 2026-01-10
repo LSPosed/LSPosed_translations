@@ -36,7 +36,7 @@
         <item quantity="other">%d 個模組可以更新</item>
     </plurals>
     <string name="about_view_source_code"><![CDATA[喺 %1$s 查看源碼<br/>加入我哋嘅 %2$s 頻道]]></string>
-    <string name="translators" comment="Dear translators, please add your home page here following the format. There can be more than one translator. So feel free to append yourself.">DarKnighT0v0、MiToverG422、yujincheng08</string>
+    <string name="translators" comment="Dear translators, please add your home page here following the format. There can be more than one translator. So feel free to append yourself.">DarKnighT0v0、MiToverG422、yujincheng08、Lingmiao</string>
     <string name="install">安裝</string>
     <string name="install_summary">撳呢度安裝 LSPosed</string>
     <string name="not_installed">未安裝</string>
@@ -180,6 +180,9 @@
     <string name="update_channel_nightly">每夜版 (Nightly)</string>
     <string name="settings_xposed_api_call_protection">Xposed API 調用保護</string>
     <string name="settings_xposed_api_call_protection_summary">封鎖模組動態載入嘅代碼使用 Xposed API，噉樣做可能會令到有啲模組失效，但有助於安全性</string>
+    <string name="settings_invalidate_inline_hooks">還原內聯Hook</string>
+    <string name="settings_invalidate_inline_hooks_summary">清理 libart.so。有機會令程式亂咁死機或者彈 App，只應喺無法開啟某啲特定應用時先使用。</string>
+    <string name="settings_invalidate_inline_hooks_warning">啟用此選項後請勿提交任何問題報告</string>
     <!-- Module Repo -->
     <string name="module_readme">睇我</string>
     <string name="module_releases">版本</string>
