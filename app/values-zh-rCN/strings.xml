@@ -187,6 +187,7 @@
     <string name="update_channel_stable">稳定版</string>
     <string name="update_channel_bate">测试版</string>
     <string name="update_channel_nightly">每夜版</string>
+    <string name="use_custom_tab">在自定义标签页中打开链接</string>
     <string name="settings_xposed_api_call_protection">Xposed API 调用保护</string>
     <string name="settings_xposed_api_call_protection_summary">阻止模块动态加载的代码使用 Xposed API，这会使某些模块失效，但有利于安全性</string>
     <string name="settings_invalidate_inline_hooks">还原内联钩子</string>
