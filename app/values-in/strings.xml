@@ -28,7 +28,7 @@
     <string name="Settings">Pengaturan</string>
     <string name="feedback_or_suggestion">Umpan balik atau saran</string>
     <string name="About">Tentang</string>
-    <string name="module_repo">Gudang</string>
+    <string name="module_repo">Repositori</string>
     <string name="module_repo_up_to_date">Semua modul sudah terbaru</string>
     <string name="module_repo_published_time">Diterbitkan pada %s</string>
     <string name="module_repo_updated_time">Diperbarui pada %s</string>
@@ -74,11 +74,14 @@
     <string name="app_welcome_summary">LSPosed sekarang mendukung parasitisasi sistem untuk menghindari deteksi, Anda dapat membuka manajer parasit dari pemberitahuan. Disarankan untuk menghapus aplikasi saat ini.</string>
     <!-- LogsActivity -->
     <string name="menuSaveToSd">Simpan</string>
+    <string name="menuShareLog">Berbagi</string>
     <string name="nav_item_logs_verbose">Log Verbose</string>
     <string name="nav_item_logs_module">Log Modul</string>
     <string name="logs_saving">Menyimpan log, harap tunggu</string>
     <string name="logs_saved">Log disimpan</string>
     <string name="logs_save_failed2">Gagal menyimpan:\n%s</string>
+    <string name="logs_preparing">Menyiapkan log, harap tunggu</string>
+    <string name="logs_prepare_failed">Gagal menyiapkan:\n%s</string>
     <string name="menuClearLog">Hapus log sekarang</string>
     <string name="logs_cleared">Log berhasil dihapus.</string>
     <string name="scroll_top">Gulir ke atas</string>
@@ -111,7 +114,7 @@
     <string name="reset_scope_request_setting">Atur ulang permintaan cakupan</string>
     <string name="reset_scope_request_setting_done">Atur ulang permintaan cakupan selesai</string>
     <!-- AppListActivity -->
-    <string name="compile_speed">Mengoptimalkan ulang</string>
+    <string name="compile_speed">Optimalkan ulang</string>
     <string name="compile_speed_msg">Mengoptimalkan…</string>
     <string name="compile_done">Optimalisasi selesai</string>
     <string name="app_launch">Luncurkan</string>
@@ -178,12 +181,15 @@
     <string name="settings_translation_summary">Bantu kami menerjemahkan %s ke dalam bahasamu</string>
     <string name="settings_enable_status_notification">Notifikasi Status</string>
     <string name="settings_enable_status_notification_summary">Tampilkan notifikasi yang dapat membuka manajer parasit</string>
-    <string name="settings_update_channel">Perbarui saluran</string>
+    <string name="settings_update_channel">Pembaruan saluran</string>
     <string name="update_channel_stable">Stabil</string>
     <string name="update_channel_bate">Beta</string>
     <string name="update_channel_nightly">Rilis harian</string>
     <string name="settings_xposed_api_call_protection">Proteksi panggilan API Xposed</string>
     <string name="settings_xposed_api_call_protection_summary">Blokir kode modul yang dimuat secara dinamis untuk menggunakan Xposed API, ini mungkin mengganggu beberapa modul namun lebih aman</string>
+    <string name="settings_invalidate_inline_hooks">Nonaktifkan inline hook</string>
+    <string name="settings_invalidate_inline_hooks_summary">Melakukan pembersihan libart.so. Ini berisiko menyebabkan malfungsi atau crash acak. Gunakan hanya jika aplikasi tertentu tidak dapat dibuka.</string>
+    <string name="settings_invalidate_inline_hooks_warning">Jangan laporkan kesalahan apa pun pada pengembang saat opsi ini diaktifkan.</string>
     <!-- Module Repo -->
     <string name="module_readme">Baca aku</string>
     <string name="module_releases">Rilis</string>
