@@ -53,6 +53,7 @@
     <string name="developer_warning_summary">请在 Android Studio 上禁用部署优化，或使用 `gradlew installDebug` 命令进行安装，否则无法更新模块。</string>
     <string name="info_api_version">API 版本</string>
     <string name="info_framework_version">框架版本</string>
+    <string name="info_manager_package_name">管理器包名</string>
     <string name="info_system_version">系統版本</string>
     <string name="info_device">裝置型號</string>
     <string name="info_system_abi">系統架構</string>
@@ -75,10 +76,14 @@
     <string name="app_welcome_summary">LSPosed 依家支援系統寄生模式以避免偵測，你可以喺通知欄開啟寄生管理器。建議移除現有嘅 App。</string>
     <!-- LogsActivity -->
     <string name="menuSaveToSd">儲存</string>
+    <string name="menuShareLog">分享</string>
     <string name="nav_item_logs_verbose">詳細日誌</string>
     <string name="nav_item_logs_module">模組日誌</string>
+    <string name="logs_saving">正在保存日志，请稍候</string>
     <string name="logs_saved">日誌已儲存</string>
     <string name="logs_save_failed2">儲存失敗：\n%s</string>
+    <string name="logs_preparing">正在准备日志，请稍候</string>
+    <string name="logs_prepare_failed">准备失败:\n%s</string>
     <string name="menuClearLog">立即清理日誌</string>
     <string name="logs_cleared">日誌清理成功</string>
     <string name="scroll_top">拉到最頂</string>
@@ -108,6 +113,8 @@
     <string name="install_to_user_message">確定要為用戶 %2$s 安裝 %1$s？建議手動安裝或多開，透過 LSPosed 強制安裝可能會出問題。</string>
     <string name="expand">展開</string>
     <string name="collapse">收埋</string>
+    <string name="reset_scope_request_setting">重置作用域请求设置</string>
+    <string name="reset_scope_request_setting_done">已重置作用域请求设置</string>
     <!-- AppListActivity -->
     <string name="compile_speed">重新優化</string>
     <string name="compile_speed_msg">優化緊…</string>
@@ -198,6 +205,7 @@
     <string name="module_release_no_more">冇更舊嘅版本</string>
     <string name="repo_load_failed">模組庫載入失敗：%s</string>
     <string name="sort_upgradable_first">可更新優先</string>
+    <string name="installed">已安装</string>
     <plurals name="module_release_assets_download_count">
         <item quantity="other">%d 次下載</item>
     </plurals>
@@ -230,7 +238,6 @@
     <plurals name="message_disable_all_modules">
         <item quantity="other">將會停用 %d 個模組\n呢個操作無法復原</item>
     </plurals>
-  
     <string name="disable_success_title">成功</string>
     <string name="hook_debug_title">Hook 調試</string>
     <string name="debugging_title">調試</string>
