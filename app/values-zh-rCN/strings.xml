@@ -193,6 +193,9 @@
     <string name="settings_invalidate_inline_hooks">还原内联钩子</string>
     <string name="settings_invalidate_inline_hooks_summary">对列表中的应用清理 libart.so，这会导致随机故障和崩溃，仅当无法打开特定应用时使用。</string>
     <string name="settings_invalidate_inline_hooks_warning">不要在启用此选项时报告任何问题</string>
+    <plurals name="settings_invalidate_inline_hooks_enabled_count">
+        <item quantity="other">已对 %d 个应用启用</item>
+    </plurals>
     <!-- Module Repo -->
     <string name="module_readme">自述文件</string>
     <string name="module_releases">版本</string>

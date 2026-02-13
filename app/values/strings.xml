@@ -202,6 +202,10 @@
     <string name="settings_invalidate_inline_hooks">Invalidate inline hooks</string>
     <string name="settings_invalidate_inline_hooks_summary">Cleanup libart.so for listed apps. This will cause random malfunctions and crashes. Use only when unable to open specific apps.</string>
     <string name="settings_invalidate_inline_hooks_warning">Do not report any bug when this option is enabled.</string>
+    <plurals name="settings_invalidate_inline_hooks_enabled_count">
+        <item quantity="one">%d app enabled</item>
+        <item quantity="other">%d apps enabled</item>
+    </plurals>
 
     <!-- Module Repo -->
     <string name="module_readme">Readme</string>
