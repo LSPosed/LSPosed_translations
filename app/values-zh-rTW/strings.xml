@@ -76,16 +76,19 @@
     <string name="app_welcome_summary">LSPosed 現在支援系統寄生以避免偵測，您可以從通知開啟寄生管理員。建議解除安裝目前應用程式。</string>
     <!-- LogsActivity -->
     <string name="menuSaveToSd">儲存</string>
+    <string name="menuShareLog">分享</string>
     <string name="nav_item_logs_verbose">詳細日誌</string>
     <string name="nav_item_logs_module">模組日誌</string>
-    <string name="logs_saving">正在保存日誌，請稍候</string>
+    <string name="logs_saving">正在儲存日誌，請稍候</string>
     <string name="logs_saved">日誌已儲存</string>
     <string name="logs_save_failed2">儲存失敗：\n%s</string>
+    <string name="logs_preparing">正在準備日誌，請稍候</string>
+    <string name="logs_prepare_failed">準備失敗:\n%s</string>
     <string name="menuClearLog">立即清理日誌</string>
     <string name="logs_cleared">日誌清理成功</string>
-    <string name="scroll_top">移至頂端</string>
+    <string name="scroll_top">滾動到頂部</string>
     <string name="loading">正在載入……</string>
-    <string name="scroll_bottom">移至底端</string>
+    <string name="scroll_bottom">滾動到底部</string>
     <string name="logs_clear_failed_2">日誌清理失敗</string>
     <string name="menu_enable_word_wrap">自動換行</string>
     <string name="enabled_verbose_log">詳細日誌已啟用</string>
@@ -185,7 +188,10 @@
     <string name="update_channel_bate">測試版</string>
     <string name="update_channel_nightly">每夜構建</string>
     <string name="settings_xposed_api_call_protection">Xposed API 呼叫保護</string>
-    <string name="settings_xposed_api_call_protection_summary">封鎖動態載入的模組代碼以使用 Xposed API，這可能會損毀某些模組但有益於安全性</string>
+    <string name="settings_xposed_api_call_protection_summary">阻止模組動態載入的程式碼使用 Xposed API，這會使某些模組失效，但有利於安全性</string>
+    <string name="settings_invalidate_inline_hooks">還原內聯鉤子</string>
+    <string name="settings_invalidate_inline_hooks_summary">清理 libart.so，這會導致隨機故障和崩潰，僅當無法開啟特定應用時使用。</string>
+    <string name="settings_invalidate_inline_hooks_warning">不要在啟用此選項時報告任何問題</string>
     <!-- Module Repo -->
     <string name="module_readme">自述檔案</string>
     <string name="module_releases">版本</string>
@@ -216,14 +222,15 @@
     <string name="color_teal">青綠</string>
     <string name="color_green">綠色</string>
     <string name="color_light_green">淺綠</string>
-    <string name="color_lime">萊姆綠</string>
+    <string name="color_lime">黄綠</string>
     <string name="color_yellow">黃色</string>
     <string name="color_amber">琥珀</string>
     <string name="color_orange">橙色</string>
     <string name="color_deep_orange">深橙</string>
     <string name="color_brown">棕色</string>
     <string name="color_blue_grey">藍灰</string>
-
+  
+    <string name="safe_mode">安全模式</string>
     <string name="safe_mode_summary">LSPosed 處於安全模式</string>
     <string name="safe_mode_summary2">所有 Xposed 模組不可用，直到下次重新啟動。\n 一些模組導致了系統當機，請找出並禁用這些模組並同模組開發者反饋。</string>
     <string name="disable_all_modules">禁用所有模組</string>
