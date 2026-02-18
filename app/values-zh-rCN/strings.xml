@@ -206,6 +206,7 @@
     <string name="module_information_collaborators">协作者</string>
     <string name="module_release_view_assets">附件</string>
     <string name="menu_open_in_browser">在浏览器中打开</string>
+    <string name="menu_share">分享</string>
     <string name="module_release_load_more">显示较早版本</string>
     <string name="module_release_no_more">无更多版本</string>
     <string name="repo_load_failed">模块仓库加载失败：%s</string>
