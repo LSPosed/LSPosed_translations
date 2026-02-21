@@ -273,6 +273,10 @@
     <string name="nav_back">返回</string>
     <string name="menu_filter">过滤</string>
 
+    <!-- Logs Page -->
+    <string name="menu_parsed_view">解析视图</string>
+    <string name="menu_raw_view">原始视图</string>
+
     <!-- Theme Mode -->
     <string name="settings_theme">主题</string>
     <string name="settings_theme_summary">选择应用的主题模式</string>
