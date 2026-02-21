@@ -255,4 +255,36 @@
     <plurals name="disable_success_message">
         <item quantity="other">已禁用 %d 个模块</item>
     </plurals>
+
+    <!-- Compose Activity -->
+    <string name="follow_system">跟随系统</string>
+    <string name="menu_menu">菜单</string>
+    <string name="menuReload">重载</string>
+    <string name="sort_default">默认</string>
+    <string name="sort_name_asc">按字母正序 (A-Z)</string>
+    <string name="sort_name_desc">按字母反序 (Z-A)</string>
+    <string name="filter_show_user_apps">显示用户应用</string>
+    <string name="filter_show_selected_only">仅显示已选</string>
+    <string name="filter_hide_recommended">隐藏推荐</string>
+    <string name="unknown_author">未知作者</string>
+    <string name="unknown_version">未知</string>
+    <string name="unknown_asset">未知附件</string>
+    <string name="download_asset">下载</string>
+    <string name="nav_back">返回</string>
+    <string name="menu_filter">过滤</string>
+
+    <!-- Theme Mode -->
+    <string name="settings_theme">主题</string>
+    <string name="settings_theme_summary">选择应用的主题模式</string>
+    <string name="settings_theme_mode_system">跟随系统</string>
+    <string name="settings_theme_mode_light">浅色</string>
+    <string name="settings_theme_mode_dark">深色</string>
+    <string name="settings_theme_mode_monet_system">Monet（跟随系统）</string>
+    <string name="settings_theme_mode_monet_light">Monet（浅色）</string>
+    <string name="settings_theme_mode_monet_dark">Monet（深色）</string>
+    <string name="settings_key_color">强调色</string>
+    <string name="settings_key_color_summary">在使用 Monet 时自定义种子色</string>
+    <string name="settings_key_color_default">默认</string>
+    <string name="settings_page_scale">界面缩放</string>
+    <string name="settings_page_scale_summary">调整全局显示比例</string>
 </resources>
