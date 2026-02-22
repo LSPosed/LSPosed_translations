@@ -312,4 +312,11 @@
     <string name="refresh_refresh">Refreshing…</string>
     <string name="refresh_complete">Refreshed successfully</string>
 
+    <!-- Repository -->
+    <string name="time_just_now">Just now</string>
+    <string name="time_minute_ago">%d minute ago</string>
+    <string name="time_minutes_ago">%d minutes ago</string>
+    <string name="time_hours_ago">%d hours ago</string>
+    <string name="time_days_ago">%d day ago</string>
+
 </resources>

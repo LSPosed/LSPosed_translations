@@ -297,4 +297,11 @@
     <string name="refresh_release">松开刷新</string>
     <string name="refresh_refresh">正在刷新…</string>
     <string name="refresh_complete">刷新成功</string>
+
+    <!-- Repository -->
+    <string name="time_just_now">刚刚</string>
+    <string name="time_minutes_ago">%d 分钟前</string>
+    <string name="time_hours_ago">%d 小时前</string>
+    <string name="time_days_ago">%d 天前</string>
+
 </resources>
