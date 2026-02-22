@@ -45,7 +45,7 @@
     <string name="activated">เปิดใช้งานแล้ว</string>
     <string name="partial_activated">เปิดใช้งานบางส่วน</string>
     <string name="system_inject_fail_summary">Injection ระบบ Framework ล้มเหลว</string>
-    <string name="system_inject_fail"><![CDATA[สิ่งนี้เกิดขึ้นได้ยากและอาจเกิดจาก <b>Magisk</b> หรือโมดูล Magisk ที่มีคุณภาพต่ำบางตัว<br/>โปรดลองปิดการใช้งานโมดูล Magisk อื่นที่ไม่ใช่ Riru และ LSPosed หรือส่งบันทึกแบบเต็มไปยังนักพัฒนา]]></string>
+    <string name="system_inject_fail"><![CDATA[สิ่งนี้เกิดขึ้นได้ยากและอาจเกิดจาก <b>Magisk</b> หรือโมดูล Magisk ที่มีคุณภาพต่ำบางตัว<br/>โปรดลองปิดการใช้งานโมดูล Magisk อื่นที่ไม่ใช่ Zygisk และ LSPosed หรือส่งบันทึกแบบเต็มไปยังนักพัฒนา]]></string>
     <string name="system_prop_incorrect_summary">System prop ไม่ถูกต้อง</string>
     <string name="system_prop_incorrect"><![CDATA[คุณสมบัติระบบที่จำเป็นบางอย่างถูกลบหรือแก้ไข<br/>โมดูลอาจใช้ไม่ได้ในบางครั้ง]]></string>
     <string name="need_update">จำเป็นต้องอัพเดท</string>

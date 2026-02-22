@@ -47,7 +47,7 @@
     <string name="partial_activated">Részben aktiválva</string>
     <string name="system_inject_fail_summary">A System Framework injektálása sikertelen</string>
     <string name="system_inject_fail"><![CDATA[Ez sajnos gyakori probléma, amit lehet, hogy a
-<b>Magisk</b> vagy néhány Magisk modul okozott.<br/> Kérlek próbálj meg deaktiválni néhány Magisk modult a Riru és LSPosed modulokon kívül vagy küldj el egy teljes napló fájlt a fejlesztőknek.]]></string>
+<b>Magisk</b> vagy néhány Magisk modul okozott.<br/> Kérlek próbálj meg deaktiválni néhány Magisk modult a Zygisk és LSPosed modulokon kívül vagy küldj el egy teljes napló fájlt a fejlesztőknek.]]></string>
     <string name="system_prop_incorrect_summary">Helytelen rendszertulajdonságok</string>
     <string name="system_prop_incorrect"><![CDATA[Néhány szükséges rendszertulajdonság törlése vagy módosítása.<br/>A modulok időnként érvénytelenné válhatnak.]]></string>
     <string name="need_update">Frissítésre van szükség</string>

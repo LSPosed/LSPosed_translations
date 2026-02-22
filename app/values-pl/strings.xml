@@ -50,7 +50,7 @@
     <string name="activated">Aktywowano</string>
     <string name="partial_activated">Częściowo aktywowano</string>
     <string name="system_inject_fail_summary">Wstrzyknięcie Frameworku Systemowego nie powiodło się</string>
-    <string name="system_inject_fail"><![CDATA[Jest to rzadkie i może być spowodowane przez <b>Magiska</b> lub niektóre moduły Magisk niskiej jakości.<br/>Spróbuj wyłączyć moduły Magisk inne niż Riru i LSPosed lub przesłać pełny log programistom.]]></string>
+    <string name="system_inject_fail"><![CDATA[Jest to rzadkie i może być spowodowane przez <b>Magiska</b> lub niektóre moduły Magisk niskiej jakości.<br/>Spróbuj wyłączyć moduły Magisk inne niż Zygisk i LSPosed lub przesłać pełny log programistom.]]></string>
     <string name="system_prop_incorrect_summary">Nieprawidłowy system prop</string>
     <string name="system_prop_incorrect"><![CDATA[Niektóre niezbędne właściwości systemowe zostały usunięte lub zmienione.<br/>Moduły mogą czasami działać niepoprawnie.]]></string>
     <string name="need_update">Konieczna aktualizacja</string>

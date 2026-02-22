@@ -15,9 +15,9 @@
     <string name="xposed_module_request_scope_title">Permintaan Cakupan</string>
     <string name="xposed_module_request_scope_content">%1$s pada pengguna %2$s meminta untuk menambahkan %3$s ke dalam cakupannya.</string>
     <string name="scope_channel_name">Permintaan cakupan</string>
-    <string name="scope_approve">Menyetujui</string>
-    <string name="scope_deny">Menolak</string>
-    <string name="nerver_ask_again">Jangan Pernah Bertanya</string>
+    <string name="scope_approve">Setuju</string>
+    <string name="scope_deny">Tolak</string>
+    <string name="nerver_ask_again">Abaikan</string>
     <string name="lsposed_safemode_notification_title">LSPosed berada dalam mode aman</string>
     <string name="lsposed_safemode_notification_content">Semua modul Xposed tidak tersedia hingga mulai ulang berikutnya</string>
     <string name="safe_mode_disable_all_modules">Nonaktifkan semua modul</string>

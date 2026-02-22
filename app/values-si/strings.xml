@@ -46,7 +46,7 @@
     <string name="activated">සක්රිය කර ඇත</string>
     <string name="partial_activated">බාගෙට ඇක්ටිව් කර ඇත</string>
     <string name="system_inject_fail_summary">පද්ධති ෆ්‍රෙම්වවර් ඉන්ජෙක්ෂන් ෆෙල්ඩ්</string>
-    <string name="system_inject_fail"><![CDATA[මෙය කලාතුරකින් වන අතර <b>Magisk</b> හෝ සමහර අඩු ගුණාත්මක Magisk මොඩියුල නිසා ඇති විය හැක.<br/>කරුණාකර Riru සහ LSPosed හැර අනෙකුත් Magisk මොඩියුල අක්‍රිය කිර උත්සාහ කරන්න හෝ ඩිවලොපර්ස්ලට සම්පූර්ණ ලොගය ඉදිරිපත් කරන්න.]]></string>
+    <string name="system_inject_fail"><![CDATA[මෙය කලාතුරකින් වන අතර <b>Magisk</b> හෝ සමහර අඩු ගුණාත්මක Magisk මොඩියුල නිසා ඇති විය හැක.<br/>කරුණාකර Zygisk සහ LSPosed හැර අනෙකුත් Magisk මොඩියුල අක්‍රිය කිර උත්සාහ කරන්න හෝ ඩිවලොපර්ස්ලට සම්පූර්ණ ලොගය ඉදිරිපත් කරන්න.]]></string>
     <string name="system_prop_incorrect_summary">පද්ධති ප්‍රෝප් වැරදියි</string>
     <string name="system_prop_incorrect"><![CDATA[සමහර අවශ්‍ය පද්ධති ගුණාංග මකා හෝ වෙනස් කරන ඇත.<br/>මොඩියුල වරින් වර අවලංගු විය හැක.]]></string>
     <string name="need_update">අප්ඩේට් කිරීම අවශ්‍ය වේ</string>

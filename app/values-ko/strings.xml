@@ -44,7 +44,7 @@
     <string name="activated">활성화됨</string>
     <string name="partial_activated">부분적으로 활성화됨</string>
     <string name="system_inject_fail_summary">System Framework 삽입 실패</string>
-    <string name="system_inject_fail"><![CDATA[이는 드물게 발생하며, <b>Magisk</b> 또는 일부 Magisk 모듈 때문일 수 있습니다.<br/>Riru 및 LSPosed 이외의 Magisk 모듈을 비활성화 하거나 전체 로그를 개발자에게 제출하세요.]]></string>
+    <string name="system_inject_fail"><![CDATA[이는 드물게 발생하며, <b>Magisk</b> 또는 일부 Magisk 모듈 때문일 수 있습니다.<br/>Zygisk 및 LSPosed 이외의 Magisk 모듈을 비활성화 하거나 전체 로그를 개발자에게 제출하세요.]]></string>
     <string name="system_prop_incorrect_summary">시스템 속성이 잘못됨</string>
     <string name="system_prop_incorrect"><![CDATA[일부 필수 시스템 속성이 삭제 또는 수정되었습니다.<br/>모듈은 가끔 무효화될 수 있습니다.]]></string>
     <string name="need_update">업데이트가 필요합니다</string>

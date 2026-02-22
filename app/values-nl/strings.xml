@@ -46,7 +46,7 @@
     <string name="activated">Geactiveerd</string>
     <string name="partial_activated">Gedeeltelijk geactiveerd</string>
     <string name="system_inject_fail_summary">Systeem Framework injectie is mislukt</string>
-    <string name="system_inject_fail"><![CDATA[Systeem Framework injectie mislukt.<br/>Dit is zeldzaam en kan worden veroorzaakt door <b>Magisk</b> of sommige Magisk-modules van lage kwaliteit.<br/>Probeer andere Magisk-modules dan Riru en LSPosed uit te schakelen of stuur een volledig logboek naar de ontwikkelaars.]]></string>
+    <string name="system_inject_fail"><![CDATA[Systeem Framework injectie mislukt.<br/>Dit is zeldzaam en kan worden veroorzaakt door <b>Magisk</b> of sommige Magisk-modules van lage kwaliteit.<br/>Probeer andere Magisk-modules dan Zygisk en LSPosed uit te schakelen of stuur een volledig logboek naar de ontwikkelaars.]]></string>
     <string name="system_prop_incorrect_summary">Systeem prop incorrect</string>
     <string name="system_prop_incorrect"><![CDATA[Enkele noodzakelijke systeemeigenschappen verwijderd of gewijzigd.<br/>Modules kunnen af en toe ongeldig worden.]]></string>
     <string name="need_update">Bijwerken is nodig</string>

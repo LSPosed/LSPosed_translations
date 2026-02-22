@@ -46,7 +46,7 @@
     <string name="activated">Activated</string>
     <string name="partial_activated">Partially activated</string>
     <string name="system_inject_fail_summary">Stelselraamwerk-inspuiting het misluk</string>
-    <string name="system_inject_fail"><![CDATA[Dit is skaars en kan veroorsaak word deur <b>Magisk</b> of sommige Magisk-modules van lae gehalte.<br/>Probeer asseblief om Magisk-modules anders as Riru en LSPosed te deaktiveer of dien volledige log aan ontwikkelaars in.]]></string>
+    <string name="system_inject_fail"><![CDATA[Dit is skaars en kan veroorsaak word deur <b>Magisk</b> of sommige Magisk-modules van lae gehalte.<br/>Probeer asseblief om Magisk-modules anders as Zygisk en LSPosed te deaktiveer of dien volledige log aan ontwikkelaars in.]]></string>
     <string name="system_prop_incorrect_summary">Stelselstut is verkeerd</string>
     <string name="system_prop_incorrect"><![CDATA[Sommige nodige stelseleienskappe is uitgevee of gewysig.<br/>Modules kan soms ongeldig word.]]></string>
     <string name="need_update">Need to update</string>

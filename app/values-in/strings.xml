@@ -70,7 +70,7 @@
     <string name="parasitic_welcome">Selamat datang di LSPosed</string>
     <string name="parasitic_welcome_summary">Anda menggunakan manajer parasit, yang dapat dibuka dari notifikasi.</string>
     <string name="never_show">Jangan pernah tampilkan</string>
-    <string name="app_welcome">Manajer Parasit Direkomendasikan</string>
+    <string name="app_welcome">Manajer Parasit Disarankan</string>
     <string name="app_welcome_summary">LSPosed sekarang mendukung parasitisasi sistem untuk menghindari deteksi, Anda dapat membuka manajer parasit dari pemberitahuan. Disarankan untuk menghapus aplikasi saat ini.</string>
     <!-- LogsActivity -->
     <string name="menuSaveToSd">Simpan</string>
@@ -100,7 +100,7 @@
     <string name="warning_installed_on_external_storage">Modul ini tidak dapat dimuat karena terpasang di kartu SD, harap pindahkan ke penyimpanan internal</string>
     <string name="module_uninstall">Copot</string>
     <string name="module_settings">Pengaturan modul</string>
-    <string name="view_in_repo">Lihat di Repo</string>
+    <string name="view_in_repo">Lihat di repo</string>
     <string name="module_uninstall_message">Apakah Anda ingin mencopot modul ini?</string>
     <string name="module_uninstalled">Tercopot %1$s</string>
     <string name="module_uninstall_failed">Copot pemasangan tidak berhasil</string>
@@ -132,13 +132,13 @@
     <string name="menu_show_modules">Modul</string>
     <string name="failed_to_save_scope_list">Gagal menyimpan ke daftar cakupan</string>
     <string name="app_version">Versi: %1$s</string>
-    <string name="use_recommended">Direkomendasikan</string>
+    <string name="use_recommended">Disarankan</string>
     <string name="use_recommended_message">Pilih aplikasi yang disarankan?</string>
     <string name="module_is_not_activated_yet">Modul Xposed belum diaktifkan</string>
-    <string name="requested_by_module">Direkomendasikan</string>
+    <string name="requested_by_module">Disarankan</string>
     <string name="update_available">Pembaruan tersedia: %1$s</string>
     <string name="module_disabled_no_selection">Modul %s telah dinonaktifkan karena tidak ada aplikasi yang dipilih.</string>
-    <string name="android_framework">Kerangka kerja sistem</string>
+    <string name="android_framework">Kerangka Kerja Sistem</string>
     <string name="menu_backup_and_restore">Pencadangan</string>
     <string name="menu_backup">Cadangkan</string>
     <string name="menu_restore">Pulihkan</string>
@@ -202,7 +202,7 @@
     <string name="module_release_load_more">Tampilkan versi lama</string>
     <string name="module_release_no_more">Tidak ada rilis</string>
     <string name="repo_load_failed">Gagal memuat repo modul: %s</string>
-    <string name="sort_upgradable_first">Dapat diupgrade terlebih dahulu</string>
+    <string name="sort_upgradable_first">Dapat ditingkatkan dahulu</string>
     <string name="installed">Terpasang</string>
     <plurals name="module_release_assets_download_count">
         <item quantity="other">%d unduhan</item>

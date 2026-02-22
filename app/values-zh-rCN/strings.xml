@@ -44,7 +44,7 @@
     <string name="activated">已激活</string>
     <string name="partial_activated">部分激活</string>
     <string name="system_inject_fail_summary">系统框架注入失败</string>
-    <string name="system_inject_fail"><![CDATA[这是极罕见的情况，可能是由 <b>Magisk</b> 或低质 Magisk 模块导致。<br/>请尝试禁用除 Riru 和 LSPosed 外的其他 Magisk 模块，或向开发者提供完整日志。]]></string>
+    <string name="system_inject_fail"><![CDATA[这是极罕见的情况，可能是由 <b>Magisk</b> 或低质 Magisk 模块导致。<br/>请尝试禁用除 Zygisk 和 LSPosed 外的其他 Magisk 模块，或向开发者提供完整日志。]]></string>
     <string name="system_prop_incorrect_summary">系统属性异常</string>
     <string name="system_prop_incorrect"><![CDATA[一些必须的系统属性被删除或被修改。<br/>模块可能会随机失效。]]></string>
     <string name="need_update">需要更新</string>
@@ -132,6 +132,7 @@
     <string name="enable_module">启用模块</string>
     <string name="menu_show_games">游戏</string>
     <string name="menu_show_modules">模块</string>
+    <string name="module_scope_list_static_scope">模块声明了静态作用域</string>
     <string name="failed_to_save_scope_list">作用域列表保存失败</string>
     <string name="app_version">版本：%1$s</string>
     <string name="use_recommended">勾选推荐</string>
@@ -190,8 +191,14 @@
     <string name="settings_xposed_api_call_protection">Xposed API 调用保护</string>
     <string name="settings_xposed_api_call_protection_summary">阻止模块动态加载的代码使用 Xposed API，这会使某些模块失效，但有利于安全性</string>
     <string name="settings_invalidate_inline_hooks">还原内联钩子</string>
-    <string name="settings_invalidate_inline_hooks_summary">清理 libart.so，这会导致随机故障和崩溃，仅当无法打开特定应用时使用。</string>
+    <string name="settings_invalidate_inline_hooks_summary">对列表中的应用清理 libart.so，这会导致随机故障和崩溃，仅当无法打开特定应用时使用。</string>
     <string name="settings_invalidate_inline_hooks_warning">不要在启用此选项时报告任何问题</string>
+    <string name="failed_to_save_invalidate_inline_hooks_list">无法保存还原内联钩子列表</string>
+    <plurals name="settings_invalidate_inline_hooks_enabled_count">
+        <item quantity="other">已对 %d 个应用启用</item>
+    </plurals>
+    <string name="settings_enable_new_manager">启用新管理器</string>
+    <string name="settings_enable_new_manager_summary">使用新的 MIUI 风格的基于 Compose 的管理器界面</string>
     <!-- Module Repo -->
     <string name="module_readme">自述文件</string>
     <string name="module_releases">版本</string>
@@ -201,6 +208,7 @@
     <string name="module_information_collaborators">协作者</string>
     <string name="module_release_view_assets">附件</string>
     <string name="menu_open_in_browser">在浏览器中打开</string>
+    <string name="menu_share">分享</string>
     <string name="module_release_load_more">显示较早版本</string>
     <string name="module_release_no_more">无更多版本</string>
     <string name="repo_load_failed">模块仓库加载失败：%s</string>
@@ -244,7 +252,58 @@
     <string name="hook_debug_summary">允许转储被 hook 进程的 hook 调试信息，可能带来性能影响</string>
     <string name="dump_hook_debug_title">转储 Hook 调试信息</string>
     <string name="dump_hook_debug_summary">转储 Hook 调试信息到 /data/adb/lspd/log</string>
+    <string name="log_to_daemon_title">输出日志到守护进程</string>
+    <string name="log_to_daemon_summary">这能避免模块日志被 app 读取，但可能带来性能影响。</string>
     <plurals name="disable_success_message">
         <item quantity="other">已禁用 %d 个模块</item>
     </plurals>
+
+    <!-- Compose Activity -->
+    <string name="follow_system">跟随系统</string>
+    <string name="menu_menu">菜单</string>
+    <string name="menuReload">重载</string>
+    <string name="sort_default">默认</string>
+    <string name="sort_name_asc">按字母正序 (A-Z)</string>
+    <string name="sort_name_desc">按字母反序 (Z-A)</string>
+    <string name="filter_show_user_apps">显示用户应用</string>
+    <string name="filter_show_selected_only">仅显示已选</string>
+    <string name="filter_hide_recommended">隐藏推荐</string>
+    <string name="unknown_author">未知作者</string>
+    <string name="unknown_version">未知</string>
+    <string name="unknown_asset">未知附件</string>
+    <string name="download_asset">下载</string>
+    <string name="nav_back">返回</string>
+    <string name="menu_filter">过滤</string>
+
+    <!-- Logs Page -->
+    <string name="menu_parsed_view">解析视图</string>
+    <string name="menu_raw_view">原始视图</string>
+
+    <!-- Theme Mode -->
+    <string name="settings_theme">主题</string>
+    <string name="settings_theme_summary">选择应用的主题模式</string>
+    <string name="settings_theme_mode_system">跟随系统</string>
+    <string name="settings_theme_mode_light">浅色</string>
+    <string name="settings_theme_mode_dark">深色</string>
+    <string name="settings_theme_mode_monet_system">Monet（跟随系统）</string>
+    <string name="settings_theme_mode_monet_light">Monet（浅色）</string>
+    <string name="settings_theme_mode_monet_dark">Monet（深色）</string>
+    <string name="settings_key_color">强调色</string>
+    <string name="settings_key_color_summary">在使用 Monet 时自定义种子色</string>
+    <string name="settings_key_color_default">默认</string>
+    <string name="settings_page_scale">界面缩放</string>
+    <string name="settings_page_scale_summary">调整全局显示比例</string>
+
+    <!-- Refresh -->
+    <string name="refresh_pulling">下拉刷新</string>
+    <string name="refresh_release">松开刷新</string>
+    <string name="refresh_refresh">正在刷新…</string>
+    <string name="refresh_complete">刷新成功</string>
+
+    <!-- Repository -->
+    <string name="time_just_now">刚刚</string>
+    <string name="time_minutes_ago">%d 分钟前</string>
+    <string name="time_hours_ago">%d 小时前</string>
+    <string name="time_days_ago">%d 天前</string>
+
 </resources>

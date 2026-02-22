@@ -50,7 +50,7 @@
     <string name="activated">הופעל</string>
     <string name="partial_activated">הופעל חלקית</string>
     <string name="system_inject_fail_summary">הזרקת תשתית המערכת נכשלה</string>
-    <string name="system_inject_fail"><![CDATA[זה נדיר ועלול להיגרם על ידי <b>Magisk</b> או מודולי Magisk באיכות נמוכה.<br/>אנא נסה להשבית מודולי Magisk שאינם Riru ו-LSPosed או שלח דיווח לוג מלא למפתחים.]]></string>
+    <string name="system_inject_fail"><![CDATA[זה נדיר ועלול להיגרם על ידי <b>Magisk</b> או מודולי Magisk באיכות נמוכה.<br/>אנא נסה להשבית מודולי Magisk שאינם Zygisk ו-LSPosed או שלח דיווח לוג מלא למפתחים.]]></string>
     <string name="system_prop_incorrect_summary">מאפיין המערכת שגוי</string>
     <string name="system_prop_incorrect"><![CDATA[חלק ממאפייני המערכת הדרושים נמחקו או שונו.<br/>המודולים עשויים להתבטל מדי פעם.]]></string>
     <string name="need_update">צריך לעדכן</string>

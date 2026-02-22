@@ -48,7 +48,7 @@
     <string name="activated">Activat</string>
     <string name="partial_activated">Parțial activat</string>
     <string name="system_inject_fail_summary">Injectarea System Framework a eșuat</string>
-    <string name="system_inject_fail"><![CDATA[Acest lucru este rar și poate fi cauzat de <b>Magisk</b> sau de unele module Magisk de calitate scăzută.<br/>Vă rugăm să încercați să dezactivați modulele Magisk altele decât Riru și LSPosed sau să trimiteți jurnalul complet dezvoltatorilor.]]></string>
+    <string name="system_inject_fail"><![CDATA[Acest lucru este rar și poate fi cauzat de <b>Magisk</b> sau de unele module Magisk de calitate scăzută.<br/>Vă rugăm să încercați să dezactivați modulele Magisk altele decât Zygisk și LSPosed sau să trimiteți jurnalul complet dezvoltatorilor.]]></string>
     <string name="system_prop_incorrect_summary">System prop incorect</string>
     <string name="system_prop_incorrect"><![CDATA[Unele proprietăți necesare de sistem au fost șterse sau modificate<br/>modulele pot invalida ocazional.]]></string>
     <string name="need_update">Trebuie actualizat</string>

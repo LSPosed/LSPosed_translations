@@ -46,7 +46,7 @@
     <string name="activated">Ativado</string>
     <string name="partial_activated">Parcialmente Ativado</string>
     <string name="system_inject_fail_summary">Falha na injeção ao Framework do Sistema</string>
-    <string name="system_inject_fail"><![CDATA[Isso é raro e pode ter sido causado pelo <b>Magisk</b> ou por algum módulo do Magisk de baixa qualidade.<br/>Por favor, tente desativar os módulos do Magisk, exceto o LSPosed (e o Riru, caso esteja em uso). Ou envie todos os registros para os desenvolvedores.]]></string>
+    <string name="system_inject_fail"><![CDATA[Isso é raro e pode ter sido causado pelo <b>Magisk</b> ou por algum módulo do Magisk de baixa qualidade.<br/>Por favor, tente desativar os módulos do Magisk, exceto o LSPosed (e o Zygisk, caso esteja em uso). Ou envie todos os registros para os desenvolvedores.]]></string>
     <string name="system_prop_incorrect_summary">Propriedade do sistema incorreta</string>
     <string name="system_prop_incorrect"><![CDATA[Algumas propriedades necessárias do sistema foram excluídas ou modificadas.<br/>Alguns módulos podem falhar ocasionalmente.]]></string>
     <string name="need_update">Necessário atualizar</string>

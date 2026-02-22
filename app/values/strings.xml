@@ -139,6 +139,7 @@
     <string name="enable_module">Enable module</string>
     <string name="menu_show_games">Games</string>
     <string name="menu_show_modules">Modules</string>
+    <string name="module_scope_list_static_scope">The module declared static scope</string>
     <string name="failed_to_save_scope_list">Failed to save scope list</string>
     <string name="app_version">Version: %1$s</string>
     <string name="use_recommended">Recommended</string>
@@ -199,8 +200,15 @@
     <string name="settings_xposed_api_call_protection">Xposed API call protection</string>
     <string name="settings_xposed_api_call_protection_summary">Block dynamically loaded module code to use Xposed API, this may break some modules but benefit security</string>
     <string name="settings_invalidate_inline_hooks">Invalidate inline hooks</string>
-    <string name="settings_invalidate_inline_hooks_summary">Cleanup libart.so. This will cause random malfunctions and crashes. Use only when unable to open specific apps.</string>
+    <string name="settings_invalidate_inline_hooks_summary">Cleanup libart.so for listed apps. This will cause random malfunctions and crashes. Use only when unable to open specific apps.</string>
     <string name="settings_invalidate_inline_hooks_warning">Do not report any bug when this option is enabled.</string>
+    <string name="failed_to_save_invalidate_inline_hooks_list">Failed to save Invalidate inline hooks list</string>
+    <plurals name="settings_invalidate_inline_hooks_enabled_count">
+        <item quantity="one">%d app enabled</item>
+        <item quantity="other">%d apps enabled</item>
+    </plurals>
+    <string name="settings_enable_new_manager">Enable new manager</string>
+    <string name="settings_enable_new_manager_summary">Use the new MIUI-style Compose-based manager interface</string>
 
     <!-- Module Repo -->
     <string name="module_readme">Readme</string>
@@ -211,6 +219,7 @@
     <string name="module_information_collaborators">Collaborators</string>
     <string name="module_release_view_assets">Assets</string>
     <string name="menu_open_in_browser">Open in browser</string>
+    <string name="menu_share">Share</string>
     <string name="module_release_load_more">Show older versions</string>
     <string name="module_release_no_more">No more release</string>
     <string name="repo_load_failed">Failed to load module repo: %s</string>
@@ -256,9 +265,60 @@
     <string name="hook_debug_summary">Allow dumping of hook debugging information of hooked processes, which may have a performance impact</string>
     <string name="dump_hook_debug_title">Dump hook debug info</string>
     <string name="dump_hook_debug_summary">Dump hook debug info to /data/adb/lspd/log</string>
+    <string name="log_to_daemon_title">Log to daemon</string>
+    <string name="log_to_daemon_summary">This can avoid module logs being read by apps but may cause performance impact</string>
     <plurals name="disable_success_message">
         <item quantity="one">Disabled %d module</item>
         <item quantity="other">Disabled %d modules</item>
     </plurals>
+
+    <!-- Compose Activity -->
+    <string name="follow_system">Follow system</string>
+    <string name="menu_menu">Menu</string>
+    <string name="menuReload">Reload</string>
+    <string name="sort_default">Default</string>
+    <string name="sort_name_asc">Name (A-Z)</string>
+    <string name="sort_name_desc">Name (Z-A)</string>
+    <string name="filter_show_user_apps">Show user apps</string>
+    <string name="filter_show_selected_only">Show selected only</string>
+    <string name="filter_hide_recommended">Hide recommended</string>
+    <string name="unknown_author">Unknown</string>
+    <string name="unknown_version">Unknown</string>
+    <string name="unknown_asset">Unknown Asset</string>
+    <string name="download_asset">Download</string>
+    <string name="nav_back">Back</string>
+    <string name="menu_filter">Filter</string>
+
+    <!-- Logs Page -->
+    <string name="menu_parsed_view">Parsed view</string>
+    <string name="menu_raw_view">Raw view</string>
+
+    <!-- Theme Mode -->
+    <string name="settings_theme">Theme</string>
+    <string name="settings_theme_summary">Choose the app theme mode</string>
+    <string name="settings_theme_mode_system">Follow system</string>
+    <string name="settings_theme_mode_light">Light</string>
+    <string name="settings_theme_mode_dark">Dark</string>
+    <string name="settings_theme_mode_monet_system">Monet (Follow system)</string>
+    <string name="settings_theme_mode_monet_light">Monet (Light)</string>
+    <string name="settings_theme_mode_monet_dark">Monet (Dark)</string>
+    <string name="settings_key_color">Accent color</string>
+    <string name="settings_key_color_summary">Customize the seed color when using Monet</string>
+    <string name="settings_key_color_default">Default</string>
+    <string name="settings_page_scale">Page scale</string>
+    <string name="settings_page_scale_summary">Adjust the global display scale</string>
+
+    <!-- Refresh -->
+    <string name="refresh_pulling">Pull down to refresh</string>
+    <string name="refresh_release">Release to refresh</string>
+    <string name="refresh_refresh">Refreshing…</string>
+    <string name="refresh_complete">Refreshed successfully</string>
+
+    <!-- Repository -->
+    <string name="time_just_now">Just now</string>
+    <string name="time_minute_ago">%d minute ago</string>
+    <string name="time_minutes_ago">%d minutes ago</string>
+    <string name="time_hours_ago">%d hours ago</string>
+    <string name="time_days_ago">%d day ago</string>
 
 </resources>

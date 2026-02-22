@@ -44,7 +44,7 @@
     <string name="activated">已啟用</string>
     <string name="partial_activated">部分啟用</string>
     <string name="system_inject_fail_summary">系統注入失敗</string>
-    <string name="system_inject_fail"><![CDATA[這是極罕見嘅情況，可能係由 <b>Magisk</b> 或者質素差嘅 Magisk 模組導致，<br/>請嘗試停用除咗 Riru 同 LSPosed 以外嘅 Magisk 模組，或者向開發人員提供完整日誌 (Log)。]]></string>
+    <string name="system_inject_fail"><![CDATA[這是極罕見嘅情況，可能係由 <b>Magisk</b> 或者質素差嘅 Magisk 模組導致，<br/>請嘗試停用除咗 Zygisk 同 LSPosed 以外嘅 Magisk 模組，或者向開發人員提供完整日誌 (Log)。]]></string>
     <string name="system_prop_incorrect_summary">系統屬性異常</string>
     <string name="system_prop_incorrect"><![CDATA[部分必須嘅系統屬性俾人刪除或修改咗，<br/>模組可能會隨機失效。]]></string>
     <string name="need_update">需要更新</string>
