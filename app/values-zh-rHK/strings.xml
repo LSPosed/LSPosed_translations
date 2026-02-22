@@ -132,7 +132,7 @@
     <string name="enable_module">啟用模組</string>
     <string name="menu_show_games">遊戲</string>
     <string name="menu_show_modules">模組</string>
-    <string name="module_scope_list_static_scope">模块声明了静态作用域</string>
+    <string name="module_scope_list_static_scope">模組聲明咗靜態作用域</string>
     <string name="failed_to_save_scope_list">作用範圍清單儲存失敗</string>
     <string name="app_version">版本：%1$s</string>
     <string name="use_recommended">推薦應用程式</string>
@@ -193,12 +193,12 @@
     <string name="settings_invalidate_inline_hooks">​還原 Inline Hook</string>
     <string name="settings_invalidate_inline_hooks_summary">​清理 libart.so。此操作可能導致隨機故障及閃退，僅建議喺開唔到特定 App 嘅情況下先至使用。</string>
     <string name="settings_invalidate_inline_hooks_warning">啟用此選項後，請勿回報任何問題。</string>
-    <string name="failed_to_save_invalidate_inline_hooks_list">无法保存还原内联钩子列表</string>
+    <string name="failed_to_save_invalidate_inline_hooks_list">儲存唔到還原 Inline Hook 列表</string>
     <plurals name="settings_invalidate_inline_hooks_enabled_count">
-        <item quantity="other">已对 %d 个应用启用</item>
+        <item quantity="other">已經為 %d 個應用程式啟用</item>
     </plurals>
-    <string name="settings_enable_new_manager">启用新管理器</string>
-    <string name="settings_enable_new_manager_summary">使用新的 MIUI 风格的基于 Compose 的管理器界面</string>
+    <string name="settings_enable_new_manager">啟用新嘅管理器</string>
+    <string name="settings_enable_new_manager_summary">使用全新嘅 MIUI 風格、基於 Compose 嘅管理器介面</string>
     <!-- Module Repo -->
     <string name="module_readme">睇我</string>
     <string name="module_releases">版本</string>
@@ -238,7 +238,7 @@
     <string name="color_brown">啡色</string>
     <string name="color_blue_grey">藍灰色</string>
   
-        <string name="safe_mode">安全模式</string>
+    <string name="safe_mode">安全模式</string>
     <string name="safe_mode_summary">LSPosed 處於安全模式</string>
     <string name="safe_mode_summary2">全部 Xposed 模組都唔用到，直到下次重啟。\n有模組搞崩潰成個系統，請搵出並停用呢啲模組，同埋向佢嘅開發者反映。</string>
     <string name="disable_all_modules">停用所有模組</string>
@@ -252,58 +252,58 @@
     <string name="hook_debug_summary">允許 Dump 被 Hook 進程嘅 Hook 調試訊息，可能會影響效能</string>
     <string name="dump_hook_debug_title">Dump Hook 調試訊息</string>
     <string name="dump_hook_debug_summary">Dump Hook 調試資訊到 /data/adb/lspd/log</string>
-    <string name="log_to_daemon_title">输出日志到守护进程</string>
-    <string name="log_to_daemon_summary">这能避免模块日志被 app 读取，但可能带来性能影响。</string>
+    <string name="log_to_daemon_title">輸出日誌去 Daemon</string>
+    <string name="log_to_daemon_summary">咁樣可以避免模組日誌畀 App 讀取，但可能會影響效能。</string>
     <plurals name="disable_success_message">
         <item quantity="other">已停用 %d 個模組</item>
     </plurals>
 
-   <!-- Compose Activity -->
-    <string name="follow_system">跟随系统</string>
-    <string name="menu_menu">菜单</string>
-    <string name="menuReload">重载</string>
-    <string name="sort_default">默认</string>
-    <string name="sort_name_asc">按字母正序 (A-Z)</string>
-    <string name="sort_name_desc">按字母反序 (Z-A)</string>
-    <string name="filter_show_user_apps">显示用户应用</string>
-    <string name="filter_show_selected_only">仅显示已选</string>
-    <string name="filter_hide_recommended">隐藏推荐</string>
+    <!-- Compose Activity -->
+    <string name="follow_system">跟隨系統</string>
+    <string name="menu_menu">選單</string>
+    <string name="menuReload">重新載入</string>
+    <string name="sort_default">預設</string>
+    <string name="sort_name_asc">按字母順序 (A-Z)</string>
+    <string name="sort_name_desc">按字母倒序 (Z-A)</string>
+    <string name="filter_show_user_apps">顯示用戶 App</string>
+    <string name="filter_show_selected_only">淨顯示顯示揀咗嘅</string>
+    <string name="filter_hide_recommended">隱藏推薦</string>
     <string name="unknown_author">未知作者</string>
     <string name="unknown_version">未知</string>
-    <string name="unknown_asset">未知附件</string>
-    <string name="download_asset">下载</string>
+    <string name="unknown_asset">未知資源</string>
+    <string name="download_asset">下載</string>
     <string name="nav_back">返回</string>
-    <string name="menu_filter">过滤</string>
+    <string name="menu_filter">篩選</string>
 
     <!-- Logs Page -->
-    <string name="menu_parsed_view">解析视图</string>
-    <string name="menu_raw_view">原始视图</string>
+    <string name="menu_parsed_view">解析檢視</string>
+    <string name="menu_raw_view">原始檢視</string>
 
     <!-- Theme Mode -->
-    <string name="settings_theme">主题</string>
-    <string name="settings_theme_summary">选择应用的主题模式</string>
-    <string name="settings_theme_mode_system">跟随系统</string>
-    <string name="settings_theme_mode_light">浅色</string>
+    <string name="settings_theme">主題</string>
+    <string name="settings_theme_summary">選擇 App 嘅主題模式</string>
+    <string name="settings_theme_mode_system">跟隨系統</string>
+    <string name="settings_theme_mode_light">淺色</string>
     <string name="settings_theme_mode_dark">深色</string>
-    <string name="settings_theme_mode_monet_system">Monet（跟随系统）</string>
-    <string name="settings_theme_mode_monet_light">Monet（浅色）</string>
+    <string name="settings_theme_mode_monet_system">Monet（跟隨系統）</string>
+    <string name="settings_theme_mode_monet_light">Monet（淺色）</string>
     <string name="settings_theme_mode_monet_dark">Monet（深色）</string>
-    <string name="settings_key_color">强调色</string>
-    <string name="settings_key_color_summary">在使用 Monet 时自定义种子色</string>
-    <string name="settings_key_color_default">默认</string>
-    <string name="settings_page_scale">界面缩放</string>
-    <string name="settings_page_scale_summary">调整全局显示比例</string>
+    <string name="settings_key_color">強調色</string>
+    <string name="settings_key_color_summary">在使用 Monet 時自訂種子色</string>
+    <string name="settings_key_color_default">預設</string>
+    <string name="settings_page_scale">介面縮放</string>
+    <string name="settings_page_scale_summary">調整全域嘅顯示比例/string>
 
     <!-- Refresh -->
-    <string name="refresh_pulling">下拉刷新</string>
-    <string name="refresh_release">松开刷新</string>
-    <string name="refresh_refresh">正在刷新…</string>
-    <string name="refresh_complete">刷新成功</string>
+    <string name="refresh_pulling">向下拉動以重新整理</string>
+    <string name="refresh_release">放開以重新整理</string>
+    <string name="refresh_refresh">重新整理緊…</string>
+    <string name="refresh_complete">重新整理完成</string>
 
     <!-- Repository -->
-    <string name="time_just_now">刚刚</string>
-    <string name="time_minutes_ago">%d 分钟前</string>
-    <string name="time_hours_ago">%d 小时前</string>
-    <string name="time_days_ago">%d 天前</string>
+    <string name="time_just_now">啱啱</string>
+    <string name="time_minutes_ago">%d 分鐘前</string>
+    <string name="time_hours_ago">%d 個鐘前</string>
+    <string name="time_days_ago">%d 日前</string>
 
 </resources>
