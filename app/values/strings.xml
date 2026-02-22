@@ -207,6 +207,8 @@
         <item quantity="one">%d app enabled</item>
         <item quantity="other">%d apps enabled</item>
     </plurals>
+    <string name="settings_enable_new_manager">Enable new manager</string>
+    <string name="settings_enable_new_manager_summary">Use the new MIUI-style Compose-based manager interface</string>
 
     <!-- Module Repo -->
     <string name="module_readme">Readme</string>

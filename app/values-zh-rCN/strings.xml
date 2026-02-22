@@ -197,6 +197,8 @@
     <plurals name="settings_invalidate_inline_hooks_enabled_count">
         <item quantity="other">已对 %d 个应用启用</item>
     </plurals>
+    <string name="settings_enable_new_manager">启用新管理器</string>
+    <string name="settings_enable_new_manager_summary">使用新的 MIUI 风格的基于 Compose 的管理器界面</string>
     <!-- Module Repo -->
     <string name="module_readme">自述文件</string>
     <string name="module_releases">版本</string>
