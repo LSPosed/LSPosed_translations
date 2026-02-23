@@ -270,7 +270,7 @@
     <string name="unknown_asset">未知附件</string>
     <string name="download_asset">下载</string>
     <string name="nav_back">返回</string>
-    <string name="menu_filter">过滤</string>
+    <string name="menu_filter">筛选</string>
 
     <!-- Logs Page -->
     <string name="menu_parsed_view">解析视图</string>
