@@ -261,13 +261,10 @@
     <!-- Compose Activity -->
     <string name="follow_system">跟随系统</string>
     <string name="menu_menu">菜单</string>
-    <string name="menuReload">重载</string>
     <string name="sort_default">默认</string>
     <string name="sort_name_asc">按字母正序 (A-Z)</string>
     <string name="sort_name_desc">按字母反序 (Z-A)</string>
-    <string name="filter_show_user_apps">显示用户应用</string>
-    <string name="filter_show_selected_only">仅显示已选</string>
-    <string name="filter_hide_recommended">隐藏推荐</string>
+    <string name="menu_show_user_apps">用户应用</string>
     <string name="unknown_author">未知作者</string>
     <string name="unknown_version">未知</string>
     <string name="unknown_asset">未知附件</string>
