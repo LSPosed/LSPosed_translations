@@ -22,7 +22,7 @@
     <string name="overview">概览</string>
     <string name="Modules">模块</string>
     <plurals name="modules_enabled_count">
-        <item quantity="other">已启用 %d 个模块</item>
+        <item quantity="other">%d 个模块已启用</item>
     </plurals>
     <string name="Logs">日志</string>
     <string name="Settings">设置</string>
