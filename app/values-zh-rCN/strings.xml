@@ -260,20 +260,15 @@
 
     <!-- Compose Activity -->
     <string name="follow_system">跟随系统</string>
-    <string name="menu_menu">菜单</string>
-    <string name="menuReload">重载</string>
-    <string name="sort_default">默认</string>
-    <string name="sort_name_asc">按字母正序 (A-Z)</string>
-    <string name="sort_name_desc">按字母反序 (Z-A)</string>
-    <string name="filter_show_user_apps">显示用户应用</string>
-    <string name="filter_show_selected_only">仅显示已选</string>
-    <string name="filter_hide_recommended">隐藏推荐</string>
     <string name="unknown_author">未知作者</string>
-    <string name="unknown_version">未知</string>
+    <string name="unknown_version">未知版本</string>
     <string name="unknown_asset">未知附件</string>
     <string name="download_asset">下载</string>
     <string name="nav_back">返回</string>
-    <string name="menu_filter">过滤</string>
+    <string name="menu">菜单</string>
+    <string name="menu_filter">筛选</string>
+    <string name="settings_enable_blur">模糊</string>
+    <string name="settings_enable_blur_summary">启用顶栏和底栏的模糊效果</string>
 
     <!-- Logs Page -->
     <string name="menu_parsed_view">解析视图</string>
@@ -302,8 +297,14 @@
 
     <!-- Repository -->
     <string name="time_just_now">刚刚</string>
-    <string name="time_minutes_ago">%d 分钟前</string>
-    <string name="time_hours_ago">%d 小时前</string>
-    <string name="time_days_ago">%d 天前</string>
+    <plurals name="time_minutes_ago">
+        <item quantity="other">%d 分钟前</item>
+    </plurals>
+    <plurals name="time_hours_ago">
+        <item quantity="other">%d 小时前</item>
+    </plurals>
+    <plurals name="time_days_ago">
+        <item quantity="other">%d 天前</item>
+    </plurals>
 
 </resources>
