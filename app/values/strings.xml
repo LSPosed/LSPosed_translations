@@ -281,6 +281,8 @@
     <string name="nav_back">Back</string>
     <string name="menu">Menu</string>
     <string name="menu_filter">Filter</string>
+    <string name="settings_enable_blur">Blur</string>
+    <string name="settings_enable_blur_summary">Enable blur effect for top and bottom bars</string>
 
     <!-- Logs Page -->
     <string name="menu_parsed_view">Parsed view</string>
