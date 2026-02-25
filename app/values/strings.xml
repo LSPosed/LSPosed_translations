@@ -209,7 +209,8 @@
     </plurals>
     <string name="settings_enable_new_manager">Enable new manager</string>
     <string name="settings_enable_new_manager_summary">Use the new MIUI-style Compose-based manager interface</string>
-
+    <string name="settings_enable_predictive_back">Predictive back gesture</string>
+    <string name="settings_enable_predictive_back_summary">Enable support for predictive back gestures.</string>
     <!-- Module Repo -->
     <string name="module_readme">Readme</string>
     <string name="module_releases">Releases</string>

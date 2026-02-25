@@ -199,6 +199,8 @@
     </plurals>
     <string name="settings_enable_new_manager">启用新管理器</string>
     <string name="settings_enable_new_manager_summary">使用新的 MIUI 风格的基于 Compose 的管理器界面</string>
+    <string name="settings_enable_predictive_back">预测性返回手势</string>
+    <string name="settings_enable_predictive_back_summary">启用对预测性返回手势的支持。</string>
     <!-- Module Repo -->
     <string name="module_readme">自述文件</string>
     <string name="module_releases">版本</string>
