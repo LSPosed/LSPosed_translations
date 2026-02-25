@@ -302,6 +302,8 @@
     <string name="settings_key_color_default">Default</string>
     <string name="settings_page_scale">Page scale</string>
     <string name="settings_page_scale_summary">Adjust the global display scale</string>
+    <string name="settings_glass_bottom_bar">Liquid glass bottom bar</string>
+    <string name="settings_glass_bottom_bar_summary">Use liquid glass effect for the floating bottom bar</string>
 
     <!-- Refresh -->
     <string name="refresh_pulling">Pull down to refresh</string>

@@ -288,6 +288,8 @@
     <string name="settings_key_color_default">默认</string>
     <string name="settings_page_scale">界面缩放</string>
     <string name="settings_page_scale_summary">调整全局显示比例</string>
+    <string name="settings_glass_bottom_bar">液体玻璃底栏</string>
+    <string name="settings_glass_bottom_bar_summary">替换为液态玻璃效果的悬浮底栏</string>
 
     <!-- Refresh -->
     <string name="refresh_pulling">下拉刷新</string>
