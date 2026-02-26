@@ -44,7 +44,7 @@
     <string name="activated">已啟用</string>
     <string name="partial_activated">部分啟用</string>
     <string name="system_inject_fail_summary">系統框架注入失敗</string>
-    <string name="system_inject_fail"><![CDATA[這是極罕見的情況，可能是由 <b>Magisk</b> 或低質 Magisk 模組導致的。<br/>請嘗試禁用除 Zygisk 和 LSPosed 外的其他 Magisk 模組，或向開發者提供完整日誌。]]></string>
+    <string name="system_inject_fail"><![CDATA[這是極罕見的情況，可能是由 <b>Magisk</b> 或低質 Magisk 模組導致的。<br/>請嘗試停用除 Zygisk 和 LSPosed 外的其它 Magisk 模組，或向開發者提供完整日誌。]]></string>
     <string name="system_prop_incorrect_summary">系統屬性異常</string>
     <string name="system_prop_incorrect"><![CDATA[部分必須的系統屬性被刪除或被修改，<br/>模組可能會隨機失效。]]></string>
     <string name="need_update">需要更新</string>
@@ -53,7 +53,7 @@
     <string name="developer_warning_summary">請在 Android Studio 上禁用部署最佳化，或使用 `gradlew installDebug` 命令進行安裝，否則無法更新模組。</string>
     <string name="info_api_version">API 版本</string>
     <string name="info_framework_version">框架版本</string>
-    <string name="info_manager_package_name">管理器包名</string>
+    <string name="info_manager_package_name">管理器套件名</string>
     <string name="info_system_version">系統版本</string>
     <string name="info_device">裝置</string>
     <string name="info_system_abi">系統架構</string>
@@ -76,20 +76,23 @@
     <string name="app_welcome_summary">LSPosed 現在支援系統寄生以避免偵測，您可以從通知開啟寄生管理員。建議解除安裝目前應用程式。</string>
     <!-- LogsActivity -->
     <string name="menuSaveToSd">儲存</string>
+    <string name="menuShareLog">分享</string>
     <string name="nav_item_logs_verbose">詳細日誌</string>
     <string name="nav_item_logs_module">模組日誌</string>
-    <string name="logs_saving">正在保存日誌，請稍候</string>
+    <string name="logs_saving">正在儲存日誌，請稍候</string>
     <string name="logs_saved">日誌已儲存</string>
     <string name="logs_save_failed2">儲存失敗：\n%s</string>
-    <string name="menuClearLog">立即清理日誌</string>
-    <string name="logs_cleared">日誌清理成功</string>
-    <string name="scroll_top">移至頂端</string>
-    <string name="loading">正在載入……</string>
-    <string name="scroll_bottom">移至底端</string>
-    <string name="logs_clear_failed_2">日誌清理失敗</string>
+    <string name="logs_preparing">正在準備日誌，請稍候</string>
+    <string name="logs_prepare_failed">準備失敗：\n%s</string>
+    <string name="menuClearLog">立即清除日誌</string>
+    <string name="logs_cleared">成功清除日誌。</string>
+    <string name="scroll_top">捲動到頂部</string>
+    <string name="loading">載入中…</string>
+    <string name="scroll_bottom">捲動到底部</string>
+    <string name="logs_clear_failed_2">日誌清除失敗</string>
     <string name="menu_enable_word_wrap">自動換行</string>
     <string name="enabled_verbose_log">詳細日誌已啟用</string>
-    <string name="disabled_verbose_log">詳細日誌已禁用</string>
+    <string name="disabled_verbose_log">詳細日誌已停用</string>
     <!-- ModulesActivity -->
     <string name="module_empty_description">(未提供介紹)</string>
     <string name="warning_xposed_min_version">該模組需要更新版本的 Xposed(%d)，因此無法被啟用</string>
@@ -110,28 +113,29 @@
     <string name="install_to_user_message">確定要為使用者 %2$s 安裝 %1$s 嗎？建議手動安裝或多開，透過 LSPosed 強制安裝可能會出現問題。</string>
     <string name="expand">展開</string>
     <string name="collapse">收起</string>
-    <string name="reset_scope_request_setting">重置作用域請求設定</string>
-    <string name="reset_scope_request_setting_done">已重置作用域請求設定</string>
+    <string name="reset_scope_request_setting">重設作用域請求設定</string>
+    <string name="reset_scope_request_setting_done">已重設作用域請求設定</string>
     <!-- AppListActivity -->
     <string name="compile_speed">重新最佳化</string>
-    <string name="compile_speed_msg">正在最佳化……</string>
+    <string name="compile_speed_msg">最佳化中…</string>
     <string name="compile_done">最佳化完成</string>
     <string name="app_launch">執行</string>
-    <string name="compile_failed">最佳化失敗：返回值為空</string>
+    <string name="compile_failed">最佳化失敗：傳回值為空</string>
     <string name="compile_failed_with_info">最佳化失敗： </string>
     <string name="sort_by_name">程式名稱</string>
     <string name="sort_by_package_name">套件名稱</string>
     <string name="sort_by_install_time">安裝時間</string>
     <string name="sort_by_update_time">更新時間</string>
-    <string name="sort_reverse">遞減</string>
+    <string name="sort_reverse">倒序</string>
     <string name="menu_show_system_apps">系統程式</string>
     <string name="menu_sort">排序</string>
     <string name="enable_module">啟用模組</string>
     <string name="menu_show_games">遊戲</string>
     <string name="menu_show_modules">模組</string>
+    <string name="module_scope_list_static_scope">模組宣告了靜態作用域</string>
     <string name="failed_to_save_scope_list">作用域列表儲存失敗</string>
     <string name="app_version">版本：%1$s</string>
-    <string name="use_recommended">推薦程式</string>
+    <string name="use_recommended">勾選建議</string>
     <string name="use_recommended_message">選擇推薦的程式？</string>
     <string name="module_is_not_activated_yet">Xposed 模組尚未啟用</string>
     <string name="requested_by_module">推薦啟用</string>
@@ -155,8 +159,8 @@
     <string name="settings_group_framework">框架</string>
     <string name="settings_disable_verbose_log">停用詳細日誌</string>
     <string name="settings_disable_verbose_log_summary">回報問題要求包含詳細日誌</string>
-    <string name="pure_black_dark_theme">黑色主題</string>
-    <string name="pure_black_dark_theme_summary">當深色主題啟用時使用純黑色主題</string>
+    <string name="pure_black_dark_theme">純黑主題</string>
+    <string name="pure_black_dark_theme_summary">當深色主題啟用時使用純黑主題</string>
     <string name="settings_group_theme">主題</string>
     <string name="settings_backup_and_restore">備份與還原</string>
     <string name="settings_backup_summery">備份模組列表和作用域清單</string>
@@ -167,12 +171,12 @@
     <string name="settings_restore">還原</string>
     <string name="settings_restore_failed2">還原失敗：\n%s</string>
     <string name="group_network">網路</string>
-    <string name="dns_over_http">安全 DNS（DoH）</string>
-    <string name="dns_over_http_summary">解決部分地區的 DNS 中毒問題</string>
+    <string name="dns_over_http">安全 DNS (DoH)</string>
+    <string name="dns_over_http_summary">解決某些地區的 DNS 污染問題</string>
     <string name="theme_color">主題強調色</string>
-    <string name="theme_color_system">系統主題顏色</string>
-    <string name="settings_show_hidden_icon_apps_enabled">強制應用程式在啟動器中顯示圖示</string>
-    <string name="settings_show_hidden_icon_apps_enabled_summary">在 Android 10 之後，應用（特別是 Xposed 模組）不被允許隱藏啟動器圖示。關閉本選項以停用此功能。</string>
+    <string name="theme_color_system">系統主題色</string>
+    <string name="settings_show_hidden_icon_apps_enabled">強制顯示桌面圖示</string>
+    <string name="settings_show_hidden_icon_apps_enabled_summary">在 Android 10 或更高版本，應用程式不再允許隱藏桌面圖示。關閉該選項以停用此功能。</string>
     <string name="settings_group_system">系統</string>
     <string name="settings_language">語言</string>
     <string name="settings_translation_contributors">譯者</string>
@@ -180,25 +184,35 @@
     <string name="settings_translation_summary">幫助我們翻譯 %s 到您的語言</string>
     <string name="settings_enable_status_notification">狀態通知</string>
     <string name="settings_enable_status_notification_summary">顯示通知以便開啟寄生管理員</string>
-    <string name="settings_update_channel">更新通道</string>
+    <string name="settings_update_channel">模組更新通道</string>
     <string name="update_channel_stable">穩定版</string>
     <string name="update_channel_bate">測試版</string>
     <string name="update_channel_nightly">每夜構建</string>
     <string name="settings_xposed_api_call_protection">Xposed API 呼叫保護</string>
-    <string name="settings_xposed_api_call_protection_summary">封鎖動態載入的模組代碼以使用 Xposed API，這可能會損毀某些模組但有益於安全性</string>
+    <string name="settings_xposed_api_call_protection_summary">阻止模組動態載入的程式碼使用 Xposed API，這會使某些模組失效，但有利於安全性</string>
+    <string name="settings_invalidate_inline_hooks">還原內聯 Hook</string>
+    <string name="settings_invalidate_inline_hooks_summary">對清單中的應用程式清理 libart.so，這會導致隨機故障和當機，僅當無法開啟特定應用程式時使用。</string>
+    <string name="settings_invalidate_inline_hooks_warning">請勿在啟用此選項時回報任何問題</string>
+    <string name="failed_to_save_invalidate_inline_hooks_list">無法儲存還原內聯 Hook 清單</string>
+    <plurals name="settings_invalidate_inline_hooks_enabled_count">
+        <item quantity="other">已對 %d 個應用程式啟用</item>
+    </plurals>
+    <string name="settings_enable_new_manager">啟用新管理器</string>
+    <string name="settings_enable_new_manager_summary">使用新的 MIUI 風格的基於 Compose 的管理器介面</string>
     <!-- Module Repo -->
     <string name="module_readme">自述檔案</string>
     <string name="module_releases">版本</string>
     <string name="module_information">資訊</string>
     <string name="module_information_homepage">首頁</string>
     <string name="module_information_source_url">原始碼</string>
-    <string name="module_information_collaborators">合作者</string>
+    <string name="module_information_collaborators">協作者</string>
     <string name="module_release_view_assets">附件</string>
     <string name="menu_open_in_browser">在瀏覽器中開啟</string>
-    <string name="module_release_load_more">顯示較舊的版本</string>
+    <string name="menu_share">分享</string>
+    <string name="module_release_load_more">顯示較早舊版本</string>
     <string name="module_release_no_more">沒有更舊的版本</string>
     <string name="repo_load_failed">模組倉庫載入失敗：%s</string>
-    <string name="sort_upgradable_first">可更新的優先</string>
+    <string name="sort_upgradable_first">可更新優先</string>
     <string name="installed">已安裝</string>
     <plurals name="module_release_assets_download_count">
         <item quantity="other">%d 次下載</item>
@@ -224,20 +238,72 @@
     <string name="color_brown">棕色</string>
     <string name="color_blue_grey">藍灰</string>
 
+    <string name="safe_mode">安全模式</string>
     <string name="safe_mode_summary">LSPosed 處於安全模式</string>
-    <string name="safe_mode_summary2">所有 Xposed 模組不可用，直到下次重新啟動。\n 一些模組導致了系統當機，請找出並禁用這些模組並同模組開發者反饋。</string>
+    <string name="safe_mode_summary2">所有 Xposed 模組被禁止使用，直到下次重新啟動。\n一些模組導致了系統當機，請找出並禁用這些模組，並向模組開發者反饋。</string>
     <string name="disable_all_modules">禁用所有模組</string>
     <string name="confirm_disable_all_modules">確認？</string>
     <plurals name="message_disable_all_modules">
         <item quantity="other">%d 個模組將被停用\n此操作不可逆轉</item>
     </plurals>
     <string name="disable_success_title">成功</string>
-    <string name="hook_debug_title">Hook 除錯</string>
-    <string name="debugging_title">除錯</string>
-    <string name="hook_debug_summary">允許轉儲被 hook 進程的 hook 除錯信息，可能帶來性能影響</string>
-    <string name="dump_hook_debug_title">轉儲 Hook 除錯信息</string>
-    <string name="dump_hook_debug_summary">將轉儲 Hook 除錯信息輸出到 /data/adb/lspd/log</string>
+    <string name="hook_debug_title">Hook 偵錯</string>
+    <string name="debugging_title">偵錯</string>
+    <string name="hook_debug_summary">允許轉儲被 hook 行程的 hook 偵錯資訊，可能帶來效能影響</string>
+    <string name="dump_hook_debug_title">轉儲 Hook 偵錯資訊</string>
+    <string name="dump_hook_debug_summary">轉儲 Hook 偵錯資訊到 /data/adb/lspd/log</string>
+    <string name="log_to_daemon_title">輸出日誌到守護行程</string>
+    <string name="log_to_daemon_summary">這能避免模組日誌被應用程式讀取，但可能帶來效能影響。</string>
     <plurals name="disable_success_message">
-        <item quantity="other">已禁用 %d 個模組</item>
+        <item quantity="other">已停用 %d 個模組</item>
     </plurals>
+
+    <!-- Compose Activity -->
+    <string name="follow_system">跟隨系統</string>
+    <string name="menu_menu">選單</string>
+    <string name="menuReload">重新載入</string>
+    <string name="sort_default">預設</string>
+    <string name="sort_name_asc">按字母正序 (A-Z)</string>
+    <string name="sort_name_desc">按字母反序 (Z-A)</string>
+    <string name="filter_show_user_apps">顯示使用者應用程式</string>
+    <string name="filter_show_selected_only">僅顯示已選</string>
+    <string name="filter_hide_recommended">隱藏建議</string>
+    <string name="unknown_author">未知作者</string>
+    <string name="unknown_version">未知</string>
+    <string name="unknown_asset">未知附件</string>
+    <string name="download_asset">下載</string>
+    <string name="nav_back">返回</string>
+    <string name="menu_filter">篩選</string>
+
+    <!-- Logs Page -->
+    <string name="menu_parsed_view">解析檢視</string>
+    <string name="menu_raw_view">原始檢視</string>
+
+    <!-- Theme Mode -->
+    <string name="settings_theme">主題</string>
+    <string name="settings_theme_summary">選擇應用程式的主題模式</string>
+    <string name="settings_theme_mode_system">跟隨系統</string>
+    <string name="settings_theme_mode_light">淺色</string>
+    <string name="settings_theme_mode_dark">深色</string>
+    <string name="settings_theme_mode_monet_system">莫內取色 (跟隨系統)</string>
+    <string name="settings_theme_mode_monet_light">莫內取色 (淺色)</string>
+    <string name="settings_theme_mode_monet_dark">莫內取色 (深色)</string>
+    <string name="settings_key_color">強調色</string>
+    <string name="settings_key_color_summary">在使用 莫內取色 時自訂種子色</string>
+    <string name="settings_key_color_default">預設</string>
+    <string name="settings_page_scale">介面縮放</string>
+    <string name="settings_page_scale_summary">調整全域顯示比例</string>
+
+    <!-- Refresh -->
+    <string name="refresh_pulling">下拉重新整理</string>
+    <string name="refresh_release">放開重新整理</string>
+    <string name="refresh_refresh">正在重新整理…</string>
+    <string name="refresh_complete">重新整理成功</string>
+
+    <!-- Repository -->
+    <string name="time_just_now">剛剛</string>
+    <string name="time_minutes_ago">%d 分鐘前</string>
+    <string name="time_hours_ago">%d 小時前</string>
+    <string name="time_days_ago">%d 天前</string>
+
 </resources>
