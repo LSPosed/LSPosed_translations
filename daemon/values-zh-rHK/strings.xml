@@ -8,14 +8,31 @@
     <string name="xposed_module_updated_notification_content">%s 更新咗，請強制停止並重開佢作用範圍內嘅 App</string>
     <string name="xposed_module_updated_notification_title_system">Xposed 模組更新咗，需要重啟系統</string>
     <string name="xposed_module_updated_notification_content_system">%s 更新咗，因為作用範圍包埋系統框架，需要重啟先會生效。</string>
+    <string name="xposed_module_updated_notification_action_enable">啟用模組</string>
     <string name="module_updated_channel_name">模組更新完成</string>
     <string name="status_channel_name">LSPosed 狀態</string>
     <string name="lsposed_running_notification_title">LSPosed 已載入</string>
     <string name="lsposed_running_notification_content">撳通知開啟管理器</string>
     <string name="xposed_module_request_scope_title">作用範圍請求</string>
     <string name="xposed_module_request_scope_content">用戶 %2$s 嘅 %1$s 請求將 %3$s 加到去佢嘅作用範圍。</string>
+    <string name="xposed_module_request_scope_content_batch">用戶 %2$s 嘅 %1$s 要求將以下嘅 App 加落作用域。</string>
     <string name="scope_channel_name">作用範圍請求</string>
     <string name="scope_approve">批准</string>
     <string name="scope_deny">拒絕</string>
     <string name="nerver_ask_again">唔好再問</string>
+    <string name="lsposed_safemode_notification_title">LSPosed 處於安全模式</string>
+    <string name="lsposed_safemode_notification_content">全部 Xposed 模組都唔用到，直到下次重啟</string>
+    <string name="safe_mode_disable_all_modules">停用所有模組</string>
+    <string name="lsposed_safemode_cleared_notification_title">所有模組已經停用</string>
+    <plurals name="lsposed_safemode_cleared_notification_content">
+        <item quantity="other">已經停用 %d 個模組</item>
+    </plurals>
+    <string name="lsposed_safemode_clear_confirm_notification_title">確定？</string>
+    <plurals name="lsposed_safemode_clear_confirm_notification_content">
+        <item quantity="other">將會停用 %d 個模組\n呢個操作無法復原</item>
+    </plurals>
+    <string name="safe_mode_reboot">重啟</string>
+    <string name="safe_mode_channel_name">安全模式</string>
+    <string name="safe_mode_open_manager">打開管理器</string>
+    <string name="safe_mode_back">返回</string>
 </resources>
