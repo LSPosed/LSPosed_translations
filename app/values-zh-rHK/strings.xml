@@ -199,6 +199,8 @@
     </plurals>
     <string name="settings_enable_new_manager">啟用新嘅管理器</string>
     <string name="settings_enable_new_manager_summary">使用全新嘅 MIUI 風格、基於 Compose 嘅管理器介面</string>
+    <string name="settings_enable_predictive_back">預測性返回手勢</string>
+    <string name="settings_enable_predictive_back_summary">啟用對預測性返回手勢嘅支援。</string>
     <!-- Module Repo -->
     <string name="module_readme">睇我</string>
     <string name="module_releases">版本</string>
@@ -288,6 +290,8 @@
     <string name="settings_key_color_default">預設</string>
     <string name="settings_page_scale">介面縮放</string>
     <string name="settings_page_scale_summary">調整全域嘅顯示比例/string>
+    <string name="settings_glass_bottom_bar">液態玻璃底欄</string>
+    <string name="settings_glass_bottom_bar_summary">替換成液態玻璃效果嘅懸浮底欄</string>
 
     <!-- Refresh -->
     <string name="refresh_pulling">向下拉動以重新整理</string>
