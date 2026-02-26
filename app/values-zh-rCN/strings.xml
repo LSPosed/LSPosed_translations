@@ -176,7 +176,7 @@
     <string name="theme_color">主题颜色</string>
     <string name="theme_color_system">系统主题色</string>
     <string name="settings_show_hidden_icon_apps_enabled">强制显示桌面图标</string>
-    <string name="settings_show_hidden_icon_apps_enabled_summary">在 Android 10 或更高版本，应用不再允许隐藏桌面图标。关闭该选项以关闭该系统功能。</string>
+    <string name="settings_show_hidden_icon_apps_enabled_summary">在 Android 10 或更高版本，应用不再允许隐藏桌面图标。关闭该选项以关闭该系统功能</string>
     <string name="settings_group_system">系统</string>
     <string name="settings_language">语言</string>
     <string name="settings_translation_contributors">译者</string>
@@ -191,7 +191,7 @@
     <string name="settings_xposed_api_call_protection">Xposed API 调用保护</string>
     <string name="settings_xposed_api_call_protection_summary">阻止模块动态加载的代码使用 Xposed API，这会使某些模块失效，但有利于安全性</string>
     <string name="settings_invalidate_inline_hooks">还原内联钩子</string>
-    <string name="settings_invalidate_inline_hooks_summary">对列表中的应用清理 libart.so，这会导致随机故障和崩溃，仅当无法打开特定应用时使用。</string>
+    <string name="settings_invalidate_inline_hooks_summary">对列表中的应用清理 libart.so，这会导致随机故障和崩溃，仅当无法打开特定应用时使用</string>
     <string name="settings_invalidate_inline_hooks_warning">不要在启用此选项时报告任何问题</string>
     <string name="failed_to_save_invalidate_inline_hooks_list">无法保存还原内联钩子列表</string>
     <plurals name="settings_invalidate_inline_hooks_enabled_count">
@@ -200,7 +200,7 @@
     <string name="settings_enable_new_manager">启用新管理器</string>
     <string name="settings_enable_new_manager_summary">使用新的 MIUI 风格的基于 Compose 的管理器界面</string>
     <string name="settings_enable_predictive_back">预测性返回手势</string>
-    <string name="settings_enable_predictive_back_summary">启用对预测性返回手势的支持。</string>
+    <string name="settings_enable_predictive_back_summary">启用对预测性返回手势的支持</string>
     <!-- Module Repo -->
     <string name="module_readme">自述文件</string>
     <string name="module_releases">版本</string>
@@ -255,7 +255,7 @@
     <string name="dump_hook_debug_title">转储 Hook 调试信息</string>
     <string name="dump_hook_debug_summary">转储 Hook 调试信息到 /data/adb/lspd/log</string>
     <string name="log_to_daemon_title">输出日志到守护进程</string>
-    <string name="log_to_daemon_summary">这能避免模块日志被 app 读取，但可能带来性能影响。</string>
+    <string name="log_to_daemon_summary">这能避免模块日志被 app 读取，但可能带来性能影响</string>
     <plurals name="disable_success_message">
         <item quantity="other">已禁用 %d 个模块</item>
     </plurals>
@@ -269,8 +269,6 @@
     <string name="nav_back">返回</string>
     <string name="menu">菜单</string>
     <string name="menu_filter">筛选</string>
-    <string name="settings_enable_blur">模糊</string>
-    <string name="settings_enable_blur_summary">启用顶栏和底栏的模糊效果</string>
 
     <!-- Logs Page -->
     <string name="menu_parsed_view">解析视图</string>
@@ -290,8 +288,12 @@
     <string name="settings_key_color_default">默认</string>
     <string name="settings_page_scale">界面缩放</string>
     <string name="settings_page_scale_summary">调整全局显示比例</string>
-    <string name="settings_glass_bottom_bar">液体玻璃底栏</string>
-    <string name="settings_glass_bottom_bar_summary">替换为液态玻璃效果的悬浮底栏</string>
+    <string name="settings_enable_blur">模糊</string>
+    <string name="settings_enable_blur_summary">启用顶栏和底栏的模糊效果</string>
+    <string name="settings_floating_bottom_bar">悬浮底栏</string>
+    <string name="settings_floating_bottom_bar_summary">使用类 Apple 风格的悬浮底栏</string>
+    <string name="settings_enable_glass">液态玻璃</string>
+    <string name="settings_enable_glass_summary">启用悬浮底栏的液态玻璃效果</string>
 
     <!-- Refresh -->
     <string name="refresh_pulling">下拉刷新</string>

@@ -282,8 +282,6 @@
     <string name="nav_back">Back</string>
     <string name="menu">Menu</string>
     <string name="menu_filter">Filter</string>
-    <string name="settings_enable_blur">Blur</string>
-    <string name="settings_enable_blur_summary">Enable blur effect for top and bottom bars</string>
 
     <!-- Logs Page -->
     <string name="menu_parsed_view">Parsed view</string>
@@ -303,8 +301,12 @@
     <string name="settings_key_color_default">Default</string>
     <string name="settings_page_scale">Page scale</string>
     <string name="settings_page_scale_summary">Adjust the global display scale</string>
-    <string name="settings_glass_bottom_bar">Liquid glass bottom bar</string>
-    <string name="settings_glass_bottom_bar_summary">Use liquid glass effect for the floating bottom bar</string>
+    <string name="settings_enable_blur">Blur</string>
+    <string name="settings_enable_blur_summary">Enable blur effect for top and bottom bars</string>
+    <string name="settings_floating_bottom_bar">Floating bottom bar</string>
+    <string name="settings_floating_bottom_bar_summary">Use Apple-like style floating bottom bar</string>
+    <string name="settings_enable_glass">Liquid glass</string>
+    <string name="settings_enable_glass_summary">Enable liquid glass effect for floating bottom bar</string>
 
     <!-- Refresh -->
     <string name="refresh_pulling">Pull down to refresh</string>
