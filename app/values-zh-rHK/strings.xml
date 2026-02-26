@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!--
+<?xml version="1.0" encoding="utf-8"?><!--
   ~ This file is part of LSPosed.
   ~
   ~ LSPosed is free software: you can redistribute it and/or modify
@@ -239,7 +238,7 @@
     <string name="color_deep_orange">深橙色</string>
     <string name="color_brown">啡色</string>
     <string name="color_blue_grey">藍灰色</string>
-  
+
     <string name="safe_mode">安全模式</string>
     <string name="safe_mode_summary">LSPosed 處於安全模式</string>
     <string name="safe_mode_summary2">全部 Xposed 模組都唔用到，直到下次重啟。\n有模組搞崩潰成個系統，請搵出並停用呢啲模組，同埋向佢嘅開發者反映。</string>
@@ -271,7 +270,7 @@
     <string name="menu">篩選</string>
     <string name="settings_enable_blur">模糊</string>
     <string name="settings_enable_blur_summary">啟用頂欄同底欄嘅模糊效果</string>
-  
+
     <!-- Logs Page -->
     <string name="menu_parsed_view">解析檢視</string>
     <string name="menu_raw_view">原始檢視</string>
@@ -289,7 +288,7 @@
     <string name="settings_key_color_summary">在使用 Monet 時自訂種子色</string>
     <string name="settings_key_color_default">預設</string>
     <string name="settings_page_scale">介面縮放</string>
-    <string name="settings_page_scale_summary">調整全域嘅顯示比例/string>
+    <string name="settings_page_scale_summary">調整全域嘅顯示比例</string>
     <string name="settings_glass_bottom_bar">液態玻璃底欄</string>
     <string name="settings_glass_bottom_bar_summary">替換成液態玻璃效果嘅懸浮底欄</string>
 
