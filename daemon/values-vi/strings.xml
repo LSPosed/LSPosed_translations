@@ -1,21 +1,39 @@
-<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Notification -->
     <string name="module_is_not_activated_yet">Mô-đun Xposed chưa được kích hoạt</string>
     <string name="module_is_not_activated_yet_main_user_detailed">%1$s đã được cài đặt, nhưng chưa được kích hoạt</string>
-    <string name="module_is_not_activated_yet_multi_user_detailed">%1$s vừa được cài đặt cho người dùng %2$s, nhưng chưa được kích hoạt</string>
-    <string name="xposed_module_updated_notification_title">Mô-đun Xposed đã được cập nhật</string>
-    <string name="xposed_module_updated_notification_content">%s đã được cập nhật, xin hãy buộc dừng và khởi động lại ứng dụng liên quan</string>
-    <string name="xposed_module_updated_notification_title_system">Mô-đun Xposed đã được cập nhật, yêu cầu khởi động lại hệ thống</string>
-    <string name="xposed_module_updated_notification_content_system">%s đã được cập nhật, vì phạm vi bao gồm Framework Hệ thống, thì khởi động lại là cần thiết để áp dụng các thay đổi</string>
-    <string name="module_updated_channel_name">Tiện ích bổ sung cập nhật hoàn tất</string>
-    <string name="status_channel_name">Trạng thái hoạt động</string>
-    <string name="lsposed_running_notification_title">Ứng dụng đã được tải</string>
-    <string name="lsposed_running_notification_content">Nhấn để mở trình quản lý</string>
+    <string name="module_is_not_activated_yet_multi_user_detailed">%1$s đã được cài đặtcho người dùng %2$s, nhưng chưa được kích hoạt</string>
+    <string name="xposed_module_updated_notification_title">Mô-đun Xposed đã cập nhật</string>
+    <string name="xposed_module_updated_notification_content">%s đã cập nhật, vui lòng buộc dừng và khởi động lại ứng dụng trong phạm vi của nó</string>
+    <string name="xposed_module_updated_notification_title_system">Mô-đun Xposed đã cập nhật, khởi động lại hệ thống là cần thiết</string>
+    <string name="xposed_module_updated_notification_content_system">%s đã cập nhật, vì phạm vi chứa Framework hệ thống, nên cần phải khởi động lại để áp dụng các thay đổi</string>
+    <string name="xposed_module_updated_notification_action_enable">Kích hoạt mô-đun</string>
+    <string name="module_updated_channel_name">Cập nhật mô-đun thành công</string>
+    <string name="status_channel_name">Trạng thái LSPosed</string>
+    <string name="lsposed_running_notification_title">LSPosed đã tải</string>
+    <string name="lsposed_running_notification_content">Nhấn vào thông báo để mở trình quản lý</string>
     <string name="xposed_module_request_scope_title">Yêu cầu phạm vi</string>
-    <string name="xposed_module_request_scope_content">%1$s khi người dùng %2$s yêu cầu thêm %3$s vào phạm vi của nó.</string>
-    <string name="scope_channel_name">Phạm vi yêu cầu</string>
-    <string name="scope_approve">Chấp thuận</string>
+    <string name="xposed_module_request_scope_content">%1$s ở người dùng %2$s yêu cầu thêm %3$s vào phạm vi của nó.</string>
+    <string name="xposed_module_request_scope_content_batch">%1$s ở người dùng %2$s yêu cầu thêm các ứng dụng sau vào phạm vi của nó.</string>
+    <string name="scope_channel_name">Yêu cầu phạm vi</string>
+    <string name="scope_approve">Phê duyệt</string>
     <string name="scope_deny">Từ chối</string>
-    <string name="nerver_ask_again">Không hỏi lại</string>
+    <string name="nerver_ask_again">Không bao giờ hỏi lại</string>
+    <string name="lsposed_safemode_notification_title">LSPosed đang ở Chế độ An toàn</string>
+    <string name="lsposed_safemode_notification_content">Tất cả mô-đun Xposed sẽ không khả dụng cho đến lần khởi động lại tiếp theo</string>
+    <string name="safe_mode_disable_all_modules">Tắt tất cả mô-đun</string>
+    <string name="lsposed_safemode_cleared_notification_title">Tất cả mô-đun đã tắt</string>
+    <plurals name="lsposed_safemode_cleared_notification_content">
+        <item quantity="one">%d mô-đun đã tắt</item>
+        <item quantity="other">%d mô-đun đã tắt</item>
+    </plurals>
+    <string name="lsposed_safemode_clear_confirm_notification_title">Xác nhận?</string>
+    <plurals name="lsposed_safemode_clear_confirm_notification_content">
+        <item quantity="one">%d mô-đun sẽ bị tắt.\nThao tác này không thể hoàn tác được</item>
+        <item quantity="other">%d mô-đun sẽ bị tắt.\nThao tác này không thể hoàn tác được</item>
+    </plurals>
+    <string name="safe_mode_reboot">Khởi động lại</string>
+    <string name="safe_mode_channel_name">Chế độ An toàn</string>
+    <string name="safe_mode_open_manager">Mở trình quản lý</string>
+    <string name="safe_mode_back">Quay lại</string>
 </resources>
