@@ -162,7 +162,7 @@
     <!-- SettingsActivity -->
     <string name="settings_group_framework">Kerangka kerja</string>
     <string name="settings_disable_verbose_log">Nonaktifkan log verbose</string>
-    <string name="settings_disable_verbose_log_summary">Permintaan laporan masalah dengan menyertakan log-log verbose</string>
+    <string name="settings_disable_verbose_log_summary">Permintaan laporan masalah dengan menyertakan log verbose</string>
     <string name="pure_black_dark_theme">Tema hitam gelap</string>
     <string name="pure_black_dark_theme_summary">Gunakan tema hitam pekat jika tema gelap diaktifkan</string>
     <string name="settings_group_theme">Tema</string>
@@ -194,10 +194,10 @@
     <string name="update_channel_nightly">Rilis harian</string>
     <string name="settings_xposed_api_call_protection">Proteksi panggilan API Xposed</string>
     <string name="settings_xposed_api_call_protection_summary">Blokir kode modul yang dimuat secara dinamis untuk menggunakan Xposed API, ini mungkin mengganggu beberapa modul namun lebih aman</string>
-    <string name="settings_invalidate_inline_hooks">Invalidasi Inline Hook</string>
+    <string name="settings_invalidate_inline_hooks">Invalidasi inline hook</string>
     <string name="settings_invalidate_inline_hooks_summary">Melakukan pembersihan libart.so untuk aplikasi yang terdaftar. Ini berisiko menyebabkan malfungsi atau crash acak. Gunakan hanya jika aplikasi tertentu tidak dapat dibuka.</string>
     <string name="settings_invalidate_inline_hooks_warning">Jangan laporkan kesalahan apa pun pada pengembang saat opsi ini diaktifkan.</string>
-    <string name="failed_to_save_invalidate_inline_hooks_list">Gagal menyimpan daftar Invalidasi Inline Hook</string>
+    <string name="failed_to_save_invalidate_inline_hooks_list">Gagal menyimpan daftar invalidasi inline hook</string>
     <plurals name="settings_invalidate_inline_hooks_enabled_count">
         <item quantity="other">%d aplikasi diaktifkan</item>
     </plurals>
@@ -274,8 +274,6 @@
     <string name="nav_back">Kembali</string>
     <string name="menu">Menu</string>
     <string name="menu_filter">Filter</string>
-    <string name="settings_enable_blur">Blur</string>
-    <string name="settings_enable_blur_summary">Aktifkan efek blur untuk bilah atas dan bawah</string>
 
     <!-- Logs Page -->
     <string name="menu_parsed_view">Uraikan</string>
@@ -295,8 +293,12 @@
     <string name="settings_key_color_default">Default</string>
     <string name="settings_page_scale">Skala tampilan</string>
     <string name="settings_page_scale_summary">Sesuaikan skala tampilan global</string>
-    <string name="settings_glass_bottom_bar">Liquid glass bilah bawah</string>
-    <string name="settings_glass_bottom_bar_summary">Gunakan efek liquid glass untuk bilah bawah yang mengambang</string>
+    <string name="settings_enable_blur">Blur</string>
+    <string name="settings_enable_blur_summary">Aktifkan efek blur untuk bilah atas dan bawah</string>
+    <string name="settings_floating_bottom_bar">Bilah bawah mengambang</string>
+    <string name="settings_floating_bottom_bar_summary">Gunakan bilah bawah mengambang ala Apple</string>
+    <string name="settings_enable_glass">Kaca cair</string>
+    <string name="settings_enable_glass_summary">Aktifkan efek kaca cair (liquid glass) untuk bilah bawah yang mengambang</string>
 
     <!-- Refresh -->
     <string name="refresh_pulling">Tarik ke bawah untuk menyegarkan</string>
