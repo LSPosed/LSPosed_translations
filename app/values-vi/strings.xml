@@ -303,10 +303,10 @@
     <string name="settings_page_scale_summary">Điều chỉnh tỷ lệ hiển thị toàn cầu</string>
     <string name="settings_enable_blur">Mờ</string>
     <string name="settings_enable_blur_summary">Bật hiệu ứng mờ cho thanh trên và dưới</string>
-    <string name="settings_floating_bottom_bar">Thanh dưới nổi</string>
-    <string name="settings_floating_bottom_bar_summary">Sử dụng thanh dưới nổi kiểu giống Apple</string>
+    <string name="settings_floating_bottom_bar">Thanh phía dưới nổi</string>
+    <string name="settings_floating_bottom_bar_summary">Sử dụng thanh phía dưới nổi kiểu giống Apple</string>
     <string name="settings_enable_glass">Liquid Glass</string>
-    <string name="settings_enable_glass_summary">Kích hoạt hiệu ứng Liquid Glass cho thanh dưới nổi</string>
+    <string name="settings_enable_glass_summary">Kích hoạt hiệu ứng Liquid Glass cho thanh phía dưới nổi</string>
 
     <!-- Refresh -->
     <string name="refresh_pulling">Kéo xuống để làm mới</string>
