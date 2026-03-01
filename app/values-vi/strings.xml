@@ -266,7 +266,7 @@
     <string name="hook_debug_summary">Cho phép kết xuất thông tin gỡ lỗi hook của các tiến trình được hook, điều này có thể ảnh hưởng đến hiệu năng</string>
     <string name="dump_hook_debug_title">Kết xuất thông tin gỡ lỗi hook</string>
     <string name="dump_hook_debug_summary">Kết xuất thông tin gỡ lỗi hook vào /data/adb/lspd/log</string>
-    <string name="log_to_daemon_title">Nhật ký vào daemon</string>
+    <string name="log_to_daemon_title">Ghi nhật ký vào daemon</string>
     <string name="log_to_daemon_summary">Điều này có thể tránh việc nhật ký mô-đun bị đọc bởi các ứng dụng nhưng có thể gây ảnh hưởng đến hiệu năng</string>
     <plurals name="disable_success_message">
         <item quantity="one">Đã tắt %d mô-đun</item>
