@@ -153,7 +153,7 @@
     <string name="menu_backup">Sao lưu</string>
     <string name="menu_restore">Khôi phục</string>
     <string name="force_stop">Buộc dừng</string>
-    <string name="force_stop_dlg_title">Buộc dùng?</string>
+    <string name="force_stop_dlg_title">Buộc dừng?</string>
     <string name="force_stop_dlg_text">Nếu bạn buộc dừng một ứng dụng, nó có thể hoạt động không đúng cách.</string>
     <string name="reboot_required">Khởi động lại là cần thiết để thay đổi này có hiệu lực.</string>
     <string name="reboot">Khởi động lại</string>
