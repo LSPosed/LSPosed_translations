@@ -201,7 +201,7 @@
     <string name="settings_xposed_api_call_protection_summary">Chặn mã mô-đun được tải động để sử dụng Xposed API, điều này có thể làm hỏng một số mô-đun nhưng mang lại lợi ích về bảo mật.</string>
     <string name="settings_invalidate_inline_hooks">Vô hiệu hóa các hook nội tuyến</string>
     <string name="settings_invalidate_inline_hooks_summary">Dọn dẹp libart.so cho các ứng dụng được liệt kê. Thao tác này có thể gây ra trục trặc và lỗi ngẫu nhiên. Chỉ sử dụng khi không thể mở các ứng dụng cụ thể.</string>
-    <string name="settings_invalidate_inline_hooks_warning">Không báo cáo bất kỳ lỗi nào khi tùy chọn này được bật..</string>
+    <string name="settings_invalidate_inline_hooks_warning">Không báo cáo bất kỳ lỗi nào khi tùy chọn này được bật.</string>
     <string name="failed_to_save_invalidate_inline_hooks_list">Thất bại khi lưu danh sách Vô hiệu hoá các hook nội tuyến.</string>
     <plurals name="settings_invalidate_inline_hooks_enabled_count">
         <item quantity="one">%d ứng dụng đã bật</item>
