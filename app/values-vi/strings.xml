@@ -49,7 +49,7 @@
     <string name="system_inject_fail_summary">Nhúng Framework Hệ thống thất bại</string>
     <string name="system_inject_fail"><![CDATA[Đây là lỗi hiếm gặp và có thể bị gây ra bởi <b>Magisk</b> hoặc một số mô-đun Magisk chất lượng thấp.<br/>Vui lòng thử tắt các mô-đun Magisk khác ngoài LSPosed hoặc gửi toàn bộ nhật ký cho nhà phát triển.]]></string>
     <string name="system_prop_incorrect_summary">Thuộc tính hệ thống không đúng</string>
-    <string name="system_prop_incorrect"><![CDATA[Một số thuộc tính hệ thống cần thiết đã bị xóa hoặc sửa đổi.<br/>Các mô-đun có thể bị vô hiệu hóa đôi khi..]]></string>
+    <string name="system_prop_incorrect"><![CDATA[Một số thuộc tính hệ thống cần thiết đã bị xóa hoặc sửa đổi.<br/>Các mô-đun có thể bị vô hiệu hóa đôi khi.]]></string>
     <string name="need_update">Cần được cập nhật</string>
     <string name="please_update_summary">Vui lòng cài đặt phiên bản mới nhất của LSPosed</string>
     <string name="developer_warning_title">Mẹo dành cho nhà phát triển mô-đun</string>
