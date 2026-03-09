@@ -39,7 +39,7 @@
         <item quantity="other">%d mô-đun có thể cập nhật</item>
     </plurals>
     <string name="about_view_source_code"><![CDATA[Xem mã nguồn tại %1$s<br/>Tham gia kênh %2$s của chúng tôi]]></string>
-    <string name="translators" comment="Dear translators, please add your home page here following the format. There can be more than one translator. So feel free to append yourself.">The Primal Pea</string>
+    <string name="translators" comment="Dear translators, please add your home page here following the format. There can be more than one translator. So feel free to append yourself.">The Primal Pea (from Lawnrunners)</string>
 
     <string name="install">Cài đặt</string>
     <string name="install_summary">Nhấn để cài đặt LSPosed</string>
@@ -85,10 +85,10 @@
     <string name="menuShareLog">Chia sẻ</string>
     <string name="nav_item_logs_verbose">Nhật ký Chi tiết</string>
     <string name="nav_item_logs_module">Nhật ký Mô-đun</string>
-    <string name="logs_saving">Đang lưu nhật ký, vui lòng đợi</string>
+    <string name="logs_saving">Đang lưu nhật ký, vui lòng chờ</string>
     <string name="logs_saved">Nhật ký đã được lưu</string>
     <string name="logs_save_failed2">Thất bại khi lưu:\n%s</string>
-    <string name="logs_preparing">Đang chuẩn bị cho nhật ký, vui lòng đợi</string>
+    <string name="logs_preparing">Đang chuẩn bị cho nhật ký, vui lòng chờ</string>
     <string name="logs_prepare_failed">Thất bại khi chuẩn bị:\n%s</string>
     <string name="menuClearLog">Dọn nhật ký ngay</string>
     <string name="logs_cleared">Nhật ký đã được dọn thành công.</string>
@@ -267,6 +267,8 @@
     <string name="hook_debug_summary">Cho phép kết xuất thông tin gỡ lỗi hook của các tiến trình được hook, điều này có thể ảnh hưởng đến hiệu năng</string>
     <string name="dump_hook_debug_title">Kết xuất thông tin gỡ lỗi hook</string>
     <string name="dump_hook_debug_summary">Kết xuất thông tin gỡ lỗi hook vào /data/adb/lspd/log</string>
+    <string name="dump_hook_success">Đã kết xuất vào %s</string>
+    <string name="dump_hook_failed">Thất bại khi kết xuất</string>
     <string name="log_to_daemon_title">Ghi nhật ký vào daemon</string>
     <string name="log_to_daemon_summary">Điều này có thể tránh việc nhật ký mô-đun bị đọc bởi các ứng dụng nhưng có thể gây ảnh hưởng đến hiệu năng</string>
     <plurals name="disable_success_message">
