@@ -84,8 +84,8 @@
     <string name="logs_save_failed2">Gagal menyimpan:\n%s</string>
     <string name="logs_preparing">Menyiapkan log, harap tunggu</string>
     <string name="logs_prepare_failed">Gagal menyiapkan:\n%s</string>
-    <string name="menuClearLog">Hapus log sekarang</string>
-    <string name="logs_cleared">Log berhasil dihapus.</string>
+    <string name="menuClearLog">Bersihkan log sekarang</string>
+    <string name="logs_cleared">Log berhasil dibersihkan.</string>
     <string name="scroll_top">Gulir ke atas</string>
     <string name="loading">Memuat…</string>
     <string name="scroll_bottom">Gulir ke bawah</string>
@@ -101,14 +101,14 @@
     <string name="no_min_version_specified">Modul ini tidak menentukan versi Xposed yang diperlukan.</string>
     <string name="warning_min_version_too_low">Modul ini dibuat untuk Xposed versi %1$d, tetapi karena perubahan yang tidak kompatibel pada versi %2$d, telah dinonaktifkan</string>
     <string name="warning_installed_on_external_storage">Modul ini tidak dapat dimuat karena terpasang di kartu SD, harap pindahkan ke penyimpanan internal</string>
-    <string name="module_uninstall">Copot</string>
+    <string name="module_uninstall">Hapus</string>
     <string name="module_settings">Setelan modul</string>
     <string name="view_in_repo">Lihat di repositori</string>
-    <string name="module_uninstall_message">Apakah Anda ingin mencopot modul ini?</string>
-    <string name="module_uninstalled">Tercopot %1$s</string>
-    <string name="module_uninstall_failed">Gagal mencopot pemasangan</string>
+    <string name="module_uninstall_message">Apakah Anda ingin menghapus modul ini?</string>
+    <string name="module_uninstalled">%1$s dihapus</string>
+    <string name="module_uninstall_failed">Gagal menghapus pemasangan</string>
     <string name="add_module_to_user">Tambahkan modul ke pengguna</string>
-    <string name="module_installed">Ditambahkan %1$s ke pengguna %2$s</string>
+    <string name="module_installed">%1$s ditambahkan ke pengguna %2$s</string>
     <string name="module_install_failed">Gagal menambahkan modul</string>
     <string name="install_to_user">Pasang ke pengguna %s</string>
     <string name="install_to_user_message">Ingin memasang %1$s ke pengguna %2$s? Disarankan untuk memasang secara manual, memaksa pemasangan melalui LSPosed dapat menyebabkan masalah.</string>
@@ -162,7 +162,7 @@
     <!-- SettingsActivity -->
     <string name="settings_group_framework">Kerangka kerja</string>
     <string name="settings_disable_verbose_log">Nonaktifkan log verbose</string>
-    <string name="settings_disable_verbose_log_summary">Permintaan laporan masalah dengan menyertakan log-log verbose</string>
+    <string name="settings_disable_verbose_log_summary">Permintaan laporan masalah dengan menyertakan log verbose</string>
     <string name="pure_black_dark_theme">Tema hitam gelap</string>
     <string name="pure_black_dark_theme_summary">Gunakan tema hitam pekat jika tema gelap diaktifkan</string>
     <string name="settings_group_theme">Tema</string>
@@ -193,18 +193,18 @@
     <string name="update_channel_bate">Beta</string>
     <string name="update_channel_nightly">Rilis harian</string>
     <string name="settings_xposed_api_call_protection">Proteksi panggilan API Xposed</string>
-    <string name="settings_xposed_api_call_protection_summary">Blokir kode modul yang dimuat secara dinamis untuk menggunakan Xposed API, ini mungkin mengganggu beberapa modul namun lebih aman</string>
-    <string name="settings_invalidate_inline_hooks">Invalidasi Inline Hook</string>
-    <string name="settings_invalidate_inline_hooks_summary">Melakukan pembersihan libart.so untuk aplikasi yang terdaftar. Ini berisiko menyebabkan malfungsi atau crash acak. Gunakan hanya jika aplikasi tertentu tidak dapat dibuka.</string>
+    <string name="settings_xposed_api_call_protection_summary">Blokir kode modul yang dimuat secara dinamis untuk menggunakan API Xposed, ini mungkin mengganggu beberapa modul namun lebih aman</string>
+    <string name="settings_invalidate_inline_hooks">Invalidasi inline hook</string>
+    <string name="settings_invalidate_inline_hooks_summary">Melakukan pembersihan libart.so untuk aplikasi yang terdaftar. Ini berisiko menyebabkan malfungsi atau rusak acak. Gunakan hanya jika aplikasi tertentu tidak dapat dibuka.</string>
     <string name="settings_invalidate_inline_hooks_warning">Jangan laporkan kesalahan apa pun pada pengembang saat opsi ini diaktifkan.</string>
-    <string name="failed_to_save_invalidate_inline_hooks_list">Gagal menyimpan daftar Invalidasi Inline Hook</string>
+    <string name="failed_to_save_invalidate_inline_hooks_list">Gagal menyimpan daftar invalidasi inline hook</string>
     <plurals name="settings_invalidate_inline_hooks_enabled_count">
         <item quantity="other">%d aplikasi diaktifkan</item>
     </plurals>
     <string name="settings_enable_new_manager">Gunakan manajer baru</string>
     <string name="settings_enable_new_manager_summary">Antarmuka manajer baru bergaya MIUI berbasis compose</string>
-    <string name="settings_enable_predictive_back">Gestur kembali prediktif</string>
-    <string name="settings_enable_predictive_back_summary">Aktifkan dukungan untuk gestur kembali prediktif.</string>
+    <string name="settings_enable_predictive_back">Gerakan kembali prediktif</string>
+    <string name="settings_enable_predictive_back_summary">Aktifkan dukungan untuk gerakan kembali prediktif.</string>
 
     <!-- Module Repo -->
     <string name="module_readme">Baca Aku</string>
@@ -245,7 +245,7 @@
     <string name="color_deep_orange">Jingga gelap</string>
     <string name="color_brown">Coklat</string>
     <string name="color_blue_grey">Abu-abu kebiruan</string>
-    <string name="safe_mode">Mode Aman</string>
+    <string name="safe_mode">Mode aman</string>
     <string name="safe_mode_summary">LSPosed berada dalam mode aman</string>
     <string name="safe_mode_summary2">Semua modul Xposed tidak tersedia hingga mulai ulang berikutnya. \nBeberapa modul menyebabkan kerusakan sistem. Silakan temukan dan nonaktifkan modul ini, lalu berikan masukan kepada pengembang modul tersebut.</string>
     <string name="disable_all_modules">Nonaktifkan semua modul</string>
@@ -256,26 +256,24 @@
     <string name="disable_success_title">Berhasil</string>
     <string name="hook_debug_title">Debug hook</string>
     <string name="debugging_title">Debugging</string>
-    <string name="hook_debug_summary">Izinkan pengambilan informasi debug hook dari proses ter-hook yang dapat memengaruhi performa</string>
+    <string name="hook_debug_summary">Izinkan pengambilan informasi debug hook dari proses ter-hook yang dapat memengaruhi kinerja</string>
     <string name="dump_hook_debug_title">Ambil info debug hook</string>
     <string name="dump_hook_debug_summary">Ambil informasi debug hook ke /data/adb/lspd/log</string>
     <string name="log_to_daemon_title">Log ke daemon</string>
-    <string name="log_to_daemon_summary">Hal ini dapat mencegah aplikasi membaca log modul, tetapi dapat memengaruhi performa</string>
+    <string name="log_to_daemon_summary">Hal ini dapat mencegah aplikasi membaca log modul, tetapi dapat memengaruhi kinerja</string>
     <plurals name="disable_success_message">
         <item quantity="other">Modul %d dinonaktifkan</item>
     </plurals>
 
     <!-- Compose Activity -->
     <string name="follow_system">Ikuti sistem</string>
-    <string name="unknown_author">Pembuat tidak diketahui</string>
+    <string name="unknown_author">Pengembang tidak diketahui</string>
     <string name="unknown_version">Versi tidak diketahui</string>
     <string name="unknown_asset">Aset tidak diketahui</string>
     <string name="download_asset">Unduh</string>
     <string name="nav_back">Kembali</string>
     <string name="menu">Menu</string>
     <string name="menu_filter">Filter</string>
-    <string name="settings_enable_blur">Blur</string>
-    <string name="settings_enable_blur_summary">Aktifkan efek blur untuk bilah atas dan bawah</string>
 
     <!-- Logs Page -->
     <string name="menu_parsed_view">Uraikan</string>
@@ -291,12 +289,16 @@
     <string name="settings_theme_mode_monet_light">Monet (Terang)</string>
     <string name="settings_theme_mode_monet_dark">Monet (Gelap)</string>
     <string name="settings_key_color">Warna aksen</string>
-    <string name="settings_key_color_summary">Sesuaikan warna dasar saat menggunakan Monet</string>
+    <string name="settings_key_color_summary">Sesuaikan warna utama saat menggunakan monet</string>
     <string name="settings_key_color_default">Default</string>
     <string name="settings_page_scale">Skala tampilan</string>
-    <string name="settings_page_scale_summary">Sesuaikan skala tampilan global</string>
-    <string name="settings_glass_bottom_bar">Liquid glass bilah bawah</string>
-    <string name="settings_glass_bottom_bar_summary">Gunakan efek liquid glass untuk bilah bawah yang mengambang</string>
+    <string name="settings_page_scale_summary">Sesuaikan skala tampilan</string>
+    <string name="settings_enable_blur">Blur</string>
+    <string name="settings_enable_blur_summary">Aktifkan efek blur untuk bilah atas dan bawah</string>
+    <string name="settings_floating_bottom_bar">Bilah bawah mengambang</string>
+    <string name="settings_floating_bottom_bar_summary">Gunakan bilah bawah mengambang ala Apple</string>
+    <string name="settings_enable_glass">Kaca cair</string>
+    <string name="settings_enable_glass_summary">Aktifkan efek kaca cair (liquid glass) untuk bilah bawah yang mengambang</string>
 
     <!-- Refresh -->
     <string name="refresh_pulling">Tarik ke bawah untuk menyegarkan</string>
@@ -307,13 +309,13 @@
     <!-- Repository -->
     <string name="time_just_now">Baru saja</string>
     <plurals name="time_minutes_ago">
-        <item quantity="other">%d beberapa menit lalu</item>
+        <item quantity="other">%d menit yang lalu</item>
     </plurals>
     <plurals name="time_hours_ago">
-        <item quantity="other">%d beberapa jam lalu</item>
+        <item quantity="other">%d jam yang lalu</item>
     </plurals>
     <plurals name="time_days_ago">
-        <item quantity="other">%d beberapa hari lalu</item>
+        <item quantity="other">%d hari yang lalu</item>
     </plurals>
 
 </resources>
