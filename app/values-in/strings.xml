@@ -41,8 +41,8 @@
     <string name="install_summary">Ketuk untuk memasang LSPosed</string>
     <string name="not_installed">Tidak terpasang</string>
     <string name="not_install_summary">LSPosed tidak terpasang</string>
-    <string name="activated">Diaktifkan</string>
-    <string name="partial_activated">Diaktifkan sebagian</string>
+    <string name="activated">Aktif</string>
+    <string name="partial_activated">Aktif sebagian</string>
     <string name="system_inject_fail_summary">Injeksi kerangka kerja sistem gagal</string>
     <string name="system_inject_fail"><![CDATA[Ini jarang terjadi dan mungkin disebabkan oleh <b>Magisk</b> atau beberapa modul Magisk berkualitas rendah.<br/>Coba nonaktifkan modul Magisk selain LSPosed atau kirimkan log lengkap ke pengembang.]]></string>
     <string name="system_prop_incorrect_summary">Prop sistem salah</string>
@@ -64,7 +64,7 @@
     <string name="crashed">Rusak</string>
     <string name="mount_failed">Mount gagal</string>
     <string name="update_lsposed">Perbarui LSPosed</string>
-    <string name="update_lsposed_msg">Konfirmasi untuk pembaruan LSPosed? Perangkat ini akan mulai ulang setelah pembaruan selesai</string>
+    <string name="update_lsposed_msg">Konfirmasi untuk pembaruan LSPosed? Perangkat ini akan dimulai ulang setelah pembaruan selesai</string>
     <string name="info_copied">Disalin ke papan klip</string>
 
     <!-- WelcomeDialog -->
@@ -84,12 +84,12 @@
     <string name="logs_save_failed2">Gagal menyimpan:\n%s</string>
     <string name="logs_preparing">Menyiapkan log, harap tunggu</string>
     <string name="logs_prepare_failed">Gagal menyiapkan:\n%s</string>
-    <string name="menuClearLog">Bersihkan log sekarang</string>
+    <string name="menuClearLog">Bersihkan log</string>
     <string name="logs_cleared">Log berhasil dibersihkan.</string>
     <string name="scroll_top">Gulir ke atas</string>
     <string name="loading">Memuat…</string>
     <string name="scroll_bottom">Gulir ke bawah</string>
-    <string name="logs_clear_failed_2">Gagal menghapus log</string>
+    <string name="logs_clear_failed_2">Gagal membersihkan log</string>
     <string name="menu_enable_word_wrap">Bungkus kata</string>
     <string name="enabled_verbose_log">Log verbose diaktifkan</string>
     <string name="disabled_verbose_log">Log verbose dinonaktifkan</string>
@@ -188,7 +188,7 @@
     <string name="settings_translation_summary">Bantu kami menerjemahkan %s ke dalam bahasamu</string>
     <string name="settings_enable_status_notification">Notifikasi status</string>
     <string name="settings_enable_status_notification_summary">Tampilkan notifikasi yang dapat membuka manajer parasit</string>
-    <string name="settings_update_channel">Pembaruan saluran</string>
+    <string name="settings_update_channel">Saluran pembaruan</string>
     <string name="update_channel_stable">Stabil</string>
     <string name="update_channel_bate">Beta</string>
     <string name="update_channel_nightly">Rilis harian</string>
@@ -259,6 +259,8 @@
     <string name="hook_debug_summary">Izinkan pengambilan informasi debug hook dari proses ter-hook yang dapat memengaruhi kinerja</string>
     <string name="dump_hook_debug_title">Ambil info debug hook</string>
     <string name="dump_hook_debug_summary">Ambil informasi debug hook ke /data/adb/lspd/log</string>
+    <string name="dump_hook_success">Disimpan ke %s</string>
+    <string name="dump_hook_failed">Gagal menyimpan</string>
     <string name="log_to_daemon_title">Log ke daemon</string>
     <string name="log_to_daemon_summary">Hal ini dapat mencegah aplikasi membaca log modul, tetapi dapat memengaruhi kinerja</string>
     <plurals name="disable_success_message">
@@ -273,11 +275,11 @@
     <string name="download_asset">Unduh</string>
     <string name="nav_back">Kembali</string>
     <string name="menu">Menu</string>
-    <string name="menu_filter">Filter</string>
+    <string name="menu_filter">Saring</string>
 
     <!-- Logs Page -->
-    <string name="menu_parsed_view">Uraikan</string>
-    <string name="menu_raw_view">Mentah</string>
+    <string name="menu_parsed_view">Tampilan terstruktur</string>
+    <string name="menu_raw_view">Tampilan mentah</string>
 
     <!-- Theme Mode -->
     <string name="settings_theme">Tema</string>
@@ -289,8 +291,8 @@
     <string name="settings_theme_mode_monet_light">Monet (Terang)</string>
     <string name="settings_theme_mode_monet_dark">Monet (Gelap)</string>
     <string name="settings_key_color">Warna aksen</string>
-    <string name="settings_key_color_summary">Sesuaikan warna utama saat menggunakan monet</string>
-    <string name="settings_key_color_default">Default</string>
+    <string name="settings_key_color_summary">Sesuaikan warna dasar saat menggunakan monet</string>
+    <string name="settings_key_color_default">Bawaan</string>
     <string name="settings_page_scale">Skala tampilan</string>
     <string name="settings_page_scale_summary">Sesuaikan skala tampilan</string>
     <string name="settings_enable_blur">Blur</string>
