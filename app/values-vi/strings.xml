@@ -112,7 +112,7 @@
     <string name="view_in_repo">Xem trong Kho</string>
     <string name="module_uninstall_message">Bạn có muốn gỡ cài đặt mô-đun này?</string>
     <string name="module_uninstalled">Đã gỡ cài đặt %1$s</string>
-    <string name="module_uninstall_failed">Gỡ cài đặt thất bại</string>
+    <string name="module_uninstall_failed">Gỡ cài không thành công</string>
     <string name="add_module_to_user">Thêm mô-đun cho người dùng</string>
     <string name="module_installed">Đã thêm %1$s cho người dùng %2$s</string>
     <string name="module_install_failed">Thêm mô-đun thất bại</string>
