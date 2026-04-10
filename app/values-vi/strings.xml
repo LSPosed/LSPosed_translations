@@ -64,8 +64,8 @@
     <string name="info_dex2oat_wrapper">Trình bao bọc Dex Optimizer</string>
     <string name="enabled">Đã bật</string>
     <string name="not_enabled">Chưa bật</string>
-    <string name="supported">Có hỗ trợ</string>
-    <string name="unsupported">Không hỗ trợ</string>
+    <string name="supported">Được hỗ trợ</string>
+    <string name="unsupported">Không được hỗ trợ</string>
     <string name="android_version_unsatisfied">Phiên bản Android không thoả mãn</string>
     <string name="crashed">Bị lỗi</string>
     <string name="mount_failed">Gắn kết thất bại</string>
@@ -112,7 +112,7 @@
     <string name="view_in_repo">Xem trong Kho</string>
     <string name="module_uninstall_message">Bạn có muốn gỡ cài đặt mô-đun này?</string>
     <string name="module_uninstalled">Đã gỡ cài đặt %1$s</string>
-    <string name="module_uninstall_failed">Gỡ cài đặt không thành công</string>
+    <string name="module_uninstall_failed">Gỡ cài không thành công</string>
     <string name="add_module_to_user">Thêm mô-đun cho người dùng</string>
     <string name="module_installed">Đã thêm %1$s cho người dùng %2$s</string>
     <string name="module_install_failed">Thêm mô-đun thất bại</string>
@@ -209,11 +209,12 @@
         <item quantity="other">%d ứng dụng đã bật</item>
     </plurals>
     <string name="settings_enable_new_manager">Bật trình quản lý mới</string>
+    <string name="settings_smooth_rounding">Làm tròn mượt mà</string>
     <string name="settings_enable_new_manager_summary">Sử dụng giao diện trình quản lý dựa trên Compose kiểu MIUI mới.</string>
     <string name="settings_enable_predictive_back">Cử chỉ quay lại dự đoán</string>
     <string name="settings_enable_predictive_back_summary">Bật hỗ trợ cho cử chỉ quay lại dự đoán.</string>
     <!-- Module Repo -->
-    <string name="module_readme">Đọc thêm</string>
+    <string name="module_readme">Đọc tôi</string>
     <string name="module_releases">Phát hành</string>
     <string name="module_information">Thông tin</string>
     <string name="module_information_homepage">Trang chủ</string>
