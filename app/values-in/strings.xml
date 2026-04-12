@@ -56,8 +56,8 @@
     <string name="info_device">Perangkat</string>
     <string name="info_system_abi">Sistem ABI</string>
     <string name="info_dex2oat_wrapper">Pengoptimal Pengemas Dex</string>
-    <string name="enabled">Diaktifkan</string>
-    <string name="not_enabled">Tidak diaktifkan</string>
+    <string name="enabled">Aktif</string>
+    <string name="not_enabled">Nonaktif</string>
     <string name="supported">Didukung</string>
     <string name="unsupported">Tidak didukung</string>
     <string name="android_version_unsatisfied">Versi Android tidak tersedia</string>
@@ -130,7 +130,7 @@
     <string name="sort_by_update_time">Waktu pembaruan</string>
     <string name="sort_reverse">Terbalik</string>
     <string name="menu_show_system_apps">Aplikasi sistem</string>
-    <string name="menu_sort">Sortir</string>
+    <string name="menu_sort">Urutkan</string>
     <string name="enable_module">Aktifkan modul</string>
     <string name="menu_show_games">Permainan</string>
     <string name="menu_show_modules">Modul</string>
@@ -152,7 +152,7 @@
     <string name="force_stop_dlg_text">Jika Anda menghentikan paksa aplikasi, mungkin dapat menyebabkan tidak berfungsi sebagaimana mestinya.</string>
     <string name="reboot_required">Mulai ulang diperlukan agar perubahan ini dapat diterapkan</string>
     <string name="reboot">Mulai ulang</string>
-    <string name="menu_hide">Sembunyikan</string>
+    <string name="menu_hide">Tutup</string>
 
     <!-- ModulesActivity and AppListActivity -->
     <string name="modules_other_app">Lihat di aplikasi lain</string>
@@ -192,7 +192,7 @@
     <string name="update_channel_stable">Stabil</string>
     <string name="update_channel_bate">Beta</string>
     <string name="update_channel_nightly">Rilis harian</string>
-    <string name="settings_xposed_api_call_protection">Proteksi panggilan API Xposed</string>
+    <string name="settings_xposed_api_call_protection">Proteksi Panggilan API Xposed</string>
     <string name="settings_xposed_api_call_protection_summary">Blokir kode modul yang dimuat secara dinamis untuk menggunakan API Xposed, ini mungkin mengganggu beberapa modul namun lebih aman</string>
     <string name="settings_invalidate_inline_hooks">Invalidasi inline hook</string>
     <string name="settings_invalidate_inline_hooks_summary">Melakukan pembersihan libart.so untuk aplikasi yang terdaftar. Ini berisiko menyebabkan malfungsi atau rusak acak. Gunakan hanya jika aplikasi tertentu tidak dapat dibuka.</string>
@@ -203,6 +203,7 @@
     </plurals>
     <string name="settings_enable_new_manager">Gunakan manajer baru</string>
     <string name="settings_enable_new_manager_summary">Antarmuka manajer baru bergaya MIUI berbasis compose</string>
+    <string name="settings_smooth_rounding">Pembulatan halus</string>
     <string name="settings_enable_predictive_back">Gerakan kembali prediktif</string>
     <string name="settings_enable_predictive_back_summary">Aktifkan dukungan untuk gerakan kembali prediktif.</string>
 
@@ -240,7 +241,7 @@
     <string name="color_light_green">Hijau muda</string>
     <string name="color_lime">Hijau limau</string>
     <string name="color_yellow">Kuning</string>
-    <string name="color_amber">Kuning madu</string>
+    <string name="color_amber">Amber</string>
     <string name="color_orange">Jingga</string>
     <string name="color_deep_orange">Jingga gelap</string>
     <string name="color_brown">Coklat</string>
@@ -290,8 +291,8 @@
     <string name="settings_theme_mode_monet_system">Monet (Ikuti sistem)</string>
     <string name="settings_theme_mode_monet_light">Monet (Terang)</string>
     <string name="settings_theme_mode_monet_dark">Monet (Gelap)</string>
-    <string name="settings_key_color">Warna aksen</string>
-    <string name="settings_key_color_summary">Sesuaikan warna dasar saat menggunakan monet</string>
+    <string name="settings_key_color">Warna utama</string>
+    <string name="settings_key_color_summary">Sesuaikan warna utama saat menggunakan monet</string>
     <string name="settings_key_color_default">Bawaan</string>
     <string name="settings_page_scale">Skala tampilan</string>
     <string name="settings_page_scale_summary">Sesuaikan skala tampilan</string>
