@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+									  
 <!--
   ~ This file is part of LSPosed.
   ~
@@ -17,15 +17,16 @@
   ~
   ~ Copyright (C) 2021 LSPosed Contributors
   -->
+
 <resources xmlns:tools="http://schemas.android.com/tools" tools:keep="@string/xposed_module_updated_notification_*,@string/module_is_not_activated_*">
     <!-- MainActivity -->
     <string name="overview">LSPosed</string>
     <string name="Modules">Модули</string>
     <plurals name="modules_enabled_count">
+        <item quantity="other">Включено %d модуля</item>
         <item quantity="one">Включен %d модуль</item>
-        <item quantity="few">Включены %d модуля</item>
+        <item quantity="few">Включено %d модуля</item>
         <item quantity="many">Включено %d модулей</item>
-        <item quantity="other">Включено %d модулей</item>
     </plurals>
     <string name="Logs">Логи</string>
     <string name="Settings">Настройки</string>
@@ -42,7 +43,7 @@
         <item quantity="other">Найдены обновления %d модулей</item>
     </plurals>
     <string name="about_view_source_code"><![CDATA[Просмотреть исходный код на %1$s<br/>Присоединяйтесь к нашему %2$s каналу]]></string>
-    <string name="translators" comment="Dear translators, please add your home page here following the format. There can be more than one translator. So feel free to append yourself.">Alеxеy</string>
+    <string name="translators" comment="Dear translators, please add your home page here following the format. There can be more than one translator. So feel free to append yourself.">Ichigo</string>
     <string name="install">Установить</string>
     <string name="install_summary">Нажмите, чтобы установить LSPosed</string>
     <string name="not_installed">Не установлен</string>
@@ -74,19 +75,24 @@
     <string name="update_lsposed">Обновление LSPosed</string>
     <string name="update_lsposed_msg">Вы точно хотите обновить LSPosed?\nУстройство перезагрузится после завершения обновления</string>
     <string name="info_copied">Скопировано в буфер обмена</string>
+
     <!-- WelcomeDialog -->
     <string name="parasitic_welcome">Добро пожаловать в LSPosed</string>
     <string name="parasitic_welcome_summary">Вы используете скрытый режим. LSPosed можно открыть через уведомление</string>
     <string name="never_show">Больше не показывать</string>
     <string name="app_welcome">Скрытие приложения LSPosed</string>
     <string name="app_welcome_summary">LSPosed теперь поддерживает скрытие, чтобы избежать различные обнаружения системой, вы можете открыть LSPosed из уведомления. Рекомендуется удалить текущее приложение</string>
+
     <!-- LogsActivity -->
     <string name="menuSaveToSd">Сохранить</string>
+    <string name="menuShareLog">Поделиться</string>
     <string name="nav_item_logs_verbose">Подробные логи</string>
     <string name="nav_item_logs_module">Логи модулей</string>
     <string name="logs_saving">Сохранение логов, пожалуйста подождите</string>
     <string name="logs_saved">Логи сохранены</string>
     <string name="logs_save_failed2">Ошибка сохранения:\n%s</string>
+    <string name="logs_preparing">Подготовка к записи в журнал, пожалуйста, подождите.</string>
+    <string name="logs_prepare_failed">Ошибка подготовки:\n%s</string>
     <string name="menuClearLog">Очистить логи</string>
     <string name="logs_cleared">Логи успешно очищены</string>
     <string name="scroll_top">Прокрутить вверх</string>
@@ -96,6 +102,7 @@
     <string name="menu_enable_word_wrap">Переносить текст</string>
     <string name="enabled_verbose_log">Подробные логи включены</string>
     <string name="disabled_verbose_log">Подробные логи выключены</string>
+
     <!-- ModulesActivity -->
     <string name="module_empty_description">(описание отсутствует)</string>
     <string name="warning_xposed_min_version">Этот модуль требует более новой версии LSPosed (%d) и не может быть включен</string>
@@ -114,8 +121,11 @@
     <string name="module_install_failed">Добавление модуля не удалось</string>
     <string name="install_to_user">Установить пользователю %s</string>
     <string name="install_to_user_message">Хотите установить %1$s пользователю %2$s? Рекомендуется устанавливать вручную, принудительная установка через LSPosed может вызвать проблемы</string>
-    <string name="expand">развернуть</string>
-    <string name="collapse">свернуть</string>
+    <string name="expand">Развернуть</string>
+    <string name="collapse">Свернуть</string>
+    <string name="reset_scope_request_setting">Сбросить настройку запроса области действия</string>
+    <string name="reset_scope_request_setting_done">Сброс настроек запроса области действия завершен</string>
+
     <!-- AppListActivity -->
     <string name="compile_speed">Повторная оптимизация</string>
     <string name="compile_speed_msg">Оптимизация…</string>
@@ -133,6 +143,7 @@
     <string name="enable_module">Включить модуль</string>
     <string name="menu_show_games">Игры</string>
     <string name="menu_show_modules">Модули</string>
+    <string name="module_scope_list_static_scope">Модуль объявил статическую область видимости</string>
     <string name="failed_to_save_scope_list">Не удалось сохранить список выбранных приложений для модуля</string>
     <string name="app_version">Версия: %1$s</string>
     <string name="use_recommended">Рекомендуемые</string>
@@ -151,10 +162,12 @@
     <string name="reboot_required">Для применения требуется перезагрузка</string>
     <string name="reboot">Перезагрузить</string>
     <string name="menu_hide">Скрывать</string>
+
     <!-- ModulesActivity and AppListActivity -->
     <string name="modules_other_app">Магазин приложений</string>
     <string name="module_app_info">О приложении</string>
     <string name="list_empty">¯\\\\_(ツ)_\/¯\nЗдесь ничего нет</string>
+
     <!-- SettingsActivity -->
     <string name="settings_group_framework">Фреймворк</string>
     <string name="settings_disable_verbose_log">Выключить подробные логи</string>
@@ -190,6 +203,20 @@
     <string name="update_channel_nightly">Ночные версии</string>
     <string name="settings_xposed_api_call_protection">Защита использования Xposed API</string>
     <string name="settings_xposed_api_call_protection_summary">Блокировать динамически загружаемый код модуля для использования Xposed API, это может нарушить работу некоторых модулей, но повысит безопасность</string>
+    <string name="settings_invalidate_inline_hooks">Аннулировать встроенные хуки</string>
+    <string name="settings_invalidate_inline_hooks_summary">Удалите файл libart.so для перечисленных приложений. Это может привести к случайным сбоям и зависаниям. Используйте эту функцию только в том случае, если не удается открыть определенные приложения.</string>
+    <string name="settings_invalidate_inline_hooks_warning">Не сообщайте об ошибках, если эта опция включена.</string>
+    <string name="failed_to_save_invalidate_inline_hooks_list">Не удалось сохранить список встроенных хуков. Удалить список встроенных хуков.</string>
+    <plurals name="settings_invalidate_inline_hooks_enabled_count">
+        <item quantity="one">Включено %d приложение</item>
+        <item quantity="few">Включено %d приложения</item>
+        <item quantity="many">Включено %d приложений</item>
+        <item quantity="other">Включено %d приложения</item>
+    </plurals>
+    <string name="settings_enable_new_manager">Включить новый менеджера</string>
+    <string name="settings_enable_new_manager_summary">Используйте новый интерфейс менеджера на основе Compose, выполненный в стиле MIUI.</string>
+    <string name="settings_enable_predictive_back">Предсказательный жест назад</string>
+    <string name="settings_enable_predictive_back_summary">Включить поддержку предиктивных жестов при возврате назад</string>
     <!-- Module Repo -->
     <string name="module_readme">Описание</string>
     <string name="module_releases">Версии</string>
@@ -199,6 +226,7 @@
     <string name="module_information_collaborators">Разработчик</string>
     <string name="module_release_view_assets">Установить</string>
     <string name="menu_open_in_browser">Открыть в браузере</string>
+    <string name="menu_share">Поделиться</string>
     <string name="module_release_load_more">Показать старые версии</string>
     <string name="module_release_no_more">Больше нет других версий</string>
     <string name="repo_load_failed">Не удалось загрузить репозиторий модуля: %s</string>
@@ -208,8 +236,9 @@
         <item quantity="one">%d раз скачали</item>
         <item quantity="few">%d раза скачали</item>
         <item quantity="many">%d раз скачали</item>
-        <item quantity="other">%d раз скачали</item>
+        <item quantity="other">%d раза скачали</item>
     </plurals>
+
     <!-- Colors -->
     <string name="color_sakura">Сакура</string>
     <string name="color_red">Красный</string>
@@ -230,4 +259,94 @@
     <string name="color_deep_orange">Насыщенный оранжевый</string>
     <string name="color_brown">Коричневый</string>
     <string name="color_blue_grey">Серо-голубой</string>
+    <string name="safe_mode">Безопасный режим</string>
+    <string name="safe_mode_summary">LSPosed работает в безопасном режиме</string>
+    <string name="safe_mode_summary2">Все модули Xposed будут недоступны до следующей перезагрузки. \nНекоторые модули вызвали сбои системы. Пожалуйста, найдите и отключите проблемные модули и сообщите об этом их разработчикам.</string>
+    <string name="disable_all_modules">Отключить все модули</string>
+    <string name="confirm_disable_all_modules">Подтвердить?</string>
+    <plurals name="message_disable_all_modules">
+        <item quantity="other">%d модуля будут отключены.\nЭто действие нельзя отменить.</item>
+        <item quantity="one">%d модуль будет отключён.\nЭто действие нельзя отменить.</item>
+        <item quantity="few">%d модуля будут отключены.\nЭто действие нельзя отменить.</item>
+        <item quantity="many">%d модулей будут отключены.\nЭто действие нельзя отменить.</item>
+    </plurals>
+    <string name="disable_success_title">Успешно</string>
+    <string name="hook_debug_title">Отладка хуков</string>
+    <string name="debugging_title">Отладка</string>
+    <string name="hook_debug_summary">Разрешить сохранение отладочной информации хуков для подключённых процессов (может влиять на производительность)</string>
+    <string name="dump_hook_debug_title">Сохранить отладочную информацию хуков</string>
+    <string name="dump_hook_debug_summary">Сохранить отладочную информацию хуков в /data/adb/lspd/log</string>
+    <string name="dump_hook_success">Сохранено в %s</string>
+    <string name="dump_hook_failed">Не удалось сохранить</string>
+    <string name="log_to_daemon_title">Логи в демон</string>
+    <string name="log_to_daemon_summary">Это может предотвратить чтение логов модулей приложениями, но может повлиять на производительность</string>
+    <plurals name="disable_success_message">
+        <item quantity="other">Отключено %d модуля</item>
+        <item quantity="one">Отключён %d модуль</item>
+        <item quantity="few">Отключено %d модуля</item>
+        <item quantity="many">Отключено %d модулей</item>
+    </plurals>
+
+    <!-- Compose Activity -->
+    <string name="follow_system">Как в системе</string>
+    <string name="unknown_author">Неизвестный автор</string>
+    <string name="unknown_version">Неизвестная версия</string>
+    <string name="unknown_asset">Неизвестный ресурс</string>
+    <string name="download_asset">Скачать</string>
+    <string name="nav_back">Назад</string>
+    <string name="menu">Меню</string>
+    <string name="menu_filter">Фильтр</string>
+
+    <!-- Logs Page -->
+    <string name="menu_parsed_view">Разобранный вид</string>
+    <string name="menu_raw_view">Исходный вид</string>
+
+    <!-- Theme Mode -->
+    <string name="settings_theme">Тема</string>
+    <string name="settings_theme_summary">Выберите режим темы приложения</string>
+    <string name="settings_theme_mode_system">Как в системе</string>
+    <string name="settings_theme_mode_light">Светлая</string>
+    <string name="settings_theme_mode_dark">Тёмная</string>
+    <string name="settings_theme_mode_monet_system">Monet (как в системе)</string>
+    <string name="settings_theme_mode_monet_light">Monet (светлая)</string>
+    <string name="settings_theme_mode_monet_dark">Monet (тёмная)</string>
+    <string name="settings_key_color">Акцентный цвет</string>
+    <string name="settings_key_color_summary">Настройте базовый цвет при использовании Monet</string>
+    <string name="settings_key_color_default">По умолчанию</string>
+    <string name="settings_page_scale">Масштаб страниц</string>
+    <string name="settings_page_scale_summary">Настройка глобального масштаба отображения</string>
+    <string name="settings_enable_blur">Размытие</string>
+    <string name="settings_enable_blur_summary">Включить эффект размытия для верхней и нижней панелей</string>
+    <string name="settings_floating_bottom_bar">Плавающая нижняя панель</string>
+    <string name="settings_floating_bottom_bar_summary">Использовать стиль плавающей нижней панели как в iOS</string>
+    <string name="settings_enable_glass">Жидкое стекло</string>
+    <string name="settings_enable_glass_summary">Включить эффект жидкого стекла для плавающей нижней панели</string>
+
+    <!-- Refresh -->
+    <string name="refresh_pulling">Потяните вниз для обновления</string>
+    <string name="refresh_release">Отпустите для обновления</string>
+    <string name="refresh_refresh">Обновление…</string>
+    <string name="refresh_complete">Обновлено успешно</string>
+
+    <!-- Repository -->
+    <string name="time_just_now">Только что</string>
+    <plurals name="time_minutes_ago">
+        <item quantity="other">%d минуты назад</item>
+        <item quantity="one">%d минуту назад</item>
+        <item quantity="few">%d минуты назад</item>
+        <item quantity="many">%d минут назад</item>
+    </plurals>
+    <plurals name="time_hours_ago">
+        <item quantity="other">%d часа назад</item>
+        <item quantity="one">%d час назад</item>
+        <item quantity="few">%d часа назад</item>
+        <item quantity="many">%d часов назад</item>
+    </plurals>
+    <plurals name="time_days_ago">
+        <item quantity="other">%d дня назад</item>
+        <item quantity="one">%d день назад</item>
+        <item quantity="few">%d дня назад</item>
+        <item quantity="many">%d дней назад</item>
+    </plurals>
+
 </resources>
