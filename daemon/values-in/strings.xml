@@ -7,6 +7,8 @@
     <string name="xposed_module_updated_notification_title">Modul Xposed diperbarui</string>
     <string name="xposed_module_updated_notification_content">%s Telah diperbarui, harap paksa berhenti dan mulai ulang aplikasi dalam cakupannya</string>
     <string name="xposed_module_updated_notification_title_system">Modul Xposed telah diperbarui, sistem diperlukan mulai ulang</string>
+    <string name="xposed_module_enabled_notification_title">Modul Xposed diaktifkan</string>
+    <string name="xposed_module_enabled_notification_content">%s telah diaktifkan, ketuk untuk mengatur cakupan</string>
     <string name="xposed_module_updated_notification_action_enable">Aktifkan modul</string>
     <string name="xposed_module_updated_notification_content_system">%s Telah diperbarui, karena cakupannya berisi Kerangka Kerja Sistem, diperlukan mulai ulang untuk menerapkan perubahan</string>
     <string name="module_updated_channel_name">Pembaruan modul selesai</string>
