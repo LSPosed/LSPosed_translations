@@ -202,6 +202,8 @@
     <string name="settings_smooth_rounding">平滑圆角</string>
     <string name="settings_enable_predictive_back">预测性返回手势</string>
     <string name="settings_enable_predictive_back_summary">启用对预测性返回手势的支持</string>
+    <string name="settings_tapjacking_protection">触控劫持保护</string>
+    <string name="settings_tapjacking_protection_summary">启用后，阻止窗口被遮盖时的触控事件，防止点按劫持攻击</string>
     <!-- Module Repo -->
     <string name="module_readme">自述文件</string>
     <string name="module_releases">版本</string>

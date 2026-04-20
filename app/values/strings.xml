@@ -212,6 +212,8 @@
     <string name="settings_smooth_rounding">Smooth rounding</string>
     <string name="settings_enable_predictive_back">Predictive back gesture</string>
     <string name="settings_enable_predictive_back_summary">Enable support for predictive back gestures.</string>
+    <string name="settings_tapjacking_protection">Tapjacking Protection</string>
+    <string name="settings_tapjacking_protection_summary">When enabled, blocks touch events when the window is obscured to prevents tapjacking attacks.</string>
     <!-- Module Repo -->
     <string name="module_readme">Readme</string>
     <string name="module_releases">Releases</string>
@@ -252,6 +254,7 @@
     <string name="color_deep_orange">Deep orange</string>
     <string name="color_brown">Brown</string>
     <string name="color_blue_grey">Blue grey</string>
+
     <string name="safe_mode">Safe Mode</string>
     <string name="safe_mode_summary">LSPosed is in safe mode</string>
     <string name="safe_mode_summary2">All Xposed modules are unavailable until next reboot. \nSome modules have caused system crashes. Please find and disable these modules and provide feedback to the module developers.</string>
