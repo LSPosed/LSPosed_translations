@@ -42,7 +42,6 @@
         <item quantity="other">%d moduly s možnosťou aktualizácie</item>
     </plurals>
     <string name="about_view_source_code"><![CDATA[Zobraziť zdrojový kód na %1$s<br/>Pripojte sa k nášmu kanálu %2$s]]></string>
-    <string name="translators" comment="Dear translators, please add your home page here following the format. There can be more than one translator. So feel free to append yourself.">null</string>
     <string name="install">Inštalácia stránky</string>
     <string name="install_summary">Ťuknutím na položku nainštalujete LSPosed</string>
     <string name="not_installed">Nie je nainštalovaný</string>
@@ -161,8 +160,8 @@
     <string name="pure_black_dark_theme_summary">Použitie čisto čiernej témy, ak je povolená tmavá téma</string>
     <string name="settings_group_theme">Téma</string>
     <string name="settings_backup_and_restore">Zálohovanie a obnovenie</string>
-    <string name="settings_backup_summery">Záložný zoznam modulov a zoznamy rozsahov.</string>
-    <string name="settings_restore_summery">Obnovenie zoznamu modulov a zoznamov oblastí.</string>
+    <string name="settings_backup_summary">Záložný zoznam modulov a zoznamy rozsahov.</string>
+    <string name="settings_restore_summary">Obnovenie zoznamu modulov a zoznamov oblastí.</string>
     <string name="settings_backup">Zálohovanie</string>
     <string name="settings_backup_failed2">Nepodarilo sa zálohovať:\n%s</string>
     <string name="enable_documentui">Povoľte DocumentUI</string>
@@ -184,7 +183,7 @@
     <string name="settings_enable_status_notification_summary">Zobrazenie oznámenia, ktoré môže otvoriť parazitický správca</string>
     <string name="settings_update_channel">Aktualizačný kanál</string>
     <string name="update_channel_stable">Stabilné</string>
-    <string name="update_channel_bate">Beta</string>
+    <string name="update_channel_beta">Beta</string>
     <string name="update_channel_nightly">Nočné zostavenie</string>
     <string name="settings_xposed_api_call_protection">Ochrana volaní Xposed API</string>
     <string name="settings_xposed_api_call_protection_summary">Blokovať dynamicky načítaný kód modulu, aby používal Xposed API, čo môže rozbiť niektoré moduly, ale prospeje bezpečnosti</string>

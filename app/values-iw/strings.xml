@@ -42,7 +42,6 @@
         <item quantity="other">%d מודולים ניתנים לשדרוג</item>
     </plurals>
     <string name="about_view_source_code"><![CDATA[הצג קוד מקור ב-%1$s<br/> הצטרף לערוץ %2$s שלנו]]></string>
-    <string name="translators" comment="Dear translators, please add your home page here following the format. There can be more than one translator. So feel free to append yourself.">ריק</string>
     <string name="install">התקנה</string>
     <string name="install_summary">הקש כדי להתקין את LSPosed</string>
     <string name="not_installed">לא מותקן</string>
@@ -161,8 +160,8 @@
     <string name="pure_black_dark_theme_summary">השתמש בערכת נושא שחור טהור אם ערכת נושא כהה מופעלת</string>
     <string name="settings_group_theme">ערכת נושא</string>
     <string name="settings_backup_and_restore">גיבוי ושחזור</string>
-    <string name="settings_backup_summery">גיבוי רשימת מודולים ורשימות היקף.</string>
-    <string name="settings_restore_summery">שחזר את רשימת המודולים ורשימות ההיקף.</string>
+    <string name="settings_backup_summary">גיבוי רשימת מודולים ורשימות היקף.</string>
+    <string name="settings_restore_summary">שחזר את רשימת המודולים ורשימות ההיקף.</string>
     <string name="settings_backup">גיבוי</string>
     <string name="settings_backup_failed2">גיבוי נכשל:\n%s</string>
     <string name="enable_documentui">אנא הפעל את DocumentUI</string>
@@ -184,7 +183,7 @@
     <string name="settings_enable_status_notification_summary">הצג הודעה שיכולה לפתוח מנהל טפילי</string>
     <string name="settings_update_channel">ערוץ עדכון</string>
     <string name="update_channel_stable">יציב</string>
-    <string name="update_channel_bate">בטא</string>
+    <string name="update_channel_beta">בטא</string>
     <string name="update_channel_nightly">בניה לילית</string>
     <string name="settings_xposed_api_call_protection">הגנה מפני קריאות Xposed API</string>
     <string name="settings_xposed_api_call_protection_summary">חסום קוד מודול שנטען באופן דינמי לשימוש ב-Xposed API, זה עשוי לשבור מודולים מסוימים אך להועיל לאבטחה</string>

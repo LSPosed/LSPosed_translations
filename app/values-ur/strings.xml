@@ -157,8 +157,8 @@
     <string name="pure_black_dark_theme_summary">اگر سیاہ تھیم فعال ہو تو خالص سیاہ تھیم استعمال کریں۔</string>
     <string name="settings_group_theme">خیالیہ</string>
     <string name="settings_backup_and_restore">بیک اپ اور بحال</string>
-    <string name="settings_backup_summery">بیک اپ ماڈیول کی فہرست اور دائرہ کار کی فہرستیں۔</string>
-    <string name="settings_restore_summery">ماڈیول کی فہرست اور دائرہ کار کی فہرستوں کو بحال کریں۔</string>
+    <string name="settings_backup_summary">بیک اپ ماڈیول کی فہرست اور دائرہ کار کی فہرستیں۔</string>
+    <string name="settings_restore_summary">ماڈیول کی فہرست اور دائرہ کار کی فہرستوں کو بحال کریں۔</string>
     <string name="settings_backup">بیک اپ</string>
     <string name="settings_backup_failed2">بیک اپ کرنے میں ناکام:\n%s</string>
     <string name="enable_documentui">براہ کرم DocumentUI کو فعال کریں۔</string>
@@ -180,7 +180,7 @@
     <string name="settings_enable_status_notification_summary">ایک اطلاع دکھائیں جو پرجیوی مینیجر کو کھول سکے۔</string>
     <string name="settings_update_channel">چینل کو اپ ڈیٹ کریں۔</string>
     <string name="update_channel_stable">مستحکم</string>
-    <string name="update_channel_bate">بیٹا</string>
+    <string name="update_channel_beta">بیٹا</string>
     <string name="update_channel_nightly">رات کی تعمیر</string>
     <string name="settings_xposed_api_call_protection">Xposed API کال تحفظ</string>
     <string name="settings_xposed_api_call_protection_summary">ایکسپوزڈ API استعمال کرنے کے لیے متحرک طور پر بھرے ہوئے ماڈیول کوڈ کو بلاک کریں، اس سے کچھ ماڈیول ٹوٹ سکتے ہیں لیکن سیکیورٹی کو فائدہ پہنچ سکتا ہے</string>

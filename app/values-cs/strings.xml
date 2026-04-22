@@ -161,8 +161,8 @@
     <string name="pure_black_dark_theme_summary">Použít čistý černý motiv, pokud je tmavý motiv povolen</string>
     <string name="settings_group_theme">Vzhled</string>
     <string name="settings_backup_and_restore">Zálohování a obnovení</string>
-    <string name="settings_backup_summery">Zálohovat seznam modulů a nastavení.</string>
-    <string name="settings_restore_summery">Obnovit seznam modulů a nastavení.</string>
+    <string name="settings_backup_summary">Zálohovat seznam modulů a nastavení.</string>
+    <string name="settings_restore_summary">Obnovit seznam modulů a nastavení.</string>
     <string name="settings_backup">Zálohování</string>
     <string name="settings_backup_failed2">Zálohování se nezdařilo:\n%s</string>
     <string name="enable_documentui">Prosím povolte DocumentUI</string>
@@ -184,7 +184,7 @@
     <string name="settings_enable_status_notification_summary">Zobrazení oznámení, které může otevřít parazitního správce</string>
     <string name="settings_update_channel">Kanál aktualizace</string>
     <string name="update_channel_stable">Stabilní</string>
-    <string name="update_channel_bate">Beta</string>
+    <string name="update_channel_beta">Beta</string>
     <string name="update_channel_nightly">Noční sestavení</string>
     <string name="settings_xposed_api_call_protection">Ochrana volání rozhraní Xposed API</string>
     <string name="settings_xposed_api_call_protection_summary">Blokování dynamicky načítaného kódu modulu pro použití rozhraní Xposed API, což může narušit některé moduly, ale prospěje bezpečnosti</string>

@@ -157,8 +157,8 @@
     <string name="pure_black_dark_theme_summary">Använd det rena svarta temat om mörkt tema är aktiverat</string>
     <string name="settings_group_theme">Tema</string>
     <string name="settings_backup_and_restore">Säkerhetskopiera och återställ</string>
-    <string name="settings_backup_summery">Säkerhetskopiera modullista och omfattningslistor.</string>
-    <string name="settings_restore_summery">Återställ modullista och omfattningslistor.</string>
+    <string name="settings_backup_summary">Säkerhetskopiera modullista och omfattningslistor.</string>
+    <string name="settings_restore_summary">Återställ modullista och omfattningslistor.</string>
     <string name="settings_backup">Säkerhetskopiera</string>
     <string name="settings_backup_failed2">Det gick inte att säkerhetskopiera:\n%s</string>
     <string name="enable_documentui">Aktivera DocumentUI</string>
@@ -180,7 +180,7 @@
     <string name="settings_enable_status_notification_summary">Visa en anmälan som kan öppna parasitansvarig</string>
     <string name="settings_update_channel">Uppdatera kanal</string>
     <string name="update_channel_stable">Stabil</string>
-    <string name="update_channel_bate">Beta</string>
+    <string name="update_channel_beta">Beta</string>
     <string name="update_channel_nightly">Nattligt bygg</string>
     <string name="settings_xposed_api_call_protection">Skydd av Xposed API-anrop</string>
     <string name="settings_xposed_api_call_protection_summary">Blockera dynamiskt laddad modulkod för att använda Xposed API, vilket kan förstöra vissa moduler men gynnar säkerheten.</string>

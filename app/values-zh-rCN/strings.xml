@@ -166,8 +166,8 @@
     <string name="pure_black_dark_theme_summary">当深色主题启用时使用纯黑主题</string>
     <string name="settings_group_theme">主题</string>
     <string name="settings_backup_and_restore">备份与恢复</string>
-    <string name="settings_backup_summery">备份模块列表与作用域列表</string>
-    <string name="settings_restore_summery">恢复模块列表与作用域列表</string>
+    <string name="settings_backup_summary">备份模块列表与作用域列表</string>
+    <string name="settings_restore_summary">恢复模块列表与作用域列表</string>
     <string name="settings_backup">备份</string>
     <string name="settings_backup_failed2">备份失败：\n%s</string>
     <string name="enable_documentui">请启用文档应用</string>
@@ -189,7 +189,7 @@
     <string name="settings_enable_status_notification_summary">显示一个通知以打开寄生管理器</string>
     <string name="settings_update_channel">模块更新通道</string>
     <string name="update_channel_stable">稳定版</string>
-    <string name="update_channel_bate">测试版</string>
+    <string name="update_channel_beta">测试版</string>
     <string name="update_channel_nightly">每夜版</string>
     <string name="settings_xposed_api_call_protection">Xposed API 调用保护</string>
     <string name="settings_xposed_api_call_protection_summary">阻止模块动态加载的代码使用 Xposed API，这会使某些模块失效，但有利于安全性</string>

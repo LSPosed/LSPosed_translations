@@ -157,8 +157,8 @@
     <string name="pure_black_dark_theme_summary">অন্ধকার থিম সক্ষম থাকলে খাঁটি কালো থিম ব্যবহার করুন</string>
     <string name="settings_group_theme">থিম</string>
     <string name="settings_backup_and_restore">ব্যাকআপ এবং পুনঃস্থাপন</string>
-    <string name="settings_backup_summery">ব্যাকআপ মডিউল তালিকা এবং সুযোগ তালিকা.</string>
-    <string name="settings_restore_summery">মডিউল তালিকা এবং সুযোগ তালিকা পুনরুদ্ধার করুন।</string>
+    <string name="settings_backup_summary">ব্যাকআপ মডিউল তালিকা এবং সুযোগ তালিকা.</string>
+    <string name="settings_restore_summary">মডিউল তালিকা এবং সুযোগ তালিকা পুনরুদ্ধার করুন।</string>
     <string name="settings_backup">ব্যাকআপ</string>
     <string name="settings_backup_failed2">ব্যাকআপ করতে ব্যর্থ হয়েছে:\n%s</string>
     <string name="enable_documentui">অনুগ্রহ করে ডকুমেন্টইউআই সক্ষম করুন</string>
@@ -180,7 +180,7 @@
     <string name="settings_enable_status_notification_summary">পরজীবী ম্যানেজার খুলতে পারে এমন একটি বিজ্ঞপ্তি দেখান</string>
     <string name="settings_update_channel">চ্যানেল আপডেট করুন</string>
     <string name="update_channel_stable">স্থিতিশীল</string>
-    <string name="update_channel_bate">বেটা</string>
+    <string name="update_channel_beta">বেটা</string>
     <string name="update_channel_nightly">রাতারাতি নির্মাণ</string>
     <string name="settings_xposed_api_call_protection">Xposed API কল সুরক্ষা</string>
     <string name="settings_xposed_api_call_protection_summary">এক্সপোজড এপিআই ব্যবহার করতে গতিশীলভাবে লোড করা মডিউল কোড ব্লক করুন, এটি কিছু মডিউল ভেঙে ফেলতে পারে তবে নিরাপত্তার সুবিধা পাবে</string>

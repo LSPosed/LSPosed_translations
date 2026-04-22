@@ -157,8 +157,8 @@
     <string name="pure_black_dark_theme_summary">Kasutage puhast musta teemat, kui tume teema on lubatud.</string>
     <string name="settings_group_theme">Teema</string>
     <string name="settings_backup_and_restore">Varundamine ja taastamine</string>
-    <string name="settings_backup_summery">Moodulite varukoopiate nimekiri ja ulatusloendid.</string>
-    <string name="settings_restore_summery">Taastab moodulite loendi ja ulatusloendite loendi.</string>
+    <string name="settings_backup_summary">Moodulite varukoopiate nimekiri ja ulatusloendid.</string>
+    <string name="settings_restore_summary">Taastab moodulite loendi ja ulatusloendite loendi.</string>
     <string name="settings_backup">Varukoopia</string>
     <string name="settings_backup_failed2">Varundamine ebaõnnestus:\n%s</string>
     <string name="enable_documentui">Palun lubage DocumentUI</string>
@@ -180,7 +180,7 @@
     <string name="settings_enable_status_notification_summary">Kuva teatis, mis võib avada parasiitide halduri</string>
     <string name="settings_update_channel">Uuenduskanal</string>
     <string name="update_channel_stable">Stabiilne</string>
-    <string name="update_channel_bate">Beeta</string>
+    <string name="update_channel_beta">Beeta</string>
     <string name="update_channel_nightly">Nightly build</string>
     <string name="settings_xposed_api_call_protection">Xposed API call protection</string>
     <string name="settings_xposed_api_call_protection_summary">Blokeerige dünaamiliselt laaditud mooduli kood, et kasutada Xposed API-t, see võib mõne mooduli rikkuda, kuid toob kasu turvalisusele</string>

@@ -160,8 +160,8 @@ JJ108</string>
     <string name="pure_black_dark_theme_summary">Schwarzes Thema verwenden, wenn dunkles Thema aktiviert ist</string>
     <string name="settings_group_theme">Design</string>
     <string name="settings_backup_and_restore">Sichern und Wiederherstellen</string>
-    <string name="settings_backup_summery">Modul- und Scope-Listen sichern.</string>
-    <string name="settings_restore_summery">Modul- und Scope-Listen wiederherstellen</string>
+    <string name="settings_backup_summary">Modul- und Scope-Listen sichern.</string>
+    <string name="settings_restore_summary">Modul- und Scope-Listen wiederherstellen</string>
     <string name="settings_backup">Sichern</string>
     <string name="settings_backup_failed2">Sicherung fehlgeschlagen:\n%s</string>
     <string name="enable_documentui">Bitte DocumentUI aktivieren</string>
@@ -183,7 +183,7 @@ JJ108</string>
     <string name="settings_enable_status_notification_summary">Eine Benachrichtigung anzeigen, die den parasitären Manager öffnen kann</string>
     <string name="settings_update_channel">Update-Kanal</string>
     <string name="update_channel_stable">Stabil</string>
-    <string name="update_channel_bate">Beta</string>
+    <string name="update_channel_beta">Beta</string>
     <string name="update_channel_nightly">Nightly Build</string>
     <string name="settings_xposed_api_call_protection">Xposed API-Aufrufschutz</string>
     <string name="settings_xposed_api_call_protection_summary">Dynamisch geladenen Modulcode blockieren, um Xposed API zu verwenden. Einige Module werden nicht mehr funktionieren, aber die Sicherheit profitiert davon</string>

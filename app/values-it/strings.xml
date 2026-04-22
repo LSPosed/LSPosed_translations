@@ -159,8 +159,8 @@
     <string name="pure_black_dark_theme_summary">Usa il tema nero puro quando è abilitato il tema scuro</string>
     <string name="settings_group_theme">Tema</string>
     <string name="settings_backup_and_restore">Backup e ripristino</string>
-    <string name="settings_backup_summery">Backup dell\'elenco dei moduli e delle attivazioni.</string>
-    <string name="settings_restore_summery">Ripristino dell\'elenco dei moduli e delle attivazioni.</string>
+    <string name="settings_backup_summary">Backup dell\'elenco dei moduli e delle attivazioni.</string>
+    <string name="settings_restore_summary">Ripristino dell\'elenco dei moduli e delle attivazioni.</string>
     <string name="settings_backup">Backup</string>
     <string name="settings_backup_failed2">Salvataggio non riuscito:\n%s</string>
     <string name="enable_documentui">Abilitare DocumentUI</string>
@@ -182,7 +182,7 @@
     <string name="settings_enable_status_notification_summary">Mostra una notifica che può aprire il manager parassitario</string>
     <string name="settings_update_channel">Canale di aggiornamento</string>
     <string name="update_channel_stable">Stabile</string>
-    <string name="update_channel_bate">Beta</string>
+    <string name="update_channel_beta">Beta</string>
     <string name="update_channel_nightly">Nightly</string>
     <string name="settings_xposed_api_call_protection">API di protezione delle chiamate di Xposed</string>
     <string name="settings_xposed_api_call_protection_summary">Blocca dinamicamente il codice del modulo caricato per utilizzare l\'API di Xposed, questo potrebbe interrompere alcuni moduli ma favorire la sicurezza</string>

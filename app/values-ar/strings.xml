@@ -167,8 +167,8 @@
     <string name="pure_black_dark_theme_summary">استخدام سمة الظلام الغامق فور تفعيل سمة الظلام</string>
     <string name="settings_group_theme">السمة</string>
     <string name="settings_backup_and_restore">النسخة الاحتياطية والاستعادة</string>
-    <string name="settings_backup_summery">حفظ قائمة الإضافات وقائمة إعدادات المجال</string>
-    <string name="settings_restore_summery">استعادة قائمة الإضافات وقائمة إعدادات المجال</string>
+    <string name="settings_backup_summary">حفظ قائمة الإضافات وقائمة إعدادات المجال</string>
+    <string name="settings_restore_summary">استعادة قائمة الإضافات وقائمة إعدادات المجال</string>
     <string name="settings_backup">إنشاء</string>
     <string name="settings_backup_failed2">فشل في إنشاء نسخة احتياطية:\n%s</string>
     <string name="enable_documentui">يرجى تفعيل تطبيق DocumentUI</string>
@@ -190,7 +190,7 @@
     <string name="settings_enable_status_notification_summary">إظهار إشعار يسمح لك بفتح مدير الطفيليات</string>
     <string name="settings_update_channel">قناة التحديث</string>
     <string name="update_channel_stable">مستقر</string>
-    <string name="update_channel_bate">تجريبي</string>
+    <string name="update_channel_beta">تجريبي</string>
     <string name="update_channel_nightly">النسخة الليلية</string>
     <string name="settings_xposed_api_call_protection">حماية ندائات Xposed API</string>
     <string name="settings_xposed_api_call_protection_summary">حظر كود الإضافة الذي تم تحميله ديناميكيا لإستخدام Xposed API، قد يسبب هذا الخيار بتوقف بعض الإضافات ولكنه مفيد للحماية</string>

@@ -167,8 +167,8 @@
     <string name="pure_black_dark_theme_summary">Koyu tema etkinse saf siyah temayı kullanın</string>
     <string name="settings_group_theme">Tema</string>
     <string name="settings_backup_and_restore">Yedekle</string>
-    <string name="settings_backup_summery">Modül ve kapsam listelerini yedekle.</string>
-    <string name="settings_restore_summery">Modül ve kapsam listelerini geri yükle.</string>
+    <string name="settings_backup_summary">Modül ve kapsam listelerini yedekle.</string>
+    <string name="settings_restore_summary">Modül ve kapsam listelerini geri yükle.</string>
     <string name="settings_backup">Yedek</string>
     <string name="settings_backup_failed2">Yedekleme başarısız oldu:\n%s</string>
     <string name="enable_documentui">Lütfen DocumentUI\'yi etkinleştirin</string>
@@ -190,7 +190,7 @@
     <string name="settings_enable_status_notification_summary">Parazit yöneticiyi açabilmek için bir bildirim göster</string>
     <string name="settings_update_channel">Güncelleme kanalı</string>
     <string name="update_channel_stable">Stabil</string>
-    <string name="update_channel_bate">Beta</string>
+    <string name="update_channel_beta">Beta</string>
     <string name="update_channel_nightly">Gecelik</string>
     <string name="settings_xposed_api_call_protection">Xposed API çağrı koruması</string>
     <string name="settings_xposed_api_call_protection_summary">Xposed API kullanmak için dinamik olarak yüklenen modül kodunu engelleyin, bu bazı modülleri bozabilir ancak güvenliğe faydalı da olabilir</string>

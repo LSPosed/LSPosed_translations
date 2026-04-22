@@ -38,7 +38,6 @@
         <item quantity="other">%d moduulia päivitettävissä</item>
     </plurals>
     <string name="about_view_source_code"><![CDATA[Näytä lähdekoodi %1$s<br/>Liity kanavaamme %2$s]]></string>
-    <string name="translators" comment="Dear translators, please add your home page here following the format. There can be more than one translator. So feel free to append yourself.">null</string>
     <string name="install">Asenna</string>
     <string name="install_summary">Napauta asentaaksesi LSPosed</string>
     <string name="not_installed">Ei asennettu</string>
@@ -157,8 +156,8 @@
     <string name="pure_black_dark_theme_summary">Käytä puhdas musta teema, jos tumma teema on käytössä</string>
     <string name="settings_group_theme">Teema</string>
     <string name="settings_backup_and_restore">Varmuuskopioi ja palauta</string>
-    <string name="settings_backup_summery">Varmuuskopioi moduulien listat ja sisällysluettelot.</string>
-    <string name="settings_restore_summery">Palauta moduulien luettelo ja sisällysluettelot.</string>
+    <string name="settings_backup_summary">Varmuuskopioi moduulien listat ja sisällysluettelot.</string>
+    <string name="settings_restore_summary">Palauta moduulien luettelo ja sisällysluettelot.</string>
     <string name="settings_backup">Varmuuskopio</string>
     <string name="settings_backup_failed2">Varmuuskopiointi epäonnistui:\n%s</string>
     <string name="enable_documentui">Ota DocumentUI käyttöön</string>
@@ -180,7 +179,7 @@
     <string name="settings_enable_status_notification_summary">Näytä ilmoitus, joka voi avata loishallintaohjelman</string>
     <string name="settings_update_channel">Päivitä kanava</string>
     <string name="update_channel_stable">Vakaa</string>
-    <string name="update_channel_bate">Beeta</string>
+    <string name="update_channel_beta">Beeta</string>
     <string name="update_channel_nightly">Yöllinen rakentaminen</string>
     <string name="settings_xposed_api_call_protection">Xposedin API-kutsujen suojaus</string>
     <string name="settings_xposed_api_call_protection_summary">Estetään dynaamisesti ladatun moduulin koodin käyttö Xposed API:n avulla, mikä saattaa rikkoa joitakin moduuleja mutta hyödyttää turvallisuutta.</string>

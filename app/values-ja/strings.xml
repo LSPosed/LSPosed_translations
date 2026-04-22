@@ -155,8 +155,8 @@
     <string name="pure_black_dark_theme_summary">ダークテーマ有効時にピュアブラックのテーマを使用</string>
     <string name="settings_group_theme">テーマ</string>
     <string name="settings_backup_and_restore">バックアップと復元</string>
-    <string name="settings_backup_summery">モジュールリストとスコープリストのバックアップ</string>
-    <string name="settings_restore_summery">モジュールリストとスコープリストの復元</string>
+    <string name="settings_backup_summary">モジュールリストとスコープリストのバックアップ</string>
+    <string name="settings_restore_summary">モジュールリストとスコープリストの復元</string>
     <string name="settings_backup">バックアップ</string>
     <string name="settings_backup_failed2">バックアップに失敗しました:\n%s</string>
     <string name="enable_documentui">DocumentUIを有効にしてください。</string>
@@ -178,7 +178,7 @@
     <string name="settings_enable_status_notification_summary">パラサイトマネージャーを開くことができる通知を表示する</string>
     <string name="settings_update_channel">更新チャンネル</string>
     <string name="update_channel_stable">安定版</string>
-    <string name="update_channel_bate">ベータ版</string>
+    <string name="update_channel_beta">ベータ版</string>
     <string name="update_channel_nightly">ナイトリービルド</string>
     <string name="settings_xposed_api_call_protection">Xposed APIの呼び出し保護</string>
     <string name="settings_xposed_api_call_protection_summary">Xposed APIを使用するために動的にロードされたモジュールコードをブロックします。これにより、一部のモジュールが壊れる可能性がありますが、セキュリティにメリットがあります</string>
