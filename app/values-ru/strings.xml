@@ -206,14 +206,14 @@
     <string name="settings_invalidate_inline_hooks">Аннулировать встроенные хуки</string>
     <string name="settings_invalidate_inline_hooks_summary">Удалите файл libart.so для перечисленных приложений. Это может привести к случайным сбоям и зависаниям. Используйте эту функцию только в том случае, если не удается открыть определенные приложения.</string>
     <string name="settings_invalidate_inline_hooks_warning">Не сообщайте об ошибках, если эта опция включена.</string>
-    <string name="failed_to_save_invalidate_inline_hooks_list">Не удалось сохранить список встроенных хуков. Удалить список встроенных хуков.</string>
+    <string name="failed_to_save_invalidate_inline_hooks_list">Не удалось сохранить список встроенных хуков.</string>
     <plurals name="settings_invalidate_inline_hooks_enabled_count">
         <item quantity="one">Включено %d приложение</item>
         <item quantity="few">Включено %d приложения</item>
         <item quantity="many">Включено %d приложений</item>
         <item quantity="other">Включено %d приложения</item>
     </plurals>
-    <string name="settings_enable_new_manager">Включить новый менеджера</string>
+    <string name="settings_enable_new_manager">Включить новый менеджер</string>
     <string name="settings_enable_new_manager_summary">Используйте новый интерфейс менеджера на основе Compose, выполненный в стиле MIUI.</string>
     <string name="settings_enable_predictive_back">Предсказательный жест назад</string>
     <string name="settings_enable_predictive_back_summary">Включить поддержку предиктивных жестов при возврате назад</string>
