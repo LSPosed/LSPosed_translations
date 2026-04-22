@@ -66,6 +66,7 @@
     <string name="update_lsposed">Perbarui LSPosed</string>
     <string name="update_lsposed_msg">Konfirmasi untuk pembaruan LSPosed? Perangkat ini akan dimulai ulang setelah pembaruan selesai</string>
     <string name="info_copied">Disalin ke papan klip</string>
+    <string name="touch_filtered_warning">Karena sebuah aplikasi menutupi antarmuka, Manajer tidak dapat memverifikasi respons Anda.</string>
 
     <!-- WelcomeDialog -->
     <string name="parasitic_welcome">Selamat datang di LSPosed</string>
@@ -116,6 +117,7 @@
     <string name="collapse">Ciutkan</string>
     <string name="reset_scope_request_setting">Atur ulang permintaan cakupan</string>
     <string name="reset_scope_request_setting_done">Atur ulang permintaan cakupan selesai</string>
+    <string name="hide_non_system_overlay_failed_no_permission">Gagal menyembunyikan overlay non-sistem, harap perbarui manajer.</string>
 
     <!-- AppListActivity -->
     <string name="compile_speed">Optimalkan ulang</string>
@@ -206,6 +208,8 @@
     <string name="settings_smooth_rounding">Pembulatan halus</string>
     <string name="settings_enable_predictive_back">Gerakan kembali prediktif</string>
     <string name="settings_enable_predictive_back_summary">Aktifkan dukungan untuk gerakan kembali prediktif</string>
+    <string name="settings_tapjacking_protection">Mitigasi tapjacking</string>
+    <string name="settings_tapjacking_protection_summary">Memblokir input sentuhan saat antarmuka tertutup untuk mencegah serangan tapjacking</string>
 
     <!-- Module Repo -->
     <string name="module_readme">Baca Aku</string>
