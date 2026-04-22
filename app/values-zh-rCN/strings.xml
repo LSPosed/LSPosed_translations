@@ -68,6 +68,8 @@
     <string name="update_lsposed">更新 LSPosed</string>
     <string name="update_lsposed_msg">确认更新 LSPosed? 设备将会在完成更新后自动重启。</string>
     <string name="info_copied">已复制到剪贴板</string>
+    <string name="touch_filtered_warning">由于某个应用遮挡了界面，因此管理器无法验证您的回应。</string>
+
     <!-- WelcomeDialog -->
     <string name="parasitic_welcome">欢迎使用 LSPosed</string>
     <string name="parasitic_welcome_summary">你正在使用寄生管理器，可以从通知打开它。</string>
@@ -115,6 +117,7 @@
     <string name="collapse">收起</string>
     <string name="reset_scope_request_setting">重置作用域请求设置</string>
     <string name="reset_scope_request_setting_done">已重置作用域请求设置</string>
+    <string name="hide_non_system_overlay_failed_no_permission">无法隐藏非系统悬浮窗，请更新管理器。</string>
     <!-- AppListActivity -->
     <string name="compile_speed">重新优化</string>
     <string name="compile_speed_msg">优化中…</string>
@@ -199,8 +202,11 @@
     </plurals>
     <string name="settings_enable_new_manager">启用新管理器</string>
     <string name="settings_enable_new_manager_summary">使用新的 MIUI 风格的基于 Compose 的管理器界面</string>
+    <string name="settings_smooth_rounding">平滑圆角</string>
     <string name="settings_enable_predictive_back">预测性返回手势</string>
     <string name="settings_enable_predictive_back_summary">启用对预测性返回手势的支持</string>
+    <string name="settings_tapjacking_protection">点按劫持缓解</string>
+    <string name="settings_tapjacking_protection_summary">屏蔽界面被遮盖时的触摸事件，防止点按劫持攻击</string>
     <!-- Module Repo -->
     <string name="module_readme">自述文件</string>
     <string name="module_releases">版本</string>

@@ -21,6 +21,10 @@
     <string name="lsposed_safemode_notification_content">جميع إضافات Xposed غير متوفرة حتى إعادة التشغيل القادمة</string>
     <string name="safe_mode_disable_all_modules">تعطيل جميع الإضافات</string>
     <string name="lsposed_safemode_cleared_notification_title">جميع الإضافات معطلة</string>
+    <string name="xposed_module_enabled_notification_title">تم تفعيل إضافة Xposed</string>
+    <string name="xposed_module_enabled_notification_content">تم تفعيل %s، اضغط لإعداد المجال</string>
+    <string name="xposed_module_updated_notification_action_enable">تفعيل الإضافة</string>
+    <string name="xposed_module_request_scope_content_batch">الإضافة %1$s في المستخدم %2$s تطلب إضافة التطبيقات التالية إلى مجالها.</string>
     <plurals name="lsposed_safemode_cleared_notification_content">
         <item quantity="one">%d إضافة معطلة</item>
         <item quantity="other">%d إضافات معطلة</item>

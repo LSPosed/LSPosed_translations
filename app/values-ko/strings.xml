@@ -23,7 +23,6 @@
     <string name="overview">개요</string>
     <string name="Modules">모듈</string>
     <plurals name="modules_enabled_count">
-        <item quantity="one">%d개 모듈 활성화됨</item>
         <item quantity="other">%d개 모듈 활성화됨</item>
     </plurals>
     <string name="Logs">로그</string>
@@ -35,7 +34,6 @@
     <string name="module_repo_published_time">%s에 게시됨</string>
     <string name="module_repo_updated_time">%s에 업데이트됨</string>
     <plurals name="module_repo_upgradable">
-        <item quantity="one">%d개 모듈 업데이트 가능</item>
         <item quantity="other">%d개 모듈 업데이트 가능</item>
     </plurals>
     <string name="about_view_source_code"><![CDATA[%1$s에서 소스 코드 보기<br/>%2$s 채널 참여하기]]></string>
@@ -205,7 +203,6 @@
     <string name="settings_invalidate_inline_hooks_warning">이 옵션을 켠 상태에서는 버그를 제보하지 마세요.</string>
     <string name="failed_to_save_invalidate_inline_hooks_list">인라인 훅 무효화 목록 저장 실패</string>
     <plurals name="settings_invalidate_inline_hooks_enabled_count">
-        <item quantity="one">%d개 앱 활성화됨</item>
         <item quantity="other">%d개 앱 활성화됨</item>
     </plurals>
     <string name="settings_enable_new_manager">새 관리자 활성화</string>
@@ -228,7 +225,6 @@
     <string name="sort_upgradable_first">업데이트 가능 항목 우선</string>
     <string name="installed">설치됨</string>
     <plurals name="module_release_assets_download_count">
-        <item quantity="one">%d회 다운로드</item>
         <item quantity="other">%d회 다운로드</item>
     </plurals>
 
@@ -258,7 +254,6 @@
     <string name="disable_all_modules">모든 모듈 비활성화</string>
     <string name="confirm_disable_all_modules">확인할까요?</string>
     <plurals name="message_disable_all_modules">
-        <item quantity="one">%d개 모듈이 비활성화됩니다.\n이 작업은 되돌릴 수 없습니다.</item>
         <item quantity="other">%d개 모듈이 비활성화됩니다.\n이 작업은 되돌릴 수 없습니다.</item>
     </plurals>
     <string name="disable_success_title">성공</string>
@@ -270,7 +265,6 @@
     <string name="log_to_daemon_title">데몬으로 로그 기록</string>
     <string name="log_to_daemon_summary">앱이 모듈 로그를 읽지 못하게 할 수 있지만 성능에 영향을 줄 수 있습니다</string>
     <plurals name="disable_success_message">
-        <item quantity="one">%d개 모듈 비활성화됨</item>
         <item quantity="other">%d개 모듈 비활성화됨</item>
     </plurals>
 
@@ -318,15 +312,12 @@
     <!-- Repository -->
     <string name="time_just_now">방금 전</string>
     <plurals name="time_minutes_ago">
-        <item quantity="one">%d분 전</item>
         <item quantity="other">%d분 전</item>
     </plurals>
     <plurals name="time_hours_ago">
-        <item quantity="one">%d시간 전</item>
         <item quantity="other">%d시간 전</item>
     </plurals>
     <plurals name="time_days_ago">
-        <item quantity="one">%d일 전</item>
         <item quantity="other">%d일 전</item>
     </plurals>
 
