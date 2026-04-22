@@ -23,7 +23,6 @@
     <string name="overview">Tổng quan</string>
     <string name="Modules">Mô-đun</string>
     <plurals name="modules_enabled_count">
-        <item quantity="one">%d mô-đun đã bật</item>
         <item quantity="other">%d mô-đun đã bật</item>
     </plurals>
     <string name="Logs">Nhật ký</string>
@@ -35,7 +34,6 @@
     <string name="module_repo_published_time">Xuất bản vào %s</string>
     <string name="module_repo_updated_time">Cập nhật vào %s</string>
     <plurals name="module_repo_upgradable">
-        <item quantity="one">%d mô-đun có thể cập nhật</item>
         <item quantity="other">%d mô-đun có thể cập nhật</item>
     </plurals>
     <string name="about_view_source_code"><![CDATA[Xem mã nguồn tại %1$s<br/>Tham gia kênh %2$s của chúng tôi]]></string>
@@ -64,8 +62,8 @@
     <string name="info_dex2oat_wrapper">Trình bao bọc Dex Optimizer</string>
     <string name="enabled">Đã bật</string>
     <string name="not_enabled">Chưa bật</string>
-    <string name="supported">Có hỗ trợ</string>
-    <string name="unsupported">Không hỗ trợ</string>
+    <string name="supported">Được hỗ trợ</string>
+    <string name="unsupported">Không được hỗ trợ</string>
     <string name="android_version_unsatisfied">Phiên bản Android không thoả mãn</string>
     <string name="crashed">Bị lỗi</string>
     <string name="mount_failed">Gắn kết thất bại</string>
@@ -112,7 +110,7 @@
     <string name="view_in_repo">Xem trong Kho</string>
     <string name="module_uninstall_message">Bạn có muốn gỡ cài đặt mô-đun này?</string>
     <string name="module_uninstalled">Đã gỡ cài đặt %1$s</string>
-    <string name="module_uninstall_failed">Gỡ cài đặt không thành công</string>
+    <string name="module_uninstall_failed">Gỡ cài không thành công</string>
     <string name="add_module_to_user">Thêm mô-đun cho người dùng</string>
     <string name="module_installed">Đã thêm %1$s cho người dùng %2$s</string>
     <string name="module_install_failed">Thêm mô-đun thất bại</string>
@@ -205,15 +203,15 @@
     <string name="settings_invalidate_inline_hooks_warning">Không báo cáo bất kỳ lỗi nào khi tùy chọn này được bật.</string>
     <string name="failed_to_save_invalidate_inline_hooks_list">Thất bại khi lưu danh sách Vô hiệu hoá các hook nội tuyến.</string>
     <plurals name="settings_invalidate_inline_hooks_enabled_count">
-        <item quantity="one">%d ứng dụng đã bật</item>
         <item quantity="other">%d ứng dụng đã bật</item>
     </plurals>
     <string name="settings_enable_new_manager">Bật trình quản lý mới</string>
+    <string name="settings_smooth_rounding">Làm tròn mượt mà</string>
     <string name="settings_enable_new_manager_summary">Sử dụng giao diện trình quản lý dựa trên Compose kiểu MIUI mới.</string>
     <string name="settings_enable_predictive_back">Cử chỉ quay lại dự đoán</string>
     <string name="settings_enable_predictive_back_summary">Bật hỗ trợ cho cử chỉ quay lại dự đoán.</string>
     <!-- Module Repo -->
-    <string name="module_readme">Đọc thêm</string>
+    <string name="module_readme">Đọc tôi</string>
     <string name="module_releases">Phát hành</string>
     <string name="module_information">Thông tin</string>
     <string name="module_information_homepage">Trang chủ</string>
@@ -228,7 +226,6 @@
     <string name="sort_upgradable_first">Có thể nâng cấp đầu tiên</string>
     <string name="installed">Đã cài đặt</string>
     <plurals name="module_release_assets_download_count">
-        <item quantity="one">%d lượt tải</item>
         <item quantity="other">%d lượt tải</item>
     </plurals>
 
@@ -258,7 +255,6 @@
     <string name="disable_all_modules">Tắt tất cả mô-đun</string>
     <string name="confirm_disable_all_modules">Xác nhận?</string>
     <plurals name="message_disable_all_modules">
-        <item quantity="one">%d mô-đun sẽ bị tắt.\nThao tác này không thể hoàn tác được.</item>
         <item quantity="other">%d mô-đun sẽ bị tắt.\nThao tác này không thể hoàn tác được.</item>
     </plurals>
     <string name="disable_success_title">Thành công</string>
@@ -272,7 +268,6 @@
     <string name="log_to_daemon_title">Ghi nhật ký vào daemon</string>
     <string name="log_to_daemon_summary">Điều này có thể tránh việc nhật ký mô-đun bị đọc bởi các ứng dụng nhưng có thể gây ảnh hưởng đến hiệu năng</string>
     <plurals name="disable_success_message">
-        <item quantity="one">Đã tắt %d mô-đun</item>
         <item quantity="other">Đã tắt %d mô-đun</item>
     </plurals>
 
@@ -320,15 +315,12 @@
     <!-- Repository -->
     <string name="time_just_now">Vừa xong</string>
     <plurals name="time_minutes_ago">
-        <item quantity="one">%d phút trước</item>
         <item quantity="other">%d phút trước</item>
     </plurals>
     <plurals name="time_hours_ago">
-        <item quantity="one">%d giờ trước</item>
         <item quantity="other">%d giờ trước</item>
     </plurals>
     <plurals name="time_days_ago">
-        <item quantity="one">%d ngày trước</item>
         <item quantity="other">%d ngày trước</item>
     </plurals>
 

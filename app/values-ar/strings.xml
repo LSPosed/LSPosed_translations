@@ -38,9 +38,7 @@
         <item quantity="other">%d إضافات قابلة للترقية</item>
     </plurals>
     <string name="about_view_source_code"><![CDATA[عرض كود المصدر في %1$s<br/>انضم إلى قناتنا في %2$s]]></string>
-    <string name="translators" comment="Dear translators, please add your home page here following the format. There can be more than one translator. So feel free to append yourself."><![CDATA[<b>mast3rz3ro</b> (<a href="https://github.com/mast3rz3ro">Github</a>)
-<br><b>ZG089</b> (<a href="https://github.com/ZG089">Github</a>)</br>]]></string>
-
+<string name="translators" comment="Dear translators, please add your home page here following the format. There can be more than one translator. So feel free to append yourself."><![CDATA[<b>mast3rz3ro</b> (<a href="https://github.com/mast3rz3ro">Github</a>)<br/><b>ZG089</b> (<a href="https://github.com/ZG089">Github</a>)<br/><b>merbah3266</b> (<a href="https://github.com/merbah3266">Github</a>)]]></string>
     <string name="install">تثبيت</string>
     <string name="install_summary">اضغط لتثبيت LSPosed</string>
     <string name="not_installed">ليس مثبتا</string>
@@ -255,5 +253,55 @@
         <item quantity="one">تم تعطيل %d إضافة</item>
         <item quantity="other">تم تعطيل %d إضافات</item>
     </plurals>
-
+    <string name="menuShareLog">مشاركة</string>
+    <string name="logs_preparing">جاري التحضير للسجل، الرجاء الانتظار</string>
+    <string name="logs_prepare_failed">فشل في التحضير:\n%s</string>
+    <string name="module_scope_list_static_scope">الإضافة أعلنت مجالًا ثابتًا</string>
+    
+    <string name="settings_invalidate_inline_hooks">إبطال الـ inline hooks</string>
+    <string name="settings_invalidate_inline_hooks_summary">تنظيف ملف libart.so للتطبيقات المحددة. هذا قد يسبب أعطالًا عشوائية وانهيارات. استخدم فقط عند عدم القدرة على فتح تطبيقات معينة.</string>
+    <string name="settings_invalidate_inline_hooks_warning">لا تقم بالإبلاغ عن أي خطأ عند تفعيل هذا الخيار.</string>
+    <string name="failed_to_save_invalidate_inline_hooks_list">فشل في حفظ قائمة إبطال الـ inline hooks</string>
+    <plurals name="settings_invalidate_inline_hooks_enabled_count">
+        <item quantity="one">%d تطبيق مفعل</item>
+        <item quantity="other">%d تطبيقات مفعلة</item>
+    </plurals>
+    
+    <string name="settings_enable_new_manager">تفعيل المدير الجديد</string>
+    <string name="settings_enable_new_manager_summary">استخدام واجهة المدير الجديدة بأسلوب MIUI المبنية على Compose</string>
+    <string name="settings_enable_predictive_back">إيماءة الرجوع التنبؤية</string>
+    <string name="settings_enable_predictive_back_summary">تفعيل دعم إيماءات الرجوع التنبؤية.</string>
+    
+    <!-- Compose Activity -->
+    <string name="follow_system">اتّباع النظام</string>
+    <string name="unknown_author">مؤلف غير معروف</string>
+    <string name="unknown_version">إصدار غير معروف</string>
+    <string name="unknown_asset">ملحق غير معروف</string>
+    <string name="download_asset">تحميل</string>
+    <string name="nav_back">رجوع</string>
+    <string name="menu">القائمة</string>
+    <string name="menu_filter">تصفية</string>
+    
+    <!-- Logs Page -->
+    <string name="menu_parsed_view">عرض محلل</string>
+    <string name="menu_raw_view">عرض خام</string>
+    
+    <!-- Theme Mode -->
+    <string name="settings_theme">السمة</string>
+    <string name="settings_theme_summary">اختر وضع السمة للتطبيق</string>
+    <string name="settings_theme_mode_system">اتّباع النظام</string>
+    <string name="settings_theme_mode_light">فاتح</string>
+    <string name="settings_theme_mode_dark">غامق</string>
+    <string name="settings_theme_mode_monet_system">Monet (اتّباع النظام)</string>
+    <string name="settings_theme_mode_monet_light">Monet (فاتح)</string>
+    <string name="settings_theme_mode_monet_dark">Monet (غامق)</string>
+    <string name="settings_key_color">لون التمييز</string>
+    <string name="settings_key_color_summary">تخصيص اللون الأساسي عند استخدام Monet</string>
+    <string name="settings_key_color_default">افتراضي</string>
+    <string name="settings_page_scale">مقياس الصفحة</string>
+    <string name="settings_page_scale_summary">تعديل مقياس العرض العام</string>
+    <string name="settings_enable_blur">تمويه</string>
+    <string name="settings_enable_blur_summary">تفعيل تأثير التمويه لشريط الأعلى والأسفل</string>
+    <string name="settings_floating_bottom_bar">شريط سفلي عائم</string>
+    
 </resources>

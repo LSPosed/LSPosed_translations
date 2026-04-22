@@ -103,9 +103,7 @@
     <string name="module_uninstall_message">Wil jy hierdie module deïnstalleer?</string>
     <string name="module_uninstalled">Deïnstalleer %1$s</string>
     <string name="module_uninstall_failed">Deïnstalleer onsuksesvol</string>
-    <string name="add_module_to_user">%d module enabled</string>
     <string name="module_installed">Het %1$s by gebruiker %2$sgevoeg</string>
-    <string name="module_install_failed">%d module enabled</string>
     <string name="install_to_user">Installeer op gebruiker %s</string>
     <string name="install_to_user_message">Wil jy %1$s op gebruiker %2$sinstalleer? Dit word aanbeveel om met die hand te installeer, om installasie via LSPosed te dwing, kan probleme veroorsaak.</string>
     <string name="expand">uitbrei</string>
