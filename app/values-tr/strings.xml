@@ -119,7 +119,6 @@
     <string name="collapse">daralt</string>
     <string name="reset_scope_request_setting">Kapsam isteği ayarını sıfırla</string>
     <string name="reset_scope_request_setting_done">Kapsam isteği ayarı sıfırlandı</string>
-    
     <!-- AppListActivity -->
     <string name="compile_speed">Yeniden optimize et</string>
     <string name="compile_speed_msg">Optimize ediliyor…</string>
