@@ -25,12 +25,10 @@
     <string name="safe_mode_disable_all_modules">Tắt tất cả mô-đun</string>
     <string name="lsposed_safemode_cleared_notification_title">Tất cả mô-đun đã tắt</string>
     <plurals name="lsposed_safemode_cleared_notification_content">
-        <item quantity="one">%d mô-đun đã tắt</item>
         <item quantity="other">%d mô-đun đã tắt</item>
     </plurals>
     <string name="lsposed_safemode_clear_confirm_notification_title">Xác nhận?</string>
     <plurals name="lsposed_safemode_clear_confirm_notification_content">
-        <item quantity="one">%d mô-đun sẽ bị tắt.\nThao tác này không thể hoàn tác được</item>
         <item quantity="other">%d mô-đun sẽ bị tắt.\nThao tác này không thể hoàn tác được</item>
     </plurals>
     <string name="safe_mode_reboot">Khởi động lại</string>
