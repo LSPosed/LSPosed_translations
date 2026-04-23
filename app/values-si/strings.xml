@@ -38,7 +38,6 @@
         <item quantity="other">%d මොඩියුල උත්ශ්‍රේණි කළ හැකිය </item>
     </plurals>
     <string name="about_view_source_code"><![CDATA[මූල කේතය බලන්න අපේ නාලිකාවට %1$s<br/> සම්බන්ධ වන්න %2$s]]></string>
-    <string name="translators" comment="Dear translators, please add your home page here following the format. There can be more than one translator. So feel free to append yourself.">null</string>
     <string name="install">ඉන්ට්ට්‍රොල්</string>
     <string name="install_summary">LSPosed ස්ථාපනය කිරීමට තට්ටු කරන්න</string>
     <string name="not_installed">ස්ථාපනය කර නැත</string>
@@ -157,8 +156,8 @@
     <string name="pure_black_dark_theme_summary">අඳුරු තේමාව සබල කර ඇත්නම් පිරිසිදු කළු තේමාව භාවිත කරන්න</string>
     <string name="settings_group_theme">තේමාව</string>
     <string name="settings_backup_and_restore">උපස්ථ සහ නැවත ස්ථාපිත</string>
-    <string name="settings_backup_summery">උපස්ථ මොඩියුල ලැයිස්තුව සහ විෂය පථ ලැයිස්තු.</string>
-    <string name="settings_restore_summery">මොඩියුල ලැයිස්තුව සහ විෂය පථ ලැයිස්තු ප්‍රතිසාධනය කරන්න.</string>
+    <string name="settings_backup_summary">උපස්ථ මොඩියුල ලැයිස්තුව සහ විෂය පථ ලැයිස්තු.</string>
+    <string name="settings_restore_summary">මොඩියුල ලැයිස්තුව සහ විෂය පථ ලැයිස්තු ප්‍රතිසාධනය කරන්න.</string>
     <string name="settings_backup">උපස්ථ</string>
     <string name="settings_backup_failed2">උපස්ථ කිරීමට අසමත් විය:\n%s</string>
     <string name="enable_documentui">කරුණාකර DocumentUI සබල කරන්න</string>
@@ -180,7 +179,7 @@
     <string name="settings_enable_status_notification_summary">පරපෝෂිත කළමනාකරු විවෘත කළ හැකි දැනුම්දීමක් පෙන්වන්න</string>
     <string name="settings_update_channel">නාලිකාව යාවත්කාලීන කරන්න</string>
     <string name="update_channel_stable">ස්ථාවර</string>
-    <string name="update_channel_bate">බීටා</string>
+    <string name="update_channel_beta">බීටා</string>
     <string name="update_channel_nightly">රාත්රී ගොඩනැගීම</string>
     <string name="settings_xposed_api_call_protection">Xposed API ඇමතුම් ආරක්ෂාව</string>
     <string name="settings_xposed_api_call_protection_summary">Xposed API භාවිතා කිරීමට ගතිකව පටවන ලද මොඩියුල කේතය අවහිර කරන්න, මෙය සමහර මොඩියුල බිඳ දැමිය හැකි නමුත් ආරක්ෂාවට ප්‍රතිලාභ ලබා දෙයි</string>

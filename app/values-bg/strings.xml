@@ -19,8 +19,6 @@
   -->
 <resources xmlns:tools="http://schemas.android.com/tools" tools:keep="@string/xposed_module_updated_notification_*,@string/module_is_not_activated_*">
     <!-- MainActivity -->
-    <string name="overview">نظرة عامة</string>
-    <string name="Modules">الوحدات</string>
     <plurals name="modules_enabled_count">
         <item quantity="one">%d модулът е активиран</item>
         <item quantity="other">%d включени модули</item>
@@ -157,8 +155,8 @@
     <string name="pure_black_dark_theme_summary">Използвайте чисто черната тема, ако е активирана тъмна тема</string>
     <string name="settings_group_theme">Тема</string>
     <string name="settings_backup_and_restore">Архивиране и възстановяване</string>
-    <string name="settings_backup_summery">Списък с резервни копия на модули и списъци на обхвата.</string>
-    <string name="settings_restore_summery">Възстановяване на списъците с модули и области.</string>
+    <string name="settings_backup_summary">Списък с резервни копия на модули и списъци на обхвата.</string>
+    <string name="settings_restore_summary">Възстановяване на списъците с модули и области.</string>
     <string name="settings_backup">Резервно копие</string>
     <string name="settings_backup_failed2">Неуспешно архивиране:\n%s</string>
     <string name="enable_documentui">Моля, разрешете DocumentUI</string>
@@ -180,7 +178,7 @@
     <string name="settings_enable_status_notification_summary">Показване на известие, което може да отвори паразитен мениджър</string>
     <string name="settings_update_channel">Актуализиране на канала</string>
     <string name="update_channel_stable">Стабилен</string>
-    <string name="update_channel_bate">Бета</string>
+    <string name="update_channel_beta">Бета</string>
     <string name="update_channel_nightly">Нощно изграждане</string>
     <string name="settings_xposed_api_call_protection">Защита на повикванията на Xposed API</string>
     <string name="settings_xposed_api_call_protection_summary">Блокиране на динамично зареждания код на модула, за да се използва Xposed API, това може да наруши някои модули, но е от полза за сигурността</string>

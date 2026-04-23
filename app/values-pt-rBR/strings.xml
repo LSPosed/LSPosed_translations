@@ -157,8 +157,8 @@
     <string name="pure_black_dark_theme_summary">Use o tema preto puro se o tema noturno estiver ativo</string>
     <string name="settings_group_theme">Tema</string>
     <string name="settings_backup_and_restore">Backup e Restauração</string>
-    <string name="settings_backup_summery">Faz uma cópia de segurança da lista de módulos e escopos</string>
-    <string name="settings_restore_summery">Faz a restauração de uma cópia de segurança da lista de módulos e escopos</string>
+    <string name="settings_backup_summary">Faz uma cópia de segurança da lista de módulos e escopos</string>
+    <string name="settings_restore_summary">Faz a restauração de uma cópia de segurança da lista de módulos e escopos</string>
     <string name="settings_backup">Fazer Backup</string>
     <string name="settings_backup_failed2">Falha ao fazer backup:\n%s</string>
     <string name="enable_documentui">Por favor, ative DocumentUI</string>
@@ -180,7 +180,7 @@
     <string name="settings_enable_status_notification_summary">Mostrar uma notificação que possa abrir o gerenciador parasita</string>
     <string name="settings_update_channel">Canal de Atualizações</string>
     <string name="update_channel_stable">Estável</string>
-    <string name="update_channel_bate">Beta</string>
+    <string name="update_channel_beta">Beta</string>
     <string name="update_channel_nightly">Nightly</string>
     <string name="settings_xposed_api_call_protection">Proteção da API do Xposed</string>
     <string name="settings_xposed_api_call_protection_summary">Bloquear módulos carregados dinamicamente de usarem a API do Xposed. Isso pode travar alguns módulos, mas melhora a segurança</string>

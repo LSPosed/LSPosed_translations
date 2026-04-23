@@ -163,8 +163,8 @@
     <string name="pure_black_dark_theme_summary">當深色主題啟用時使用純黑主題</string>
     <string name="settings_group_theme">主題</string>
     <string name="settings_backup_and_restore">備份與還原</string>
-    <string name="settings_backup_summery">備份模組列表和作用域清單</string>
-    <string name="settings_restore_summery">還原模組列表和作用域清單</string>
+    <string name="settings_backup_summary">備份模組列表和作用域清單</string>
+    <string name="settings_restore_summary">還原模組列表和作用域清單</string>
     <string name="settings_backup">備份</string>
     <string name="settings_backup_failed2">備份失敗：\n%s</string>
     <string name="enable_documentui">請啟用 DocumentUI</string>
@@ -186,7 +186,7 @@
     <string name="settings_enable_status_notification_summary">顯示通知以便開啟寄生管理員</string>
     <string name="settings_update_channel">模組更新通道</string>
     <string name="update_channel_stable">穩定版</string>
-    <string name="update_channel_bate">測試版</string>
+    <string name="update_channel_beta">測試版</string>
     <string name="update_channel_nightly">每夜構建</string>
     <string name="settings_xposed_api_call_protection">Xposed API 呼叫保護</string>
     <string name="settings_xposed_api_call_protection_summary">阻止模組動態載入的程式碼使用 Xposed API，這會使某些模組失效，但有利於安全性</string>

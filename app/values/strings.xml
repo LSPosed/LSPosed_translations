@@ -71,6 +71,7 @@
     <string name="update_lsposed">Update LSPosed</string>
     <string name="update_lsposed_msg">Confirm to update LSPosed? This device will reboot after update completion</string>
     <string name="info_copied">Copied to clipboard</string>
+    <string name="touch_filtered_warning">Because an app is obscuring the interface, Manager can’t verify your response.</string>
 
     <!-- WelcomeDialog -->
     <string name="parasitic_welcome">Welcome to LSPosed</string>
@@ -121,6 +122,7 @@
     <string name="collapse">collapse</string>
     <string name="reset_scope_request_setting">Reset scope request setting</string>
     <string name="reset_scope_request_setting_done">Reset scope request setting done</string>
+    <string name="hide_non_system_overlay_failed_no_permission">Failed to hide non-system overlay, please upgrade manager.</string>
 
     <!-- AppListActivity -->
     <string name="compile_speed">Re-optimize</string>
@@ -172,8 +174,8 @@
     <string name="pure_black_dark_theme_summary">Use the pure black theme if dark theme is enabled</string>
     <string name="settings_group_theme">Theme</string>
     <string name="settings_backup_and_restore">Backup and restore</string>
-    <string name="settings_backup_summery">Backup module list and scope lists.</string>
-    <string name="settings_restore_summery">Restore module list and scope lists.</string>
+    <string name="settings_backup_summary">Backup module list and scope lists.</string>
+    <string name="settings_restore_summary">Restore module list and scope lists.</string>
     <string name="settings_backup">Backup</string>
     <string name="settings_backup_failed2">Failed to backup:\n%s</string>
     <string name="enable_documentui">Please enable DocumentUI</string>
@@ -195,7 +197,7 @@
     <string name="settings_enable_status_notification_summary">Show a notification that can open parasitic manager</string>
     <string name="settings_update_channel">Update channel</string>
     <string name="update_channel_stable">Stable</string>
-    <string name="update_channel_bate">Beta</string>
+    <string name="update_channel_beta">Beta</string>
     <string name="update_channel_nightly">Nightly build</string>
     <string name="settings_xposed_api_call_protection">Xposed API call protection</string>
     <string name="settings_xposed_api_call_protection_summary">Block dynamically loaded module code to use Xposed API, this may break some modules but benefit security</string>
@@ -209,8 +211,11 @@
     </plurals>
     <string name="settings_enable_new_manager">Enable new manager</string>
     <string name="settings_enable_new_manager_summary">Use the new MIUI-style Compose-based manager interface</string>
+    <string name="settings_smooth_rounding">Smooth rounding</string>
     <string name="settings_enable_predictive_back">Predictive back gesture</string>
     <string name="settings_enable_predictive_back_summary">Enable support for predictive back gestures.</string>
+    <string name="settings_tapjacking_protection">Tapjacking Mitigation</string>
+    <string name="settings_tapjacking_protection_summary">Blocks touches when the interface is obscured to prevents tapjacking attacks</string>
     <!-- Module Repo -->
     <string name="module_readme">Readme</string>
     <string name="module_releases">Releases</string>
@@ -251,6 +256,7 @@
     <string name="color_deep_orange">Deep orange</string>
     <string name="color_brown">Brown</string>
     <string name="color_blue_grey">Blue grey</string>
+
     <string name="safe_mode">Safe Mode</string>
     <string name="safe_mode_summary">LSPosed is in safe mode</string>
     <string name="safe_mode_summary2">All Xposed modules are unavailable until next reboot. \nSome modules have caused system crashes. Please find and disable these modules and provide feedback to the module developers.</string>

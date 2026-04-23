@@ -20,13 +20,10 @@
 <resources xmlns:tools="http://schemas.android.com/tools" tools:keep="@string/xposed_module_updated_notification_*,@string/module_is_not_activated_*">
     <!-- MainActivity -->
     <string name="overview">Oorsig</string>
-    <string name="Modules">Modules</string>
     <plurals name="modules_enabled_count">
         <item quantity="one">%d module enabled</item>
         <item quantity="other">%d module enabled</item>
     </plurals>
-    <string name="Logs">Logs</string>
-    <string name="Settings">Settings</string>
     <string name="feedback_or_suggestion">Terugvoer of voorstel</string>
     <string name="About">Oor</string>
     <string name="module_repo">Bewaarplek</string>
@@ -38,21 +35,13 @@
         <item quantity="other">%d modules opgradeerbaar</item>
     </plurals>
     <string name="about_view_source_code"><![CDATA[Bekyk bronkode by %1$s<br/>Sluit aan by ons %2$s -kanaal]]></string>
-    <string name="translators" comment="Dear translators, please add your home page here following the format. There can be more than one translator. So feel free to append yourself.">null</string>
-    <string name="install">Installeer2</string>
     <string name="install_summary">Tik om LSPosed te installeer</string>
-    <string name="not_installed">Not installed1</string>
     <string name="not_install_summary">LSPosed is nie geïnstalleer nie</string>
-    <string name="activated">Activated</string>
-    <string name="partial_activated">Partially activated</string>
     <string name="system_inject_fail_summary">Stelselraamwerk-inspuiting het misluk</string>
     <string name="system_inject_fail"><![CDATA[Dit is skaars en kan veroorsaak word deur <b>Magisk</b> of sommige Magisk-modules van lae gehalte.<br/>Probeer asseblief om Magisk-modules anders as Zygisk en LSPosed te deaktiveer of dien volledige log aan ontwikkelaars in.]]></string>
     <string name="system_prop_incorrect_summary">Stelselstut is verkeerd</string>
     <string name="system_prop_incorrect"><![CDATA[Sommige nodige stelseleienskappe is uitgevee of gewysig.<br/>Modules kan soms ongeldig word.]]></string>
-    <string name="need_update">Need to update</string>
     <string name="please_update_summary">Please install the latest version of LSPosed</string>
-    <string name="info_api_version">API version</string>
-    <string name="info_framework_version">Framework version</string>
     <string name="info_manager_package_name">Bestuurder pakket naam</string>
     <string name="info_system_version">Stelsel weergawe</string>
     <string name="info_device">Toestel</string>
@@ -103,9 +92,7 @@
     <string name="module_uninstall_message">Wil jy hierdie module deïnstalleer?</string>
     <string name="module_uninstalled">Deïnstalleer %1$s</string>
     <string name="module_uninstall_failed">Deïnstalleer onsuksesvol</string>
-    <string name="add_module_to_user">%d module enabled</string>
     <string name="module_installed">Het %1$s by gebruiker %2$sgevoeg</string>
-    <string name="module_install_failed">%d module enabled</string>
     <string name="install_to_user">Installeer op gebruiker %s</string>
     <string name="install_to_user_message">Wil jy %1$s op gebruiker %2$sinstalleer? Dit word aanbeveel om met die hand te installeer, om installasie via LSPosed te dwing, kan probleme veroorsaak.</string>
     <string name="expand">uitbrei</string>
@@ -157,8 +144,8 @@
     <string name="pure_black_dark_theme_summary">Gebruik die suiwer swart tema as donker tema geaktiveer is</string>
     <string name="settings_group_theme">Tema</string>
     <string name="settings_backup_and_restore">Friends en herstel</string>
-    <string name="settings_backup_summery">Rugsteunmodulelys en omvanglyste.</string>
-    <string name="settings_restore_summery">Herstel modulelys en omvanglyste.</string>
+    <string name="settings_backup_summary">Rugsteunmodulelys en omvanglyste.</string>
+    <string name="settings_restore_summary">Herstel modulelys en omvanglyste.</string>
     <string name="settings_backup">Ondersteuning</string>
     <string name="settings_backup_failed2">Kon nie rugsteun nie:\n%s</string>
     <string name="enable_documentui">Aktiveer asseblief DocumentUI</string>
@@ -180,7 +167,7 @@
     <string name="settings_enable_status_notification_summary">Wys \'n kennisgewing wat parasitiese bestuurder kan oopmaak</string>
     <string name="settings_update_channel">Dateer kanaal op</string>
     <string name="update_channel_stable">Stabiel</string>
-    <string name="update_channel_bate">Beta</string>
+    <string name="update_channel_beta">Beta</string>
     <string name="update_channel_nightly">Nag bou</string>
     <string name="settings_xposed_api_call_protection">Xposed API-oproepbeskerming</string>
     <string name="settings_xposed_api_call_protection_summary">Blokkeer dinamies gelaaide modulekode om Xposed API te gebruik, dit kan sommige modules breek, maar bevoordeel sekuriteit</string>

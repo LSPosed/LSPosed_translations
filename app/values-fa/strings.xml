@@ -157,8 +157,8 @@
     <string name="pure_black_dark_theme_summary">اگر پس زمینه تاریک فعال است از پس زمینه سیاه خالص استفاده کنید</string>
     <string name="settings_group_theme">پس زمینه</string>
     <string name="settings_backup_and_restore">پشتیبان گیری و بازگردانی</string>
-    <string name="settings_backup_summery">از لیست ماژول ها و لیست های محدوده پشتیبانی گیری می کند</string>
-    <string name="settings_restore_summery">لیست ماژول ها و لیست های محدوده را بازیابی کنید</string>
+    <string name="settings_backup_summary">از لیست ماژول ها و لیست های محدوده پشتیبانی گیری می کند</string>
+    <string name="settings_restore_summary">لیست ماژول ها و لیست های محدوده را بازیابی کنید</string>
     <string name="settings_backup">پشتیبان گیری</string>
     <string name="settings_backup_failed2">پشتیبان‌گیری انجام نشد : %s</string>
     <string name="enable_documentui">لطفا رابط کاربری سند را فعال کنید</string>
@@ -180,7 +180,7 @@
     <string name="settings_enable_status_notification_summary">نمایش یک اعلان که می‌تواند مدیر lsposed را باز کند</string>
     <string name="settings_update_channel">نوع به روز رسانی </string>
     <string name="update_channel_stable">نسخه پایدار</string>
-    <string name="update_channel_bate">نسخه آزمایشی</string>
+    <string name="update_channel_beta">نسخه آزمایشی</string>
     <string name="update_channel_nightly">نسخه ساخت شبانه</string>
     <string name="settings_xposed_api_call_protection">Xposed API call protection</string>
     <string name="settings_xposed_api_call_protection_summary">این گزینه کد ماژول بارگذاری شده پویا را برای استفاده از Xposed API مسدود خواهد کرد این کار ممکن است بعضی از ماژول ها را خراب کند اما به امنیت دستگاه کمک خواهد کرد</string>

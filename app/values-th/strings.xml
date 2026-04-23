@@ -37,7 +37,6 @@
     </plurals>
     <string name="about_view_source_code"><![CDATA[ดูซอร์สโค้ดได้ที่ %1$s<br/> หรือเข้าร่วม %2$s 
  ของเรา]]></string>
-    <string name="translators" comment="Dear translators, please add your home page here following the format. There can be more than one translator. So feel free to append yourself.">null</string>
     <string name="install">ติดตั้ง</string>
     <string name="install_summary">แตะเพื่อติดตั้ง LSPosed</string>
     <string name="not_installed">ไม่ได้ติดตั้ง</string>
@@ -156,8 +155,8 @@
     <string name="pure_black_dark_theme_summary">ใช้ธีมสีดำล้วนหากเปิดใช้งานธีมสีเข้ม</string>
     <string name="settings_group_theme">ธีม</string>
     <string name="settings_backup_and_restore">สำรองและเรียกคืน</string>
-    <string name="settings_backup_summery">รายการโมดูลสำรองและรายการขอบเขต</string>
-    <string name="settings_restore_summery">คืนค่ารายการโมดูลและรายการขอบเขต</string>
+    <string name="settings_backup_summary">รายการโมดูลสำรองและรายการขอบเขต</string>
+    <string name="settings_restore_summary">คืนค่ารายการโมดูลและรายการขอบเขต</string>
     <string name="settings_backup">สำรอง</string>
     <string name="settings_backup_failed2">การสำรองข้อมูลล้มเหลว:\n%s</string>
     <string name="enable_documentui">โปรดเปิดใช้งาน DocumentUI</string>
@@ -179,7 +178,7 @@
     <string name="settings_enable_status_notification_summary">แสดงการแจ้งเตือนที่สามารถเปิดตัวจัดการปรสิต</string>
     <string name="settings_update_channel">อัพเดทช่อง</string>
     <string name="update_channel_stable">มั่นคง</string>
-    <string name="update_channel_bate">เบต้า</string>
+    <string name="update_channel_beta">เบต้า</string>
     <string name="update_channel_nightly">สร้างทุกคืน</string>
     <string name="settings_xposed_api_call_protection">การป้องกันการโทร Xposed API</string>
     <string name="settings_xposed_api_call_protection_summary">บล็อกโค้ดโมดูลที่โหลดแบบไดนามิกเพื่อใช้ Xposed API ซึ่งอาจทำให้บางโมดูลเสียหายแต่ได้ประโยชน์ด้านความปลอดภัย</string>

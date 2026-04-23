@@ -158,8 +158,8 @@
     <string name="pure_black_dark_theme_summary">Teljesen fekete téma használata, ha a sötét téma engedélyezve van</string>
     <string name="settings_group_theme">Téma</string>
     <string name="settings_backup_and_restore">Biztonsági mentés és visszaállítás</string>
-    <string name="settings_backup_summery">A modul lista és hatókör listák biztonsági mentése.</string>
-    <string name="settings_restore_summery">A modullista és a hatókörlisták visszaállítása.</string>
+    <string name="settings_backup_summary">A modul lista és hatókör listák biztonsági mentése.</string>
+    <string name="settings_restore_summary">A modullista és a hatókörlisták visszaállítása.</string>
     <string name="settings_backup">Biztonsági mentés</string>
     <string name="settings_backup_failed2">A biztonsági mentés sikertelen:\n%s</string>
     <string name="enable_documentui">Kérjük, engedélyezze a DocumentUI-t</string>
@@ -181,7 +181,7 @@
     <string name="settings_enable_status_notification_summary">Értesítés megjelenítése, amely megnyithatja a parazita-kezelőt</string>
     <string name="settings_update_channel">Frissítési csatorna</string>
     <string name="update_channel_stable">Stabil</string>
-    <string name="update_channel_bate">Béta</string>
+    <string name="update_channel_beta">Béta</string>
     <string name="update_channel_nightly">Nightly</string>
     <string name="settings_xposed_api_call_protection">Xposed API hívásvédelem</string>
     <string name="settings_xposed_api_call_protection_summary">A dinamikusan betöltött modul kódjának blokkolása az Xposed API használatához, ez néhány modult tönkretehet, de a biztonság javára válik</string>

@@ -159,8 +159,8 @@
     <string name="pure_black_dark_theme_summary">Koristi čistu crnu temu ako je tamna tema omogućena</string>
     <string name="settings_group_theme">Tema</string>
     <string name="settings_backup_and_restore">Sigurnosno kopiranje i vraćanje</string>
-    <string name="settings_backup_summery">Lista sigurnosnih kopija modula i opširne liste.</string>
-    <string name="settings_restore_summery">Lista modula vraćenih iz sigurnosne kopije i opsežne liste.</string>
+    <string name="settings_backup_summary">Lista sigurnosnih kopija modula i opširne liste.</string>
+    <string name="settings_restore_summary">Lista modula vraćenih iz sigurnosne kopije i opsežne liste.</string>
     <string name="settings_backup">Sigurnosna kopija</string>
     <string name="settings_backup_failed2">Sigurnosno kopiranje nije uspjelo:\n%s</string>
     <string name="enable_documentui">Molimo omogućite DocumentUI</string>
@@ -182,7 +182,7 @@
     <string name="settings_enable_status_notification_summary">Prikaži obavijest koja može otvoriti parazitski upravitelj</string>
     <string name="settings_update_channel">Ažurirajte kanal</string>
     <string name="update_channel_stable">Stabilan</string>
-    <string name="update_channel_bate">Beta</string>
+    <string name="update_channel_beta">Beta</string>
     <string name="update_channel_nightly">Noćna izgradnja</string>
     <string name="settings_xposed_api_call_protection">Xposed API zaštita poziva</string>
     <string name="settings_xposed_api_call_protection_summary">Blokirajte dinamički učitani kod modula za korištenje Xposed API-ja, to može pokvariti neke module, ali doprinosi sigurnosti</string>

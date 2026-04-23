@@ -38,7 +38,6 @@
         <item quantity="other">%d moduler opgraderbare</item>
     </plurals>
     <string name="about_view_source_code"><![CDATA[Vis kildekode på %1$s<br/>Tilmeld dig vores %2$s kanal]]></string>
-    <string name="translators" comment="Dear translators, please add your home page here following the format. There can be more than one translator. So feel free to append yourself.">null</string>
     <string name="install">Installér</string>
     <string name="install_summary">Tryk for at installere LSPosed</string>
     <string name="not_installed">Ikke installeret</string>
@@ -157,8 +156,8 @@
     <string name="pure_black_dark_theme_summary">Brug det rene sorte tema, hvis mørkt tema er aktiveret</string>
     <string name="settings_group_theme">Tema</string>
     <string name="settings_backup_and_restore">Sikkerhedskopiér og gendan</string>
-    <string name="settings_backup_summery">Backup modul liste og scope-lister.</string>
-    <string name="settings_restore_summery">Gendan modulliste og scope-lister.</string>
+    <string name="settings_backup_summary">Backup modul liste og scope-lister.</string>
+    <string name="settings_restore_summary">Gendan modulliste og scope-lister.</string>
     <string name="settings_backup">Sikkerhedskopi</string>
     <string name="settings_backup_failed2">Sikkerhedskopiering mislykkedes:\n%s</string>
     <string name="enable_documentui">Aktiver venligst DocumentUI</string>
@@ -180,7 +179,7 @@
     <string name="settings_enable_status_notification_summary">Vis en meddelelse, der kan åbne parasitic manager</string>
     <string name="settings_update_channel">Opdater kanal</string>
     <string name="update_channel_stable">Stabil</string>
-    <string name="update_channel_bate">Beta</string>
+    <string name="update_channel_beta">Beta</string>
     <string name="update_channel_nightly">Nightly build</string>
     <string name="settings_xposed_api_call_protection">Beskyttelse af Xposed API-opkald</string>
     <string name="settings_xposed_api_call_protection_summary">Bloker dynamisk indlæst modulkode for at bruge Xposed API, hvilket kan ødelægge nogle moduler, men gavner sikkerheden</string>
