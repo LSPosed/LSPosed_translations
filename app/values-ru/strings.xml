@@ -215,8 +215,11 @@
     </plurals>
     <string name="settings_enable_new_manager">Включить новый менеджер</string>
     <string name="settings_enable_new_manager_summary">Используйте новый интерфейс менеджера на основе Compose, выполненный в стиле MIUI.</string>
+    <string name="settings_smooth_rounding">Плавное закругление</string>
     <string name="settings_enable_predictive_back">Предсказательный жест назад</string>
     <string name="settings_enable_predictive_back_summary">Включить поддержку предиктивных жестов при возврате назад</string>
+    <string name="settings_tapjacking_protection">Меры по предотвращению перехвата трафика</string>
+    <string name="settings_tapjacking_protection_summary">Блокирует касания, когда интерфейс скрыт, чтобы предотвратить атаки типа tapjacking.</string>
     <!-- Module Repo -->
     <string name="module_readme">Описание</string>
     <string name="module_releases">Версии</string>
