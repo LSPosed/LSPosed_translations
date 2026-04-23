@@ -23,7 +23,6 @@
     <string name="overview">Tổng quan</string>
     <string name="Modules">Mô-đun</string>
     <plurals name="modules_enabled_count">
-        <item quantity="one">%d mô-đun đã bật</item>
         <item quantity="other">%d mô-đun đã bật</item>
     </plurals>
     <string name="Logs">Nhật ký</string>
@@ -35,7 +34,6 @@
     <string name="module_repo_published_time">Xuất bản vào %s</string>
     <string name="module_repo_updated_time">Cập nhật vào %s</string>
     <plurals name="module_repo_upgradable">
-        <item quantity="one">%d mô-đun có thể cập nhật</item>
         <item quantity="other">%d mô-đun có thể cập nhật</item>
     </plurals>
     <string name="about_view_source_code"><![CDATA[Xem mã nguồn tại %1$s<br/>Tham gia kênh %2$s của chúng tôi]]></string>
@@ -207,7 +205,6 @@
     <string name="settings_invalidate_inline_hooks_warning">Không báo cáo bất kỳ lỗi nào khi tùy chọn này được bật.</string>
     <string name="failed_to_save_invalidate_inline_hooks_list">Thất bại khi lưu danh sách Vô hiệu hoá các hook nội tuyến.</string>
     <plurals name="settings_invalidate_inline_hooks_enabled_count">
-        <item quantity="one">%d ứng dụng đã bật</item>
         <item quantity="other">%d ứng dụng đã bật</item>
     </plurals>
     <string name="settings_enable_new_manager">Bật trình quản lý mới</string>
@@ -233,7 +230,6 @@
     <string name="sort_upgradable_first">Có thể nâng cấp đầu tiên</string>
     <string name="installed">Đã cài đặt</string>
     <plurals name="module_release_assets_download_count">
-        <item quantity="one">%d lượt tải</item>
         <item quantity="other">%d lượt tải</item>
     </plurals>
 
@@ -264,7 +260,6 @@
     <string name="disable_all_modules">Tắt tất cả mô-đun</string>
     <string name="confirm_disable_all_modules">Xác nhận?</string>
     <plurals name="message_disable_all_modules">
-        <item quantity="one">%d mô-đun sẽ bị tắt.\nThao tác này không thể hoàn tác được.</item>
         <item quantity="other">%d mô-đun sẽ bị tắt.\nThao tác này không thể hoàn tác được.</item>
     </plurals>
     <string name="disable_success_title">Thành công</string>
@@ -278,7 +273,6 @@
     <string name="log_to_daemon_title">Ghi nhật ký vào daemon</string>
     <string name="log_to_daemon_summary">Điều này có thể tránh việc nhật ký mô-đun bị đọc bởi các ứng dụng nhưng có thể gây ảnh hưởng đến hiệu năng</string>
     <plurals name="disable_success_message">
-        <item quantity="one">Đã tắt %d mô-đun</item>
         <item quantity="other">Đã tắt %d mô-đun</item>
     </plurals>
 
@@ -326,15 +320,12 @@
     <!-- Repository -->
     <string name="time_just_now">Vừa xong</string>
     <plurals name="time_minutes_ago">
-        <item quantity="one">%d phút trước</item>
         <item quantity="other">%d phút trước</item>
     </plurals>
     <plurals name="time_hours_ago">
-        <item quantity="one">%d giờ trước</item>
         <item quantity="other">%d giờ trước</item>
     </plurals>
     <plurals name="time_days_ago">
-        <item quantity="one">%d ngày trước</item>
         <item quantity="other">%d ngày trước</item>
     </plurals>
 
