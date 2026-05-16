@@ -22,25 +22,13 @@
     <!-- MainActivity -->
     <string name="overview">개요</string>
     <string name="Modules">모듈</string>
-    <plurals name="modules_enabled_count">
-        <item quantity="other">%d개 모듈 활성화됨</item>
-    </plurals>
     <string name="Logs">로그</string>
     <string name="Settings">설정</string>
-    <string name="feedback_or_suggestion">피드백 또는 제안</string>
     <string name="About">정보</string>
     <string name="module_repo">저장소</string>
-    <string name="module_repo_up_to_date">모든 모듈이 최신 상태입니다</string>
-    <string name="module_repo_published_time">%s에 게시됨</string>
-    <string name="module_repo_updated_time">%s에 업데이트됨</string>
-    <plurals name="module_repo_upgradable">
-        <item quantity="other">%d개 모듈 업데이트 가능</item>
-    </plurals>
     <string name="about_view_source_code"><![CDATA[%1$s에서 소스 코드 보기<br/>%2$s 채널 참여하기]]></string>
     <string name="translators" comment="Dear translators, please add your home page here following the format. There can be more than one translator. So feel free to append yourself.">naijun0403, green1052</string>
 
-    <string name="install">설치</string>
-    <string name="install_summary">눌러서 LSPosed 설치</string>
     <string name="not_installed">설치되지 않음</string>
     <string name="not_install_summary">LSPosed가 설치되어 있지 않습니다</string>
     <string name="activated">활성화됨</string>
@@ -50,11 +38,8 @@
     <string name="system_prop_incorrect_summary">시스템 속성 오류</string>
     <string name="system_prop_incorrect"><![CDATA[필수 시스템 속성 일부가 삭제되었거나 수정되었습니다.<br/>모듈이 간헐적으로 무효화될 수 있습니다.]]></string>
     <string name="need_update">업데이트 필요</string>
-    <string name="please_update_summary">최신 버전의 LSPosed를 설치해 주세요</string>
     <string name="developer_warning_title">모듈 개발자를 위한 팁</string>
     <string name="developer_warning_summary">Android Studio에서 deploy optimizations를 비활성화하거나 `gradlew installDebug` 명령으로 설치해 주세요. 그렇지 않으면 모듈 APK가 업데이트되지 않습니다.</string>
-    <string name="info_api_version">API 버전</string>
-    <string name="info_framework_version">프레임워크 버전</string>
     <string name="info_manager_package_name">관리자 패키지 이름</string>
     <string name="info_system_version">시스템 버전</string>
     <string name="info_device">기기</string>
@@ -67,8 +52,6 @@
     <string name="android_version_unsatisfied">Android 버전이 맞지 않습니다</string>
     <string name="crashed">충돌함</string>
     <string name="mount_failed">마운트 실패</string>
-    <string name="update_lsposed">LSPosed 업데이트</string>
-    <string name="update_lsposed_msg">LSPosed를 업데이트할까요? 업데이트가 완료되면 이 기기가 재부팅됩니다</string>
     <string name="info_copied">클립보드에 복사됨</string>
 
     <!-- WelcomeDialog -->
@@ -80,7 +63,6 @@
 
     <!-- LogsActivity -->
     <string name="menuSaveToSd">저장</string>
-    <string name="menuShareLog">공유</string>
     <string name="nav_item_logs_verbose">상세 로그</string>
     <string name="nav_item_logs_module">모듈 로그</string>
     <string name="logs_saving">로그를 저장하는 중입니다. 잠시만 기다려 주세요</string>
@@ -89,17 +71,11 @@
     <string name="logs_preparing">로그를 준비하는 중입니다. 잠시만 기다려 주세요</string>
     <string name="logs_prepare_failed">준비 실패:\n%s</string>
     <string name="menuClearLog">지금 로그 지우기</string>
-    <string name="logs_cleared">로그를 성공적으로 지웠습니다.</string>
     <string name="scroll_top">맨 위로 스크롤</string>
-    <string name="loading">불러오는 중…</string>
     <string name="scroll_bottom">맨 아래로 스크롤</string>
-    <string name="logs_clear_failed_2">로그 지우기 실패</string>
     <string name="menu_enable_word_wrap">자동 줄바꿈</string>
-    <string name="enabled_verbose_log">상세 로그가 활성화되었습니다</string>
-    <string name="disabled_verbose_log">상세 로그가 비활성화되었습니다</string>
 
     <!-- ModulesActivity -->
-    <string name="module_empty_description">(설명이 제공되지 않음)</string>
     <string name="warning_xposed_min_version">이 모듈은 더 새로운 Xposed 버전(%d)이 필요하므로 활성화할 수 없습니다</string>
     <string name="warning_target_version_higher">이 모듈은 더 새로운 Xposed 버전(%d)을 기준으로 만들어져 일부 기능이 동작하지 않을 수 있습니다</string>
     <string name="no_min_version_specified">이 모듈은 필요한 Xposed 버전을 지정하지 않았습니다.</string>
@@ -111,11 +87,8 @@
     <string name="module_uninstall_message">이 모듈을 제거할까요?</string>
     <string name="module_uninstalled">%1$s 제거됨</string>
     <string name="module_uninstall_failed">제거에 실패했습니다</string>
-    <string name="add_module_to_user">사용자에게 모듈 추가</string>
-    <string name="module_installed">%1$s이(가) 사용자 %2$s에 추가되었습니다</string>
     <string name="module_install_failed">모듈 추가 실패</string>
     <string name="install_to_user">사용자 %s에 설치</string>
-    <string name="install_to_user_message">%1$s을(를) 사용자 %2$s에 설치할까요? 수동 설치를 권장하며, LSPosed를 통한 강제 설치는 문제를 일으킬 수 있습니다.</string>
     <string name="expand">펼치기</string>
     <string name="collapse">접기</string>
     <string name="reset_scope_request_setting">범위 요청 설정 초기화</string>
@@ -146,9 +119,7 @@
     <string name="module_is_not_activated_yet">Xposed 모듈이 아직 활성화되지 않았습니다</string>
     <string name="requested_by_module">권장</string>
     <string name="update_available">업데이트 가능: %1$s</string>
-    <string name="module_disabled_no_selection">선택된 앱이 없어 %s 모듈이 비활성화되었습니다.</string>
     <string name="android_framework">시스템 프레임워크</string>
-    <string name="menu_backup_and_restore">백업</string>
     <string name="menu_backup">백업</string>
     <string name="menu_restore">복원</string>
     <string name="force_stop">강제 종료</string>
@@ -156,7 +127,6 @@
     <string name="force_stop_dlg_text">앱을 강제 종료하면 오작동할 수 있습니다.</string>
     <string name="reboot_required">이 변경 사항을 적용하려면 재부팅이 필요합니다</string>
     <string name="reboot">재부팅</string>
-    <string name="menu_hide">숨기기</string>
 
     <!-- ModulesActivity and AppListActivity -->
     <string name="modules_other_app">다른 앱에서 보기</string>
@@ -167,8 +137,6 @@
     <string name="settings_group_framework">프레임워크</string>
     <string name="settings_disable_verbose_log">상세 로그 비활성화</string>
     <string name="settings_disable_verbose_log_summary">문제를 제보할 때는 상세 로그가 필요합니다</string>
-    <string name="pure_black_dark_theme">완전한 검정 다크 테마</string>
-    <string name="pure_black_dark_theme_summary">다크 테마가 활성화되어 있을 때 완전한 검정 테마를 사용합니다</string>
     <string name="settings_group_theme">테마</string>
     <string name="settings_backup_and_restore">백업 및 복원</string>
     <string name="settings_backup_summary">모듈 목록과 범위 목록을 백업합니다.</string>
@@ -181,8 +149,6 @@
     <string name="group_network">네트워크</string>
     <string name="dns_over_http">DNS over HTTPS</string>
     <string name="dns_over_http_summary">일부 국가의 DNS 오염을 우회합니다</string>
-    <string name="theme_color">테마 색상</string>
-    <string name="theme_color_system">시스템 테마 색상</string>
     <string name="settings_show_hidden_icon_apps_enabled">앱의 런처 아이콘 강제 표시</string>
     <string name="settings_show_hidden_icon_apps_enabled_summary">Android 10 이후에는 앱이 런처 아이콘을 숨길 수 없습니다. 이 시스템 기능을 끄려면 토글을 비활성화하세요.</string>
     <string name="settings_group_system">시스템</string>
@@ -200,13 +166,7 @@
     <string name="settings_xposed_api_call_protection_summary">동적으로 로드된 모듈 코드의 Xposed API 사용을 차단합니다. 일부 모듈이 깨질 수 있지만 보안에 도움이 됩니다</string>
     <string name="settings_invalidate_inline_hooks">인라인 훅 무효화</string>
     <string name="settings_invalidate_inline_hooks_summary">선택한 앱에 대해 libart.so를 정리합니다. 무작위 오작동과 충돌이 발생할 수 있습니다. 특정 앱을 열 수 없을 때만 사용하세요.</string>
-    <string name="settings_invalidate_inline_hooks_warning">이 옵션을 켠 상태에서는 버그를 제보하지 마세요.</string>
     <string name="failed_to_save_invalidate_inline_hooks_list">인라인 훅 무효화 목록 저장 실패</string>
-    <plurals name="settings_invalidate_inline_hooks_enabled_count">
-        <item quantity="other">%d개 앱 활성화됨</item>
-    </plurals>
-    <string name="settings_enable_new_manager">새 관리자 활성화</string>
-    <string name="settings_enable_new_manager_summary">새로운 MIUI 스타일의 Compose 기반 관리자 인터페이스를 사용합니다</string>
     <string name="settings_enable_predictive_back">예측형 뒤로가기 제스처</string>
     <string name="settings_enable_predictive_back_summary">예측형 뒤로가기 제스처 지원을 활성화합니다.</string>
     <!-- Module Repo -->
@@ -221,7 +181,6 @@
     <string name="menu_share">공유</string>
     <string name="module_release_load_more">이전 버전 더 보기</string>
     <string name="module_release_no_more">더 이상 릴리스가 없습니다</string>
-    <string name="repo_load_failed">모듈 저장소를 불러오지 못했습니다: %s</string>
     <string name="sort_upgradable_first">업데이트 가능 항목 우선</string>
     <string name="installed">설치됨</string>
     <plurals name="module_release_assets_download_count">
@@ -229,7 +188,6 @@
     </plurals>
 
     <!-- Colors -->
-    <string name="color_sakura">벚꽃색</string>
     <string name="color_red">빨강</string>
     <string name="color_pink">분홍</string>
     <string name="color_purple">보라</string>
@@ -240,12 +198,10 @@
     <string name="color_cyan">청록</string>
     <string name="color_teal">암청</string>
     <string name="color_green">초록</string>
-    <string name="color_light_green">연두</string>
     <string name="color_lime">라임</string>
     <string name="color_yellow">노랑</string>
     <string name="color_amber">호박색</string>
     <string name="color_orange">주황</string>
-    <string name="color_deep_orange">진한 주황</string>
     <string name="color_brown">갈색</string>
     <string name="color_blue_grey">청회색</string>
     <string name="safe_mode">안전 모드</string>

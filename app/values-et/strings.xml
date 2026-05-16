@@ -21,26 +21,12 @@
     <!-- MainActivity -->
     <string name="overview">Kodu</string>
     <string name="Modules">Moodulid</string>
-    <plurals name="modules_enabled_count">
-        <item quantity="one">%d moodul on lubatud</item>
-        <item quantity="other">%d moodulit on lubatud</item>
-    </plurals>
     <string name="Logs">Logid</string>
     <string name="Settings">Seaded</string>
-    <string name="feedback_or_suggestion">Tagasiside või ettepanek</string>
     <string name="About">Kohta</string>
     <string name="module_repo">Repo</string>
-    <string name="module_repo_up_to_date">Kõik moodulid on ajakohased</string>
-    <string name="module_repo_published_time">Avaldatud %s</string>
-    <string name="module_repo_updated_time">Uuendatud %s</string>
-    <plurals name="module_repo_upgradable">
-        <item quantity="one">%d moodul on täiendatav</item>
-        <item quantity="other">%d moodulit täiendatavad</item>
-    </plurals>
     <string name="about_view_source_code"><![CDATA[Vaata lähtekoodi aadressil %1$s<br/>Liitu meie %2$s \'i kanaliga]]></string>
     <string name="translators" comment="Dear translators, please add your home page here following the format. There can be more than one translator. So feel free to append yourself.">Subaru Pan</string>
-    <string name="install">Installi</string>
-    <string name="install_summary">Puudutage LSPosedi installimiseks</string>
     <string name="not_installed">Puudub</string>
     <string name="not_install_summary">LSPosed ei ole installitud</string>
     <string name="activated">Aktiveeritud</string>
@@ -50,9 +36,6 @@
     <string name="system_prop_incorrect_summary">Süsteemi tugi vale</string>
     <string name="system_prop_incorrect"><![CDATA[Mõned vajalikud süsteemiomadused kustutatud või muudetud.<br/>Moodulid võivad aeg-ajalt kehtetuks muutuda.]]></string>
     <string name="need_update">Vaja uuendada</string>
-    <string name="please_update_summary">Palun installige LSPosedi uusim versioon</string>
-    <string name="info_api_version">API\'i versioon</string>
-    <string name="info_framework_version">Raamistiku versioon</string>
     <string name="info_manager_package_name">Manager paketi nimi</string>
     <string name="info_system_version">Süsteemi versioon</string>
     <string name="info_device">Seade</string>
@@ -65,8 +48,6 @@
     <string name="android_version_unsatisfied">Androidi versioon ei ole toetatud</string>
     <string name="crashed">Kokku jooksnud</string>
     <string name="mount_failed">Kinnitus ebaõnnestus</string>
-    <string name="update_lsposed">LSPosedi uuendamine</string>
-    <string name="update_lsposed_msg">Kas kinnitada LSPosed uuendamine? See seade taaskäivitub pärast uuendamise lõpetamist</string>
     <string name="info_copied">Kopeeritud lõikelauale</string>
     <!-- WelcomeDialog -->
     <string name="parasitic_welcome">Tere tulemast LSPosedisse</string>
@@ -82,16 +63,10 @@
     <string name="logs_saved">Logi salvestatud</string>
     <string name="logs_save_failed2">Salvestamine ebaõnnestus:\n%s</string>
     <string name="menuClearLog">Kustuta logi kohe</string>
-    <string name="logs_cleared">Logi edukalt kustutatud.</string>
     <string name="scroll_top">Kerige üles</string>
-    <string name="loading">Laadimine…</string>
     <string name="scroll_bottom">Kerige alla</string>
-    <string name="logs_clear_failed_2">Logi tühjendamine ebaõnnestus</string>
     <string name="menu_enable_word_wrap">Word Wrap</string>
-    <string name="enabled_verbose_log">Paljusõnaline logi on lubatud</string>
-    <string name="disabled_verbose_log">Paljusõnaline logi on välja lülitatud</string>
     <!-- ModulesActivity -->
-    <string name="module_empty_description">(kirjeldus puudub)</string>
     <string name="warning_xposed_min_version">See moodul nõuab uuemat Xposed versiooni (%d) ja seega ei saa seda aktiveerida.</string>
     <string name="warning_target_version_higher">See moodul on mõeldud uuemale Xposedi versioonile (%d) ja seetõttu ei pruugi mõned funktsioonid töötada</string>
     <string name="no_min_version_specified">See moodul ei täpsusta Xposedi versiooni, mida ta vajab.</string>
@@ -103,11 +78,8 @@
     <string name="module_uninstall_message">Kas soovite selle mooduli eemaldada?</string>
     <string name="module_uninstalled">Eemaldatud %1$s</string>
     <string name="module_uninstall_failed">Eemaldamine ebaõnnestus</string>
-    <string name="add_module_to_user">Lisa kasutajale moodul</string>
-    <string name="module_installed">Lisatud %1$s kasutajale %2$s</string>
     <string name="module_install_failed">Mooduli lisamine ebaõnnestus</string>
     <string name="install_to_user">Installi kasutajale %s</string>
-    <string name="install_to_user_message">Tahad paigaldada %1$s kasutajale %2$s? Soovitatav on paigaldada käsitsi, LSPosed\'i kaudu sunniviisiline paigaldamine võib põhjustada probleeme.</string>
     <string name="expand">laienda</string>
     <string name="collapse">kollaps</string>
     <!-- AppListActivity -->
@@ -134,9 +106,7 @@
     <string name="module_is_not_activated_yet">Xposed moodul ei ole aktiveeritud</string>
     <string name="requested_by_module">Soovitatav</string>
     <string name="update_available">Uuendus on saadaval: %1$s</string>
-    <string name="module_disabled_no_selection">Moodul %s on välja lülitatud, kuna ühtegi rakendust ei ole valitud.</string>
     <string name="android_framework">Süsteemi raamistik</string>
-    <string name="menu_backup_and_restore">Varukoopia</string>
     <string name="menu_backup">Varukoopia</string>
     <string name="menu_restore">Taasta</string>
     <string name="force_stop">Sundpeata</string>
@@ -144,7 +114,6 @@
     <string name="force_stop_dlg_text">Kui te peatate rakenduse sunniviisiliselt, võib see halvasti käituda.</string>
     <string name="reboot_required">Selle muudatuse kohaldamiseks on vajalik taaskäivitamine</string>
     <string name="reboot">Taaskäivitus</string>
-    <string name="menu_hide">Peida</string>
     <!-- ModulesActivity and AppListActivity -->
     <string name="modules_other_app">Vaadake teises rakenduses</string>
     <string name="module_app_info">Rakenduse teave</string>
@@ -153,8 +122,6 @@
     <string name="settings_group_framework">Raamistik</string>
     <string name="settings_disable_verbose_log">Lülita sõnalised logid välja</string>
     <string name="settings_disable_verbose_log_summary">Aruande probleemid taotluse lisada sõnalogid</string>
-    <string name="pure_black_dark_theme">Must tume teema</string>
-    <string name="pure_black_dark_theme_summary">Kasutage puhast musta teemat, kui tume teema on lubatud.</string>
     <string name="settings_group_theme">Teema</string>
     <string name="settings_backup_and_restore">Varundamine ja taastamine</string>
     <string name="settings_backup_summary">Moodulite varukoopiate nimekiri ja ulatusloendid.</string>
@@ -167,8 +134,6 @@
     <string name="group_network">Võrk</string>
     <string name="dns_over_http">DNS üle HTTPS</string>
     <string name="dns_over_http_summary">Workaround DNS mürgistus mõnedes riikides</string>
-    <string name="theme_color">Teema värv</string>
-    <string name="theme_color_system">Süsteemi teema värv</string>
     <string name="settings_show_hidden_icon_apps_enabled">Rakenduste sundimine käivitaja ikoonide kuvamiseks</string>
     <string name="settings_show_hidden_icon_apps_enabled_summary">Pärast Android 10 ei ole rakendustel lubatud oma käivitaja ikoonid ära peita. Selle süsteemifunktsiooni väljalülitamiseks lülitage lüliti välja.</string>
     <string name="settings_group_system">Süsteem</string>
@@ -195,7 +160,6 @@
     <string name="menu_open_in_browser">Ava brauseris</string>
     <string name="module_release_load_more">Kuva vanemad versioonid</string>
     <string name="module_release_no_more">Enam ei ole väljaannet</string>
-    <string name="repo_load_failed">Ebaõnnestus mooduli repo laadimine: %s</string>
     <string name="sort_upgradable_first">Esimesena uuendatav</string>
     <string name="installed">Paigaldatud</string>
     <plurals name="module_release_assets_download_count">
@@ -203,7 +167,6 @@
         <item quantity="other">allalaaditud on %d korda</item>
     </plurals>
     <!-- Colors -->
-    <string name="color_sakura">Sakura</string>
     <string name="color_red">Punane</string>
     <string name="color_pink">Roosa</string>
     <string name="color_purple">Lilla</string>
@@ -214,12 +177,10 @@
     <string name="color_cyan">Tsüaansinine</string>
     <string name="color_teal">Sinakasroheline</string>
     <string name="color_green">Roheline</string>
-    <string name="color_light_green">Heleroheline</string>
     <string name="color_lime">Laimiroheline</string>
     <string name="color_yellow">Kollane</string>
     <string name="color_amber">Amber</string>
     <string name="color_orange">Oranž</string>
-    <string name="color_deep_orange">Sügavoranž</string>
     <string name="color_brown">Pruun</string>
     <string name="color_blue_grey">Sinine hall</string>
 </resources>

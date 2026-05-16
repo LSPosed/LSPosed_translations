@@ -21,29 +21,11 @@
     <!-- MainActivity -->
     <string name="overview">סקירה כללית</string>
     <string name="Modules">מודולים</string>
-    <plurals name="modules_enabled_count">
-        <item quantity="one">%d מודול מופעל</item>
-        <item quantity="two">%d מודולים מופעלים</item>
-        <item quantity="many">%d מודולים מופעלים</item>
-        <item quantity="other">%d מודולים מופעלים</item>
-    </plurals>
     <string name="Logs">לוגים</string>
     <string name="Settings">הגדרות</string>
-    <string name="feedback_or_suggestion">משוב או הצעה</string>
     <string name="About">אודות</string>
     <string name="module_repo">מאגר מידע</string>
-    <string name="module_repo_up_to_date">כל המודולים מעודכנים</string>
-    <string name="module_repo_published_time">פורסם ב-%s</string>
-    <string name="module_repo_updated_time">עודכן ב-%s</string>
-    <plurals name="module_repo_upgradable">
-        <item quantity="one">%d מודולים ניתנים לשדרוג</item>
-        <item quantity="two">%d מודולים ניתנים לשדרוג</item>
-        <item quantity="many">%d מודולים ניתנים לשדרוג</item>
-        <item quantity="other">%d מודולים ניתנים לשדרוג</item>
-    </plurals>
     <string name="about_view_source_code"><![CDATA[הצג קוד מקור ב-%1$s<br/> הצטרף לערוץ %2$s שלנו]]></string>
-    <string name="install">התקנה</string>
-    <string name="install_summary">הקש כדי להתקין את LSPosed</string>
     <string name="not_installed">לא מותקן</string>
     <string name="not_install_summary">LSPosed אינו מותקן</string>
     <string name="activated">הופעל</string>
@@ -53,9 +35,6 @@
     <string name="system_prop_incorrect_summary">מאפיין המערכת שגוי</string>
     <string name="system_prop_incorrect"><![CDATA[חלק ממאפייני המערכת הדרושים נמחקו או שונו.<br/>המודולים עשויים להתבטל מדי פעם.]]></string>
     <string name="need_update">צריך לעדכן</string>
-    <string name="please_update_summary">נא להתקין את הגרסה העדכנית ביותר של LSPosed</string>
-    <string name="info_api_version">גרסת API</string>
-    <string name="info_framework_version">גרסת תשתית</string>
     <string name="info_manager_package_name">שם חבילת מנהל</string>
     <string name="info_system_version">גרסת מערכת</string>
     <string name="info_device">מכשיר</string>
@@ -68,8 +47,6 @@
     <string name="android_version_unsatisfied">גרסת אנדרואיד לא מספקת</string>
     <string name="crashed">התרסק</string>
     <string name="mount_failed">ה-mount נכשל</string>
-    <string name="update_lsposed">עדכן LSPosed</string>
-    <string name="update_lsposed_msg">אשר לעדכן את LSPosed? מכשיר זה יאתחל לאחר השלמת העדכון</string>
     <string name="info_copied">הועתק ללוח</string>
     <!-- WelcomeDialog -->
     <string name="parasitic_welcome">ברוכים הבאים ל-LSPosed</string>
@@ -85,16 +62,10 @@
     <string name="logs_saved">לוגים נשמרו</string>
     <string name="logs_save_failed2">השמירה נכשלה:\n%s</string>
     <string name="menuClearLog">נקה לוגים עכשיו</string>
-    <string name="logs_cleared">לוגים נוקו בהצלחה.</string>
     <string name="scroll_top">גלול למעלה</string>
-    <string name="loading">טוען…</string>
     <string name="scroll_bottom">גלול למטה</string>
-    <string name="logs_clear_failed_2">נכשל בניקוי הלוגים</string>
     <string name="menu_enable_word_wrap">עטיפת מילה</string>
-    <string name="enabled_verbose_log">לוגים מפורטים מופעלים</string>
-    <string name="disabled_verbose_log">לוגים מפורטים מושבתים</string>
     <!-- ModulesActivity -->
-    <string name="module_empty_description">(לא מסופק תיאור)</string>
     <string name="warning_xposed_min_version">מודול זה דורש גרסה חדשה יותר של LSPosed (%d) ולכן לא יכול להיות מופעל</string>
     <string name="warning_target_version_higher">מודול זה מיועד לגרסה חדשה יותר של Xposed (%d) ולכן ייתכן שחלק מהפונקציונליות לא תופעל כהלכה</string>
     <string name="no_min_version_specified">מודול זה לא מציין את גסרת ה- LSPosed שהוא צריך.</string>
@@ -106,11 +77,8 @@
     <string name="module_uninstall_message">האם אתה בטוח שאתה רוצב להסיר את התנקת המודול?</string>
     <string name="module_uninstalled">%1$s הוסר</string>
     <string name="module_uninstall_failed">הסרת ההתקנה הושלמה בהצלחה</string>
-    <string name="add_module_to_user">הוסף מודל למשתמש</string>
-    <string name="module_installed">נוסף %1$s למשתמש %2$s</string>
     <string name="module_install_failed">הוספת המודל נכשלה</string>
     <string name="install_to_user">התקן למשתמש %s</string>
-    <string name="install_to_user_message">רוצה להתקין %1$s למשתמש %2$s? מומלץ להתקין באופן ידני, כפיית התקנה באמצעות LSPosed עלולה לגרום לבעיות.</string>
     <string name="expand">להרחיב</string>
     <string name="collapse">התמוטטות</string>
     <!-- AppListActivity -->
@@ -137,9 +105,7 @@
     <string name="module_is_not_activated_yet">מודול LSPosed עדיין לא הופעל</string>
     <string name="requested_by_module">מומלץ</string>
     <string name="update_available">עדכון זמין: %1$s</string>
-    <string name="module_disabled_no_selection">מודול %s בוטל מכיוון שלא נבחרה שום אפליקציה.</string>
     <string name="android_framework">מערכת Framework</string>
-    <string name="menu_backup_and_restore">מגבה</string>
     <string name="menu_backup">גיבוי</string>
     <string name="menu_restore">שחזור</string>
     <string name="force_stop">אלץ עצירה</string>
@@ -147,7 +113,6 @@
     <string name="force_stop_dlg_text">אם אתה תאלץ עצירה לאפליקציה, היא עלולה להתנהג בצורה לא רצויה.</string>
     <string name="reboot_required">הפעלה מחדש דרושה בכדי שהשינויים יכנסו לתוקף</string>
     <string name="reboot">הפעל מחדש</string>
-    <string name="menu_hide">הסתר</string>
     <!-- ModulesActivity and AppListActivity -->
     <string name="modules_other_app">הצג באפליקציה אחרת</string>
     <string name="module_app_info">מידע על האפליקציה</string>
@@ -156,8 +121,6 @@
     <string name="settings_group_framework">Framework</string>
     <string name="settings_disable_verbose_log">בטל verbose logs</string>
     <string name="settings_disable_verbose_log_summary">בקשת דיווח על בעיות לכלול יומנים מילוליים</string>
-    <string name="pure_black_dark_theme">ערכת נושא שחור כהה</string>
-    <string name="pure_black_dark_theme_summary">השתמש בערכת נושא שחור טהור אם ערכת נושא כהה מופעלת</string>
     <string name="settings_group_theme">ערכת נושא</string>
     <string name="settings_backup_and_restore">גיבוי ושחזור</string>
     <string name="settings_backup_summary">גיבוי רשימת מודולים ורשימות היקף.</string>
@@ -170,8 +133,6 @@
     <string name="group_network">רשת</string>
     <string name="dns_over_http">DNS על פני HTTPS</string>
     <string name="dns_over_http_summary">מעקף הרעלת DNS במדינות מסוימות</string>
-    <string name="theme_color">צבע ערכת נושא</string>
-    <string name="theme_color_system">צבע נושא המערכת</string>
     <string name="settings_show_hidden_icon_apps_enabled">כפה על אפליקציות להציג סמלי מפעיל</string>
     <string name="settings_show_hidden_icon_apps_enabled_summary">לאחר Android 10, אפליקציות אינן מורשות להסתיר את סמלי המשגר שלהן. בטל את הלחצן הדו-מצבי כדי להפוך תכונת מערכת זו ללא זמינה.</string>
     <string name="settings_group_system">מערכת</string>
@@ -198,7 +159,6 @@
     <string name="menu_open_in_browser">פתח בדפדפן</string>
     <string name="module_release_load_more">הראה גרסאות ישנות</string>
     <string name="module_release_no_more">אין עוד גרסאות</string>
-    <string name="repo_load_failed">נשכל לטעון מודול: %s</string>
     <string name="sort_upgradable_first">ניתן לשדרוג תחילה</string>
     <string name="installed">מוּתקָן</string>
     <plurals name="module_release_assets_download_count">
@@ -208,7 +168,6 @@
         <item quantity="other">%d הורדות</item>
     </plurals>
     <!-- Colors -->
-    <string name="color_sakura">סאקורה</string>
     <string name="color_red">אדום</string>
     <string name="color_pink">ורוד</string>
     <string name="color_purple">סגול</string>
@@ -219,12 +178,10 @@
     <string name="color_cyan">טורקיז</string>
     <string name="color_teal">ירוק כחלחל</string>
     <string name="color_green">ירוק</string>
-    <string name="color_light_green">ירוק בהיר</string>
     <string name="color_lime">לימון</string>
     <string name="color_yellow">צהוב</string>
     <string name="color_amber">ענבר</string>
     <string name="color_orange">כתום</string>
-    <string name="color_deep_orange">כתום עמוק</string>
     <string name="color_brown">חום</string>
     <string name="color_blue_grey">כחול אפור</string>
 </resources>

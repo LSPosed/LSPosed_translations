@@ -21,25 +21,11 @@
     <!-- MainActivity -->
     <string name="overview">Oversigt</string>
     <string name="Modules">Moduler</string>
-    <plurals name="modules_enabled_count">
-        <item quantity="one">%d modul aktiveret</item>
-        <item quantity="other">%d moduler aktiveret</item>
-    </plurals>
     <string name="Logs">Logfiler</string>
     <string name="Settings">Indstillinger</string>
-    <string name="feedback_or_suggestion">Feedback eller forslag</string>
     <string name="About">Om</string>
     <string name="module_repo">Lagre</string>
-    <string name="module_repo_up_to_date">Alle moduler opdateret</string>
-    <string name="module_repo_published_time">Udgivet på %s</string>
-    <string name="module_repo_updated_time">Opdateret på %s</string>
-    <plurals name="module_repo_upgradable">
-        <item quantity="one">%d modul opgraderbar</item>
-        <item quantity="other">%d moduler opgraderbare</item>
-    </plurals>
     <string name="about_view_source_code"><![CDATA[Vis kildekode på %1$s<br/>Tilmeld dig vores %2$s kanal]]></string>
-    <string name="install">Installér</string>
-    <string name="install_summary">Tryk for at installere LSPosed</string>
     <string name="not_installed">Ikke installeret</string>
     <string name="not_install_summary">LSPosed er ikke installeret</string>
     <string name="activated">Aktiveret</string>
@@ -49,9 +35,6 @@
     <string name="system_prop_incorrect_summary">System prop forkert</string>
     <string name="system_prop_incorrect"><![CDATA[Nogle nødvendige systemegenskaber slettet eller ændret.<br/>Moduler kan ugyldiggøre lejlighedsvis.]]></string>
     <string name="need_update">Skal opdateres</string>
-    <string name="please_update_summary">Installér venligst den seneste version af LSPosed</string>
-    <string name="info_api_version">API version</string>
-    <string name="info_framework_version">Rammer version</string>
     <string name="info_manager_package_name">Navn på manager-pakke</string>
     <string name="info_system_version">System version</string>
     <string name="info_device">Enhed</string>
@@ -64,8 +47,6 @@
     <string name="android_version_unsatisfied">Android-version utilfreds</string>
     <string name="crashed">Nedstyrtet</string>
     <string name="mount_failed">Montering mislykkedes</string>
-    <string name="update_lsposed">Opdater LSPosed</string>
-    <string name="update_lsposed_msg">Bekræft opdatering af LSPosed? Denne enhed vil genstarte efter opdateringsfuldførelse</string>
     <string name="info_copied">Kopieret til udklipsholderen</string>
     <!-- WelcomeDialog -->
     <string name="parasitic_welcome">Velkommen til LSPosed</string>
@@ -81,16 +62,10 @@
     <string name="logs_saved">Gemte logfiler</string>
     <string name="logs_save_failed2">Mislykkedes at gemme:\n%s</string>
     <string name="menuClearLog">Ryd log nu</string>
-    <string name="logs_cleared">Loggen blev ryddet.</string>
     <string name="scroll_top">Rul til toppen</string>
-    <string name="loading">Indlæser…</string>
     <string name="scroll_bottom">Rul til bunden</string>
-    <string name="logs_clear_failed_2">Kunne ikke rydde loggen</string>
     <string name="menu_enable_word_wrap">Tekstombrydning</string>
-    <string name="enabled_verbose_log">Verbose log aktiveret</string>
-    <string name="disabled_verbose_log">Verbose log deaktiveret</string>
     <!-- ModulesActivity -->
-    <string name="module_empty_description">(ingen beskrivelse angivet)</string>
     <string name="warning_xposed_min_version">Dette modul kræver en nyere Xposed version (%d) og kan derfor ikke aktiveres</string>
     <string name="warning_target_version_higher">Dette modul er designet til en nyere Xposed-version (%d), og derfor fungerer nogle funktioner muligvis ikke</string>
     <string name="no_min_version_specified">Dette modul angiver ikke den Xposed version det behøver.</string>
@@ -102,11 +77,8 @@
     <string name="module_uninstall_message">Vil du afinstallere dette modul?</string>
     <string name="module_uninstalled">Afinstalleret %1$s</string>
     <string name="module_uninstall_failed">Afinstallation mislykkedes</string>
-    <string name="add_module_to_user">Tilføj modul til bruger</string>
-    <string name="module_installed">Tilføjede %1$s til bruger %2$s</string>
     <string name="module_install_failed">Tilføjelse af modul mislykkedes</string>
     <string name="install_to_user">Installér til bruger %s</string>
-    <string name="install_to_user_message">Vil du installere %1$s til bruger %2$s? Det anbefales at installere manuelt, tvinger installation via LSPosed kan forårsage problemer.</string>
     <string name="expand">udvid</string>
     <string name="collapse">kollaps</string>
     <!-- AppListActivity -->
@@ -133,9 +105,7 @@
     <string name="module_is_not_activated_yet">Xposed modul er endnu ikke aktiveret</string>
     <string name="requested_by_module">Anbefalet</string>
     <string name="update_available">Opdatering tilgængelig: %1$s</string>
-    <string name="module_disabled_no_selection">Modul %s er blevet deaktiveret siden ingen app er valgt.</string>
     <string name="android_framework">System Framework</string>
-    <string name="menu_backup_and_restore">Sikkerhedskopi</string>
     <string name="menu_backup">Sikkerhedskopi</string>
     <string name="menu_restore">Gendan</string>
     <string name="force_stop">Gennemtving stop</string>
@@ -143,7 +113,6 @@
     <string name="force_stop_dlg_text">Hvis du tvinger til at stoppe en app, kan den virke forkert.</string>
     <string name="reboot_required">Genstart er påkrævet for at denne ændring kan anvendes</string>
     <string name="reboot">Reboot</string>
-    <string name="menu_hide">Skjul</string>
     <!-- ModulesActivity and AppListActivity -->
     <string name="modules_other_app">Se i anden app</string>
     <string name="module_app_info">Oplysninger om appen</string>
@@ -152,8 +121,6 @@
     <string name="settings_group_framework">Framework</string>
     <string name="settings_disable_verbose_log">Deaktivere udførlige logfiler</string>
     <string name="settings_disable_verbose_log_summary">Anmodning om at medtage verbose logs i rapporten om problemer</string>
-    <string name="pure_black_dark_theme">Sort mørkt tema</string>
-    <string name="pure_black_dark_theme_summary">Brug det rene sorte tema, hvis mørkt tema er aktiveret</string>
     <string name="settings_group_theme">Tema</string>
     <string name="settings_backup_and_restore">Sikkerhedskopiér og gendan</string>
     <string name="settings_backup_summary">Backup modul liste og scope-lister.</string>
@@ -166,8 +133,6 @@
     <string name="group_network">Netværk</string>
     <string name="dns_over_http">DNS over HTTPS</string>
     <string name="dns_over_http_summary">Workaround DNS forgiftning i nogle nationer</string>
-    <string name="theme_color">Tema farve</string>
-    <string name="theme_color_system">Farve på systemtema</string>
     <string name="settings_show_hidden_icon_apps_enabled">Tving apps til at vise launcher-ikoner</string>
     <string name="settings_show_hidden_icon_apps_enabled_summary">Efter Android 10 må apps ikke skjule deres launcher-ikoner. Slå toggle fra for at deaktivere denne systemfunktion.</string>
     <string name="settings_group_system">System</string>
@@ -194,7 +159,6 @@
     <string name="menu_open_in_browser">Åbn i browser</string>
     <string name="module_release_load_more">Vis ældre versioner</string>
     <string name="module_release_no_more">Ikke mere udgivelse</string>
-    <string name="repo_load_failed">Kunne ikke indlæse modul repo: %s</string>
     <string name="sort_upgradable_first">Opgradérbar først</string>
     <string name="installed">Installeret</string>
     <plurals name="module_release_assets_download_count">
@@ -202,7 +166,6 @@
         <item quantity="other">%d downloads</item>
     </plurals>
     <!-- Colors -->
-    <string name="color_sakura">Sakura</string>
     <string name="color_red">Rød</string>
     <string name="color_pink">Lyserød</string>
     <string name="color_purple">Lilla</string>
@@ -213,12 +176,10 @@
     <string name="color_cyan">Cyan</string>
     <string name="color_teal">Grønblåt</string>
     <string name="color_green">Grøn</string>
-    <string name="color_light_green">Lysegrøn</string>
     <string name="color_lime">Limegrøn</string>
     <string name="color_yellow">Gul</string>
     <string name="color_amber">Ravgul</string>
     <string name="color_orange">Orange</string>
-    <string name="color_deep_orange">Dyb orange</string>
     <string name="color_brown">Brun</string>
     <string name="color_blue_grey">Blå grå</string>
 </resources>

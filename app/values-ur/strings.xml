@@ -21,26 +21,12 @@
     <!-- MainActivity -->
     <string name="overview">جائزہ</string>
     <string name="Modules">ماڈیولز</string>
-    <plurals name="modules_enabled_count">
-        <item quantity="one">%d ماڈیولز آن ہیں۔</item>
-        <item quantity="other">%d ماڈیولز فعال ہیں۔</item>
-    </plurals>
     <string name="Logs">نوشتہ جات</string>
     <string name="Settings">ترتیبات</string>
-    <string name="feedback_or_suggestion">رائے یا تجویز</string>
     <string name="About">معلومات</string>
     <string name="module_repo">مخزن۔</string>
-    <string name="module_repo_up_to_date">تمام ماڈیولز اپ ٹو ڈیٹ</string>
-    <string name="module_repo_published_time">%sپر شائع ہوا۔</string>
-    <string name="module_repo_updated_time">%sپر اپ ڈیٹ کیا گیا۔</string>
-    <plurals name="module_repo_upgradable">
-        <item quantity="one">%d ماڈیول قابل اپ گریڈ</item>
-        <item quantity="other">%d ماڈیولز قابل اپ گریڈ</item>
-    </plurals>
     <string name="about_view_source_code"><![CDATA[ماخذ کوڈ دیکھیں %1$s<br/> ہمارے ساتھ شامل ہوں%2$s چینل۔]]></string>
     <string name="translators" comment="Dear translators, please add your home page here following the format. There can be more than one translator. So feel free to append yourself.">PGH Gaming Official</string>
-    <string name="install">انسٹال</string>
-    <string name="install_summary">کلک تو انسٹال LSposed</string>
     <string name="not_installed">یہ انسٹال نہیں ہے۔</string>
     <string name="not_install_summary">LSposed انسٹال نہیں ہے۔</string>
     <string name="activated">یہ چالو ہے۔</string>
@@ -50,9 +36,6 @@
     <string name="system_prop_incorrect_summary">سسٹم پروپ غلط ہے۔</string>
     <string name="system_prop_incorrect"><![CDATA[سسٹم کی کچھ ضروری خصوصیات حذف یا ترمیم کی گئیں۔<br/>ماڈیول کبھی کبھار باطل ہو سکتے ہیں۔]]></string>
     <string name="need_update">اپ ڈیٹ درکار ہے۔</string>
-    <string name="please_update_summary">براہ کرم LSPosed کا تازہ ترین ورژن انسٹال کریں۔</string>
-    <string name="info_api_version">API ورژن۔</string>
-    <string name="info_framework_version">فریم ورک ورژن۔</string>
     <string name="info_manager_package_name">مینیجر پیکیج کا نام</string>
     <string name="info_system_version">سسٹم ورژن۔</string>
     <string name="info_device">ڈیوائس۔</string>
@@ -65,8 +48,6 @@
     <string name="android_version_unsatisfied">Android ورژن غیر مطمئن ہے۔</string>
     <string name="crashed">کریش ہو گیا۔</string>
     <string name="mount_failed">ماؤنٹ ناکام ہوگیا۔</string>
-    <string name="update_lsposed">LSPosed کو اپ ڈیٹ کریں۔</string>
-    <string name="update_lsposed_msg">LSPosed کو اپ ڈیٹ کرنے کی تصدیق کریں؟ یہ آلہ اپ ڈیٹ مکمل ہونے کے بعد دوبارہ شروع ہو جائے گا۔</string>
     <string name="info_copied">کلپ بورڈ پر کاپی ہو گیا۔</string>
     <!-- WelcomeDialog -->
     <string name="parasitic_welcome">LSPosed میں خوش آمدید</string>
@@ -82,16 +63,10 @@
     <string name="logs_saved">لاگز محفوظ ہو گئے۔</string>
     <string name="logs_save_failed2">محفوظ کرنے میں ناکام:\n%s</string>
     <string name="menuClearLog">ابھی لاگ صاف کریں۔</string>
-    <string name="logs_cleared">لاگ کامیابی سے صاف ہو گیا.</string>
     <string name="scroll_top">اوپر سکرول کریں۔</string>
-    <string name="loading">لوڈ ہو رہا ہے…</string>
     <string name="scroll_bottom">نیچے سکرول کریں۔</string>
-    <string name="logs_clear_failed_2">لاگ کو صاف کرنے میں ناکام</string>
     <string name="menu_enable_word_wrap">لفظ لفاف</string>
-    <string name="enabled_verbose_log">وربوز لاگ فعال ہے۔</string>
-    <string name="disabled_verbose_log">وربوز لاگ غیر فعال ہے۔</string>
     <!-- ModulesActivity -->
-    <string name="module_empty_description">(کوئی تفصیل فراہم نہیں کی گئی)</string>
     <string name="warning_xposed_min_version">اس ماڈیول کے لیے ایک نئے Xposed ورژن (%d) کی ضرورت ہے اور اس طرح اسے چالو نہیں کیا جا سکتا</string>
     <string name="warning_target_version_higher">یہ ماڈیول ایک نئے Xposed ورژن (%d) کے لیے ڈیزائن کیا گیا ہے اور اس طرح کچھ افعال کام نہیں کر سکتے</string>
     <string name="no_min_version_specified">یہ ماڈیول اس Xposed ورژن کی وضاحت نہیں کرتا جس کی اسے ضرورت ہے۔</string>
@@ -103,11 +78,8 @@
     <string name="module_uninstall_message">کیا آپ اس ماڈیول کو ان انسٹال کرنا چاہتے ہیں؟</string>
     <string name="module_uninstalled">ان انسٹال %1$s</string>
     <string name="module_uninstall_failed">اَن انسٹال ناکام</string>
-    <string name="add_module_to_user">صارف میں ماڈیول شامل کریں۔</string>
-    <string name="module_installed">صارف %2$sمیں %1$s شامل کیا گیا۔</string>
     <string name="module_install_failed">ماڈیول شامل کرنا ناکام ہو گیا۔</string>
     <string name="install_to_user">صارف %sپر انسٹال کریں۔</string>
-    <string name="install_to_user_message">صارف %2$sپر %1$s انسٹال کرنا چاہتے ہیں؟ یہ دستی طور پر انسٹال کرنے کی سفارش کی جاتی ہے، LSPosed کے ذریعے انسٹال کرنے سے مسائل پیدا ہو سکتے ہیں۔</string>
     <string name="expand">پھیلاؤ</string>
     <string name="collapse">گرنے</string>
     <!-- AppListActivity -->
@@ -134,9 +106,7 @@
     <string name="module_is_not_activated_yet">Xposed ماڈیول ابھی تک چالو نہیں ہوا ہے۔</string>
     <string name="requested_by_module">سفارش کریں۔</string>
     <string name="update_available">اپ ڈیٹ دستیاب ہے: %1$s</string>
-    <string name="module_disabled_no_selection">ماڈیول%s کو غیر فعال کر دیا گیا ہے کیونکہ کوئی ایپ منتخب نہیں کی گئی ہے.</string>
     <string name="android_framework">سسٹم فریم ورک</string>
-    <string name="menu_backup_and_restore">بیک اپ</string>
     <string name="menu_backup">بیک اپ</string>
     <string name="menu_restore">بحال کریں۔</string>
     <string name="force_stop">زبردستی روکنا</string>
@@ -144,7 +114,6 @@
     <string name="force_stop_dlg_text">اگر آپ کسی ایپ کو زبردستی روکتے ہیں تو یہ غلط برتاؤ کر سکتی ہے۔</string>
     <string name="reboot_required">اس تبدیلی کو لاگو کرنے کے لیے ریبوٹ کی ضرورت ہے۔</string>
     <string name="reboot">دوبارہ شروع کریں۔</string>
-    <string name="menu_hide">چھپائیں</string>
     <!-- ModulesActivity and AppListActivity -->
     <string name="modules_other_app">دوسری ایپ میں دیکھیں</string>
     <string name="module_app_info">ایپ کی معلومات</string>
@@ -153,8 +122,6 @@
     <string name="settings_group_framework">فریم ورک</string>
     <string name="settings_disable_verbose_log">وربوز لاگز کو غیر فعال کریں۔</string>
     <string name="settings_disable_verbose_log_summary">وربوز لاگز کو شامل کرنے کے لیے مسائل کی اطلاع دیں۔</string>
-    <string name="pure_black_dark_theme">سیاہ سیاہ تھیم</string>
-    <string name="pure_black_dark_theme_summary">اگر سیاہ تھیم فعال ہو تو خالص سیاہ تھیم استعمال کریں۔</string>
     <string name="settings_group_theme">خیالیہ</string>
     <string name="settings_backup_and_restore">بیک اپ اور بحال</string>
     <string name="settings_backup_summary">بیک اپ ماڈیول کی فہرست اور دائرہ کار کی فہرستیں۔</string>
@@ -167,8 +134,6 @@
     <string name="group_network">نیٹ ورک</string>
     <string name="dns_over_http">HTTPS پر DNS</string>
     <string name="dns_over_http_summary">کچھ قوموں میں DNS زہر کا حل</string>
-    <string name="theme_color">تھیم کا رنگ</string>
-    <string name="theme_color_system">سسٹم تھیم کا رنگ</string>
     <string name="settings_show_hidden_icon_apps_enabled">ایپس کو لانچر آئیکنز دکھانے پر مجبور کریں۔</string>
     <string name="settings_show_hidden_icon_apps_enabled_summary">اینڈرائیڈ 10 کے بعد ایپس کو اپنے لانچر آئیکنز کو چھپانے کی اجازت نہیں ہے۔ اس سسٹم کی خصوصیت کو غیر فعال کرنے کے لیے ٹوگل کو بند کریں۔</string>
     <string name="settings_group_system">سسٹم</string>
@@ -195,7 +160,6 @@
     <string name="menu_open_in_browser">براؤزر میں کھولیں</string>
     <string name="module_release_load_more">پرانے ورژن دکھائیں۔</string>
     <string name="module_release_no_more">مزید رہائی نہیں ہے۔</string>
-    <string name="repo_load_failed">ماڈیول ریپو لوڈ کرنے میں ناکام: %s</string>
     <string name="sort_upgradable_first">پہلے اپ گریڈ کیا جا سکتا ہے۔</string>
     <string name="installed">انسٹال</string>
     <plurals name="module_release_assets_download_count">
@@ -203,7 +167,6 @@
         <item quantity="other">%d ڈاؤن لوڈز</item>
     </plurals>
     <!-- Colors -->
-    <string name="color_sakura">ساکورا</string>
     <string name="color_red">سرخ</string>
     <string name="color_pink">گلابی</string>
     <string name="color_purple">جامنی</string>
@@ -214,12 +177,10 @@
     <string name="color_cyan">سیان</string>
     <string name="color_teal">ٹیل</string>
     <string name="color_green">سبز</string>
-    <string name="color_light_green">ہلکا سبز</string>
     <string name="color_lime">لیموں</string>
     <string name="color_yellow">پیلا</string>
     <string name="color_amber">امبر</string>
     <string name="color_orange">کینو</string>
-    <string name="color_deep_orange">گہرا نارنجی</string>
     <string name="color_brown">براؤن</string>
     <string name="color_blue_grey">بلیو گرے</string>
 </resources>

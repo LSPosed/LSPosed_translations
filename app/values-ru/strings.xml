@@ -22,30 +22,12 @@
     <!-- MainActivity -->
     <string name="overview">LSPosed</string>
     <string name="Modules">Модули</string>
-    <plurals name="modules_enabled_count">
-        <item quantity="other">Включено %d модуля</item>
-        <item quantity="one">Включен %d модуль</item>
-        <item quantity="few">Включено %d модуля</item>
-        <item quantity="many">Включено %d модулей</item>
-    </plurals>
     <string name="Logs">Логи</string>
     <string name="Settings">Настройки</string>
-    <string name="feedback_or_suggestion">Обратная связь</string>
     <string name="About">О приложении</string>
     <string name="module_repo">Репозиторий</string>
-    <string name="module_repo_up_to_date">Все модули в актуальном состоянии</string>
-    <string name="module_repo_published_time">Опубликовано %s</string>
-    <string name="module_repo_updated_time">Обновлено %s</string>
-    <plurals name="module_repo_upgradable">
-        <item quantity="one">Найдено обновление %d модуля</item>
-        <item quantity="few">Найдены обновления %d модулей</item>
-        <item quantity="many">Найдены обновления %d модулей</item>
-        <item quantity="other">Найдены обновления %d модулей</item>
-    </plurals>
     <string name="about_view_source_code"><![CDATA[Просмотреть исходный код на %1$s<br/>Присоединяйтесь к нашему %2$s каналу]]></string>
     <string name="translators" comment="Dear translators, please add your home page here following the format. There can be more than one translator. So feel free to append yourself.">Ichigo</string>
-    <string name="install">Установить</string>
-    <string name="install_summary">Нажмите, чтобы установить LSPosed</string>
     <string name="not_installed">Не установлен</string>
     <string name="not_install_summary">LSPosed не установлен!</string>
     <string name="activated">Активирован</string>
@@ -55,11 +37,8 @@
     <string name="system_prop_incorrect_summary">Неправильные системные настройки</string>
     <string name="system_prop_incorrect"><![CDATA[Неправильные системные настройки.<br/>Некоторые системные настройки нужные для работы удалены или изменены.<br/>Модули могут не работать должным образом]]></string>
     <string name="need_update">Требуется обновление</string>
-    <string name="please_update_summary">Установите последнюю версию LSPosed!</string>
     <string name="developer_warning_title">Советы разработчику модулей</string>
     <string name="developer_warning_summary">Пожалуйста, отключите оптимизацию развертывания в Android Studio или используйте для установки команду `gradlew installDebug`. Иначе модуль не обновится</string>
-    <string name="info_api_version">Версия API</string>
-    <string name="info_framework_version">Версия фреймворк</string>
     <string name="info_manager_package_name">Имя пакета менеджера</string>
     <string name="info_system_version">Версия Android</string>
     <string name="info_device">Устройство</string>
@@ -72,8 +51,6 @@
     <string name="android_version_unsatisfied">Версия Android не подходит</string>
     <string name="crashed">Сбой</string>
     <string name="mount_failed">Ошибка монтирования</string>
-    <string name="update_lsposed">Обновление LSPosed</string>
-    <string name="update_lsposed_msg">Вы точно хотите обновить LSPosed?\nУстройство перезагрузится после завершения обновления</string>
     <string name="info_copied">Скопировано в буфер обмена</string>
 
     <!-- WelcomeDialog -->
@@ -85,7 +62,6 @@
 
     <!-- LogsActivity -->
     <string name="menuSaveToSd">Сохранить</string>
-    <string name="menuShareLog">Поделиться</string>
     <string name="nav_item_logs_verbose">Подробные логи</string>
     <string name="nav_item_logs_module">Логи модулей</string>
     <string name="logs_saving">Сохранение логов, пожалуйста подождите</string>
@@ -94,17 +70,11 @@
     <string name="logs_preparing">Подготовка к записи в журнал, пожалуйста, подождите.</string>
     <string name="logs_prepare_failed">Ошибка подготовки:\n%s</string>
     <string name="menuClearLog">Очистить логи</string>
-    <string name="logs_cleared">Логи успешно очищены</string>
     <string name="scroll_top">Прокрутить вверх</string>
-    <string name="loading">Загрузка…</string>
     <string name="scroll_bottom">Прокрутить вниз</string>
-    <string name="logs_clear_failed_2">Не удалось очистить логи</string>
     <string name="menu_enable_word_wrap">Переносить текст</string>
-    <string name="enabled_verbose_log">Подробные логи включены</string>
-    <string name="disabled_verbose_log">Подробные логи выключены</string>
 
     <!-- ModulesActivity -->
-    <string name="module_empty_description">(описание отсутствует)</string>
     <string name="warning_xposed_min_version">Этот модуль требует более новой версии LSPosed (%d) и не может быть включен</string>
     <string name="warning_target_version_higher">Этот модуль разработан для более новой версии Xposed (%d), поэтому некоторые функции могут не работать</string>
     <string name="no_min_version_specified">Этот модуль не указал версию LSPosed, в которой он нуждается</string>
@@ -116,11 +86,8 @@
     <string name="module_uninstall_message">Вы точно хотите удалить это модуль?</string>
     <string name="module_uninstalled">Модуль %1$s удален!</string>
     <string name="module_uninstall_failed">Удаление прервано</string>
-    <string name="add_module_to_user">Добавить модуль пользователю</string>
-    <string name="module_installed">Добавить %1$s для пользователя %2$s</string>
     <string name="module_install_failed">Добавление модуля не удалось</string>
     <string name="install_to_user">Установить пользователю %s</string>
-    <string name="install_to_user_message">Хотите установить %1$s пользователю %2$s? Рекомендуется устанавливать вручную, принудительная установка через LSPosed может вызвать проблемы</string>
     <string name="expand">Развернуть</string>
     <string name="collapse">Свернуть</string>
     <string name="reset_scope_request_setting">Сбросить настройку запроса области действия</string>
@@ -151,9 +118,7 @@
     <string name="module_is_not_activated_yet">Модуль установлен</string>
     <string name="requested_by_module">Рекомендуемые</string>
     <string name="update_available">Доступно обновление: %1$s</string>
-    <string name="module_disabled_no_selection">Модуль %s выключен, так как ни одно приложение не выбрано</string>
     <string name="android_framework">Системный фреймворк</string>
-    <string name="menu_backup_and_restore">Резервная копия</string>
     <string name="menu_backup">Создать</string>
     <string name="menu_restore">Восстановить</string>
     <string name="force_stop">Остановить</string>
@@ -161,7 +126,6 @@
     <string name="force_stop_dlg_text">Принудительная остановка приложения выгружает его из запущенных</string>
     <string name="reboot_required">Для применения требуется перезагрузка</string>
     <string name="reboot">Перезагрузить</string>
-    <string name="menu_hide">Скрывать</string>
 
     <!-- ModulesActivity and AppListActivity -->
     <string name="modules_other_app">Магазин приложений</string>
@@ -172,8 +136,6 @@
     <string name="settings_group_framework">Фреймворк</string>
     <string name="settings_disable_verbose_log">Выключить подробные логи</string>
     <string name="settings_disable_verbose_log_summary">Выключение подробных логов</string>
-    <string name="pure_black_dark_theme">Черная тема</string>
-    <string name="pure_black_dark_theme_summary">Использовать черную тему, когда включена темная тема</string>
     <string name="settings_group_theme">Тема</string>
     <string name="settings_backup_and_restore">Резервное копирование и восстановление</string>
     <string name="settings_backup_summary">Сохранить список модулей и выбранных приложений для модулей</string>
@@ -186,8 +148,6 @@
     <string name="group_network">Сеть</string>
     <string name="dns_over_http">DNS через HTTPS</string>
     <string name="dns_over_http_summary">Шифрование DNS-трафика помогающее усилить конфиденциальность пользователя в сети</string>
-    <string name="theme_color">Акцент темы</string>
-    <string name="theme_color_system">Системный цвет акцента</string>
     <string name="settings_show_hidden_icon_apps_enabled">Принудительно показывать иконку модуля</string>
     <string name="settings_show_hidden_icon_apps_enabled_summary">После Android 10, модули не могут скрывать иконку в лаунчер. Выключите переключатель, чтобы отключить эту системную функцию</string>
     <string name="settings_group_system">Система</string>
@@ -205,16 +165,7 @@
     <string name="settings_xposed_api_call_protection_summary">Блокировать динамически загружаемый код модуля для использования Xposed API, это может нарушить работу некоторых модулей, но повысит безопасность</string>
     <string name="settings_invalidate_inline_hooks">Аннулировать встроенные хуки</string>
     <string name="settings_invalidate_inline_hooks_summary">Удалите файл libart.so для перечисленных приложений. Это может привести к случайным сбоям и зависаниям. Используйте эту функцию только в том случае, если не удается открыть определенные приложения.</string>
-    <string name="settings_invalidate_inline_hooks_warning">Не сообщайте об ошибках, если эта опция включена.</string>
     <string name="failed_to_save_invalidate_inline_hooks_list">Не удалось сохранить список встроенных хуков.</string>
-    <plurals name="settings_invalidate_inline_hooks_enabled_count">
-        <item quantity="one">Включено %d приложение</item>
-        <item quantity="few">Включено %d приложения</item>
-        <item quantity="many">Включено %d приложений</item>
-        <item quantity="other">Включено %d приложения</item>
-    </plurals>
-    <string name="settings_enable_new_manager">Включить новый менеджер</string>
-    <string name="settings_enable_new_manager_summary">Используйте новый интерфейс менеджера на основе Compose, выполненный в стиле MIUI.</string>
     <string name="settings_enable_predictive_back">Предсказательный жест назад</string>
     <string name="settings_enable_predictive_back_summary">Включить поддержку предиктивных жестов при возврате назад</string>
     <!-- Module Repo -->
@@ -229,7 +180,6 @@
     <string name="menu_share">Поделиться</string>
     <string name="module_release_load_more">Показать старые версии</string>
     <string name="module_release_no_more">Больше нет других версий</string>
-    <string name="repo_load_failed">Не удалось загрузить репозиторий модуля: %s</string>
     <string name="sort_upgradable_first">Сначала обновляемые</string>
     <string name="installed">Установлен</string>
     <plurals name="module_release_assets_download_count">
@@ -240,7 +190,6 @@
     </plurals>
 
     <!-- Colors -->
-    <string name="color_sakura">Сакура</string>
     <string name="color_red">Красный</string>
     <string name="color_pink">Розовый</string>
     <string name="color_purple">Фиолетовый</string>
@@ -251,12 +200,10 @@
     <string name="color_cyan">Бирюзово-голубой</string>
     <string name="color_teal">Сине-зеленый</string>
     <string name="color_green">Зеленый</string>
-    <string name="color_light_green">Светло-зеленый</string>
     <string name="color_lime">Желто-зеленый</string>
     <string name="color_yellow">Желтый</string>
     <string name="color_amber">Янтарный</string>
     <string name="color_orange">Оранжевый</string>
-    <string name="color_deep_orange">Насыщенный оранжевый</string>
     <string name="color_brown">Коричневый</string>
     <string name="color_blue_grey">Серо-голубой</string>
     <string name="safe_mode">Безопасный режим</string>

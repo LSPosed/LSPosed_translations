@@ -21,29 +21,11 @@
     <!-- MainActivity -->
     <string name="overview">Prehľad</string>
     <string name="Modules">Moduly</string>
-    <plurals name="modules_enabled_count">
-        <item quantity="one">%d modul povolený</item>
-        <item quantity="few">%d povolené moduly</item>
-        <item quantity="many">%d povolené moduly</item>
-        <item quantity="other">%d povolené moduly</item>
-    </plurals>
     <string name="Logs">Protokoly</string>
     <string name="Settings">Nastavenia</string>
-    <string name="feedback_or_suggestion">Spätná väzba alebo návrh</string>
     <string name="About">O stránke</string>
     <string name="module_repo">Úložisko</string>
-    <string name="module_repo_up_to_date">Aktualizácia všetkých modulov</string>
-    <string name="module_repo_published_time">Zverejnené na %s</string>
-    <string name="module_repo_updated_time">Aktualizované na %s</string>
-    <plurals name="module_repo_upgradable">
-        <item quantity="one">%d modul s možnosťou aktualizácie</item>
-        <item quantity="few">%d moduly s možnosťou aktualizácie</item>
-        <item quantity="many">%d moduly s možnosťou aktualizácie</item>
-        <item quantity="other">%d moduly s možnosťou aktualizácie</item>
-    </plurals>
     <string name="about_view_source_code"><![CDATA[Zobraziť zdrojový kód na %1$s<br/>Pripojte sa k nášmu kanálu %2$s]]></string>
-    <string name="install">Inštalácia stránky</string>
-    <string name="install_summary">Ťuknutím na položku nainštalujete LSPosed</string>
     <string name="not_installed">Nie je nainštalovaný</string>
     <string name="not_install_summary">LSPosed nie je nainštalovaný</string>
     <string name="activated">Aktivované</string>
@@ -53,9 +35,6 @@
     <string name="system_prop_incorrect_summary">Nesprávna opora systému</string>
     <string name="system_prop_incorrect"><![CDATA[Niektoré potrebné vlastnosti systému boli odstránené alebo upravené.<br/>Moduly sa môžu občas znefunkčniť.]]></string>
     <string name="need_update">Je potrebné aktualizovať</string>
-    <string name="please_update_summary">Nainštalujte si najnovšiu verziu aplikácie LSPosed</string>
-    <string name="info_api_version">Verzia API</string>
-    <string name="info_framework_version">Verzia rámca</string>
     <string name="info_manager_package_name">Názov balíka správcu</string>
     <string name="info_system_version">Verzia systému</string>
     <string name="info_device">Zariadenie</string>
@@ -68,8 +47,6 @@
     <string name="android_version_unsatisfied">Verzia pre Android nespokojná</string>
     <string name="crashed">Havarovaný</string>
     <string name="mount_failed">Montáž zlyhala</string>
-    <string name="update_lsposed">Aktualizácia LSPosed</string>
-    <string name="update_lsposed_msg">Potvrdiť aktualizáciu LSPosed? Toto zariadenie sa po dokončení aktualizácie reštartuje</string>
     <string name="info_copied">Skopírované do schránky</string>
     <!-- WelcomeDialog -->
     <string name="parasitic_welcome">Vitajte v LSPosed</string>
@@ -85,16 +62,10 @@
     <string name="logs_saved">Uložené protokoly</string>
     <string name="logs_save_failed2">Nepodarilo sa uložiť:\n%s</string>
     <string name="menuClearLog">Vymazať protokol</string>
-    <string name="logs_cleared">Protokol bol úspešne vymazaný.</string>
     <string name="scroll_top">Prejdite na začiatok</string>
-    <string name="loading">Načítavanie…</string>
     <string name="scroll_bottom">Prejdite na spodok</string>
-    <string name="logs_clear_failed_2">Nepodarilo sa vymazať protokol</string>
     <string name="menu_enable_word_wrap">Word Wrap</string>
-    <string name="enabled_verbose_log">Verbose log povolený</string>
-    <string name="disabled_verbose_log">Verbose log vypnuté</string>
     <!-- ModulesActivity -->
-    <string name="module_empty_description">(bez popisu)</string>
     <string name="warning_xposed_min_version">Tento modul vyžaduje novšiu verziu Xposed (%d), a preto ho nemožno aktivovať</string>
     <string name="warning_target_version_higher">Tento modul je určený pre novšiu verziu Xposed (%d), a preto niektoré funkcie nemusia fungovať</string>
     <string name="no_min_version_specified">Tento modul neuvádza verziu Xposed, ktorú potrebuje.</string>
@@ -106,11 +77,8 @@
     <string name="module_uninstall_message">Chcete tento modul odinštalovať?</string>
     <string name="module_uninstalled">Odinštalovaná stránka %1$s</string>
     <string name="module_uninstall_failed">Odinštalovanie neúspešné</string>
-    <string name="add_module_to_user">Pridanie modulu k používateľovi</string>
-    <string name="module_installed">Pridanie stránky %1$s do používateľa %2$s</string>
     <string name="module_install_failed">Pridanie modulu zlyhalo</string>
     <string name="install_to_user">Inštalácia do používateľa %s</string>
-    <string name="install_to_user_message">Chcete nainštalovať stránku %1$s na používateľa %2$s? Odporúča sa inštalovať ručne, vynútená inštalácia cez LSPosed môže spôsobiť problémy.</string>
     <string name="expand">rozšíriť</string>
     <string name="collapse">zrútenie</string>
     <!-- AppListActivity -->
@@ -137,9 +105,7 @@
     <string name="module_is_not_activated_yet">Modul Xposed ešte nie je aktivovaný</string>
     <string name="requested_by_module">Odporúčané stránky</string>
     <string name="update_available">Dostupná aktualizácia: %1$s</string>
-    <string name="module_disabled_no_selection">Modul %s bol vypnutý, pretože nebola vybraná žiadna aplikácia.</string>
     <string name="android_framework">Systémový rámec</string>
-    <string name="menu_backup_and_restore">Zálohovanie</string>
     <string name="menu_backup">Zálohovanie</string>
     <string name="menu_restore">Obnovenie</string>
     <string name="force_stop">Vynútiť zastavenie</string>
@@ -147,7 +113,6 @@
     <string name="force_stop_dlg_text">Ak aplikáciu násilne zastavíte, môže sa správať nesprávne.</string>
     <string name="reboot_required">Na uplatnenie tejto zmeny je potrebný reštart</string>
     <string name="reboot">Reštart</string>
-    <string name="menu_hide">Skryť</string>
     <!-- ModulesActivity and AppListActivity -->
     <string name="modules_other_app">Zobraziť v inej aplikácii</string>
     <string name="module_app_info">Informácie o aplikácii</string>
@@ -156,8 +121,6 @@
     <string name="settings_group_framework">Rámec</string>
     <string name="settings_disable_verbose_log">Zakázať slovné protokoly</string>
     <string name="settings_disable_verbose_log_summary">Žiadosť o nahlásenie problémov, aby obsahovala slovné protokoly</string>
-    <string name="pure_black_dark_theme">Čierna tmavá téma</string>
-    <string name="pure_black_dark_theme_summary">Použitie čisto čiernej témy, ak je povolená tmavá téma</string>
     <string name="settings_group_theme">Téma</string>
     <string name="settings_backup_and_restore">Zálohovanie a obnovenie</string>
     <string name="settings_backup_summary">Záložný zoznam modulov a zoznamy rozsahov.</string>
@@ -170,8 +133,6 @@
     <string name="group_network">Sieť</string>
     <string name="dns_over_http">DNS cez HTTPS</string>
     <string name="dns_over_http_summary">Obchádzanie otravy DNS v niektorých krajinách</string>
-    <string name="theme_color">Farba témy</string>
-    <string name="theme_color_system">Farba témy systému</string>
     <string name="settings_show_hidden_icon_apps_enabled">Vynútenie aplikácií, aby zobrazovali ikony spúšťača</string>
     <string name="settings_show_hidden_icon_apps_enabled_summary">Po systéme Android 10 aplikácie nemôžu skrývať ikony spúšťača. Vypnutím prepínača túto systémovú funkciu zakážete.</string>
     <string name="settings_group_system">Systém</string>
@@ -198,7 +159,6 @@
     <string name="menu_open_in_browser">Otvoriť v prehliadači</string>
     <string name="module_release_load_more">Zobrazenie starších verzií</string>
     <string name="module_release_no_more">Žiadne ďalšie uvoľňovanie</string>
-    <string name="repo_load_failed">Nepodarilo sa načítať modul repo: %s</string>
     <string name="sort_upgradable_first">Najskôr aktualizovateľné</string>
     <string name="installed">Nainštalované</string>
     <plurals name="module_release_assets_download_count">
@@ -208,7 +168,6 @@
         <item quantity="other">%d Na stiahnutie</item>
     </plurals>
     <!-- Colors -->
-    <string name="color_sakura">Sakura</string>
     <string name="color_red">Červená</string>
     <string name="color_pink">Ružová</string>
     <string name="color_purple">Fialová</string>
@@ -219,12 +178,10 @@
     <string name="color_cyan">Cyan</string>
     <string name="color_teal">Teal</string>
     <string name="color_green">Zelená</string>
-    <string name="color_light_green">Svetlozelená</string>
     <string name="color_lime">Vápno</string>
     <string name="color_yellow">Žltá</string>
     <string name="color_amber">Amber</string>
     <string name="color_orange">Oranžová</string>
-    <string name="color_deep_orange">Sýto oranžová</string>
     <string name="color_brown">Hnedá</string>
     <string name="color_blue_grey">Modrá šedá</string>
 </resources>

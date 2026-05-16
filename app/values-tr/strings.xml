@@ -21,26 +21,12 @@
     <!-- MainActivity -->
     <string name="overview">Genel bakış</string>
     <string name="Modules">Modüller</string>
-    <plurals name="modules_enabled_count">
-        <item quantity="one">%d modül etkin</item>
-        <item quantity="other">%d modül etkin</item>
-    </plurals>
     <string name="Logs">Günlükler</string>
     <string name="Settings">Ayarlar</string>
-    <string name="feedback_or_suggestion">Geri bildirim veya öneri</string>
     <string name="About">Hakkında</string>
     <string name="module_repo">Modül deposu</string>
-    <string name="module_repo_up_to_date">Tüm modüller güncel</string>
-    <string name="module_repo_published_time">%s tarihinde yayınlandı</string>
-    <string name="module_repo_updated_time">%s tarihinde güncellendi</string>
-    <plurals name="module_repo_upgradable">
-        <item quantity="one">%d modül güncellenebilir</item>
-        <item quantity="other">%d modül güncellenebilir</item>
-    </plurals>
     <string name="about_view_source_code"><![CDATA[%1$s adresinden kaynak kodunu görüntüleyin<br/>%2$s kanalımıza katılın]]></string>
     <string name="translators" comment="Dear translators, please add your home page here following the format. There can be more than one translator. So feel free to append yourself.">Burak Demir https://github.com/TurkGamerTR</string>
-    <string name="install">Yükle</string>
-    <string name="install_summary">LSPosed\'i yüklemek için dokunun</string>
     <string name="not_installed">Yüklü değil</string>
     <string name="not_install_summary">LSPosed yüklü değil</string>
     <string name="activated">LSPosed çalışıyor</string>
@@ -50,11 +36,8 @@
     <string name="system_prop_incorrect_summary">Sistem özelliği hatalı</string>
     <string name="system_prop_incorrect"><![CDATA[Bazı gerekli sistem özellikleri silindi veya değiştirildi.<br/>Modüller zaman zaman çalışmayabilir.]]></string>
     <string name="need_update">Güncelleme gerekli</string>
-    <string name="please_update_summary">Lütfen LSPosed\'i son sürüme güncelleyin</string>
     <string name="developer_warning_title">Modül geliştiricisi için ipuçları</string>
     <string name="developer_warning_summary">Lütfen Android Studio\'da "deploy optimizations" özelliğini devre dışı bırakın veya yüklemek için `gradlew installDebug` komutunu kullanın. Aksi takdirde modül APK\'sı güncellenmeyecektir.</string>
-    <string name="info_api_version">API sürümü</string>
-    <string name="info_framework_version">Çerçeve sürümü</string>
     <string name="info_manager_package_name">Yönetici paket adı</string>
     <string name="info_system_version">Sistem sürümü</string>
     <string name="info_device">Cihaz</string>
@@ -67,8 +50,6 @@
     <string name="android_version_unsatisfied">Android sürümü yetersiz</string>
     <string name="crashed">Çöktü</string>
     <string name="mount_failed">Bağlama başarısız</string>
-    <string name="update_lsposed">LSPosed\'i güncelle</string>
-    <string name="update_lsposed_msg">LSPosed\'i güncellemek istediğinize emin misiniz? Güncelleme bitince cihazınız yeniden başlatılacak.</string>
     <string name="info_copied">Panoya kopyalandı</string>
     <string name="touch_filtered_warning">Bir uygulama arayüzü engellediği için Yönetici yanıtınızı doğrulayamıyor.</string>
     <!-- WelcomeDialog -->
@@ -80,7 +61,6 @@
     
     <!-- LogsActivity -->
     <string name="menuSaveToSd">SD karta kaydet</string>
-    <string name="menuShareLog">Paylaş</string>
     <string name="nav_item_logs_verbose">Ayrıntılı Günlükler</string>
     <string name="nav_item_logs_module">Modül Günlükleri</string>
     <string name="logs_saving">Günlük kaydediliyor, lütfen bekleyin</string>
@@ -89,16 +69,10 @@
     <string name="logs_preparing">Günlük hazırlanıyor, lütfen bekleyin</string>
     <string name="logs_prepare_failed">Hazırlanamadı:\n%s</string>
     <string name="menuClearLog">Günlükleri şimdi temizle</string>
-    <string name="logs_cleared">Günlükler başarıyla temizlendi.</string>
     <string name="scroll_top">Yukarı kaydır</string>
-    <string name="loading">Yükleniyor…</string>
     <string name="scroll_bottom">Aşağı kaydır</string>
-    <string name="logs_clear_failed_2">Günlük temizlenemedi</string>
     <string name="menu_enable_word_wrap">Satır kaydırma</string>
-    <string name="enabled_verbose_log">Ayrıntılı günlükler etkin</string>
-    <string name="disabled_verbose_log">Ayrıntılı günlükler etkin değil</string>
     <!-- ModulesActivity -->
-    <string name="module_empty_description">(açıklama yok)</string>
     <string name="warning_xposed_min_version">Bu modül daha yeni bir Xposed sürümü gerektiriyor (%d) ve bu nedenle etkinleştirilemez</string>
     <string name="warning_target_version_higher">Bu modül daha yeni bir Xposed sürümü (%d) için tasarlanmıştır ve bu nedenle bazı işlevler çalışmayabilir</string>
     <string name="no_min_version_specified">Bu modül, ihtiyaç duyduğu Xposed sürümünü belirtmiyor.</string>
@@ -110,11 +84,8 @@
     <string name="module_uninstall_message">Bu modülü kaldırmak istiyor musunuz?</string>
     <string name="module_uninstalled">%1$s kaldırıldı</string>
     <string name="module_uninstall_failed">Kaldırma başarısız</string>
-    <string name="add_module_to_user">Kullanıcıya modül ekle</string>
-    <string name="module_installed">Kullanıcıya %1$s eklendi %2$s</string>
     <string name="module_install_failed">Modül eklenemedi</string>
     <string name="install_to_user">Kullanıcıya yükle %s</string>
-    <string name="install_to_user_message">%2$s kullanıcısına %1$s yüklemek ister misiniz? Elle kurulum yapılması tavsiye edilir, LSPosed ile kurulumu zorlamak sorunlara neden olabilir.</string>
     <string name="expand">genişlet</string>
     <string name="collapse">daralt</string>
     <string name="reset_scope_request_setting">Kapsam isteği ayarını sıfırla</string>
@@ -144,9 +115,7 @@
     <string name="module_is_not_activated_yet">Xposed modülü henüz etkinleştirilmedi</string>
     <string name="requested_by_module">Önerilen</string>
     <string name="update_available">Güncelleme uygun: %1$s</string>
-    <string name="module_disabled_no_selection">Hiçbir uygulama seçilmediği için %s modülü devre dışı bırakıldı.</string>
     <string name="android_framework">Sistem Çerçevesi</string>
-    <string name="menu_backup_and_restore">Yedekleme</string>
     <string name="menu_backup">Yedekleme</string>
     <string name="menu_restore">Geri yükle</string>
     <string name="force_stop">Durmaya zorla</string>
@@ -154,7 +123,6 @@
     <string name="force_stop_dlg_text">Bir uygulamayı durdurmaya zorlarsanız, hatalı davranabilir.</string>
     <string name="reboot_required">Bu değişikliğin geçerli olması için yeniden başlatma gerekiyor</string>
     <string name="reboot">Yeniden başlat</string>
-    <string name="menu_hide">Gizle</string>
     <!-- ModulesActivity and AppListActivity -->
     <string name="modules_other_app">Diğer uygulamada görüntüle</string>
     <string name="module_app_info">Uygulama bilgisi</string>
@@ -163,8 +131,6 @@
     <string name="settings_group_framework">Çerçeve</string>
     <string name="settings_disable_verbose_log">Ayrıntılı günlükleri devre dışı bırak</string>
     <string name="settings_disable_verbose_log_summary">Sorun bildirirken ayrıntılı günlükleri ekleyin</string>
-    <string name="pure_black_dark_theme">Siyah koyu tema</string>
-    <string name="pure_black_dark_theme_summary">Koyu tema etkinse saf siyah temayı kullanın</string>
     <string name="settings_group_theme">Tema</string>
     <string name="settings_backup_and_restore">Yedekle</string>
     <string name="settings_backup_summary">Modül ve kapsam listelerini yedekle.</string>
@@ -177,8 +143,6 @@
     <string name="group_network">Ağ</string>
     <string name="dns_over_http">HTTPS üzerinden DNS</string>
     <string name="dns_over_http_summary">Bazı ülkelerde DNS zehirlenmesi için geçici çözümdür</string>
-    <string name="theme_color">Tema rengi</string>
-    <string name="theme_color_system">Sistem tema rengi</string>
     <string name="settings_show_hidden_icon_apps_enabled">Uygulamaları başlatıcı simgelerini göstermeye zorla</string>
     <string name="settings_show_hidden_icon_apps_enabled_summary">Android 10\'dan sonra, uygulamaların başlatıcı simgelerini gizlemelerine izin verilmez. Bu sistem özelliğini devre dışı bırakmak için düğmeyi kapatın.</string>
     <string name="settings_group_system">Sistem</string>
@@ -196,15 +160,7 @@
     <string name="settings_xposed_api_call_protection_summary">Xposed API kullanmak için dinamik olarak yüklenen modül kodunu engelleyin, bu bazı modülleri bozabilir ancak güvenliğe faydalı da olabilir</string>
     <string name="settings_invalidate_inline_hooks">Satır içi kancaları (inline hooks) geçersiz kıl</string>
     <string name="settings_invalidate_inline_hooks_summary">Listelenen uygulamalar için libart.so dosyasını temizler. Bu, rastgele hatalara ve çökmelere neden olacaktır. Yalnızca belirli uygulamaları açamadığınız durumlarda kullanın.</string>
-    <string name="settings_invalidate_inline_hooks_warning">Bu seçenek etkinken lütfen herhangi bir hata bildirmeyin.</string>
     <string name="failed_to_save_invalidate_inline_hooks_list">Satır içi kancaları geçersiz kılma listesi kaydedilemedi</string>
-    <plurals name="settings_invalidate_inline_hooks_enabled_count">
-        <item quantity="one">%d uygulama etkin</item>
-        <item quantity="other">%d uygulama etkin</item>
-    </plurals>
-    <string name="settings_enable_new_manager">Yeni yöneticiyi etkinleştir</string>
-    <string name="settings_enable_new_manager_summary">Yeni MIUI stili Compose tabanlı yönetici arayüzünü kullan</string>
-    <string name="settings_smooth_rounding">Yumuşak köşeler</string>
     <string name="settings_enable_predictive_back">Tahmini geri hareketi</string>
     <string name="settings_enable_predictive_back_summary">Tahmini geri hareketi (predictive back gesture) desteğini etkinleştirir.</string>
     <string name="settings_tapjacking_protection">Dokunma hırsızlığı (Tapjacking) koruması</string>
@@ -222,7 +178,6 @@
     <string name="menu_share">Paylaş</string>
     <string name="module_release_load_more">Eski sürümleri göster</string>
     <string name="module_release_no_more">Daha fazla sürüm yok</string>
-    <string name="repo_load_failed">Modül deposu yüklenemedi: %s</string>
     <string name="sort_upgradable_first">Önce yükseltilebilir</string>
     <string name="installed">Kurulmuş</string>
     <plurals name="module_release_assets_download_count">
@@ -230,7 +185,6 @@
         <item quantity="other">%d indirme</item>
     </plurals>
     <!-- Colors -->
-    <string name="color_sakura">sakura</string>
     <string name="color_red">Kırmızı</string>
     <string name="color_pink">Pembe</string>
     <string name="color_purple">Mor</string>
@@ -241,12 +195,10 @@
     <string name="color_cyan">Cam göbeği</string>
     <string name="color_teal">Turkuaz</string>
     <string name="color_green">Yeşil</string>
-    <string name="color_light_green">Açık yeşil</string>
     <string name="color_lime">Limon</string>
     <string name="color_yellow">Sarı</string>
     <string name="color_amber">Kehribar</string>
     <string name="color_orange">Turuncu</string>
-    <string name="color_deep_orange">Koyu turuncu</string>
     <string name="color_brown">Kahverengi</string>
     <string name="color_blue_grey">Mavi gri</string>
 

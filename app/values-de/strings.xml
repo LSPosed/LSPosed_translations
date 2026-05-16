@@ -21,27 +21,13 @@
     <!-- MainActivity -->
     <string name="overview">Übersicht</string>
     <string name="Modules">Module</string>
-    <plurals name="modules_enabled_count">
-        <item quantity="one">%d Modul aktiviert</item>
-        <item quantity="other">%d Module aktiviert</item>
-    </plurals>
     <string name="Logs">Protokolle</string>
     <string name="Settings">Einstellungen</string>
-    <string name="feedback_or_suggestion">Feedback oder Vorschlag</string>
     <string name="About">Über</string>
     <string name="module_repo">Modularchiv</string>
-    <string name="module_repo_up_to_date">Alle Module sind auf dem neusten Stand</string>
-    <string name="module_repo_published_time">Veröffentlicht am %s</string>
-    <string name="module_repo_updated_time">Aktualisiert am %s</string>
-    <plurals name="module_repo_upgradable">
-        <item quantity="one">%d Modul Update verfügbar</item>
-        <item quantity="other">%d Modul Updates verfügbar</item>
-    </plurals>
     <string name="about_view_source_code"><![CDATA[Den Quellcode auf %1$s ansehen<br/>Folge unserem %2$s-Kanal]]></string>
     <string name="translators" comment="Dear translators, please add your home page here following the format. There can be more than one translator. So feel free to append yourself.">mshinni80, 
 JJ108</string>
-    <string name="install">Installieren</string>
-    <string name="install_summary">Tippen um LSPosed zu installieren</string>
     <string name="not_installed">Nicht installiert</string>
     <string name="not_install_summary">LSPosed ist nicht installiert</string>
     <string name="activated">Aktiviert</string>
@@ -51,11 +37,8 @@ JJ108</string>
     <string name="system_prop_incorrect_summary">System-Prop falsch</string>
     <string name="system_prop_incorrect"><![CDATA[Einige notwendige Systemeigenschaften wurden gelöscht oder geändert.<br/>Module können gelegentlich außer Kraft gesetzt werden.]]></string>
     <string name="need_update">Aktualisierung erforderlich</string>
-    <string name="please_update_summary">Bitte installieren Sie die neueste Version von LSPosed</string>
     <string name="developer_warning_title">Tipps für Modulentwickler</string>
     <string name="developer_warning_summary">Bitte deaktiviere Deploy-Optimierungen in Android Studio oder benutze den `gradlew installDebug` Befehl zum Installieren. Andernfalls wird die Modul-Apk nicht aktualisiert.</string>
-    <string name="info_api_version">API Version</string>
-    <string name="info_framework_version">Framework Version</string>
     <string name="info_manager_package_name">Name des Managerpakets</string>
     <string name="info_system_version">System Version</string>
     <string name="info_device">Gerät</string>
@@ -68,8 +51,6 @@ JJ108</string>
     <string name="android_version_unsatisfied">Android-Version passt nicht</string>
     <string name="crashed">Abgestürzt</string>
     <string name="mount_failed">Mounten fehlgeschlagen</string>
-    <string name="update_lsposed">Bitte LSPosed aktualisieren</string>
-    <string name="update_lsposed_msg">Soll LSPosed aktualisiert werden? Dieses Gerät wird nach dem Update neu gestartet</string>
     <string name="info_copied">In die Zwischenablage kopiert</string>
     <!-- WelcomeDialog -->
     <string name="parasitic_welcome">Willkommen bei LSPosed</string>
@@ -85,16 +66,10 @@ JJ108</string>
     <string name="logs_saved">Gespeicherte Protokolle</string>
     <string name="logs_save_failed2">Speichern fehlgeschlagen:\n%s</string>
     <string name="menuClearLog">Protokoll jetzt löschen</string>
-    <string name="logs_cleared">Protokoll erfolgreich gelöscht.</string>
     <string name="scroll_top">Hochscrollen</string>
-    <string name="loading">Laden…</string>
     <string name="scroll_bottom">Runterscrollen</string>
-    <string name="logs_clear_failed_2">Protokoll löschen fehlgeschlagen</string>
     <string name="menu_enable_word_wrap">Wortumbruch</string>
-    <string name="enabled_verbose_log">Ausführliches Protokoll aktiviert</string>
-    <string name="disabled_verbose_log">Ausführliches Protokoll deaktiviert</string>
     <!-- ModulesActivity -->
-    <string name="module_empty_description">(keine Beschreibung angegeben)</string>
     <string name="warning_xposed_min_version">Dieses Modul erfordert eine neuere Version von LSPosed (%d) und kann daher nicht aktiviert werden</string>
     <string name="warning_target_version_higher">Dieses Modul wurde für eine neuere Xposed-Version (%d) entwickelt und daher funktionieren einige Funktionen möglicherweise nicht</string>
     <string name="no_min_version_specified">Dieses Modul gibt nicht die benötigte LSPosed-Version an.</string>
@@ -106,11 +81,8 @@ JJ108</string>
     <string name="module_uninstall_message">Möchtest du dieses Modul deinstallieren?</string>
     <string name="module_uninstalled">%1$s deinstalliert</string>
     <string name="module_uninstall_failed">Deinstallation fehlgeschlagen</string>
-    <string name="add_module_to_user">Modul zum Benutzer hinzufügen</string>
-    <string name="module_installed">%1$s zu Benutzer %2$s hinzugefügt</string>
     <string name="module_install_failed">Modul hinzufügen fehlgeschlagen</string>
     <string name="install_to_user">Auf Benutzer %s installieren</string>
-    <string name="install_to_user_message">Möchtest du %1$s auf Benutzer %2$s installieren? Es wird empfohlen manuell zu installieren, das Erzwingen der Installation über LSPosed kann Probleme verursachen.</string>
     <string name="expand">ausklappen</string>
     <string name="collapse">einklappen</string>
     <!-- AppListActivity -->
@@ -137,9 +109,7 @@ JJ108</string>
     <string name="module_is_not_activated_yet">Das LSPosed-Modul wurde noch nicht aktiviert</string>
     <string name="requested_by_module">Empfohlen</string>
     <string name="update_available">Aktualisierung verfügbar: %1$s</string>
-    <string name="module_disabled_no_selection">Modul %s wurde deaktiviert, da keine App ausgewählt wurde.</string>
     <string name="android_framework">System-Framework</string>
-    <string name="menu_backup_and_restore">Sichern</string>
     <string name="menu_backup">Sichern</string>
     <string name="menu_restore">Wiederherstellen</string>
     <string name="force_stop">Stopp erzwingen</string>
@@ -147,7 +117,6 @@ JJ108</string>
     <string name="force_stop_dlg_text">Wenn du einen App-Stopp erzwingst, können Probleme entstehen.</string>
     <string name="reboot_required">Neustart erforderlich, um diese Änderung zu übernehmen</string>
     <string name="reboot">Neustart</string>
-    <string name="menu_hide">Ausblenden</string>
     <!-- ModulesActivity and AppListActivity -->
     <string name="modules_other_app">In anderer App anzeigen</string>
     <string name="module_app_info">App-Information</string>
@@ -156,8 +125,6 @@ JJ108</string>
     <string name="settings_group_framework">Framework</string>
     <string name="settings_disable_verbose_log">Ausführliche Protokolle deaktivieren</string>
     <string name="settings_disable_verbose_log_summary">Ausführliche Protokolle in Problemberichtsmeldungen einschließen</string>
-    <string name="pure_black_dark_theme">Dunkelschwarzes Thema</string>
-    <string name="pure_black_dark_theme_summary">Schwarzes Thema verwenden, wenn dunkles Thema aktiviert ist</string>
     <string name="settings_group_theme">Design</string>
     <string name="settings_backup_and_restore">Sichern und Wiederherstellen</string>
     <string name="settings_backup_summary">Modul- und Scope-Listen sichern.</string>
@@ -170,8 +137,6 @@ JJ108</string>
     <string name="group_network">Netzwerk</string>
     <string name="dns_over_http">DNS über HTTPS</string>
     <string name="dns_over_http_summary">Problemumgehung für DNS-Vergiftungen in einigen Ländern</string>
-    <string name="theme_color">Designfarbe</string>
-    <string name="theme_color_system">System Themenfarbe</string>
     <string name="settings_show_hidden_icon_apps_enabled">Apps erzwingen Launcher-Symbole anzuzeigen</string>
     <string name="settings_show_hidden_icon_apps_enabled_summary">Ab Android 10 dürfen Apps ihre Launcher-Symbole nicht ausblenden. Schalte den Schalter aus, um diese System-Funktion zu deaktivieren.</string>
     <string name="settings_group_system">System</string>
@@ -198,7 +163,6 @@ JJ108</string>
     <string name="menu_open_in_browser">Im Browser öffnen</string>
     <string name="module_release_load_more">Ältere Versionen anzeigen</string>
     <string name="module_release_no_more">Keine Veröffentlichung mehr</string>
-    <string name="repo_load_failed">Modularchiv laden fehlgeschlagen: %s</string>
     <string name="sort_upgradable_first">Aktualisierbare zuerst</string>
     <string name="installed">Eingerichtet</string>
     <plurals name="module_release_assets_download_count">
@@ -206,7 +170,6 @@ JJ108</string>
         <item quantity="other">%d Downloads</item>
     </plurals>
     <!-- Colors -->
-    <string name="color_sakura">Sakura</string>
     <string name="color_red">Rot</string>
     <string name="color_pink">Pink</string>
     <string name="color_purple">Lila</string>
@@ -217,12 +180,10 @@ JJ108</string>
     <string name="color_cyan">Türkis</string>
     <string name="color_teal">Blaugrün</string>
     <string name="color_green">Grün</string>
-    <string name="color_light_green">Hellgrün</string>
     <string name="color_lime">Limette</string>
     <string name="color_yellow">Gelb</string>
     <string name="color_amber">Bernstein</string>
     <string name="color_orange">Orange</string>
-    <string name="color_deep_orange">Dunkelorange</string>
     <string name="color_brown">Braun</string>
     <string name="color_blue_grey">Blaugrau</string>
 </resources>

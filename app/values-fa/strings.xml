@@ -21,26 +21,12 @@
     <!-- MainActivity -->
     <string name="overview">بررسی کامل</string>
     <string name="Modules">ماژول‌ ها</string>
-    <plurals name="modules_enabled_count">
-        <item quantity="one">%d ماژول فعال شده</item>
-        <item quantity="other">%d ماژول فعال شده</item>
-    </plurals>
     <string name="Logs">گزارش ها</string>
     <string name="Settings">تنظیمات</string>
-    <string name="feedback_or_suggestion">بازخورد یا پیشنهاد</string>
     <string name="About">درباره</string>
     <string name="module_repo">مخزن</string>
-    <string name="module_repo_up_to_date">همه ماژول ها به روز رسانی شده</string>
-    <string name="module_repo_published_time">این ماژول در تاریخ و ساعت %s منتشر شده</string>
-    <string name="module_repo_updated_time">این ماژول در تاریخ %s به روز رسانی شده</string>
-    <plurals name="module_repo_upgradable">
-        <item quantity="one">%d ماژول دارای به روز رسانی است</item>
-        <item quantity="other">%d ماژول دارای به روز رسانی است</item>
-    </plurals>
     <string name="about_view_source_code"><![CDATA[کد منبع را در %1$s مشاهده کنید<br/> و در کانال %2$s ما عضو شوید]]></string>
     <string name="translators" comment="Dear translators, please add your home page here following the format. There can be more than one translator. So feel free to append yourself.">rezamqds</string>
-    <string name="install">نصب</string>
-    <string name="install_summary">برای نصب LSPosed لمس کنید</string>
     <string name="not_installed">نصب نشده</string>
     <string name="not_install_summary">LSPosed نصب نشده</string>
     <string name="activated">فعال شده</string>
@@ -50,9 +36,6 @@
     <string name="system_prop_incorrect_summary">پایه سیستم نادرست است</string>
     <string name="system_prop_incorrect"><![CDATA[برخی از ویژگی های ضروری سیستم حذف شده یا تغییر داده شده به همین دلیل ماژول ها ممکن است گاهی اوقات غیرفعال شوند]]></string>
     <string name="need_update">باید به روز رسانی شود</string>
-    <string name="please_update_summary">لطفا آخرین نسخه LSPosed را نصب کنید</string>
-    <string name="info_api_version">نسخه API</string>
-    <string name="info_framework_version">نسخه فریمورک</string>
     <string name="info_manager_package_name">نام بسته مدیر</string>
     <string name="info_system_version">نسخه اندروید</string>
     <string name="info_device">مدل دستگاه</string>
@@ -65,8 +48,6 @@
     <string name="android_version_unsatisfied">نسخه اندروید مناسب نیست</string>
     <string name="crashed">متوقف شده</string>
     <string name="mount_failed">Mount انجام نشد</string>
-    <string name="update_lsposed">به روزرسانی LSPosed</string>
-    <string name="update_lsposed_msg">آیا شما می خواهید LSPosed به روز رسانی شود؟ دستگاه شما پس از نصب به روز رسانی به طور خودکار خاموش و روشن خواهد شد</string>
     <string name="info_copied">در کلیپ بورد کپی شد</string>
     <!-- WelcomeDialog -->
     <string name="parasitic_welcome">به LSPosed خوش آمدید</string>
@@ -82,16 +63,10 @@
     <string name="logs_saved">گزارش‌ ها ذخیره شده</string>
     <string name="logs_save_failed2">ذخیره نشد : \n%s</string>
     <string name="menuClearLog">حذف گزارش</string>
-    <string name="logs_cleared">گزارش با موفقیت حذف شد</string>
     <string name="scroll_top">مشاهده شروع گزارش</string>
-    <string name="loading">در حال بارگذاری ...</string>
     <string name="scroll_bottom">مشاهده پایان گزارش</string>
-    <string name="logs_clear_failed_2">گزارش حذف نشد</string>
     <string name="menu_enable_word_wrap">بسته بندی کلمات</string>
-    <string name="enabled_verbose_log">گزارش کامل فعال شده</string>
-    <string name="disabled_verbose_log">گزارش کامل غیر فعال شده</string>
     <!-- ModulesActivity -->
-    <string name="module_empty_description">(هیچ توضیحی ارائه نشده است)</string>
     <string name="warning_xposed_min_version">این ماژول به یک نسخه جدیدتر از Xposed (%d) نیاز دارد بنابراین نمی توان آن را فعال کرد</string>
     <string name="warning_target_version_higher">این ماژول برای نسخه جدیدتر از Xposed (%d) طراحی شده بنابراین ممکن است برخی از عملکرد ها کار نکنند</string>
     <string name="no_min_version_specified">این ماژول نسخه Xposed مورد نیاز خود را مشخص نمی کند</string>
@@ -103,11 +78,8 @@
     <string name="module_uninstall_message">آیا می خواهید این ماژول را حذف نصب کنید؟</string>
     <string name="module_uninstalled">%1$s حذف نصب شده</string>
     <string name="module_uninstall_failed">حذف نصب نشده</string>
-    <string name="add_module_to_user">افزودن ماژول به کاربر</string>
-    <string name="module_installed">%1$s به کاربر %2$s افزوده شده</string>
     <string name="module_install_failed">افزودن ماژول انجام نشد</string>
     <string name="install_to_user">برای کاربر %s نصب شود</string>
-    <string name="install_to_user_message">آیا شما می‌خواهید %1$s را برای کاربر %2$s نصب کنید؟ توصیه می کنیم آن را به صورت دستی نصب کنید نصب اجباری از طریق LSPosed ممکن است باعث ایجاد مشکل شود</string>
     <string name="expand">نمایش ادامه متن</string>
     <string name="collapse">بستن ادامه متن</string>
     <!-- AppListActivity -->
@@ -134,9 +106,7 @@
     <string name="module_is_not_activated_yet">ماژول Xposed هنوز فعال نشده</string>
     <string name="requested_by_module">توصیه شده</string>
     <string name="update_available">به روز رسانی موجود است : %1$s</string>
-    <string name="module_disabled_no_selection">ماژول %s غیرفعال شده چون هیچ برنامه ای را انتخاب نکرده اید</string>
     <string name="android_framework">فریمورک سیستم</string>
-    <string name="menu_backup_and_restore">پشتیبان گیری</string>
     <string name="menu_backup">پشتیبان گیری</string>
     <string name="menu_restore">بازگردانی</string>
     <string name="force_stop">توقف اجباری</string>
@@ -144,7 +114,6 @@
     <string name="force_stop_dlg_text">اگر یک برنامه را مجبور به توقف کنید ممکن است عملکرد نادرستی داشته باشد</string>
     <string name="reboot_required">برای انجام این تغییر باید دستگاه خود را خاموش و روشن کنید</string>
     <string name="reboot">خاموش و روشن کردن دستگاه</string>
-    <string name="menu_hide">مخفی کردن</string>
     <!-- ModulesActivity and AppListActivity -->
     <string name="modules_other_app">مشاهده در برنامه دیگر</string>
     <string name="module_app_info">اطلاعات برنامه</string>
@@ -153,8 +122,6 @@
     <string name="settings_group_framework">فریمورک</string>
     <string name="settings_disable_verbose_log">غیرفعال کردن گزارش های کامل</string>
     <string name="settings_disable_verbose_log_summary">گزارش مشکلات را به همراه گزارش های کامل ارسال کنید</string>
-    <string name="pure_black_dark_theme">پس زمینه سیاه تاریک</string>
-    <string name="pure_black_dark_theme_summary">اگر پس زمینه تاریک فعال است از پس زمینه سیاه خالص استفاده کنید</string>
     <string name="settings_group_theme">پس زمینه</string>
     <string name="settings_backup_and_restore">پشتیبان گیری و بازگردانی</string>
     <string name="settings_backup_summary">از لیست ماژول ها و لیست های محدوده پشتیبانی گیری می کند</string>
@@ -167,8 +134,6 @@
     <string name="group_network">شبکه</string>
     <string name="dns_over_http">DNS از طریق HTTPS</string>
     <string name="dns_over_http_summary">مشکل فیلتر شدن برنامه در برخی کشور ها را با اتصال به DNS برطرف می کند</string>
-    <string name="theme_color">رنگ پس زمینه</string>
-    <string name="theme_color_system">رنگ پس زمینه سیستم</string>
     <string name="settings_show_hidden_icon_apps_enabled">اجبار برنامه ها به نمایش آیکون های اجرا کننده خود</string>
     <string name="settings_show_hidden_icon_apps_enabled_summary">در اندروید ۱۰ به بالا برنامه ها اجازه ندارند آیکون های اجرا کننده خود را مخفی کنند برای غیرفعال کردن این ویژگی سیستمی این کلید را غیرفعال کنید </string>
     <string name="settings_group_system">سیستم</string>
@@ -195,7 +160,6 @@
     <string name="menu_open_in_browser">بازکردن در مرورگر</string>
     <string name="module_release_load_more">نمایش نسخه های قدیمی</string>
     <string name="module_release_no_more">دیگر خبری از انتشار نیست</string>
-    <string name="repo_load_failed">مخزن ماژول بارگذاری نشد : %s</string>
     <string name="sort_upgradable_first">اول قابل ارتقا</string>
     <string name="installed">نصب شده است</string>
     <plurals name="module_release_assets_download_count">
@@ -203,7 +167,6 @@
         <item quantity="other">%d دانلود</item>
     </plurals>
     <!-- Colors -->
-    <string name="color_sakura">صورتی کم رنگ</string>
     <string name="color_red">قرمز</string>
     <string name="color_pink">صورتی</string>
     <string name="color_purple">بنفش</string>
@@ -214,12 +177,10 @@
     <string name="color_cyan">فیروزه ای</string>
     <string name="color_teal">سبز آبی</string>
     <string name="color_green">سبز</string>
-    <string name="color_light_green">سبز کم رنگ</string>
     <string name="color_lime">آهکی</string>
     <string name="color_yellow">زرد</string>
     <string name="color_amber">کهربایی</string>
     <string name="color_orange">نارنجی</string>
-    <string name="color_deep_orange">نارنجی پر رنگ</string>
     <string name="color_brown">قهوه ای</string>
     <string name="color_blue_grey">آبی خاکستری</string>
 </resources>

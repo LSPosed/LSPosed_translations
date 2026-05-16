@@ -21,30 +21,12 @@
     <!-- MainActivity -->
     <string name="overview">Apžvalga</string>
     <string name="Modules">Moduliai</string>
-    <plurals name="modules_enabled_count">
-        <item quantity="one">%d modulis įjungtas</item>
-        <item quantity="few">%d įjungti moduliai</item>
-        <item quantity="many">%d įjungti moduliai</item>
-        <item quantity="other">%d įjungti moduliai</item>
-    </plurals>
     <string name="Logs">Žurnalai</string>
     <string name="Settings">Nustatymai</string>
-    <string name="feedback_or_suggestion">Atsiliepimai arba pasiūlymas</string>
     <string name="About">About-face</string>
     <string name="module_repo">Saugykla</string>
-    <string name="module_repo_up_to_date">Visi moduliai atnaujinti</string>
-    <string name="module_repo_published_time">Paskelbta adresu %s</string>
-    <string name="module_repo_updated_time">Atnaujinta %s</string>
-    <plurals name="module_repo_upgradable">
-        <item quantity="one">%d modulis atnaujinamas</item>
-        <item quantity="few">%d atnaujinami moduliai</item>
-        <item quantity="many">%d atnaujinami moduliai</item>
-        <item quantity="other">%d atnaujinami moduliai</item>
-    </plurals>
     <string name="about_view_source_code"><![CDATA[Peržiūrėkite šaltinio kodą adresu %1$s<br/>Prisijunkite prie mūsų %2$s kanalo]]></string>
     <string name="translators" comment="Dear translators, please add your home page here following the format. There can be more than one translator. So feel free to append yourself.">Ace Miller, im sorry</string>
-    <string name="install">Įdiekite</string>
-    <string name="install_summary">Bakstelėkite, jei norite įdiegti LSPosed</string>
     <string name="not_installed">Neįdiegta</string>
     <string name="not_install_summary">\"LSPosed\" nėra įdiegta</string>
     <string name="activated">Aktyvuota</string>
@@ -54,9 +36,6 @@
     <string name="system_prop_incorrect_summary">Neteisingas sistemos rekvizitas</string>
     <string name="system_prop_incorrect"><![CDATA[Ištrintos arba pakeistos kai kurios būtinos sistemos savybės.<br/>Moduliai kartais gali būti pripažinti negaliojančiais.]]></string>
     <string name="need_update">Reikia atnaujinti</string>
-    <string name="please_update_summary">Įdiekite naujausią \"LSPosed\" versiją</string>
-    <string name="info_api_version">API versija</string>
-    <string name="info_framework_version">Pagrindų versija</string>
     <string name="info_manager_package_name">Valdytojo paketo pavadinimas</string>
     <string name="info_system_version">Sistemos versija</string>
     <string name="info_device">Įrenginys</string>
@@ -69,8 +48,6 @@
     <string name="android_version_unsatisfied">\"Android\" versija nepatenkinti</string>
     <string name="crashed">Sugedo</string>
     <string name="mount_failed">Montavimas nepavyko</string>
-    <string name="update_lsposed">Atnaujinti LSPosed</string>
-    <string name="update_lsposed_msg">Patvirtinkite, kad atnaujintumėte LSPosed? Baigus atnaujinimą šis prietaisas bus perkrautas</string>
     <string name="info_copied">Nukopijuota į iškarpinę</string>
     <!-- WelcomeDialog -->
     <string name="parasitic_welcome">Sveiki atvykę į LSPosed</string>
@@ -86,16 +63,10 @@
     <string name="logs_saved">Išsaugoti žurnalai</string>
     <string name="logs_save_failed2">Nepavyko išsaugoti:\n%s</string>
     <string name="menuClearLog">Išvalyti žurnalą dabar</string>
-    <string name="logs_cleared">Žurnalas sėkmingai išvalytas.</string>
     <string name="scroll_top">Slinkti į viršų</string>
-    <string name="loading">Įkrovimas…</string>
     <string name="scroll_bottom">Slinkite į apačią</string>
-    <string name="logs_clear_failed_2">Nepavyko išvalyti žurnalo</string>
     <string name="menu_enable_word_wrap">Žodžių apvyniojimas</string>
-    <string name="enabled_verbose_log">Įjungtas verstinis žurnalas</string>
-    <string name="disabled_verbose_log">Išjungtas verstinis žurnalas</string>
     <!-- ModulesActivity -->
-    <string name="module_empty_description">(aprašymas nepateiktas)</string>
     <string name="warning_xposed_min_version">Šis modulis reikalauja naujesnės \"Xposed\" versijos (%d), todėl negali būti aktyvuotas</string>
     <string name="warning_target_version_higher">Šis modulis skirtas naujesnei \"Xposed\" versijai (%d), todėl kai kurios funkcijos gali neveikti.</string>
     <string name="no_min_version_specified">Šis modulis nenurodo jam reikalingos \"Xposed\" versijos.</string>
@@ -107,11 +78,8 @@
     <string name="module_uninstall_message">Ar norite pašalinti šį modulį?</string>
     <string name="module_uninstalled">Išmontuota %1$s</string>
     <string name="module_uninstall_failed">Nesėkmingas pašalinimas</string>
-    <string name="add_module_to_user">Pridėti modulį prie naudotojo</string>
-    <string name="module_installed">Pridėta %1$s naudotojui %2$s</string>
     <string name="module_install_failed">Nepavyko pridėti modulio</string>
     <string name="install_to_user">Įdiegti naudotojui %s</string>
-    <string name="install_to_user_message">Norite įdiegti %1$s naudotojui %2$s? Rekomenduojama įdiegti rankiniu būdu, priverstinis diegimas per LSPosed gali sukelti problemų.</string>
     <string name="expand">išplėsti</string>
     <string name="collapse">žlugimas</string>
     <!-- AppListActivity -->
@@ -138,9 +106,7 @@
     <string name="module_is_not_activated_yet">Xposed modulis dar nėra aktyvuotas</string>
     <string name="requested_by_module">Rekomenduojama</string>
     <string name="update_available">Galimas atnaujinimas: %1$s</string>
-    <string name="module_disabled_no_selection">Modulis %s buvo išjungtas, nes nebuvo pasirinkta jokia programa.</string>
     <string name="android_framework">Sistemos sistema</string>
-    <string name="menu_backup_and_restore">Atsarginė kopija</string>
     <string name="menu_backup">Atsarginė kopija</string>
     <string name="menu_restore">Atkurti</string>
     <string name="force_stop">Priverstinis sustabdymas</string>
@@ -148,7 +114,6 @@
     <string name="force_stop_dlg_text">Jei priverstinai sustabdysite programą, ji gali elgtis netinkamai.</string>
     <string name="reboot_required">Kad šis pakeitimas būtų pritaikytas, reikia perkrauti kompiuterį</string>
     <string name="reboot">Perkraukite</string>
-    <string name="menu_hide">Paslėpti</string>
     <!-- ModulesActivity and AppListActivity -->
     <string name="modules_other_app">Peržiūrėti kitoje programoje</string>
     <string name="module_app_info">Programėlės informacija</string>
@@ -157,8 +122,6 @@
     <string name="settings_group_framework">Sistema</string>
     <string name="settings_disable_verbose_log">Išjungti verbalinius žurnalus</string>
     <string name="settings_disable_verbose_log_summary">Ataskaitos klausimų prašymas įtraukti verbalinius žurnalus</string>
-    <string name="pure_black_dark_theme">Juoda tamsi tema</string>
-    <string name="pure_black_dark_theme_summary">Naudokite grynai juodą temą, jei įjungta tamsi tema</string>
     <string name="settings_group_theme">Tema</string>
     <string name="settings_backup_and_restore">Atsarginės kopijos kūrimas ir atkūrimas</string>
     <string name="settings_backup_summary">Atsarginės kopijos modulių ir sričių sąrašai.</string>
@@ -171,8 +134,6 @@
     <string name="group_network">Tinklas</string>
     <string name="dns_over_http">DNS per HTTPS</string>
     <string name="dns_over_http_summary">Apėjimas DNS apsinuodijimas kai kuriose šalyse</string>
-    <string name="theme_color">Temos spalva</string>
-    <string name="theme_color_system">Sistemos temos spalva</string>
     <string name="settings_show_hidden_icon_apps_enabled">Priversti programas rodyti paleidiklio piktogramas</string>
     <string name="settings_show_hidden_icon_apps_enabled_summary">Po \"Android 10\" programėlėms neleidžiama slėpti paleidimo programos piktogramų. Norėdami išjungti šią sistemos funkciją, išjunkite perjungiklį.</string>
     <string name="settings_group_system">Sistema</string>
@@ -199,7 +160,6 @@
     <string name="menu_open_in_browser">Atidaryti naršyklėje</string>
     <string name="module_release_load_more">Rodyti senesnes versijas</string>
     <string name="module_release_no_more">Jokio išleidimo</string>
-    <string name="repo_load_failed">Nepavyko įkelti modulio atramos: %s</string>
     <string name="sort_upgradable_first">Pirmiausia atnaujinamas</string>
     <string name="installed">Įdiegta</string>
     <plurals name="module_release_assets_download_count">
@@ -209,7 +169,6 @@
         <item quantity="other">%d Parsisiųsti</item>
     </plurals>
     <!-- Colors -->
-    <string name="color_sakura">Sakura</string>
     <string name="color_red">Raudona</string>
     <string name="color_pink">Rožinis</string>
     <string name="color_purple">Violetinė</string>
@@ -220,12 +179,10 @@
     <string name="color_cyan">Cyan</string>
     <string name="color_teal">Teal</string>
     <string name="color_green">Žalioji</string>
-    <string name="color_light_green">Šviesiai žalia</string>
     <string name="color_lime">Lime</string>
     <string name="color_yellow">Geltona</string>
     <string name="color_amber">Amber</string>
     <string name="color_orange">Oranžinė</string>
-    <string name="color_deep_orange">Tamsiai oranžinė</string>
     <string name="color_brown">Ruda</string>
     <string name="color_blue_grey">Mėlyna pilka</string>
 </resources>
