@@ -238,6 +238,8 @@
     <string name="menu_raw_view">原始视图</string>
 
     <!-- Theme Mode -->
+    <string name="settings_ui">界面风格</string>
+    <string name="settings_ui_summary">选择应用的界面风格</string>
     <string name="settings_theme">主题</string>
     <string name="settings_theme_summary">选择应用的主题模式</string>
     <string name="settings_theme_mode_system">跟随系统</string>
