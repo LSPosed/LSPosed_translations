@@ -144,7 +144,7 @@
     <string name="group_network">网络</string>
     <string name="dns_over_http">安全 DNS（DoH）</string>
     <string name="dns_over_http_summary">解决某些地区的 DNS 污染问题</string>
-    <string name="settings_repo_cdn">模块仓库 CDN/string>
+    <string name="settings_repo_cdn">模块仓库 CDN</string>
     <string name="repo_cdn_auto">自动</string>
     <string name="repo_cdn_cloudflare">Cloudflare</string>
     <string name="repo_cdn_edgeone">EdgeOne</string>
