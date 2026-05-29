@@ -147,6 +147,10 @@
     <string name="group_network">Jaringan</string>
     <string name="dns_over_http">DNS melalui HTTPS</string>
     <string name="dns_over_http_summary">Solusi mengatasi masalah DNS di beberapa negara</string>
+    <string name="settings_repo_cdn">CDN repositori modul</string>
+    <string name="repo_cdn_auto">Otomatis</string>
+    <string name="repo_cdn_default">Bawaan</string>
+    <string name="repo_cdn_backup">Cadangan</string>
     <string name="settings_show_hidden_icon_apps_enabled">Paksa aplikasi untuk menampilkan ikon peluncur</string>
     <string name="settings_show_hidden_icon_apps_enabled_summary">Setelah Android 10, aplikasi tidak diizinkan menyembunyikan ikon peluncurnya. Matikan untuk menonaktifkan fitur sistem ini</string>
     <string name="settings_group_system">Sistem</string>
@@ -161,7 +165,7 @@
     <string name="update_channel_beta">Beta</string>
     <string name="update_channel_nightly">Rilis harian</string>
     <string name="settings_xposed_api_call_protection">Proteksi Panggilan API Xposed</string>
-    <string name="settings_xposed_api_call_protection_summary">Blokir kode modul yang dimuat secara dinamis untuk menggunakan API Xposed, ini mungkin mengganggu beberapa modul namun lebih aman</string>
+    <string name="settings_xposed_api_call_protection_summary">Memblokir kode modul yang dimuat secara dinamis untuk menggunakan API Xposed, ini mungkin mengganggu beberapa modul namun lebih aman</string>
     <string name="settings_invalidate_inline_hooks">Invalidasi inline hook</string>
     <string name="settings_invalidate_inline_hooks_summary">Melakukan pembersihan libart.so untuk aplikasi yang terdaftar. Ini berisiko menyebabkan malfungsi atau rusak acak. Gunakan hanya jika aplikasi tertentu tidak dapat dibuka</string>
     <string name="failed_to_save_invalidate_inline_hooks_list">Gagal menyimpan daftar invalidasi inline hook</string>
@@ -216,11 +220,11 @@
     <string name="disable_success_title">Berhasil</string>
     <string name="hook_debug_title">Debug hook</string>
     <string name="debugging_title">Debugging</string>
-    <string name="hook_debug_summary">Izinkan pengambilan informasi debug hook dari proses ter-hook yang dapat memengaruhi kinerja</string>
-    <string name="dump_hook_debug_title">Ambil info debug hook</string>
-    <string name="dump_hook_debug_summary">Ambil informasi debug hook ke /data/adb/lspd/log</string>
-    <string name="dump_hook_success">Disimpan ke %s</string>
-    <string name="dump_hook_failed">Gagal menyimpan</string>
+    <string name="hook_debug_summary">Izinkan pencatatan informasi debug hook dari proses di-hook yang dapat memengaruhi performa</string>
+    <string name="dump_hook_debug_title">Ekstrak info debug hook</string>
+    <string name="dump_hook_debug_summary">Ekstrak informasi debug hook ke /data/adb/lspd/log</string>
+    <string name="dump_hook_success">Berhasil diekstrak ke %s</string>
+    <string name="dump_hook_failed">Gagal mengekstrak</string>
     <string name="log_to_daemon_title">Log ke daemon</string>
     <string name="log_to_daemon_summary">Hal ini dapat mencegah aplikasi membaca log modul, tetapi dapat memengaruhi kinerja</string>
     <plurals name="disable_success_message">
@@ -242,6 +246,8 @@
     <string name="menu_raw_view">Tampilan mentah</string>
 
     <!-- Theme Mode -->
+    <string name="settings_ui">Gaya antarmuka</string>
+    <string name="settings_ui_summary">Pilih gaya antarmuka</string>
     <string name="settings_theme">Tema</string>
     <string name="settings_theme_summary">Pilih mode tema aplikasi</string>
     <string name="settings_theme_mode_system">Sistem</string>
@@ -251,8 +257,14 @@
     <string name="settings_theme_mode_monet_light">Monet (Terang)</string>
     <string name="settings_theme_mode_monet_dark">Monet (Gelap)</string>
     <string name="settings_key_color">Warna utama</string>
-    <string name="settings_key_color_summary">Sesuaikan warna utama saat menggunakan monet</string>
+    <string name="settings_key_color_summary">Sesuaikan warna utama saat menggunakan Monet</string>
     <string name="settings_key_color_default">Bawaan</string>
+    <string name="settings_theme_entry">Setelan tema</string>
+    <string name="settings_theme_entry_summary">Mode tema, warna aksen, gaya palet, dan lainnya</string>
+    <string name="settings_palette_style">Gaya palet</string>
+    <string name="settings_palette_style_summary">Algoritma tonal yang digunakan untuk menghasilkan palet Material 3</string>
+    <string name="settings_color_spec">Spesifikasi warna</string>
+    <string name="settings_color_spec_summary">Versi spesifikasi warna Material 3</string>
     <string name="settings_page_scale">Skala tampilan</string>
     <string name="settings_page_scale_summary">Sesuaikan skala tampilan</string>
     <string name="settings_enable_blur">Blur</string>
@@ -260,7 +272,7 @@
     <string name="settings_floating_bottom_bar">Bilah bawah mengambang</string>
     <string name="settings_floating_bottom_bar_summary">Gunakan bilah bawah mengambang ala Apple</string>
     <string name="settings_enable_glass">Kaca cair</string>
-    <string name="settings_enable_glass_summary">Aktifkan efek kaca cair (liquid glass) untuk bilah bawah yang mengambang</string>
+    <string name="settings_enable_glass_summary">Aktifkan efek kaca cair (liquid glass) untuk bilah bawah mengambang</string>
 
     <!-- Refresh -->
     <string name="refresh_pulling">Tarik ke bawah untuk menyegarkan</string>
