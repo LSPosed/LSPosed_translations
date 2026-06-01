@@ -21,25 +21,11 @@
     <!-- MainActivity -->
     <string name="overview">کورتەی گشتی</string>
     <string name="Modules">مۆدیوولەکان</string>
-    <plurals name="modules_enabled_count">
-        <item quantity="one">%d مۆدیول چالاک کراوە</item>
-        <item quantity="other">%d مۆدیول چالاک کراوە</item>
-    </plurals>
     <string name="Logs">لۆگەکان</string>
     <string name="Settings">ڕێکخستنەکان</string>
-    <string name="feedback_or_suggestion">فیدباک یان پێشنیار</string>
     <string name="About">دەربارە</string>
     <string name="module_repo">کۆگا</string>
-    <string name="module_repo_up_to_date">Hemî modulên nûjen</string>
-    <string name="module_repo_published_time">Di %sde hate weşandin</string>
-    <string name="module_repo_updated_time">Di %sde hate nûve kirin</string>
-    <plurals name="module_repo_upgradable">
-        <item quantity="one">%d module nûvekirin</item>
-        <item quantity="other">%d modulên nûvekirî</item>
-    </plurals>
     <string name="about_view_source_code"><![CDATA[Koda çavkaniyê li %1$s<br/>bibînin Tevlî %2$s kanala me bibin]]></string>
-    <string name="install">Lêkirin</string>
-    <string name="install_summary">Ji bo sazkirina LSPosed bikirtînin</string>
     <string name="not_installed">Ne hatiye sazkirin</string>
     <string name="not_install_summary">LSPosed nayê Sazkirin</string>
     <string name="activated">Çalak kirin</string>
@@ -49,9 +35,6 @@
     <string name="system_prop_incorrect_summary">Pêşniyara pergalê xelet e</string>
     <string name="system_prop_incorrect"><![CDATA[Hin taybetmendiyên pergalê yên pêwîst jêbirin an guherandin.<br/>Dibe ku modul carinan betal bibin.]]></string>
     <string name="need_update">Pêdivî ye ku nûve bike</string>
-    <string name="please_update_summary">Ji kerema xwe guhertoya herî dawî ya LSPosed saz bikin</string>
-    <string name="info_api_version">Guhertoya API</string>
-    <string name="info_framework_version">Guhertoya çarçoveyê</string>
     <string name="info_manager_package_name">Navê pakêta rêveberê</string>
     <string name="info_system_version">Guhertoya pergalê</string>
     <string name="info_device">Sazî</string>
@@ -64,8 +47,6 @@
     <string name="android_version_unsatisfied">Guhertoya Android-ê ne razî ye</string>
     <string name="crashed">Qeza kirin</string>
     <string name="mount_failed">Çiya têk çû</string>
-    <string name="update_lsposed">LSPosed nûve bikin</string>
-    <string name="update_lsposed_msg">Piştrast bike ku LSPosed nûve bike? Ev cîhaz dê piştî qedandina nûvekirinê ji nû ve dest pê bike</string>
     <string name="info_copied">Li clipboardê hate kopî kirin</string>
     <!-- WelcomeDialog -->
     <string name="parasitic_welcome">Hûn bi xêr hatin LSPosed</string>
@@ -81,16 +62,10 @@
     <string name="logs_saved">Têketin xilas kirin</string>
     <string name="logs_save_failed2">Sazkirin bi ser neket:\n%s</string>
     <string name="menuClearLog">Naha têketinê paqij bike</string>
-    <string name="logs_cleared">Têketin bi serkeftî hate paqij kirin.</string>
     <string name="scroll_top">Scroll to top</string>
-    <string name="loading">Barkirin…</string>
     <string name="scroll_bottom">Scroll to bottom</string>
-    <string name="logs_clear_failed_2">Paqijkirina têketinê bi ser neket</string>
     <string name="menu_enable_word_wrap">Peyv Wrap</string>
-    <string name="enabled_verbose_log">Têketinê bi lêker vekir</string>
-    <string name="disabled_verbose_log">Têketinê bi devkî neçalak bû</string>
     <!-- ModulesActivity -->
-    <string name="module_empty_description">(bê şirove nehat dayîn)</string>
     <string name="warning_xposed_min_version">Vê modulê guhertoyek nû ya Xposed (%d) hewce dike û ji ber vê yekê nayê çalak kirin</string>
     <string name="warning_target_version_higher">Ev modul ji bo guhertoyek nû ya Xposed (%d) hatî çêkirin û ji ber vê yekê dibe ku hin fonksiyon nexebitin</string>
     <string name="no_min_version_specified">Ev modul guhertoya Xposed ya ku jê re hewce dike diyar nake.</string>
@@ -102,11 +77,8 @@
     <string name="module_uninstall_message">Ma hûn dixwazin vê modulê rakin?</string>
     <string name="module_uninstalled">Rakir %1$s</string>
     <string name="module_uninstall_failed">Rakirina neserketî ye</string>
-    <string name="add_module_to_user">Modulê li bikarhênerê zêde bikin</string>
-    <string name="module_installed">%1$s ji bikarhêner %2$sre zêde kirin</string>
     <string name="module_install_failed">Zêdekirina modulê têk çû</string>
     <string name="install_to_user">Ji bikarhêner %sre saz bike</string>
-    <string name="install_to_user_message">Dixwazin %1$s ji bikarhêner %2$sre saz bikin? Tête pêşniyar kirin ku bi destan saz bikin, zordariya sazkirinê bi riya LSPosed dibe ku bibe sedema pirsgirêkan.</string>
     <string name="expand">firehkirin</string>
     <string name="collapse">jiberhevketin</string>
     <!-- AppListActivity -->
@@ -133,9 +105,7 @@
     <string name="module_is_not_activated_yet">Modula Xposed hîn nehatiye çalak kirin</string>
     <string name="requested_by_module">Pêşniyar kirin</string>
     <string name="update_available">Nûvekirin heye: %1$s</string>
-    <string name="module_disabled_no_selection">Modula %s ji ber ku tu sepan nehat hilbijartî hate neçalak kirin.</string>
     <string name="android_framework">Çarçoveya Sîstemê</string>
-    <string name="menu_backup_and_restore">Backup</string>
     <string name="menu_backup">Backup</string>
     <string name="menu_restore">Nûvdekirin</string>
     <string name="force_stop">Bi zorê rawestandin</string>
@@ -143,7 +113,6 @@
     <string name="force_stop_dlg_text">Ger hûn bi zorê sepanek rawestînin, dibe ku ew xelet tevbigere.</string>
     <string name="reboot_required">Ji bo sepandina vê guherînê ji nû ve destpêkirinê hewce ye</string>
     <string name="reboot">Reboot</string>
-    <string name="menu_hide">Veşartin</string>
     <!-- ModulesActivity and AppListActivity -->
     <string name="modules_other_app">Di sepana din de bibînin</string>
     <string name="module_app_info">Agahdariya Appê</string>
@@ -152,8 +121,6 @@
     <string name="settings_group_framework">Çarçove</string>
     <string name="settings_disable_verbose_log">Têketinên devkî neçalak bike</string>
     <string name="settings_disable_verbose_log_summary">Daxwaza pirsgirêkan rapor bikin ku têketinên devkî tê de bin</string>
-    <string name="pure_black_dark_theme">Mijara reş reş</string>
-    <string name="pure_black_dark_theme_summary">Ger mijara tarî çalak be, mijara reş a paqij bikar bînin</string>
     <string name="settings_group_theme">Mijad</string>
     <string name="settings_backup_and_restore">Backup û restore</string>
     <string name="settings_backup_summary">Lîsteya modulê paşvekêşîn û navnîşên çarçovê.</string>
@@ -166,8 +133,6 @@
     <string name="group_network">Network</string>
     <string name="dns_over_http">DNS li ser HTTPS</string>
     <string name="dns_over_http_summary">Li hin welatan jehrîkirina DNS-ê çareser bikin</string>
-    <string name="theme_color">Rengê mijarê</string>
-    <string name="theme_color_system">Rengê mijara pergalê</string>
     <string name="settings_show_hidden_icon_apps_enabled">Bi zorê serlêdanan bikin ku îkonên destpêker nîşan bidin</string>
     <string name="settings_show_hidden_icon_apps_enabled_summary">Piştî Android 10, serîlêdan destûr nayê dayîn ku îkonên xwe yên destpêker veşêrin. Ji bo neçalakkirina vê taybetmendiya pergalê, guheztinê vekin.</string>
     <string name="settings_group_system">Sîstem</string>
@@ -194,7 +159,6 @@
     <string name="menu_open_in_browser">Di gerokê de vekin</string>
     <string name="module_release_load_more">Guhertoyên kevntir nîşan bide</string>
     <string name="module_release_no_more">Bêtir berdan</string>
-    <string name="repo_load_failed">Barkirina depoya modulê têk çû: %s</string>
     <string name="sort_upgradable_first">Pêşî nûvekirin</string>
     <string name="installed">Saz kirin</string>
     <plurals name="module_release_assets_download_count">
@@ -202,7 +166,6 @@
         <item quantity="other">%d downloads</item>
     </plurals>
     <!-- Colors -->
-    <string name="color_sakura">Sakura</string>
     <string name="color_red">sor</string>
     <string name="color_pink">Pembe</string>
     <string name="color_purple">Mor</string>
@@ -213,12 +176,10 @@
     <string name="color_cyan">Cyan</string>
     <string name="color_teal">Teal</string>
     <string name="color_green">Kesk</string>
-    <string name="color_light_green">Kesk ronî</string>
     <string name="color_lime">Lime</string>
     <string name="color_yellow">Zer</string>
     <string name="color_amber">Aqût</string>
     <string name="color_orange">porteqalî</string>
-    <string name="color_deep_orange">porteqala kûr</string>
     <string name="color_brown">qehweyî</string>
     <string name="color_blue_grey">Şîn gewr</string>
 </resources>

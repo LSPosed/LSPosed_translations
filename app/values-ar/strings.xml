@@ -21,26 +21,12 @@
     <!-- MainActivity -->
     <string name="overview">لمحة عامة</string>
     <string name="Modules">الإضافات</string>
-    <plurals name="modules_enabled_count">
-        <item quantity="one">%d إضافة مفعلة</item>
-        <item quantity="other">%d إضافات مفعلة</item>
-    </plurals>
     <string name="Logs">السجلات</string>
     <string name="Settings">الإعدادات</string>
-    <string name="feedback_or_suggestion">تقديم رأيك او اقتراح</string>
     <string name="About">حول التطبيق</string>
     <string name="module_repo">مخزن الإضافات</string>
-    <string name="module_repo_up_to_date">جميع الإضافات محدثة بالفعل</string>
-    <string name="module_repo_published_time">تم نشره في %s</string>
-    <string name="module_repo_updated_time">تم رفعه في %s</string>
-    <plurals name="module_repo_upgradable">
-        <item quantity="one">%d إضافة قابلة للترقية</item>
-        <item quantity="other">%d إضافات قابلة للترقية</item>
-    </plurals>
     <string name="about_view_source_code"><![CDATA[عرض كود المصدر في %1$s<br/>انضم إلى قناتنا في %2$s]]></string>
 <string name="translators" comment="Dear translators, please add your home page here following the format. There can be more than one translator. So feel free to append yourself."><![CDATA[<b>mast3rz3ro</b> (<a href="https://github.com/mast3rz3ro">Github</a>)<br/><b>ZG089</b> (<a href="https://github.com/ZG089">Github</a>)<br/><b>merbah3266</b> (<a href="https://github.com/merbah3266">Github</a>)]]></string>
-    <string name="install">تثبيت</string>
-    <string name="install_summary">اضغط لتثبيت LSPosed</string>
     <string name="not_installed">ليس مثبتا</string>
     <string name="not_install_summary">LSPosed ليس مثبتا</string>
     <string name="activated">تم تفعيله</string>
@@ -50,11 +36,8 @@
     <string name="system_prop_incorrect_summary">خطأ في خصائص النظام</string>
     <string name="system_prop_incorrect"><![CDATA[تم حذف او التلاعب ببعض خصائص النظام المهمة.<br/>قد يؤدي هذا احيانا إلى نتائج عكسية في الإضافات.]]></string>
     <string name="need_update">يحتاج إلى تحديث</string>
-    <string name="please_update_summary">يرجى تثبيت احدث نسخة من LSPosed</string>
     <string name="developer_warning_title">تلميحات لمطور الإضافة</string>
     <string name="developer_warning_summary">يرجى تعطيل خاصية "deploy optimization" في Android Studio، او قم باستخدام الإمر `gradlew installDebug` للتثبيت.</string>
-    <string name="info_api_version">إصدار API</string>
-    <string name="info_framework_version">إصدار Framework</string>
     <string name="info_manager_package_name">إسم حزمة المدير</string>
     <string name="info_system_version">إصدار النظام</string>
     <string name="info_device">نوع الجهاز</string>
@@ -67,8 +50,6 @@
     <string name="android_version_unsatisfied">نسخة الاندرويد غير مقبولة</string>
     <string name="crashed">إنهار التطبيق</string>
     <string name="mount_failed">فشل التركيب</string>
-    <string name="update_lsposed">تحديث LSPosed</string>
-    <string name="update_lsposed_msg">هل انت متأكد من رغبتك في تحديث LSPosed ؟ سوف يتم إعادة تشغيل الجهاز بعد اكتمال التحديث</string>
     <string name="info_copied">تم النسخ إلى الحافظة</string>
 
     <!-- WelcomeDialog -->
@@ -86,17 +67,11 @@
     <string name="logs_saved">تم حفظ السجل</string>
     <string name="logs_save_failed2">فشل في حفظ:\n%s</string>
     <string name="menuClearLog">تنظيف السجل الان</string>
-    <string name="logs_cleared">تم بنجاح تنظيف السجل</string>
     <string name="scroll_top">انتقل إلى الاعلى</string>
-    <string name="loading">جاري التحميل...</string>
     <string name="scroll_bottom">انتقل إلى الاسفل</string>
-    <string name="logs_clear_failed_2">فشل في تنظيف السجل</string>
     <string name="menu_enable_word_wrap">لف الكلمات</string>
-    <string name="enabled_verbose_log">تم تفعيل وضع السجل التفصيلي</string>
-    <string name="disabled_verbose_log">تم تعطيل وضع السجل التفصيلي</string>
 
     <!-- ModulesActivity -->
-    <string name="module_empty_description">(وصف الإضافة غير متوفر)</string>
     <string name="warning_xposed_min_version">هذه الإضافة تتطلب إصدار (%d) احدث من Xposed ولذلك لا يمكن تفعيلها</string>
     <string name="warning_target_version_higher">هذه الإضافة مصممة لإصدار (%d) احدث من Xposed لذلك بعض خصائصها قد لا تعمل</string>
     <string name="no_min_version_specified">هذه الإضافة لا تذكر إصدار Xposed التي تتطلبها</string>
@@ -108,11 +83,8 @@
     <string name="module_uninstall_message">هل ترغب في إلغاء تثبيت هذه الإضافة؟</string>
     <string name="module_uninstalled">تم إلغاء تثبيت %1$s</string>
     <string name="module_uninstall_failed">فشل في إلغاء التثبيت</string>
-    <string name="add_module_to_user">نسخ الإضافة إلى المستخدم</string>
-    <string name="module_installed">تم نسخ %1$s إلى المستخدم %2$s</string>
     <string name="module_install_failed">فشل في نسخ الإضافة</string>
     <string name="install_to_user">تثبيت في المستخدم %s</string>
-    <string name="install_to_user_message">هل تريد تثبيت %1$s إلى المستخدم %2$s ؟ ينصح بالتثبيت اليدوي، قد يؤدي التثبيت الإجباري من خلال LSPosed إلى مشاكل.</string>
     <string name="expand">توسيع</string>
     <string name="collapse">طي</string>
     <string name="reset_scope_request_setting">إعادة تعيين إعداد المجال المطلوب</string>
@@ -142,9 +114,7 @@
     <string name="module_is_not_activated_yet">إضافة Xposed لم يتم تفعيلها بعد</string>
     <string name="requested_by_module">الموصى به</string>
     <string name="update_available">يتوفر تحديث: %1$s</string>
-    <string name="module_disabled_no_selection">تم تعطيل الإضافة %s بسبب عدم أختيار اي تطبيق</string>
     <string name="android_framework">النظام</string>
-    <string name="menu_backup_and_restore">النسخ الاحتياطي</string>
     <string name="menu_backup">إنشاء</string>
     <string name="menu_restore">استعادة</string>
     <string name="force_stop">إيقاف إجباري</string>
@@ -152,7 +122,6 @@
     <string name="force_stop_dlg_text">إذا قمت بعمل إيقاف إجباري للتطبيق، قد ينتج عنه سلوك غير سليم.</string>
     <string name="reboot_required">إعادة التشغيل مطلوبة لتطبيق هذا التغير</string>
     <string name="reboot">إعادة التشغيل</string>
-    <string name="menu_hide">إخفاء</string>
 
     <!-- ModulesActivity and AppListActivity -->
     <string name="modules_other_app">عرض في تطبيق اخر</string>
@@ -163,8 +132,6 @@
     <string name="settings_group_framework">إطار العمل</string>
     <string name="settings_disable_verbose_log">تعطيل السجلات التفصيلية</string>
     <string name="settings_disable_verbose_log_summary">السجلات التفصيلية مطلوبة عند الإبلاغ عن الأخطاء</string>
-    <string name="pure_black_dark_theme">سمة الظلام الغامق</string>
-    <string name="pure_black_dark_theme_summary">استخدام سمة الظلام الغامق فور تفعيل سمة الظلام</string>
     <string name="settings_group_theme">السمة</string>
     <string name="settings_backup_and_restore">النسخة الاحتياطية والاستعادة</string>
     <string name="settings_backup_summary">حفظ قائمة الإضافات وقائمة إعدادات المجال</string>
@@ -177,8 +144,6 @@
     <string name="group_network">الشبكة</string>
     <string name="dns_over_http">إرسال طلبات DNS خلال HTTPS</string>
     <string name="dns_over_http_summary">حل بديل لتجنب DNS poisoning من بعض المزودين</string>
-    <string name="theme_color">لون السمة</string>
-    <string name="theme_color_system">اتباع وضع الوان النظام</string>
     <string name="settings_show_hidden_icon_apps_enabled">إجبار التطبيقات على عرض أيقونة التشغيل</string>
     <string name="settings_show_hidden_icon_apps_enabled_summary">ابتداءً من اندرويد 10، لم يعد يسمح للتطبيقات بإخفاء أيقونة تشغيلها. لتعطيل هذه الميزة قم بإلغاء تفعيل هذا الخيار. </string>
     <string name="settings_group_system">النظام</string>
@@ -206,7 +171,6 @@
     <string name="menu_open_in_browser">فتح في المتصفح</string>
     <string name="module_release_load_more">عرض إصدار أقدم</string>
     <string name="module_release_no_more">لا يوجد إصدار اخر</string>
-    <string name="repo_load_failed">فشل في تحميل رابط الإضافة: %s</string>
     <string name="sort_upgradable_first">عرض القابل للترقية اولا</string>
     <string name="installed">تم تثبيته</string>
     <plurals name="module_release_assets_download_count">
@@ -215,7 +179,6 @@
     </plurals>
 
     <!-- Colors -->
-    <string name="color_sakura">ساكورا</string>
     <string name="color_red">أحمر</string>
     <string name="color_pink">وردي</string>
     <string name="color_purple">بنفسجي</string>
@@ -226,12 +189,10 @@
     <string name="color_cyan">سيان (سماوي)</string>
     <string name="color_teal">تيلي (اخضر مزرق)</string>
     <string name="color_green">أخضر</string>
-    <string name="color_light_green">اخضر فاتح</string>
     <string name="color_lime">ليمي</string>
     <string name="color_yellow">أصفر</string>
     <string name="color_amber">عنبر (أصفر غامق)</string>
     <string name="color_orange">برتقالي</string>
-    <string name="color_deep_orange">برتقالي غامق</string>
     <string name="color_brown">بني</string>
     <string name="color_blue_grey">رمادي ازرق</string>
     <string name="safe_mode">الوضع الامن</string>
@@ -253,22 +214,14 @@
         <item quantity="one">تم تعطيل %d إضافة</item>
         <item quantity="other">تم تعطيل %d إضافات</item>
     </plurals>
-    <string name="menuShareLog">مشاركة</string>
     <string name="logs_preparing">جاري التحضير للسجل، الرجاء الانتظار</string>
     <string name="logs_prepare_failed">فشل في التحضير:\n%s</string>
     <string name="module_scope_list_static_scope">الإضافة أعلنت مجالًا ثابتًا</string>
     
     <string name="settings_invalidate_inline_hooks">إبطال الـ inline hooks</string>
     <string name="settings_invalidate_inline_hooks_summary">تنظيف ملف libart.so للتطبيقات المحددة. هذا قد يسبب أعطالًا عشوائية وانهيارات. استخدم فقط عند عدم القدرة على فتح تطبيقات معينة.</string>
-    <string name="settings_invalidate_inline_hooks_warning">لا تقم بالإبلاغ عن أي خطأ عند تفعيل هذا الخيار.</string>
     <string name="failed_to_save_invalidate_inline_hooks_list">فشل في حفظ قائمة إبطال الـ inline hooks</string>
-    <plurals name="settings_invalidate_inline_hooks_enabled_count">
-        <item quantity="one">%d تطبيق مفعل</item>
-        <item quantity="other">%d تطبيقات مفعلة</item>
-    </plurals>
-    
-    <string name="settings_enable_new_manager">تفعيل المدير الجديد</string>
-    <string name="settings_enable_new_manager_summary">استخدام واجهة المدير الجديدة بأسلوب MIUI المبنية على Compose</string>
+
     <string name="settings_enable_predictive_back">إيماءة الرجوع التنبؤية</string>
     <string name="settings_enable_predictive_back_summary">تفعيل دعم إيماءات الرجوع التنبؤية.</string>
     

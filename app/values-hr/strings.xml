@@ -21,28 +21,12 @@
     <!-- MainActivity -->
     <string name="overview">Pregled</string>
     <string name="Modules">Moduli</string>
-    <plurals name="modules_enabled_count">
-        <item quantity="one">%d modul omogućen</item>
-        <item quantity="few">%d modula omogućeno</item>
-        <item quantity="other">%d modula omogućeno</item>
-    </plurals>
     <string name="Logs">Zapisi</string>
     <string name="Settings">Postavke</string>
-    <string name="feedback_or_suggestion">Povratna informacija ili prijedlog</string>
     <string name="About">Informacije</string>
     <string name="module_repo">Spremište modula</string>
-    <string name="module_repo_up_to_date">Svi moduli ažurirani</string>
-    <string name="module_repo_published_time">Objavljeno u %s</string>
-    <string name="module_repo_updated_time">Ažurirano u %s</string>
-    <plurals name="module_repo_upgradable">
-        <item quantity="one">%d modul moguće nadograditi</item>
-        <item quantity="few">%d modula moguće nadograditi</item>
-        <item quantity="other">%d modula moguće nadograditi</item>
-    </plurals>
     <string name="about_view_source_code"><![CDATA[Pogledajte izvorni kod na %1$s<br/>Pridružite se našem %2$s kanalu]]></string>
     <string name="translators" comment="Dear translators, please add your home page here following the format. There can be more than one translator. So feel free to append yourself.">https://github.com/cube2412</string>
-    <string name="install">Instaliraj</string>
-    <string name="install_summary">Dodirnite za instaliranje LSPosed</string>
     <string name="not_installed">Nije instalirano</string>
     <string name="not_install_summary">LSPosed nije instaliran</string>
     <string name="activated">Aktiviran</string>
@@ -52,9 +36,6 @@
     <string name="system_prop_incorrect_summary">Svojstva sustava nisu ispravna</string>
     <string name="system_prop_incorrect"><![CDATA[Neka od potrebnih svojstva sustava su izbrisana ili izmijenjena.<br/>Moduli povremeno mogu biti nedostupni.]]></string>
     <string name="need_update">Treba ažurirati</string>
-    <string name="please_update_summary">Molimo instalirajte najnoviju verziju LSPosed</string>
-    <string name="info_api_version">API verzija</string>
-    <string name="info_framework_version">Framework verzija</string>
     <string name="info_manager_package_name">Naziv paketa upravitelja</string>
     <string name="info_system_version">System verzija</string>
     <string name="info_device">Uređaj</string>
@@ -67,8 +48,6 @@
     <string name="android_version_unsatisfied">Verzija Androida nije zadovoljavajuća</string>
     <string name="crashed">Srušio se</string>
     <string name="mount_failed">Postavljanje nije uspjelo</string>
-    <string name="update_lsposed">Ažurirajte LSPosed</string>
-    <string name="update_lsposed_msg">Potvrditi ažuriranje LSPosed? Ovaj će se uređaj ponovno pokrenuti nakon završetka ažuriranja</string>
     <string name="info_copied">Kopirano u međuspremnik</string>
     <!-- WelcomeDialog -->
     <string name="parasitic_welcome">Dobrodošli u LSPosed</string>
@@ -84,16 +63,10 @@
     <string name="logs_saved">Zapisi spremljeni</string>
     <string name="logs_save_failed2">Neuspješno spremanje:\n%s</string>
     <string name="menuClearLog">Očisti zapis sada</string>
-    <string name="logs_cleared">Zapis je uspješno izbrisan.</string>
     <string name="scroll_top">Pomaknite se na vrh</string>
-    <string name="loading">Učitavanje…</string>
     <string name="scroll_bottom">Pomaknite se do dna</string>
-    <string name="logs_clear_failed_2">Brisanje zapisa nije uspjelo</string>
     <string name="menu_enable_word_wrap">Prijelom riječi</string>
-    <string name="enabled_verbose_log">Opširni zapis omogućen</string>
-    <string name="disabled_verbose_log">Opširni zapis onemogućen</string>
     <!-- ModulesActivity -->
-    <string name="module_empty_description">(nema opisa)</string>
     <string name="warning_xposed_min_version">Ovaj modul zahtijeva noviju verziju Xposed (%d) i stoga se ne može aktivirati</string>
     <string name="warning_target_version_higher">Ovaj modul je dizajniran za noviju verziju Xposed (%d) i stoga neke funkcije možda neće raditi</string>
     <string name="no_min_version_specified">Ovaj modul ne navodi verziju Xposed koja mu je potrebna.</string>
@@ -105,11 +78,8 @@
     <string name="module_uninstall_message">Želite li deinstalirati ovaj modul?</string>
     <string name="module_uninstalled">Deinstalirano %1$s</string>
     <string name="module_uninstall_failed">Deinstalacija nije uspjela</string>
-    <string name="add_module_to_user">Dodavanje modula korisniku</string>
-    <string name="module_installed">Dodano %1$s korisniku %2$s</string>
     <string name="module_install_failed">Dodavanje modula nije uspjelo</string>
     <string name="install_to_user">Instaliraj na korisnika %s</string>
-    <string name="install_to_user_message">Želite li instalirati %1$s korisniku %2$s? Preporuča se ručna instalacija, prisilna instalacija putem LSPoseda može uzrokovati probleme.</string>
     <string name="expand">proširi</string>
     <string name="collapse">sklopi</string>
     <!-- AppListActivity -->
@@ -136,9 +106,7 @@
     <string name="module_is_not_activated_yet">Xposed modul još nije aktiviran</string>
     <string name="requested_by_module">Preporučeno</string>
     <string name="update_available">Dostupno ažuriranje: %1$s</string>
-    <string name="module_disabled_no_selection">Modul %s je onemogućen jer nije odabrana nijedna aplikacija.</string>
     <string name="android_framework">System Framework</string>
-    <string name="menu_backup_and_restore">Sigurnosna kopija</string>
     <string name="menu_backup">Sigurnosna kopija</string>
     <string name="menu_restore">Vrati sigurnosnu kopiju</string>
     <string name="force_stop">Prisilno zaustavi</string>
@@ -146,7 +114,6 @@
     <string name="force_stop_dlg_text">Ako prisilno zaustavite aplikaciju, može doći do nepredvidivog ponašanja.</string>
     <string name="reboot_required">Za primjenu ove promjene potrebno je ponovno pokretanje</string>
     <string name="reboot">Ponovno podizanje sustava</string>
-    <string name="menu_hide">Sakrij</string>
     <!-- ModulesActivity and AppListActivity -->
     <string name="modules_other_app">Pogledaj u drugoj aplikaciji</string>
     <string name="module_app_info">Informacije o aplikaciji</string>
@@ -155,8 +122,6 @@
     <string name="settings_group_framework">Framework</string>
     <string name="settings_disable_verbose_log">Onemogući opširne zapise</string>
     <string name="settings_disable_verbose_log_summary">Izvješće o problemima zahtijeva uključivanje opširnih zapisa</string>
-    <string name="pure_black_dark_theme">Crna tamna tema</string>
-    <string name="pure_black_dark_theme_summary">Koristi čistu crnu temu ako je tamna tema omogućena</string>
     <string name="settings_group_theme">Tema</string>
     <string name="settings_backup_and_restore">Sigurnosno kopiranje i vraćanje</string>
     <string name="settings_backup_summary">Lista sigurnosnih kopija modula i opširne liste.</string>
@@ -169,8 +134,6 @@
     <string name="group_network">Mreža</string>
     <string name="dns_over_http">DNS preko HTTPS-a</string>
     <string name="dns_over_http_summary">Zaobilazno rješenje DNS trovanja u nekim zemljama</string>
-    <string name="theme_color">Boja teme</string>
-    <string name="theme_color_system">Boja teme sustava</string>
     <string name="settings_show_hidden_icon_apps_enabled">Prisilite aplikacije da prikazuju ikone pokretača</string>
     <string name="settings_show_hidden_icon_apps_enabled_summary">Nakon Androida 10 aplikacijama nije dopušteno skrivanje ikona pokretača. Isključite prekidač da biste onemogućili ovu značajku sustava.</string>
     <string name="settings_group_system">Sustav</string>
@@ -197,7 +160,6 @@
     <string name="menu_open_in_browser">Otvori u pretraživaču</string>
     <string name="module_release_load_more">Prikaži starije verzije</string>
     <string name="module_release_no_more">Nema više puštanja</string>
-    <string name="repo_load_failed">Neuspješno učitavanje spremišta modula: %s</string>
     <string name="sort_upgradable_first">Prvo nadogradivo</string>
     <string name="installed">instalirano</string>
     <plurals name="module_release_assets_download_count">
@@ -206,7 +168,6 @@
         <item quantity="other">%d preuzimanja</item>
     </plurals>
     <!-- Colors -->
-    <string name="color_sakura">Sakura</string>
     <string name="color_red">Crvena</string>
     <string name="color_pink">Ružičasta</string>
     <string name="color_purple">Ljubičasta</string>
@@ -217,12 +178,10 @@
     <string name="color_cyan">cijan</string>
     <string name="color_teal">Teal</string>
     <string name="color_green">zelena</string>
-    <string name="color_light_green">Svijetlo zelena</string>
     <string name="color_lime">Vapno</string>
     <string name="color_yellow">Žuta boja</string>
     <string name="color_amber">jantar</string>
     <string name="color_orange">naranča</string>
-    <string name="color_deep_orange">Tamno narančasta</string>
     <string name="color_brown">Smeđa</string>
     <string name="color_blue_grey">Plavo siva</string>
 </resources>

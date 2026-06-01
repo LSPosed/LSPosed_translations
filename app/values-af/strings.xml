@@ -20,28 +20,14 @@
 <resources xmlns:tools="http://schemas.android.com/tools" tools:keep="@string/xposed_module_updated_notification_*,@string/module_is_not_activated_*">
     <!-- MainActivity -->
     <string name="overview">Oorsig</string>
-    <plurals name="modules_enabled_count">
-        <item quantity="one">%d module enabled</item>
-        <item quantity="other">%d module enabled</item>
-    </plurals>
-    <string name="feedback_or_suggestion">Terugvoer of voorstel</string>
     <string name="About">Oor</string>
     <string name="module_repo">Bewaarplek</string>
-    <string name="module_repo_up_to_date">Alle modules op datum</string>
-    <string name="module_repo_published_time">Published at %s</string>
-    <string name="module_repo_updated_time">Opgedateer op %s</string>
-    <plurals name="module_repo_upgradable">
-        <item quantity="one">%d module opgradeerbaar</item>
-        <item quantity="other">%d modules opgradeerbaar</item>
-    </plurals>
     <string name="about_view_source_code"><![CDATA[Bekyk bronkode by %1$s<br/>Sluit aan by ons %2$s -kanaal]]></string>
-    <string name="install_summary">Tik om LSPosed te installeer</string>
     <string name="not_install_summary">LSPosed is nie geïnstalleer nie</string>
     <string name="system_inject_fail_summary">Stelselraamwerk-inspuiting het misluk</string>
     <string name="system_inject_fail"><![CDATA[Dit is skaars en kan veroorsaak word deur <b>Magisk</b> of sommige Magisk-modules van lae gehalte.<br/>Probeer asseblief om Magisk-modules anders as Zygisk en LSPosed te deaktiveer of dien volledige log aan ontwikkelaars in.]]></string>
     <string name="system_prop_incorrect_summary">Stelselstut is verkeerd</string>
     <string name="system_prop_incorrect"><![CDATA[Sommige nodige stelseleienskappe is uitgevee of gewysig.<br/>Modules kan soms ongeldig word.]]></string>
-    <string name="please_update_summary">Please install the latest version of LSPosed</string>
     <string name="info_manager_package_name">Bestuurder pakket naam</string>
     <string name="info_system_version">Stelsel weergawe</string>
     <string name="info_device">Toestel</string>
@@ -54,8 +40,6 @@
     <string name="android_version_unsatisfied">Android-weergawe nie tevrede nie</string>
     <string name="crashed">Het neergestort</string>
     <string name="mount_failed">Montering het misluk</string>
-    <string name="update_lsposed">Dateer LSPosed op</string>
-    <string name="update_lsposed_msg">Bevestig om LSPosed op te dateer? Hierdie toestel sal herlaai nadat die opdatering voltooi is</string>
     <string name="info_copied">Gekopieer na knipbord</string>
     <!-- WelcomeDialog -->
     <string name="parasitic_welcome">Welkom by LSPosed</string>
@@ -71,16 +55,10 @@
     <string name="logs_saved">Logs gestoor</string>
     <string name="logs_save_failed2">Kon nie stoor nie:\n%s</string>
     <string name="menuClearLog">Vee logboek nou uit</string>
-    <string name="logs_cleared">Log is suksesvol uitgevee.</string>
     <string name="scroll_top">Blaai na bo</string>
-    <string name="loading">Laai…</string>
     <string name="scroll_bottom">Blaai na onder</string>
-    <string name="logs_clear_failed_2">Kon nie die logboek skoonmaak nie</string>
     <string name="menu_enable_word_wrap">Woordomhulsel</string>
-    <string name="enabled_verbose_log">Uitgebreide logboek geaktiveer</string>
-    <string name="disabled_verbose_log">Uitgebreide logboek gedeaktiveer</string>
     <!-- ModulesActivity -->
-    <string name="module_empty_description">(geen beskrywing verskaf nie)</string>
     <string name="warning_xposed_min_version">Hierdie module vereis \'n nuwer Xposed weergawe (%d) en kan dus nie geaktiveer word nie</string>
     <string name="warning_target_version_higher">This module is designed for a newer Xposed version (%d) and thus some functionalities may not work</string>
     <string name="no_min_version_specified">Hierdie module spesifiseer nie die Xposed-weergawe wat dit benodig nie.</string>
@@ -92,9 +70,7 @@
     <string name="module_uninstall_message">Wil jy hierdie module deïnstalleer?</string>
     <string name="module_uninstalled">Deïnstalleer %1$s</string>
     <string name="module_uninstall_failed">Deïnstalleer onsuksesvol</string>
-    <string name="module_installed">Het %1$s by gebruiker %2$sgevoeg</string>
     <string name="install_to_user">Installeer op gebruiker %s</string>
-    <string name="install_to_user_message">Wil jy %1$s op gebruiker %2$sinstalleer? Dit word aanbeveel om met die hand te installeer, om installasie via LSPosed te dwing, kan probleme veroorsaak.</string>
     <string name="expand">uitbrei</string>
     <string name="collapse">inval</string>
     <!-- AppListActivity -->
@@ -121,9 +97,7 @@
     <string name="module_is_not_activated_yet">Xposed-module is nog nie geaktiveer nie</string>
     <string name="requested_by_module">Aanbeveel</string>
     <string name="update_available">Opdatering beskikbaar: %1$s</string>
-    <string name="module_disabled_no_selection">Module %s is gedeaktiveer aangesien geen toepassing gekies is nie.</string>
     <string name="android_framework">Stelselraamwerk</string>
-    <string name="menu_backup_and_restore">Ondersteuning</string>
     <string name="menu_backup">Ondersteuning</string>
     <string name="menu_restore">Herstel</string>
     <string name="force_stop">Forseer om te stop</string>
@@ -131,7 +105,6 @@
     <string name="force_stop_dlg_text">As jy \'n program dwing om te stop, kan dit dalk wangedra.</string>
     <string name="reboot_required">Herselflaai word vereis vir hierdie verandering om van toepassing te wees</string>
     <string name="reboot">Herlaai</string>
-    <string name="menu_hide">Versteek</string>
     <!-- ModulesActivity and AppListActivity -->
     <string name="modules_other_app">Bekyk in \'n ander toepassing</string>
     <string name="module_app_info">App inligting</string>
@@ -140,8 +113,6 @@
     <string name="settings_group_framework">Raamwerk</string>
     <string name="settings_disable_verbose_log">Deaktiveer verbose logs</string>
     <string name="settings_disable_verbose_log_summary">Rapporteer kwessies versoek om verbose logs in te sluit</string>
-    <string name="pure_black_dark_theme">Swart donker tema</string>
-    <string name="pure_black_dark_theme_summary">Gebruik die suiwer swart tema as donker tema geaktiveer is</string>
     <string name="settings_group_theme">Tema</string>
     <string name="settings_backup_and_restore">Friends en herstel</string>
     <string name="settings_backup_summary">Rugsteunmodulelys en omvanglyste.</string>
@@ -154,8 +125,6 @@
     <string name="group_network">Netwerk</string>
     <string name="dns_over_http">DNS oor HTTPS</string>
     <string name="dns_over_http_summary">Oplossing DNS-vergiftiging in sommige lande</string>
-    <string name="theme_color">Tema kleur</string>
-    <string name="theme_color_system">Stelsel tema kleur</string>
     <string name="settings_show_hidden_icon_apps_enabled">Dwing programme om lanseerder-ikone te wys</string>
     <string name="settings_show_hidden_icon_apps_enabled_summary">Ná Android 10 word programme nie toegelaat om hul lanseerder-ikone te versteek nie. Skakel die skakelaar af om hierdie stelselkenmerk te deaktiveer.</string>
     <string name="settings_group_system">Stelsel</string>
@@ -182,7 +151,6 @@
     <string name="menu_open_in_browser">Maak oop in blaaier</string>
     <string name="module_release_load_more">Wys ouer weergawes</string>
     <string name="module_release_no_more">Geen vrystelling meer nie</string>
-    <string name="repo_load_failed">Kon nie module repo laai nie: %s</string>
     <string name="sort_upgradable_first">Eers opgradeerbaar</string>
     <string name="installed">Geïnstalleer</string>
     <plurals name="module_release_assets_download_count">
@@ -190,7 +158,6 @@
         <item quantity="other">%d aflaaie</item>
     </plurals>
     <!-- Colors -->
-    <string name="color_sakura">Sakura</string>
     <string name="color_red">Rooi</string>
     <string name="color_pink">Pienk</string>
     <string name="color_purple">Pers</string>
@@ -201,12 +168,10 @@
     <string name="color_cyan">Siaan</string>
     <string name="color_teal">Blauwgroen</string>
     <string name="color_green">Groen</string>
-    <string name="color_light_green">Ligte groen</string>
     <string name="color_lime">Lemmetjie</string>
     <string name="color_yellow">Geel</string>
     <string name="color_amber">Amber</string>
     <string name="color_orange">Oranje</string>
-    <string name="color_deep_orange">Diep oranje</string>
     <string name="color_brown">Bruin</string>
     <string name="color_blue_grey">Blou grys</string>
 </resources>

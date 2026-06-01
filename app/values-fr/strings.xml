@@ -21,27 +21,13 @@
     <!-- MainActivity -->
     <string name="overview">Aperçu</string>
     <string name="Modules">Modules</string>
-    <plurals name="modules_enabled_count">
-        <item quantity="one">%d module actif</item>
-        <item quantity="other">%d modules actifs</item>
-    </plurals>
     <string name="Logs">Journaux</string>
     <string name="Settings">Réglages</string>
-    <string name="feedback_or_suggestion">Réaction ou suggestion</string>
     <string name="About">À propos</string>
     <string name="module_repo">Dépôt</string>
-    <string name="module_repo_up_to_date">Tous les modules sont à jour</string>
-    <string name="module_repo_published_time">Publié le %s</string>
-    <string name="module_repo_updated_time">Mise à jour le %s</string>
-    <plurals name="module_repo_upgradable">
-        <item quantity="one">%d modules évolutifs</item>
-        <item quantity="other">%d modules évolutifs</item>
-    </plurals>
     <string name="about_view_source_code"><![CDATA[Voir le code source sur %1$s<br/>Rejoindre notre canal %2$s]]></string>
     <string name="translators" comment="Dear translators, please add your home page here following the format. There can be more than one translator. So feel free to append yourself.">https://github.com/xerta555
 https://github.com/tclement0922</string>
-    <string name="install">Installer</string>
-    <string name="install_summary">Appuyer pour installer LSPosed</string>
     <string name="not_installed">Non installé</string>
     <string name="not_install_summary">LSPosed n\'est pas installé</string>
     <string name="activated">Activé</string>
@@ -51,9 +37,6 @@ https://github.com/tclement0922</string>
     <string name="system_prop_incorrect_summary">Propriétés système incorrectes</string>
     <string name="system_prop_incorrect"><![CDATA[Certaines propriétés nécessaires au système ont été supprimées ou modifiées.<br/>Des modules peuvent s\'invalider occasionnellement.]]></string>
     <string name="need_update">Mise à jour nécessaire</string>
-    <string name="please_update_summary">Merci d\’installer la dernière version de LSPosed</string>
-    <string name="info_api_version">Version de l\’API</string>
-    <string name="info_framework_version">Version du framework</string>
     <string name="info_manager_package_name">Nom de paquet du gestionnaire</string>
     <string name="info_system_version">Version du système</string>
     <string name="info_device">Périphérique</string>
@@ -66,8 +49,6 @@ https://github.com/tclement0922</string>
     <string name="android_version_unsatisfied">Version d\'Android non satisfaisante</string>
     <string name="crashed">Planté</string>
     <string name="mount_failed">Échec du montage</string>
-    <string name="update_lsposed">Mettre à jour LSPosed</string>
-    <string name="update_lsposed_msg">Vous confirmez la mise à jour LSPosed ? Ce périphérique redémarrera après la mise à jour effectuée</string>
     <string name="info_copied">Copié dans le presse-papier</string>
     <!-- WelcomeDialog -->
     <string name="parasitic_welcome">Bienvenue dans LSPosed</string>
@@ -83,16 +64,10 @@ https://github.com/tclement0922</string>
     <string name="logs_saved">Journaux enregistrés</string>
     <string name="logs_save_failed2">Échec de la sauvegarde :\n%s</string>
     <string name="menuClearLog">Effacer le journal maintenant</string>
-    <string name="logs_cleared">Journal effacé avec succès.</string>
     <string name="scroll_top">Haut de page</string>
-    <string name="loading">Chargement…</string>
     <string name="scroll_bottom">Pied de page</string>
-    <string name="logs_clear_failed_2">Échec de l\'effacement du journal</string>
     <string name="menu_enable_word_wrap">Retour à la ligne</string>
-    <string name="enabled_verbose_log">Journaux détaillés activés</string>
-    <string name="disabled_verbose_log">Journaux détaillés désactivés</string>
     <!-- ModulesActivity -->
-    <string name="module_empty_description">(aucune description fournie)</string>
     <string name="warning_xposed_min_version">Ce module requière une nouvelle version d\'Xposed (%d) et n\'a donc pas pu être activé</string>
     <string name="warning_target_version_higher">Ce module a été conçu pour une nouvelle version d\’Xposed (%d) et certaines fonctionnalités pourraient ne pas fonctionner</string>
     <string name="no_min_version_specified">Ce module ne spécifie pas la version d\'Xposed nécessaire.</string>
@@ -104,11 +79,8 @@ https://github.com/tclement0922</string>
     <string name="module_uninstall_message">Voulez-vous désinstaller ce module ?</string>
     <string name="module_uninstalled">Désinstallation de %1$s</string>
     <string name="module_uninstall_failed">Échec de la désinstallation</string>
-    <string name="add_module_to_user">Ajouter le module à l\’utilisateur</string>
-    <string name="module_installed">%1$s ajouté à l’utilisateur %2$s</string>
     <string name="module_install_failed">Échec de l\’ajout du module</string>
     <string name="install_to_user">Installer dans l\'utilisateur %s</string>
-    <string name="install_to_user_message">Vous voulez installer %1$s dans l\'utilisateur %2$s ? Il est recommandé de l\'installer manuellement, forcer l\'installation via LSPosed pourrait causer des problèmes.</string>
     <string name="expand">développer</string>
     <string name="collapse">réduire</string>
     <!-- AppListActivity -->
@@ -135,9 +107,7 @@ https://github.com/tclement0922</string>
     <string name="module_is_not_activated_yet">Le module Xposed n\’est pas encore activé</string>
     <string name="requested_by_module">Recommandé</string>
     <string name="update_available">Mise à jour disponible : %1$s</string>
-    <string name="module_disabled_no_selection">Le module %s a été désactivé étant donné qu\’aucune application n\’ai été sélectionné.</string>
     <string name="android_framework">Cadre du sous-système</string>
-    <string name="menu_backup_and_restore">Sauvegarde</string>
     <string name="menu_backup">Sauvegarder</string>
     <string name="menu_restore">Restaurer</string>
     <string name="force_stop">Forcer l\’arrêt</string>
@@ -145,7 +115,6 @@ https://github.com/tclement0922</string>
     <string name="force_stop_dlg_text">Si vous forcez l\'arrêt d\'une application, celle-ci pourrait mal fonctionner.</string>
     <string name="reboot_required">Un redémarrage est requis pour appliquer les changements</string>
     <string name="reboot">Redémarrer</string>
-    <string name="menu_hide">Masquage</string>
     <!-- ModulesActivity and AppListActivity -->
     <string name="modules_other_app">Afficher dans une autre application</string>
     <string name="module_app_info">Informations d\’application</string>
@@ -154,8 +123,6 @@ https://github.com/tclement0922</string>
     <string name="settings_group_framework">Sous-système</string>
     <string name="settings_disable_verbose_log">Désactiver les journaux détaillés</string>
     <string name="settings_disable_verbose_log_summary">Demande de rapports sur les problèmes pour inclure les journaux détaillés</string>
-    <string name="pure_black_dark_theme">Thème noir et sombre</string>
-    <string name="pure_black_dark_theme_summary">Utiliser le thème noir pur si le thème noir est activé</string>
     <string name="settings_group_theme">Thème</string>
     <string name="settings_backup_and_restore">Sauvegarder et restaurer</string>
     <string name="settings_backup_summary">Sauvegarder la liste des modules ainsi que leurs champs d\'applications.</string>
@@ -168,8 +135,6 @@ https://github.com/tclement0922</string>
     <string name="group_network">Réseau</string>
     <string name="dns_over_http">DNS sur HTTPS</string>
     <string name="dns_over_http_summary">Contourner la censure DNS dans certains pays</string>
-    <string name="theme_color">Couleur du thème</string>
-    <string name="theme_color_system">Couleur d\'accentuation du système</string>
     <string name="settings_show_hidden_icon_apps_enabled">Forcer les applications à afficher leurs icônes dans le lanceur</string>
     <string name="settings_show_hidden_icon_apps_enabled_summary">Après Android 10, les applications ne sont pas autorisées à masquer leurs icônes dans le lanceur. Désactiver ce commutateur pour désactiver cette fonctionnalité du système.</string>
     <string name="settings_group_system">Système</string>
@@ -196,7 +161,6 @@ https://github.com/tclement0922</string>
     <string name="menu_open_in_browser">Ouvrir dans le navigateur</string>
     <string name="module_release_load_more">Afficher les anciennes versions</string>
     <string name="module_release_no_more">Pas d\’autres versions</string>
-    <string name="repo_load_failed">Échec de chargement du dépôt des modules : %s</string>
     <string name="sort_upgradable_first">Évolutifs en premier</string>
     <string name="installed">installée</string>
     <plurals name="module_release_assets_download_count">
@@ -204,7 +168,6 @@ https://github.com/tclement0922</string>
         <item quantity="other">%d téléchargés</item>
     </plurals>
     <!-- Colors -->
-    <string name="color_sakura">Sakura</string>
     <string name="color_red">Rouge</string>
     <string name="color_pink">Rose</string>
     <string name="color_purple">Violet</string>
@@ -215,12 +178,10 @@ https://github.com/tclement0922</string>
     <string name="color_cyan">Cyan</string>
     <string name="color_teal">Turquoise</string>
     <string name="color_green">Vert</string>
-    <string name="color_light_green">Vert clair</string>
     <string name="color_lime">Vert citron</string>
     <string name="color_yellow">Jaune</string>
     <string name="color_amber">Ambre</string>
     <string name="color_orange">Orange</string>
-    <string name="color_deep_orange">Orange foncé</string>
     <string name="color_brown">Marron</string>
     <string name="color_blue_grey">Bleu grisâtre</string>
 </resources>

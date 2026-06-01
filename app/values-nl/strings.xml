@@ -21,26 +21,12 @@
     <!-- MainActivity -->
     <string name="overview">Overzicht</string>
     <string name="Modules">Modules</string>
-    <plurals name="modules_enabled_count">
-        <item quantity="one">%d module ingeschakeld</item>
-        <item quantity="other">%d modules ingeschakeld</item>
-    </plurals>
     <string name="Logs">Logboeken</string>
     <string name="Settings">Instellingen</string>
-    <string name="feedback_or_suggestion">Feedback en suggestie</string>
     <string name="About">Over</string>
     <string name="module_repo">Opslagplaats</string>
-    <string name="module_repo_up_to_date">Alle modules zijn up-to-date</string>
-    <string name="module_repo_published_time">Gepubliceerd op %s</string>
-    <string name="module_repo_updated_time">Bijgewerkt op %s</string>
-    <plurals name="module_repo_upgradable">
-        <item quantity="one">%d module te upgraden</item>
-        <item quantity="other">%d modules te upgraden</item>
-    </plurals>
     <string name="about_view_source_code"><![CDATA[Bekijk de broncode op %1$s<br/>Sluit je aan bij onze %2$s kanaal]]></string>
     <string name="translators" comment="Dear translators, please add your home page here following the format. There can be more than one translator. So feel free to append yourself.">Pandemic-XDA</string>
-    <string name="install">Installeren</string>
-    <string name="install_summary">Tik om LSPosed te installeren</string>
     <string name="not_installed">Niet geïnstalleerd</string>
     <string name="not_install_summary">LSPosed is niet geinstalleerd</string>
     <string name="activated">Geactiveerd</string>
@@ -50,9 +36,6 @@
     <string name="system_prop_incorrect_summary">Systeem prop incorrect</string>
     <string name="system_prop_incorrect"><![CDATA[Enkele noodzakelijke systeemeigenschappen verwijderd of gewijzigd.<br/>Modules kunnen af en toe ongeldig worden.]]></string>
     <string name="need_update">Bijwerken is nodig</string>
-    <string name="please_update_summary">Installeer de laatste versie van LSPosed</string>
-    <string name="info_api_version">API versie</string>
-    <string name="info_framework_version">Framework versie</string>
     <string name="info_manager_package_name">Naam beheerderspakket</string>
     <string name="info_system_version">Systeem versie</string>
     <string name="info_device">Apparaat</string>
@@ -65,8 +48,6 @@
     <string name="android_version_unsatisfied">Android versie onbevredigd</string>
     <string name="crashed">Crashed</string>
     <string name="mount_failed">Berg mislukt</string>
-    <string name="update_lsposed">Update LSPosed</string>
-    <string name="update_lsposed_msg">Bevestig bijwerken van LSPosed? Dit apparaat zal opnieuw opstarten nadat de update is voltooid</string>
     <string name="info_copied">Gekopieerd naar klembord</string>
     <!-- WelcomeDialog -->
     <string name="parasitic_welcome">Welkom bij LSPosed</string>
@@ -82,16 +63,10 @@
     <string name="logs_saved">Opgeslagen logboeken</string>
     <string name="logs_save_failed2">Opslaan mislukt:\n%s</string>
     <string name="menuClearLog">Wis het logboek nu</string>
-    <string name="logs_cleared">Log succesvol gewist.</string>
     <string name="scroll_top">Scroll naar boven</string>
-    <string name="loading">Laden…</string>
     <string name="scroll_bottom">Scroll naar beneden</string>
-    <string name="logs_clear_failed_2">Het logboek kan niet worden gewist</string>
     <string name="menu_enable_word_wrap">Woord Omslag</string>
-    <string name="enabled_verbose_log">Uitgebreide logboek ingeschakeld</string>
-    <string name="disabled_verbose_log">Verbose logboek uitgeschakeld</string>
     <!-- ModulesActivity -->
-    <string name="module_empty_description">(geen beschrijving gegeven)</string>
     <string name="warning_xposed_min_version">Deze module vereist een nieuwere versie van Lsposed (%d) en kan dus niet worden geactiveerd</string>
     <string name="warning_target_version_higher">Deze module is ontworpen voor een nieuwere Xposed-versie (%d) en daarom werken sommige functionaliteiten mogelijk niet</string>
     <string name="no_min_version_specified">Deze module heeft geen vereiste versie voor Xposed opgegeven.</string>
@@ -103,11 +78,8 @@
     <string name="module_uninstall_message">Wilt u deze module verwijderen?</string>
     <string name="module_uninstalled">Gedeïnstalleerd %1$s</string>
     <string name="module_uninstall_failed">Verwijderen mislukt</string>
-    <string name="add_module_to_user">Module toevoegen aan gebruiker</string>
-    <string name="module_installed">Toegevoegd %1$s naar gebruiker %2$s</string>
     <string name="module_install_failed">Het toevoegen van de module is mislukt</string>
     <string name="install_to_user">Installeer naar gebruiker %s</string>
-    <string name="install_to_user_message">Wil je installeren %1$s naar gebruiker %2$s? Het wordt aanbevolen om handmatig te installeren, het forceren van installatie via LSPosed kan problemen veroorzaken.</string>
     <string name="expand">uitbreiden</string>
     <string name="collapse">samenvouwen</string>
     <!-- AppListActivity -->
@@ -134,9 +106,7 @@
     <string name="module_is_not_activated_yet">LSPosed module is nog niet geactiveerd</string>
     <string name="requested_by_module">Aanbevolen</string>
     <string name="update_available">Update beschikbaar: %1$s</string>
-    <string name="module_disabled_no_selection">Module %1$s is uitgeschakeld omdat er geen app is geselecteerd.</string>
     <string name="android_framework">Systeem Framework</string>
-    <string name="menu_backup_and_restore">Backup</string>
     <string name="menu_backup">Backup</string>
     <string name="menu_restore">Herstellen</string>
     <string name="force_stop">Forceer stop</string>
@@ -144,7 +114,6 @@
     <string name="force_stop_dlg_text">Als je een app gedwongen stopt, kan deze onverwacht gedrag vertonen.</string>
     <string name="reboot_required">Opnieuw opstarten is vereist om deze wijziging door te voeren</string>
     <string name="reboot">Herstart</string>
-    <string name="menu_hide">Verbergen</string>
     <!-- ModulesActivity and AppListActivity -->
     <string name="modules_other_app">Bekijk in andere app</string>
     <string name="module_app_info">App informatie</string>
@@ -153,8 +122,6 @@
     <string name="settings_group_framework">Framework</string>
     <string name="settings_disable_verbose_log">Schakel uitgebreide logboeken uit</string>
     <string name="settings_disable_verbose_log_summary">Rapporteer problemen verzoek om uitgebreide logboeken op te nemen</string>
-    <string name="pure_black_dark_theme">Zwarte donkere thema</string>
-    <string name="pure_black_dark_theme_summary">Gebruik het pure zwarte thema als het donkere thema is ingeschakeld</string>
     <string name="settings_group_theme">Thema</string>
     <string name="settings_backup_and_restore">Backup en herstellen</string>
     <string name="settings_backup_summary">Backup of herstel de modulelijst en scooplijsten.</string>
@@ -167,8 +134,6 @@
     <string name="group_network">Netwerk</string>
     <string name="dns_over_http">DNS via HTTPS</string>
     <string name="dns_over_http_summary">Tijdelijke oplossing voor DNS-vergiftiging in sommige landen</string>
-    <string name="theme_color">Thema kleur</string>
-    <string name="theme_color_system">Systeem thema kleur</string>
     <string name="settings_show_hidden_icon_apps_enabled">Forceer apps om launcher-pictogrammen weer te geven</string>
     <string name="settings_show_hidden_icon_apps_enabled_summary">Na Android 10 mogen apps de launcher pictogrammen niet verbergen. Schakel de schakelaar uit om deze functie uit te schakelen.</string>
     <string name="settings_group_system">Systeem</string>
@@ -195,7 +160,6 @@
     <string name="menu_open_in_browser">Open in de browser</string>
     <string name="module_release_load_more">Laat oudere versies zien</string>
     <string name="module_release_no_more">Geen release meer</string>
-    <string name="repo_load_failed">Kan moduleopslagplaats niet laden: %1$s</string>
     <string name="sort_upgradable_first">Eerst te upgraden</string>
     <string name="installed">Geïnstalleerd</string>
     <plurals name="module_release_assets_download_count">
@@ -203,7 +167,6 @@
         <item quantity="other">%d downloads</item>
     </plurals>
     <!-- Colors -->
-    <string name="color_sakura">Sakura</string>
     <string name="color_red">Rood</string>
     <string name="color_pink">Roze</string>
     <string name="color_purple">Paars</string>
@@ -214,12 +177,10 @@
     <string name="color_cyan">Turquoise</string>
     <string name="color_teal">Groenblauw</string>
     <string name="color_green">Groen</string>
-    <string name="color_light_green">Licht groen</string>
     <string name="color_lime">Limoen</string>
     <string name="color_yellow">Geel</string>
     <string name="color_amber">Amber</string>
     <string name="color_orange">Oranje</string>
-    <string name="color_deep_orange">Diep oranje</string>
     <string name="color_brown">Bruin</string>
     <string name="color_blue_grey">Blauw grijs</string>
 </resources>

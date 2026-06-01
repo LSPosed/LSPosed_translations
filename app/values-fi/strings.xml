@@ -21,25 +21,11 @@
     <!-- MainActivity -->
     <string name="overview">Yleiskatsaus</string>
     <string name="Modules">Moduulit</string>
-    <plurals name="modules_enabled_count">
-        <item quantity="one">%d moduuli käytössä</item>
-        <item quantity="other">%d moduulia käytössä</item>
-    </plurals>
     <string name="Logs">Lokit</string>
     <string name="Settings">Asetukset</string>
-    <string name="feedback_or_suggestion">Palaute tai ehdotus</string>
     <string name="About">Tietoja</string>
     <string name="module_repo">Versiovarasto</string>
-    <string name="module_repo_up_to_date">Kaikki moduulit ajan tasalla</string>
-    <string name="module_repo_published_time">Julkaistu osoitteessa %s</string>
-    <string name="module_repo_updated_time">Päivitetty osoitteessa %s</string>
-    <plurals name="module_repo_upgradable">
-        <item quantity="one">%d moduuli päivitettävissä</item>
-        <item quantity="other">%d moduulia päivitettävissä</item>
-    </plurals>
     <string name="about_view_source_code"><![CDATA[Näytä lähdekoodi %1$s<br/>Liity kanavaamme %2$s]]></string>
-    <string name="install">Asenna</string>
-    <string name="install_summary">Napauta asentaaksesi LSPosed</string>
     <string name="not_installed">Ei asennettu</string>
     <string name="not_install_summary">LSPosed ei ole asennettu</string>
     <string name="activated">Aktivoitu</string>
@@ -49,9 +35,6 @@
     <string name="system_prop_incorrect_summary">Järjestelmän prop virheellinen</string>
     <string name="system_prop_incorrect"><![CDATA[Jotkut tarvittavat järjestelmän ominaisuudet poistettu tai muokattu.<br/>Moduulit voivat mitätöidä satunnaisesti.]]></string>
     <string name="need_update">Täytyy päivittää</string>
-    <string name="please_update_summary">Asenna LSPosedin uusin versio</string>
-    <string name="info_api_version">API versio</string>
-    <string name="info_framework_version">Kehyksen versio</string>
     <string name="info_manager_package_name">Manager-paketin nimi</string>
     <string name="info_system_version">Järjestelmän versio</string>
     <string name="info_device">Laite</string>
@@ -64,8 +47,6 @@
     <string name="android_version_unsatisfied">Android-versio tyytymätön</string>
     <string name="crashed">Crashed</string>
     <string name="mount_failed">Kiinnitys epäonnistui</string>
-    <string name="update_lsposed">Päivitys LSPostettu</string>
-    <string name="update_lsposed_msg">Vahvista LSPost-päivitys? Tämä laite käynnistyy uudelleen päivityksen jälkeen</string>
     <string name="info_copied">Kopioitu leikepöydälle</string>
     <!-- WelcomeDialog -->
     <string name="parasitic_welcome">Tervetuloa LSPosed</string>
@@ -81,16 +62,10 @@
     <string name="logs_saved">Tallennetut lokit</string>
     <string name="logs_save_failed2">Tallennus epäonnistui:\n%s</string>
     <string name="menuClearLog">Tyhjennä loki nyt</string>
-    <string name="logs_cleared">Loki tyhjennetty.</string>
     <string name="scroll_top">Vieritä ylös</string>
-    <string name="loading">Ladataan…</string>
     <string name="scroll_bottom">Siirry alareunaan</string>
-    <string name="logs_clear_failed_2">Lokin tyhjentäminen epäonnistui</string>
     <string name="menu_enable_word_wrap">Sanan Rivitys</string>
-    <string name="enabled_verbose_log">Verbose loki käytössä</string>
-    <string name="disabled_verbose_log">Verbose loki pois käytöstä</string>
     <!-- ModulesActivity -->
-    <string name="module_empty_description">(ei kuvausta annettu)</string>
     <string name="warning_xposed_min_version">Tämä moduuli vaatii uudemman Xposed version (%d) eikä sitä näin ollen voi aktivoida</string>
     <string name="warning_target_version_higher">Tämä moduuli on suunniteltu uudemmalle Xposed-versiolle (%d), joten jotkin toiminnot eivät välttämättä toimi.</string>
     <string name="no_min_version_specified">Tämä moduuli ei määrittele tarvitsemaansa Xposed versiota.</string>
@@ -102,11 +77,8 @@
     <string name="module_uninstall_message">Haluatko poistaa tämän moduulin?</string>
     <string name="module_uninstalled">Poista %1$s</string>
     <string name="module_uninstall_failed">Poisto epäonnistui</string>
-    <string name="add_module_to_user">Lisää moduuli käyttäjälle</string>
-    <string name="module_installed">Lisätty %1$s käyttäjälle %2$s</string>
     <string name="module_install_failed">Moduulin lisääminen epäonnistui</string>
     <string name="install_to_user">Asenna käyttäjälle %s</string>
-    <string name="install_to_user_message">Haluatko asentaa %1$s käyttäjälle %2$s? On suositeltavaa asentaa manuaalisesti, pakottaa asennus LSPosedin kautta voi aiheuttaa ongelmia.</string>
     <string name="expand">laajenna</string>
     <string name="collapse">pienennä</string>
     <!-- AppListActivity -->
@@ -133,9 +105,7 @@
     <string name="module_is_not_activated_yet">Xposed moduuli ei ole vielä aktivoitu</string>
     <string name="requested_by_module">Suositeltu</string>
     <string name="update_available">Päivitys saatavilla: %1$s</string>
-    <string name="module_disabled_no_selection">Moduuli %s on poistettu käytöstä koska sovellusta ei ole valittu.</string>
     <string name="android_framework">Järjestelmän Puitteet</string>
-    <string name="menu_backup_and_restore">Varmuuskopio</string>
     <string name="menu_backup">Varmuuskopio</string>
     <string name="menu_restore">Palauta</string>
     <string name="force_stop">Pakota lopetus</string>
@@ -143,7 +113,6 @@
     <string name="force_stop_dlg_text">Jos pakotat sovelluksen pysähtymään, se saattaa käyttäytyä väärin.</string>
     <string name="reboot_required">Uudelleenkäynnistys vaaditaan tämän muutoksen käyttöönottamiseksi</string>
     <string name="reboot">Reboot</string>
-    <string name="menu_hide">Piilota</string>
     <!-- ModulesActivity and AppListActivity -->
     <string name="modules_other_app">Näytä toisessa sovelluksessa</string>
     <string name="module_app_info">Sovelluksen tiedot</string>
@@ -152,8 +121,6 @@
     <string name="settings_group_framework">Framework</string>
     <string name="settings_disable_verbose_log">Sanallisten lokien poistaminen käytöstä</string>
     <string name="settings_disable_verbose_log_summary">Raportti pyytää sisällyttämään sanalliset lokit</string>
-    <string name="pure_black_dark_theme">Musta tumma teema</string>
-    <string name="pure_black_dark_theme_summary">Käytä puhdas musta teema, jos tumma teema on käytössä</string>
     <string name="settings_group_theme">Teema</string>
     <string name="settings_backup_and_restore">Varmuuskopioi ja palauta</string>
     <string name="settings_backup_summary">Varmuuskopioi moduulien listat ja sisällysluettelot.</string>
@@ -166,8 +133,6 @@
     <string name="group_network">Verkko</string>
     <string name="dns_over_http">DNS yli HTTPS</string>
     <string name="dns_over_http_summary">Workaround DNS myrkytys joissakin kansoissa</string>
-    <string name="theme_color">Teeman väri</string>
-    <string name="theme_color_system">Järjestelmän teeman väri</string>
     <string name="settings_show_hidden_icon_apps_enabled">Pakota sovellukset näyttämään käynnistimen kuvakkeet</string>
     <string name="settings_show_hidden_icon_apps_enabled_summary">Android 10:n jälkeen sovellukset eivät saa piilottaa niiden käynnistyskuvakkeita. Poista valinta käytöstä poistaaksesi järjestelmän ominaisuuden.</string>
     <string name="settings_group_system">Järjestelmä</string>
@@ -194,7 +159,6 @@
     <string name="menu_open_in_browser">Avaa selaimessa</string>
     <string name="module_release_load_more">Näytä vanhemmat versiot</string>
     <string name="module_release_no_more">Ei enää versiota</string>
-    <string name="repo_load_failed">Ei voitu ladata moduulia repo: %s</string>
     <string name="sort_upgradable_first">Päivitettävissä ensin</string>
     <string name="installed">Asennettu</string>
     <plurals name="module_release_assets_download_count">
@@ -202,7 +166,6 @@
         <item quantity="other">%d lataukset</item>
     </plurals>
     <!-- Colors -->
-    <string name="color_sakura">Sakura</string>
     <string name="color_red">Punainen</string>
     <string name="color_pink">Pinkki</string>
     <string name="color_purple">Violetti</string>
@@ -213,12 +176,10 @@
     <string name="color_cyan">Syaani</string>
     <string name="color_teal">Sinappi</string>
     <string name="color_green">Vihreä</string>
-    <string name="color_light_green">Vaalea vihreä</string>
     <string name="color_lime">Limea</string>
     <string name="color_yellow">Keltainen</string>
     <string name="color_amber">Meripihka</string>
     <string name="color_orange">Oranssi</string>
-    <string name="color_deep_orange">Syvä oranssi</string>
     <string name="color_brown">Ruskea</string>
     <string name="color_blue_grey">Sininen harmaa</string>
 </resources>

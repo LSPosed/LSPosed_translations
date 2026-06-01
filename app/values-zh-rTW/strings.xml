@@ -21,24 +21,12 @@
     <!-- MainActivity -->
     <string name="overview">概觀</string>
     <string name="Modules">模組</string>
-    <plurals name="modules_enabled_count">
-        <item quantity="other">已啟用 %d 個模組</item>
-    </plurals>
     <string name="Logs">日誌</string>
     <string name="Settings">設定</string>
-    <string name="feedback_or_suggestion">回饋或建議</string>
     <string name="About">關於</string>
     <string name="module_repo">倉庫</string>
-    <string name="module_repo_up_to_date">所有模組為最新版本</string>
-    <string name="module_repo_published_time">發佈於 %s</string>
-    <string name="module_repo_updated_time">更新於 %s</string>
-    <plurals name="module_repo_upgradable">
-        <item quantity="other">%d 個模組可更新</item>
-    </plurals>
     <string name="about_view_source_code"><![CDATA[在 %1$s 檢視原始碼<br/>加入我們的 %2$s 頻道]]></string>
     <string name="translators" comment="Dear translators, please add your home page here following the format. There can be more than one translator. So feel free to append yourself.">孟武. 尼德霍格. 龍、david082321、beigua87、HSSkyBoy</string>
-    <string name="install">安裝</string>
-    <string name="install_summary">點選安裝 LSPosed</string>
     <string name="not_installed">未安裝</string>
     <string name="not_install_summary">LSPosed 未安裝</string>
     <string name="activated">已啟用</string>
@@ -48,11 +36,8 @@
     <string name="system_prop_incorrect_summary">系統屬性異常</string>
     <string name="system_prop_incorrect"><![CDATA[部分必須的系統屬性被刪除或被修改，<br/>模組可能會隨機失效。]]></string>
     <string name="need_update">需要更新</string>
-    <string name="please_update_summary">請安裝新版 LSPosed</string>
     <string name="developer_warning_title">給模組開發者的提示</string>
     <string name="developer_warning_summary">請在 Android Studio 上禁用部署最佳化，或使用 `gradlew installDebug` 命令進行安裝，否則無法更新模組。</string>
-    <string name="info_api_version">API 版本</string>
-    <string name="info_framework_version">框架版本</string>
     <string name="info_manager_package_name">管理器套件名</string>
     <string name="info_system_version">系統版本</string>
     <string name="info_device">裝置</string>
@@ -65,8 +50,6 @@
     <string name="android_version_unsatisfied">系統版本不受支援</string>
     <string name="crashed">當機</string>
     <string name="mount_failed">掛載失敗</string>
-    <string name="update_lsposed">更新 LSPosed</string>
-    <string name="update_lsposed_msg">確認更新 LSPosed? 更新完成後將會重啟裝置</string>
     <string name="info_copied">已複製到剪貼簿</string>
     <!-- WelcomeDialog -->
     <string name="parasitic_welcome">歡迎使用 LSPosed</string>
@@ -76,7 +59,6 @@
     <string name="app_welcome_summary">LSPosed 現在支援系統寄生以避免偵測，您可以從通知開啟寄生管理員。建議解除安裝目前應用程式。</string>
     <!-- LogsActivity -->
     <string name="menuSaveToSd">儲存</string>
-    <string name="menuShareLog">分享</string>
     <string name="nav_item_logs_verbose">詳細日誌</string>
     <string name="nav_item_logs_module">模組日誌</string>
     <string name="logs_saving">正在儲存日誌，請稍候</string>
@@ -85,16 +67,10 @@
     <string name="logs_preparing">正在準備日誌，請稍候</string>
     <string name="logs_prepare_failed">準備失敗：\n%s</string>
     <string name="menuClearLog">立即清除日誌</string>
-    <string name="logs_cleared">成功清除日誌。</string>
     <string name="scroll_top">捲動到頂部</string>
-    <string name="loading">載入中…</string>
     <string name="scroll_bottom">捲動到底部</string>
-    <string name="logs_clear_failed_2">日誌清除失敗</string>
     <string name="menu_enable_word_wrap">自動換行</string>
-    <string name="enabled_verbose_log">詳細日誌已啟用</string>
-    <string name="disabled_verbose_log">詳細日誌已停用</string>
     <!-- ModulesActivity -->
-    <string name="module_empty_description">(未提供介紹)</string>
     <string name="warning_xposed_min_version">該模組需要更新版本的 Xposed(%d)，因此無法被啟用</string>
     <string name="warning_target_version_higher">此模組專為較新的 Xposed 版本 (%d) 而設計，因此某些功能可能無法運作</string>
     <string name="no_min_version_specified">該模組未指定需要的 Xposed 版本</string>
@@ -106,11 +82,8 @@
     <string name="module_uninstall_message">您確定要移除此模組嗎？</string>
     <string name="module_uninstalled">已移除 %1$s</string>
     <string name="module_uninstall_failed">移除失敗</string>
-    <string name="add_module_to_user">為使用者安裝模組</string>
-    <string name="module_installed">已為使用者 %2$s 安裝模組 %1$s</string>
     <string name="module_install_failed">模組安裝失敗</string>
     <string name="install_to_user">為使用者 %s 安裝</string>
-    <string name="install_to_user_message">確定要為使用者 %2$s 安裝 %1$s 嗎？建議手動安裝或多開，透過 LSPosed 強制安裝可能會出現問題。</string>
     <string name="expand">展開</string>
     <string name="collapse">收起</string>
     <string name="reset_scope_request_setting">重設作用域請求設定</string>
@@ -140,9 +113,7 @@
     <string name="module_is_not_activated_yet">Xposed 模組尚未啟用</string>
     <string name="requested_by_module">推薦啟用</string>
     <string name="update_available">可用更新：%1$s</string>
-    <string name="module_disabled_no_selection">由於未選擇任何程式，模組 %s 已被停用。</string>
     <string name="android_framework">系統框架</string>
-    <string name="menu_backup_and_restore">備份</string>
     <string name="menu_backup">備份</string>
     <string name="menu_restore">還原</string>
     <string name="force_stop">強制停止</string>
@@ -150,7 +121,6 @@
     <string name="force_stop_dlg_text">如果您強制停止應用程式，可能導致行為異常。</string>
     <string name="reboot_required">需要重新啟動以套用此變更</string>
     <string name="reboot">重啟系統</string>
-    <string name="menu_hide">隱藏</string>
     <!-- ModulesActivity and AppListActivity -->
     <string name="modules_other_app">在其他應用程式中檢視</string>
     <string name="module_app_info">程式資訊</string>
@@ -159,8 +129,6 @@
     <string name="settings_group_framework">框架</string>
     <string name="settings_disable_verbose_log">停用詳細日誌</string>
     <string name="settings_disable_verbose_log_summary">回報問題要求包含詳細日誌</string>
-    <string name="pure_black_dark_theme">純黑主題</string>
-    <string name="pure_black_dark_theme_summary">當深色主題啟用時使用純黑主題</string>
     <string name="settings_group_theme">主題</string>
     <string name="settings_backup_and_restore">備份與還原</string>
     <string name="settings_backup_summary">備份模組列表和作用域清單</string>
@@ -173,8 +141,6 @@
     <string name="group_network">網路</string>
     <string name="dns_over_http">安全 DNS (DoH)</string>
     <string name="dns_over_http_summary">解決某些地區的 DNS 污染問題</string>
-    <string name="theme_color">主題強調色</string>
-    <string name="theme_color_system">系統主題色</string>
     <string name="settings_show_hidden_icon_apps_enabled">強制顯示桌面圖示</string>
     <string name="settings_show_hidden_icon_apps_enabled_summary">在 Android 10 或更高版本，應用程式不再允許隱藏桌面圖示。關閉該選項以停用此功能。</string>
     <string name="settings_group_system">系統</string>
@@ -192,13 +158,7 @@
     <string name="settings_xposed_api_call_protection_summary">阻止模組動態載入的程式碼使用 Xposed API，這會使某些模組失效，但有利於安全性</string>
     <string name="settings_invalidate_inline_hooks">還原內聯 Hook</string>
     <string name="settings_invalidate_inline_hooks_summary">對清單中的應用程式清理 libart.so，這會導致隨機故障和當機，僅當無法開啟特定應用程式時使用。</string>
-    <string name="settings_invalidate_inline_hooks_warning">請勿在啟用此選項時回報任何問題</string>
     <string name="failed_to_save_invalidate_inline_hooks_list">無法儲存還原內聯 Hook 清單</string>
-    <plurals name="settings_invalidate_inline_hooks_enabled_count">
-        <item quantity="other">已對 %d 個應用程式啟用</item>
-    </plurals>
-    <string name="settings_enable_new_manager">啟用新管理器</string>
-    <string name="settings_enable_new_manager_summary">使用新的 MIUI 風格的基於 Compose 的管理器介面</string>
     <string name="settings_enable_predictive_back">預測性返回手勢</string>
     <string name="settings_enable_predictive_back_summary">啟用對預測性返回手勢的支援</string>
     <!-- Module Repo -->
@@ -213,14 +173,12 @@
     <string name="menu_share">分享</string>
     <string name="module_release_load_more">顯示較早舊版本</string>
     <string name="module_release_no_more">沒有更舊的版本</string>
-    <string name="repo_load_failed">模組倉庫載入失敗：%s</string>
     <string name="sort_upgradable_first">可更新優先</string>
     <string name="installed">已安裝</string>
     <plurals name="module_release_assets_download_count">
         <item quantity="other">%d 次下載</item>
     </plurals>
     <!-- Colors -->
-    <string name="color_sakura">櫻花</string>
     <string name="color_red">紅色</string>
     <string name="color_pink">粉色</string>
     <string name="color_purple">紫色</string>
@@ -231,12 +189,10 @@
     <string name="color_cyan">青色</string>
     <string name="color_teal">青綠</string>
     <string name="color_green">綠色</string>
-    <string name="color_light_green">淺綠</string>
     <string name="color_lime">萊姆綠</string>
     <string name="color_yellow">黃色</string>
     <string name="color_amber">琥珀</string>
     <string name="color_orange">橙色</string>
-    <string name="color_deep_orange">深橙</string>
     <string name="color_brown">棕色</string>
     <string name="color_blue_grey">藍灰</string>
 
@@ -275,6 +231,8 @@
     <string name="menu_raw_view">原始檢視</string>
 
     <!-- Theme Mode -->
+    <string name="settings_ui">介面風格</string>
+    <string name="settings_ui_summary">選擇應用的介面風格</string>
     <string name="settings_theme">主題</string>
     <string name="settings_theme_summary">選擇應用程式的主題模式</string>
     <string name="settings_theme_mode_system">跟隨系統</string>
@@ -286,6 +244,12 @@
     <string name="settings_key_color">強調色</string>
     <string name="settings_key_color_summary">在使用 莫內取色 時自訂種子色</string>
     <string name="settings_key_color_default">預設</string>
+    <string name="settings_theme_entry">主題設定</string>
+    <string name="settings_theme_entry_summary">主題模式、強調色、調色盤風格等</string>
+    <string name="settings_palette_style">調色盤風格</string>
+    <string name="settings_palette_style_summary">用於衍生 Material 3 調色盤的色調演算法</string>
+    <string name="settings_color_spec">色彩規範</string>
+    <string name="settings_color_spec_summary">Material 3 色彩規範版本</string>
     <string name="settings_page_scale">介面縮放</string>
     <string name="settings_page_scale_summary">調整全域顯示比例</string>
     <string name="settings_enable_blur">模糊</string>

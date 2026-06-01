@@ -19,26 +19,12 @@
   -->
 <resources xmlns:tools="http://schemas.android.com/tools" tools:keep="@string/xposed_module_updated_notification_*,@string/module_is_not_activated_*">
     <!-- MainActivity -->
-    <plurals name="modules_enabled_count">
-        <item quantity="one">%d модулът е активиран</item>
-        <item quantity="other">%d включени модули</item>
-    </plurals>
     <string name="Logs">Дневници</string>
     <string name="Settings">Настройки</string>
-    <string name="feedback_or_suggestion">Обратна връзка или предложение</string>
     <string name="About">За нас</string>
     <string name="module_repo">Хранилище</string>
-    <string name="module_repo_up_to_date">Всички модули са актуализирани</string>
-    <string name="module_repo_published_time">Публикувано в %s</string>
-    <string name="module_repo_updated_time">Акттуализиран на %s</string>
-    <plurals name="module_repo_upgradable">
-        <item quantity="one">%d модула има актуализация</item>
-        <item quantity="other">%d модули с актуализации</item>
-    </plurals>
     <string name="about_view_source_code"><![CDATA[Преглед на изходния код в %1$s<br/>Присъединете се към нашия %2$s канал]]></string>
     <string name="translators" comment="Dear translators, please add your home page here following the format. There can be more than one translator. So feel free to append yourself.">невалидно</string>
-    <string name="install">Инсталиране на</string>
-    <string name="install_summary">Натиснете, за да инсталирате LSPosed</string>
     <string name="not_installed">Не е инсталиран</string>
     <string name="not_install_summary">LSPosed не е инсталиран</string>
     <string name="activated">Активиран</string>
@@ -48,9 +34,6 @@
     <string name="system_prop_incorrect_summary">Неправилна стойност на системата</string>
     <string name="system_prop_incorrect"><![CDATA[Някои необходими системни свойства са изтрити или променени.<br/>Понякога модулите могат да се обезсилват.]]></string>
     <string name="need_update">Необходимо е да се актуализира</string>
-    <string name="please_update_summary">Моля, инсталирайте най-новата версия на LSPosed</string>
-    <string name="info_api_version">Версия на API</string>
-    <string name="info_framework_version">Версия на рамката</string>
     <string name="info_manager_package_name">Име на пакета на мениджъра</string>
     <string name="info_system_version">Версия на системата</string>
     <string name="info_device">Устройство</string>
@@ -63,8 +46,6 @@
     <string name="android_version_unsatisfied">Версията за Android е неудовлетворена</string>
     <string name="crashed">Счупен</string>
     <string name="mount_failed">Монтирането е неуспешно</string>
-    <string name="update_lsposed">Актуализиране на LSPosed</string>
-    <string name="update_lsposed_msg">Потвърждаване на актуализацията на LSPosed? Това устройство ще се рестартира след завършване на актуализацията</string>
     <string name="info_copied">Копиране в клипборда</string>
     <!-- WelcomeDialog -->
     <string name="parasitic_welcome">Добре дошли в LSPosed</string>
@@ -80,16 +61,10 @@
     <string name="logs_saved">Запазени дневници</string>
     <string name="logs_save_failed2">Не успяхте да запазите:\n%s</string>
     <string name="menuClearLog">Изчистване на дневника сега</string>
-    <string name="logs_cleared">Дневникът е изчистен успешно.</string>
     <string name="scroll_top">Превъртете към началото</string>
-    <string name="loading">Зареждане…</string>
     <string name="scroll_bottom">Превъртете към дъното</string>
-    <string name="logs_clear_failed_2">Неуспешно изчистване на дневника</string>
     <string name="menu_enable_word_wrap">Обвиване на думата</string>
-    <string name="enabled_verbose_log">Разрешен е вербален дневник</string>
-    <string name="disabled_verbose_log">Деактивиран е вербалният дневник</string>
     <!-- ModulesActivity -->
-    <string name="module_empty_description">(не е предоставено описание)</string>
     <string name="warning_xposed_min_version">Този модул изисква по-нова версия на Xposed (%d) и поради това не може да бъде активиран</string>
     <string name="warning_target_version_higher">Този модул е предназначен за по-нова версия на Xposed (%d) и поради това някои функционалности може да не работят</string>
     <string name="no_min_version_specified">Този модул не посочва версията на Xposed, която му е необходима.</string>
@@ -101,11 +76,8 @@
     <string name="module_uninstall_message">Искате ли да деинсталирате този модул?</string>
     <string name="module_uninstalled">Деинсталиран %1$s</string>
     <string name="module_uninstall_failed">Деинсталирането е неуспешно</string>
-    <string name="add_module_to_user">Добавяне на модул към потребителя</string>
-    <string name="module_installed">Добавяне на %1$s към потребител %2$s</string>
     <string name="module_install_failed">Добавянето на модул е неуспешно</string>
     <string name="install_to_user">Инсталиране на потребител %s</string>
-    <string name="install_to_user_message">Искате да инсталирате %1$s на потребител %2$s? Препоръчително е да се инсталира ръчно, принудителното инсталиране чрез LSPosed може да доведе до проблеми.</string>
     <string name="expand">разширяване на</string>
     <string name="collapse">срив</string>
     <!-- AppListActivity -->
@@ -132,9 +104,7 @@
     <string name="module_is_not_activated_yet">Модулът Xposed все още не е активиран</string>
     <string name="requested_by_module">Препоръчителен</string>
     <string name="update_available">Налична е актуализация: %1$s</string>
-    <string name="module_disabled_no_selection">Модулът %s е деактивиран, тъй като не е избрано приложение.</string>
     <string name="android_framework">Рамка на системата</string>
-    <string name="menu_backup_and_restore">Резервно копие</string>
     <string name="menu_backup">Резервно копие</string>
     <string name="menu_restore">Възстановяване на</string>
     <string name="force_stop">Спиране на силата</string>
@@ -142,7 +112,6 @@
     <string name="force_stop_dlg_text">Ако спрете приложение принудително, то може да се държи неправилно.</string>
     <string name="reboot_required">Необходимо е рестартиране, за да се приложи тази промяна.</string>
     <string name="reboot">Рестартиране на</string>
-    <string name="menu_hide">Скрий</string>
     <!-- ModulesActivity and AppListActivity -->
     <string name="modules_other_app">Преглед в друго приложение</string>
     <string name="module_app_info">Информация за приложението</string>
@@ -151,8 +120,6 @@
     <string name="settings_group_framework">Рамка</string>
     <string name="settings_disable_verbose_log">Деактивиране на вербалните дневници</string>
     <string name="settings_disable_verbose_log_summary">Искане за включване на вербални дневници</string>
-    <string name="pure_black_dark_theme">Черна тъмна тема</string>
-    <string name="pure_black_dark_theme_summary">Използвайте чисто черната тема, ако е активирана тъмна тема</string>
     <string name="settings_group_theme">Тема</string>
     <string name="settings_backup_and_restore">Архивиране и възстановяване</string>
     <string name="settings_backup_summary">Списък с резервни копия на модули и списъци на обхвата.</string>
@@ -165,8 +132,6 @@
     <string name="group_network">Мрежа</string>
     <string name="dns_over_http">DNS през HTTPS</string>
     <string name="dns_over_http_summary">Заобикаляне на отравянето на DNS в някои държави</string>
-    <string name="theme_color">Цвят на темата</string>
-    <string name="theme_color_system">Цвят на темата на системата</string>
     <string name="settings_show_hidden_icon_apps_enabled">Принуждаване на приложенията да показват икони на стартирането</string>
     <string name="settings_show_hidden_icon_apps_enabled_summary">След Android 10 на приложенията не е позволено да скриват иконите си за стартиране. Изключете превключвателя, за да деактивирате тази системна функция.</string>
     <string name="settings_group_system">Система</string>
@@ -193,7 +158,6 @@
     <string name="menu_open_in_browser">Отваряне в браузъра</string>
     <string name="module_release_load_more">Показване на по-стари версии</string>
     <string name="module_release_no_more">Няма повече освобождаване</string>
-    <string name="repo_load_failed">Неуспешно зареждане на модул repo: %s</string>
     <string name="sort_upgradable_first">Може да се надгражда първо</string>
     <string name="installed">Инсталиран</string>
     <plurals name="module_release_assets_download_count">
@@ -201,7 +165,6 @@
         <item quantity="other">%d Изтегляния</item>
     </plurals>
     <!-- Colors -->
-    <string name="color_sakura">Сакура</string>
     <string name="color_red">Червено</string>
     <string name="color_pink">Розов</string>
     <string name="color_purple">Лилаво</string>
@@ -212,12 +175,10 @@
     <string name="color_cyan">Cyan</string>
     <string name="color_teal">Teal</string>
     <string name="color_green">Зелен</string>
-    <string name="color_light_green">Светлозелено</string>
     <string name="color_lime">Lime</string>
     <string name="color_yellow">Жълт</string>
     <string name="color_amber">Амбър</string>
     <string name="color_orange">Orange</string>
-    <string name="color_deep_orange">Наситено оранжево</string>
     <string name="color_brown">Кафяв</string>
     <string name="color_blue_grey">Синьо сиво</string>
 </resources>

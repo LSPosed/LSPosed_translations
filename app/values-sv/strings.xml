@@ -21,26 +21,12 @@
     <!-- MainActivity -->
     <string name="overview">Översikt</string>
     <string name="Modules">Moduler</string>
-    <plurals name="modules_enabled_count">
-        <item quantity="one">%d moduler aktiverade</item>
-        <item quantity="other">%d moduler aktiverade</item>
-    </plurals>
     <string name="Logs">Loggar</string>
     <string name="Settings">Inställningar</string>
-    <string name="feedback_or_suggestion">Återkoppling eller förslag</string>
     <string name="About">Om</string>
     <string name="module_repo">Förvar</string>
-    <string name="module_repo_up_to_date">Alla moduler uppdaterade</string>
-    <string name="module_repo_published_time">Publicerad på %s</string>
-    <string name="module_repo_updated_time">Uppdaterad på %s</string>
-    <plurals name="module_repo_upgradable">
-        <item quantity="one">%d modul uppgraderbar</item>
-        <item quantity="other">%d moduler uppgraderbara</item>
-    </plurals>
     <string name="about_view_source_code"><![CDATA[Visa källkod på %1$s<br/>Gå med i vår %2$s kanal]]></string>
     <string name="translators" comment="Dear translators, please add your home page here following the format. There can be more than one translator. So feel free to append yourself.">Anton J</string>
-    <string name="install">Installera</string>
-    <string name="install_summary">Tryck för att installera LSPosed</string>
     <string name="not_installed">Inte installerad</string>
     <string name="not_install_summary">LSPosed är inte installerat</string>
     <string name="activated">Aktiverad</string>
@@ -50,9 +36,6 @@
     <string name="system_prop_incorrect_summary">Felaktig System prop</string>
     <string name="system_prop_incorrect"><![CDATA[Vissa nödvändiga systemegenskaper är raderade eller ändrade.<br/>Moduler kan komma att ogiltigförklara.]]></string>
     <string name="need_update">Behöver uppdateras</string>
-    <string name="please_update_summary">Vänligen installera den senaste versionen av LSPosed</string>
-    <string name="info_api_version">API version</string>
-    <string name="info_framework_version">Ramverk version</string>
     <string name="info_manager_package_name">Namn på managerpaket</string>
     <string name="info_system_version">Systemversion</string>
     <string name="info_device">Enhet</string>
@@ -65,8 +48,6 @@
     <string name="android_version_unsatisfied">Android-version otillfredsställd</string>
     <string name="crashed">Kraschade</string>
     <string name="mount_failed">Montering misslyckades</string>
-    <string name="update_lsposed">Uppdatera LSPosed</string>
-    <string name="update_lsposed_msg">Bekräfta att uppdatera LSPosed? Denna enhet kommer att starta om efter att uppdateringen är slutförd</string>
     <string name="info_copied">Kopieras till urklipp</string>
     <!-- WelcomeDialog -->
     <string name="parasitic_welcome">Välkommen till LSPosed</string>
@@ -82,16 +63,10 @@
     <string name="logs_saved">Loggar som sparas</string>
     <string name="logs_save_failed2">Det gick inte att spara:\n%s</string>
     <string name="menuClearLog">Rensa loggen nu</string>
-    <string name="logs_cleared">Loggen har rensats.</string>
     <string name="scroll_top">Rulla till toppen</string>
-    <string name="loading">Laddar…</string>
     <string name="scroll_bottom">Rulla till botten</string>
-    <string name="logs_clear_failed_2">Det gick inte att rensa loggen</string>
     <string name="menu_enable_word_wrap">Ord Wrap</string>
-    <string name="enabled_verbose_log">Verbose logg aktiverad</string>
-    <string name="disabled_verbose_log">Verbose logg inaktiverad</string>
     <!-- ModulesActivity -->
-    <string name="module_empty_description">(ingen beskrivning anges)</string>
     <string name="warning_xposed_min_version">Denna modul kräver en nyare Xposed version (%d) och kan därför inte aktiveras</string>
     <string name="warning_target_version_higher">Den här modulen är utformad för en nyare Xposed-version (%d) och därför kan det hända att vissa funktioner inte fungerar.</string>
     <string name="no_min_version_specified">Modulen anger inte den Xposed version som den behöver.</string>
@@ -103,11 +78,8 @@
     <string name="module_uninstall_message">Vill du avinstallera denna modul?</string>
     <string name="module_uninstalled">Avinstallerade %1$s</string>
     <string name="module_uninstall_failed">Avinstallationen misslyckades</string>
-    <string name="add_module_to_user">Lägg till modul till användare</string>
-    <string name="module_installed">Lade till %1$s till användare %2$s</string>
     <string name="module_install_failed">Det gick inte att lägga till modul</string>
     <string name="install_to_user">Installera till användare %s</string>
-    <string name="install_to_user_message">Vill du installera %1$s till användare %2$s? Det rekommenderas att installera manuellt, tvinga installation via LSPosed kan orsaka problem.</string>
     <string name="expand">expandera</string>
     <string name="collapse">kollapsa</string>
     <!-- AppListActivity -->
@@ -134,9 +106,7 @@
     <string name="module_is_not_activated_yet">Xposed modul är inte aktiverad än</string>
     <string name="requested_by_module">Rekommenderad</string>
     <string name="update_available">Uppdatering tillgänglig: %1$s</string>
-    <string name="module_disabled_no_selection">Modulen %s har inaktiverats sedan ingen app har valts.</string>
     <string name="android_framework">System ramverk</string>
-    <string name="menu_backup_and_restore">Säkerhetskopiera</string>
     <string name="menu_backup">Säkerhetskopiera</string>
     <string name="menu_restore">Återställ</string>
     <string name="force_stop">Tvinga avslutad</string>
@@ -144,7 +114,6 @@
     <string name="force_stop_dlg_text">Om du tvingar en app att sluta fungerar det inte.</string>
     <string name="reboot_required">Omstart krävs för att denna ändring ska gälla</string>
     <string name="reboot">Reboot</string>
-    <string name="menu_hide">Dölj</string>
     <!-- ModulesActivity and AppListActivity -->
     <string name="modules_other_app">Visa i annan app</string>
     <string name="module_app_info">Information om appen</string>
@@ -153,8 +122,6 @@
     <string name="settings_group_framework">Framework</string>
     <string name="settings_disable_verbose_log">Inaktivera utförliga loggar</string>
     <string name="settings_disable_verbose_log_summary">Begäran om att inkludera verbose-loggar i rapporten</string>
-    <string name="pure_black_dark_theme">Svart mörkt tema</string>
-    <string name="pure_black_dark_theme_summary">Använd det rena svarta temat om mörkt tema är aktiverat</string>
     <string name="settings_group_theme">Tema</string>
     <string name="settings_backup_and_restore">Säkerhetskopiera och återställ</string>
     <string name="settings_backup_summary">Säkerhetskopiera modullista och omfattningslistor.</string>
@@ -167,8 +134,6 @@
     <string name="group_network">Nätverk</string>
     <string name="dns_over_http">DNS över HTTPS</string>
     <string name="dns_over_http_summary">Workaround DNS-förgiftning i vissa nationer</string>
-    <string name="theme_color">Tema färg</string>
-    <string name="theme_color_system">Färg på systemtema</string>
     <string name="settings_show_hidden_icon_apps_enabled">Tvinga appar att visa launcher-ikoner</string>
     <string name="settings_show_hidden_icon_apps_enabled_summary">Efter Android 10, appar är inte tillåtet att dölja sina launcher ikoner. Stäng av växla för att inaktivera den här systemfunktionen.</string>
     <string name="settings_group_system">System</string>
@@ -195,7 +160,6 @@
     <string name="menu_open_in_browser">Öppna i webbläsare</string>
     <string name="module_release_load_more">Visa äldre versioner</string>
     <string name="module_release_no_more">Ingen mer utgåva</string>
-    <string name="repo_load_failed">Misslyckades att ladda modul rapo: %s</string>
     <string name="sort_upgradable_first">Uppgraderingsbar först</string>
     <string name="installed">Installerad</string>
     <plurals name="module_release_assets_download_count">
@@ -203,7 +167,6 @@
         <item quantity="other">%d nedladdningar</item>
     </plurals>
     <!-- Colors -->
-    <string name="color_sakura">Sakura</string>
     <string name="color_red">Röd</string>
     <string name="color_pink">Rosa</string>
     <string name="color_purple">Lila</string>
@@ -214,12 +177,10 @@
     <string name="color_cyan">Turkos</string>
     <string name="color_teal">Kricka</string>
     <string name="color_green">Grön</string>
-    <string name="color_light_green">Ljusgrön</string>
     <string name="color_lime">Limegrön</string>
     <string name="color_yellow">Gul</string>
     <string name="color_amber">Bärnsten</string>
     <string name="color_orange">Orange</string>
-    <string name="color_deep_orange">Djup orange</string>
     <string name="color_brown">Brun</string>
     <string name="color_blue_grey">Blå grå</string>
 </resources>

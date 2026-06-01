@@ -21,26 +21,12 @@
     <!-- MainActivity -->
     <string name="overview">Resumo</string>
     <string name="Modules">Módulos</string>
-    <plurals name="modules_enabled_count">
-        <item quantity="one">%d módulo ativo</item>
-        <item quantity="other">%d módulos ativos</item>
-    </plurals>
     <string name="Logs">Registros</string>
     <string name="Settings">Configurações</string>
-    <string name="feedback_or_suggestion">Comentários e Sugestões</string>
     <string name="About">Sobre</string>
     <string name="module_repo">Repositório</string>
-    <string name="module_repo_up_to_date">Todos os módulos estão atualizados</string>
-    <string name="module_repo_published_time">Publicado em %s</string>
-    <string name="module_repo_updated_time">Atualizado em %s</string>
-    <plurals name="module_repo_upgradable">
-        <item quantity="one">%d módulo para atualizar</item>
-        <item quantity="other">%d módulos para atualizar</item>
-    </plurals>
     <string name="about_view_source_code"><![CDATA[Veja o código-fonte no %1$s<br/>Entre em nosso canal no %2$s]]></string>
     <string name="translators" comment="Dear translators, please add your home page here following the format. There can be more than one translator. So feel free to append yourself.">VD171, Dan, Hitalo, Luiz Renato, PedriR19</string>
-    <string name="install">Instalar</string>
-    <string name="install_summary">Toque para instalar o LSPosed</string>
     <string name="not_installed">Não instalado</string>
     <string name="not_install_summary">O LSPosed não está instalado</string>
     <string name="activated">Ativado</string>
@@ -50,9 +36,6 @@
     <string name="system_prop_incorrect_summary">Propriedade do sistema incorreta</string>
     <string name="system_prop_incorrect"><![CDATA[Algumas propriedades necessárias do sistema foram excluídas ou modificadas.<br/>Alguns módulos podem falhar ocasionalmente.]]></string>
     <string name="need_update">Necessário atualizar</string>
-    <string name="please_update_summary">Por favor, instale a versão mais recente do LSPosed</string>
-    <string name="info_api_version">Versão da API</string>
-    <string name="info_framework_version">Versão do Framework</string>
     <string name="info_manager_package_name">Nome do pacote do gestor</string>
     <string name="info_system_version">Versão do Sistema</string>
     <string name="info_device">Aparelho</string>
@@ -65,8 +48,6 @@
     <string name="android_version_unsatisfied">Versão do Android insuficiente</string>
     <string name="crashed">Falhou</string>
     <string name="mount_failed">Falha na montagem</string>
-    <string name="update_lsposed">Atualizar o LSPosed</string>
-    <string name="update_lsposed_msg">Confirmar atualização do LSPosed? O aparelho irá reiniciar após completar a atualização</string>
     <string name="info_copied">Copiado para a área de transferência</string>
     <!-- WelcomeDialog -->
     <string name="parasitic_welcome">Bem-vindo ao LSPosed</string>
@@ -82,16 +63,10 @@
     <string name="logs_saved">Registros salvos</string>
     <string name="logs_save_failed2">Falha ao salvar:\n%s</string>
     <string name="menuClearLog">Limpar Registros</string>
-    <string name="logs_cleared">Registro limpo com sucesso.</string>
     <string name="scroll_top">Rolar para o topo</string>
-    <string name="loading">Carregando…</string>
     <string name="scroll_bottom">Rolar para baixo</string>
-    <string name="logs_clear_failed_2">Falha ao limpar os registros</string>
     <string name="menu_enable_word_wrap">Quebra de Linha</string>
-    <string name="enabled_verbose_log">Registros detalhados ativados</string>
-    <string name="disabled_verbose_log">Registros detalhados desativados</string>
     <!-- ModulesActivity -->
-    <string name="module_empty_description">(nenhuma descrição fornecida)</string>
     <string name="warning_xposed_min_version">Este módulo exige uma versão mais recente do Xposed (%d). Por isso, não poderá ser ativado</string>
     <string name="warning_target_version_higher">Este módulo foi concebido para uma versão mais recente do Xposed (%d) e, portanto, algumas funcionalidades podem não funcionar</string>
     <string name="no_min_version_specified">Este módulo não especifica qual a versão necessária do Xposed.</string>
@@ -103,11 +78,8 @@
     <string name="module_uninstall_message">Você deseja desinstalar este módulo?</string>
     <string name="module_uninstalled">%1$s desinstalado</string>
     <string name="module_uninstall_failed">Falha ao desinstalar</string>
-    <string name="add_module_to_user">Adicionar módulo no usuário</string>
-    <string name="module_installed">%1$s foi adicionado no usuário %2$s</string>
     <string name="module_install_failed">Falha ao adicionar módulo</string>
     <string name="install_to_user">Instalar no usuário %s</string>
-    <string name="install_to_user_message">Deseja instalar %1$s no usuário %2$s? É recomendado instalar manualmente. Forçar a instalação via LSPosed pode causar problemas.</string>
     <string name="expand">expandir</string>
     <string name="collapse">recolher</string>
     <!-- AppListActivity -->
@@ -134,9 +106,7 @@
     <string name="module_is_not_activated_yet">O módulo ainda não está ativo</string>
     <string name="requested_by_module">Recomendações</string>
     <string name="update_available">Atualização disponível: %1$s</string>
-    <string name="module_disabled_no_selection">O módulo %s foi desativado porque nenhum aplicativo foi selecionado.</string>
     <string name="android_framework">Framework do Sistema</string>
-    <string name="menu_backup_and_restore">Fazer Backup</string>
     <string name="menu_backup">Fazer Backup</string>
     <string name="menu_restore">Restaurar Backup</string>
     <string name="force_stop">Forçar parada</string>
@@ -144,7 +114,6 @@
     <string name="force_stop_dlg_text">Se forçar a parada de um aplicativo, ele pode apresentar falhas.</string>
     <string name="reboot_required">Necessário reiniciar para aplicar alteração</string>
     <string name="reboot">Reiniciar</string>
-    <string name="menu_hide">Esconder</string>
     <!-- ModulesActivity and AppListActivity -->
     <string name="modules_other_app">Ver na Play Store</string>
     <string name="module_app_info">Informações do app</string>
@@ -153,8 +122,6 @@
     <string name="settings_group_framework">Framework</string>
     <string name="settings_disable_verbose_log">Desativar registros detalhados</string>
     <string name="settings_disable_verbose_log_summary">Relate o problema para incluir os registros detalhados</string>
-    <string name="pure_black_dark_theme">Usar Tema Preto Puro</string>
-    <string name="pure_black_dark_theme_summary">Use o tema preto puro se o tema noturno estiver ativo</string>
     <string name="settings_group_theme">Tema</string>
     <string name="settings_backup_and_restore">Backup e Restauração</string>
     <string name="settings_backup_summary">Faz uma cópia de segurança da lista de módulos e escopos</string>
@@ -167,8 +134,6 @@
     <string name="group_network">Rede</string>
     <string name="dns_over_http">Ativar DNS sobre HTTPS</string>
     <string name="dns_over_http_summary">Solução alternativa para envenenamento de DNS em alguns países</string>
-    <string name="theme_color">Cor do Tema</string>
-    <string name="theme_color_system">Cor de destaque do sistema</string>
     <string name="settings_show_hidden_icon_apps_enabled">Forçar exibição de ícones dos apps</string>
     <string name="settings_show_hidden_icon_apps_enabled_summary">Após o Android 10, alguns apps não estão autorizados a ocultarem seus ícones. Desative esta opção para desligar este recurso</string>
     <string name="settings_group_system">Sistema</string>
@@ -195,7 +160,6 @@
     <string name="menu_open_in_browser">Abrir no navegador</string>
     <string name="module_release_load_more">Mostrar versões anteriores</string>
     <string name="module_release_no_more">Não há mais versões</string>
-    <string name="repo_load_failed">Falha ao carregar o repositório de módulos: %s</string>
     <string name="sort_upgradable_first">Atualizável Primeiro</string>
     <string name="installed">Instalado</string>
     <plurals name="module_release_assets_download_count">
@@ -203,7 +167,6 @@
         <item quantity="other">%d baixados</item>
     </plurals>
     <!-- Colors -->
-    <string name="color_sakura">Sakura</string>
     <string name="color_red">Vermelho</string>
     <string name="color_pink">Rosa</string>
     <string name="color_purple">Roxo</string>
@@ -214,12 +177,10 @@
     <string name="color_cyan">Ciano</string>
     <string name="color_teal">Verde-azulado</string>
     <string name="color_green">Verde</string>
-    <string name="color_light_green">Verde Claro</string>
     <string name="color_lime">Verde-limão</string>
     <string name="color_yellow">Amarelo</string>
     <string name="color_amber">Âmbar</string>
     <string name="color_orange">Laranja</string>
-    <string name="color_deep_orange">Laranja Escuro</string>
     <string name="color_brown">Marrom</string>
     <string name="color_blue_grey">Azul-acinzentado</string>
 </resources>
