@@ -51,7 +51,7 @@
     <string name="crashed">崩潰</string>
     <string name="mount_failed">掛載失敗</string>
     <string name="info_copied">已複製到剪貼簿</string>
-    <string name="touch_filtered_warning">由于某个应用遮挡了界面，因此管理器无法验证您的回应。</string>
+    <string name="touch_filtered_warning">由於某個應用程式遮擋了介面，因此管理器無法驗證您的回應。</string>
   
     <!-- WelcomeDialog -->
     <string name="parasitic_welcome">歡迎使用 LSPosed</string>
@@ -90,7 +90,7 @@
     <string name="collapse">收埋</string>
     <string name="reset_scope_request_setting">重設作用域請求設定</string>
     <string name="reset_scope_request_setting_done">已重設作用域請求設定</string>
-    <string name="hide_non_system_overlay_failed_no_permission">无法隐藏非系统悬浮窗，请更新管理器。</string>
+    <string name="hide_non_system_overlay_failed_no_permission">無法隱藏非系統懸浮視窗，請更新管理程式。</string>
     <!-- AppListActivity -->
     <string name="compile_speed">重新優化</string>
     <string name="compile_speed_msg">優化緊…</string>
@@ -144,10 +144,10 @@
     <string name="group_network">網絡</string>
     <string name="dns_over_http">安全 DNS（DoH）</string>
     <string name="dns_over_http_summary">解決部分地區嘅 DNS 污染問題</string>
-    <string name="settings_repo_cdn">模块仓库 CDN</string>
-    <string name="repo_cdn_auto">自动</string>
-    <string name="repo_cdn_default">默认</string>
-    <string name="repo_cdn_backup">备份</string>
+    <string name="settings_repo_cdn">模組儲存庫 CDN</string>
+    <string name="repo_cdn_auto">自動</string>
+    <string name="repo_cdn_default">預設</string>
+    <string name="repo_cdn_backup">備份</string>
     <string name="settings_show_hidden_icon_apps_enabled">強制 App 喺啟動器顯示圖示</string>
     <string name="settings_show_hidden_icon_apps_enabled_summary">Android 10 之後唔允許隱藏桌面圖示。閂咗個開關即係停用此功能</string>
     <string name="settings_group_system">系統</string>
@@ -168,8 +168,8 @@
     <string name="failed_to_save_invalidate_inline_hooks_list">儲存唔到還原 Inline Hook 列表</string>
     <string name="settings_enable_predictive_back">預測性返回手勢</string>
     <string name="settings_enable_predictive_back_summary">啟用對預測性返回手勢嘅支援。</string>
-    <string name="settings_tapjacking_protection">点按劫持缓解</string>
-    <string name="settings_tapjacking_protection_summary">屏蔽界面被遮盖时的触摸事件，防止点按劫持攻击</string>
+    <string name="settings_tapjacking_protection">觸控挾持防護</string>
+    <string name="settings_tapjacking_protection_summary">封鎖畫面被遮擋時的觸控事件，防止觸控挾持攻擊</string>
     <!-- Module Repo -->
     <string name="module_readme">睇我</string>
     <string name="module_releases">版本</string>
@@ -219,8 +219,8 @@
     <string name="hook_debug_summary">允許 Dump 被 Hook 進程嘅 Hook 調試訊息，可能會影響效能</string>
     <string name="dump_hook_debug_title">Dump Hook 調試訊息</string>
     <string name="dump_hook_debug_summary">Dump Hook 調試資訊到 /data/adb/lspd/log</string>
-    <string name="dump_hook_success">已转储至 %s</string>
-    <string name="dump_hook_failed">转储失败</string>
+    <string name="dump_hook_success">已 dump 至 %s</string>
+    <string name="dump_hook_failed">Dump 失敗</string>
     <string name="log_to_daemon_title">輸出日誌去 Daemon</string>
     <string name="log_to_daemon_summary">咁樣可以避免模組日誌畀 App 讀取，但可能會影響效能。</string>
     <plurals name="disable_success_message">
@@ -234,7 +234,7 @@
     <string name="unknown_asset">未知資源</string>
     <string name="download_asset">下載</string>
     <string name="nav_back">返回</string>
-    <string name="menu">菜单</string>
+    <string name="menu">選單</string>
     <string name="menu_filter">篩選</string>
 
     <!-- Logs Page -->
