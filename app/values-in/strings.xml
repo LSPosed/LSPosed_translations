@@ -220,7 +220,7 @@
     <string name="disable_success_title">Berhasil</string>
     <string name="hook_debug_title">Debug hook</string>
     <string name="debugging_title">Debugging</string>
-    <string name="hook_debug_summary">Izinkan pencatatan informasi debug hook dari proses di-hook yang dapat memengaruhi performa</string>
+    <string name="hook_debug_summary">Izinkan pencatatan informasi debug hook dari proses di-hook yang dapat memengaruhi kinerja</string>
     <string name="dump_hook_debug_title">Ekstrak info debug hook</string>
     <string name="dump_hook_debug_summary">Ekstrak informasi debug hook ke /data/adb/lspd/log</string>
     <string name="dump_hook_success">Berhasil diekstrak ke %s</string>
