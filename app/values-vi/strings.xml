@@ -149,6 +149,10 @@
     <string name="group_network">Mạng</string>
     <string name="dns_over_http">DNS qua HTTPS</string>
     <string name="dns_over_http_summary">Giải pháp khắc phục tình trạng tấn công DNS ở một số quốc gia</string>
+    <string name="settings_repo_cdn">CDN kho mô-đun</string>
+    <string name="repo_cdn_auto">Tự động</string>
+    <string name="repo_cdn_default">Mặc định</string>
+    <string name="repo_cdn_backup">Sao lưu</string>
     <string name="settings_show_hidden_icon_apps_enabled">Buộc ứng dụng hiện biểu tượng trình khởi chạy</string>
     <string name="settings_show_hidden_icon_apps_enabled_summary">Sau Android 10, các ứng dụng không được phép ẩn biểu tượng trình khởi chạy của chúng. Tắt tùy chọn này để tắt tính năng hệ thống này.</string>
     <string name="settings_group_system">Hệ thống</string>
