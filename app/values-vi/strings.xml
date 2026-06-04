@@ -22,13 +22,11 @@
     <!-- MainActivity -->
     <string name="overview">Tổng quan</string>
     <string name="Modules">Mô-đun</string>
-    <string name="Logs">Nhật ký</string>
     <string name="Settings">Cài đặt</string>
     <string name="About">Về</string>
-    <string name="module_repo">Kho</string>
+    <string name="module_repo">Kho</string>=
     <string name="about_view_source_code"><![CDATA[Xem mã nguồn tại %1$s<br/>Tham gia kênh %2$s của chúng tôi]]></string>
-    <string name="translators" comment="Dear translators, please add your home page here following the format. There can be more than one translator. So feel free to append yourself.">The Primal Pea (from Lawnrunners)</string>
-
+    <string name="translators" comment="Dear translators, please add your home page here following the format. There can be more than one translator. So feel free to append yourself.">The Primal Pea</string>
     <string name="not_installed">Chưa cài đặt</string>
     <string name="not_install_summary">LSPosed chưa cài đặt</string>
     <string name="activated">Đã kích hoạt</string>
@@ -53,6 +51,7 @@
     <string name="crashed">Bị lỗi</string>
     <string name="mount_failed">Gắn kết thất bại</string>
     <string name="info_copied">Đã sao chép vào bảng nhớ tạm</string>
+    <string name="touch_filtered_warning">Vì một ứng dụng đang che khuất giao diện, Trình quản lý không thể xác minh phản hồi của bạn.</string>
 
     <!-- WelcomeDialog -->
     <string name="parasitic_welcome">Chào mừng đến với LSPosed</string>
@@ -93,6 +92,7 @@
     <string name="collapse">thu gọn</string>
     <string name="reset_scope_request_setting">Đặt lại cài đặt yêu cầu phạm vi</string>
     <string name="reset_scope_request_setting_done">Đặt lại cài đặt yêu cầu phạm vi xong</string>
+    <string name="hide_non_system_overlay_failed_no_permission">Thất bại khi ẩn lớp phủ không phải là hệ thống, vui lòng nâng cấp trình quản lý.</string>
 
     <!-- AppListActivity -->
     <string name="compile_speed">Tối ưu hóa lại</string>
@@ -149,6 +149,10 @@
     <string name="group_network">Mạng</string>
     <string name="dns_over_http">DNS qua HTTPS</string>
     <string name="dns_over_http_summary">Giải pháp khắc phục tình trạng tấn công DNS ở một số quốc gia</string>
+    <string name="settings_repo_cdn">CDN kho mô-đun</string>
+    <string name="repo_cdn_auto">Tự động</string>
+    <string name="repo_cdn_default">Mặc định</string>
+    <string name="repo_cdn_backup">Sao lưu</string>
     <string name="settings_show_hidden_icon_apps_enabled">Buộc ứng dụng hiện biểu tượng trình khởi chạy</string>
     <string name="settings_show_hidden_icon_apps_enabled_summary">Sau Android 10, các ứng dụng không được phép ẩn biểu tượng trình khởi chạy của chúng. Tắt tùy chọn này để tắt tính năng hệ thống này.</string>
     <string name="settings_group_system">Hệ thống</string>
@@ -169,6 +173,8 @@
     <string name="failed_to_save_invalidate_inline_hooks_list">Thất bại khi lưu danh sách Vô hiệu hoá các hook nội tuyến.</string>
     <string name="settings_enable_predictive_back">Cử chỉ quay lại dự đoán</string>
     <string name="settings_enable_predictive_back_summary">Bật hỗ trợ cho cử chỉ quay lại dự đoán.</string>
+    <string name="settings_tapjacking_protection">Giảm thiểu Tapjacking</string>
+    <string name="settings_tapjacking_protection_summary">Chặn các lần chạm khi giao diện bị che khuất để ngăn chặn các cuộc tấn công tapjacking</string>
     <!-- Module Repo -->
     <string name="module_readme">Đọc tôi</string>
     <string name="module_releases">Phát hành</string>
@@ -204,6 +210,7 @@
     <string name="color_orange">Cam</string>
     <string name="color_brown">Nâu</string>
     <string name="color_blue_grey">Xám xanh da trời</string>
+  
     <string name="safe_mode">Chế độ An toàn</string>
     <string name="safe_mode_summary">LSPosed đang ở Chế độ An toàn</string>
     <string name="safe_mode_summary2">Tất cả mô-đun Xposed sẽ không khả dụng cho đến lần khởi động lại tiếp theo.\nMột số mô-đun đã gây ra sự cố hệ thống. Vui lòng tìm và tắt các mô-đun này và cung cấp phản hồi cho nhà phát triển mô-đun.</string>
@@ -241,6 +248,8 @@
     <string name="menu_raw_view">Xem thô</string>
 
     <!-- Theme Mode -->
+    <string name="settings_ui">Kiểu UI</string>
+    <string name="settings_ui_summary">Chọn kiểu giao diện</string>
     <string name="settings_theme">Chủ đề</string>
     <string name="settings_theme_summary">Chọn chế độ chủ đề ứng dụng</string>
     <string name="settings_theme_mode_system">Theo hệ thống</string>
@@ -252,6 +261,12 @@
     <string name="settings_key_color">Màu nhấn</string>
     <string name="settings_key_color_summary">Tùy chỉnh màu hạt giống khi sử dụng Monet</string>
     <string name="settings_key_color_default">Mặc định</string>
+    <string name="settings_theme_entry">Cài đặt chủ đề</string>
+    <string name="settings_theme_entry_summary">Chế độ chủ đề, máu nhấn, kiểu bảng màu và hơn thế nữa</string>
+    <string name="settings_palette_style">Kiểu bảng màu</string>
+    <string name="settings_palette_style_summary">Thuật toán tông màu được sử dụng để suy ra bảng màu Material 3</string>
+    <string name="settings_color_spec">Thông số màu sắc</string>
+    <string name="settings_color_spec_summary">Phiên bản thông số màu sắc Material 3</string>
     <string name="settings_page_scale">Tỷ lệ trang</string>
     <string name="settings_page_scale_summary">Điều chỉnh tỷ lệ hiển thị toàn cầu</string>
     <string name="settings_enable_blur">Mờ</string>
