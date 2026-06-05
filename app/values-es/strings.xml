@@ -21,20 +21,25 @@
     <!-- MainActivity -->
     <string name="overview">Resumen</string>
     <string name="Modules">Módulos</string>
-    <string name="Logs">Trozas</string>
+    <string name="Logs">Registros</string>
     <string name="Settings">Configuración</string>
     <string name="About">Acerca de</string>
     <string name="module_repo">Repositorio</string>
-    <string name="translators" comment="Dear translators, please add your home page here following the format. There can be more than one translator. So feel free to append yourself.">squaredDot</string>
+    <string name="about_send_bug_report">Enviar informe de error</string>
+    <string name="about_join_telegram">Unirse al canal de Telegram</string>
+    <string name="email_address_copied">Dirección de correo copiada</string>
+    <string name="translators" comment="Dear translators, please add your home page here following the format. There can be more than one translator. So feel free to append yourself.">squaredDot, hxreborn</string>
     <string name="not_installed">No instalado</string>
     <string name="not_install_summary">LSPosed no está instalado</string>
     <string name="activated">Activado</string>
     <string name="partial_activated">Parcialmente activado</string>
-    <string name="system_inject_fail_summary">System Framework injection failed</string>
+    <string name="system_inject_fail_summary">Falló la inyección del Framework del sistema</string>
     <string name="system_inject_fail"><![CDATA[This is rare and may be caused by <b>Magisk</b> or some low-quality Magisk modules.<br/>Please try to disable Magisk modules other than Zygisk and LSPosed or submit full log to developers.]]></string>
-    <string name="system_prop_incorrect_summary">System prop incorrect</string>
+    <string name="system_prop_incorrect_summary">Propiedad del sistema incorrecta</string>
     <string name="system_prop_incorrect"><![CDATA[Some necessary system properties deleted or modified.<br/>Modules may invalidate occasionally.]]></string>
-    <string name="need_update">Need to update</string>
+    <string name="need_update">Necesita actualizarse</string>
+    <string name="developer_warning_title">Consejos para desarrolladores de módulos</string>
+    <string name="developer_warning_summary">Desactiva las optimizaciones de despliegue en Android Studio, o usa el comando `gradlew installDebug` para instalar. De lo contrario, no se actualizará la APK del módulo.</string>
     <string name="info_manager_package_name">Nombre del paquete de gestión</string>
     <string name="info_system_version">Versión del sistema</string>
     <string name="info_device">Dispositivo</string>
@@ -42,12 +47,13 @@
     <string name="info_dex2oat_wrapper">Envoltura del optimizador Dex</string>
     <string name="enabled">Activado</string>
     <string name="not_enabled">No habilitado</string>
-    <string name="supported">Apoyado</string>
+    <string name="supported">Compatible</string>
     <string name="unsupported">No soportado</string>
     <string name="android_version_unsatisfied">Versión Android insatisfecha</string>
     <string name="crashed">Se estrelló</string>
     <string name="mount_failed">El montaje falló</string>
     <string name="info_copied">Información copiada al portapapeles</string>
+    <string name="touch_filtered_warning">Una aplicación está cubriendo la interfaz, por lo que el gestor no puede verificar tu respuesta.</string>
     <!-- WelcomeDialog -->
     <string name="parasitic_welcome">Bienvenido a LSPosed</string>
     <string name="parasitic_welcome_summary">Estás usando el gestor de parásitos, que se puede abrir desde la notificación.</string>
@@ -58,9 +64,11 @@
     <string name="menuSaveToSd">Guardar</string>
     <string name="nav_item_logs_verbose">Registros detallados</string>
     <string name="nav_item_logs_module">Logs de los módulos</string>
-    <string name="logs_saving">Guardando registro, por favor espere</string>
+    <string name="logs_saving">Guardando registros, por favor espere</string>
     <string name="logs_saved">Registros guardados</string>
     <string name="logs_save_failed2">No se pudo guardar:\n%s</string>
+    <string name="logs_preparing">Preparando registros, por favor espere</string>
+    <string name="logs_prepare_failed">No se pudo preparar:\n%s</string>
     <string name="menuClearLog">Limpiar los registros</string>
     <string name="scroll_top">Desplazar hasta el inicio</string>
     <string name="scroll_bottom">Desplazar hasta el final</string>
@@ -81,6 +89,9 @@
     <string name="install_to_user">Instalar al usuario %s</string>
     <string name="expand">expandir</string>
     <string name="collapse">contraer</string>
+    <string name="reset_scope_request_setting">Restablecer la configuración de solicitud de scope</string>
+    <string name="reset_scope_request_setting_done">Configuración de solicitud de scope restablecida</string>
+    <string name="hide_non_system_overlay_failed_no_permission">No se pudo ocultar la superposición que no es del sistema, actualiza el gestor.</string>
     <!-- AppListActivity -->
     <string name="compile_speed">Optimizar de nuevo</string>
     <string name="compile_speed_msg">Optimizando…</string>
@@ -98,6 +109,7 @@
     <string name="enable_module">Activar módulo</string>
     <string name="menu_show_games">Juegos</string>
     <string name="menu_show_modules">Módulos</string>
+    <string name="module_scope_list_static_scope">El módulo declaró un scope estático</string>
     <string name="failed_to_save_scope_list">Fallo al guardar la lista de scopes</string>
     <string name="app_version">Versión: %1$s</string>
     <string name="use_recommended">Recomendado</string>
@@ -116,7 +128,7 @@
     <!-- ModulesActivity and AppListActivity -->
     <string name="modules_other_app">Ver en otra aplicación</string>
     <string name="module_app_info">Información de la aplicación</string>
-    <string name="list_empty">¯\\\\_(ツ)_\/¯\nNo hay nada por aquí</string>
+    <string name="list_empty">¯\\_(ツ)_\/¯\nNo hay nada por aquí</string>
     <!-- SettingsActivity -->
     <string name="settings_group_framework">Framework</string>
     <string name="settings_disable_verbose_log">Desactivar registros detallados</string>
@@ -133,6 +145,9 @@
     <string name="group_network">Red</string>
     <string name="dns_over_http">DNS sobre HTTPS</string>
     <string name="dns_over_http_summary">Solución alternativa al ataque de DNS en algunos países</string>
+    <string name="settings_repo_cdn">CDN del repositorio de módulos</string>
+    <string name="repo_cdn_default">Predeterminado</string>
+    <string name="repo_cdn_backup">Alternativo</string>
     <string name="settings_show_hidden_icon_apps_enabled">Forzar a las aplicaciones a mostrar los íconos del ejecutable</string>
     <string name="settings_show_hidden_icon_apps_enabled_summary">En versiones posteriores a Android 10 no se permite a las aplicaciones (especialmente los módulos de Xposed) a ocultar el logo de su ejecutable. Desactiva la opción para desactivar esta característica.</string>
     <string name="settings_group_system">Sistema</string>
@@ -148,6 +163,13 @@
     <string name="update_channel_nightly">Construcción nocturna</string>
     <string name="settings_xposed_api_call_protection">Protección de llamadas a la API Xposed</string>
     <string name="settings_xposed_api_call_protection_summary">Bloquear el código del módulo cargado dinámicamente para utilizar Xposed API, esto puede romper algunos módulos, pero beneficiar a la seguridad</string>
+    <string name="settings_invalidate_inline_hooks">Invalidar hooks inline</string>
+    <string name="settings_invalidate_inline_hooks_summary">Limpia libart.so en las aplicaciones de la lista. Esto provocará fallos y cierres inesperados aleatorios. Úsalo solo cuando no puedas abrir ciertas aplicaciones.</string>
+    <string name="failed_to_save_invalidate_inline_hooks_list">Error al guardar la lista de invalidación de hooks inline</string>
+    <string name="settings_enable_predictive_back">Gesto de retroceso predictivo</string>
+    <string name="settings_enable_predictive_back_summary">Activa la compatibilidad con los gestos de retroceso predictivo.</string>
+    <string name="settings_tapjacking_protection">Mitigación de tapjacking</string>
+    <string name="settings_tapjacking_protection_summary">Bloquea los toques cuando la interfaz está cubierta para prevenir ataques de tapjacking</string>
     <!-- Module Repo -->
     <string name="module_readme">Léeme</string>
     <string name="module_releases">Versiones</string>
@@ -157,12 +179,13 @@
     <string name="module_information_collaborators">Colaboradores</string>
     <string name="module_release_view_assets">Archivos</string>
     <string name="menu_open_in_browser">Abrir en el navegador</string>
+    <string name="menu_share">Compartir</string>
     <string name="module_release_load_more">Mostrar versiones anteriores</string>
     <string name="module_release_no_more">No hay más versiones</string>
-    <string name="sort_upgradable_first">Upgradable first</string>
+    <string name="sort_upgradable_first">Actualizables primero</string>
     <string name="installed">Instalado</string>
     <plurals name="module_release_assets_download_count">
-        <item quantity="one">%d descargar</item>
+        <item quantity="one">%d descarga</item>
         <item quantity="other">%d descargas</item>
     </plurals>
     <!-- Colors -->
@@ -182,4 +205,87 @@
     <string name="color_orange">Naranja</string>
     <string name="color_brown">Marrón</string>
     <string name="color_blue_grey">Gris azul</string>
+
+    <string name="safe_mode">Modo seguro</string>
+    <string name="safe_mode_summary">LSPosed está en modo seguro</string>
+    <string name="safe_mode_summary2">Todos los módulos Xposed no estarán disponibles hasta el próximo reinicio. \nAlgunos módulos han provocado fallos del sistema. Busca y desactiva esos módulos e informa a sus desarrolladores.</string>
+    <string name="disable_all_modules">Desactivar todos los módulos</string>
+    <string name="confirm_disable_all_modules">¿Confirmar?</string>
+    <plurals name="message_disable_all_modules">
+        <item quantity="one">Se desactivará %d módulo.\nEsta operación no se puede deshacer.</item>
+        <item quantity="other">Se desactivarán %d módulos.\nEsta operación no se puede deshacer.</item>
+    </plurals>
+    <string name="disable_success_title">Listo</string>
+    <string name="hook_debug_title">Depuración de hooks</string>
+    <string name="debugging_title">Depuración</string>
+    <string name="hook_debug_summary">Permite volcar la información de depuración de los procesos con hooks, lo que puede afectar al rendimiento</string>
+    <string name="dump_hook_debug_title">Volcar info de depuración de hooks</string>
+    <string name="dump_hook_debug_summary">Volcar info de depuración de hooks en /data/adb/lspd/log</string>
+    <string name="dump_hook_success">Volcado en %s</string>
+    <string name="dump_hook_failed">Error al volcar</string>
+    <string name="log_to_daemon_title">Registrar en el daemon</string>
+    <string name="log_to_daemon_summary">Evita que las aplicaciones lean los registros de los módulos, pero puede afectar al rendimiento</string>
+    <plurals name="disable_success_message">
+        <item quantity="one">Se desactivó %d módulo</item>
+        <item quantity="other">Se desactivaron %d módulos</item>
+    </plurals>
+    <!-- Compose Activity -->
+    <string name="follow_system">Seguir el sistema</string>
+    <string name="unknown_author">Autor desconocido</string>
+    <string name="unknown_version">Versión desconocida</string>
+    <string name="unknown_asset">Archivo desconocido</string>
+    <string name="download_asset">Descargar</string>
+    <string name="nav_back">Atrás</string>
+    <string name="menu">Menú</string>
+    <string name="menu_filter">Filtrar</string>
+    <!-- Logs Page -->
+    <string name="menu_parsed_view">Vista analizada</string>
+    <string name="menu_raw_view">Vista sin procesar</string>
+    <!-- Theme Mode -->
+    <string name="settings_ui">Estilo de interfaz</string>
+    <string name="settings_ui_summary">Elige el estilo de la interfaz</string>
+    <string name="settings_theme">Tema</string>
+    <string name="settings_theme_summary">Elige el modo de tema de la aplicación</string>
+    <string name="settings_theme_mode_system">Seguir el sistema</string>
+    <string name="settings_theme_mode_light">Claro</string>
+    <string name="settings_theme_mode_dark">Oscuro</string>
+    <string name="settings_theme_mode_monet_system">Monet (Seguir el sistema)</string>
+    <string name="settings_theme_mode_monet_light">Monet (Claro)</string>
+    <string name="settings_theme_mode_monet_dark">Monet (Oscuro)</string>
+    <string name="settings_key_color">Color de acento</string>
+    <string name="settings_key_color_summary">Personaliza el color base al usar Monet</string>
+    <string name="settings_key_color_default">Predeterminado</string>
+    <string name="settings_theme_entry">Configuración del tema</string>
+    <string name="settings_theme_entry_summary">Modo de tema, color de acento, estilo de paleta y más</string>
+    <string name="settings_palette_style">Estilo de paleta</string>
+    <string name="settings_palette_style_summary">Algoritmo tonal usado para derivar la paleta de Material 3</string>
+    <string name="settings_color_spec">Especificación de color</string>
+    <string name="settings_color_spec_summary">Versión de la especificación de color de Material 3</string>
+    <string name="settings_page_scale">Escala de página</string>
+    <string name="settings_page_scale_summary">Ajusta la escala de visualización global</string>
+    <string name="settings_enable_blur">Desenfoque</string>
+    <string name="settings_enable_blur_summary">Activa el efecto de desenfoque en las barras superior e inferior</string>
+    <string name="settings_floating_bottom_bar">Barra de navegación flotante</string>
+    <string name="settings_floating_bottom_bar_summary">Usa una barra de navegación flotante de estilo similar al de Apple</string>
+    <string name="settings_enable_glass">Liquid Glass</string>
+    <string name="settings_enable_glass_summary">Activa el efecto de Liquid Glass en la barra de navegación flotante</string>
+    <!-- Refresh -->
+    <string name="refresh_pulling">Desliza hacia abajo para actualizar</string>
+    <string name="refresh_release">Suelta para actualizar</string>
+    <string name="refresh_refresh">Actualizando…</string>
+    <string name="refresh_complete">Actualizado correctamente</string>
+    <!-- Repository -->
+    <string name="time_just_now">Ahora mismo</string>
+    <plurals name="time_minutes_ago">
+        <item quantity="one">hace %d minuto</item>
+        <item quantity="other">hace %d minutos</item>
+    </plurals>
+    <plurals name="time_hours_ago">
+        <item quantity="one">hace %d hora</item>
+        <item quantity="other">hace %d horas</item>
+    </plurals>
+    <plurals name="time_days_ago">
+        <item quantity="one">hace %d día</item>
+        <item quantity="other">hace %d días</item>
+    </plurals>
 </resources>
