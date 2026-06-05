@@ -63,7 +63,7 @@
     <!-- LogsActivity -->
     <string name="menuSaveToSd">Guardar</string>
     <string name="nav_item_logs_verbose">Registros detallados</string>
-    <string name="nav_item_logs_module">Logs de los módulos</string>
+    <string name="nav_item_logs_module">Registros de los módulos</string>
     <string name="logs_saving">Guardando registros, por favor espere</string>
     <string name="logs_saved">Registros guardados</string>
     <string name="logs_save_failed2">No se pudo guardar:\n%s</string>
