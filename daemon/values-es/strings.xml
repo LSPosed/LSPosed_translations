@@ -7,7 +7,7 @@
     <string name="xposed_module_updated_notification_title">Módulo Xposed actualizado</string>
     <string name="xposed_module_updated_notification_content">%s ha sido actualizado, fuerce la detención y el reinicio de las aplicaciones en su scope</string>
     <string name="xposed_module_updated_notification_title_system">Módulo Xposed actualizado, es necesario reiniciar el sistema</string>
-    <string name="xposed_module_updated_notification_content_system">%s ha sido actualizado, ya que el scope contiene la estructura del sistema, requiere reiniciar para aplicar cambios</string>
+    <string name="xposed_module_updated_notification_content_system">%s ha sido actualizado, ya que el scope contiene el Framework del sistema, requiere reiniciar para aplicar cambios</string>
     <string name="xposed_module_enabled_notification_title">Módulo Xposed activado</string>
     <string name="xposed_module_enabled_notification_content">%s ha sido activado, toca para configurar el scope</string>
     <string name="xposed_module_updated_notification_action_enable">Activar módulo</string>
