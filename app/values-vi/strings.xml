@@ -26,7 +26,6 @@
     <string name="Settings">Cài đặt</string>
     <string name="About">Về</string>
     <string name="module_repo">Kho</string>
-    <string name="about_view_source_code"><![CDATA[Xem mã nguồn tại %1$s<br/>Tham gia kênh %2$s của chúng tôi]]></string>
     <string name="translators" comment="Dear translators, please add your home page here following the format. There can be more than one translator. So feel free to append yourself.">The Primal Pea (from Lawnrunners)</string>
 
     <string name="not_installed">Chưa cài đặt</string>

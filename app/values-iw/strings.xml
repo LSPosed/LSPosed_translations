@@ -25,7 +25,6 @@
     <string name="Settings">הגדרות</string>
     <string name="About">אודות</string>
     <string name="module_repo">מאגר מידע</string>
-    <string name="about_view_source_code"><![CDATA[הצג קוד מקור ב-%1$s<br/> הצטרף לערוץ %2$s שלנו]]></string>
     <string name="not_installed">לא מותקן</string>
     <string name="not_install_summary">LSPosed אינו מותקן</string>
     <string name="activated">הופעל</string>

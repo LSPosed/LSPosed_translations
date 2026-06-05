@@ -25,7 +25,6 @@
     <string name="Settings">Beállítások</string>
     <string name="About">Névjegy</string>
     <string name="module_repo">Modulok</string>
-    <string name="about_view_source_code"><![CDATA[A forráskódot megnézheted itt: %1$s<br/> Iratkozz fel a %2$s csatornánkra]]></string>
     <string name="translators" comment="Dear translators, please add your home page here following the format. There can be more than one translator. So feel free to append yourself.">عبدو المكحل, Balázs Juhász, Krisztián Molnár</string>
     <string name="not_installed">Nincs telepítve</string>
     <string name="not_install_summary">Az LSPosed nincs telepítve</string>

@@ -25,7 +25,6 @@
     <string name="Settings">सेटिंग्स</string>
     <string name="About">इसके बारे में</string>
     <string name="module_repo">रिपोज़िटरी</string>
-    <string name="about_view_source_code"><![CDATA[%1$s<br/>पर सोर्स कोड देखें हमारे %2$s चैनल से जुड़ें]]></string>
     <string name="translators" comment="Dear translators, please add your home page here following the format. There can be more than one translator. So feel free to append yourself.">Ahmad Shaikh</string>
     <string name="not_installed">स्थापित नहीं हे</string>
     <string name="not_install_summary">LSPosed स्थापित नहीं है</string>

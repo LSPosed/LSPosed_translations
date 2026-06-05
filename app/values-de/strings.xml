@@ -25,8 +25,7 @@
     <string name="Settings">Einstellungen</string>
     <string name="About">Über</string>
     <string name="module_repo">Modularchiv</string>
-    <string name="about_view_source_code"><![CDATA[Den Quellcode auf %1$s ansehen<br/>Folge unserem %2$s-Kanal]]></string>
-    <string name="translators" comment="Dear translators, please add your home page here following the format. There can be more than one translator. So feel free to append yourself.">mshinni80, 
+    <string name="translators" comment="Dear translators, please add your home page here following the format. There can be more than one translator. So feel free to append yourself.">mshinni80,
 JJ108</string>
     <string name="not_installed">Nicht installiert</string>
     <string name="not_install_summary">LSPosed ist nicht installiert</string>

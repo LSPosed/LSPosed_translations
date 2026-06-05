@@ -25,7 +25,9 @@
     <string name="Settings">设置</string>
     <string name="About">关于</string>
     <string name="module_repo">仓库</string>
-    <string name="about_view_source_code"><![CDATA[在 %1$s 查看源码<br/>加入我们的 %2$s 频道<br/>加入我们的 <b><a href="mqqguild://guild/share?inviteCode=Xz9dJ&from=246610">QQ 频道</a></b>]]></string>
+    <string name="about_send_bug_report">发送错误报告</string>
+    <string name="about_join_telegram">加入 Telegram 频道</string>
+    <string name="email_address_copied">已复制邮箱地址</string>
     <string name="translators" comment="Dear translators, please add your home page here following the format. There can be more than one translator. So feel free to append yourself.">LSPosed</string>
     <string name="not_installed">未安装</string>
     <string name="not_install_summary">LSPosed 未安装</string>
@@ -145,7 +147,6 @@
     <string name="dns_over_http">安全 DNS（DoH）</string>
     <string name="dns_over_http_summary">解决某些地区的 DNS 污染问题</string>
     <string name="settings_repo_cdn">模块仓库 CDN</string>
-    <string name="repo_cdn_auto">自动</string>
     <string name="repo_cdn_default">默认</string>
     <string name="repo_cdn_backup">备份</string>
     <string name="settings_show_hidden_icon_apps_enabled">强制显示桌面图标</string>

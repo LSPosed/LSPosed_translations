@@ -25,7 +25,9 @@
     <string name="Settings">設定</string>
     <string name="About">關於</string>
     <string name="module_repo">模組庫</string>
-    <string name="about_view_source_code"><![CDATA[喺 %1$s 查看源碼<br/>加入我哋嘅 %2$s 頻道]]></string>
+    <string name="about_send_bug_report">傳送錯誤報告</string>
+    <string name="about_join_telegram">加入 Telegram 頻道</string>
+    <string name="email_address_copied">已複製電郵地址</string>
     <string name="translators" comment="Dear translators, please add your home page here following the format. There can be more than one translator. So feel free to append yourself.">DarKnighT0v0、MiToverG422、yujincheng08</string>
     <string name="not_installed">未安裝</string>
     <string name="not_install_summary">未安裝 LSPosed</string>
@@ -51,6 +53,8 @@
     <string name="crashed">崩潰</string>
     <string name="mount_failed">掛載失敗</string>
     <string name="info_copied">已複製到剪貼簿</string>
+    <string name="touch_filtered_warning">由於某個應用程式遮擋了介面，因此管理器無法驗證您的回應。</string>
+  
     <!-- WelcomeDialog -->
     <string name="parasitic_welcome">歡迎使用 LSPosed</string>
     <string name="parasitic_welcome_summary">你用緊寄生管理器，可以經通知欄開啟。</string>
@@ -88,6 +92,7 @@
     <string name="collapse">收埋</string>
     <string name="reset_scope_request_setting">重設作用域請求設定</string>
     <string name="reset_scope_request_setting_done">已重設作用域請求設定</string>
+    <string name="hide_non_system_overlay_failed_no_permission">無法隱藏非系統懸浮視窗，請更新管理程式。</string>
     <!-- AppListActivity -->
     <string name="compile_speed">重新優化</string>
     <string name="compile_speed_msg">優化緊…</string>
@@ -141,6 +146,9 @@
     <string name="group_network">網絡</string>
     <string name="dns_over_http">安全 DNS（DoH）</string>
     <string name="dns_over_http_summary">解決部分地區嘅 DNS 污染問題</string>
+    <string name="settings_repo_cdn">模組儲存庫 CDN</string>
+    <string name="repo_cdn_default">預設</string>
+    <string name="repo_cdn_backup">備份</string>
     <string name="settings_show_hidden_icon_apps_enabled">強制 App 喺啟動器顯示圖示</string>
     <string name="settings_show_hidden_icon_apps_enabled_summary">Android 10 之後唔允許隱藏桌面圖示。閂咗個開關即係停用此功能</string>
     <string name="settings_group_system">系統</string>
@@ -161,6 +169,8 @@
     <string name="failed_to_save_invalidate_inline_hooks_list">儲存唔到還原 Inline Hook 列表</string>
     <string name="settings_enable_predictive_back">預測性返回手勢</string>
     <string name="settings_enable_predictive_back_summary">啟用對預測性返回手勢嘅支援。</string>
+    <string name="settings_tapjacking_protection">觸控挾持防護</string>
+    <string name="settings_tapjacking_protection_summary">封鎖畫面被遮擋時的觸控事件，防止觸控挾持攻擊</string>
     <!-- Module Repo -->
     <string name="module_readme">睇我</string>
     <string name="module_releases">版本</string>
@@ -210,6 +220,8 @@
     <string name="hook_debug_summary">允許 Dump 被 Hook 進程嘅 Hook 調試訊息，可能會影響效能</string>
     <string name="dump_hook_debug_title">Dump Hook 調試訊息</string>
     <string name="dump_hook_debug_summary">Dump Hook 調試資訊到 /data/adb/lspd/log</string>
+    <string name="dump_hook_success">已 dump 至 %s</string>
+    <string name="dump_hook_failed">Dump 失敗</string>
     <string name="log_to_daemon_title">輸出日誌去 Daemon</string>
     <string name="log_to_daemon_summary">咁樣可以避免模組日誌畀 App 讀取，但可能會影響效能。</string>
     <plurals name="disable_success_message">
@@ -223,7 +235,8 @@
     <string name="unknown_asset">未知資源</string>
     <string name="download_asset">下載</string>
     <string name="nav_back">返回</string>
-    <string name="menu">篩選</string>
+    <string name="menu">選單</string>
+    <string name="menu_filter">篩選</string>
 
     <!-- Logs Page -->
     <string name="menu_parsed_view">解析檢視</string>
@@ -275,4 +288,5 @@
     <plurals name="time_days_ago">
         <item quantity="other">%d 日前</item>
     </plurals>
+  
 </resources>

@@ -25,7 +25,6 @@
     <string name="Settings">Налаштування</string>
     <string name="About">Детальніше</string>
     <string name="module_repo">Репозиторій</string>
-    <string name="about_view_source_code"><![CDATA[Перегляньте вихідний код на %1$s<br/>Приєднуйтесь до нашого каналу в %2$s]]></string>
     <string name="translators" comment="Dear translators, please add your home page here following the format. There can be more than one translator. So feel free to append yourself.">AlexPechkin</string>
     <string name="not_installed">Не встановлено</string>
     <string name="not_install_summary">LSPosed не встановлено</string>

@@ -26,7 +26,6 @@
     <string name="Settings">설정</string>
     <string name="About">정보</string>
     <string name="module_repo">저장소</string>
-    <string name="about_view_source_code"><![CDATA[%1$s에서 소스 코드 보기<br/>%2$s 채널 참여하기]]></string>
     <string name="translators" comment="Dear translators, please add your home page here following the format. There can be more than one translator. So feel free to append yourself.">naijun0403, green1052</string>
 
     <string name="not_installed">설치되지 않음</string>
@@ -53,6 +52,7 @@
     <string name="crashed">충돌함</string>
     <string name="mount_failed">마운트 실패</string>
     <string name="info_copied">클립보드에 복사됨</string>
+    <string name="touch_filtered_warning">앱이 인터페이스를 가리고 있어 관리자가 응답을 확인할 수 없습니다.</string>
 
     <!-- WelcomeDialog -->
     <string name="parasitic_welcome">LSPosed에 오신 것을 환영합니다</string>
@@ -93,6 +93,7 @@
     <string name="collapse">접기</string>
     <string name="reset_scope_request_setting">범위 요청 설정 초기화</string>
     <string name="reset_scope_request_setting_done">범위 요청 설정이 초기화되었습니다</string>
+    <string name="hide_non_system_overlay_failed_no_permission">비시스템 오버레이 숨기기에 실패했습니다. 관리자를 업그레이드해 주세요.</string>
 
     <!-- AppListActivity -->
     <string name="compile_speed">재최적화</string>
@@ -149,6 +150,9 @@
     <string name="group_network">네트워크</string>
     <string name="dns_over_http">DNS over HTTPS</string>
     <string name="dns_over_http_summary">일부 국가의 DNS 오염을 우회합니다</string>
+    <string name="settings_repo_cdn">모듈 저장소 CDN</string>
+    <string name="repo_cdn_default">기본값</string>
+    <string name="repo_cdn_backup">백업</string>
     <string name="settings_show_hidden_icon_apps_enabled">앱의 런처 아이콘 강제 표시</string>
     <string name="settings_show_hidden_icon_apps_enabled_summary">Android 10 이후에는 앱이 런처 아이콘을 숨길 수 없습니다. 이 시스템 기능을 끄려면 토글을 비활성화하세요.</string>
     <string name="settings_group_system">시스템</string>
@@ -169,6 +173,8 @@
     <string name="failed_to_save_invalidate_inline_hooks_list">인라인 훅 무효화 목록 저장 실패</string>
     <string name="settings_enable_predictive_back">예측형 뒤로가기 제스처</string>
     <string name="settings_enable_predictive_back_summary">예측형 뒤로가기 제스처 지원을 활성화합니다.</string>
+    <string name="settings_tapjacking_protection">탭재킹 완화</string>
+    <string name="settings_tapjacking_protection_summary">인터페이스가 가려졌을 때 터치를 차단하여 탭재킹 공격을 방지합니다</string>
     <!-- Module Repo -->
     <string name="module_readme">README</string>
     <string name="module_releases">릴리스</string>
@@ -218,6 +224,8 @@
     <string name="hook_debug_summary">후킹된 프로세스의 훅 디버깅 정보를 덤프하도록 허용합니다. 성능에 영향을 줄 수 있습니다</string>
     <string name="dump_hook_debug_title">훅 디버그 정보 덤프</string>
     <string name="dump_hook_debug_summary">훅 디버그 정보를 /data/adb/lspd/log에 덤프합니다</string>
+    <string name="dump_hook_success">%s에 덤프됨</string>
+    <string name="dump_hook_failed">덤프 실패</string>
     <string name="log_to_daemon_title">데몬으로 로그 기록</string>
     <string name="log_to_daemon_summary">앱이 모듈 로그를 읽지 못하게 할 수 있지만 성능에 영향을 줄 수 있습니다</string>
     <plurals name="disable_success_message">
@@ -239,6 +247,8 @@
     <string name="menu_raw_view">원본 보기</string>
 
     <!-- Theme Mode -->
+    <string name="settings_ui">UI 스타일</string>
+    <string name="settings_ui_summary">인터페이스 스타일을 선택합니다</string>
     <string name="settings_theme">테마</string>
     <string name="settings_theme_summary">앱 테마 모드를 선택합니다</string>
     <string name="settings_theme_mode_system">시스템 설정 따름</string>
@@ -250,6 +260,12 @@
     <string name="settings_key_color">강조 색상</string>
     <string name="settings_key_color_summary">Monet 사용 시 시드 색상을 사용자 지정합니다</string>
     <string name="settings_key_color_default">기본값</string>
+    <string name="settings_theme_entry">테마 설정</string>
+    <string name="settings_theme_entry_summary">테마 모드, 강조 색상, 팔레트 스타일 등을 설정합니다</string>
+    <string name="settings_palette_style">팔레트 스타일</string>
+    <string name="settings_palette_style_summary">Material 3 팔레트를 도출하는 데 사용할 색조 알고리즘입니다</string>
+    <string name="settings_color_spec">색상 사양</string>
+    <string name="settings_color_spec_summary">Material 3 색상 사양 버전입니다</string>
     <string name="settings_page_scale">페이지 배율</string>
     <string name="settings_page_scale_summary">전체 표시 배율을 조정합니다</string>
     <string name="settings_enable_blur">블러</string>

@@ -25,7 +25,6 @@
     <string name="Settings">Indstillinger</string>
     <string name="About">Om</string>
     <string name="module_repo">Lagre</string>
-    <string name="about_view_source_code"><![CDATA[Vis kildekode på %1$s<br/>Tilmeld dig vores %2$s kanal]]></string>
     <string name="not_installed">Ikke installeret</string>
     <string name="not_install_summary">LSPosed er ikke installeret</string>
     <string name="activated">Aktiveret</string>

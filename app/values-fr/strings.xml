@@ -25,7 +25,6 @@
     <string name="Settings">Réglages</string>
     <string name="About">À propos</string>
     <string name="module_repo">Dépôt</string>
-    <string name="about_view_source_code"><![CDATA[Voir le code source sur %1$s<br/>Rejoindre notre canal %2$s]]></string>
     <string name="translators" comment="Dear translators, please add your home page here following the format. There can be more than one translator. So feel free to append yourself.">https://github.com/xerta555
 https://github.com/tclement0922</string>
     <string name="not_installed">Non installé</string>

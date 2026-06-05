@@ -25,7 +25,6 @@
     <string name="Settings">Nustatymai</string>
     <string name="About">About-face</string>
     <string name="module_repo">Saugykla</string>
-    <string name="about_view_source_code"><![CDATA[Peržiūrėkite šaltinio kodą adresu %1$s<br/>Prisijunkite prie mūsų %2$s kanalo]]></string>
     <string name="translators" comment="Dear translators, please add your home page here following the format. There can be more than one translator. So feel free to append yourself.">Ace Miller, im sorry</string>
     <string name="not_installed">Neįdiegta</string>
     <string name="not_install_summary">\"LSPosed\" nėra įdiegta</string>

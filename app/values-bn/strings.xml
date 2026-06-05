@@ -25,7 +25,6 @@
     <string name="Settings">বিন্যাস</string>
     <string name="About">সম্পর্কিত</string>
     <string name="module_repo">ভান্ডার</string>
-    <string name="about_view_source_code"><![CDATA[%1$s<br/>এ সোর্স কোড দেখুন আমাদের %2$s চ্যানেলে যোগ দিন]]></string>
     <string name="translators" comment="Dear translators, please add your home page here following the format. There can be more than one translator. So feel free to append yourself.">bdtipsntricks</string>
     <string name="not_installed">ইনস্টল করা না</string>
     <string name="not_install_summary">LSPosed ইনস্টল করা হয় না</string>

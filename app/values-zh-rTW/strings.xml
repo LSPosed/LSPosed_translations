@@ -25,7 +25,9 @@
     <string name="Settings">設定</string>
     <string name="About">關於</string>
     <string name="module_repo">倉庫</string>
-    <string name="about_view_source_code"><![CDATA[在 %1$s 檢視原始碼<br/>加入我們的 %2$s 頻道]]></string>
+    <string name="about_send_bug_report">傳送錯誤報告</string>
+    <string name="about_join_telegram">加入 Telegram 頻道</string>
+    <string name="email_address_copied">已複製電子郵件地址</string>
     <string name="translators" comment="Dear translators, please add your home page here following the format. There can be more than one translator. So feel free to append yourself.">孟武. 尼德霍格. 龍、david082321、beigua87、HSSkyBoy</string>
     <string name="not_installed">未安裝</string>
     <string name="not_install_summary">LSPosed 未安裝</string>

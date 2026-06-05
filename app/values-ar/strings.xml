@@ -25,8 +25,7 @@
     <string name="Settings">الإعدادات</string>
     <string name="About">حول التطبيق</string>
     <string name="module_repo">مخزن الإضافات</string>
-    <string name="about_view_source_code"><![CDATA[عرض كود المصدر في %1$s<br/>انضم إلى قناتنا في %2$s]]></string>
-<string name="translators" comment="Dear translators, please add your home page here following the format. There can be more than one translator. So feel free to append yourself."><![CDATA[<b>mast3rz3ro</b> (<a href="https://github.com/mast3rz3ro">Github</a>)<br/><b>ZG089</b> (<a href="https://github.com/ZG089">Github</a>)<br/><b>merbah3266</b> (<a href="https://github.com/merbah3266">Github</a>)]]></string>
+    <string name="translators" comment="Dear translators, please add your home page here following the format. There can be more than one translator. So feel free to append yourself."><![CDATA[<b>mast3rz3ro</b> (<a href="https://github.com/mast3rz3ro">Github</a>)<br/><b>ZG089</b> (<a href="https://github.com/ZG089">Github</a>)<br/><b>merbah3266</b> (<a href="https://github.com/merbah3266">Github</a>)]]></string>
     <string name="not_installed">ليس مثبتا</string>
     <string name="not_install_summary">LSPosed ليس مثبتا</string>
     <string name="activated">تم تفعيله</string>

@@ -25,7 +25,6 @@
     <string name="Settings">Seaded</string>
     <string name="About">Kohta</string>
     <string name="module_repo">Repo</string>
-    <string name="about_view_source_code"><![CDATA[Vaata lähtekoodi aadressil %1$s<br/>Liitu meie %2$s \'i kanaliga]]></string>
     <string name="translators" comment="Dear translators, please add your home page here following the format. There can be more than one translator. So feel free to append yourself.">Subaru Pan</string>
     <string name="not_installed">Puudub</string>
     <string name="not_install_summary">LSPosed ei ole installitud</string>

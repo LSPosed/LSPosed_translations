@@ -25,7 +25,6 @@
     <string name="Settings">Ustawienia</string>
     <string name="About">O aplikacji</string>
     <string name="module_repo">Repozytorium</string>
-    <string name="about_view_source_code"><![CDATA[Zobacz kod źródłowy na %1$s<br/>Dołącz do naszego kanału %2$s]]></string>
     <string name="translators" comment="Dear translators, please add your home page here following the format. There can be more than one translator. So feel free to append yourself.">Adiker</string>
     <string name="not_installed">Nie zainstalowano</string>
     <string name="not_install_summary">LSPosed nie jest zainstalowany</string>

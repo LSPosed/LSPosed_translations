@@ -25,7 +25,6 @@
     <string name="Settings">සැකසීම </string>
     <string name="About">මේ ගැන</string>
     <string name="module_repo">ගබඩාව</string>
-    <string name="about_view_source_code"><![CDATA[මූල කේතය බලන්න අපේ නාලිකාවට %1$s<br/> සම්බන්ධ වන්න %2$s]]></string>
     <string name="not_installed">ස්ථාපනය කර නැත</string>
     <string name="not_install_summary">LSPosed ස්ථාපනය කර නැත</string>
     <string name="activated">සක්රිය කර ඇත</string>

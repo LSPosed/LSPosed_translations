@@ -25,7 +25,6 @@
     <string name="Settings">ترتیبات</string>
     <string name="About">معلومات</string>
     <string name="module_repo">مخزن۔</string>
-    <string name="about_view_source_code"><![CDATA[ماخذ کوڈ دیکھیں %1$s<br/> ہمارے ساتھ شامل ہوں%2$s چینل۔]]></string>
     <string name="translators" comment="Dear translators, please add your home page here following the format. There can be more than one translator. So feel free to append yourself.">PGH Gaming Official</string>
     <string name="not_installed">یہ انسٹال نہیں ہے۔</string>
     <string name="not_install_summary">LSposed انسٹال نہیں ہے۔</string>

@@ -25,8 +25,6 @@
     <string name="Settings">การตั้งค่า</string>
     <string name="About">เกี่ยวกับ</string>
     <string name="module_repo">คลังโมดูล</string>
-    <string name="about_view_source_code"><![CDATA[ดูซอร์สโค้ดได้ที่ %1$s<br/> หรือเข้าร่วม %2$s
- ของเรา]]></string>
     <string name="not_installed">ไม่ได้ติดตั้ง</string>
     <string name="not_install_summary">ไม่ได้ติดตั้ง LSPosed</string>
     <string name="activated">เปิดใช้งานแล้ว</string>

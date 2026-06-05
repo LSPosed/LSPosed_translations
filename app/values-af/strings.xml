@@ -22,7 +22,6 @@
     <string name="overview">Oorsig</string>
     <string name="About">Oor</string>
     <string name="module_repo">Bewaarplek</string>
-    <string name="about_view_source_code"><![CDATA[Bekyk bronkode by %1$s<br/>Sluit aan by ons %2$s -kanaal]]></string>
     <string name="not_install_summary">LSPosed is nie geïnstalleer nie</string>
     <string name="system_inject_fail_summary">Stelselraamwerk-inspuiting het misluk</string>
     <string name="system_inject_fail"><![CDATA[Dit is skaars en kan veroorsaak word deur <b>Magisk</b> of sommige Magisk-modules van lae gehalte.<br/>Probeer asseblief om Magisk-modules anders as Zygisk en LSPosed te deaktiveer of dien volledige log aan ontwikkelaars in.]]></string>

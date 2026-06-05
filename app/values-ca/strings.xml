@@ -25,7 +25,6 @@
     <string name="Settings">Configuració</string>
     <string name="About">Sobre</string>
     <string name="module_repo">Repositori</string>
-    <string name="about_view_source_code"><![CDATA[Veure codi font a %1$s<br/>Uneix-te al nostre %2$s canal]]></string>
     <string name="translators" comment="Dear translators, please add your home page here following the format. There can be more than one translator. So feel free to append yourself.">Frederic Blay,  Ghost Face, Yannick Kamin</string>
     <string name="not_installed">No instalat</string>
     <string name="not_install_summary">LSPosed no està instal·lat</string>

@@ -25,7 +25,6 @@
     <string name="Settings">Configurações</string>
     <string name="About">Sobre</string>
     <string name="module_repo">Repositório</string>
-    <string name="about_view_source_code"><![CDATA[Veja o código-fonte no %1$s<br/>Entre em nosso canal no %2$s]]></string>
     <string name="translators" comment="Dear translators, please add your home page here following the format. There can be more than one translator. So feel free to append yourself.">VD171, Dan, Hitalo, Luiz Renato, PedriR19</string>
     <string name="not_installed">Não instalado</string>
     <string name="not_install_summary">O LSPosed não está instalado</string>

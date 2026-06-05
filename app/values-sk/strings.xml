@@ -25,7 +25,6 @@
     <string name="Settings">Nastavenia</string>
     <string name="About">O stránke</string>
     <string name="module_repo">Úložisko</string>
-    <string name="about_view_source_code"><![CDATA[Zobraziť zdrojový kód na %1$s<br/>Pripojte sa k nášmu kanálu %2$s]]></string>
     <string name="not_installed">Nie je nainštalovaný</string>
     <string name="not_install_summary">LSPosed nie je nainštalovaný</string>
     <string name="activated">Aktivované</string>

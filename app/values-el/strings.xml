@@ -25,7 +25,6 @@
     <string name="Settings">Ρυθμίσεις</string>
     <string name="About">Πληροφορίες</string>
     <string name="module_repo">Αποθετήριο</string>
-    <string name="about_view_source_code"><![CDATA[Δείτε τον πηγαίο κώδικα στο %1$s<br/>Εγγραφείτε στο %2$s κανάλι μας]]></string>
     <string name="translators" comment="Dear translators, please add your home page here following the format. There can be more than one translator. So feel free to append yourself.">Aristeidis Alexopoulos</string>
     <string name="not_installed">Μη εγκατεστημένο</string>
     <string name="not_install_summary">Το LSPosed δεν είναι εγκατεστημένο</string>
