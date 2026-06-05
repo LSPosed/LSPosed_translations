@@ -34,4 +34,8 @@
         <item quantity="one">%d modül devre dışı bırakılacak\nBu işlem geri döndürülemez</item>
         <item quantity="other">%d modül devre dışı bırakılacak\nBu işlem geri döndürülemez</item>
     </plurals>
+    <string name="safe_mode_reboot">Yeniden başlat</string>
+    <string name="safe_mode_channel_name">Güvenli Mod</string>
+    <string name="safe_mode_open_manager">Yöneticiyi aç</string>
+    <string name="safe_mode_back">Geri</string>
 </resources>
