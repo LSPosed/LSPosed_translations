@@ -23,7 +23,7 @@
     <string name="Modules">Moduliai</string>
     <string name="Logs">Žurnalai</string>
     <string name="Settings">Nustatymai</string>
-    <string name="About">About-face</string>
+    <string name="About">Apie</string>
     <string name="module_repo">Saugykla</string>
     <string name="translators" comment="Dear translators, please add your home page here following the format. There can be more than one translator. So feel free to append yourself.">Ace Miller, im sorry</string>
     <string name="not_installed">Neįdiegta</string>
@@ -116,7 +116,7 @@
     <!-- ModulesActivity and AppListActivity -->
     <string name="modules_other_app">Peržiūrėti kitoje programoje</string>
     <string name="module_app_info">Programėlės informacija</string>
-    <string name="list_empty">\\\\_(ツ)_\/¯\nČia nieko nėra</string>
+    <string name="list_empty">¯\\_(ツ)_\/¯\nČia nieko nėra</string>
     <!-- SettingsActivity -->
     <string name="settings_group_framework">Sistema</string>
     <string name="settings_disable_verbose_log">Išjungti verbalinius žurnalus</string>
