@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Notification -->
+    <string name="list_separator">, </string>
     <string name="module_is_not_activated_yet">Modul Xposed ešte nie je aktivovaný</string>
     <string name="module_is_not_activated_yet_main_user_detailed">%1$s bol nainštalovaný, ale ešte nie je aktivovaný</string>
     <string name="module_is_not_activated_yet_multi_user_detailed">%1$s bol nainštalovaný na stránke používateľa %2$s, ale ešte nie je aktivovaný.</string>
     <string name="xposed_module_updated_notification_title">Aktualizovaný modul Xposed</string>
-    <string name="xposed_module_updated_notification_content">%s bola aktualizovaná, vynúťte si zastavenie a reštartovanie aplikácií v jej rozsahu</string>
     <string name="xposed_module_updated_notification_title_system">Aktualizácia modulu Xposed, potrebný reštart systému</string>
+    <string name="xposed_module_updated_notification_content">%s bola aktualizovaná, vynúťte si zastavenie a reštartovanie aplikácií v jej rozsahu</string>
     <string name="xposed_module_updated_notification_content_system">%s bola aktualizovaná, pretože rozsah obsahuje System Framework, potrebný reštart na uplatnenie zmien</string>
     <string name="module_updated_channel_name">Aktualizácia modulu dokončená</string>
     <string name="status_channel_name">LSPonúkaný stav</string>

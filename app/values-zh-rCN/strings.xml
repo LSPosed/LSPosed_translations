@@ -21,24 +21,14 @@
     <!-- MainActivity -->
     <string name="overview">概览</string>
     <string name="Modules">模块</string>
-    <plurals name="modules_enabled_count">
-        <item quantity="other">已启用 %d 个模块</item>
-    </plurals>
     <string name="Logs">日志</string>
     <string name="Settings">设置</string>
-    <string name="feedback_or_suggestion">反馈或建议</string>
     <string name="About">关于</string>
     <string name="module_repo">仓库</string>
-    <string name="module_repo_up_to_date">所有模块均已最新</string>
-    <string name="module_repo_published_time">发布于 %s</string>
-    <string name="module_repo_updated_time">更新于 %s</string>
-    <plurals name="module_repo_upgradable">
-        <item quantity="other">%d 个模块可更新</item>
-    </plurals>
-    <string name="about_view_source_code"><![CDATA[在 %1$s 查看源码<br/>加入我们的 %2$s 频道<br/>加入我们的 <b><a href="mqqguild://guild/share?inviteCode=Xz9dJ&from=246610">QQ 频道</a></b>]]></string>
+    <string name="about_send_bug_report">发送错误报告</string>
+    <string name="about_join_telegram">加入 Telegram 频道</string>
+    <string name="email_address_copied">已复制邮箱地址</string>
     <string name="translators" comment="Dear translators, please add your home page here following the format. There can be more than one translator. So feel free to append yourself.">LSPosed</string>
-    <string name="install">安装</string>
-    <string name="install_summary">点击安装 LSPosed</string>
     <string name="not_installed">未安装</string>
     <string name="not_install_summary">LSPosed 未安装</string>
     <string name="activated">已激活</string>
@@ -48,11 +38,8 @@
     <string name="system_prop_incorrect_summary">系统属性异常</string>
     <string name="system_prop_incorrect"><![CDATA[一些必须的系统属性被删除或被修改。<br/>模块可能会随机失效。]]></string>
     <string name="need_update">需要更新</string>
-    <string name="please_update_summary">请安装新版 LSPosed</string>
     <string name="developer_warning_title">给模块开发者的提示</string>
     <string name="developer_warning_summary">请在 Android Studio 上禁用部署优化，或使用 `gradlew installDebug` 命令进行安装，否则无法更新模块。</string>
-    <string name="info_api_version">API 版本</string>
-    <string name="info_framework_version">框架版本</string>
     <string name="info_manager_package_name">管理器包名</string>
     <string name="info_system_version">系统版本</string>
     <string name="info_device">设备</string>
@@ -65,8 +52,6 @@
     <string name="android_version_unsatisfied">系统版本不受支持</string>
     <string name="crashed">崩溃</string>
     <string name="mount_failed">挂载失败</string>
-    <string name="update_lsposed">更新 LSPosed</string>
-    <string name="update_lsposed_msg">确认更新 LSPosed? 设备将会在完成更新后自动重启。</string>
     <string name="info_copied">已复制到剪贴板</string>
     <string name="touch_filtered_warning">由于某个应用遮挡了界面，因此管理器无法验证您的回应。</string>
 
@@ -78,7 +63,6 @@
     <string name="app_welcome_summary">LSPosed 现在支持系统寄生以避免检测，你可以从通知中打开寄生管理器。建议卸载当前应用。</string>
     <!-- LogsActivity -->
     <string name="menuSaveToSd">保存</string>
-    <string name="menuShareLog">分享</string>
     <string name="nav_item_logs_verbose">详细日志</string>
     <string name="nav_item_logs_module">模块日志</string>
     <string name="logs_saving">正在保存日志，请稍候</string>
@@ -87,16 +71,10 @@
     <string name="logs_preparing">正在准备日志，请稍候</string>
     <string name="logs_prepare_failed">准备失败:\n%s</string>
     <string name="menuClearLog">立即清空日志</string>
-    <string name="logs_cleared">成功清空日志。</string>
     <string name="scroll_top">滚动到顶部</string>
-    <string name="loading">加载中…</string>
     <string name="scroll_bottom">滚动到底部</string>
-    <string name="logs_clear_failed_2">日志清空失败</string>
     <string name="menu_enable_word_wrap">自动换行</string>
-    <string name="enabled_verbose_log">详细日志已启用</string>
-    <string name="disabled_verbose_log">详细日志已禁用</string>
     <!-- ModulesActivity -->
-    <string name="module_empty_description">（未提供介绍）</string>
     <string name="warning_xposed_min_version">此模块需要更新的 Xposed 版本（%d），因此无法激活</string>
     <string name="warning_target_version_higher">此模块是为较新的 Xposed 版本（%d）设计的，因此某些功能可能无法使用</string>
     <string name="no_min_version_specified">该模块未指定所需的 Xposed 版本</string>
@@ -108,11 +86,8 @@
     <string name="module_uninstall_message">确认卸载该模块？</string>
     <string name="module_uninstalled">已卸载 %1$s</string>
     <string name="module_uninstall_failed">卸载失败</string>
-    <string name="add_module_to_user">安装模块到用户</string>
-    <string name="module_installed">已安装 %1$s 到用户 %2$s</string>
     <string name="module_install_failed">安装失败</string>
     <string name="install_to_user">安装到用户 %s</string>
-    <string name="install_to_user_message">确认安装 %1$s 到用户 %2$s？推荐手动用系统自带方法安装，通过 LSPosed 强制安装可能会导致未知异常。</string>
     <string name="expand">展开</string>
     <string name="collapse">收起</string>
     <string name="reset_scope_request_setting">重置作用域请求设置</string>
@@ -143,9 +118,7 @@
     <string name="module_is_not_activated_yet">Xposed 模块尚未激活</string>
     <string name="requested_by_module">推荐应用</string>
     <string name="update_available">可用更新：%1$s</string>
-    <string name="module_disabled_no_selection">由于未选择任何应用，模块 %s 已被禁用。</string>
     <string name="android_framework">系统框架</string>
-    <string name="menu_backup_and_restore">备份</string>
     <string name="menu_backup">备份</string>
     <string name="menu_restore">恢复</string>
     <string name="force_stop">强行停止</string>
@@ -153,7 +126,6 @@
     <string name="force_stop_dlg_text">强行停止某个应用可能会使其异常。</string>
     <string name="reboot_required">重启以应用此更改</string>
     <string name="reboot">重启系统</string>
-    <string name="menu_hide">隐藏</string>
     <!-- ModulesActivity and AppListActivity -->
     <string name="modules_other_app">在其它应用中查看</string>
     <string name="module_app_info">应用信息</string>
@@ -162,8 +134,6 @@
     <string name="settings_group_framework">框架</string>
     <string name="settings_disable_verbose_log">禁用详细日志</string>
     <string name="settings_disable_verbose_log_summary">报告问题要求包含详细日志</string>
-    <string name="pure_black_dark_theme">纯黑主题</string>
-    <string name="pure_black_dark_theme_summary">当深色主题启用时使用纯黑主题</string>
     <string name="settings_group_theme">主题</string>
     <string name="settings_backup_and_restore">备份与恢复</string>
     <string name="settings_backup_summary">备份模块列表与作用域列表</string>
@@ -176,8 +146,9 @@
     <string name="group_network">网络</string>
     <string name="dns_over_http">安全 DNS（DoH）</string>
     <string name="dns_over_http_summary">解决某些地区的 DNS 污染问题</string>
-    <string name="theme_color">主题颜色</string>
-    <string name="theme_color_system">系统主题色</string>
+    <string name="settings_repo_cdn">模块仓库 CDN</string>
+    <string name="repo_cdn_default">默认</string>
+    <string name="repo_cdn_backup">备份</string>
     <string name="settings_show_hidden_icon_apps_enabled">强制显示桌面图标</string>
     <string name="settings_show_hidden_icon_apps_enabled_summary">在 Android 10 或更高版本，应用不再允许隐藏桌面图标。关闭该选项以关闭该系统功能</string>
     <string name="settings_group_system">系统</string>
@@ -195,14 +166,7 @@
     <string name="settings_xposed_api_call_protection_summary">阻止模块动态加载的代码使用 Xposed API，这会使某些模块失效，但有利于安全性</string>
     <string name="settings_invalidate_inline_hooks">还原内联钩子</string>
     <string name="settings_invalidate_inline_hooks_summary">对列表中的应用清理 libart.so，这会导致随机故障和崩溃，仅当无法打开特定应用时使用</string>
-    <string name="settings_invalidate_inline_hooks_warning">不要在启用此选项时报告任何问题</string>
     <string name="failed_to_save_invalidate_inline_hooks_list">无法保存还原内联钩子列表</string>
-    <plurals name="settings_invalidate_inline_hooks_enabled_count">
-        <item quantity="other">已对 %d 个应用启用</item>
-    </plurals>
-    <string name="settings_enable_new_manager">启用新管理器</string>
-    <string name="settings_enable_new_manager_summary">使用新的 MIUI 风格的基于 Compose 的管理器界面</string>
-    <string name="settings_smooth_rounding">平滑圆角</string>
     <string name="settings_enable_predictive_back">预测性返回手势</string>
     <string name="settings_enable_predictive_back_summary">启用对预测性返回手势的支持</string>
     <string name="settings_tapjacking_protection">点按劫持缓解</string>
@@ -219,14 +183,12 @@
     <string name="menu_share">分享</string>
     <string name="module_release_load_more">显示较早版本</string>
     <string name="module_release_no_more">无更多版本</string>
-    <string name="repo_load_failed">模块仓库加载失败：%s</string>
     <string name="sort_upgradable_first">可更新优先</string>
     <string name="installed">已安装</string>
     <plurals name="module_release_assets_download_count">
         <item quantity="other">%d 次下载</item>
     </plurals>
     <!-- Colors -->
-    <string name="color_sakura">樱花</string>
     <string name="color_red">红色</string>
     <string name="color_pink">粉色</string>
     <string name="color_purple">紫色</string>
@@ -237,12 +199,10 @@
     <string name="color_cyan">青色</string>
     <string name="color_teal">青绿</string>
     <string name="color_green">绿色</string>
-    <string name="color_light_green">浅绿</string>
     <string name="color_lime">黄绿</string>
     <string name="color_yellow">黄色</string>
     <string name="color_amber">琥珀</string>
     <string name="color_orange">橙色</string>
-    <string name="color_deep_orange">深橙</string>
     <string name="color_brown">棕色</string>
     <string name="color_blue_grey">灰蓝</string>
 
@@ -283,6 +243,8 @@
     <string name="menu_raw_view">原始视图</string>
 
     <!-- Theme Mode -->
+    <string name="settings_ui">界面风格</string>
+    <string name="settings_ui_summary">选择应用的界面风格</string>
     <string name="settings_theme">主题</string>
     <string name="settings_theme_summary">选择应用的主题模式</string>
     <string name="settings_theme_mode_system">跟随系统</string>
@@ -294,6 +256,12 @@
     <string name="settings_key_color">强调色</string>
     <string name="settings_key_color_summary">在使用 Monet 时自定义种子色</string>
     <string name="settings_key_color_default">默认</string>
+    <string name="settings_theme_entry">主题设置</string>
+    <string name="settings_theme_entry_summary">主题模式、强调色、调色板风格等</string>
+    <string name="settings_palette_style">调色板风格</string>
+    <string name="settings_palette_style_summary">用于推导 Material 3 调色板的色调算法</string>
+    <string name="settings_color_spec">色彩规范</string>
+    <string name="settings_color_spec_summary">Material 3 色彩规范版本</string>
     <string name="settings_page_scale">界面缩放</string>
     <string name="settings_page_scale_summary">调整全局显示比例</string>
     <string name="settings_enable_blur">模糊</string>

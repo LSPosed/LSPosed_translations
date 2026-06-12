@@ -21,27 +21,15 @@
     <!-- MainActivity -->
     <string name="overview">Overview</string>
     <string name="Modules">Modules</string>
-    <plurals name="modules_enabled_count">
-        <item quantity="one">%d module enabled</item>
-        <item quantity="other">%d modules enabled</item>
-    </plurals>
     <string name="Logs">Logs</string>
     <string name="Settings">Settings</string>
-    <string name="feedback_or_suggestion">Feedback or suggestion</string>
     <string name="About">About</string>
     <string name="module_repo">Repository</string>
-    <string name="module_repo_up_to_date">All modules up to date</string>
-    <string name="module_repo_published_time">Published at %s</string>
-    <string name="module_repo_updated_time">Updated at %s</string>
-    <plurals name="module_repo_upgradable">
-        <item quantity="one">%d module upgradable</item>
-        <item quantity="other">%d modules upgradable</item>
-    </plurals>
-    <string name="about_view_source_code"><![CDATA[View source code at %1$s<br/>Join our %2$s channel]]></string>
+    <string name="about_send_bug_report">Send bug report</string>
+    <string name="about_join_telegram">Join Telegram channel</string>
+    <string name="email_address_copied">Email address copied</string>
     <string name="translators" comment="Dear translators, please add your home page here following the format. There can be more than one translator. So feel free to append yourself.">null</string>
 
-    <string name="install">Install</string>
-    <string name="install_summary">Tap to install LSPosed</string>
     <string name="not_installed">Not installed</string>
     <string name="not_install_summary">LSPosed is not Installed</string>
     <string name="activated">Activated</string>
@@ -51,11 +39,8 @@
     <string name="system_prop_incorrect_summary">System prop incorrect</string>
     <string name="system_prop_incorrect"><![CDATA[Some necessary system properties deleted or modified.<br/>Modules may invalidate occasionally.]]></string>
     <string name="need_update">Need to update</string>
-    <string name="please_update_summary">Please install the latest version of LSPosed</string>
     <string name="developer_warning_title">Tips for module developer</string>
     <string name="developer_warning_summary">Please disable deploy optimizations on Android Studio, or use `gradlew installDebug` command to install. Otherwise the module apk will not be updated.</string>
-    <string name="info_api_version">API version</string>
-    <string name="info_framework_version">Framework version</string>
     <string name="info_manager_package_name">Manager package name</string>
     <string name="info_system_version">System version</string>
     <string name="info_device">Device</string>
@@ -68,8 +53,6 @@
     <string name="android_version_unsatisfied">Android version unsatisfied</string>
     <string name="crashed">Crashed</string>
     <string name="mount_failed">Mount failed</string>
-    <string name="update_lsposed">Update LSPosed</string>
-    <string name="update_lsposed_msg">Confirm to update LSPosed? This device will reboot after update completion</string>
     <string name="info_copied">Copied to clipboard</string>
     <string name="touch_filtered_warning">Because an app is obscuring the interface, Manager can’t verify your response.</string>
 
@@ -82,7 +65,6 @@
 
     <!-- LogsActivity -->
     <string name="menuSaveToSd">Save</string>
-    <string name="menuShareLog">Share</string>
     <string name="nav_item_logs_verbose">Verbose Logs</string>
     <string name="nav_item_logs_module">Modules Logs</string>
     <string name="logs_saving">Saving log, please wait</string>
@@ -91,17 +73,11 @@
     <string name="logs_preparing">Preparing for log, please wait</string>
     <string name="logs_prepare_failed">Failed to prepare:\n%s</string>
     <string name="menuClearLog">Clear log now</string>
-    <string name="logs_cleared">Log successfully cleared.</string>
     <string name="scroll_top">Scroll to top</string>
-    <string name="loading">Loading…</string>
     <string name="scroll_bottom">Scroll to bottom</string>
-    <string name="logs_clear_failed_2">Failed to clear the log</string>
     <string name="menu_enable_word_wrap">Word Wrap</string>
-    <string name="enabled_verbose_log">Verbose log enabled</string>
-    <string name="disabled_verbose_log">Verbose log disabled</string>
 
     <!-- ModulesActivity -->
-    <string name="module_empty_description">(no description provided)</string>
     <string name="warning_xposed_min_version">This module requires a newer Xposed version (%d) and thus cannot be activated</string>
     <string name="warning_target_version_higher">This module is designed for a newer Xposed version (%d) and thus some functionalities may not work</string>
     <string name="no_min_version_specified">This module does not specify the Xposed version it needs.</string>
@@ -113,11 +89,8 @@
     <string name="module_uninstall_message">Do you want to uninstall this module?</string>
     <string name="module_uninstalled">Uninstalled %1$s</string>
     <string name="module_uninstall_failed">Uninstall unsuccessful</string>
-    <string name="add_module_to_user">Add module to user</string>
-    <string name="module_installed">Added %1$s to user %2$s</string>
     <string name="module_install_failed">Adding module failed</string>
     <string name="install_to_user">Install to user %s</string>
-    <string name="install_to_user_message">Want to install %1$s to user %2$s? It is recommended to install manually, forcing installation via LSPosed may cause problems.</string>
     <string name="expand">expand</string>
     <string name="collapse">collapse</string>
     <string name="reset_scope_request_setting">Reset scope request setting</string>
@@ -149,9 +122,7 @@
     <string name="module_is_not_activated_yet">Xposed module is not activated yet</string>
     <string name="requested_by_module">Recommended</string>
     <string name="update_available">Update available: %1$s</string>
-    <string name="module_disabled_no_selection">Module %s has been disabled since no app selected.</string>
     <string name="android_framework">System Framework</string>
-    <string name="menu_backup_and_restore">Backup</string>
     <string name="menu_backup">Backup</string>
     <string name="menu_restore">Restore</string>
     <string name="force_stop">Force stop</string>
@@ -159,7 +130,6 @@
     <string name="force_stop_dlg_text">If you force stop an app, it may misbehave.</string>
     <string name="reboot_required">Reboot is required for this change to apply</string>
     <string name="reboot">Reboot</string>
-    <string name="menu_hide">Hide</string>
 
     <!-- ModulesActivity and AppListActivity -->
     <string name="modules_other_app">View in other app</string>
@@ -170,8 +140,6 @@
     <string name="settings_group_framework">Framework</string>
     <string name="settings_disable_verbose_log">Disable verbose logs</string>
     <string name="settings_disable_verbose_log_summary">Report issues request to include verbose logs</string>
-    <string name="pure_black_dark_theme">Black dark theme</string>
-    <string name="pure_black_dark_theme_summary">Use the pure black theme if dark theme is enabled</string>
     <string name="settings_group_theme">Theme</string>
     <string name="settings_backup_and_restore">Backup and restore</string>
     <string name="settings_backup_summary">Backup module list and scope lists.</string>
@@ -184,8 +152,9 @@
     <string name="group_network">Network</string>
     <string name="dns_over_http">DNS over HTTPS</string>
     <string name="dns_over_http_summary">Workaround DNS poisoning in some nations</string>
-    <string name="theme_color">Theme color</string>
-    <string name="theme_color_system">System theme color</string>
+    <string name="settings_repo_cdn">Module repository CDN</string>
+    <string name="repo_cdn_default">Default</string>
+    <string name="repo_cdn_backup">Backup</string>
     <string name="settings_show_hidden_icon_apps_enabled">Force apps to show launcher icons</string>
     <string name="settings_show_hidden_icon_apps_enabled_summary">After Android 10, apps are not allowed to hide their launcher icons. Turn off the toggle to disable this system feature.</string>
     <string name="settings_group_system">System</string>
@@ -203,15 +172,7 @@
     <string name="settings_xposed_api_call_protection_summary">Block dynamically loaded module code to use Xposed API, this may break some modules but benefit security</string>
     <string name="settings_invalidate_inline_hooks">Invalidate inline hooks</string>
     <string name="settings_invalidate_inline_hooks_summary">Cleanup libart.so for listed apps. This will cause random malfunctions and crashes. Use only when unable to open specific apps.</string>
-    <string name="settings_invalidate_inline_hooks_warning">Do not report any bug when this option is enabled.</string>
     <string name="failed_to_save_invalidate_inline_hooks_list">Failed to save Invalidate inline hooks list</string>
-    <plurals name="settings_invalidate_inline_hooks_enabled_count">
-        <item quantity="one">%d app enabled</item>
-        <item quantity="other">%d apps enabled</item>
-    </plurals>
-    <string name="settings_enable_new_manager">Enable new manager</string>
-    <string name="settings_enable_new_manager_summary">Use the new MIUI-style Compose-based manager interface</string>
-    <string name="settings_smooth_rounding">Smooth rounding</string>
     <string name="settings_enable_predictive_back">Predictive back gesture</string>
     <string name="settings_enable_predictive_back_summary">Enable support for predictive back gestures.</string>
     <string name="settings_tapjacking_protection">Tapjacking Mitigation</string>
@@ -228,7 +189,6 @@
     <string name="menu_share">Share</string>
     <string name="module_release_load_more">Show older versions</string>
     <string name="module_release_no_more">No more release</string>
-    <string name="repo_load_failed">Failed to load module repo: %s</string>
     <string name="sort_upgradable_first">Upgradable first</string>
     <string name="installed">Installed</string>
     <plurals name="module_release_assets_download_count">
@@ -237,7 +197,6 @@
     </plurals>
 
     <!-- Colors -->
-    <string name="color_sakura">Sakura</string>
     <string name="color_red">Red</string>
     <string name="color_pink">Pink</string>
     <string name="color_purple">Purple</string>
@@ -248,12 +207,10 @@
     <string name="color_cyan">Cyan</string>
     <string name="color_teal">Teal</string>
     <string name="color_green">Green</string>
-    <string name="color_light_green">Light green</string>
     <string name="color_lime">Lime</string>
     <string name="color_yellow">Yellow</string>
     <string name="color_amber">Amber</string>
     <string name="color_orange">Orange</string>
-    <string name="color_deep_orange">Deep orange</string>
     <string name="color_brown">Brown</string>
     <string name="color_blue_grey">Blue grey</string>
 
@@ -296,6 +253,8 @@
     <string name="menu_raw_view">Raw view</string>
 
     <!-- Theme Mode -->
+    <string name="settings_ui">UI style</string>
+    <string name="settings_ui_summary">Choose the interface style</string>
     <string name="settings_theme">Theme</string>
     <string name="settings_theme_summary">Choose the app theme mode</string>
     <string name="settings_theme_mode_system">Follow system</string>
@@ -307,6 +266,12 @@
     <string name="settings_key_color">Accent color</string>
     <string name="settings_key_color_summary">Customize the seed color when using Monet</string>
     <string name="settings_key_color_default">Default</string>
+    <string name="settings_theme_entry">Theme settings</string>
+    <string name="settings_theme_entry_summary">Theme mode, accent color, palette style and more</string>
+    <string name="settings_palette_style">Palette style</string>
+    <string name="settings_palette_style_summary">Tonal algorithm used to derive the Material 3 palette</string>
+    <string name="settings_color_spec">Color spec</string>
+    <string name="settings_color_spec_summary">Material 3 color specification version</string>
     <string name="settings_page_scale">Page scale</string>
     <string name="settings_page_scale_summary">Adjust the global display scale</string>
     <string name="settings_enable_blur">Blur</string>
