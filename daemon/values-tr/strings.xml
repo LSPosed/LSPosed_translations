@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Notification -->
     <string name="list_separator">, </string>
@@ -8,6 +9,20 @@
     <string name="xposed_module_updated_notification_title_system">Xposed modülü güncellendi, sistem yeniden başlatma gerekiyor</string>
     <string name="xposed_module_updated_notification_content">%s güncellendi, lütfen kapsamındaki uygulamaları zorla durdurup yeniden başlatın.</string>
     <string name="xposed_module_updated_notification_content_system">%s güncellendi. Kapsamı Sistem Çerçevesi içerdiği için değişikliklerin uygulanması için yeniden başlatın.</string>
+    <string name="xposed_module_updated_notification_reload">%1$s güncellendi, %2$s</string>
+    <string name="xposed_module_updated_notification_reload_none">%s güncellendi</string>
+    <plurals name="xposed_module_updated_notification_reload_reloaded">
+        <item quantity="one">%d işlem anında yeniden yüklendi</item>
+        <item quantity="other">%d işlem anında yeniden yüklendi</item>
+    </plurals>
+    <plurals name="xposed_module_updated_notification_reload_reloading">
+        <item quantity="one">%d işlem anında yeniden yükleniyor</item>
+        <item quantity="other">%d işlem anında yeniden yükleniyor</item>
+    </plurals>
+    <plurals name="xposed_module_updated_notification_reload_failed">
+        <item quantity="one">%d işlemin anında yeniden yüklenmesi başarısız oldu</item>
+        <item quantity="other">%d işlemin anında yeniden yüklenmesi başarısız oldu</item>
+    </plurals>
     <string name="xposed_module_enabled_notification_title">Xposed modülü etkinleştirildi</string>
     <string name="xposed_module_enabled_notification_content">%s etkinleştirildi, kapsamı ayarlamak için dokunun</string>
     <string name="xposed_module_updated_notification_action_enable">Modülü etkinleştir</string>
