@@ -26,7 +26,7 @@
     <string name="About">Hakkında</string>
     <string name="module_repo">Modül deposu</string>
     <string name="about_view_source_code"><![CDATA[%1$s adresinden kaynak kodunu görüntüleyin<br/>%2$s kanalımıza katılın]]></string>
-    <string name="translators" comment="Dear translators, please add your home page here following the format. There can be more than one translator. So feel free to append yourself.">Burak Demir https://github.com/tcburakdemir</string>
+    <string name="translators" comment="Dear translators, please add your home page here following the format. There can be more than one translator. So feel free to append yourself.">Burak Demir https://github.com/mirvora Bedircan AYAYDIN, Furkan KARCIOĞLU, Ahmet AÇIKGÖZ, Sir-C</string>
     <string name="not_installed">Yüklü değil</string>
     <string name="not_install_summary">LSPosed yüklü değil</string>
     <string name="activated">Etkinleştirildi</string>
