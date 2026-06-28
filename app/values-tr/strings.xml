@@ -25,6 +25,9 @@
     <string name="Settings">Ayarlar</string>
     <string name="About">Hakkında</string>
     <string name="module_repo">Modül deposu</string>
+    <string name="about_send_bug_report">Hata raporu gönder</string>
+    <string name="about_join_telegram">Telegram kanalına katıl</string>
+    <string name="email_address_copied">E-posta adresi kopyalandı</string>
     <string name="about_view_source_code"><![CDATA[%1$s adresinden kaynak kodunu görüntüleyin<br/>%2$s kanalımıza katılın]]></string>
     <string name="translators" comment="Dear translators, please add your home page here following the format. There can be more than one translator. So feel free to append yourself.">Burak Demir https://github.com/mirvora Bedircan AYAYDIN, Furkan KARCIOĞLU, Ahmet AÇIKGÖZ, Sir-C</string>
     <string name="not_installed">Yüklü değil</string>
@@ -58,7 +61,7 @@
     <string name="never_show">Asla gösterme</string>
     <string name="app_welcome">Parazit Yönetici Önerilir</string>
     <string name="app_welcome_summary">LSPosed tespit edilmeyi önlemek için sistem parazitlemeyi destekliyor, parazit yöneticiyi bildirimlerden açabilirsiniz. Şu anki LSPosed uygulamasını kaldırmanız önerilir.</string>
-    
+
     <!-- LogsActivity -->
     <string name="menuSaveToSd">SD karta kaydet</string>
     <string name="nav_item_logs_verbose">Ayrıntılı Günlükler</string>
@@ -90,6 +93,7 @@
     <string name="collapse">daralt</string>
     <string name="reset_scope_request_setting">Kapsam isteği ayarını sıfırla</string>
     <string name="reset_scope_request_setting_done">Kapsam isteği ayarı sıfırlandı</string>
+    <string name="hide_non_system_overlay_failed_no_permission">Sistem dışı katman gizlenemedi, lütfen yöneticiyi güncelleyin.</string>
     <!-- AppListActivity -->
     <string name="compile_speed">Yeniden optimize et</string>
     <string name="compile_speed_msg">Optimize ediliyor…</string>
@@ -143,6 +147,9 @@
     <string name="group_network">Ağ</string>
     <string name="dns_over_http">HTTPS üzerinden DNS</string>
     <string name="dns_over_http_summary">Bazı ülkelerde DNS zehirlenmesi için geçici çözümdür</string>
+    <string name="settings_repo_cdn">Modül deposu CDN</string>
+    <string name="repo_cdn_default">Varsayılan</string>
+    <string name="repo_cdn_backup">Yedek</string>
     <string name="settings_show_hidden_icon_apps_enabled">Uygulamaları başlatıcı simgelerini göstermeye zorla</string>
     <string name="settings_show_hidden_icon_apps_enabled_summary">Android 10\'dan sonra, uygulamaların başlatıcı simgelerini gizlemelerine izin verilmez. Bu sistem özelliğini devre dışı bırakmak için düğmeyi kapatın.</string>
     <string name="settings_group_system">Sistem</string>
@@ -236,6 +243,10 @@
     <string name="menu">Menü</string>
     <string name="menu_filter">Filtre</string>
 
+    <!-- UI Style -->
+    <string name="settings_ui">Arayüz stili</string>
+    <string name="settings_ui_summary">Arayüz stilini seçin</string>
+
     <!-- Logs Page -->
     <string name="menu_parsed_view">Ayrıştırılmış görünüm</string>
     <string name="menu_raw_view">Ham görünüm</string>
@@ -252,6 +263,12 @@
     <string name="settings_key_color">Vurgu rengi</string>
     <string name="settings_key_color_summary">Monet için ana rengi belirle</string>
     <string name="settings_key_color_default">Varsayılan</string>
+    <string name="settings_theme_entry">Tema ayarları</string>
+    <string name="settings_theme_entry_summary">Tema modu, vurgu rengi, palet stili ve daha fazlası</string>
+    <string name="settings_palette_style">Palet stili</string>
+    <string name="settings_palette_style_summary">Material 3 paletini oluşturmak için kullanılan ton algoritması</string>
+    <string name="settings_color_spec">Renk belirtimi</string>
+    <string name="settings_color_spec_summary">Material 3 renk belirtimi sürümü</string>
     <string name="settings_page_scale">Sayfa ölçeği</string>
     <string name="settings_page_scale_summary">Genel ekran ölçeğini ayarla</string>
     <string name="settings_enable_blur">Bulanıklık</string>
