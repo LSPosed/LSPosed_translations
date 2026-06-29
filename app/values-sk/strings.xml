@@ -115,7 +115,7 @@
     <!-- ModulesActivity and AppListActivity -->
     <string name="modules_other_app">Zobraziť v inej aplikácii</string>
     <string name="module_app_info">Informácie o aplikácii</string>
-    <string name="list_empty">\\\\_(ツ)_\/¯\nTu nič nie je</string>
+    <string name="list_empty">¯\\_(ツ)_\/¯\nTu nič nie je</string>
     <!-- SettingsActivity -->
     <string name="settings_group_framework">Rámec</string>
     <string name="settings_disable_verbose_log">Zakázať slovné protokoly</string>

@@ -101,7 +101,7 @@
     <string name="app_version">גרסה: %1$s</string>
     <string name="use_recommended">מומלץ</string>
     <string name="use_recommended_message">בחר אפליקציות מומלצות?</string>
-    <string name="module_is_not_activated_yet">מודול LSPosed עדיין לא הופעל</string>
+    <string name="module_is_not_activated_yet">מודול Xposed עדיין לא הופעל</string>
     <string name="requested_by_module">מומלץ</string>
     <string name="update_available">עדכון זמין: %1$s</string>
     <string name="android_framework">מערכת Framework</string>

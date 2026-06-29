@@ -25,6 +25,9 @@
     <string name="Settings">Setelan</string>
     <string name="About">Tentang</string>
     <string name="module_repo">Repositori</string>
+    <string name="about_send_bug_report">Kirim laporan bug</string>
+    <string name="about_join_telegram">Gabung saluran Telegram</string>
+    <string name="email_address_copied">Alamat email disalin</string>
     <item name="translators" type="string">Neebe3289</item>
     <string name="not_installed">Tidak terpasang</string>
     <string name="not_install_summary">LSPosed tidak terpasang</string>
@@ -119,9 +122,9 @@
     <string name="android_framework">Kerangka Kerja Sistem</string>
     <string name="menu_backup">Cadangkan</string>
     <string name="menu_restore">Pulihkan</string>
-    <string name="force_stop">Paksa berhenti</string>
-    <string name="force_stop_dlg_title">Paksa berhenti?</string>
-    <string name="force_stop_dlg_text">Jika Anda menghentikan paksa aplikasi, mungkin dapat menyebabkan tidak berfungsi sebagaimana mestinya.</string>
+    <string name="force_stop">Paksa henti</string>
+    <string name="force_stop_dlg_title">Paksa henti?</string>
+    <string name="force_stop_dlg_text">Jika Anda paksa henti suatu aplikasi, maka aplikasi tersebut kemungkinan tidak dapat bekerja normal.</string>
     <string name="reboot_required">Mulai ulang diperlukan agar perubahan ini dapat diterapkan</string>
     <string name="reboot">Mulai ulang</string>
 
@@ -182,7 +185,7 @@
     <string name="module_release_view_assets">Aset</string>
     <string name="menu_open_in_browser">Buka di browser</string>
     <string name="menu_share">Bagikan</string>
-    <string name="module_release_load_more">Tampilkan versi lama</string>
+    <string name="module_release_load_more">Tampilkan lainnya</string>
     <string name="module_release_no_more">Tidak ada rilis</string>
     <string name="sort_upgradable_first">Dapat ditingkatkan</string>
     <string name="installed">Terpasang</string>
@@ -258,7 +261,7 @@
     <string name="settings_key_color_summary">Sesuaikan warna utama saat menggunakan Monet</string>
     <string name="settings_key_color_default">Bawaan</string>
     <string name="settings_theme_entry">Setelan tema</string>
-    <string name="settings_theme_entry_summary">Mode tema, warna aksen, gaya palet, dan lainnya</string>
+    <string name="settings_theme_entry_summary">Mode tema, warna aksen, gaya palet dan lainnya</string>
     <string name="settings_palette_style">Gaya palet</string>
     <string name="settings_palette_style_summary">Algoritma tonal yang digunakan untuk menghasilkan palet Material 3</string>
     <string name="settings_color_spec">Spesifikasi warna</string>

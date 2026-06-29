@@ -1,12 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Notification -->
+    <string name="list_separator">, </string>
     <string name="module_is_not_activated_yet">Xposed module is not activated yet</string>
     <string name="module_is_not_activated_yet_main_user_detailed">%1$s has been installed, but is not activated yet</string>
     <string name="module_is_not_activated_yet_multi_user_detailed">%1$s has been installed to user %2$s, but is not activated yet</string>
     <string name="xposed_module_updated_notification_title">Xposed module updated</string>
-    <string name="xposed_module_updated_notification_content">%s has been updated, please force stop and restart apps in its scope</string>
     <string name="xposed_module_updated_notification_title_system">Xposed module updated, system reboot required</string>
+    <string name="xposed_module_updated_notification_content">%s has been updated, please force stop and restart apps in its scope</string>
     <string name="xposed_module_updated_notification_content_system">%s has been updated, since the scope contains System Framework, required reboot to apply changes</string>
+    <string name="xposed_module_updated_notification_reload">%1$s has been updated, %2$s</string>
+    <string name="xposed_module_updated_notification_reload_none">%s has been updated</string>
+    <plurals name="xposed_module_updated_notification_reload_reloaded">
+        <item quantity="one">%d process hot reloaded</item>
+        <item quantity="other">%d processes hot reloaded</item>
+    </plurals>
+    <plurals name="xposed_module_updated_notification_reload_reloading">
+        <item quantity="one">%d process hot reloading</item>
+        <item quantity="other">%d processes hot reloading</item>
+    </plurals>
+    <plurals name="xposed_module_updated_notification_reload_failed">
+        <item quantity="one">%d process hot reload failed</item>
+        <item quantity="other">%d processes hot reload failed</item>
+    </plurals>
     <string name="xposed_module_enabled_notification_title">Xposed module enabled</string>
     <string name="xposed_module_enabled_notification_content">%s has been enabled, tap to setup scope</string>
     <string name="xposed_module_updated_notification_action_enable">Activate module</string>

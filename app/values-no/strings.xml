@@ -115,7 +115,7 @@
     <!-- ModulesActivity and AppListActivity -->
     <string name="modules_other_app">Se i andre app</string>
     <string name="module_app_info">Info om app</string>
-    <string name="list_empty">########\\\\_(∙)_\/ ″\nIngenting her</string>
+    <string name="list_empty">¯\\_(ツ)_\/¯\nIngenting her</string>
     <!-- SettingsActivity -->
     <string name="settings_group_framework">Framework</string>
     <string name="settings_disable_verbose_log">Deaktiver detaljerte logger</string>

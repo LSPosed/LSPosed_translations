@@ -102,7 +102,7 @@
     <string name="app_version">Versie: %1$s</string>
     <string name="use_recommended">Aanbevolen</string>
     <string name="use_recommended_message">Aanbevolen apps selecteren?</string>
-    <string name="module_is_not_activated_yet">LSPosed module is nog niet geactiveerd</string>
+    <string name="module_is_not_activated_yet">Xposed-module is nog niet geactiveerd</string>
     <string name="requested_by_module">Aanbevolen</string>
     <string name="update_available">Update beschikbaar: %1$s</string>
     <string name="android_framework">Systeem Framework</string>

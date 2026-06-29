@@ -19,19 +19,12 @@
   -->
 <resources xmlns:tools="http://schemas.android.com/tools" tools:keep="@string/xposed_module_updated_notification_*,@string/module_is_not_activated_*">
     <!-- MainActivity -->
-    <string name="overview">کورتەی گشتی</string>
-    <string name="Modules">مۆدیوولەکان</string>
-    <string name="Logs">لۆگەکان</string>
-    <string name="Settings">ڕێکخستنەکان</string>
-    <string name="About">دەربارە</string>
-    <string name="module_repo">کۆگا</string>
     <string name="not_installed">Ne hatiye sazkirin</string>
     <string name="not_install_summary">LSPosed nayê Sazkirin</string>
     <string name="activated">Çalak kirin</string>
     <string name="partial_activated">Qismî aktîf kirin</string>
     <string name="system_inject_fail_summary">Derzkirina Çarçoveya Pergalê têk çû</string>
     <string name="system_inject_fail"><![CDATA[Ev kêm e û dibe ku ji hêla <b>Magisk</b> an hin modulên Magisk-a kêm-kalîteyê ve çêbibe.<br/>Ji kerema xwe hewl bidin ku modulên Magisk ji bilî Zygisk û LSPosed neçalak bikin an jî têketinek tevahî ji pêşdebiran re bişînin.]]></string>
-    <string name="system_prop_incorrect_summary">Pêşniyara pergalê xelet e</string>
     <string name="system_prop_incorrect"><![CDATA[Hin taybetmendiyên pergalê yên pêwîst jêbirin an guherandin.<br/>Dibe ku modul carinan betal bibin.]]></string>
     <string name="need_update">Pêdivî ye ku nûve bike</string>
     <string name="info_manager_package_name">Navê pakêta rêveberê</string>
@@ -45,7 +38,6 @@
     <string name="unsupported">Piştgirî nekirin</string>
     <string name="android_version_unsatisfied">Guhertoya Android-ê ne razî ye</string>
     <string name="crashed">Qeza kirin</string>
-    <string name="mount_failed">Çiya têk çû</string>
     <string name="info_copied">Li clipboardê hate kopî kirin</string>
     <!-- WelcomeDialog -->
     <string name="parasitic_welcome">Hûn bi xêr hatin LSPosed</string>
@@ -57,7 +49,6 @@
     <string name="menuSaveToSd">Rizgarkirin</string>
     <string name="nav_item_logs_verbose">Têketinên Verbose</string>
     <string name="nav_item_logs_module">Têketinên Modulan</string>
-    <string name="logs_saving">پاشەکەوتکردنی لۆگ، تکایە چاوەڕوان بن</string>
     <string name="logs_saved">Têketin xilas kirin</string>
     <string name="logs_save_failed2">Sazkirin bi ser neket:\n%s</string>
     <string name="menuClearLog">Naha têketinê paqij bike</string>
@@ -106,7 +97,6 @@
     <string name="update_available">Nûvekirin heye: %1$s</string>
     <string name="android_framework">Çarçoveya Sîstemê</string>
     <string name="menu_backup">Backup</string>
-    <string name="menu_restore">Nûvdekirin</string>
     <string name="force_stop">Bi zorê rawestandin</string>
     <string name="force_stop_dlg_title">Rawestandina zorê?</string>
     <string name="force_stop_dlg_text">Ger hûn bi zorê sepanek rawestînin, dibe ku ew xelet tevbigere.</string>
@@ -127,7 +117,6 @@
     <string name="settings_backup">Backup</string>
     <string name="settings_backup_failed2">Piştgiriya bi ser neket:\n%s</string>
     <string name="enable_documentui">Ji kerema xwe DocumentUI çalak bike</string>
-    <string name="settings_restore">Nûvdekirin</string>
     <string name="settings_restore_failed2">Vegerandin bi ser neket:\n%s</string>
     <string name="group_network">Network</string>
     <string name="dns_over_http">DNS li ser HTTPS</string>

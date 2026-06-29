@@ -26,7 +26,11 @@
     <string name="Settings">Настройки</string>
     <string name="About">О приложении</string>
     <string name="module_repo">Репозиторий</string>
+    <string name="about_send_bug_report">Отправить сообщение об ошибке</string>
+    <string name="about_join_telegram">Присоединяйтесь к Telegram-каналу</string>
+    <string name="email_address_copied">Скопированный адрес эл. почты</string>
     <string name="translators" comment="Dear translators, please add your home page here following the format. There can be more than one translator. So feel free to append yourself.">Ichigo</string>
+
     <string name="not_installed">Не установлен</string>
     <string name="not_install_summary">LSPosed не установлен!</string>
     <string name="activated">Активирован</string>
@@ -51,6 +55,7 @@
     <string name="crashed">Сбой</string>
     <string name="mount_failed">Ошибка монтирования</string>
     <string name="info_copied">Скопировано в буфер обмена</string>
+    <string name="touch_filtered_warning">Поскольку какое-либо приложение закрывает интерфейс, менеджер не может проверить ваш ответ.</string>
 
     <!-- WelcomeDialog -->
     <string name="parasitic_welcome">Добро пожаловать в LSPosed</string>
@@ -91,6 +96,7 @@
     <string name="collapse">Свернуть</string>
     <string name="reset_scope_request_setting">Сбросить настройку запроса области действия</string>
     <string name="reset_scope_request_setting_done">Сброс настроек запроса области действия завершен</string>
+    <string name="hide_non_system_overlay_failed_no_permission">Не удалось скрыть несистемное наложение, пожалуйста, обновите менеджер.</string>
 
     <!-- AppListActivity -->
     <string name="compile_speed">Повторная оптимизация</string>
@@ -147,6 +153,9 @@
     <string name="group_network">Сеть</string>
     <string name="dns_over_http">DNS через HTTPS</string>
     <string name="dns_over_http_summary">Шифрование DNS-трафика помогающее усилить конфиденциальность пользователя в сети</string>
+    <string name="settings_repo_cdn">Репозиторий модулей CDN</string>
+    <string name="repo_cdn_default">По умолчанию</string>
+    <string name="repo_cdn_backup">Резервная копия</string>
     <string name="settings_show_hidden_icon_apps_enabled">Принудительно показывать иконку модуля</string>
     <string name="settings_show_hidden_icon_apps_enabled_summary">После Android 10, модули не могут скрывать иконку в лаунчер. Выключите переключатель, чтобы отключить эту системную функцию.</string>
     <string name="settings_group_system">Система</string>
@@ -165,8 +174,11 @@
     <string name="settings_invalidate_inline_hooks">Аннулировать встроенные хуки</string>
     <string name="settings_invalidate_inline_hooks_summary">Удалите файл libart.so для перечисленных приложений. Это может привести к случайным сбоям и зависаниям. Используйте эту функцию только в том случае, если не удается открыть определенные приложения.</string>
     <string name="failed_to_save_invalidate_inline_hooks_list">Не удалось сохранить список встроенных хуков.</string>
+    <string name="settings_smooth_rounding">Плавное закругление</string>
     <string name="settings_enable_predictive_back">Предсказательный жест назад</string>
     <string name="settings_enable_predictive_back_summary">Включить поддержку предиктивных жестов при возврате назад</string>
+    <string name="settings_tapjacking_protection">Меры по предотвращению перехвата трафика</string>
+    <string name="settings_tapjacking_protection_summary">Блокирует касания, когда интерфейс скрыт, чтобы предотвратить атаки типа tapjacking.</string>
     <!-- Module Repo -->
     <string name="module_readme">Описание</string>
     <string name="module_releases">Версии</string>
@@ -248,6 +260,8 @@
     <string name="menu_raw_view">Исходный вид</string>
 
     <!-- Theme Mode -->
+    <string name="settings_ui">Стиль интерфейса</string>
+    <string name="settings_ui_summary">Выберите стиль интерфейса</string>
     <string name="settings_theme">Тема</string>
     <string name="settings_theme_summary">Выберите режим темы приложения</string>
     <string name="settings_theme_mode_system">Как в системе</string>
@@ -259,6 +273,12 @@
     <string name="settings_key_color">Акцентный цвет</string>
     <string name="settings_key_color_summary">Настройте базовый цвет при использовании Monet</string>
     <string name="settings_key_color_default">По умолчанию</string>
+    <string name="settings_theme_entry">Настройки темы</string>
+    <string name="settings_theme_entry_summary">Режим темы, акцентный цвет, стиль палитры и многое другое.</string>
+    <string name="settings_palette_style">Палитра</string>
+    <string name="settings_palette_style_summary">Тональный алгоритм, использованный для создания палитры Material 3.</string>
+    <string name="settings_color_spec">Спецификация цвета</string>
+    <string name="settings_color_spec_summary">Material версия с цветовой спецификацией</string>
     <string name="settings_page_scale">Масштаб страниц</string>
     <string name="settings_page_scale_summary">Настройка глобального масштаба отображения</string>
     <string name="settings_enable_blur">Размытие</string>

@@ -115,7 +115,7 @@
     <!-- ModulesActivity and AppListActivity -->
     <string name="modules_other_app">Näytä toisessa sovelluksessa</string>
     <string name="module_app_info">Sovelluksen tiedot</string>
-    <string name="list_empty">¶ \\\\_(konferenssissa)_\/ ¶\nEi mitään tässä</string>
+    <string name="list_empty">¯\\_(ツ)_\/¯\nEi mitään tässä</string>
     <!-- SettingsActivity -->
     <string name="settings_group_framework">Framework</string>
     <string name="settings_disable_verbose_log">Sanallisten lokien poistaminen käytöstä</string>

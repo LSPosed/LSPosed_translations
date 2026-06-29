@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Notification -->
+    <string name="list_separator">，</string>
     <string name="module_is_not_activated_yet">Xposed 模組仲未啟用</string>
     <string name="module_is_not_activated_yet_main_user_detailed">%1$s 安裝咗，但仲未啟用</string>
     <string name="module_is_not_activated_yet_multi_user_detailed">%1$s 安裝咗畀用戶 %2$s，但仲未啟用</string>
     <string name="xposed_module_updated_notification_title">Xposed 模組更新咗</string>
-    <string name="xposed_module_updated_notification_content">%s 更新咗，請強制停止並重開佢作用範圍內嘅 App</string>
     <string name="xposed_module_updated_notification_title_system">Xposed 模組更新咗，需要重啟系統</string>
+    <string name="xposed_module_updated_notification_content">%s 更新咗，請強制停止並重開佢作用範圍內嘅 App</string>
     <string name="xposed_module_updated_notification_content_system">%s 更新咗，因為作用範圍包埋系統框架，需要重啟先會生效。</string>
     <string name="xposed_module_updated_notification_action_enable">啟用模組</string>
     <string name="module_updated_channel_name">模組更新完成</string>

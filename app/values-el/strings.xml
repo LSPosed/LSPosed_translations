@@ -116,7 +116,7 @@
     <!-- ModulesActivity and AppListActivity -->
     <string name="modules_other_app">Προβολή σε άλλη εφαρμογή</string>
     <string name="module_app_info">Πληροφορίες εφαρμογής</string>
-    <string name="list_empty">◆ \\\\_(\")_\/ \"\nΤίποτα εδώ</string>
+    <string name="list_empty">¯\\_(ツ)_\/¯\nΤίποτα εδώ</string>
     <!-- SettingsActivity -->
     <string name="settings_group_framework">Framework</string>
     <string name="settings_disable_verbose_log">Απενεργοποιήστε αναλυτικά στοιχεία καταγραφής</string>

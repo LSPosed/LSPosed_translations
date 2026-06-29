@@ -25,11 +25,12 @@
     <string name="Settings">Ayarlar</string>
     <string name="About">Hakkında</string>
     <string name="module_repo">Modül deposu</string>
-    <string name="translators" comment="Dear translators, please add your home page here following the format. There can be more than one translator. So feel free to append yourself.">Burak Demir https://github.com/TurkGamerTR</string>
+    <string name="about_view_source_code"><![CDATA[%1$s adresinden kaynak kodunu görüntüleyin<br/>%2$s kanalımıza katılın]]></string>
+    <string name="translators" comment="Dear translators, please add your home page here following the format. There can be more than one translator. So feel free to append yourself.">Burak Demir https://github.com/mirvora Bedircan AYAYDIN, Furkan KARCIOĞLU, Ahmet AÇIKGÖZ, Sir-C</string>
     <string name="not_installed">Yüklü değil</string>
     <string name="not_install_summary">LSPosed yüklü değil</string>
-    <string name="activated">LSPosed çalışıyor</string>
-    <string name="partial_activated">Kısmen çalışıyor</string>
+    <string name="activated">Etkinleştirildi</string>
+    <string name="partial_activated">Kısmen etkinleştirildi</string>
     <string name="system_inject_fail_summary">Sistem Çerçevesi enjeksiyonu başarısız oldu</string>
     <string name="system_inject_fail"><![CDATA[Bu nadiren yaşanır ve <b>Magisk</b> veya düşük kaliteli modüller yüzünden olabilir.<br/>Lütfen Zygisk ve LSPosed dışındaki tüm modülleri devre dışı bırakmayı deneyin veya geliştiricilere tam bir hata kaydı gönderin.]]></string>
     <string name="system_prop_incorrect_summary">Sistem özelliği hatalı</string>
