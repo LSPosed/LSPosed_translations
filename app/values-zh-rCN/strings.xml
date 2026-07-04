@@ -235,6 +235,8 @@
     <string name="unknown_asset">未知附件</string>
     <string name="download_asset">下载</string>
     <string name="nav_back">返回</string>
+    <string name="nav_rail_expand">展开导航栏</string>
+    <string name="nav_rail_collapse">收起导航栏</string>
     <string name="menu">菜单</string>
     <string name="menu_filter">筛选</string>
 

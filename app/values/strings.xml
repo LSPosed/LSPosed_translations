@@ -245,6 +245,8 @@
     <string name="unknown_asset">Unknown asset</string>
     <string name="download_asset">Download</string>
     <string name="nav_back">Back</string>
+    <string name="nav_rail_expand">Expand navigation rail</string>
+    <string name="nav_rail_collapse">Collapse navigation rail</string>
     <string name="menu">Menu</string>
     <string name="menu_filter">Filter</string>
 
