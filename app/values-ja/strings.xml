@@ -25,21 +25,26 @@
     <string name="Settings">設定</string>
     <string name="About">本アプリについて</string>
     <string name="module_repo">リポジトリ</string>
-    <string name="translators" comment="Dear translators, please add your home page here following the format. There can be more than one translator. So feel free to append yourself.">yoshi818, a1678991</string>
+	<string name="about_send_bug_report">バグレポートを送信</string>
+    <string name="about_join_telegram">Telegram チャンネルに参加</string>
+    <string name="email_address_copied">メールアドレスがコピーされました</string>
+    <string name="translators" comment="Dear translators, please add your home page here following the format. There can be more than one translator. So feel free to append yourself.">yoshi818, a1678991, onichan255</string>
     <string name="not_installed">未インストール</string>
-    <string name="not_install_summary">LSPosedはインストールされていません</string>
+    <string name="not_install_summary">LSPosed はインストールされていません</string>
     <string name="activated">有効化済み</string>
     <string name="partial_activated">部分的に有効化済み</string>
     <string name="system_inject_fail_summary">システムフレームワークへのパッチに失敗しました</string>
-    <string name="system_inject_fail"><![CDATA[本現象はごく稀に発生し、<b>Magisk</b>もしくは低品質な Magiskモジュールが原因で発生します。<br/>ZygiskとLSPosed以外のMagiskモジュールを一時的に無効化してみるか、開発者へすべてのログを提出して下さい。]]></string>
+    <string name="system_inject_fail"><![CDATA[本現象はごく稀に発生し、<b>Magisk</b>もしくは低品質な Magisk モジュールが原因で発生します。<br/>ZygiskとLSPosed 以外の Magisk モジュールを一時的に無効化してみるか、開発者へすべてのログを提出してください。]]></string>
     <string name="system_prop_incorrect_summary">システム設定が正しくありません</string>
     <string name="system_prop_incorrect"><![CDATA[必須のシステム設定が変更もしくは削除されています。<br/>モジュールが無効化される場合があります。]]></string>
     <string name="need_update">更新が必要です</string>
+	<string name="developer_warning_title">モジュール開発者へのお知らせ</string>
+    <string name="developer_warning_summary">Android Studio でデプロイの最適化を無効にするか、`gradlew installDebug` を使用してインストールしてください。そうしないと、モジュールを更新できません。</string>
     <string name="info_manager_package_name">マネージャーパッケージ名</string>
     <string name="info_system_version">システムバージョン</string>
     <string name="info_device">デバイス</string>
-    <string name="info_system_abi">システムABI</string>
-    <string name="info_dex2oat_wrapper">Dex最適化ラッパー</string>
+    <string name="info_system_abi">システム ABI</string>
+    <string name="info_dex2oat_wrapper">Dex 最適化ラッパー</string>
     <string name="enabled">有効</string>
     <string name="not_enabled">無効</string>
     <string name="supported">対応</string>
@@ -48,45 +53,55 @@
     <string name="crashed">クラッシュしました</string>
     <string name="mount_failed">マウントに失敗しました</string>
     <string name="info_copied">クリップボードへコピーされました</string>
+	<string name="touch_filtered_warning">別のアプリが画面上に重なっているため、マネージャーは操作内容を確認できません。</string>
+
     <!-- WelcomeDialog -->
-    <string name="parasitic_welcome">LSPosedへようこそ</string>
+    <string name="parasitic_welcome">LSPosed へようこそ</string>
     <string name="parasitic_welcome_summary">通知から開くことができるパラサイトマネージャーを使用しています。</string>
     <string name="never_show">表示しない</string>
     <string name="app_welcome">パラサイトマネージャー推奨</string>
-    <string name="app_welcome_summary">LSPosedは検出を回避するためのシステムパラサイトに対応し、通知からパラサイトマネージャーを開くことができるようになりました。現在のアプリケーションをアンインストールすることをお勧めします。</string>
+    <string name="app_welcome_summary">LSPosed は検出を回避するためのシステムパラサイトに対応し、通知からパラサイトマネージャーを開くことができるようになりました。現在のアプリケーションをアンインストールすることをお勧めします。</string>
+
     <!-- LogsActivity -->
     <string name="menuSaveToSd">保存</string>
     <string name="nav_item_logs_verbose">詳細ログ</string>
     <string name="nav_item_logs_module">モジュールログ</string>
-    <string name="logs_saving">ログを保存しています。</string>
+    <string name="logs_saving">ログを保存しています</string>
     <string name="logs_saved">ログを保存しました</string>
     <string name="logs_save_failed2">保存に失敗しました:\n%s</string>
+	<string name="logs_preparing">ログを準備しています</string>
+    <string name="logs_prepare_failed">準備に失敗しました:\n%s</string>
     <string name="menuClearLog">ログを消去</string>
-    <string name="scroll_top">ログの先頭行にスクロール</string>
+    <string name="scroll_top">先頭行にスクロール</string>
     <string name="scroll_bottom">最下行にスクロール</string>
     <string name="menu_enable_word_wrap">単語を折り返す</string>
+
     <!-- ModulesActivity -->
-    <string name="warning_xposed_min_version">このモジュールは新しいバージョンのXposed(%d)が必要なので有効化できません</string>
-    <string name="warning_target_version_higher">このモジュールは新しいXposedバージョン(%d)用に設計されているため、一部の機能が動作しない場合があります</string>
-    <string name="no_min_version_specified">このモジュールは必要なXposedのバージョンを指定していません。</string>
-    <string name="warning_min_version_too_low">この モジュールはXposedバージョン%1$d向けに開発されましたが、%2$dでの互換性のない変更により無効化されています</string>
-    <string name="warning_installed_on_external_storage">このモジュールは SD カード上にインストールされているため読込できません。内部ストレージに移動して下さい</string>
+    <string name="warning_xposed_min_version">このモジュールは新しい Xposed バージョン （%d）が必要なので有効化できません</string>
+    <string name="warning_target_version_higher">このモジュールは新しい Xposed バージョン（%d）用に設計されているため、一部の機能が動作しない場合があります</string>
+    <string name="no_min_version_specified">このモジュールは必要な Xposed のバージョンを指定していません。</string>
+    <string name="warning_min_version_too_low">この モジュールは Xposed バージョン %1$d 向けに開発されましたが、%2$d での互換性のない変更により無効化されています</string>
+    <string name="warning_installed_on_external_storage">このモジュールは SD カード上にインストールされているため読込できません。内部ストレージに移動してください</string>
     <string name="module_uninstall">アンインストール</string>
     <string name="module_settings">モジュール設定</string>
     <string name="view_in_repo">リポジトリで表示</string>
     <string name="module_uninstall_message">このモジュールをアンインストールしますか？</string>
-    <string name="module_uninstalled">%1$sをアンインインストールしました</string>
+    <string name="module_uninstalled">%1$s をアンインストールしました</string>
     <string name="module_uninstall_failed">アンインストールに成功</string>
     <string name="module_install_failed">モジュールの追加に失敗</string>
     <string name="install_to_user">ユーザー %s へインストール</string>
     <string name="expand">開く</string>
     <string name="collapse">閉じる</string>
+	<string name="reset_scope_request_setting">スコープ要求の設定をリセット</string>
+    <string name="reset_scope_request_setting_done">スコープ要求の設定をリセットしました</string>
+    <string name="hide_non_system_overlay_failed_no_permission">システム以外のオーバーレイを非表示にできません。マネージャーを更新してください。</string>
+
     <!-- AppListActivity -->
-    <string name="compile_speed">最適化</string>
+    <string name="compile_speed">再最適化</string>
     <string name="compile_speed_msg">最適化中…</string>
     <string name="compile_done">最適化が完了しました</string>
-    <string name="app_launch">起動する</string>
-    <string name="compile_failed">最適化に失敗: return value is empty</string>
+    <string name="app_launch">起動</string>
+    <string name="compile_failed">最適化に失敗: 戻り値が空です</string>
     <string name="compile_failed_with_info">最適化に失敗: </string>
     <string name="sort_by_name">アプリ名</string>
     <string name="sort_by_package_name">パッケージ名</string>
@@ -98,11 +113,12 @@
     <string name="enable_module">モジュールを有効化</string>
     <string name="menu_show_games">ゲーム</string>
     <string name="menu_show_modules">モジュール</string>
+	<string name="module_scope_list_static_scope">モジュールは静的スコープを宣言しています</string>
     <string name="failed_to_save_scope_list">スコープリストの保存に失敗</string>
     <string name="app_version">バージョン: %1$s</string>
     <string name="use_recommended">おすすめ</string>
     <string name="use_recommended_message">おすすめのアプリを選択しますか？</string>
-    <string name="module_is_not_activated_yet">Xposedモジュールが有効化されていません</string>
+    <string name="module_is_not_activated_yet">Xposed モジュールが有効化されていません</string>
     <string name="requested_by_module">おすすめ</string>
     <string name="update_available">アップデート可能: %1$s</string>
     <string name="android_framework">システムフレームワーク</string>
@@ -113,10 +129,12 @@
     <string name="force_stop_dlg_text">アプリを強制停止すると、アプリが動作しなくなる可能性があります。</string>
     <string name="reboot_required">この設定を適用するには再起動が必要です</string>
     <string name="reboot">再起動</string>
+
     <!-- ModulesActivity and AppListActivity -->
     <string name="modules_other_app">他のアプリで表示</string>
     <string name="module_app_info">アプリ情報</string>
     <string name="list_empty">¯\\\\_(ツ)_\/¯\nリストは空です</string>
+
     <!-- SettingsActivity -->
     <string name="settings_group_framework">フレームワーク</string>
     <string name="settings_disable_verbose_log">詳細ログの無効化</string>
@@ -132,14 +150,17 @@
     <string name="settings_restore_failed2">復元に失敗しました:\n%s</string>
     <string name="group_network">ネットワーク</string>
     <string name="dns_over_http">DNS over HTTPS</string>
-    <string name="dns_over_http_summary">一部の国向けの DNS ポイズニング 回避策</string>
+    <string name="dns_over_http_summary">一部の国向けの DNS ポイズニング回避策</string>
+	<string name="settings_repo_cdn">レポジトリ CDN</string>
+    <string name="repo_cdn_default">デフォルト</string>
+    <string name="repo_cdn_backup">バックアップ</string>
     <string name="settings_show_hidden_icon_apps_enabled">ランチャーアイコンを強制的に表示</string>
-    <string name="settings_show_hidden_icon_apps_enabled_summary">Android10以降ではアプリアイコンを隠すことが禁止されています。オフにするとシステムのその機能を停止します。</string>
+    <string name="settings_show_hidden_icon_apps_enabled_summary">Android 10 以降ではアプリアイコンを隠すことが禁止されています。オフにするとシステムのその機能を停止します</string>
     <string name="settings_group_system">システム</string>
     <string name="settings_language">言語</string>
     <string name="settings_translation_contributors">翻訳貢献者</string>
-    <string name="settings_translation">翻訳に参加する</string>
-    <string name="settings_translation_summary">%s をあなたの言語に翻訳するのを手伝ってください</string>
+    <string name="settings_translation">翻訳に参加</string>
+    <string name="settings_translation_summary">%s  をあなたの言語に翻訳するのを手伝ってください</string>
     <string name="settings_enable_status_notification">ステータス通知</string>
     <string name="settings_enable_status_notification_summary">パラサイトマネージャーを開くことができる通知を表示する</string>
     <string name="settings_update_channel">更新チャンネル</string>
@@ -148,6 +169,14 @@
     <string name="update_channel_nightly">ナイトリービルド</string>
     <string name="settings_xposed_api_call_protection">Xposed APIの呼び出し保護</string>
     <string name="settings_xposed_api_call_protection_summary">Xposed APIを使用するために動的にロードされたモジュールコードをブロックします。これにより、一部のモジュールが壊れる可能性がありますが、セキュリティにメリットがあります</string>
+	<string name="settings_invalidate_inline_hooks">インラインフックを復元</string>
+    <string name="settings_invalidate_inline_hooks_summary">リスト内のアプリの libart.so をクリーンアップします。予期しない不具合やクラッシュが発生する可能性があるため、特定のアプリを起動できない場合にのみ使用してください</string>
+    <string name="failed_to_save_invalidate_inline_hooks_list">インラインフックの復元リストを保存できません</string>
+    <string name="settings_enable_predictive_back">予測型「戻る」ジェスチャー</string>
+    <string name="settings_enable_predictive_back_summary">予測型「戻る」ジェスチャーのサポートを有効化</string>
+    <string name="settings_tapjacking_protection">タップジャッキング対策</string>
+    <string name="settings_tapjacking_protection_summary">別のアプリが画面に重なっている場合はタッチ操作を無効にし、タップジャッキング攻撃を防止します</string>
+
     <!-- Module Repo -->
     <string name="module_readme">Readme</string>
     <string name="module_releases">リリース</string>
@@ -157,6 +186,7 @@
     <string name="module_information_collaborators">協力</string>
     <string name="module_release_view_assets">アセット</string>
     <string name="menu_open_in_browser">ブラウザで表示</string>
+	<string name="menu_share">共有</string>
     <string name="module_release_load_more">以前のバージョンを表示</string>
     <string name="module_release_no_more">これ以上のリリースはありません</string>
     <string name="sort_upgradable_first">更新があるモジュールを先頭に表示</string>
@@ -164,6 +194,7 @@
     <plurals name="module_release_assets_download_count">
         <item quantity="other">%d ダウンロード</item>
     </plurals>
+
     <!-- Colors -->
     <string name="color_red">赤色</string>
     <string name="color_pink">ピンク色</string>
@@ -181,4 +212,89 @@
     <string name="color_orange">オレンジ色</string>
     <string name="color_brown">茶色</string>
     <string name="color_blue_grey">ブルーグレー</string>
+
+	<string name="safe_mode">セーフモード</string>
+    <string name="safe_mode_summary">LSPosed はセーフモード中</string>
+    <string name="safe_mode_summary2">次回の再起動まで、すべての Xposed  モジュールは有効化できません。\n一部のモジュールが原因でシステムがクラッシュしました。\n原因となったモジュールを特定して無効にし、開発者に報告してください。</string>
+    <string name="disable_all_modules">すべてのモジュールを無効化</string>
+    <string name="confirm_disable_all_modules">すべてのモジュールを無効化しますか？</string>
+    <plurals name="message_disable_all_modules">
+        <item quantity="other">%d  個のモジュールが無効化されます\nこの操作は元に戻せません</item>
+    </plurals>
+    <string name="disable_success_title">無効化に成功しました</string>
+    <string name="hook_debug_title">フックデバッグ</string>
+    <string name="debugging_title">デバッグ</string>
+    <string name="hook_debug_summary">フックされたプロセスのフックデバッグ情報をダンプできるようにします。パフォーマンスに影響する可能性があります</string>
+    <string name="dump_hook_debug_title">フックデバッグ情報をダンプ</string>
+    <string name="dump_hook_debug_summary">フックデバッグ情報を /data/adb/lspd/log にダンプします</string>
+    <string name="dump_hook_success">%s にダンプしました</string>
+    <string name="dump_hook_failed">ダンプに失敗しました</string>
+    <string name="log_to_daemon_title">ログをデーモンに出力</string>
+    <string name="log_to_daemon_summary">これにより、アプリによるモジュールログの読み取りを防止できますが、パフォーマンスに影響する可能性があります</string>
+    <plurals name="disable_success_message">
+        <item quantity="other">%d 個のモジュールが無効化されました</item>
+    </plurals>
+
+    <!-- Compose Activity -->
+    <string name="follow_system">システムに従う</string>
+    <string name="unknown_author">不明な作者</string>
+    <string name="unknown_version">不明なバージョン</string>
+    <string name="unknown_asset">不明なアセット</string>
+    <string name="download_asset">ダウンロード</string>
+    <string name="nav_back">戻る</string>
+    <string name="nav_rail_expand">ナビゲーションバーを展開</string>
+    <string name="nav_rail_collapse">ナビゲーションバーを折り畳む</string>
+    <string name="menu">メニュー</string>
+    <string name="menu_filter">絞り込む</string>
+
+    <!-- Logs Page -->
+    <string name="menu_parsed_view">解析ビュー</string>
+    <string name="menu_raw_view">元のビュー</string>
+
+    <!-- Theme Mode -->
+    <string name="settings_ui">UI スタイル</string>
+    <string name="settings_ui_summary">アプリの UI スタイルを選択する</string>
+    <string name="settings_theme">テーマ</string>
+    <string name="settings_theme_summary">アプリのテーマモードを選択する</string>
+    <string name="settings_theme_mode_system">システムに従う</string>
+    <string name="settings_theme_mode_light">ライトモード</string>
+    <string name="settings_theme_mode_dark">ダークモード</string>
+    <string name="settings_theme_mode_monet_system">ダイナミックカラー（システム）</string>
+    <string name="settings_theme_mode_monet_light">ダイナミックカラー（ライト）</string>
+    <string name="settings_theme_mode_monet_dark">ダイナミックカラー（ダーク）</string>
+    <string name="settings_key_color">アクセントカラー</string>
+    <string name="settings_key_color_summary">ダイナミックカラー使用時のシードカラーをカスタマイズする</string>
+    <string name="settings_key_color_default">デフォルト</string>
+    <string name="settings_theme_entry">テーマ設定</string>
+    <string name="settings_theme_entry_summary">テーマモード、アクセントカラー、カラーバリアントなどをカスタマイズする</string>
+    <string name="settings_palette_style">カラーバリアント</string>
+    <string name="settings_palette_style_summary">Material 3 のカラーパレットを生成するための色調アルゴリズム</string>
+    <string name="settings_color_spec">カラー仕様</string>
+    <string name="settings_color_spec_summary">Material 3 カラー仕様のバージョン</string>
+    <string name="settings_page_scale">画面の表示倍率</string>
+    <string name="settings_page_scale_summary">画面全体の表示倍率を調整する</string>
+    <string name="settings_enable_blur">ぼかし</string>
+    <string name="settings_enable_blur_summary">トップバーとボトムバーのぼかし効果を有効化する</string>
+    <string name="settings_floating_bottom_bar">フローティングボトムバー</string>
+    <string name="settings_floating_bottom_bar_summary">Apple 風のフローティングボトムバーを使用する</string>
+    <string name="settings_enable_glass">Liquid Glass</string>
+    <string name="settings_enable_glass_summary">フローティングボトムバーの Liquid Glass 効果を有効化する</string>
+
+    <!-- Refresh -->
+    <string name="refresh_pulling">下にスワイプして更新</string>
+    <string name="refresh_release">指を離して更新</string>
+    <string name="refresh_refresh">更新中…</string>
+    <string name="refresh_complete">更新しました</string>
+
+    <!-- Repository -->
+    <string name="time_just_now">たった今</string>
+    <plurals name="time_minutes_ago">
+        <item quantity="other">%d 分前</item>
+    </plurals>
+    <plurals name="time_hours_ago">
+        <item quantity="other">%d 時間前</item>
+    </plurals>
+    <plurals name="time_days_ago">
+        <item quantity="other">%d 日前</item>
+    </plurals>
 </resources>
