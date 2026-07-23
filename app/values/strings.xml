@@ -119,6 +119,8 @@
     <string name="app_version">Version: %1$s</string>
     <string name="use_recommended">Recommended</string>
     <string name="use_recommended_message">Select recommended apps?</string>
+    <string name="deselect_all">Deselect all</string>
+    <string name="deselect_all_message">Deselect all selected apps?</string>
     <string name="module_is_not_activated_yet">Xposed module is not activated yet</string>
     <string name="requested_by_module">Recommended</string>
     <string name="update_available">Update available: %1$s</string>

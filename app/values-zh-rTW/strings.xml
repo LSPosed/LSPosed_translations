@@ -112,6 +112,8 @@
     <string name="app_version">版本：%1$s</string>
     <string name="use_recommended">勾選建議</string>
     <string name="use_recommended_message">選擇推薦的程式？</string>
+    <string name="deselect_all">清空已選</string>
+    <string name="deselect_all_message">清空所有已選的程式？</string>
     <string name="module_is_not_activated_yet">Xposed 模組尚未啟用</string>
     <string name="requested_by_module">推薦啟用</string>
     <string name="update_available">可用更新：%1$s</string>
