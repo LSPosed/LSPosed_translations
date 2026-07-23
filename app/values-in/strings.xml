@@ -26,6 +26,8 @@
     <string name="About">Tentang</string>
     <string name="module_repo">Repositori</string>
     <string name="about_send_bug_report">Kirim laporan bug</string>
+    <string name="bug_report_message">Jelaskan secara singkat masalahnya</string>
+    <string name="bug_report_exporting_logs">Mengekspor log…</string>
     <string name="about_join_telegram">Gabung saluran Telegram</string>
     <string name="email_address_copied">Alamat email disalin</string>
     <item name="translators" type="string">Neebe3289</item>
@@ -37,7 +39,7 @@
     <string name="system_inject_fail"><![CDATA[Ini jarang terjadi dan mungkin disebabkan oleh <b>Magisk</b> atau beberapa modul Magisk berkualitas rendah.<br/>Coba nonaktifkan modul Magisk selain LSPosed atau kirimkan log lengkap ke pengembang.]]></string>
     <string name="system_prop_incorrect_summary">Prop sistem salah</string>
     <string name="system_prop_incorrect"><![CDATA[Beberapa properti sistem yang diperlukan dihapus atau diubah.<br/>Modul terkadang tidak valid.]]></string>
-    <string name="need_update">Butuh pembaruan</string>
+    <string name="need_update">Perlu pembaruan</string>
     <string name="info_manager_package_name">Nama Paket Manajer</string>
     <string name="info_system_version">Versi Sistem</string>
     <string name="info_device">Perangkat</string>
@@ -58,7 +60,7 @@
     <string name="parasitic_welcome_summary">Anda menggunakan manajer parasit yang dapat dibuka dari notifikasi.</string>
     <string name="never_show">Jangan pernah tampilkan</string>
     <string name="app_welcome">Manajer Parasit Disarankan</string>
-    <string name="app_welcome_summary">LSPosed sekarang mendukung parasitisasi sistem untuk menghindari deteksi, Anda dapat membuka manajer parasit dari pemberitahuan. Disarankan untuk menghapus aplikasi saat ini.</string>
+    <string name="app_welcome_summary">LSPosed sekarang mendukung parasitisasi sistem untuk menghindari deteksi, Anda dapat membuka manajer parasit dari notifikasi. Disarankan untuk menghapus aplikasi saat ini.</string>
 
     <!-- LogsActivity -->
     <string name="menuSaveToSd">Simpan</string>
@@ -116,6 +118,8 @@
     <string name="app_version">Versi: %1$s</string>
     <string name="use_recommended">Disarankan</string>
     <string name="use_recommended_message">Pilih aplikasi yang disarankan?</string>
+    <string name="deselect_all">Batal pilih semua</string>
+    <string name="deselect_all_message">Batalkan pilih semua aplikasi yang dipilih?</string>
     <string name="module_is_not_activated_yet">Modul Xposed belum diaktifkan</string>
     <string name="requested_by_module">Disarankan</string>
     <string name="update_available">Pembaruan tersedia: %1$s</string>
@@ -216,7 +220,7 @@
     <string name="disable_all_modules">Nonaktifkan semua modul</string>
     <string name="confirm_disable_all_modules">Konfirmasi?</string>
     <plurals name="message_disable_all_modules">
-        <item quantity="other">%d modul akan dinonaktifkan.\nOperasi ini tidak dapat dibatalkan.</item>
+        <item quantity="other">%d modul akan dinonaktifkan.\nTindakan ini tidak dapat dibatalkan.</item>
     </plurals>
     <string name="disable_success_title">Berhasil</string>
     <string name="hook_debug_title">Debug hook</string>
@@ -239,6 +243,8 @@
     <string name="unknown_asset">Aset tidak diketahui</string>
     <string name="download_asset">Unduh</string>
     <string name="nav_back">Kembali</string>
+    <string name="nav_rail_expand">Perluas bilah navigasi</string>
+    <string name="nav_rail_collapse">Ciutkan bilah navigasi</string>
     <string name="menu">Menu</string>
     <string name="menu_filter">Filter</string>
 
