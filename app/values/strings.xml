@@ -27,7 +27,6 @@
     <string name="module_repo">Repository</string>
     <string name="about_send_bug_report">Send bug report</string>
     <string name="bug_report_message">Briefly describe the problem</string>
-    <string name="bug_report_subject_hint">Problem description</string>
     <string name="bug_report_exporting_logs">Exporting logs…</string>
     <string name="about_join_telegram">Join Telegram channel</string>
     <string name="email_address_copied">Email address copied</string>
