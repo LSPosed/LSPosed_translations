@@ -26,12 +26,12 @@
     <string name="module_updated_channel_name">Pembaruan modul selesai</string>
     <string name="status_channel_name">Status LSPosed</string>
     <string name="lsposed_running_notification_title">LSPosed dimuat</string>
-    <string name="lsposed_running_notification_content">Ketuk notifikasi untuk membuka manajer</string>
+    <string name="lsposed_running_notification_content">Ketuk untuk buka manajer</string>
     <string name="xposed_module_request_scope_title">Permintaan cakupan</string>
     <string name="xposed_module_request_scope_content">%1$s pada pengguna %2$s meminta untuk menambahkan %3$s ke dalam cakupannya.</string>
     <string name="xposed_module_request_scope_content_batch">%1$s pada pengguna %2$s meminta untuk menambahkan aplikasi berikut ke dalam cakupannya.</string>
     <string name="scope_channel_name">Permintaan cakupan</string>
-    <string name="scope_approve">Setujui</string>
+    <string name="scope_approve">Setuju</string>
     <string name="scope_deny">Tolak</string>
     <string name="nerver_ask_again">Abaikan</string>
     <string name="lsposed_safemode_notification_title">LSPosed berada dalam mode aman</string>
@@ -43,7 +43,7 @@
     </plurals>
     <string name="lsposed_safemode_clear_confirm_notification_title">Konfirmasi?</string>
     <plurals name="lsposed_safemode_clear_confirm_notification_content">
-        <item quantity="other">%d modul akan dinonaktifkan.\nOperasi ini tidak dapat dibatalkan.</item>
+        <item quantity="other">%d modul akan dinonaktifkan.\nTindakan ini tidak dapat dibatalkan.</item>
     </plurals>
     <string name="safe_mode_reboot">Mulai ulang</string>
     <string name="safe_mode_channel_name">Mode aman</string>
