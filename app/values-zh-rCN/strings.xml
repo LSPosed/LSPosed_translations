@@ -26,6 +26,9 @@
     <string name="About">关于</string>
     <string name="module_repo">仓库</string>
     <string name="about_send_bug_report">发送错误报告</string>
+    <string name="bug_report_message">简述遇到的问题</string>
+    <string name="bug_report_subject_hint">问题描述</string>
+    <string name="bug_report_exporting_logs">正在导出日志…</string>
     <string name="about_join_telegram">加入 Telegram 频道</string>
     <string name="email_address_copied">已复制邮箱地址</string>
     <string name="translators" comment="Dear translators, please add your home page here following the format. There can be more than one translator. So feel free to append yourself.">LSPosed</string>
