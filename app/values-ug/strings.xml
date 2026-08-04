@@ -1,0 +1,293 @@
+<!-- 
+  ~ This file is part of LSPosed.
+  ~
+  ~ LSPosed is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ LSPosed is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with LSPosed.  If not, see <https://www.gnu.org/licenses/>.
+  ~
+  ~ Copyright (C) 2021 LSPosed Contributors
+   -->
+<resources xmlns:tools="http://schemas.android.com/tools" tools:keep="@string/xposed_module_updated_notification_*,@string/module_is_not_activated_*">
+<!--  MainActivity  -->
+<string name="overview">ئومۇمىي كۆرۈنۈش</string>
+<string name="Modules">مودۇللار</string>
+<string name="Logs">خاتىرىلەر</string>
+<string name="Settings">تەڭشەكلەر</string>
+<string name="About">ھەققىدە</string>
+<string name="module_repo">ئامبار</string>
+<string name="about_send_bug_report">خاتالىق دوكلاتى ئەۋەتىش</string>
+<string name="bug_report_message">مەسىلىنى قىسقىچە چۈشەندۈرۈڭ</string>
+<string name="bug_report_exporting_logs">خاتىرىلەر چىقىرىلىۋاتىدۇ…</string>
+<string name="about_join_telegram">Telegram قانىلىغا قوشۇلۇڭ</string>
+<string name="email_address_copied">ئېلخەت ئادرېسى كۆچۈرۈلدى</string>
+<string name="translators" comment="Dear translators, please add your home page here following the format. There can be more than one translator. So feel free to append yourself.">null</string>
+<string name="not_installed">قاچىلانمىغان</string>
+<string name="not_install_summary">LSPosed قاچىلانمىغان</string>
+<string name="activated">ئاكتىپلاشتۇرۇلغان</string>
+<string name="partial_activated">قىسمەن ئاكتىپلاشتۇرۇلغان</string>
+<string name="system_inject_fail_summary">سىستېما قۇرۇلمىسىنى كىرگۈزۈش مەغلۇب بولدى</string>
+<string name="system_inject_fail">
+<![CDATA[ بۇ ناھايىتى ئاز ئۇچرايدىغان ئەھۋال بولۇپ، <b>Magisk</b> ياكى تۆۋەن سۈپەتلىك بەزى Magisk مودۇللىرىدىن كېلىپ چىقىشى مۇمكىن.<br/>LSPosed دىن باشقا Magisk مودۇللىرىنى چەكلەپ بېقىڭ ياكى تولۇق خاتىرىنى تەرەققىياتچىلارغا يوللاڭ. ]]>
+</string>
+<string name="system_prop_incorrect_summary">سىستېما خاسلىقى خاتا</string>
+<string name="system_prop_incorrect">
+<![CDATA[ بەزى زۆرۈر سىستېما خاسلىقلىرى ئۆچۈرۈلگەن ياكى ئۆزگەرتىلگەن.<br/>مودۇللار ئاندا-ساندا ئىشتىن چىقىپ قېلىشى مۇمكىن. ]]>
+</string>
+<string name="need_update">يېڭىلاش كېرەك</string>
+<string name="developer_warning_title">مودۇل تەرەققىياتچىسى ئۈچۈن مەسلىھەتلەر</string>
+<string name="developer_warning_summary">Android Studio نىڭ deploy ئەلالاشتۇرۇشىنى چەكلەڭ، ياكى `gradlew installDebug` بۇيرۇقى ئارقىلىق قاچىلاڭ. بولمىسا مودۇلنىڭ apk سى يېڭىلانمايدۇ.</string>
+<string name="info_manager_package_name">باشقۇرغۇچى باغلام نامى</string>
+<string name="info_system_version">سىستېما نۇسخىسى</string>
+<string name="info_device">ئۈسكۈنە</string>
+<string name="info_system_abi">سىستېما ABI</string>
+<string name="info_dex2oat_wrapper">Dex ئەلالاشتۇرغۇچ ئورالمىسى</string>
+<string name="enabled">يېقىلغان</string>
+<string name="not_enabled">يېقىلمىغان</string>
+<string name="supported">قوللىنىدۇ</string>
+<string name="unsupported">قوللانمايدۇ</string>
+<string name="android_version_unsatisfied">Android نۇسخىسى تەلەپنى قاندۇرالمايدۇ</string>
+<string name="crashed">يىمىرىلدى</string>
+<string name="mount_failed">تاغلاش مەغلۇب بولدى</string>
+<string name="info_copied">چاپلاش تاختىسىغا كۆچۈرۈلدى</string>
+<string name="touch_filtered_warning">بىر ئەپ كۆرۈنمە يۈزنى توسۇۋاتقانلىقى ئۈچۈن، باشقۇرغۇچى سىزنىڭ ئىنكاسىڭىزنى جەزملەشتۈرەلمەيدۇ.</string>
+<!--  WelcomeDialog  -->
+<string name="parasitic_welcome">LSPosed غا خۇش كەلدىڭىز</string>
+<string name="parasitic_welcome_summary">سىز پارازىت باشقۇرغۇچىنى ئىشلىتىۋاتىسىز، ئۇنى ئۇقتۇرۇش ئارقىلىق ئېچىشقا بولىدۇ.</string>
+<string name="never_show">ھەرگىز كۆرسەتمە</string>
+<string name="app_welcome">پارازىت باشقۇرغۇچى تەۋسىيە قىلىنىدۇ</string>
+<string name="app_welcome_summary">LSPosed ھازىر بايقىلىشتىن ساقلىنىش ئۈچۈن سىستېما پارازىتلىشىشنى قوللايدۇ، پارازىت باشقۇرغۇچىنى ئۇقتۇرۇش ئارقىلىق ئېچەلەيسىز. نۆۋەتتىكى ئەپنى قاچىلاشتىن چىقىرىش تەۋسىيە قىلىنىدۇ.</string>
+<!--  LogsActivity  -->
+<string name="menuSaveToSd">ساقلاش</string>
+<string name="nav_item_logs_verbose">تەپسىلىي خاتىرىلەر</string>
+<string name="nav_item_logs_module">مودۇل خاتىرىلىرى</string>
+<string name="logs_saving">خاتىرە ساقلىنىۋاتىدۇ، سەل كۈتۈڭ</string>
+<string name="logs_saved">خاتىرىلەر ساقلاندى</string>
+<string name="logs_save_failed2">ساقلاش مەغلۇب بولدى:\n%s</string>
+<string name="logs_preparing">خاتىرە تەييارلىنىۋاتىدۇ، سەل كۈتۈڭ</string>
+<string name="logs_prepare_failed">تەييارلاش مەغلۇب بولدى:\n%s</string>
+<string name="menuClearLog">خاتىرىنى ھازىر تازىلا</string>
+<string name="scroll_top">ئەڭ ئۈستىگە يۆتكەڭ</string>
+<string name="scroll_bottom">ئەڭ ئاستىغا يۆتكەڭ</string>
+<string name="menu_enable_word_wrap">قۇر ئوراش</string>
+<!--  ModulesActivity  -->
+<string name="warning_xposed_min_version">بۇ مودۇل تېخىمۇ يېڭى Xposed نۇسخىسىنى (%d) تەلەپ قىلىدۇ، شۇڭا ئاكتىپلاشتۇرغىلى بولمايدۇ</string>
+<string name="warning_target_version_higher">بۇ مودۇل تېخىمۇ يېڭى Xposed نۇسخىسى (%d) ئۈچۈن لايىھەلەنگەن، شۇڭا بەزى ئىقتىدارلار ئىشلىمەسلىكى مۇمكىن</string>
+<string name="no_min_version_specified">بۇ مودۇل ئۆزىگە كېرەكلىك Xposed نۇسخىسىنى بەلگىلەپ بەرمىگەن</string>
+<string name="warning_min_version_too_low">بۇ مودۇل Xposed نۇسخىسى %1$d ئۈچۈن ياسالغان، ئەمما %2$d نۇسخىسىدىكى ماس كەلمەيدىغان ئۆزگىرىشلەر سەۋەبىدىن ئۇ چەكلەنگەن</string>
+<string name="warning_installed_on_external_storage">بۇ مودۇل SD كارتا ئۈستىگە قاچىلانغانلىقى ئۈچۈن يۈكلەنمەيدۇ، ئۇنى ئىچكى ساقلاش بوشلۇقىغا يۆتكەڭ</string>
+<string name="module_uninstall">قاچىلاشتىن چىقىرىش</string>
+<string name="module_settings">مودۇل تەڭشەكلىرى</string>
+<string name="view_in_repo">ئامباردا كۆرۈش</string>
+<string name="module_uninstall_message">بۇ مودۇلنى قاچىلاشتىن چىقارامسىز؟</string>
+<string name="module_uninstalled">%1$s قاچىلاشتىن چىقىرىلدى</string>
+<string name="module_uninstall_failed">قاچىلاشتىن چىقىرىش مەغلۇب بولدى</string>
+<string name="module_install_failed">مودۇل قوشۇش مەغلۇب بولدى</string>
+<string name="install_to_user">%s ئىشلەتكۈچىسىگە قاچىلاش</string>
+<string name="expand">كېڭەيتىش</string>
+<string name="collapse">يىغىش</string>
+<string name="reset_scope_request_setting">دائىرە تەلەپ تەڭشىكىنى ئەسلىگە كەلتۈرۈش</string>
+<string name="reset_scope_request_setting_done">دائىرە تەلەپ تەڭشىكى ئەسلىگە كەلتۈرۈلدى</string>
+<string name="hide_non_system_overlay_failed_no_permission">سىستېمىدىن سىرت قاپلاشنى يوشۇرۇش مەغلۇب بولدى، باشقۇرغۇچىنى يېڭىلاڭ</string>
+<!--  AppListActivity  -->
+<string name="compile_speed">قايتا ئەلالاشتۇرۇش</string>
+<string name="compile_speed_msg">ئەلالاشتۇرۇلۇۋاتىدۇ…</string>
+<string name="compile_done">ئەلالاشتۇرۇش تاماملاندى</string>
+<string name="app_launch">قوزغىتىش</string>
+<string name="compile_failed">ئەلالاشتۇرۇش مەغلۇب بولدى: قايتۇرۇش قىممىتى بوش</string>
+<string name="compile_failed_with_info">ئەلالاشتۇرۇش مەغلۇب بولدى: </string>
+<string name="sort_by_name">ئەپ نامى</string>
+<string name="sort_by_package_name">باغلام نامى</string>
+<string name="sort_by_install_time">قاچىلانغان ۋاقىت</string>
+<string name="sort_by_update_time">يېڭىلانغان ۋاقىت</string>
+<string name="sort_reverse">تەتۈر</string>
+<string name="menu_show_system_apps">سىستېما ئەپلىرى</string>
+<string name="menu_sort">تەرتىپلەش</string>
+<string name="enable_module">مودۇلنى ئەمەللەشتۈرۈش</string>
+<string name="menu_show_games">ئويۇنلار</string>
+<string name="menu_show_modules">مودۇللار</string>
+<string name="module_scope_list_static_scope">مودۇل سىتاتىك دائىرە جاكارلىغان</string>
+<string name="failed_to_save_scope_list">دائىرە تىزىملىكىنى ساقلاش مەغلۇب بولدى</string>
+<string name="app_version">نۇسخا: %1$s</string>
+<string name="use_recommended">تەۋسىيە قىلىنغان</string>
+<string name="use_recommended_message">تەۋسىيە قىلىنغان ئەپلەرنى تاللامسىز؟</string>
+<string name="deselect_all">ھەممىنى تاللاشتىن چىقىرىش</string>
+<string name="deselect_all_message">تاللانغان ھەممە ئەپنى تاللاشتىن چىقىرامسىز؟</string>
+<string name="module_is_not_activated_yet">Xposed مودۇلى تېخى ئاكتىپلاشتۇرۇلمىغان</string>
+<string name="requested_by_module">تەۋسىيە قىلىنغان</string>
+<string name="update_available">يېڭىلانما بار: %1$s</string>
+<string name="android_framework">سىستېما قۇرۇلمىسى</string>
+<string name="menu_backup">زاپاسلاش</string>
+<string name="menu_restore">ئەسلىگە كەلتۈرۈش</string>
+<string name="force_stop">مەجبۇرىي توختىتىش</string>
+<string name="force_stop_dlg_title">مەجبۇرىي توختىتامسىز؟</string>
+<string name="force_stop_dlg_text">ئەگەر ئەپنى مەجبۇرىي توختاتسىڭىز، ئۇ نورمالسىز ھەرىكەت قىلىشى مۇمكىن.</string>
+<string name="reboot_required">بۇ ئۆزگىرىشنىڭ كۈچكە ئىگە بولۇشى ئۈچۈن قايتا قوزغىتىش كېرەك</string>
+<string name="reboot">قايتا قوزغىتىش</string>
+<!--  ModulesActivity and AppListActivity  -->
+<string name="modules_other_app">باشقا ئەپتە كۆرۈش</string>
+<string name="module_app_info">ئەپ ئۇچۇرى</string>
+<string name="list_empty">¯\\_(ツ)_\/¯\nبۇ يەردە ھېچنېمە يوق</string>
+<!--  SettingsActivity  -->
+<string name="settings_group_framework">قۇرۇلما</string>
+<string name="settings_disable_verbose_log">تەپسىلىي خاتىرىلەرنى چەكلەش</string>
+<string name="settings_disable_verbose_log_summary">مەسىلە دوكلات قىلغاندا تەپسىلىي خاتىرىلەرنى كىرگۈزۈشنى تەلەپ قىلىش</string>
+<string name="settings_group_theme">تېما</string>
+<string name="settings_backup_and_restore">زاپاسلاش ۋە ئەسلىگە كەلتۈرۈش</string>
+<string name="settings_backup_summary">مودۇل تىزىملىكى ۋە دائىرە تىزىملىكلىرىنى زاپاسلاش.</string>
+<string name="settings_restore_summary">مودۇل تىزىملىكى ۋە دائىرە تىزىملىكلىرىنى ئەسلىگە كەلتۈرۈش.</string>
+<string name="settings_backup">زاپاسلاش</string>
+<string name="settings_backup_failed2">زاپاسلاش مەغلۇب بولدى:\n%s</string>
+<string name="enable_documentui">DocumentUI نى ئەمەللەشتۈرۈڭ</string>
+<string name="settings_restore">ئەسلىگە كەلتۈرۈش</string>
+<string name="settings_restore_failed2">ئەسلىگە كەلتۈرۈش مەغلۇب بولدى:\n%s</string>
+<string name="group_network">تور</string>
+<string name="dns_over_http">HTTPS ئارقىلىق DNS</string>
+<string name="dns_over_http_summary">بەزى دۆلەتلەردە DNS زەھەرلەش مەسىلىسىنى ھەل قىلىش</string>
+<string name="settings_repo_cdn">مودۇل ئامبىرى CDN</string>
+<string name="repo_cdn_default">كۆڭۈلدىكى</string>
+<string name="repo_cdn_backup">زاپاس</string>
+<string name="settings_show_hidden_icon_apps_enabled">ئەپلەرنى باشلىغۇچ بەلگىلىرىنى كۆرسىتىشكە مەجبۇرلاش</string>
+<string name="settings_show_hidden_icon_apps_enabled_summary">Android 10 دىن كېيىن ئەپلەرگە باشلىغۇچ بەلگىلىرىنى يوشۇرۇشقا يول قويۇلمايدۇ. بۇ سىستېما ئىقتىدارىنى چەكلەش ئۈچۈن كۇنۇپكىنى ئۆچۈرۈڭ.</string>
+<string name="settings_group_system">سىستېما</string>
+<string name="settings_language">تىل</string>
+<string name="settings_translation_contributors">تەرجىمە تۆھپىكارلىرى</string>
+<string name="settings_translation">تەرجىمىگە قاتنىشىش</string>
+<string name="settings_translation_summary">%s نى تىلىڭىزغا تەرجىمە قىلىشىمىزغا ياردەم قىلىڭ</string>
+<string name="settings_enable_status_notification">ھالەت ئۇقتۇرۇشى</string>
+<string name="settings_enable_status_notification_summary">پارازىت باشقۇرغۇچىنى ئاچالايدىغان ئۇقتۇرۇش كۆرسىتىش</string>
+<string name="settings_update_channel">يېڭىلاش قانىلى</string>
+<string name="update_channel_stable">مۇقىم</string>
+<string name="update_channel_beta">Beta</string>
+<string name="update_channel_nightly">ھەر كېچىلىك قۇرۇلما</string>
+<string name="settings_xposed_api_call_protection">Xposed API چاقىرىش قوغدىشى</string>
+<string name="settings_xposed_api_call_protection_summary">دىنامىك يۈكلەنگەن مودۇل كودىنىڭ Xposed API نى ئىشلىتىشىنى چەكلەش؛ بۇ بەزى مودۇللارنى بۇزۇشى مۇمكىن، ئەمما بىخەتەرلىكنى ئاشۇرىدۇ</string>
+<string name="settings_invalidate_inline_hooks">ئىچكى ئىلمەكلەرنى بىكار قىلىش</string>
+<string name="settings_invalidate_inline_hooks_summary">تىزىملىكتىكى ئەپلەر ئۈچۈن libart.so نى پاكىتلاش. بۇ تاسادىپىي ئىقتىدار بۇزۇلۇشى ۋە يىمىرىلىشلەرنى كەلتۈرۈپ چىقىرىشى مۇمكىن. پەقەت مەلۇم ئەپلەرنى ئاچالمىغان ۋاقىتتا ئىشلىتىڭ.</string>
+<string name="failed_to_save_invalidate_inline_hooks_list">ئىچكى ئىلمەكلەرنى بىكار قىلىش تىزىملىكىنى ساقلاش مەغلۇب بولدى</string>
+<string name="settings_enable_predictive_back">ئالدىن مۆلچەرلىگۈچى قايتىش ئىشارىسى</string>
+<string name="settings_enable_predictive_back_summary">ئالدىن مۆلچەرلىگۈچى قايتىش ئىشارىلىرىنى قوللاشنى ئەمەللەشتۈرۈش.</string>
+<string name="settings_tapjacking_protection">Tapjacking قوغدىشى</string>
+<string name="settings_tapjacking_protection_summary">كۆرۈنمە يۈز توسۇلغاندا چېكىشلەرنى توسۇپ، tapjacking ھۇجۇملىرىنىڭ ئالدىنى ئېلىش</string>
+<!--  Module Repo  -->
+<string name="module_readme">Readme</string>
+<string name="module_releases">تارقىتىلغان نۇسخىلار</string>
+<string name="module_information">ئۇچۇر</string>
+<string name="module_information_homepage">باش بەت</string>
+<string name="module_information_source_url">مەنبە كود</string>
+<string name="module_information_collaborators">ھەمكارلار</string>
+<string name="module_release_view_assets">قوشۇمچە ھۆججەتلەر</string>
+<string name="menu_open_in_browser">كۆرگۈچتە ئېچىش</string>
+<string name="menu_share">ھەمبەھىرلەش</string>
+<string name="module_release_load_more">كونا نۇسخىلارنى كۆرسىتىش</string>
+<string name="module_release_no_more">تارقىتىلغان نۇسخا يوق</string>
+<string name="sort_upgradable_first">يېڭىلانغىلى بولىدىغانلار ئالدىدا</string>
+<string name="installed">قاچىلانغان</string>
+<plurals name="module_release_assets_download_count">
+<item quantity="other">%d قېتىم چۈشۈرۈلگەن</item>
+</plurals>
+<!--  Colors  -->
+<string name="color_red">قىزىل</string>
+<string name="color_pink">ھالرەڭ</string>
+<string name="color_purple">بىنەپشە</string>
+<string name="color_deep_purple">قويۇق بىنەپشە</string>
+<string name="color_indigo">ئىندىگو</string>
+<string name="color_blue">كۆك</string>
+<string name="color_light_blue">ئوچۇق كۆك</string>
+<string name="color_cyan">سۇس كۆك</string>
+<string name="color_teal">يېشىل-كۆك</string>
+<string name="color_green">يېشىل</string>
+<string name="color_lime">لىمۇس يېشىل</string>
+<string name="color_yellow">سېرىق</string>
+<string name="color_amber">ئامبىر</string>
+<string name="color_orange">زەرەڭ</string>
+<string name="color_brown">قوڭۇر</string>
+<string name="color_blue_grey">كۆك كۈلرەڭ</string>
+<string name="safe_mode">بىخەتەر ھالەت</string>
+<string name="safe_mode_summary">LSPosed بىخەتەر ھالەتتە</string>
+<string name="safe_mode_summary2">كېيىنكى قايتا قوزغىتىشقا قەدەر بارلىق Xposed مودۇللىرى ئىشلىمەيدۇ. \nبەزى مودۇللار سىستېمىنىڭ يىمىرىلىشىنى كەلتۈرۈپ چىقاردى. بۇ مودۇللارنى تېپىپ چەكلەڭ ۋە مودۇل تەرەققىياتچىلىرىغا ئىنكاس بېرىڭ.</string>
+<string name="disable_all_modules">بارلىق مودۇللارنى چەكلەش</string>
+<string name="confirm_disable_all_modules">جەزملەشتۈرەمسىز؟</string>
+<plurals name="message_disable_all_modules">
+<item quantity="other">%d مودۇل چەكلىنىدۇ.\nبۇ مەشغۇلاتنى ئەسلىگە كەلتۈرگىلى بولمايدۇ.</item>
+</plurals>
+<string name="disable_success_title">مۇۋەپپەقىيەت</string>
+<string name="hook_debug_title">Hook تۈزىتىش</string>
+<string name="debugging_title">تۈزىتىش</string>
+<string name="hook_debug_summary">ئىلمەك قىلىنغان جەريانلارنىڭ hook تۈزىتىش ئۇچۇرلىرىنى چىقىرىشقا يول قويۇش؛ بۇ ئىقتىدارغا تەسىر كۆرسىتىشى مۇمكىن</string>
+<string name="dump_hook_debug_title">Hook تۈزىتىش ئۇچۇرلىرىنى چىقىرىش</string>
+<string name="dump_hook_debug_summary">Hook تۈزىتىش ئۇچۇرلىرىنى /data/adb/lspd/log غا چىقىرىش</string>
+<string name="dump_hook_success">%s غا چىقىرىلدى</string>
+<string name="dump_hook_failed">چىقىرىش مەغلۇب بولدى</string>
+<string name="log_to_daemon_title">خاتىرىنى daemon غا يوللاش</string>
+<string name="log_to_daemon_summary">بۇ مودۇل خاتىرىلىرىنىڭ ئەپلەر تەرىپىدىن ئوقۇلۇشىنىڭ ئالدىنى ئالالايدۇ، ئەمما ئىقتىدارغا تەسىر كۆرسىتىشى مۇمكىن</string>
+<plurals name="disable_success_message">
+<item quantity="other">%d مودۇل چەكلەندى</item>
+</plurals>
+<!--  Compose Activity  -->
+<string name="follow_system">سىستېمىغا ئەگىشىش</string>
+<string name="unknown_author">نامەلۇم ئاپتور</string>
+<string name="unknown_version">نامەلۇم نۇسخا</string>
+<string name="unknown_asset">نامەلۇم تەگلىك</string>
+<string name="download_asset">چۈشۈرۈش</string>
+<string name="nav_back">قايتىش</string>
+<string name="nav_rail_expand">يولباشچى تاختىسىنى كېڭەيتىش</string>
+<string name="nav_rail_collapse">يولباشچى تاختىسىنى يىغىش</string>
+<string name="menu">مېنىيۇ</string>
+<string name="menu_filter">سۈزۈش</string>
+<!--  Logs Page  -->
+<string name="menu_parsed_view">تەھلىل قىلىنغان كۆرۈنۈش</string>
+<string name="menu_raw_view">خام كۆرۈنۈش</string>
+<!--  Theme Mode  -->
+<string name="settings_ui">UI ئۇسلۇبى</string>
+<string name="settings_ui_summary">كۆرۈنمە يۈز ئۇسلۇبىنى تاللاڭ</string>
+<string name="settings_theme">تېما</string>
+<string name="settings_theme_summary">ئەپ تېما ھالىتىنى تاللاڭ</string>
+<string name="settings_theme_mode_system">سىستېمىغا ئەگىشىش</string>
+<string name="settings_theme_mode_light">يورۇق</string>
+<string name="settings_theme_mode_dark">قاراڭغۇ</string>
+<string name="settings_theme_mode_monet_system">Monet (سىستېمىغا ئەگىشىش)</string>
+<string name="settings_theme_mode_monet_light">Monet (يورۇق)</string>
+<string name="settings_theme_mode_monet_dark">Monet (قاراڭغۇ)</string>
+<string name="settings_key_color">تەكىت رەڭگى</string>
+<string name="settings_key_color_summary">Monet ئىشلەتكەندە ئۇرۇق رەڭگىنى خاسلاشتۇرۇڭ</string>
+<string name="settings_key_color_default">كۆڭۈلدىكى</string>
+<string name="settings_theme_entry">تېما تەڭشەكلىرى</string>
+<string name="settings_theme_entry_summary">تېما ھالىتى، تەكىت رەڭگى، رەڭ تاختىسى ئۇسلۇبى ۋە باشقىلار</string>
+<string name="settings_palette_style">رەڭ تاختىسى ئۇسلۇبى</string>
+<string name="settings_palette_style_summary">Material 3 رەڭ تاختىسىنى ھاسىل قىلىشتا ئىشلىتىلىدىغان تون ئالگورىتمى</string>
+<string name="settings_color_spec">رەڭ بەلگىلىمىسى</string>
+<string name="settings_color_spec_summary">Material 3 رەڭ بەلگىلىمىسى نۇسخىسى</string>
+<string name="settings_page_scale">بەت كۆلىمى</string>
+<string name="settings_page_scale_summary">ئومۇمىي كۆرسىتىش كۆلىمىنى تەڭشەش</string>
+<string name="settings_enable_blur">لەيلىمە</string>
+<string name="settings_enable_blur_summary">ئۈستۈنكى ۋە ئاستىنقى بالداقلارغا لەيلىمە ئۈنۈمىنى ئەمەللەشتۈرۈش</string>
+<string name="settings_floating_bottom_bar">ئۈزگۈچى ئاستىنقى بالداق</string>
+<string name="settings_floating_bottom_bar_summary">Apple ئۇسلۇبىدىكى ئۈزگۈچى ئاستىنقى بالداقنى ئىشلىتىش</string>
+<string name="settings_enable_glass">سۇيۇق ئەينەك</string>
+<string name="settings_enable_glass_summary">ئۈزگۈچى ئاستىنقى بالداققا سۇيۇق ئەينەك ئۈنۈمىنى ئەمەللەشتۈرۈش</string>
+<!--  Refresh  -->
+<string name="refresh_pulling">يېڭىلاش ئۈچۈن تۆۋەنگە تارتىڭ</string>
+<string name="refresh_release">يېڭىلاش ئۈچۈن قويۇپ بېرىڭ</string>
+<string name="refresh_refresh">يېڭىلانماقتا…</string>
+<string name="refresh_complete">مۇۋەپپەقىيەتلىك يېڭىلاندى</string>
+<!--  Repository  -->
+<string name="time_just_now">ھازىرلا</string>
+<plurals name="time_minutes_ago">
+<item quantity="other">%d مىنۇت ئىلگىرى</item>
+</plurals>
+<plurals name="time_hours_ago">
+<item quantity="other">%d سائەت ئىلگىرى</item>
+</plurals>
+<plurals name="time_days_ago">
+<item quantity="other">%d كۈن ئىلگىرى</item>
+</plurals>
+</resources>
