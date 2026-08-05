@@ -25,7 +25,7 @@
     <string name="Settings">設定</string>
     <string name="About">本アプリについて</string>
     <string name="module_repo">リポジトリ</string>
-	<string name="about_send_bug_report">バグレポートを送信</string>
+    <string name="about_send_bug_report">バグレポートを送信</string>
     <string name="about_join_telegram">Telegram チャンネルに参加</string>
     <string name="email_address_copied">メールアドレスがコピーされました</string>
     <string name="translators" comment="Dear translators, please add your home page here following the format. There can be more than one translator. So feel free to append yourself.">yoshi818, a1678991, onichan255</string>
@@ -38,7 +38,7 @@
     <string name="system_prop_incorrect_summary">システム設定が正しくありません</string>
     <string name="system_prop_incorrect"><![CDATA[必須のシステム設定が変更もしくは削除されています。<br/>モジュールが無効化される場合があります。]]></string>
     <string name="need_update">更新が必要です</string>
-	<string name="developer_warning_title">モジュール開発者へのお知らせ</string>
+    <string name="developer_warning_title">モジュール開発者へのお知らせ</string>
     <string name="developer_warning_summary">Android Studio でデプロイの最適化を無効にするか、`gradlew installDebug` を使用してインストールしてください。そうしないと、モジュールを更新できません。</string>
     <string name="info_manager_package_name">マネージャーパッケージ名</string>
     <string name="info_system_version">システムバージョン</string>
@@ -53,7 +53,7 @@
     <string name="crashed">クラッシュしました</string>
     <string name="mount_failed">マウントに失敗しました</string>
     <string name="info_copied">クリップボードへコピーされました</string>
-	<string name="touch_filtered_warning">別のアプリが画面上に重なっているため、マネージャーは操作内容を確認できません。</string>
+    <string name="touch_filtered_warning">別のアプリが画面上に重なっているため、マネージャーは操作内容を確認できません。</string>
 
     <!-- WelcomeDialog -->
     <string name="parasitic_welcome">LSPosed へようこそ</string>
@@ -69,7 +69,7 @@
     <string name="logs_saving">ログを保存しています</string>
     <string name="logs_saved">ログを保存しました</string>
     <string name="logs_save_failed2">保存に失敗しました:\n%s</string>
-	<string name="logs_preparing">ログを準備しています</string>
+    <string name="logs_preparing">ログを準備しています</string>
     <string name="logs_prepare_failed">準備に失敗しました:\n%s</string>
     <string name="menuClearLog">ログを消去</string>
     <string name="scroll_top">先頭行にスクロール</string>
@@ -77,10 +77,10 @@
     <string name="menu_enable_word_wrap">単語を折り返す</string>
 
     <!-- ModulesActivity -->
-    <string name="warning_xposed_min_version">このモジュールは新しい Xposed バージョン （%d）が必要なので有効化できません</string>
+    <string name="warning_xposed_min_version">このモジュールは新しい Xposed バージョン（%d）が必要なので有効化できません</string>
     <string name="warning_target_version_higher">このモジュールは新しい Xposed バージョン（%d）用に設計されているため、一部の機能が動作しない場合があります</string>
     <string name="no_min_version_specified">このモジュールは必要な Xposed のバージョンを指定していません。</string>
-    <string name="warning_min_version_too_low">この モジュールは Xposed バージョン %1$d 向けに開発されましたが、%2$d での互換性のない変更により無効化されています</string>
+    <string name="warning_min_version_too_low">このモジュールは Xposed バージョン %1$d 向けに開発されましたが、%2$d での互換性のない変更により無効化されています</string>
     <string name="warning_installed_on_external_storage">このモジュールは SD カード上にインストールされているため読込できません。内部ストレージに移動してください</string>
     <string name="module_uninstall">アンインストール</string>
     <string name="module_settings">モジュール設定</string>
@@ -92,7 +92,7 @@
     <string name="install_to_user">ユーザー %s へインストール</string>
     <string name="expand">開く</string>
     <string name="collapse">閉じる</string>
-	<string name="reset_scope_request_setting">スコープ要求の設定をリセット</string>
+    <string name="reset_scope_request_setting">スコープ要求の設定をリセット</string>
     <string name="reset_scope_request_setting_done">スコープ要求の設定をリセットしました</string>
     <string name="hide_non_system_overlay_failed_no_permission">システム以外のオーバーレイを非表示にできません。マネージャーを更新してください。</string>
 
@@ -113,7 +113,7 @@
     <string name="enable_module">モジュールを有効化</string>
     <string name="menu_show_games">ゲーム</string>
     <string name="menu_show_modules">モジュール</string>
-	<string name="module_scope_list_static_scope">モジュールは静的スコープを宣言しています</string>
+    <string name="module_scope_list_static_scope">モジュールは静的スコープを宣言しています</string>
     <string name="failed_to_save_scope_list">スコープリストの保存に失敗</string>
     <string name="app_version">バージョン: %1$s</string>
     <string name="use_recommended">おすすめ</string>
@@ -151,7 +151,7 @@
     <string name="group_network">ネットワーク</string>
     <string name="dns_over_http">DNS over HTTPS</string>
     <string name="dns_over_http_summary">一部の国向けの DNS ポイズニング回避策</string>
-	<string name="settings_repo_cdn">レポジトリ CDN</string>
+    <string name="settings_repo_cdn">レポジトリ CDN</string>
     <string name="repo_cdn_default">デフォルト</string>
     <string name="repo_cdn_backup">バックアップ</string>
     <string name="settings_show_hidden_icon_apps_enabled">ランチャーアイコンを強制的に表示</string>
@@ -160,7 +160,7 @@
     <string name="settings_language">言語</string>
     <string name="settings_translation_contributors">翻訳貢献者</string>
     <string name="settings_translation">翻訳に参加</string>
-    <string name="settings_translation_summary">%s  をあなたの言語に翻訳するのを手伝ってください</string>
+    <string name="settings_translation_summary">%s をあなたの言語に翻訳するのを手伝ってください</string>
     <string name="settings_enable_status_notification">ステータス通知</string>
     <string name="settings_enable_status_notification_summary">パラサイトマネージャーを開くことができる通知を表示する</string>
     <string name="settings_update_channel">更新チャンネル</string>
@@ -169,7 +169,7 @@
     <string name="update_channel_nightly">ナイトリービルド</string>
     <string name="settings_xposed_api_call_protection">Xposed APIの呼び出し保護</string>
     <string name="settings_xposed_api_call_protection_summary">Xposed APIを使用するために動的にロードされたモジュールコードをブロックします。これにより、一部のモジュールが壊れる可能性がありますが、セキュリティにメリットがあります</string>
-	<string name="settings_invalidate_inline_hooks">インラインフックを復元</string>
+    <string name="settings_invalidate_inline_hooks">インラインフックを復元</string>
     <string name="settings_invalidate_inline_hooks_summary">リスト内のアプリの libart.so をクリーンアップします。予期しない不具合やクラッシュが発生する可能性があるため、特定のアプリを起動できない場合にのみ使用してください</string>
     <string name="failed_to_save_invalidate_inline_hooks_list">インラインフックの復元リストを保存できません</string>
     <string name="settings_enable_predictive_back">予測型「戻る」ジェスチャー</string>
@@ -186,7 +186,7 @@
     <string name="module_information_collaborators">協力</string>
     <string name="module_release_view_assets">アセット</string>
     <string name="menu_open_in_browser">ブラウザで表示</string>
-	<string name="menu_share">共有</string>
+    <string name="menu_share">共有</string>
     <string name="module_release_load_more">以前のバージョンを表示</string>
     <string name="module_release_no_more">これ以上のリリースはありません</string>
     <string name="sort_upgradable_first">更新があるモジュールを先頭に表示</string>
@@ -213,13 +213,13 @@
     <string name="color_brown">茶色</string>
     <string name="color_blue_grey">ブルーグレー</string>
 
-	<string name="safe_mode">セーフモード</string>
+    <string name="safe_mode">セーフモード</string>
     <string name="safe_mode_summary">LSPosed はセーフモード中</string>
-    <string name="safe_mode_summary2">次回の再起動まで、すべての Xposed  モジュールは有効化できません。\n一部のモジュールが原因でシステムがクラッシュしました。\n原因となったモジュールを特定して無効にし、開発者に報告してください。</string>
+    <string name="safe_mode_summary2">次回の再起動まで、すべての Xposed モジュールは有効化できません。\n一部のモジュールが原因でシステムがクラッシュしました。\n原因となったモジュールを特定して無効にし、開発者に報告してください。</string>
     <string name="disable_all_modules">すべてのモジュールを無効化</string>
     <string name="confirm_disable_all_modules">すべてのモジュールを無効化しますか？</string>
     <plurals name="message_disable_all_modules">
-        <item quantity="other">%d  個のモジュールが無効化されます\nこの操作は元に戻せません</item>
+        <item quantity="other">%d 個のモジュールが無効化されます\nこの操作は元に戻せません</item>
     </plurals>
     <string name="disable_success_title">無効化に成功しました</string>
     <string name="hook_debug_title">フックデバッグ</string>
