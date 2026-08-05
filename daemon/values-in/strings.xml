@@ -8,7 +8,7 @@
     <string name="xposed_module_updated_notification_title">Modul Xposed diperbarui</string>
     <string name="xposed_module_updated_notification_title_system">Modul Xposed telah diperbarui, sistem diperlukan mulai ulang</string>
     <string name="xposed_module_updated_notification_content">%s telah diperbarui, harap paksa henti dan mulai ulang aplikasi dalam cakupannya.</string>
-    <string name="xposed_module_updated_notification_content_system">%s telah diperbarui, karena cakupannya berisi Kerangka Kerja Sistem, diperlukan mulai ulang untuk menerapkan perubahan.</string>
+    <string name="xposed_module_updated_notification_content_system">%s telah diperbarui, karena cakupannya berisi layanan sistem, diperlukan mulai ulang untuk menerapkan perubahan.</string>
     <string name="xposed_module_updated_notification_reload">%1$s telah diperbarui, %2$s</string>
     <string name="xposed_module_updated_notification_reload_none">%s telah diperbarui</string>
     <plurals name="xposed_module_updated_notification_reload_reloaded">

@@ -108,7 +108,7 @@ JJ108</string>
     <string name="module_is_not_activated_yet">Das LSPosed-Modul wurde noch nicht aktiviert</string>
     <string name="requested_by_module">Empfohlen</string>
     <string name="update_available">Aktualisierung verfügbar: %1$s</string>
-    <string name="android_framework">System-Framework</string>
+    <string name="system_services">Systemdienste</string>
     <string name="menu_backup">Sichern</string>
     <string name="menu_restore">Wiederherstellen</string>
     <string name="force_stop">Stopp erzwingen</string>

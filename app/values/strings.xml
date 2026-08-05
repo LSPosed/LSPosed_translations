@@ -36,7 +36,7 @@
     <string name="not_install_summary">LSPosed is not Installed</string>
     <string name="activated">Activated</string>
     <string name="partial_activated">Partially activated</string>
-    <string name="system_inject_fail_summary">System Framework injection failed</string>
+    <string name="system_inject_fail_summary">System Services injection failed</string>
     <string name="system_inject_fail"><![CDATA[This is rare and may be caused by <b>Magisk</b> or some low-quality Magisk modules.<br/>Please try to disable Magisk modules other than LSPosed or submit full log to developers.]]></string>
     <string name="system_prop_incorrect_summary">System prop incorrect</string>
     <string name="system_prop_incorrect"><![CDATA[Some necessary system properties deleted or modified.<br/>Modules may invalidate occasionally.]]></string>
@@ -126,7 +126,7 @@
     <string name="module_is_not_activated_yet">Xposed module is not activated yet</string>
     <string name="requested_by_module">Recommended</string>
     <string name="update_available">Update available: %1$s</string>
-    <string name="android_framework">System Framework</string>
+    <string name="system_services">System Services</string>
     <string name="menu_backup">Backup</string>
     <string name="menu_restore">Restore</string>
     <string name="force_stop">Force stop</string>

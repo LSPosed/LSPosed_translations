@@ -123,7 +123,7 @@
     <string name="module_is_not_activated_yet">Модуль установлен</string>
     <string name="requested_by_module">Рекомендуемые</string>
     <string name="update_available">Доступно обновление: %1$s</string>
-    <string name="android_framework">Системный фреймворк</string>
+    <string name="system_services">Системные службы</string>
     <string name="menu_backup">Создать</string>
     <string name="menu_restore">Восстановить</string>
     <string name="force_stop">Остановить</string>

@@ -123,7 +123,7 @@
     <string name="module_is_not_activated_yet">Xposed modülü henüz etkinleştirilmedi</string>
     <string name="requested_by_module">Önerilen</string>
     <string name="update_available">Güncelleme uygun: %1$s</string>
-    <string name="android_framework">Sistem Çerçevesi</string>
+    <string name="system_services">Sistem hizmetleri</string>
     <string name="menu_backup">Yedekleme</string>
     <string name="menu_restore">Geri yükle</string>
     <string name="force_stop">Durmaya zorla</string>

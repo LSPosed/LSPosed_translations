@@ -8,7 +8,7 @@
     <string name="xposed_module_updated_notification_title">Aktualizovaný modul Xposed</string>
     <string name="xposed_module_updated_notification_title_system">Aktualizácia modulu Xposed, potrebný reštart systému</string>
     <string name="xposed_module_updated_notification_content">%s bola aktualizovaná, vynúťte si zastavenie a reštartovanie aplikácií v jej rozsahu</string>
-    <string name="xposed_module_updated_notification_content_system">%s bola aktualizovaná, pretože rozsah obsahuje System Framework, potrebný reštart na uplatnenie zmien</string>
+    <string name="xposed_module_updated_notification_content_system">%s bola aktualizovaná, pretože rozsah obsahuje systémové služby, potrebný reštart na uplatnenie zmien</string>
     <string name="module_updated_channel_name">Aktualizácia modulu dokončená</string>
     <string name="status_channel_name">LSPonúkaný stav</string>
     <string name="lsposed_running_notification_title">LSPosed naložené</string>

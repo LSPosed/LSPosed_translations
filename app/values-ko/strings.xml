@@ -120,7 +120,7 @@
     <string name="module_is_not_activated_yet">Xposed 모듈이 아직 활성화되지 않았습니다</string>
     <string name="requested_by_module">권장</string>
     <string name="update_available">업데이트 가능: %1$s</string>
-    <string name="android_framework">시스템 프레임워크</string>
+    <string name="system_services">시스템 서비스</string>
     <string name="menu_backup">백업</string>
     <string name="menu_restore">복원</string>
     <string name="force_stop">강제 종료</string>

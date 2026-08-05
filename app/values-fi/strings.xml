@@ -104,7 +104,7 @@
     <string name="module_is_not_activated_yet">Xposed moduuli ei ole vielä aktivoitu</string>
     <string name="requested_by_module">Suositeltu</string>
     <string name="update_available">Päivitys saatavilla: %1$s</string>
-    <string name="android_framework">Järjestelmän Puitteet</string>
+    <string name="system_services">Järjestelmäpalvelut</string>
     <string name="menu_backup">Varmuuskopio</string>
     <string name="menu_restore">Palauta</string>
     <string name="force_stop">Pakota lopetus</string>

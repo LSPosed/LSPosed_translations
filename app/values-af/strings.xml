@@ -96,7 +96,7 @@
     <string name="module_is_not_activated_yet">Xposed-module is nog nie geaktiveer nie</string>
     <string name="requested_by_module">Aanbeveel</string>
     <string name="update_available">Opdatering beskikbaar: %1$s</string>
-    <string name="android_framework">Stelselraamwerk</string>
+    <string name="system_services">Stelseldienste</string>
     <string name="menu_backup">Ondersteuning</string>
     <string name="menu_restore">Herstel</string>
     <string name="force_stop">Forseer om te stop</string>

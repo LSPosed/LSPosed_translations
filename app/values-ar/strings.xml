@@ -113,7 +113,7 @@
     <string name="module_is_not_activated_yet">إضافة Xposed لم يتم تفعيلها بعد</string>
     <string name="requested_by_module">الموصى به</string>
     <string name="update_available">يتوفر تحديث: %1$s</string>
-    <string name="android_framework">النظام</string>
+    <string name="system_services">خدمات النظام</string>
     <string name="menu_backup">إنشاء</string>
     <string name="menu_restore">استعادة</string>
     <string name="force_stop">إيقاف إجباري</string>

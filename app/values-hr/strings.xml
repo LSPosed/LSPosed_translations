@@ -105,7 +105,7 @@
     <string name="module_is_not_activated_yet">Xposed modul još nije aktiviran</string>
     <string name="requested_by_module">Preporučeno</string>
     <string name="update_available">Dostupno ažuriranje: %1$s</string>
-    <string name="android_framework">System Framework</string>
+    <string name="system_services">Sistemske usluge</string>
     <string name="menu_backup">Sigurnosna kopija</string>
     <string name="menu_restore">Vrati sigurnosnu kopiju</string>
     <string name="force_stop">Prisilno zaustavi</string>

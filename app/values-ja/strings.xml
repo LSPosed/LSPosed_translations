@@ -121,7 +121,7 @@
     <string name="module_is_not_activated_yet">Xposed モジュールが有効化されていません</string>
     <string name="requested_by_module">おすすめ</string>
     <string name="update_available">アップデート可能: %1$s</string>
-    <string name="android_framework">システムフレームワーク</string>
+    <string name="system_services">システムサービス</string>
     <string name="menu_backup">バックアップ</string>
     <string name="menu_restore">復元</string>
     <string name="force_stop">強制停止</string>

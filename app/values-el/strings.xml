@@ -105,7 +105,7 @@
     <string name="module_is_not_activated_yet">Το Xposed πρόσθετο δεν έχει ενεργοποιηθεί ακόμα</string>
     <string name="requested_by_module">Προτεινόμενο</string>
     <string name="update_available">Διαθέσιμη ενημέρωση: %1$s</string>
-    <string name="android_framework">Πλαίσιο Συστήματος</string>
+    <string name="system_services">Υπηρεσίες συστήματος</string>
     <string name="menu_backup">Αντίγραφα Ασφαλείας</string>
     <string name="menu_restore">Επαναφορά</string>
     <string name="force_stop">Αναγκαστική διακοπή</string>

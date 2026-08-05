@@ -124,7 +124,7 @@
 <string name="module_is_not_activated_yet">Xposed مودۇلى تېخى ئاكتىپلاشتۇرۇلمىغان</string>
 <string name="requested_by_module">تەۋسىيە قىلىنغان</string>
 <string name="update_available">يېڭىلانما بار: %1$s</string>
-<string name="android_framework">سىستېما قۇرۇلمىسى</string>
+<string name="system_services">سىستېما مۇلازىمەتلىرى</string>
 <string name="menu_backup">زاپاسلاش</string>
 <string name="menu_restore">ئەسلىگە كەلتۈرۈش</string>
 <string name="force_stop">مەجبۇرىي توختىتىش</string>

@@ -105,7 +105,7 @@
     <string name="module_is_not_activated_yet">एक्सपोज़ड मॉड्यूल अभी तक सक्रिय नहीं है</string>
     <string name="requested_by_module">अनुशंसित</string>
     <string name="update_available">अपडेट उपलब्ध: %1$s</string>
-    <string name="android_framework">सिस्टम फ्रेमवर्क</string>
+    <string name="system_services">सिस्टम सेवाएँ</string>
     <string name="menu_backup">बैकअप</string>
     <string name="menu_restore">पुनर्स्थापित करना</string>
     <string name="force_stop">जबर्दस्ती बंद करें</string>

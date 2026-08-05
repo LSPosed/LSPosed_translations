@@ -8,7 +8,7 @@
     <string name="xposed_module_updated_notification_title">Xposed module updated</string>
     <string name="xposed_module_updated_notification_title_system">Xposed module updated, system reboot required</string>
     <string name="xposed_module_updated_notification_content">%s has been updated, please force stop and restart apps in its scope</string>
-    <string name="xposed_module_updated_notification_content_system">%s has been updated, since the scope contains System Framework, required reboot to apply changes</string>
+    <string name="xposed_module_updated_notification_content_system">%s has been updated, since the scope contains System Services, required reboot to apply changes</string>
     <string name="xposed_module_updated_notification_reload">%1$s has been updated, %2$s</string>
     <string name="xposed_module_updated_notification_reload_none">%s has been updated</string>
     <plurals name="xposed_module_updated_notification_reload_reloaded">

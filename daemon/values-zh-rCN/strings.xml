@@ -8,7 +8,7 @@
     <string name="xposed_module_updated_notification_title">Xposed 模块已更新</string>
     <string name="xposed_module_updated_notification_title_system">Xposed 模块已更新，需要重新启动</string>
     <string name="xposed_module_updated_notification_content">%s 已更新，请强行停止并重新打开其作用域内的应用</string>
-    <string name="xposed_module_updated_notification_content_system">%s 已更新，由于作用域包含系统框架，需重启以应用更改</string>
+    <string name="xposed_module_updated_notification_content_system">%s 已更新，由于作用域包含系统服务，需重启以应用更改</string>
     <string name="xposed_module_updated_notification_reload">%1$s 已更新，%2$s</string>
     <string name="xposed_module_updated_notification_reload_none">%s 已更新</string>
     <plurals name="xposed_module_updated_notification_reload_reloaded">

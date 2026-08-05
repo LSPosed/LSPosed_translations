@@ -105,7 +105,7 @@
     <string name="module_is_not_activated_yet">Moduł Xposed nie jest jeszcze aktywowany</string>
     <string name="requested_by_module">Zalecane</string>
     <string name="update_available">Dostępna aktualizacja: %1$s</string>
-    <string name="android_framework">System Framework</string>
+    <string name="system_services">Usługi systemowe</string>
     <string name="menu_backup">Kopia zapasowa</string>
     <string name="menu_restore">Przywróć</string>
     <string name="force_stop">Wymuś zatrzymanie</string>

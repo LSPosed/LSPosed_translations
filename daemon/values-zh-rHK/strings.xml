@@ -8,7 +8,7 @@
     <string name="xposed_module_updated_notification_title">Xposed 模組更新咗</string>
     <string name="xposed_module_updated_notification_title_system">Xposed 模組更新咗，需要重啟系統</string>
     <string name="xposed_module_updated_notification_content">%s 更新咗，請強制停止並重開佢作用範圍內嘅 App</string>
-    <string name="xposed_module_updated_notification_content_system">%s 更新咗，因為作用範圍包埋系統框架，需要重啟先會生效。</string>
+    <string name="xposed_module_updated_notification_content_system">%s 更新咗，因為作用範圍包埋系統服務，需要重啟先會生效。</string>
     <string name="xposed_module_updated_notification_action_enable">啟用模組</string>
     <string name="module_updated_channel_name">模組更新完成</string>
     <string name="status_channel_name">LSPosed 狀態</string>

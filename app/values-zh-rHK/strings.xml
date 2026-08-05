@@ -35,7 +35,7 @@
     <string name="not_install_summary">未安裝 LSPosed</string>
     <string name="activated">已啟用</string>
     <string name="partial_activated">部分啟用</string>
-    <string name="system_inject_fail_summary">系統注入失敗</string>
+    <string name="system_inject_fail_summary">系統服務注入失敗</string>
     <string name="system_inject_fail"><![CDATA[這是極罕見嘅情況，可能係由 <b>Magisk</b> 或者質素差嘅 Magisk 模組導致，<br/>請嘗試停用除咗 Zygisk 同 LSPosed 以外嘅 Magisk 模組，或者向開發人員提供完整日誌 (Log)。]]></string>
     <string name="system_prop_incorrect_summary">系統屬性異常</string>
     <string name="system_prop_incorrect"><![CDATA[部分必須嘅系統屬性俾人刪除或修改咗，<br/>模組可能會隨機失效。]]></string>
@@ -122,7 +122,7 @@
     <string name="module_is_not_activated_yet">Xposed 模組仲未啟用</string>
     <string name="requested_by_module">推薦應用程式</string>
     <string name="update_available">可用更新：%1$s</string>
-    <string name="android_framework">系統框架</string>
+    <string name="system_services">系統服務</string>
     <string name="menu_backup">備份</string>
     <string name="menu_restore">還原</string>
     <string name="force_stop">強制停止</string>
