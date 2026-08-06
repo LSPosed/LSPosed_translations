@@ -105,7 +105,7 @@
     <string name="module_is_not_activated_yet">Xposed modul ještě není aktivován</string>
     <string name="requested_by_module">Doporučené</string>
     <string name="update_available">Je k dispozici aktualizace: %1$s</string>
-    <string name="android_framework">Systémový Framework</string>
+    <string name="system_services">Systémové služby</string>
     <string name="menu_backup">Zálohovat</string>
     <string name="menu_restore">Obnovení</string>
     <string name="force_stop">Vynutit zastavení</string>

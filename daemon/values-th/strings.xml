@@ -8,7 +8,7 @@
     <string name="xposed_module_updated_notification_title">โมดูล Xposed อัปเดตแล้ว</string>
     <string name="xposed_module_updated_notification_title_system">อัปเดตโมดูล Xposed จำเป็นต้องรีสตาร์ทเครื่อง</string>
     <string name="xposed_module_updated_notification_content">%s ได้รับการอัปเดตแล้ว โปรดบังคับหยุดและรีสตาร์ทแอปที่อยู่ใน Scope.</string>
-    <string name="xposed_module_updated_notification_content_system">%s ได้รับการอัปเดตแล้ว เนื่องจาก Scope มี System Framework จึงจำเป็นต้องรีสตาร์ทเครื่องเพื่อใช้การเปลี่ยนแปลง</string>
+    <string name="xposed_module_updated_notification_content_system">%s ได้รับการอัปเดตแล้ว เนื่องจาก Scope มีบริการระบบ จึงจำเป็นต้องรีสตาร์ทเครื่องเพื่อใช้การเปลี่ยนแปลง</string>
     <string name="module_updated_channel_name">การอัปเดตโมดูลเสร็จสมบูรณ์</string>
     <string name="status_channel_name">สถานะ LSPosed</string>
     <string name="lsposed_running_notification_title">LSPosed โหลดแล้ว</string>

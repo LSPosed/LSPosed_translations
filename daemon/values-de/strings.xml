@@ -8,7 +8,7 @@
     <string name="xposed_module_updated_notification_title">Xposed-Modul aktualisiert</string>
     <string name="xposed_module_updated_notification_title_system">Xposed-Modul aktualisiert, Systemneustart erforderlich</string>
     <string name="xposed_module_updated_notification_content">%s wurde aktualisiert, bitte Stopp erzwingen und die Apps in deren Scope neu starten</string>
-    <string name="xposed_module_updated_notification_content_system">%s wurde aktualisiert, da der Geltungsbereich System-Framework enthält, ist ein Neustart erforderlich, damit die Änderungen übernommen werden</string>
+    <string name="xposed_module_updated_notification_content_system">%s wurde aktualisiert, da der Geltungsbereich Systemdienste enthält, ist ein Neustart erforderlich, damit die Änderungen übernommen werden</string>
     <string name="module_updated_channel_name">Modulaktualisierung abgeschlossen</string>
     <string name="status_channel_name">LSPosed-Status</string>
     <string name="lsposed_running_notification_title">LSPosed geladen</string>

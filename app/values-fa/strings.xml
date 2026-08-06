@@ -105,7 +105,7 @@
     <string name="module_is_not_activated_yet">ماژول Xposed هنوز فعال نشده</string>
     <string name="requested_by_module">توصیه شده</string>
     <string name="update_available">به روز رسانی موجود است : %1$s</string>
-    <string name="android_framework">فریمورک سیستم</string>
+    <string name="system_services">سرویس‌های سیستم</string>
     <string name="menu_backup">پشتیبان گیری</string>
     <string name="menu_restore">بازگردانی</string>
     <string name="force_stop">توقف اجباری</string>

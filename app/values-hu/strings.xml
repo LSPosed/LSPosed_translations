@@ -106,7 +106,7 @@
     <string name="module_is_not_activated_yet">Az Xposed modul még nincs aktiválva</string>
     <string name="requested_by_module">Ajánlott</string>
     <string name="update_available">Frissítés elérhető: %1$s</string>
-    <string name="android_framework">Rendszer keretrendszer</string>
+    <string name="system_services">Rendszerszolgáltatások</string>
     <string name="menu_backup">Biztonsági mentés</string>
     <string name="menu_restore">Visszaállítás</string>
     <string name="force_stop">Erőszakos megállás</string>

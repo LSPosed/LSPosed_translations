@@ -106,7 +106,7 @@ https://github.com/tclement0922</string>
     <string name="module_is_not_activated_yet">Le module Xposed n\’est pas encore activé</string>
     <string name="requested_by_module">Recommandé</string>
     <string name="update_available">Mise à jour disponible : %1$s</string>
-    <string name="android_framework">Cadre du sous-système</string>
+    <string name="system_services">Services système</string>
     <string name="menu_backup">Sauvegarder</string>
     <string name="menu_restore">Restaurer</string>
     <string name="force_stop">Forcer l\’arrêt</string>

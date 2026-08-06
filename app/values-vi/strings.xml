@@ -118,7 +118,7 @@
     <string name="module_is_not_activated_yet">Mô-đun Xposed chưa được kích hoạt.</string>
     <string name="requested_by_module">Khuyến nghị</string>
     <string name="update_available">Bản cập nhật khả dụng: %1$s</string>
-    <string name="android_framework">Framework Hệ thống</string>
+    <string name="system_services">Dịch vụ hệ thống</string>
     <string name="menu_backup">Sao lưu</string>
     <string name="menu_restore">Khôi phục</string>
     <string name="force_stop">Buộc dừng</string>

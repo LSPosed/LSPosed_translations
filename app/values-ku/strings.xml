@@ -95,7 +95,7 @@
     <string name="module_is_not_activated_yet">Modula Xposed hîn nehatiye çalak kirin</string>
     <string name="requested_by_module">Pêşniyar kirin</string>
     <string name="update_available">Nûvekirin heye: %1$s</string>
-    <string name="android_framework">Çarçoveya Sîstemê</string>
+    <string name="system_services">Xizmetên pergalê</string>
     <string name="menu_backup">Backup</string>
     <string name="force_stop">Bi zorê rawestandin</string>
     <string name="force_stop_dlg_title">Rawestandina zorê?</string>

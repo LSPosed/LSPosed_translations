@@ -105,7 +105,7 @@
     <string name="module_is_not_activated_yet">Xposed মডিউল এখনও সক্রিয় করা হয় নি</string>
     <string name="requested_by_module">প্রস্তাবিত</string>
     <string name="update_available">আপডেট উপলব্ধ: %1$s</string>
-    <string name="android_framework">সিস্টেম ফ্রেমওয়ার্ক</string>
+    <string name="system_services">সিস্টেম পরিষেবা</string>
     <string name="menu_backup">ব্যাকআপ</string>
     <string name="menu_restore">পুনরুদ্ধার করুন</string>
     <string name="force_stop">জোরপুর্বক থামা</string>

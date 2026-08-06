@@ -104,7 +104,7 @@
     <string name="module_is_not_activated_yet">Modul Xposed ešte nie je aktivovaný</string>
     <string name="requested_by_module">Odporúčané stránky</string>
     <string name="update_available">Dostupná aktualizácia: %1$s</string>
-    <string name="android_framework">Systémový rámec</string>
+    <string name="system_services">Systémové služby</string>
     <string name="menu_backup">Zálohovanie</string>
     <string name="menu_restore">Obnovenie</string>
     <string name="force_stop">Vynútiť zastavenie</string>

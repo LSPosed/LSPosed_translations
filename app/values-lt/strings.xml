@@ -105,7 +105,7 @@
     <string name="module_is_not_activated_yet">Xposed modulis dar nėra aktyvuotas</string>
     <string name="requested_by_module">Rekomenduojama</string>
     <string name="update_available">Galimas atnaujinimas: %1$s</string>
-    <string name="android_framework">Sistemos sistema</string>
+    <string name="system_services">Sistemos paslaugos</string>
     <string name="menu_backup">Atsarginė kopija</string>
     <string name="menu_restore">Atkurti</string>
     <string name="force_stop">Priverstinis sustabdymas</string>

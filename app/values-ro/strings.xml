@@ -105,7 +105,7 @@
     <string name="module_is_not_activated_yet">Modulul Xposed nu este încă activat</string>
     <string name="requested_by_module">Recomandate</string>
     <string name="update_available">Actualizare disponibilă: %1$s</string>
-    <string name="android_framework">System Framework</string>
+    <string name="system_services">Servicii de sistem</string>
     <string name="menu_backup">Copie de rezervă</string>
     <string name="menu_restore">Restaurează</string>
     <string name="force_stop">Oprește forțat</string>

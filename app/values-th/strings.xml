@@ -104,7 +104,7 @@
     <string name="module_is_not_activated_yet">โมดูล Xposed ยังไม่ได้เปิดใช้งาน</string>
     <string name="requested_by_module">ที่แนะนำ</string>
     <string name="update_available">มีการอัปเดต: %1$s</string>
-    <string name="android_framework">กรอบงานระบบ</string>
+    <string name="system_services">บริการระบบ</string>
     <string name="menu_backup">สำรอง</string>
     <string name="menu_restore">คืนค่า</string>
     <string name="force_stop">บังคับหยุด</string>

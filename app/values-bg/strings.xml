@@ -103,7 +103,7 @@
     <string name="module_is_not_activated_yet">Модулът Xposed все още не е активиран</string>
     <string name="requested_by_module">Препоръчителен</string>
     <string name="update_available">Налична е актуализация: %1$s</string>
-    <string name="android_framework">Рамка на системата</string>
+    <string name="system_services">Системни услуги</string>
     <string name="menu_backup">Резервно копие</string>
     <string name="menu_restore">Възстановяване на</string>
     <string name="force_stop">Спиране на силата</string>

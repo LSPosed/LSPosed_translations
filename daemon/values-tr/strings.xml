@@ -8,7 +8,7 @@
     <string name="xposed_module_updated_notification_title">Xposed modülü güncellendi</string>
     <string name="xposed_module_updated_notification_title_system">Xposed modülü güncellendi, sistem yeniden başlatma gerekiyor</string>
     <string name="xposed_module_updated_notification_content">%s güncellendi, lütfen kapsamındaki uygulamaları zorla durdurup yeniden başlatın.</string>
-    <string name="xposed_module_updated_notification_content_system">%s güncellendi. Kapsamı Sistem Çerçevesi içerdiği için değişikliklerin uygulanması için yeniden başlatın.</string>
+    <string name="xposed_module_updated_notification_content_system">%s güncellendi. Kapsamı sistem hizmetleri içerdiği için değişikliklerin uygulanması için yeniden başlatın.</string>
     <string name="xposed_module_updated_notification_reload">%1$s güncellendi, %2$s</string>
     <string name="xposed_module_updated_notification_reload_none">%s güncellendi</string>
     <plurals name="xposed_module_updated_notification_reload_reloaded">

@@ -7,7 +7,7 @@
     <string name="xposed_module_updated_notification_title">تم تحديث إضافة Xposed</string>
     <string name="xposed_module_updated_notification_title_system">تم تحديث إضافة Xposed، إعادة التشغيل مطلوبة</string>
     <string name="xposed_module_updated_notification_content">تم تحديث %s، يرجى عمل إيقاف إجباري للتطبيقات المجال ثم قم بإعادة تشغيلها.</string>
-    <string name="xposed_module_updated_notification_content_system">تم تحديث %s، بما ان System Framework تم تحديده كمجال، ستكون إعادة التشغيل مطلوبة لتنفيذ التغيرات</string>
+    <string name="xposed_module_updated_notification_content_system">تم تحديث %s، بما أن النطاق يتضمن خدمات النظام، ستكون إعادة التشغيل مطلوبة لتطبيق التغييرات</string>
     <string name="xposed_module_enabled_notification_title">تم تفعيل إضافة Xposed</string>
     <string name="xposed_module_enabled_notification_content">تم تفعيل %s، اضغط لإعداد المجال</string>
     <string name="xposed_module_updated_notification_action_enable">تفعيل الإضافة</string>

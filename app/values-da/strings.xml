@@ -104,7 +104,7 @@
     <string name="module_is_not_activated_yet">Xposed modul er endnu ikke aktiveret</string>
     <string name="requested_by_module">Anbefalet</string>
     <string name="update_available">Opdatering tilgængelig: %1$s</string>
-    <string name="android_framework">System Framework</string>
+    <string name="system_services">Systemtjenester</string>
     <string name="menu_backup">Sikkerhedskopi</string>
     <string name="menu_restore">Gendan</string>
     <string name="force_stop">Gennemtving stop</string>
