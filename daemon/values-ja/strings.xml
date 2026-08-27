@@ -2,21 +2,51 @@
 <resources>
     <!-- Notification -->
     <string name="list_separator">、</string>
-    <string name="module_is_not_activated_yet">Xposedモジュールが有効化されていません</string>
+    <string name="module_is_not_activated_yet">Xposed モジュールが有効化されていません</string>
     <string name="module_is_not_activated_yet_main_user_detailed">%1$s はインストールされましたが､ 有効化されていません</string>
-    <string name="module_is_not_activated_yet_multi_user_detailed">%1$s は ユーザー %2$sにインストールされましたが､ 有効化されていません</string>
-    <string name="xposed_module_updated_notification_title">Xposedモジュールが更新されました</string>
-    <string name="xposed_module_updated_notification_title_system">Xposedモジュールを更新しました。システム再起動が必要です</string>
+    <string name="module_is_not_activated_yet_multi_user_detailed">%1$s は ユーザー %2$s にインストールされましたが､ 有効化されていません</string>
+    <string name="xposed_module_updated_notification_title">Xposed モジュールが更新されました</string>
+    <string name="xposed_module_updated_notification_title_system">Xposed モジュールが更新されました。システム再起動が必要です</string>
     <string name="xposed_module_updated_notification_content">%s が更新されました。スコープ内のアプリを強制停止してから再起動してください</string>
     <string name="xposed_module_updated_notification_content_system">%s が更新されました。スコープにシステムフレームワークが含まれているため、変更を適用するには再起動が必要です</string>
+    <string name="xposed_module_updated_notification_reload">%1$s が更新されました。%2$s</string>
+    <string name="xposed_module_updated_notification_reload_none">%s が更新されました</string>
+    <plurals name="xposed_module_updated_notification_reload_reloaded">
+        <item quantity="other">%d 個のプロセスがホットリロードされました</item>
+    </plurals>
+    <plurals name="xposed_module_updated_notification_reload_reloading">
+        <item quantity="other">%d 個のプロセスがホットリロード中</item>
+    </plurals>
+    <plurals name="xposed_module_updated_notification_reload_failed">
+        <item quantity="other">%d 個のプロセスのホットリロードに失敗しました</item>
+    </plurals>
+    <string name="xposed_module_enabled_notification_title">Xposed モジュールが有効化されました</string>
+    <string name="xposed_module_enabled_notification_content">%s が有効化されました。スコープを設定するにはタップしてください</string>
+    <string name="xposed_module_updated_notification_action_enable">モジュールを有効化</string>
     <string name="module_updated_channel_name">モジュールの更新完了</string>
     <string name="status_channel_name">LSPosed ステータス</string>
     <string name="lsposed_running_notification_title">LSPosed ロード完了</string>
     <string name="lsposed_running_notification_content">通知をタップするとマネージャーが開きます</string>
-    <string name="xposed_module_request_scope_title">スコープリクエスト</string>
-    <string name="xposed_module_request_scope_content">%1$s ユーザー %2$s が %3$s をスコープに追加することを要求している場合。</string>
-    <string name="scope_channel_name">スコープリクエスト</string>
-    <string name="scope_approve">承認する</string>
-    <string name="scope_deny">否定する</string>
-    <string name="nerver_ask_again">ネバーアスク</string>
+    <string name="xposed_module_request_scope_title">スコープ要求</string>
+    <string name="xposed_module_request_scope_content">ユーザー %2$s 上の %1$s が、%3$s をスコープに追加することを要求しています。</string>
+    <string name="xposed_module_request_scope_content_batch">ユーザー %2$s 上の %1$s が、以下のアプリをスコープに追加することを要求しています。</string>
+    <string name="scope_channel_name">スコープ要求</string>
+    <string name="scope_approve">承認</string>
+    <string name="scope_deny">否認</string>
+    <string name="nerver_ask_again">今後確認しない</string>
+    <string name="lsposed_safemode_notification_title">LSPosed はセーフモード中</string>
+    <string name="lsposed_safemode_notification_content">次回の再起動まで、すべての Xposed モジュールは有効化できません</string>
+    <string name="safe_mode_disable_all_modules">すべてのモジュールを無効化</string>
+    <string name="lsposed_safemode_cleared_notification_title">すべてのモジュールが無効化されました</string>
+    <plurals name="lsposed_safemode_cleared_notification_content">
+        <item quantity="other">%d 個のモジュールが無効化されました</item>
+    </plurals>
+    <string name="lsposed_safemode_clear_confirm_notification_title">モジュールを無効化しますか？</string>
+    <plurals name="lsposed_safemode_clear_confirm_notification_content">
+        <item quantity="other">%d 個のモジュールが無効化されます\nこの操作は元に戻せません</item>
+    </plurals>
+    <string name="safe_mode_reboot">再起動</string>
+    <string name="safe_mode_channel_name">セーフモード</string>
+    <string name="safe_mode_open_manager">マネージャーを開く</string>
+    <string name="safe_mode_back">戻る</string>
 </resources>
