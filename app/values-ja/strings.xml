@@ -87,7 +87,6 @@
     <string name="warning_target_version_higher">このモジュールは新しい Xposed バージョン（%d）用に設計されているため、一部の機能が動作しない場合があります</string>
     <string name="no_min_version_specified">このモジュールは必要な Xposed のバージョンを指定していません。</string>
     <string name="warning_min_version_too_low">このモジュールは Xposed バージョン %1$d 向けに開発されましたが、%2$d での互換性のない変更により無効化されています</string>
-    <string name="warning_installed_on_external_storage">このモジュールは SD カード上にインストールされているため読み込めません。内部ストレージに移動してください</string>
     <string name="warning_deprecated_feature">このモジュールは、まもなく廃止される機能を使用しています。作者に連絡するか、代替手段を検討してください。</string>
     <string name="warning_installed_on_external_storage">このモジュールは SD カード上にインストールされているため読み込めません。内部ストレージに移動してください</string>
     <string name="module_uninstall">アンインストール</string>
