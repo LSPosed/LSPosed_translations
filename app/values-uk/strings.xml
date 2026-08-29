@@ -74,6 +74,7 @@
     <string name="warning_target_version_higher">Цей модуль розроблено для новішої версії Xposed (%d), тому деякі функції можуть не працювати</string>
     <string name="no_min_version_specified">У цьому модулі не вказано необхідну для нього версію Xposed.</string>
     <string name="warning_min_version_too_low">Цей модуль був створений для Xposed версії %1$d, але через несумісні зміни у версії %2$d його було вимкнено</string>
+    <string name="warning_deprecated_feature">Цей модуль використовує функцію, яку незабаром буде визнано застарілою. Зв’яжіться з автором або розгляньте альтернативу.</string>
     <string name="warning_installed_on_external_storage">Цей модуль не може бути завантажений, оскільки він встановлений на SD-карті. Будь ласка, перенесіть його у внутрішню пам’ять</string>
     <string name="module_uninstall">Видалити</string>
     <string name="module_settings">Налаштування модуля</string>

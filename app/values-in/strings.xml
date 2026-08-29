@@ -85,6 +85,7 @@
     <string name="warning_target_version_higher">Modul ini dirancang untuk versi Xposed yang lebih baru (%d) sehingga beberapa fungsi mungkin tidak berfungsi</string>
     <string name="no_min_version_specified">Modul ini tidak menentukan versi Xposed yang diperlukan</string>
     <string name="warning_min_version_too_low">Modul ini dibuat untuk Xposed versi %1$d, tetapi karena perubahan yang tidak kompatibel pada versi %2$d, telah dinonaktifkan.</string>
+    <string name="warning_deprecated_feature">Modul ini menggunakan fitur yang akan segera dihentikan. Hubungi pengembangnya atau pertimbangkan alternatif lain.</string>
     <string name="warning_installed_on_external_storage">Modul ini tidak dapat dimuat karena terpasang di kartu SD, harap pindahkan ke penyimpanan internal.</string>
     <string name="module_uninstall">Hapus</string>
     <string name="module_settings">Setelan modul</string>

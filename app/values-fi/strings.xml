@@ -73,6 +73,7 @@
     <string name="warning_target_version_higher">Tämä moduuli on suunniteltu uudemmalle Xposed-versiolle (%d), joten jotkin toiminnot eivät välttämättä toimi.</string>
     <string name="no_min_version_specified">Tämä moduuli ei määrittele tarvitsemaansa Xposed versiota.</string>
     <string name="warning_min_version_too_low">Tämä moduuli on luotu Xposed versiolle %1$d, mutta koska versiossa %2$don tehty yhteensopimattomia muutoksia, se on poistettu käytöstä</string>
+    <string name="warning_deprecated_feature">Tämä moduuli käyttää ominaisuutta, joka poistuu pian käytöstä. Ota yhteyttä tekijään tai harkitse vaihtoehtoa.</string>
     <string name="warning_installed_on_external_storage">Tätä moduulia ei voi ladata, koska se on asennettu SD-kortille, siirrä se sisäiseen tallennustilaan</string>
     <string name="module_uninstall">Poista</string>
     <string name="module_settings">Moduulin asetukset</string>

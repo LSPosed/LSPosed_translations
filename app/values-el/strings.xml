@@ -74,6 +74,7 @@
     <string name="warning_target_version_higher">Αυτή η ενότητα έχει σχεδιαστεί για μια νεότερη έκδοση Xposed (%d) και ως εκ τούτου ορισμένες λειτουργίες ενδέχεται να μην λειτουργούν.</string>
     <string name="no_min_version_specified">Αυτό το ένθεμα δεν καθορίζει την έκδοση Xposed που χρειάζεται.</string>
     <string name="warning_min_version_too_low">Αυτό το ένθεμα δημιουργήθηκε για την έκδοση Xposed %1$d, αλλά λόγω μη συμβατών αλλαγών στην έκδοση %2$d, έχει απενεργοποιηθεί</string>
+    <string name="warning_deprecated_feature">Αυτό το ένθεμα χρησιμοποιεί μια λειτουργία που σύντομα θα καταργηθεί. Επικοινωνήστε με τον δημιουργό ή εξετάστε μια εναλλακτική λύση.</string>
     <string name="warning_installed_on_external_storage">Αυτό το πρόσθετο δεν μπορεί να φορτωθεί επειδή είναι εγκατεστημένο στην κάρτα SD, παρακαλώ μετακινήστε το στον εσωτερικό αποθηκευτικό χώρο</string>
     <string name="module_uninstall">Απεγκατάσταση</string>
     <string name="module_settings">Ρυθμίσεις πρόσθετου</string>

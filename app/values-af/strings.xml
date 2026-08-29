@@ -66,6 +66,7 @@
     <string name="warning_target_version_higher">This module is designed for a newer Xposed version (%d) and thus some functionalities may not work</string>
     <string name="no_min_version_specified">Hierdie module spesifiseer nie die Xposed-weergawe wat dit benodig nie.</string>
     <string name="warning_min_version_too_low">Hierdie module is geskep vir Xposed weergawe %1$d, maar as gevolg van onversoenbare veranderinge in weergawe %2$d, is dit gedeaktiveer</string>
+    <string name="warning_deprecated_feature">Hierdie module gebruik ’n funksie wat binnekort uitgefaseer sal word. Kontak die outeur of oorweeg ’n alternatief.</string>
     <string name="warning_installed_on_external_storage">Hierdie module kan nie gelaai word nie omdat dit op die SD-kaart geïnstalleer is, skuif dit asseblief na interne berging</string>
     <string name="module_uninstall">Deïnstalleer</string>
     <string name="module_settings">Module enabled</string>

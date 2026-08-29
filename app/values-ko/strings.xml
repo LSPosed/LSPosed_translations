@@ -84,6 +84,7 @@
     <string name="warning_target_version_higher">이 모듈은 더 새로운 Xposed 버전(%d)을 기준으로 만들어져 일부 기능이 동작하지 않을 수 있습니다</string>
     <string name="no_min_version_specified">이 모듈은 필요한 Xposed 버전을 지정하지 않았습니다.</string>
     <string name="warning_min_version_too_low">이 모듈은 Xposed 버전 %1$d용으로 만들어졌지만, 버전 %2$d의 비호환 변경으로 인해 비활성화되었습니다</string>
+    <string name="warning_deprecated_feature">이 모듈은 곧 지원 중단될 기능을 사용합니다. 작성자에게 문의하거나 대체 방안을 고려하세요.</string>
     <string name="warning_installed_on_external_storage">이 모듈은 SD 카드에 설치되어 있어 로드할 수 없습니다. 내부 저장소로 옮겨 주세요</string>
     <string name="module_uninstall">제거</string>
     <string name="module_settings">모듈 설정</string>

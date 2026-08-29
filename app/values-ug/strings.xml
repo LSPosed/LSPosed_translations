@@ -87,6 +87,7 @@
 <string name="warning_target_version_higher">بۇ مودۇل تېخىمۇ يېڭى Xposed نۇسخىسى (%d) ئۈچۈن لايىھەلەنگەن، شۇڭا بەزى ئىقتىدارلار ئىشلىمەسلىكى مۇمكىن</string>
 <string name="no_min_version_specified">بۇ مودۇل ئۆزىگە كېرەكلىك Xposed نۇسخىسىنى بەلگىلەپ بەرمىگەن</string>
 <string name="warning_min_version_too_low">بۇ مودۇل Xposed نۇسخىسى %1$d ئۈچۈن ياسالغان، ئەمما %2$d نۇسخىسىدىكى ماس كەلمەيدىغان ئۆزگىرىشلەر سەۋەبىدىن ئۇ چەكلەنگەن</string>
+<string name="warning_deprecated_feature">بۇ مودۇل پات يېقىندا ئەمەلدىن قالدۇرۇلىدىغان ئىقتىدارنى ئىشلىتىدۇ. ئاپتور بىلەن ئالاقىلىشىڭ ياكى باشقا تاللاشنى ئويلىشىپ كۆرۈڭ.</string>
 <string name="warning_installed_on_external_storage">بۇ مودۇل SD كارتا ئۈستىگە قاچىلانغانلىقى ئۈچۈن يۈكلەنمەيدۇ، ئۇنى ئىچكى ساقلاش بوشلۇقىغا يۆتكەڭ</string>
 <string name="module_uninstall">قاچىلاشتىن چىقىرىش</string>
 <string name="module_settings">مودۇل تەڭشەكلىرى</string>

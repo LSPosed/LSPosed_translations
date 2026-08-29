@@ -87,6 +87,7 @@
     <string name="warning_target_version_higher">Bu modül daha yeni bir Xposed sürümü (%d) için tasarlanmıştır ve bu nedenle bazı işlevler çalışmayabilir</string>
     <string name="no_min_version_specified">Bu modül, ihtiyaç duyduğu Xposed sürümünü belirtmiyor.</string>
     <string name="warning_min_version_too_low">Bu modül Xposed %1$d sürümü için oluşturulmuş; ancak %2$d sürümündeki uyumsuz değişiklikler nedeniyle devre dışı bırakıldı.</string>
+    <string name="warning_deprecated_feature">Bu modül, yakında kullanımdan kaldırılacak bir özellik kullanıyor. Lütfen yazarla iletişime geçin veya bir alternatifi değerlendirin.</string>
     <string name="warning_installed_on_external_storage">Bu modül yüklenemiyor çünkü SD kartta yüklü, lütfen dahili depolama birimine taşıyın veya SD kart erişimine izin verin</string>
     <string name="module_uninstall">Kaldır</string>
     <string name="module_settings">Modül ayarları</string>

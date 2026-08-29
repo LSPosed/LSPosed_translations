@@ -73,6 +73,7 @@
     <string name="warning_target_version_higher">מודול זה מיועד לגרסה חדשה יותר של Xposed (%d) ולכן ייתכן שחלק מהפונקציונליות לא תופעל כהלכה</string>
     <string name="no_min_version_specified">מודול זה לא מציין את גסרת ה- LSPosed שהוא צריך.</string>
     <string name="warning_min_version_too_low">מודול זה נוצר בשביל LSPosed גרסה %1$d, אך בשל חוסר תאימות לאחור בגרסה %2$d, הוא הופסק</string>
+    <string name="warning_deprecated_feature">מודול זה משתמש בתכונה שתוצא משימוש בקרוב. יש לפנות למחבר או לשקול חלופה.</string>
     <string name="warning_installed_on_external_storage">מודול זה לא יכול להיטען מכיוון שהוא מותקן על כרטיס ה-SD, אנא העבר אותו לאחסון פנימי</string>
     <string name="module_uninstall">הסר התקנה</string>
     <string name="module_settings">הגדרות מודול</string>

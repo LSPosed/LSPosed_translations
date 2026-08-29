@@ -87,6 +87,7 @@
     <string name="warning_target_version_higher">Этот модуль разработан для более новой версии Xposed (%d), поэтому некоторые функции могут не работать</string>
     <string name="no_min_version_specified">Этот модуль не указал версию LSPosed, в которой он нуждается</string>
     <string name="warning_min_version_too_low">Этот модуль был создан для LSPosed версии %1$d, но из-за несовместимых изменений в версии %2$d, он был выключен</string>
+    <string name="warning_deprecated_feature">Этот модуль использует функцию, поддержка которой скоро будет прекращена. Свяжитесь с автором или рассмотрите альтернативу.</string>
     <string name="warning_installed_on_external_storage">Этот модуль не может быть загружен, потому что он установлен на SD-карте, переместите его во внутреннюю память</string>
     <string name="module_uninstall">Удалить</string>
     <string name="module_settings">Открыть настройки</string>

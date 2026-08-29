@@ -79,6 +79,7 @@
     <string name="warning_target_version_higher">هذه الإضافة مصممة لإصدار (%d) احدث من Xposed لذلك بعض خصائصها قد لا تعمل</string>
     <string name="no_min_version_specified">هذه الإضافة لا تذكر إصدار Xposed التي تتطلبها</string>
     <string name="warning_min_version_too_low">تم تصميم هذه الإضافة لـ Xposed إصدار %1$d، ولكن تم تعطيلها بسبب التغيرات الغير متوافقة مع إصدار %2$d</string>
+    <string name="warning_deprecated_feature">تستخدم هذه الإضافة ميزة سيتم إيقافها قريبًا. يُرجى التواصل مع المؤلف أو التفكير في استخدام بديل.</string>
     <string name="warning_installed_on_external_storage">لا يمكن تحميل هذه الإضافة بسبب تثبيتها في الذاكرة الخارجية، الرجاء نقل التطبيق إلى الذاكرة الداخلية</string>
     <string name="module_uninstall">إلغاء تثبيت</string>
     <string name="module_settings">خيارات الإضافة</string>

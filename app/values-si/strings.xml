@@ -73,6 +73,7 @@
     <string name="warning_target_version_higher">මෙම මොඩියුලය නවතම Xposed අනුවාදයක් සඳහා නිර්මාණය කර ඇත (%d) එබැවින් සමහර ක්‍රියාකාරීත්වයන් ක්‍රියා නොකරනු ඇත</string>
     <string name="no_min_version_specified">මෙම මොඩියුලය එයට අවශ්‍ය Xposed අනුවාදය සඳහන් නොකරයි.</string>
     <string name="warning_min_version_too_low">මෙම මොඩියුලය Xposed අනුවාදය %1$dසඳහා නිර්මාණය කරන ලද නමුත් %2$dඅනුවාදයේ නොගැලපෙන වෙනස්කම් හේතුවෙන් එය අක්‍රීය කර ඇත</string>
+    <string name="warning_deprecated_feature">මෙම මොඩියුලය ඉක්මනින් අත්හරින විශේෂාංගයක් භාවිත කරයි. කරුණාකර කර්තෘ අමතන්න හෝ විකල්පයක් සලකා බලන්න.</string>
     <string name="warning_installed_on_external_storage">මෙම මොඩියුලය SD පතෙහි ස්ථාපනය කර ඇති නිසා එය පූරණය කළ නොහැක, කරුණාකර එය අභ්‍යන්තර ආචයනය වෙත ගෙන යන්න</string>
     <string name="module_uninstall">අස්ථාපනය කරන්න</string>
     <string name="module_settings">මොඩියුල සැකසුම්</string>

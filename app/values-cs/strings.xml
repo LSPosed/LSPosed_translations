@@ -74,6 +74,7 @@
     <string name="warning_target_version_higher">Tento modul je určen pro novější verzi Xposed (%d), a proto některé funkce nemusí fungovat</string>
     <string name="no_min_version_specified">Tento modul nespecifikuje potřebnou Xposed verzi.</string>
     <string name="warning_min_version_too_low">Tento modul byl vytvořen pro Xposed verzi %1$d, a tak z důvodu nekompatibilních změn ve verzi %2$dbyl zakázán</string>
+    <string name="warning_deprecated_feature">Tento modul používá funkci, která bude brzy zastaralá. Kontaktujte autora nebo zvažte alternativu.</string>
     <string name="warning_installed_on_external_storage">Tento modul nelze načíst, protože je nainstalován na SD kartě, přesuňte jej na interní úložiště</string>
     <string name="module_uninstall">Odinstalovat</string>
     <string name="module_settings">Nastavení modulů</string>

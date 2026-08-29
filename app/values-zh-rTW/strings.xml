@@ -83,6 +83,7 @@
     <string name="warning_target_version_higher">此模組專為較新的 Xposed 版本 (%d) 而設計，因此某些功能可能無法運作</string>
     <string name="no_min_version_specified">該模組未指定需要的 Xposed 版本</string>
     <string name="warning_min_version_too_low">此模組適用於 %1$d 版本的 Xposed ，由於版本 %2$d 的變更導致的不相容，現已經停用此模組</string>
+    <string name="warning_deprecated_feature">此模組使用了即將棄用的功能，請聯絡作者或考慮替代方案</string>
     <string name="warning_installed_on_external_storage">由於此模組被安裝在 SD 卡中而無法載入，請將其移動到內部儲存空間</string>
     <string name="module_uninstall">解除安裝</string>
     <string name="module_settings">模組設定</string>

@@ -83,6 +83,7 @@
     <string name="warning_target_version_higher">Mô-đun này được thiết kế cho phiên bản Xposed mới hơn (%d) và do đó một số chức năng có thể không hoạt động</string>
     <string name="no_min_version_specified">Mô-đun này không chỉ định phiên bản Xposed cần thiết</string>
     <string name="warning_min_version_too_low">Mô-đun này được tạo cho phiên bản Xposed %1$d, nhưng do những thay đổi không tương thích trong phiên bản %2$d, nó đã bị tắt</string>
+    <string name="warning_deprecated_feature">Mô-đun này sử dụng một tính năng sắp bị ngừng hỗ trợ. Hãy liên hệ với tác giả hoặc cân nhắc một giải pháp thay thế.</string>
     <string name="warning_installed_on_external_storage">Mô-đun này không thể được tải vì nó được cài đặt trên thẻ SD, vui lòng chuyển nó sang bộ nhớ trong.</string>
     <string name="module_uninstall">Gỡ cài đặt</string>
     <string name="module_settings">Cài đặt mô-đun</string>

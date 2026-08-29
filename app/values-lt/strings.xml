@@ -74,6 +74,7 @@
     <string name="warning_target_version_higher">Šis modulis skirtas naujesnei \"Xposed\" versijai (%d), todėl kai kurios funkcijos gali neveikti.</string>
     <string name="no_min_version_specified">Šis modulis nenurodo jam reikalingos \"Xposed\" versijos.</string>
     <string name="warning_min_version_too_low">Šis modulis buvo sukurtas \"Xposed\" versijai %1$d, tačiau dėl nesuderinamų pakeitimų versijoje %2$d, jis buvo išjungtas.</string>
+    <string name="warning_deprecated_feature">Šis modulis naudoja funkciją, kurios palaikymas netrukus bus nutrauktas. Susisiekite su autoriumi arba apsvarstykite alternatyvą.</string>
     <string name="warning_installed_on_external_storage">Šio modulio negalima įkelti, nes jis įdiegtas SD kortelėje, perkelkite jį į vidinę saugyklą</string>
     <string name="module_uninstall">Pašalinti</string>
     <string name="module_settings">Modulio nustatymai</string>

@@ -74,6 +74,7 @@
     <string name="warning_target_version_higher">Ovaj modul je dizajniran za noviju verziju Xposed (%d) i stoga neke funkcije možda neće raditi</string>
     <string name="no_min_version_specified">Ovaj modul ne navodi verziju Xposed koja mu je potrebna.</string>
     <string name="warning_min_version_too_low">Ovaj modul je stvoren za Xposed verziju %1$d, zbog nekompatibilnih promjena u verziji %2$d, modul je onemogućen</string>
+    <string name="warning_deprecated_feature">Ovaj modul koristi značajku koja će uskoro biti zastarjela. Obratite se autoru ili razmotrite alternativu.</string>
     <string name="warning_installed_on_external_storage">Ovaj modul nije moguće učitati jer je instaliran na SD kartici, molimo premjestite ga u internu memoriju</string>
     <string name="module_uninstall">Deinstaliraj</string>
     <string name="module_settings">Postavke modula</string>

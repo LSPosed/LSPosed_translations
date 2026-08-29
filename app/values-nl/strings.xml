@@ -74,6 +74,7 @@
     <string name="warning_target_version_higher">Deze module is ontworpen voor een nieuwere Xposed-versie (%d) en daarom werken sommige functionaliteiten mogelijk niet</string>
     <string name="no_min_version_specified">Deze module heeft geen vereiste versie voor Xposed opgegeven.</string>
     <string name="warning_min_version_too_low">Deze module is gemaakt voor de Lsposed-versie %1$d, maar vanwege onverenigbare wijzigingen in de versie %2$d, is het uitgeschakeld</string>
+    <string name="warning_deprecated_feature">Deze module gebruikt een functie die binnenkort wordt uitgefaseerd. Neem contact op met de auteur of overweeg een alternatief.</string>
     <string name="warning_installed_on_external_storage">Deze module kan niet worden geladen omdat deze op de SD-kaart is geïnstalleerd. Verplaats deze naar de interne opslag</string>
     <string name="module_uninstall">Verwijderen</string>
     <string name="module_settings">Module instellingen</string>

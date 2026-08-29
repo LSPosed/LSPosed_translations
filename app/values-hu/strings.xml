@@ -75,6 +75,7 @@
     <string name="warning_target_version_higher">Ez a modul egy újabb Xposed verzióhoz készült (%d), ezért előfordulhat, hogy egyes funkciók nem működnek</string>
     <string name="no_min_version_specified">Ez a modul nem határoz meg szükséges Xposed verziót.</string>
     <string name="warning_min_version_too_low">Ez a modul az Xposed %1$dverziójához készült, de a %2$dverzióban bekövetkezett inkompatibilis változások miatt letiltásra került.</string>
+    <string name="warning_deprecated_feature">Ez a modul egy hamarosan elavulttá váló funkciót használ. Lépjen kapcsolatba a szerzővel, vagy fontoljon meg egy alternatívát.</string>
     <string name="warning_installed_on_external_storage">Ez a modul nem tölthető be, mert az SD-kártyára van telepítve, kérjük, helyezze át a belső tárhelyre.</string>
     <string name="module_uninstall">Eltávolítás</string>
     <string name="module_settings">Modul beállítások</string>

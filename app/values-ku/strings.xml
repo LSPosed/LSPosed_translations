@@ -64,6 +64,7 @@
     <string name="warning_target_version_higher">Ev modul ji bo guhertoyek nû ya Xposed (%d) hatî çêkirin û ji ber vê yekê dibe ku hin fonksiyon nexebitin</string>
     <string name="no_min_version_specified">Ev modul guhertoya Xposed ya ku jê re hewce dike diyar nake.</string>
     <string name="warning_min_version_too_low">Ev modul ji bo guhertoya Xposed %1$dhate afirandin, lê ji ber guheztinên nelihev ên di guhertoya %2$d-ê de, ew hate asteng kirin.</string>
+    <string name="warning_deprecated_feature">Ev modul taybetmendiyek ku dê di demek nêzîk de were betalkirin bi kar tîne. Ji kerema xwe bi nivîskar re têkilî daynin an alternatîfekê bifikirin.</string>
     <string name="warning_installed_on_external_storage">Ev modul nikare were barkirin ji ber ku ew li ser qerta SD-ê hatî saz kirin, ji kerema xwe wê biguhezînin hilana hundurîn</string>
     <string name="module_uninstall">Rakirin</string>
     <string name="module_settings">Mîhengên Modulê</string>

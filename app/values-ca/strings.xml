@@ -74,6 +74,7 @@
     <string name="warning_target_version_higher">Aquest mòdul està dissenyat per a una versió més nova de Xposed (%d) i per tant algunes funcionalitats poden no funcionar</string>
     <string name="no_min_version_specified">Aquest mòdul no especifica la versió de Xposed que necessita.</string>
     <string name="warning_min_version_too_low">Aquest mòdul es va crear per a Xposed versió %1$d, però a causa de canvis incompatibles a la versió %2$d, s\'ha desactivat</string>
+    <string name="warning_deprecated_feature">Aquest mòdul utilitza una funció que aviat quedarà obsoleta. Contacteu amb l’autor o considereu una alternativa.</string>
     <string name="warning_installed_on_external_storage">Aquest mòdul no es pot carregar perquè està instal·lat a la targeta SD, moveu-lo a l\'emmagatzematge intern</string>
     <string name="module_uninstall">Desinstal·la</string>
     <string name="module_settings">Configuració del mòdul</string>

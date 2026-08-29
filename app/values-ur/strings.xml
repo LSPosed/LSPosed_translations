@@ -74,6 +74,7 @@
     <string name="warning_target_version_higher">یہ ماڈیول ایک نئے Xposed ورژن (%d) کے لیے ڈیزائن کیا گیا ہے اور اس طرح کچھ افعال کام نہیں کر سکتے</string>
     <string name="no_min_version_specified">یہ ماڈیول اس Xposed ورژن کی وضاحت نہیں کرتا جس کی اسے ضرورت ہے۔</string>
     <string name="warning_min_version_too_low">یہ ماڈیول Xposed ورژن %1$dکے لیے بنایا گیا تھا، لیکن ورژن %2$dمیں غیر موافق تبدیلیوں کی وجہ سے، اسے غیر فعال کر دیا گیا ہے۔</string>
+    <string name="warning_deprecated_feature">یہ ماڈیول ایک ایسی خصوصیت استعمال کرتا ہے جو جلد متروک ہو جائے گی۔ براہ کرم مصنف سے رابطہ کریں یا کسی متبادل پر غور کریں۔</string>
     <string name="warning_installed_on_external_storage">اس ماڈیول کو لوڈ نہیں کیا جا سکتا کیونکہ یہ SD کارڈ پر انسٹال ہے، براہ کرم اسے اندرونی اسٹوریج میں منتقل کریں۔</string>
     <string name="module_uninstall">ان انسٹال کریں۔</string>
     <string name="module_settings">ماڈیول کی ترتیبات</string>

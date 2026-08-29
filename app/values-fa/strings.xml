@@ -74,6 +74,7 @@
     <string name="warning_target_version_higher">این ماژول برای نسخه جدیدتر از Xposed (%d) طراحی شده بنابراین ممکن است برخی از عملکرد ها کار نکنند</string>
     <string name="no_min_version_specified">این ماژول نسخه Xposed مورد نیاز خود را مشخص نمی کند</string>
     <string name="warning_min_version_too_low">این ماژول برای نسخه Xposed %1$d ساخته شده اما به دلیل تغییرات ناسازگار در نسخه %2$d غیرفعال شده</string>
+    <string name="warning_deprecated_feature">این ماژول از قابلیتی استفاده می‌کند که به‌زودی منسوخ خواهد شد. لطفاً با سازنده تماس بگیرید یا یک جایگزین را در نظر بگیرید.</string>
     <string name="warning_installed_on_external_storage">این ماژول نمی تواند بارگذاری شود چون در کارت حافظه خارجی نصب شده لطفا آن را به حافظه داخلی انتقال دهید</string>
     <string name="module_uninstall">حذف نصب</string>
     <string name="module_settings">تنظیمات ماژول</string>

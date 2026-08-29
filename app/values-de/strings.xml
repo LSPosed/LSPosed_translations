@@ -77,6 +77,7 @@ JJ108</string>
     <string name="warning_target_version_higher">Dieses Modul wurde für eine neuere Xposed-Version (%d) entwickelt und daher funktionieren einige Funktionen möglicherweise nicht</string>
     <string name="no_min_version_specified">Dieses Modul gibt nicht die benötigte LSPosed-Version an.</string>
     <string name="warning_min_version_too_low">Dieses Modul wurde für die LSPosed-Version %1$d erstellt, wurde jedoch aufgrund inkompatibler Änderungen in der Version %2$d deaktiviert</string>
+    <string name="warning_deprecated_feature">Dieses Modul verwendet eine Funktion, die in Kürze eingestellt wird. Bitte kontaktieren Sie den Autor oder ziehen Sie eine Alternative in Betracht.</string>
     <string name="warning_installed_on_external_storage">Dieses Modul kann nicht geladen werden, da es auf der SD-Karte installiert ist, bitte in den internen Speicher verschieben</string>
     <string name="module_uninstall">Deinstallieren</string>
     <string name="module_settings">Moduleinstellungen</string>

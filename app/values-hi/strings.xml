@@ -74,6 +74,7 @@
     <string name="warning_target_version_higher">यह मॉड्यूल एक नए Xposed संस्करण (%d) के लिए डिज़ाइन किया गया है और इस प्रकार कुछ कार्यात्मकताएँ काम नहीं कर सकती हैं</string>
     <string name="no_min_version_specified">यह मॉड्यूल Xposed संस्करण को निर्दिष्ट नहीं करता है जिसकी उसे आवश्यकता है।</string>
     <string name="warning_min_version_too_low">यह मॉड्यूल Xposed संस्करण %1$dके लिए बनाया गया था, लेकिन संस्करण %2$dमें असंगत परिवर्तनों के कारण, इसे अक्षम कर दिया गया है</string>
+    <string name="warning_deprecated_feature">यह मॉड्यूल एक ऐसी सुविधा का उपयोग करता है जिसे जल्द ही बंद कर दिया जाएगा। कृपया लेखक से संपर्क करें या किसी विकल्प पर विचार करें।</string>
     <string name="warning_installed_on_external_storage">यह मॉड्यूल लोड नहीं किया जा सकता क्योंकि यह एसडी कार्ड पर स्थापित है, कृपया इसे आंतरिक भंडारण में ले जाएं</string>
     <string name="module_uninstall">स्थापना रद्द करें</string>
     <string name="module_settings">मॉड्यूल सेटिंग्स</string>

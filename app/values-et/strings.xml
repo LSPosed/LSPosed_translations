@@ -74,6 +74,7 @@
     <string name="warning_target_version_higher">See moodul on mõeldud uuemale Xposedi versioonile (%d) ja seetõttu ei pruugi mõned funktsioonid töötada</string>
     <string name="no_min_version_specified">See moodul ei täpsusta Xposedi versiooni, mida ta vajab.</string>
     <string name="warning_min_version_too_low">See moodul loodi Xposedi versiooni %1$d jaoks, kuid versioonis %2$d tehtud ühildumatute muudatuste tõttu on see välja lülitatud</string>
+    <string name="warning_deprecated_feature">See moodul kasutab funktsiooni, mis peagi kasutuselt kõrvaldatakse. Võtke ühendust autoriga või kaaluge alternatiivi.</string>
     <string name="warning_installed_on_external_storage">Seda moodulit ei saa laadida, sest see on paigaldatud SD-kaardile, palun viige see sisemällu.</string>
     <string name="module_uninstall">Eemalda</string>
     <string name="module_settings">Mooduli seaded</string>

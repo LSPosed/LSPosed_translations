@@ -73,6 +73,7 @@
     <string name="warning_target_version_higher">โมดูลนี้ออกแบบมาสำหรับ Xposed เวอร์ชั่น (%d) ดังนั้นฟังก์ชั่นบางอย่างอาจไม่ทำงาน</string>
     <string name="no_min_version_specified">โมดูลนี้ไม่ได้ระบุเวอร์ชัน Xposed ที่ต้องการ</string>
     <string name="warning_min_version_too_low">โมดูลนี้ถูกสร้างขึ้นสำหรับ Xposed เวอร์ชัน %1$dแต่เนื่องจากการเปลี่ยนแปลงที่เข้ากันไม่ได้ในเวอร์ชัน %2$dจึงถูกปิดใช้งาน</string>
+    <string name="warning_deprecated_feature">โมดูลนี้ใช้ฟีเจอร์ที่จะเลิกใช้งานในเร็ว ๆ นี้ โปรดติดต่อผู้พัฒนาหรือพิจารณาทางเลือกอื่น</string>
     <string name="warning_installed_on_external_storage">ไม่สามารถโหลดโมดูลนี้ได้เนื่องจากติดตั้งอยู่ในการ์ด SD โปรดย้ายไปยังที่จัดเก็บข้อมูลภายใน</string>
     <string name="module_uninstall">ถอนการติดตั้ง</string>
     <string name="module_settings">การตั้งค่าโมดูล</string>
