@@ -262,7 +262,7 @@
     <string name="settings_key_color_summary">Tùy chỉnh màu hạt giống khi sử dụng Monet</string>
     <string name="settings_key_color_default">Mặc định</string>
     <string name="settings_theme_entry">Cài đặt chủ đề</string>
-    <string name="settings_theme_entry_summary">Chế độ chủ đề, máu nhấn, kiểu bảng màu và hơn thế nữa</string>
+    <string name="settings_theme_entry_summary">Chế độ chủ đề, màu nhấn, kiểu bảng màu và hơn thế nữa</string>
     <string name="settings_palette_style">Kiểu bảng màu</string>
     <string name="settings_palette_style_summary">Thuật toán tông màu được sử dụng để suy ra bảng màu Material 3</string>
     <string name="settings_color_spec">Thông số màu sắc</string>
