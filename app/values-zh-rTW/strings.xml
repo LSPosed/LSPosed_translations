@@ -172,6 +172,8 @@
     <string name="failed_to_save_invalidate_inline_hooks_list">無法儲存還原內聯 Hook 清單</string>
     <string name="settings_enable_predictive_back">預測性返回手勢</string>
     <string name="settings_enable_predictive_back_summary">啟用對預測性返回手勢的支援</string>
+    <string name="settings_enable_swipe_dismiss">橫移返回手勢</string>
+    <string name="settings_enable_swipe_dismiss_summary">從螢幕邊緣橫移返回上一頁</string>
     <!-- Module Repo -->
     <string name="module_readme">自述檔案</string>
     <string name="module_releases">版本</string>

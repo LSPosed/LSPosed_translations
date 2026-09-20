@@ -178,6 +178,8 @@
     <string name="failed_to_save_invalidate_inline_hooks_list">儲存唔到還原 Inline Hook 列表</string>
     <string name="settings_enable_predictive_back">預測性返回手勢</string>
     <string name="settings_enable_predictive_back_summary">啟用對預測性返回手勢嘅支援。</string>
+    <string name="settings_enable_swipe_dismiss">橫移返回手勢</string>
+    <string name="settings_enable_swipe_dismiss_summary">從螢幕邊緣橫移返回上一頁</string>
     <string name="settings_tapjacking_protection">觸控挾持防護</string>
     <string name="settings_tapjacking_protection_summary">封鎖畫面被遮擋時的觸控事件，防止觸控挾持攻擊</string>
     <!-- Module Repo -->

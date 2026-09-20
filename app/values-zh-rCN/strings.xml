@@ -178,6 +178,8 @@
     <string name="failed_to_save_invalidate_inline_hooks_list">无法保存还原内联钩子列表</string>
     <string name="settings_enable_predictive_back">预测性返回手势</string>
     <string name="settings_enable_predictive_back_summary">启用对预测性返回手势的支持</string>
+    <string name="settings_enable_swipe_dismiss">横移返回手势</string>
+    <string name="settings_enable_swipe_dismiss_summary">从屏幕边缘横移返回上一页</string>
     <string name="settings_tapjacking_protection">点按劫持缓解</string>
     <string name="settings_tapjacking_protection_summary">屏蔽界面被遮盖时的触摸事件，防止点按劫持攻击</string>
     <!-- Module Repo -->

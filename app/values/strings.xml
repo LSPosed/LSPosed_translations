@@ -184,6 +184,8 @@
     <string name="failed_to_save_invalidate_inline_hooks_list">Failed to save Invalidate inline hooks list</string>
     <string name="settings_enable_predictive_back">Predictive back gesture</string>
     <string name="settings_enable_predictive_back_summary">Enable support for predictive back gestures.</string>
+    <string name="settings_enable_swipe_dismiss">Swipe back gesture</string>
+    <string name="settings_enable_swipe_dismiss_summary">Swipe from the edge to return to the previous page.</string>
     <string name="settings_tapjacking_protection">Tapjacking Mitigation</string>
     <string name="settings_tapjacking_protection_summary">Blocks touches when the interface is obscured to prevents tapjacking attacks</string>
     <!-- Module Repo -->
