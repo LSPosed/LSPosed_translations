@@ -230,6 +230,8 @@
     <string name="debugging_title">调试</string>
     <string name="developer_mode_title">开发者模式</string>
     <string name="developer_mode_summary">允许通过 CLI 工具执行变更命令</string>
+    <string name="safe_mode_disabled_title">禁用安全模式</string>
+    <string name="safe_mode_disabled_summary">防止系统组件屡次停止运行时进入安全模式</string>
     <string name="hook_debug_summary">允许转储被 hook 进程的 hook 调试信息，可能带来性能影响</string>
     <string name="dump_hook_debug_title">转储 Hook 调试信息</string>
     <string name="dump_hook_debug_summary">转储 Hook 调试信息到 /data/adb/lspd/log</string>

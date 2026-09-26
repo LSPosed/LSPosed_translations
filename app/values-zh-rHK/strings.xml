@@ -173,8 +173,8 @@
     <string name="update_channel_nightly">每夜版 (Nightly)</string>
     <string name="settings_xposed_api_call_protection">Xposed API 調用保護</string>
     <string name="settings_xposed_api_call_protection_summary">封鎖模組動態載入嘅代碼使用 Xposed API，噉樣做可能會令到有啲模組失效，但有助於安全性</string>
-    <string name="settings_invalidate_inline_hooks">​還原 Inline Hook</string>
-    <string name="settings_invalidate_inline_hooks_summary">​清理 libart.so。此操作可能導致隨機故障及閃退，僅建議喺開唔到特定 App 嘅情況下先至使用。</string>
+    <string name="settings_invalidate_inline_hooks">還原 Inline Hook</string>
+    <string name="settings_invalidate_inline_hooks_summary">清理 libart.so。此操作可能導致隨機故障及閃退，僅建議喺開唔到特定 App 嘅情況下先至使用。</string>
     <string name="failed_to_save_invalidate_inline_hooks_list">儲存唔到還原 Inline Hook 列表</string>
     <string name="settings_enable_predictive_back">預測性返回手勢</string>
     <string name="settings_enable_predictive_back_summary">啟用對預測性返回手勢嘅支援。</string>
@@ -182,6 +182,11 @@
     <string name="settings_enable_swipe_dismiss_summary">從螢幕邊緣橫移返回上一頁</string>
     <string name="settings_tapjacking_protection">觸控挾持防護</string>
     <string name="settings_tapjacking_protection_summary">封鎖畫面被遮擋時的觸控事件，防止觸控挾持攻擊</string>
+    <string name="developer_mode_title">開發者模式</string>
+    <string name="developer_mode_summary">允許透過 CLI 工具執行變更指令</string>
+    <string name="safe_mode_disabled_title">禁用安全模式</string>
+    <string name="safe_mode_disabled_summary">防止系統組件不斷停止運作時進入安全模式</string>
+
     <!-- Module Repo -->
     <string name="module_readme">睇我</string>
     <string name="module_releases">版本</string>
@@ -299,7 +304,4 @@
     <plurals name="time_days_ago">
         <item quantity="other">%d 日前</item>
     </plurals>
-  
-    <string name="developer_mode_title">開發者模式</string>
-    <string name="developer_mode_summary">允許透過 CLI 工具執行變更指令</string>
 </resources>
