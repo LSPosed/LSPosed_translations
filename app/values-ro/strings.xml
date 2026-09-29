@@ -189,5 +189,5 @@
     <string name="color_brown">Maro</string>
     <string name="color_blue_grey">Albastru gri</string>
     <string name="developer_mode_title">Mod pentru dezvoltatori</string>
-    <string name="developer_mode_summary">Permite comenzi de modificare prin instrumentul CLI</string>
+    <string name="developer_mode_summary">Permite gestionarea setărilor și domeniilor de aplicare LSPosed folosind instrumentul CLI</string>
 </resources>

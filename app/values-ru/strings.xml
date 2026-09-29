@@ -321,5 +321,5 @@
     </plurals>
 
     <string name="developer_mode_title">Режим разработчика</string>
-    <string name="developer_mode_summary">Разрешить выполнение команд, вносящих изменения, через инструмент CLI</string>
+    <string name="developer_mode_summary">Разрешить управление настройками и областями действия LSPosed с помощью инструмента CLI</string>
 </resources>

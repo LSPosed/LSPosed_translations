@@ -188,5 +188,5 @@
     <string name="color_brown">قهوه ای</string>
     <string name="color_blue_grey">آبی خاکستری</string>
     <string name="developer_mode_title">حالت توسعه‌دهنده</string>
-    <string name="developer_mode_summary">اجازه اجرای فرمان‌های تغییر از طریق ابزار CLI</string>
+    <string name="developer_mode_summary">اجازه مدیریت تنظیمات و محدوده‌های LSPosed با استفاده از ابزار CLI</string>
 </resources>

@@ -296,5 +296,5 @@
 <item quantity="other">%d كۈن ئىلگىرى</item>
 </plurals>
 <string name="developer_mode_title">ئاچقۇچى ھالىتى</string>
-<string name="developer_mode_summary">CLI قورالى ئارقىلىق ئۆزگەرتىش بۇيرۇقلىرىغا يول قويۇش</string>
+<string name="developer_mode_summary">CLI قورالى ئارقىلىق LSPosed تەڭشەكلىرى ۋە دائىرىسىنى باشقۇرۇشقا يول قويۇش</string>
 </resources>

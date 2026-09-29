@@ -310,5 +310,5 @@
     </plurals>
 
     <string name="developer_mode_title">Рэжым распрацоўшчыка</string>
-    <string name="developer_mode_summary">Дазволіць выконваць каманды змяненняў праз інструмент CLI</string>
+    <string name="developer_mode_summary">Дазволіць кіраваць наладамі і абласцямі дзеяння LSPosed з дапамогай інструмента CLI</string>
 </resources>

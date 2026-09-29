@@ -186,5 +186,5 @@
     <string name="color_brown">สีน้ำตาล</string>
     <string name="color_blue_grey">น้ำเงินเทา</string>
     <string name="developer_mode_title">โหมดนักพัฒนา</string>
-    <string name="developer_mode_summary">อนุญาตคำสั่งเปลี่ยนแปลงผ่านเครื่องมือ CLI</string>
+    <string name="developer_mode_summary">อนุญาตให้จัดการการตั้งค่าและขอบเขตของ LSPosed โดยใช้เครื่องมือ CLI</string>
 </resources>

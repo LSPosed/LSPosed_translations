@@ -187,5 +187,5 @@
     <string name="color_brown">Ruskea</string>
     <string name="color_blue_grey">Sininen harmaa</string>
     <string name="developer_mode_title">Kehittäjätila</string>
-    <string name="developer_mode_summary">Salli muutoskomennot CLI-työkalun kautta</string>
+    <string name="developer_mode_summary">Salli LSPosed-asetusten ja -käyttöalueiden hallinta CLI-työkalulla</string>
 </resources>

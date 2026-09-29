@@ -188,5 +188,5 @@
     <string name="color_brown">marró</string>
     <string name="color_blue_grey">Gris blau</string>
     <string name="developer_mode_title">Mode de desenvolupador</string>
-    <string name="developer_mode_summary">Permet les ordres de modificació mitjançant l’eina CLI</string>
+    <string name="developer_mode_summary">Permet gestionar la configuració i els àmbits de l’LSPosed mitjançant l’eina CLI</string>
 </resources>

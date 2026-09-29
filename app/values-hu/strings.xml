@@ -189,5 +189,5 @@
     <string name="color_brown">Barna</string>
     <string name="color_blue_grey">Kékes szürke</string>
     <string name="developer_mode_title">Fejlesztői mód</string>
-    <string name="developer_mode_summary">Módosító parancsok engedélyezése a CLI-eszközön keresztül</string>
+    <string name="developer_mode_summary">Az LSPosed beállításainak és hatóköreinek kezelése a CLI-eszközzel</string>
 </resources>

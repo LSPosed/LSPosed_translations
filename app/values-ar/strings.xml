@@ -262,5 +262,5 @@
     <string name="settings_floating_bottom_bar">شريط سفلي عائم</string>
     
     <string name="developer_mode_title">وضع المطوّر</string>
-    <string name="developer_mode_summary">السماح بتنفيذ أوامر التغيير عبر أداة CLI</string>
+    <string name="developer_mode_summary">السماح بإدارة إعدادات LSPosed والنطاقات باستخدام أداة CLI</string>
 </resources>

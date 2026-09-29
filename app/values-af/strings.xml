@@ -179,5 +179,5 @@
     <string name="color_brown">Bruin</string>
     <string name="color_blue_grey">Blou grys</string>
     <string name="developer_mode_title">Ontwikkelaarmodus</string>
-    <string name="developer_mode_summary">Laat veranderingsopdragte deur die CLI-nutsding toe</string>
+    <string name="developer_mode_summary">Laat die bestuur van LSPosed-instellings en -omvang deur die CLI-nutsding toe</string>
 </resources>

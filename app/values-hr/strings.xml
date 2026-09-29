@@ -189,5 +189,5 @@
     <string name="color_brown">Smeđa</string>
     <string name="color_blue_grey">Plavo siva</string>
     <string name="developer_mode_title">Način rada za razvojne programere</string>
-    <string name="developer_mode_summary">Dopusti naredbe za izmjene putem CLI alata</string>
+    <string name="developer_mode_summary">Dopusti upravljanje postavkama i opsezima LSPoseda putem CLI alata</string>
 </resources>

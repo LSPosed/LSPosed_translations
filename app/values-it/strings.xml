@@ -190,5 +190,5 @@
     <string name="color_brown">Marrone</string>
     <string name="color_blue_grey">Blu grigio</string>
     <string name="developer_mode_title">Modalità sviluppatore</string>
-    <string name="developer_mode_summary">Consenti i comandi di modifica tramite lo strumento CLI</string>
+    <string name="developer_mode_summary">Consenti di gestire le impostazioni e gli ambiti di LSPosed tramite lo strumento CLI</string>
 </resources>

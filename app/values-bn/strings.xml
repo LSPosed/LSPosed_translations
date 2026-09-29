@@ -188,5 +188,5 @@
     <string name="color_brown">বাদামী</string>
     <string name="color_blue_grey">নীল ধূসর</string>
     <string name="developer_mode_title">ডেভেলপার মোড</string>
-    <string name="developer_mode_summary">CLI টুলের মাধ্যমে পরিবর্তনকারী কমান্ড চালানোর অনুমতি দিন</string>
+    <string name="developer_mode_summary">CLI টুল ব্যবহার করে LSPosed সেটিংস ও স্কোপ পরিচালনার অনুমতি দিন</string>
 </resources>

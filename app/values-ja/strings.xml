@@ -307,5 +307,5 @@
         <item quantity="other">%d 日前</item>
     </plurals>
     <string name="developer_mode_title">開発者モード</string>
-    <string name="developer_mode_summary">CLI ツール経由での変更コマンドの実行を許可します</string>
+    <string name="developer_mode_summary">CLI ツールを使用した LSPosed の設定と適用範囲の管理を許可します</string>
 </resources>

@@ -238,7 +238,7 @@
     <string name="hook_debug_title">Hook Debug</string>
     <string name="debugging_title">Debugging</string>
     <string name="developer_mode_title">Developer mode</string>
-    <string name="developer_mode_summary">Allow mutation commands through the CLI tool</string>
+    <string name="developer_mode_summary">Allow managing LSPosed settings and scopes using the CLI tool</string>
     <string name="safe_mode_disabled_title">Disable Safe Mode</string>
     <string name="safe_mode_disabled_summary">Prevent entering Safe Mode when system components keeps stopping</string>
     <string name="hook_debug_summary">Allow dumping of hook debugging information of hooked processes, which may have a performance impact</string>

@@ -299,5 +299,5 @@
     </plurals>
 
     <string name="developer_mode_title">개발자 모드</string>
-    <string name="developer_mode_summary">CLI 도구를 통한 변경 명령 허용</string>
+    <string name="developer_mode_summary">CLI 도구를 사용한 LSPosed 설정 및 적용 범위 관리 허용</string>
 </resources>

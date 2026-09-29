@@ -300,5 +300,5 @@
     </plurals>
 
     <string name="developer_mode_title">Chế độ nhà phát triển</string>
-    <string name="developer_mode_summary">Cho phép các lệnh thay đổi thông qua công cụ CLI</string>
+    <string name="developer_mode_summary">Cho phép quản lý cài đặt và phạm vi của LSPosed bằng công cụ CLI</string>
 </resources>

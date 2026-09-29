@@ -190,5 +190,5 @@
     <string name="color_brown">Brązowy</string>
     <string name="color_blue_grey">Niebiesko szary</string>
     <string name="developer_mode_title">Tryb deweloperski</string>
-    <string name="developer_mode_summary">Zezwalaj na polecenia wprowadzające zmiany za pomocą narzędzia CLI</string>
+    <string name="developer_mode_summary">Zezwalaj na zarządzanie ustawieniami i zakresami LSPosed za pomocą narzędzia CLI</string>
 </resources>

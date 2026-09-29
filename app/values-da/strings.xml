@@ -187,5 +187,5 @@
     <string name="color_brown">Brun</string>
     <string name="color_blue_grey">Blå grå</string>
     <string name="developer_mode_title">Udviklertilstand</string>
-    <string name="developer_mode_summary">Tillad ændringskommandoer via CLI-værktøjet</string>
+    <string name="developer_mode_summary">Tillad administration af LSPosed-indstillinger og -anvendelsesområder via CLI-værktøjet</string>
 </resources>

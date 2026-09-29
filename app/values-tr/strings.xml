@@ -311,5 +311,5 @@
     </plurals>
 
     <string name="developer_mode_title">Geliştirici modu</string>
-    <string name="developer_mode_summary">CLI aracı üzerinden değişiklik komutlarına izin ver</string>
+    <string name="developer_mode_summary">CLI aracını kullanarak LSPosed ayarlarının ve kapsamlarının yönetilmesine izin ver</string>
 </resources>

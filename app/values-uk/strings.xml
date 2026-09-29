@@ -190,5 +190,5 @@
     <string name="color_brown">Коричневий</string>
     <string name="color_blue_grey">Блакитно-сірий</string>
     <string name="developer_mode_title">Режим розробника</string>
-    <string name="developer_mode_summary">Дозволити виконання команд, що вносять зміни, через інструмент CLI</string>
+    <string name="developer_mode_summary">Дозволити керування налаштуваннями й областями дії LSPosed за допомогою інструмента CLI</string>
 </resources>

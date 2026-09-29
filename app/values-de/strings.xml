@@ -191,5 +191,5 @@ JJ108</string>
     <string name="color_brown">Braun</string>
     <string name="color_blue_grey">Blaugrau</string>
     <string name="developer_mode_title">Entwicklermodus</string>
-    <string name="developer_mode_summary">Änderungsbefehle über das CLI-Werkzeug zulassen</string>
+    <string name="developer_mode_summary">Verwaltung von LSPosed-Einstellungen und Geltungsbereichen über das CLI-Werkzeug zulassen</string>
 </resources>

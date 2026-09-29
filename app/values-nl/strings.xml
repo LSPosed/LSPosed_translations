@@ -188,5 +188,5 @@
     <string name="color_brown">Bruin</string>
     <string name="color_blue_grey">Blauw grijs</string>
     <string name="developer_mode_title">Ontwikkelaarsmodus</string>
-    <string name="developer_mode_summary">Wijzigingsopdrachten via het CLI-hulpprogramma toestaan</string>
+    <string name="developer_mode_summary">Beheer van LSPosed-instellingen en -bereiken via het CLI-hulpprogramma toestaan</string>
 </resources>

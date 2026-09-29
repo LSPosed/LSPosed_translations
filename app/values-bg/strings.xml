@@ -186,5 +186,5 @@
     <string name="color_brown">Кафяв</string>
     <string name="color_blue_grey">Синьо сиво</string>
     <string name="developer_mode_title">Режим за разработчици</string>
-    <string name="developer_mode_summary">Позволява изпълнението на команди за промяна чрез CLI инструмента</string>
+    <string name="developer_mode_summary">Разрешаване на управлението на настройките и обхватите на LSPosed чрез CLI инструмента</string>
 </resources>

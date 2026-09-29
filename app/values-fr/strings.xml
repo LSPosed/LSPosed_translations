@@ -189,5 +189,5 @@ https://github.com/tclement0922</string>
     <string name="color_brown">Marron</string>
     <string name="color_blue_grey">Bleu grisâtre</string>
     <string name="developer_mode_title">Mode développeur</string>
-    <string name="developer_mode_summary">Autoriser les commandes de modification via l’outil CLI</string>
+    <string name="developer_mode_summary">Autoriser la gestion des paramètres et des champs d’application de LSPosed avec l’outil CLI</string>
 </resources>

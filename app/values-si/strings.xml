@@ -187,5 +187,5 @@
     <string name="color_brown">දුඹුරු</string>
     <string name="color_blue_grey">නිල් අළු</string>
     <string name="developer_mode_title">සංවර්ධක ප්‍රකාරය</string>
-    <string name="developer_mode_summary">CLI මෙවලම හරහා වෙනස්කම් සිදු කරන විධානවලට ඉඩ දෙන්න</string>
+    <string name="developer_mode_summary">CLI මෙවලම භාවිතයෙන් LSPosed සැකසුම් සහ විෂය පථ කළමනාකරණයට ඉඩ දෙන්න</string>
 </resources>

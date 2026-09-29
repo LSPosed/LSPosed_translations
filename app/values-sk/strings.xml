@@ -189,5 +189,5 @@
     <string name="color_brown">Hnedá</string>
     <string name="color_blue_grey">Modrá šedá</string>
     <string name="developer_mode_title">Režim pre vývojárov</string>
-    <string name="developer_mode_summary">Povoliť príkazy vykonávajúce zmeny prostredníctvom nástroja CLI</string>
+    <string name="developer_mode_summary">Povoliť správu nastavení a rozsahov LSPosed pomocou nástroja CLI</string>
 </resources>

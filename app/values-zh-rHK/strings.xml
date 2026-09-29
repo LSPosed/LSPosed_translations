@@ -183,7 +183,7 @@
     <string name="settings_tapjacking_protection">觸控挾持防護</string>
     <string name="settings_tapjacking_protection_summary">封鎖畫面被遮擋時的觸控事件，防止觸控挾持攻擊</string>
     <string name="developer_mode_title">開發者模式</string>
-    <string name="developer_mode_summary">允許透過 CLI 工具執行變更指令</string>
+    <string name="developer_mode_summary">允許使用 CLI 工具管理 LSPosed 設定和作用域</string>
     <string name="safe_mode_disabled_title">禁用安全模式</string>
     <string name="safe_mode_disabled_summary">防止系統組件不斷停止運作時進入安全模式</string>
 

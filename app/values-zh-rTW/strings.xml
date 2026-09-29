@@ -175,7 +175,7 @@
     <string name="settings_enable_swipe_dismiss">橫移返回手勢</string>
     <string name="settings_enable_swipe_dismiss_summary">從螢幕邊緣橫移返回上一頁</string>
     <string name="developer_mode_title">開發者模式</string>
-    <string name="developer_mode_summary">允許透過 CLI 工具執行變更指令</string>
+    <string name="developer_mode_summary">允許使用 CLI 工具管理 LSPosed 設定和作用域</string>
     <string name="safe_mode_disabled_title">禁用安全模式</string>
     <string name="safe_mode_disabled_summary">防止系統組件不斷停止運作時進入安全模式</string>
 

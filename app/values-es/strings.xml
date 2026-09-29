@@ -294,5 +294,5 @@
         <item quantity="other">hace %d días</item>
     </plurals>
     <string name="developer_mode_title">Modo de desarrollador</string>
-    <string name="developer_mode_summary">Permitir comandos de modificación mediante la herramienta CLI</string>
+    <string name="developer_mode_summary">Permitir gestionar los ajustes y ámbitos de LSPosed mediante la herramienta CLI</string>
 </resources>

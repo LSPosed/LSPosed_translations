@@ -305,5 +305,5 @@
     </plurals>
 
     <string name="developer_mode_title">Mode pengembang</string>
-    <string name="developer_mode_summary">Izinkan perintah perubahan melalui alat CLI</string>
+    <string name="developer_mode_summary">Izinkan pengelolaan setelan dan cakupan LSPosed menggunakan alat CLI</string>
 </resources>
