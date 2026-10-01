@@ -86,7 +86,7 @@
     <string name="no_min_version_specified">呢個模組未指定需要嘅 Xposed 版本</string>
     <string name="warning_min_version_too_low">呢個模組適用於 %1$d 版本嘅 Xposed，由於版本 %2$d 嘅變更唔兼容，所以已經停用咗此模組</string>
     <string name="warning_deprecated_feature">呢個模組使用咗已棄用並即將移除嘅功能，請聯絡作者或者考慮其他替代方案</string>
-    <string name="warning_installed_on_external_storage">由於此模組安裝咗喺 SD 卡而無法載入，請將佢搬返去內置儲存空間</string>
+    <string name="warning_installed_on_external_storage">此模組無法載入，因為安裝喺 SD 卡上，請將佢移至內部儲存空間</string>
     <string name="module_uninstall">卸載</string>
     <string name="module_settings">模組設定</string>
     <string name="view_in_repo">喺倉庫查看</string>

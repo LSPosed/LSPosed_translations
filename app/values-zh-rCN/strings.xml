@@ -86,7 +86,7 @@
     <string name="no_min_version_specified">该模块未指定所需的 Xposed 版本</string>
     <string name="warning_min_version_too_low">由于该模块开发时所基于 Xposed %1$d 版本不再兼容 %2$d 版本中的变更，该模块现已被停用</string>
     <string name="warning_deprecated_feature">此模块使用了已废弃且即将移除的功能，请联系作者或考虑替代方案</string>
-    <string name="warning_installed_on_external_storage">此模块因被安装在 SD 卡中而导致无法加载，请将其移动到内部存储</string>
+    <string name="warning_installed_on_external_storage">此模块无法加载，因为它安装在 SD 卡上，请将其移动到内部存储</string>
     <string name="module_uninstall">卸载</string>
     <string name="module_settings">模块设置</string>
     <string name="view_in_repo">在仓库中查看</string>
