@@ -41,23 +41,35 @@
     <string name="system_prop_incorrect"><![CDATA[Beberapa properti sistem yang diperlukan dihapus atau diubah.<br/>Modul terkadang tidak valid.]]></string>
     <string name="hyrt_unavailable_summary">Injeksi HyperOS Runtime gagal</string>
     <string name="hyrt_unavailable">HyperOS Runtime terdeteksi, tetapi API Zygisk Next tidak tersedia. Modul native tidak akan dimuat ke dalam proses HyperOS Runtime.</string>
-    <string name="need_update">Perlu pembaruan</string>
-    <string name="info_manager_package_name">Nama Paket Manajer</string>
-    <string name="info_system_version">Versi Sistem</string>
+    <string name="need_update">Butuh pembaruan</string>
+    <string name="info_manager_package_name">Nama paket manajer</string>
+    <string name="info_system_version">Versi sistem</string>
     <string name="info_device">Perangkat</string>
     <string name="info_system_abi">Sistem ABI</string>
-    <string name="info_dex2oat_wrapper">Pengoptimal Pengemas Dex</string>
+    <string name="info_dex2oat_wrapper">Pengoptimal pengemas dex</string>
     <string name="enabled">Aktif</string>
     <string name="not_enabled">Nonaktif</string>
     <string name="supported">Didukung</string>
     <string name="unsupported">Tidak didukung</string>
     <string name="mounted">Terpasang</string>
-    <string name="injected">Diinjeksikan</string>
+    <string name="injected">Diinjeksi</string>
     <string name="android_version_unsatisfied">Versi Android tidak tersedia</string>
     <string name="crashed">Rusak</string>
-    <string name="mount_failed">Mount gagal</string>
+    <string name="mount_failed">Pasang gagal</string>
     <string name="info_copied">Disalin ke papan klip</string>
     <string name="touch_filtered_warning">Karena sebuah aplikasi menutupi antarmuka, Manajer tidak dapat memverifikasi respons Anda.</string>
+    <string name="safe_mode">Mode aman</string>
+    <string name="safe_mode_summary">LSPosed berada dalam mode aman</string>
+    <string name="safe_mode_summary2">Semua modul Xposed tidak tersedia hingga mulai ulang berikutnya. \nBeberapa modul menyebabkan kerusakan sistem. Silakan temukan dan nonaktifkan modul ini, lalu berikan masukan kepada pengembang modul tersebut.</string>
+    <string name="disable_all_modules">Nonaktifkan semua modul</string>
+    <string name="confirm_disable_all_modules">Konfirmasi?</string>
+    <plurals name="message_disable_all_modules">
+        <item quantity="other">%d modul akan dinonaktifkan.\nTindakan ini tidak dapat dibatalkan.</item>
+    </plurals>
+    <string name="disable_success_title">Berhasil</string>
+    <plurals name="disable_success_message">
+        <item quantity="other">Modul %d dinonaktifkan</item>
+    </plurals>
 
     <!-- WelcomeDialog -->
     <string name="parasitic_welcome">Selamat datang di LSPosed</string>
@@ -79,11 +91,13 @@
     <string name="scroll_top">Gulir ke atas</string>
     <string name="scroll_bottom">Gulir ke bawah</string>
     <string name="menu_enable_word_wrap">Bungkus kata</string>
+    <string name="menu_parsed_view">Tampilan terstruktur</string>
+    <string name="menu_raw_view">Tampilan mentah</string>
 
     <!-- ModulesActivity -->
     <string name="warning_xposed_min_version">Modul ini memerlukan versi Xposed yang lebih baru (%d) sehingga tidak dapat diaktifkan</string>
     <string name="warning_target_version_higher">Modul ini dirancang untuk versi Xposed yang lebih baru (%d) sehingga beberapa fungsi mungkin tidak berfungsi</string>
-    <string name="no_min_version_specified">Modul ini tidak menentukan versi Xposed yang diperlukan</string>
+    <string name="no_min_version_specified">Modul ini tidak menentukan versi Xposed yang dibutuhkannya</string>
     <string name="warning_min_version_too_low">Modul ini dibuat untuk Xposed versi %1$d, tetapi karena perubahan yang tidak kompatibel pada versi %2$d, telah dinonaktifkan.</string>
     <string name="warning_deprecated_feature">Modul ini menggunakan fitur usang yang akan segera dihapus. Hubungi pengembangnya atau pertimbangkan alternatif lain.</string>
     <string name="warning_installed_on_external_storage">Modul ini tidak dapat dimuat karena terpasang di kartu SD, harap pindahkan ke penyimpanan internal.</string>
@@ -142,47 +156,23 @@
     <string name="module_app_info">Informasi aplikasi</string>
     <string name="list_empty">¯\\\\_(ツ)_\/¯\nTidak ada apa-apa di sini</string>
 
-    <!-- SettingsActivity -->
-    <string name="settings_group_framework">Kerangka kerja</string>
-    <string name="settings_disable_verbose_log">Nonaktifkan log verbose</string>
-    <string name="settings_disable_verbose_log_summary">Permintaan laporan masalah dengan menyertakan log verbose</string>
-    <string name="settings_group_theme">Tema</string>
-    <string name="settings_backup_and_restore">Cadangkan dan pulihkan</string>
-    <string name="settings_backup_summary">Cadangkan daftar modul dan daftar cakupan</string>
-    <string name="settings_restore_summary">Pulihkan daftar modul dan daftar cakupan</string>
-    <string name="settings_backup">Cadangkan</string>
-    <string name="settings_backup_failed2">Gagal mencadangkan:\n%s</string>
-    <string name="enable_documentui">Harap aktifkan DocumentUI</string>
-    <string name="settings_restore">Pulihkan</string>
-    <string name="settings_restore_failed2">Gagal memulihkan:\n%s</string>
-    <string name="group_network">Jaringan</string>
-    <string name="dns_over_http">DNS melalui HTTPS</string>
-    <string name="dns_over_http_summary">Solusi mengatasi masalah DNS di beberapa negara</string>
-    <string name="settings_repo_cdn">CDN repositori modul</string>
-    <string name="repo_cdn_default">Bawaan</string>
-    <string name="repo_cdn_backup">Cadangan</string>
-    <string name="settings_show_hidden_icon_apps_enabled">Paksa aplikasi untuk menampilkan ikon peluncur</string>
-    <string name="settings_show_hidden_icon_apps_enabled_summary">Setelah Android 10, aplikasi tidak diizinkan menyembunyikan ikon peluncurnya. Matikan untuk menonaktifkan fitur sistem ini</string>
-    <string name="settings_group_system">Sistem</string>
-    <string name="settings_language">Bahasa</string>
-    <string name="settings_translation_contributors">Kontributor terjemahan</string>
-    <string name="settings_translation">Berpartisipasi dalam terjemahan</string>
-    <string name="settings_translation_summary">Bantu kami menerjemahkan %s ke dalam bahasamu</string>
-    <string name="settings_enable_status_notification">Notifikasi status</string>
-    <string name="settings_enable_status_notification_summary">Tampilkan notifikasi yang dapat membuka manajer parasit</string>
-    <string name="settings_update_channel">Saluran pembaruan</string>
-    <string name="update_channel_stable">Stabil</string>
-    <string name="update_channel_beta">Beta</string>
-    <string name="update_channel_nightly">Rilis harian</string>
-    <string name="settings_xposed_api_call_protection">Proteksi Panggilan API Xposed</string>
-    <string name="settings_xposed_api_call_protection_summary">Memblokir kode modul yang dimuat secara dinamis untuk menggunakan API Xposed, ini mungkin mengganggu beberapa modul namun lebih aman</string>
-    <string name="settings_invalidate_inline_hooks">Invalidasi inline hook</string>
-    <string name="settings_invalidate_inline_hooks_summary">Melakukan pembersihan libart.so untuk aplikasi yang terdaftar. Ini berisiko menyebabkan malfungsi atau rusak acak. Gunakan hanya jika aplikasi tertentu tidak dapat dibuka</string>
-    <string name="failed_to_save_invalidate_inline_hooks_list">Gagal menyimpan daftar invalidasi inline hook</string>
-    <string name="settings_enable_predictive_back">Gerakan kembali prediktif</string>
-    <string name="settings_enable_predictive_back_summary">Aktifkan dukungan untuk gerakan kembali prediktif</string>
-    <string name="settings_tapjacking_protection">Mitigasi tapjacking</string>
-    <string name="settings_tapjacking_protection_summary">Memblokir input sentuhan saat antarmuka tertutup untuk mencegah serangan tapjacking</string>
+    <!-- Repository -->
+    <string name="time_just_now">Baru saja</string>
+    <plurals name="time_minutes_ago">
+        <item quantity="other">%d menit yang lalu</item>
+    </plurals>
+    <plurals name="time_hours_ago">
+        <item quantity="other">%d jam yang lalu</item>
+    </plurals>
+    <plurals name="time_days_ago">
+        <item quantity="other">%d hari yang lalu</item>
+    </plurals>
+
+    <!-- Refresh -->
+    <string name="refresh_pulling">Tarik ke bawah untuk menyegarkan</string>
+    <string name="refresh_release">Lepas untuk menyegarkan</string>
+    <string name="refresh_refresh">Menyegarkan…</string>
+    <string name="refresh_complete">Berhasil menyegarkan</string>
 
     <!-- Module Repo -->
     <string name="module_readme">Baca Aku</string>
@@ -192,17 +182,92 @@
     <string name="module_information_source_url">Kode sumber</string>
     <string name="module_information_collaborators">Kolaborator</string>
     <string name="module_release_view_assets">Aset</string>
-    <string name="menu_open_in_browser">Buka di browser</string>
+    <string name="menu_open_in_browser">Buka di peramban</string>
     <string name="menu_share">Bagikan</string>
     <string name="module_release_load_more">Tampilkan lainnya</string>
     <string name="module_release_no_more">Tidak ada rilis</string>
-    <string name="sort_upgradable_first">Dapat ditingkatkan</string>
+    <string name="sort_upgradable_first">Dapat diperbarui dahulu</string>
     <string name="installed">Terpasang</string>
     <plurals name="module_release_assets_download_count">
         <item quantity="other">%d unduhan</item>
     </plurals>
 
-    <!-- Colors -->
+    <!-- SettingsActivity -->
+    <string name="group_network">Jaringan</string>
+    <string name="dns_over_http">DNS melalui HTTPS</string>
+    <string name="dns_over_http_summary">Solusi mengatasi masalah DNS di beberapa negara</string>
+    <string name="settings_language">Bahasa</string>
+    <string name="settings_translation_contributors">Kontributor terjemahan</string>
+    <string name="settings_translation">Berpartisipasi dalam terjemahan</string>
+    <string name="settings_translation_summary">Bantu kami menerjemahkan %s ke dalam bahasamu</string>
+    <string name="settings_group_framework">Kerangka kerja</string>
+    <string name="settings_tapjacking_protection">Mitigasi tapjacking</string>
+    <string name="settings_tapjacking_protection_summary">Memblokir input sentuhan saat antarmuka tertutup untuk mencegah serangan tapjacking</string>
+    <string name="settings_disable_verbose_log">Nonaktifkan log verbose</string>
+    <string name="settings_disable_verbose_log_summary">Permintaan laporan masalah dengan menyertakan log verbose</string>
+    <string name="log_to_daemon_title">Log ke daemon</string>
+    <string name="log_to_daemon_summary">Hal ini dapat mencegah aplikasi membaca log modul, tetapi dapat memengaruhi kinerja.</string>
+    <string name="settings_xposed_api_call_protection">Proteksi panggilan API Xposed</string>
+    <string name="settings_xposed_api_call_protection_summary">Memblokir kode modul yang dimuat secara dinamis untuk menggunakan API Xposed, ini mungkin mengganggu beberapa modul namun lebih aman.</string>
+    <string name="settings_invalidate_inline_hooks">Invalidasi inline hook</string>
+    <string name="settings_invalidate_inline_hooks_summary">Melakukan pembersihan libart.so untuk aplikasi yang terdaftar. Ini berisiko menyebabkan malfungsi atau rusak acak. Gunakan hanya jika aplikasi tertentu tidak dapat dibuka.</string>
+    <string name="failed_to_save_invalidate_inline_hooks_list">Gagal menyimpan daftar invalidasi inline hook</string>
+    <string name="settings_enable_status_notification">Notifikasi status</string>
+    <string name="settings_enable_status_notification_summary">Tampilkan notifikasi yang dapat membuka manajer parasit</string>
+    <string name="settings_update_channel">Saluran pembaruan</string>
+    <string name="update_channel_stable">Stabil</string>
+    <string name="update_channel_beta">Beta</string>
+    <string name="update_channel_nightly">Rilis harian</string>
+    <string name="settings_repo_cdn">CDN repositori modul</string>
+    <string name="repo_cdn_default">Bawaan</string>
+    <string name="repo_cdn_backup">Cadangan</string>
+    <string name="settings_backup_and_restore">Cadangkan dan pulihkan</string>
+    <string name="settings_backup_summary">Cadangkan daftar modul dan daftar cakupan</string>
+    <string name="settings_restore_summary">Pulihkan daftar modul dan daftar cakupan</string>
+    <string name="settings_backup">Cadangkan</string>
+    <string name="settings_backup_failed2">Gagal mencadangkan:\n%s</string>
+    <string name="enable_documentui">Harap aktifkan DocumentUI</string>
+    <string name="settings_restore">Pulihkan</string>
+    <string name="settings_restore_failed2">Gagal memulihkan:\n%s</string>
+    <string name="settings_group_system">Sistem</string>
+    <string name="settings_show_hidden_icon_apps_enabled">Paksa aplikasi untuk menampilkan ikon peluncur</string>
+    <string name="settings_show_hidden_icon_apps_enabled_summary">Setelah Android 10, aplikasi tidak diizinkan menyembunyikan ikon peluncurnya. Matikan untuk menonaktifkan fitur sistem ini.</string>
+    <string name="developer_mode_title">Mode pengembang</string>
+    <string name="developer_mode_summary">Izinkan pengelolaan setelan dan cakupan LSPosed menggunakan alat CLI</string>
+    <string name="safe_mode_disabled_title">Nonaktifkan mode aman</string>
+    <string name="safe_mode_disabled_summary">Mencegah masuk ke mode aman ketika komponen sistem terus berhenti</string>
+    <string name="debugging_title">Debugging</string>
+    <string name="hook_debug_title">Debug hook</string>
+    <string name="hook_debug_summary">Izinkan pencatatan informasi debug hook dari proses di-hook yang dapat memengaruhi kinerja</string>
+    <string name="dump_hook_debug_title">Ekstrak info debug hook</string>
+    <string name="dump_hook_debug_summary">Ekstrak informasi debug hook ke /data/adb/lspd/log</string>
+    <string name="dump_hook_success">Berhasil diekstrak ke %s</string>
+    <string name="dump_hook_failed">Gagal mengekstrak</string>
+
+    <!-- Compose Activity -->
+    <string name="follow_system">Sistem</string>
+    <string name="unknown_author">Pengembang tidak diketahui</string>
+    <string name="unknown_version">Versi tidak diketahui</string>
+    <string name="unknown_asset">Aset tidak diketahui</string>
+    <string name="download_asset">Unduh</string>
+    <string name="nav_back">Kembali</string>
+    <string name="nav_rail_expand">Perluas bilah navigasi</string>
+    <string name="nav_rail_collapse">Ciutkan bilah navigasi</string>
+    <string name="menu">Menu</string>
+    <string name="menu_filter">Filter</string>
+
+    <!-- Theme Mode -->
+    <string name="settings_group_theme">Tema</string>
+    <string name="settings_ui">Gaya antarmuka</string>
+    <string name="settings_ui_summary">Pilih gaya antarmuka</string>
+    <string name="settings_theme">Tema</string>
+    <string name="settings_theme_summary">Pilih mode tema aplikasi</string>
+    <string name="settings_theme_mode_system">Sistem</string>
+    <string name="settings_theme_mode_light">Terang</string>
+    <string name="settings_theme_mode_dark">Gelap</string>
+    <string name="settings_theme_mode_monet_system">Monet (Sistem)</string>
+    <string name="settings_theme_mode_monet_light">Monet (Terang)</string>
+    <string name="settings_theme_mode_monet_dark">Monet (Gelap)</string>
     <string name="color_red">Merah</string>
     <string name="color_pink">Merah muda</string>
     <string name="color_purple">Ungu</string>
@@ -219,55 +284,6 @@
     <string name="color_orange">Jingga</string>
     <string name="color_brown">Coklat</string>
     <string name="color_blue_grey">Abu-abu kebiruan</string>
-    <string name="safe_mode">Mode aman</string>
-    <string name="safe_mode_summary">LSPosed berada di mode aman</string>
-    <string name="safe_mode_summary2">Semua modul Xposed tidak tersedia hingga mulai ulang berikutnya. \nBeberapa modul menyebabkan kerusakan sistem. Silakan temukan dan nonaktifkan modul ini, lalu berikan masukan kepada pengembang modul tersebut.</string>
-    <string name="disable_all_modules">Nonaktifkan semua modul</string>
-    <string name="confirm_disable_all_modules">Konfirmasi?</string>
-    <plurals name="message_disable_all_modules">
-        <item quantity="other">%d modul akan dinonaktifkan.\nTindakan ini tidak dapat dibatalkan.</item>
-    </plurals>
-    <string name="disable_success_title">Berhasil</string>
-    <string name="hook_debug_title">Debug hook</string>
-    <string name="debugging_title">Debugging</string>
-    <string name="hook_debug_summary">Izinkan pencatatan informasi debug hook dari proses di-hook yang dapat memengaruhi kinerja</string>
-    <string name="dump_hook_debug_title">Ekstrak info debug hook</string>
-    <string name="dump_hook_debug_summary">Ekstrak informasi debug hook ke /data/adb/lspd/log</string>
-    <string name="dump_hook_success">Berhasil diekstrak ke %s</string>
-    <string name="dump_hook_failed">Gagal mengekstrak</string>
-    <string name="log_to_daemon_title">Log ke daemon</string>
-    <string name="log_to_daemon_summary">Hal ini dapat mencegah aplikasi membaca log modul, tetapi dapat memengaruhi kinerja</string>
-    <plurals name="disable_success_message">
-        <item quantity="other">Modul %d dinonaktifkan</item>
-    </plurals>
-
-    <!-- Compose Activity -->
-    <string name="follow_system">Sistem</string>
-    <string name="unknown_author">Pengembang tidak diketahui</string>
-    <string name="unknown_version">Versi tidak diketahui</string>
-    <string name="unknown_asset">Aset tidak diketahui</string>
-    <string name="download_asset">Unduh</string>
-    <string name="nav_back">Kembali</string>
-    <string name="nav_rail_expand">Perluas bilah navigasi</string>
-    <string name="nav_rail_collapse">Ciutkan bilah navigasi</string>
-    <string name="menu">Menu</string>
-    <string name="menu_filter">Filter</string>
-
-    <!-- Logs Page -->
-    <string name="menu_parsed_view">Tampilan terstruktur</string>
-    <string name="menu_raw_view">Tampilan mentah</string>
-
-    <!-- Theme Mode -->
-    <string name="settings_ui">Gaya antarmuka</string>
-    <string name="settings_ui_summary">Pilih gaya antarmuka</string>
-    <string name="settings_theme">Tema</string>
-    <string name="settings_theme_summary">Pilih mode tema aplikasi</string>
-    <string name="settings_theme_mode_system">Sistem</string>
-    <string name="settings_theme_mode_light">Terang</string>
-    <string name="settings_theme_mode_dark">Gelap</string>
-    <string name="settings_theme_mode_monet_system">Monet (Sistem)</string>
-    <string name="settings_theme_mode_monet_light">Monet (Terang)</string>
-    <string name="settings_theme_mode_monet_dark">Monet (Gelap)</string>
     <string name="settings_key_color">Warna utama</string>
     <string name="settings_key_color_summary">Sesuaikan warna utama saat menggunakan Monet</string>
     <string name="settings_key_color_default">Bawaan</string>
@@ -277,33 +293,17 @@
     <string name="settings_palette_style_summary">Algoritma tonal yang digunakan untuk menghasilkan palet Material 3</string>
     <string name="settings_color_spec">Spesifikasi warna</string>
     <string name="settings_color_spec_summary">Versi spesifikasi warna Material 3</string>
-    <string name="settings_page_scale">Skala tampilan</string>
-    <string name="settings_page_scale_summary">Sesuaikan skala tampilan</string>
-    <string name="settings_enable_blur">Blur</string>
-    <string name="settings_enable_blur_summary">Aktifkan efek blur untuk bilah atas dan bawah</string>
+    <string name="settings_enable_blur">Buram</string>
+    <string name="settings_enable_blur_summary">Aktifkan efek buram untuk bilah atas dan bawah</string>
     <string name="settings_floating_bottom_bar">Bilah bawah mengambang</string>
     <string name="settings_floating_bottom_bar_summary">Gunakan bilah bawah mengambang ala Apple</string>
     <string name="settings_enable_glass">Kaca cair</string>
     <string name="settings_enable_glass_summary">Aktifkan efek kaca cair (liquid glass) untuk bilah bawah mengambang</string>
+    <string name="settings_enable_predictive_back">Gerakan kembali prediktif</string>
+    <string name="settings_enable_predictive_back_summary">Aktifkan dukungan gerakan kembali prediktif</string>
+    <string name="settings_enable_swipe_dismiss">Gerakan usap kembali</string>
+    <string name="settings_enable_swipe_dismiss_summary">Usap dari tepi layar untuk kembali ke halaman sebelumnya</string>
+    <string name="settings_page_scale">Skala tampilan</string>
+    <string name="settings_page_scale_summary">Sesuaikan skala tampilan</string>
 
-    <!-- Refresh -->
-    <string name="refresh_pulling">Tarik ke bawah untuk menyegarkan</string>
-    <string name="refresh_release">Lepas untuk menyegarkan</string>
-    <string name="refresh_refresh">Menyegarkan…</string>
-    <string name="refresh_complete">Berhasil menyegarkan</string>
-
-    <!-- Repository -->
-    <string name="time_just_now">Baru saja</string>
-    <plurals name="time_minutes_ago">
-        <item quantity="other">%d menit yang lalu</item>
-    </plurals>
-    <plurals name="time_hours_ago">
-        <item quantity="other">%d jam yang lalu</item>
-    </plurals>
-    <plurals name="time_days_ago">
-        <item quantity="other">%d hari yang lalu</item>
-    </plurals>
-
-    <string name="developer_mode_title">Mode pengembang</string>
-    <string name="developer_mode_summary">Izinkan pengelolaan setelan dan cakupan LSPosed menggunakan alat CLI</string>
 </resources>
