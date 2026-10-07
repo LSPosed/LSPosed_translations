@@ -26,11 +26,11 @@
     <string name="need_update">Perlu pembaruan</string>
     <string name="developer_warning_title">Tips untuk pengembang modul</string>
     <string name="developer_warning_summary">Nonaktifkan deploy optimization di Android Studio, atau gunakan perintah `gradlew installDebug` untuk memasang. Jika tidak, APK modul tidak akan diperbarui.</string>
-    <string name="info_manager_package_name">Nama Paket Manajer</string>
-    <string name="info_system_version">Versi Sistem</string>
+    <string name="info_manager_package_name">Nama paket manajer</string>
+    <string name="info_system_version">Versi sistem</string>
     <string name="info_device">Perangkat</string>
     <string name="info_system_abi">Sistem ABI</string>
-    <string name="info_dex2oat_wrapper">Pembungkus Pengoptimal Dex</string>
+    <string name="info_dex2oat_wrapper">Pembungkus pengoptimal Dex</string>
     <string name="enabled">Aktif</string>
     <string name="not_enabled">Nonaktif</string>
     <string name="supported">Didukung</string>
@@ -39,7 +39,7 @@
     <string name="injected">Diinjeksikan</string>
     <string name="android_version_unsatisfied">Versi Android tidak didukung</string>
     <string name="crashed">Rusak</string>
-    <string name="mount_failed">Mount gagal</string>
+    <string name="mount_failed">Gagal memasang</string>
     <string name="info_copied">Disalin ke papan klip</string>
     <string name="touch_filtered_warning">Karena sebuah aplikasi menutupi antarmuka, Manajer tidak dapat memverifikasi respons Anda.</string>
 
@@ -47,7 +47,7 @@
     <string name="parasitic_welcome">Selamat datang di LSPosed</string>
     <string name="parasitic_welcome_summary">Anda menggunakan manajer parasit yang dapat dibuka dari notifikasi.</string>
     <string name="never_show">Jangan pernah tampilkan</string>
-    <string name="app_welcome">Manajer Parasit Disarankan</string>
+    <string name="app_welcome">Manajer parasit disarankan</string>
     <string name="app_welcome_summary">LSPosed sekarang mendukung parasitisasi sistem untuk menghindari deteksi, Anda dapat membuka manajer parasit dari notifikasi. Disarankan untuk menghapus aplikasi saat ini.</string>
 
     <!-- LogsActivity -->
@@ -112,7 +112,7 @@
     <string name="module_is_not_activated_yet">Modul Xposed belum diaktifkan</string>
     <string name="requested_by_module">Rekomendasi modul</string>
     <string name="update_available">Pembaruan tersedia: %1$s</string>
-    <string name="android_framework">Kerangka Kerja Sistem</string>
+    <string name="android_framework">Kerangka kerja sistem</string>
     <string name="menu_backup">Cadangkan</string>
     <string name="menu_restore">Pulihkan</string>
     <string name="force_stop">Paksa berhenti</string>
@@ -158,7 +158,7 @@
     <string name="update_channel_stable">Stabil</string>
     <string name="update_channel_beta">Beta</string>
     <string name="update_channel_nightly">Rilis harian</string>
-    <string name="settings_xposed_api_call_protection">Proteksi Panggilan API Xposed</string>
+    <string name="settings_xposed_api_call_protection">Proteksi panggilan API Xposed</string>
     <string name="settings_xposed_api_call_protection_summary">Memblokir kode modul yang dimuat secara dinamis untuk menggunakan API Xposed, ini mungkin mengganggu beberapa modul namun lebih aman</string>
     <string name="settings_invalidate_inline_hooks">Invalidasi inline hook</string>
     <string name="settings_invalidate_inline_hooks_summary">Melakukan pembersihan libart.so untuk aplikasi yang terdaftar. Ini berisiko menyebabkan malfungsi atau rusak acak. Gunakan hanya jika aplikasi tertentu tidak dapat dibuka</string>
@@ -267,8 +267,8 @@
     <string name="settings_color_spec_summary">Versi spesifikasi warna Material 3</string>
     <string name="settings_page_scale">Skala tampilan</string>
     <string name="settings_page_scale_summary">Sesuaikan skala tampilan</string>
-    <string name="settings_enable_blur">Blur</string>
-    <string name="settings_enable_blur_summary">Aktifkan efek blur untuk bilah atas dan bawah</string>
+    <string name="settings_enable_blur">Buram</string>
+    <string name="settings_enable_blur_summary">Aktifkan efek buram untuk bilah atas dan bawah</string>
     <string name="settings_floating_bottom_bar">Bilah bawah mengambang</string>
     <string name="settings_floating_bottom_bar_summary">Gunakan bilah bawah mengambang bergaya Apple</string>
     <string name="settings_enable_glass">Kaca cair</string>
