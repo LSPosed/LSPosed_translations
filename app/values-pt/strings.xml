@@ -1,183 +1,195 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--
-  ~ This file is part of LSPosed.
-  ~
-  ~ LSPosed is free software: you can redistribute it and/or modify
-  ~ it under the terms of the GNU General Public License as published by
-  ~ the Free Software Foundation, either version 3 of the License, or
-  ~ (at your option) any later version.
-  ~
-  ~ LSPosed is distributed in the hope that it will be useful,
-  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
-  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-  ~ GNU General Public License for more details.
-  ~
-  ~ You should have received a copy of the GNU General Public License
-  ~ along with LSPosed.  If not, see <https://www.gnu.org/licenses/>.
-  ~
-  ~ Copyright (C) 2021 LSPosed Contributors
-  -->
-<resources xmlns:tools="http://schemas.android.com/tools" tools:keep="@string/xposed_module_updated_notification_*,@string/module_is_not_activated_*">
+<resources>
     <!-- MainActivity -->
     <string name="overview">Resumo</string>
     <string name="Modules">Módulos</string>
-    <string name="Logs">Registros</string>
+    <string name="Logs">Registos</string>
     <string name="Settings">Configurações</string>
     <string name="About">Sobre</string>
     <string name="module_repo">Repositório</string>
+    <string name="about_send_bug_report">Enviar relatório de erro</string>
+    <string name="bug_report_message">Descreva brevemente o problema</string>
+    <string name="bug_report_exporting_logs">A exportar registos…</string>
+    <string name="about_join_telegram">Aderir ao canal do Telegram</string>
+    <string name="email_address_copied">Endereço de e-mail copiado</string>
     <string name="translators" comment="Dear translators, please add your home page here following the format. There can be more than one translator. So feel free to append yourself.">VD171, Dan, Hitalo, Luiz Renato, PedriR19</string>
     <string name="not_installed">Não instalado</string>
     <string name="not_install_summary">O LSPosed não está instalado</string>
     <string name="activated">Ativado</string>
-    <string name="partial_activated">Parcialmente Ativado</string>
-    <string name="system_inject_fail_summary">Falha na injeção ao Framework do Sistema</string>
-    <string name="system_inject_fail"><![CDATA[Isso é raro e pode ter sido causado pelo <b>Magisk</b> ou por algum módulo do Magisk de baixa qualidade.<br/>Por favor, tente desativar os módulos do Magisk, exceto o LSPosed (e o Zygisk, caso esteja em uso). Ou envie todos os registros para os desenvolvedores.]]></string>
+    <string name="partial_activated">Parcialmente ativado</string>
+    <string name="system_inject_fail_summary">Falha na injeção do Framework do sistema</string>
+    <string name="system_inject_fail"><![CDATA[Isto é raro e pode ter sido causado pelo <b>Magisk</b> ou por alguns módulos do Magisk de baixa qualidade.<br/>Por favor, tente desativar os módulos do Magisk que não sejam o Zygisk e o LSPosed, ou envie um registo completo aos programadores.]]></string>
     <string name="system_prop_incorrect_summary">Propriedade do sistema incorreta</string>
-    <string name="system_prop_incorrect"><![CDATA[Algumas propriedades necessárias do sistema foram excluídas ou modificadas.<br/>Alguns módulos podem falhar ocasionalmente.]]></string>
+    <string name="system_prop_incorrect"><![CDATA[Algumas propriedades necessárias do sistema foram eliminadas ou modificadas.<br/>É possível que os módulos deixem de funcionar ocasionalmente.]]></string>
     <string name="hyrt_unavailable_summary">Falha na injeção no HyperOS Runtime</string>
     <string name="hyrt_unavailable">O HyperOS Runtime foi detetado, mas a API do Zygisk Next não está disponível. Os módulos nativos não serão carregados nos processos do HyperOS Runtime.</string>
     <string name="need_update">Necessário atualizar</string>
+    <string name="developer_warning_title">Dicas para o programador do módulo</string>
+    <string name="developer_warning_summary">Desative as otimizações de implementação no Android Studio ou utilize o comando `gradlew installDebug` para instalar. Caso contrário, o APK do módulo não será atualizado.</string>
     <string name="info_manager_package_name">Nome do pacote do gestor</string>
-    <string name="info_system_version">Versão do Sistema</string>
-    <string name="info_device">Aparelho</string>
-    <string name="info_system_abi">Interfaces Binárias do Sistema</string>
-    <string name="info_dex2oat_wrapper">Otimização Encapsulamento Dex</string>
+    <string name="info_system_version">Versão do sistema</string>
+    <string name="info_device">Dispositivo</string>
+    <string name="info_system_abi">ABI do sistema</string>
+    <string name="info_dex2oat_wrapper">Encapsulamento do otimizador Dex</string>
     <string name="enabled">Ativado</string>
-    <string name="not_enabled">Desativado</string>
+    <string name="not_enabled">Não ativado</string>
     <string name="supported">Compatível</string>
     <string name="unsupported">Incompatível</string>
     <string name="mounted">Montado</string>
     <string name="injected">Injetado</string>
-    <string name="android_version_unsatisfied">Versão do Android insuficiente</string>
+    <string name="android_version_unsatisfied">Versão do Android não compatível</string>
     <string name="crashed">Falhou</string>
     <string name="mount_failed">Falha na montagem</string>
     <string name="info_copied">Copiado para a área de transferência</string>
     <!-- WelcomeDialog -->
+    <string name="touch_filtered_warning">Como uma aplicação está a obstruir a interface, o gestor não pode verificar a sua resposta.</string>
     <string name="parasitic_welcome">Bem-vindo ao LSPosed</string>
-    <string name="parasitic_welcome_summary">Você está usando o gerenciador parasita, ele pode ser aberto a partir da notificação.</string>
+    <string name="parasitic_welcome_summary">Está a usar o gestor parasitário, que pode ser aberto a partir da notificação.</string>
     <string name="never_show">Não mostrar novamente</string>
-    <string name="app_welcome">É recomendado o gerenciador parasita</string>
-    <string name="app_welcome_summary">O LSPosed agora oferece suporte a parasitização do sistema para evitar detecções, você pode abrir o gerenciador parasita a partir da notificação. É recomendado desinstalar o aplicativo atual.</string>
+    <string name="app_welcome">É recomendado o gestor parasitário</string>
+    <string name="app_welcome_summary">O LSPosed agora é compatível com a parasitização do sistema para evitar a deteção; pode abrir o gestor parasitário a partir da notificação. Recomenda-se desinstalar a aplicação atual.</string>
     <!-- LogsActivity -->
-    <string name="menuSaveToSd">Salvar</string>
-    <string name="nav_item_logs_verbose">Registros Detalhados</string>
-    <string name="nav_item_logs_module">Registros dos Módulos</string>
+    <string name="menuSaveToSd">Guardar</string>
+    <string name="nav_item_logs_verbose">Registos detalhados</string>
+    <string name="nav_item_logs_module">Registos dos módulos</string>
     <string name="logs_saving">A guardar o registo, aguarde</string>
-    <string name="logs_saved">Registros salvos</string>
-    <string name="logs_save_failed2">Falha ao salvar:\n%s</string>
-    <string name="menuClearLog">Limpar Registros</string>
-    <string name="scroll_top">Rolar para o topo</string>
-    <string name="scroll_bottom">Rolar para baixo</string>
-    <string name="menu_enable_word_wrap">Quebra de Linha</string>
+    <string name="logs_saved">Registos guardados</string>
+    <string name="logs_save_failed2">Falha ao guardar:\n%s</string>
+    <string name="logs_preparing">A preparar o registo, aguarde</string>
+    <string name="logs_prepare_failed">Falha ao preparar:\n%s</string>
+    <string name="menuClearLog">Limpar registos</string>
+    <string name="scroll_top">Deslocar para o topo</string>
+    <string name="scroll_bottom">Deslocar para o fundo</string>
+    <string name="menu_enable_word_wrap">Quebra de linha</string>
     <!-- ModulesActivity -->
     <string name="warning_xposed_min_version">Este módulo exige uma versão mais recente do Xposed (%d). Por isso, não poderá ser ativado</string>
     <string name="warning_target_version_higher">Este módulo foi concebido para uma versão mais recente do Xposed (%d) e, portanto, algumas funcionalidades podem não funcionar</string>
     <string name="no_min_version_specified">Este módulo não especifica qual a versão necessária do Xposed.</string>
-    <string name="warning_min_version_too_low">Este módulo foi criado para a versão %1$d do Xposed. Mas, devido mudanças incompatíveis na versão %2$d, ele foi desativado</string>
+    <string name="warning_min_version_too_low">Este módulo foi criado para a versão %1$d do Xposed. Mas, devido a alterações incompatíveis na versão %2$d, ele foi desativado</string>
     <string name="warning_deprecated_feature">Este módulo utiliza uma funcionalidade obsoleta que será removida em breve. Contacte o autor ou considere uma alternativa.</string>
     <string name="warning_installed_on_external_storage">Este módulo não pode ser carregado porque está instalado no cartão de memória. Por favor, mova para o armazenamento interno</string>
     <string name="module_uninstall">Desinstalar</string>
-    <string name="module_settings">Abrir módulo</string>
-    <string name="view_in_repo">Ver no Repositório</string>
-    <string name="module_uninstall_message">Você deseja desinstalar este módulo?</string>
+    <string name="module_settings">Definições do módulo</string>
+    <string name="view_in_repo">Ver no repositório</string>
+    <string name="module_uninstall_message">Pretende desinstalar este módulo?</string>
     <string name="module_uninstalled">%1$s desinstalado</string>
     <string name="module_uninstall_failed">Falha ao desinstalar</string>
     <string name="module_install_failed">Falha ao adicionar módulo</string>
-    <string name="install_to_user">Instalar no usuário %s</string>
+    <string name="install_to_user">Instalar para o utilizador %s</string>
     <string name="expand">expandir</string>
     <string name="collapse">recolher</string>
     <!-- AppListActivity -->
-    <string name="compile_speed">Re-otimizar</string>
-    <string name="compile_speed_msg">Otimizando…</string>
+    <string name="reset_scope_request_setting">Repor a definição de pedido de âmbito</string>
+    <string name="reset_scope_request_setting_done">Definição de pedido de âmbito reposta</string>
+    <string name="hide_non_system_overlay_failed_no_permission">Falha ao ocultar a sobreposição não pertencente ao sistema, atualize o gestor.</string>
+    <string name="compile_speed">Reotimizar</string>
+    <string name="compile_speed_msg">A otimizar…</string>
     <string name="compile_done">Otimização completa</string>
-    <string name="app_launch">Abrir app</string>
+    <string name="app_launch">Abrir aplicação</string>
     <string name="compile_failed">A otimização falhou: não houve nenhum retorno</string>
     <string name="compile_failed_with_info">Falha na otimização: </string>
-    <string name="sort_by_name">Nome do Módulo</string>
-    <string name="sort_by_package_name">Nome do Pacote</string>
-    <string name="sort_by_install_time">Data de Instalação</string>
-    <string name="sort_by_update_time">Data de Atualização</string>
+    <string name="sort_by_name">Nome da aplicação</string>
+    <string name="sort_by_package_name">Nome do pacote</string>
+    <string name="sort_by_install_time">Data de instalação</string>
+    <string name="sort_by_update_time">Data de atualização</string>
     <string name="sort_reverse">Inverter</string>
-    <string name="menu_show_system_apps">Apps do Sistema</string>
+    <string name="menu_show_system_apps">Aplicações do sistema</string>
     <string name="menu_sort">Ordenar</string>
     <string name="enable_module">Ativar módulo</string>
     <string name="menu_show_games">Jogos</string>
     <string name="menu_show_modules">Módulos</string>
-    <string name="failed_to_save_scope_list">Falha ao salvar lista de escopos</string>
+    <string name="module_scope_list_static_scope">O módulo declarou um âmbito estático</string>
+    <string name="failed_to_save_scope_list">Falha ao guardar a lista de âmbitos</string>
     <string name="app_version">Versão: %1$s</string>
     <string name="use_recommended">Recomendações</string>
-    <string name="use_recommended_message">Selecionar os aplicativos recomendados?</string>
-    <string name="module_is_not_activated_yet">O módulo ainda não está ativo</string>
-    <string name="requested_by_module">Recomendações</string>
+    <string name="use_recommended_message">Selecionar as aplicações recomendadas?</string>
+    <string name="deselect_all">Desmarcar tudo</string>
+    <string name="deselect_all_message">Desmarcar todas as aplicações selecionadas?</string>
+    <string name="module_is_not_activated_yet">O módulo Xposed ainda não está ativado</string>
+    <string name="requested_by_module">Recomendado pelo módulo</string>
     <string name="update_available">Atualização disponível: %1$s</string>
-    <string name="android_framework">Framework do Sistema</string>
-    <string name="menu_backup">Fazer Backup</string>
-    <string name="menu_restore">Restaurar Backup</string>
-    <string name="force_stop">Forçar parada</string>
-    <string name="force_stop_dlg_title">Forçar parada?</string>
-    <string name="force_stop_dlg_text">Se forçar a parada de um aplicativo, ele pode apresentar falhas.</string>
-    <string name="reboot_required">Necessário reiniciar para aplicar alteração</string>
+    <string name="android_framework">Framework do sistema</string>
+    <string name="menu_backup">Fazer backup</string>
+    <string name="menu_restore">Restaurar backup</string>
+    <string name="force_stop">Forçar paragem</string>
+    <string name="force_stop_dlg_title">Forçar paragem?</string>
+    <string name="force_stop_dlg_text">Se forçar a paragem de uma aplicação, esta pode apresentar mau funcionamento.</string>
+    <string name="reboot_required">É necessário reiniciar para aplicar a alteração</string>
     <string name="reboot">Reiniciar</string>
     <!-- ModulesActivity and AppListActivity -->
-    <string name="modules_other_app">Ver na Play Store</string>
-    <string name="module_app_info">Informações do app</string>
+    <string name="modules_other_app">Ver noutra aplicação</string>
+    <string name="module_app_info">Informações da aplicação</string>
     <string name="list_empty">¯\\\\_(ツ)_\/¯\nNada encontrado</string>
     <!-- SettingsActivity -->
     <string name="settings_group_framework">Framework</string>
-    <string name="settings_disable_verbose_log">Desativar registros detalhados</string>
-    <string name="settings_disable_verbose_log_summary">Relate o problema para incluir os registros detalhados</string>
+    <string name="settings_disable_verbose_log">Desativar registos detalhados</string>
+    <string name="settings_disable_verbose_log_summary">Comunicar problemas requer registos detalhados</string>
     <string name="settings_group_theme">Tema</string>
-    <string name="settings_backup_and_restore">Backup e Restauração</string>
-    <string name="settings_backup_summary">Faz uma cópia de segurança da lista de módulos e escopos</string>
-    <string name="settings_restore_summary">Faz a restauração de uma cópia de segurança da lista de módulos e escopos</string>
-    <string name="settings_backup">Fazer Backup</string>
+    <string name="settings_backup_and_restore">Backup e restauração</string>
+    <string name="settings_backup_summary">Faz uma cópia de segurança da lista de módulos e das listas de âmbitos.</string>
+    <string name="settings_restore_summary">Faz a restauração de uma cópia de segurança da lista de módulos e das listas de âmbitos.</string>
+    <string name="settings_backup">Fazer backup</string>
     <string name="settings_backup_failed2">Falha ao fazer backup:\n%s</string>
-    <string name="enable_documentui">Por favor, ative DocumentUI</string>
-    <string name="settings_restore">Restaurar Backup</string>
+    <string name="enable_documentui">Por favor, ative o DocumentsUI</string>
+    <string name="settings_restore">Restaurar backup</string>
     <string name="settings_restore_failed2">Falha ao restaurar:\n%s</string>
     <string name="group_network">Rede</string>
-    <string name="dns_over_http">Ativar DNS sobre HTTPS</string>
+    <string name="dns_over_http">DNS sobre HTTPS</string>
     <string name="dns_over_http_summary">Solução alternativa para envenenamento de DNS em alguns países</string>
-    <string name="settings_show_hidden_icon_apps_enabled">Forçar exibição de ícones dos apps</string>
-    <string name="settings_show_hidden_icon_apps_enabled_summary">Após o Android 10, alguns apps não estão autorizados a ocultarem seus ícones. Desative esta opção para desligar este recurso</string>
+    <string name="settings_repo_cdn">CDN do repositório de módulos</string>
+    <string name="repo_cdn_default">Predefinido</string>
+    <string name="repo_cdn_backup">Backup</string>
+    <string name="settings_show_hidden_icon_apps_enabled">Forçar as aplicações a mostrar os ícones do lançador</string>
+    <string name="settings_show_hidden_icon_apps_enabled_summary">Após o Android 10, as aplicações não podem ocultar os ícones do lançador. Desative esta opção para desativar esta funcionalidade do sistema</string>
     <string name="settings_group_system">Sistema</string>
     <string name="settings_language">Idioma</string>
     <string name="settings_translation_contributors">Tradutores</string>
-    <string name="settings_translation">Participe das Traduções</string>
-    <string name="settings_translation_summary">Ajude a traduzir o %s para o Português 🇵🇹🇧🇷</string>
+    <string name="settings_translation">Participe das traduções</string>
+    <string name="settings_translation_summary">Ajude a traduzir o %s para português 🇵🇹🇧🇷</string>
     <string name="settings_enable_status_notification">Notificação de estado</string>
-    <string name="settings_enable_status_notification_summary">Mostrar uma notificação que possa abrir o gerenciador parasita</string>
-    <string name="settings_update_channel">Canal de Atualizações</string>
+    <string name="settings_enable_status_notification_summary">Mostrar uma notificação que possa abrir o gestor parasitário</string>
+    <string name="settings_update_channel">Canal de atualizações de módulos</string>
     <string name="update_channel_stable">Estável</string>
     <string name="update_channel_beta">Beta</string>
-    <string name="update_channel_nightly">Nightly</string>
+    <string name="update_channel_nightly">Compilação noturna</string>
     <string name="settings_xposed_api_call_protection">Proteção da API do Xposed</string>
-    <string name="settings_xposed_api_call_protection_summary">Bloquear módulos carregados dinamicamente de usarem a API do Xposed, isso pode travar alguns módulos, mas melhora a segurança</string>
+    <string name="settings_xposed_api_call_protection_summary">Bloquear o código dos módulos carregados dinamicamente de usar a API do Xposed; isto pode quebrar alguns módulos, mas melhora a segurança</string>
     <!-- Module Repo -->
+    <string name="settings_invalidate_inline_hooks">Invalidar hooks inline</string>
+    <string name="settings_invalidate_inline_hooks_summary">Limpar o libart.so das aplicações listadas. Isto causará falhas aleatórias e encerramentos inesperados. Utilize apenas quando não for possível abrir aplicações específicas.</string>
+    <string name="failed_to_save_invalidate_inline_hooks_list">Falha ao guardar a lista de invalidação de hooks inline</string>
+    <string name="settings_enable_predictive_back">Gesto de retroceder preditivo</string>
+    <string name="settings_enable_predictive_back_summary">Ativar o suporte para gestos de retroceder preditivos</string>
+    <string name="settings_enable_swipe_dismiss">Gesto de retroceder por deslize</string>
+    <string name="settings_enable_swipe_dismiss_summary">Deslize a partir da margem do ecrã para regressar à página anterior</string>
+    <string name="settings_tapjacking_protection">Mitigação de tapjacking</string>
+    <string name="settings_tapjacking_protection_summary">Bloqueia os toques quando a interface está obstruída, para impedir ataques de tapjacking</string>
     <string name="module_readme">Leia-me</string>
     <string name="module_releases">Versões</string>
     <string name="module_information">Informações</string>
-    <string name="module_information_homepage">Website</string>
-    <string name="module_information_source_url">Código-Fonte</string>
+    <string name="module_information_homepage">Página inicial</string>
+    <string name="module_information_source_url">Código-fonte</string>
     <string name="module_information_collaborators">Colaboradores</string>
-    <string name="module_release_view_assets">Conteúdos</string>
+    <string name="module_release_view_assets">Ficheiros</string>
     <string name="menu_open_in_browser">Abrir no navegador</string>
+    <string name="menu_share">Partilhar</string>
     <string name="module_release_load_more">Mostrar versões anteriores</string>
     <string name="module_release_no_more">Não há mais versões</string>
-    <string name="sort_upgradable_first">Atualizável Primeiro</string>
+    <string name="sort_upgradable_first">Atualizável primeiro</string>
     <string name="installed">Instalado</string>
     <plurals name="module_release_assets_download_count">
-        <item quantity="one">%d baixado</item>
-        <item quantity="other">%d baixados</item>
+        <item quantity="one">%d transferência</item>
+        <item quantity="other">%d transferências</item>
+        <item quantity="many">%d de transferências</item>
     </plurals>
     <!-- Colors -->
     <string name="color_red">Vermelho</string>
     <string name="color_pink">Rosa</string>
     <string name="color_purple">Roxo</string>
-    <string name="color_deep_purple">Roxo Escuro</string>
+    <string name="color_deep_purple">Roxo escuro</string>
     <string name="color_indigo">Azul-anil</string>
     <string name="color_blue">Azul</string>
-    <string name="color_light_blue">Azul Claro</string>
+    <string name="color_light_blue">Azul claro</string>
     <string name="color_cyan">Ciano</string>
     <string name="color_teal">Verde-azulado</string>
     <string name="color_green">Verde</string>
@@ -185,8 +197,97 @@
     <string name="color_yellow">Amarelo</string>
     <string name="color_amber">Âmbar</string>
     <string name="color_orange">Laranja</string>
-    <string name="color_brown">Marrom</string>
+    <string name="color_brown">Castanho</string>
     <string name="color_blue_grey">Azul-acinzentado</string>
+    <string name="safe_mode">Modo de segurança</string>
+    <string name="safe_mode_summary">O LSPosed está em modo de segurança</string>
+    <string name="safe_mode_summary2">Todos os módulos Xposed ficam indisponíveis até ao próximo reinício.\nAlguns módulos provocaram falhas no sistema. Identifique e desative esses módulos e comunique o problema aos programadores dos módulos.</string>
+    <string name="disable_all_modules">Desativar todos os módulos</string>
+    <string name="confirm_disable_all_modules">Confirmar?</string>
+    <plurals name="message_disable_all_modules">
+        <item quantity="one">%d módulo será desativado.
+Esta operação não pode ser anulada.</item>
+        <item quantity="many">%d de módulos serão desativados.
+Esta operação não pode ser anulada.</item>
+        <item quantity="other">%d módulos serão desativados.
+Esta operação não pode ser anulada.</item>
+    </plurals>
+    <string name="disable_success_title">Sucesso</string>
+    <string name="hook_debug_title">Depuração de hooks</string>
+    <string name="debugging_title">Depuração</string>
     <string name="developer_mode_title">Modo de programador</string>
     <string name="developer_mode_summary">Permitir a gestão das definições e dos âmbitos do LSPosed através da ferramenta CLI</string>
+    <string name="safe_mode_disabled_title">Desativar o modo de segurança</string>
+    <string name="safe_mode_disabled_summary">Impedir a entrada no modo de segurança quando os componentes do sistema param repetidamente</string>
+    <string name="hook_debug_summary">Permitir o despejo das informações de depuração de hooks dos processos com hooks, o que pode ter impacto no desempenho</string>
+    <string name="dump_hook_debug_title">Despejar informações de depuração de hooks</string>
+    <string name="dump_hook_debug_summary">Despejar as informações de depuração de hooks em /data/adb/lspd/log</string>
+    <string name="dump_hook_success">Despejado em %s</string>
+    <string name="dump_hook_failed">Falha ao despejar</string>
+    <string name="log_to_daemon_title">Registar no daemon</string>
+    <string name="log_to_daemon_summary">Isto impede que os registos dos módulos sejam lidos pelas aplicações, mas pode afetar o desempenho</string>
+    <plurals name="disable_success_message">
+        <item quantity="one">%d módulo desativado</item>
+        <item quantity="many">%d de módulos desativados</item>
+        <item quantity="other">%d módulos desativados</item>
+    </plurals>
+    <string name="follow_system">Seguir o sistema</string>
+    <string name="unknown_author">Autor desconhecido</string>
+    <string name="unknown_version">Versão desconhecida</string>
+    <string name="unknown_asset">Ficheiro desconhecido</string>
+    <string name="download_asset">Transferir</string>
+    <string name="nav_back">Retroceder</string>
+    <string name="nav_rail_expand">Expandir a barra de navegação</string>
+    <string name="nav_rail_collapse">Recolher a barra de navegação</string>
+    <string name="menu">Menu</string>
+    <string name="menu_filter">Filtrar</string>
+    <string name="menu_parsed_view">Vista analisada</string>
+    <string name="menu_raw_view">Vista em bruto</string>
+    <string name="settings_ui">Estilo da interface</string>
+    <string name="settings_ui_summary">Escolher o estilo da interface</string>
+    <string name="settings_theme">Tema</string>
+    <string name="settings_theme_summary">Escolher o modo de tema da aplicação</string>
+    <string name="settings_theme_mode_system">Seguir o sistema</string>
+    <string name="settings_theme_mode_light">Claro</string>
+    <string name="settings_theme_mode_dark">Escuro</string>
+    <string name="settings_theme_mode_monet_system">Monet (seguir o sistema)</string>
+    <string name="settings_theme_mode_monet_light">Monet (claro)</string>
+    <string name="settings_theme_mode_monet_dark">Monet (escuro)</string>
+    <string name="settings_key_color">Cor de destaque</string>
+    <string name="settings_key_color_summary">Personalizar a cor de origem ao utilizar o Monet</string>
+    <string name="settings_key_color_default">Predefinido</string>
+    <string name="settings_theme_entry">Definições de tema</string>
+    <string name="settings_theme_entry_summary">Modo de tema, cor de destaque, estilo da paleta e mais</string>
+    <string name="settings_palette_style">Estilo da paleta</string>
+    <string name="settings_palette_style_summary">Algoritmo tonal utilizado para derivar a paleta do Material 3</string>
+    <string name="settings_color_spec">Especificação de cor</string>
+    <string name="settings_color_spec_summary">Versão da especificação de cor do Material 3</string>
+    <string name="settings_page_scale">Escala da página</string>
+    <string name="settings_page_scale_summary">Ajustar a escala de visualização global</string>
+    <string name="settings_enable_blur">Desfoque</string>
+    <string name="settings_enable_blur_summary">Ativar o efeito de desfoque nas barras superior e inferior</string>
+    <string name="settings_floating_bottom_bar">Barra inferior flutuante</string>
+    <string name="settings_floating_bottom_bar_summary">Utilizar uma barra inferior flutuante ao estilo da Apple</string>
+    <string name="settings_enable_glass">Vidro líquido</string>
+    <string name="settings_enable_glass_summary">Ativar o efeito de vidro líquido na barra inferior flutuante</string>
+    <string name="refresh_pulling">Deslize para baixo para atualizar</string>
+    <string name="refresh_release">Solte para atualizar</string>
+    <string name="refresh_refresh">A atualizar…</string>
+    <string name="refresh_complete">Atualização concluída com êxito</string>
+    <string name="time_just_now">Agora mesmo</string>
+    <plurals name="time_minutes_ago">
+        <item quantity="one">Há %d minuto</item>
+        <item quantity="many">Há %d de minutos</item>
+        <item quantity="other">Há %d minutos</item>
+    </plurals>
+    <plurals name="time_hours_ago">
+        <item quantity="one">Há %d hora</item>
+        <item quantity="many">Há %d de horas</item>
+        <item quantity="other">Há %d horas</item>
+    </plurals>
+    <plurals name="time_days_ago">
+        <item quantity="one">Há %d dia</item>
+        <item quantity="many">Há %d de dias</item>
+        <item quantity="other">Há %d dias</item>
+    </plurals>
 </resources>

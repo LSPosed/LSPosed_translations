@@ -8,7 +8,7 @@
     <string name="xposed_module_updated_notification_title">Xposed module updated</string>
     <string name="xposed_module_updated_notification_title_system">Xposed module updated, system reboot required</string>
     <string name="xposed_module_updated_notification_content">%s has been updated, please force stop and restart apps in its scope</string>
-    <string name="xposed_module_updated_notification_content_system">%s has been updated, since the scope contains System Framework, required reboot to apply changes</string>
+    <string name="xposed_module_updated_notification_content_system">%s has been updated, since the scope contains System Framework, a reboot is required to apply the changes</string>
     <string name="xposed_module_updated_notification_reload">%1$s has been updated, %2$s</string>
     <string name="xposed_module_updated_notification_reload_none">%s has been updated</string>
     <plurals name="xposed_module_updated_notification_reload_reloaded">
@@ -36,7 +36,7 @@
     <string name="scope_channel_name">Scope request</string>
     <string name="scope_approve">Approve</string>
     <string name="scope_deny">Deny</string>
-    <string name="nerver_ask_again">Never Ask</string>
+    <string name="never_ask_again">Never Ask</string>
     <string name="lsposed_safemode_notification_title">LSPosed is in safe mode</string>
     <string name="lsposed_safemode_notification_content">All Xposed modules are unavailable until next reboot</string>
     <string name="safe_mode_disable_all_modules">Disable all modules</string>

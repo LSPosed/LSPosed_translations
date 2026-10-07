@@ -1,22 +1,5 @@
-<!-- 
-  ~ This file is part of LSPosed.
-  ~
-  ~ LSPosed is free software: you can redistribute it and/or modify
-  ~ it under the terms of the GNU General Public License as published by
-  ~ the Free Software Foundation, either version 3 of the License, or
-  ~ (at your option) any later version.
-  ~
-  ~ LSPosed is distributed in the hope that it will be useful,
-  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
-  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-  ~ GNU General Public License for more details.
-  ~
-  ~ You should have received a copy of the GNU General Public License
-  ~ along with LSPosed.  If not, see <https://www.gnu.org/licenses/>.
-  ~
-  ~ Copyright (C) 2021 LSPosed Contributors
-   -->
-<resources xmlns:tools="http://schemas.android.com/tools" tools:keep="@string/xposed_module_updated_notification_*,@string/module_is_not_activated_*">
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
 <!--  MainActivity  -->
 <string name="overview">ئومۇمىي كۆرۈنۈش</string>
 <string name="Modules">مودۇللار</string>
@@ -35,15 +18,11 @@
 <string name="activated">ئاكتىپلاشتۇرۇلغان</string>
 <string name="partial_activated">قىسمەن ئاكتىپلاشتۇرۇلغان</string>
 <string name="system_inject_fail_summary">سىستېما قۇرۇلمىسىنى كىرگۈزۈش مەغلۇب بولدى</string>
-<string name="system_inject_fail">
-<![CDATA[ بۇ ناھايىتى ئاز ئۇچرايدىغان ئەھۋال بولۇپ، <b>Magisk</b> ياكى تۆۋەن سۈپەتلىك بەزى Magisk مودۇللىرىدىن كېلىپ چىقىشى مۇمكىن.<br/>LSPosed دىن باشقا Magisk مودۇللىرىنى چەكلەپ بېقىڭ ياكى تولۇق خاتىرىنى تەرەققىياتچىلارغا يوللاڭ. ]]>
-</string>
+<string name="system_inject_fail"><![CDATA[بۇ ناھايىتى ئاز ئۇچرايدىغان ئەھۋال بولۇپ، <b>Magisk</b> ياكى تۆۋەن سۈپەتلىك بەزى Magisk مودۇللىرىدىن كېلىپ چىقىشى مۇمكىن.<br/>Zygisk ۋە LSPosed دىن باشقا Magisk مودۇللىرىنى چەكلەپ بېقىڭ ياكى تولۇق خاتىرىنى تەرەققىياتچىلارغا يوللاڭ.]]></string>
 <string name="system_prop_incorrect_summary">سىستېما خاسلىقى خاتا</string>
-<string name="system_prop_incorrect">
-    <string name="hyrt_unavailable_summary">HyperOS Runtime نى كىرگۈزۈش مەغلۇپ بولدى</string>
-    <string name="hyrt_unavailable">HyperOS Runtime بايقالدى، ئەمما Zygisk Next API نى ئىشلەتكىلى بولمايدۇ. يەرلىك مودۇللار HyperOS Runtime جەريانلىرىغا يۈكلەنمەيدۇ.</string>
-<![CDATA[ بەزى زۆرۈر سىستېما خاسلىقلىرى ئۆچۈرۈلگەن ياكى ئۆزگەرتىلگەن.<br/>مودۇللار ئاندا-ساندا ئىشتىن چىقىپ قېلىشى مۇمكىن. ]]>
-</string>
+<string name="system_prop_incorrect"><![CDATA[بەزى زۆرۈر سىستېما خاسلىقلىرى ئۆچۈرۈلگەن ياكى ئۆزگەرتىلگەن.<br/>مودۇللار ئاندا-ساندا ئىشتىن چىقىپ قېلىشى مۇمكىن.]]></string>
+<string name="hyrt_unavailable_summary">HyperOS Runtime نى كىرگۈزۈش مەغلۇپ بولدى</string>
+<string name="hyrt_unavailable">HyperOS Runtime بايقالدى، ئەمما Zygisk Next API نى ئىشلەتكىلى بولمايدۇ. يەرلىك مودۇللار HyperOS Runtime جەريانلىرىغا يۈكلەنمەيدۇ.</string>
 <string name="need_update">يېڭىلاش كېرەك</string>
 <string name="developer_warning_title">مودۇل تەرەققىياتچىسى ئۈچۈن مەسلىھەتلەر</string>
 <string name="developer_warning_summary">Android Studio نىڭ deploy ئەلالاشتۇرۇشىنى چەكلەڭ، ياكى `gradlew installDebug` بۇيرۇقى ئارقىلىق قاچىلاڭ. بولمىسا مودۇلنىڭ apk سى يېڭىلانمايدۇ.</string>
@@ -52,12 +31,12 @@
 <string name="info_device">ئۈسكۈنە</string>
 <string name="info_system_abi">سىستېما ABI</string>
 <string name="info_dex2oat_wrapper">Dex ئەلالاشتۇرغۇچ ئورالمىسى</string>
-<string name="enabled">يېقىلغان</string>
-<string name="not_enabled">يېقىلمىغان</string>
+<string name="enabled">ئىشقا سېلىنغان</string>
+<string name="not_enabled">ئىشقا سېلىنمىغان</string>
 <string name="supported">قوللىنىدۇ</string>
 <string name="unsupported">قوللانمايدۇ</string>
-<string name="mounted">ئورنىتىلدى</string>
-<string name="injected">كۆرگۈزۈلدى</string>
+<string name="mounted">تاغلاندى</string>
+<string name="injected">كىرگۈزۈلدى</string>
 <string name="android_version_unsatisfied">Android نۇسخىسى تەلەپنى قاندۇرالمايدۇ</string>
 <string name="crashed">يىمىرىلدى</string>
 <string name="mount_failed">تاغلاش مەغلۇب بولدى</string>
@@ -116,7 +95,7 @@
 <string name="sort_reverse">تەتۈر</string>
 <string name="menu_show_system_apps">سىستېما ئەپلىرى</string>
 <string name="menu_sort">تەرتىپلەش</string>
-<string name="enable_module">مودۇلنى ئەمەللەشتۈرۈش</string>
+<string name="enable_module">مودۇلنى ئىشقا سېلىش</string>
 <string name="menu_show_games">ئويۇنلار</string>
 <string name="menu_show_modules">مودۇللار</string>
 <string name="module_scope_list_static_scope">مودۇل سىتاتىك دائىرە جاكارلىغان</string>
@@ -127,7 +106,7 @@
 <string name="deselect_all">ھەممىنى تاللاشتىن چىقىرىش</string>
 <string name="deselect_all_message">تاللانغان ھەممە ئەپنى تاللاشتىن چىقىرامسىز؟</string>
 <string name="module_is_not_activated_yet">Xposed مودۇلى تېخى ئاكتىپلاشتۇرۇلمىغان</string>
-<string name="requested_by_module">تەۋسىيە قىلىنغان</string>
+<string name="requested_by_module">مودۇل تەۋسىيە قىلغان</string>
 <string name="update_available">يېڭىلانما بار: %1$s</string>
 <string name="android_framework">سىستېما قۇرۇلمىسى</string>
 <string name="menu_backup">زاپاسلاش</string>
@@ -151,7 +130,7 @@
 <string name="settings_restore_summary">مودۇل تىزىملىكى ۋە دائىرە تىزىملىكلىرىنى ئەسلىگە كەلتۈرۈش.</string>
 <string name="settings_backup">زاپاسلاش</string>
 <string name="settings_backup_failed2">زاپاسلاش مەغلۇب بولدى:\n%s</string>
-<string name="enable_documentui">DocumentUI نى ئەمەللەشتۈرۈڭ</string>
+<string name="enable_documentui">DocumentsUI نى ئىشقا سېلىڭ</string>
 <string name="settings_restore">ئەسلىگە كەلتۈرۈش</string>
 <string name="settings_restore_failed2">ئەسلىگە كەلتۈرۈش مەغلۇب بولدى:\n%s</string>
 <string name="group_network">تور</string>
@@ -169,7 +148,7 @@
 <string name="settings_translation_summary">%s نى تىلىڭىزغا تەرجىمە قىلىشىمىزغا ياردەم قىلىڭ</string>
 <string name="settings_enable_status_notification">ھالەت ئۇقتۇرۇشى</string>
 <string name="settings_enable_status_notification_summary">پارازىت باشقۇرغۇچىنى ئاچالايدىغان ئۇقتۇرۇش كۆرسىتىش</string>
-<string name="settings_update_channel">يېڭىلاش قانىلى</string>
+<string name="settings_update_channel">مودۇل يېڭىلاش قانىلى</string>
 <string name="update_channel_stable">مۇقىم</string>
 <string name="update_channel_beta">Beta</string>
 <string name="update_channel_nightly">ھەر كېچىلىك قۇرۇلما</string>
@@ -179,7 +158,9 @@
 <string name="settings_invalidate_inline_hooks_summary">تىزىملىكتىكى ئەپلەر ئۈچۈن libart.so نى پاكىتلاش. بۇ تاسادىپىي ئىقتىدار بۇزۇلۇشى ۋە يىمىرىلىشلەرنى كەلتۈرۈپ چىقىرىشى مۇمكىن. پەقەت مەلۇم ئەپلەرنى ئاچالمىغان ۋاقىتتا ئىشلىتىڭ.</string>
 <string name="failed_to_save_invalidate_inline_hooks_list">ئىچكى ئىلمەكلەرنى بىكار قىلىش تىزىملىكىنى ساقلاش مەغلۇب بولدى</string>
 <string name="settings_enable_predictive_back">ئالدىن مۆلچەرلىگۈچى قايتىش ئىشارىسى</string>
-<string name="settings_enable_predictive_back_summary">ئالدىن مۆلچەرلىگۈچى قايتىش ئىشارىلىرىنى قوللاشنى ئەمەللەشتۈرۈش.</string>
+<string name="settings_enable_predictive_back_summary">ئالدىن مۆلچەرلىگۈچى قايتىش ئىشارىلىرىنى قوللاشنى ئىشقا سېلىش.</string>
+    <string name="settings_enable_swipe_dismiss">سىيرىپ قايتىش ئىشارىسى</string>
+    <string name="settings_enable_swipe_dismiss_summary">ئېكران چېتىدىن سىيرىپ ئالدىنقى بەتكە قايتىڭ.</string>
 <string name="settings_tapjacking_protection">Tapjacking قوغدىشى</string>
 <string name="settings_tapjacking_protection_summary">كۆرۈنمە يۈز توسۇلغاندا چېكىشلەرنى توسۇپ، tapjacking ھۇجۇملىرىنىڭ ئالدىنى ئېلىش</string>
 <!--  Module Repo  -->
@@ -197,6 +178,7 @@
 <string name="sort_upgradable_first">يېڭىلانغىلى بولىدىغانلار ئالدىدا</string>
 <string name="installed">قاچىلانغان</string>
 <plurals name="module_release_assets_download_count">
+<item quantity="one">%d قېتىم چۈشۈرۈلگەن</item>
 <item quantity="other">%d قېتىم چۈشۈرۈلگەن</item>
 </plurals>
 <!--  Colors  -->
@@ -220,13 +202,16 @@
 <string name="safe_mode_summary">LSPosed بىخەتەر ھالەتتە</string>
 <string name="safe_mode_summary2">كېيىنكى قايتا قوزغىتىشقا قەدەر بارلىق Xposed مودۇللىرى ئىشلىمەيدۇ. \nبەزى مودۇللار سىستېمىنىڭ يىمىرىلىشىنى كەلتۈرۈپ چىقاردى. بۇ مودۇللارنى تېپىپ چەكلەڭ ۋە مودۇل تەرەققىياتچىلىرىغا ئىنكاس بېرىڭ.</string>
 <string name="disable_all_modules">بارلىق مودۇللارنى چەكلەش</string>
-<string name="confirm_disable_all_modules">جەزملەشتۈرەمسىز؟</string>
+<string name="confirm_disable_all_modules">جەزملەمسىز؟</string>
 <plurals name="message_disable_all_modules">
+<item quantity="one">%d مودۇل چەكلىنىدۇ.\nبۇ مەشغۇلاتنى ئەسلىگە كەلتۈرگىلى بولمايدۇ.</item>
 <item quantity="other">%d مودۇل چەكلىنىدۇ.\nبۇ مەشغۇلاتنى ئەسلىگە كەلتۈرگىلى بولمايدۇ.</item>
 </plurals>
 <string name="disable_success_title">مۇۋەپپەقىيەت</string>
 <string name="hook_debug_title">Hook تۈزىتىش</string>
 <string name="debugging_title">تۈزىتىش</string>
+    <string name="safe_mode_disabled_title">بىخەتەر ھالەتنى چەكلەش</string>
+    <string name="safe_mode_disabled_summary">سىستېما زاپچاسلىرى ئۈزلۈكسىز توختىغاندا بىخەتەر ھالەتكە كىرىشنىڭ ئالدىنى ئېلىش</string>
 <string name="hook_debug_summary">ئىلمەك قىلىنغان جەريانلارنىڭ hook تۈزىتىش ئۇچۇرلىرىنى چىقىرىشقا يول قويۇش؛ بۇ ئىقتىدارغا تەسىر كۆرسىتىشى مۇمكىن</string>
 <string name="dump_hook_debug_title">Hook تۈزىتىش ئۇچۇرلىرىنى چىقىرىش</string>
 <string name="dump_hook_debug_summary">Hook تۈزىتىش ئۇچۇرلىرىنى /data/adb/lspd/log غا چىقىرىش</string>
@@ -235,6 +220,7 @@
 <string name="log_to_daemon_title">خاتىرىنى daemon غا يوللاش</string>
 <string name="log_to_daemon_summary">بۇ مودۇل خاتىرىلىرىنىڭ ئەپلەر تەرىپىدىن ئوقۇلۇشىنىڭ ئالدىنى ئالالايدۇ، ئەمما ئىقتىدارغا تەسىر كۆرسىتىشى مۇمكىن</string>
 <plurals name="disable_success_message">
+<item quantity="one">%d مودۇل چەكلەندى</item>
 <item quantity="other">%d مودۇل چەكلەندى</item>
 </plurals>
 <!--  Compose Activity  -->
@@ -287,14 +273,17 @@
 <!--  Repository  -->
 <string name="time_just_now">ھازىرلا</string>
 <plurals name="time_minutes_ago">
+<item quantity="one">%d مىنۇت ئىلگىرى</item>
 <item quantity="other">%d مىنۇت ئىلگىرى</item>
 </plurals>
 <plurals name="time_hours_ago">
+<item quantity="one">%d سائەت ئىلگىرى</item>
 <item quantity="other">%d سائەت ئىلگىرى</item>
 </plurals>
 <plurals name="time_days_ago">
+<item quantity="one">%d كۈن ئىلگىرى</item>
 <item quantity="other">%d كۈن ئىلگىرى</item>
 </plurals>
-<string name="developer_mode_title">ئاچقۇچى ھالىتى</string>
+<string name="developer_mode_title">تەرەققىياتچى ھالىتى</string>
 <string name="developer_mode_summary">CLI قورالى ئارقىلىق LSPosed تەڭشەكلىرى ۋە دائىرىسىنى باشقۇرۇشقا يول قويۇش</string>
 </resources>

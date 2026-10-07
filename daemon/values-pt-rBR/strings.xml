@@ -2,21 +2,64 @@
 <resources>
     <!-- Notification -->
     <string name="list_separator">, </string>
-    <string name="module_is_not_activated_yet">O módulo ainda não está ativo</string>
-    <string name="module_is_not_activated_yet_main_user_detailed">%1$s foi instalado, mas ainda não está ativo</string>
-    <string name="module_is_not_activated_yet_multi_user_detailed">%1$s foi instalado no usuário %2$s, mas ainda não está ativo</string>
-    <string name="xposed_module_updated_notification_title">Módulo Atualizado</string>
-    <string name="xposed_module_updated_notification_title_system">Módulo Atualizado. É necessário reiniciar o sistema</string>
-    <string name="xposed_module_updated_notification_content">%s foi atualizado. Force a parada do módulo e reinicie os apps que estão em seu escopo</string>
-    <string name="xposed_module_updated_notification_content_system">%s foi atualizado. Como o escopo contém o Framework do Sistema, é necessário reiniciar para aplicar as mudanças</string>
+    <string name="module_is_not_activated_yet">O módulo Xposed ainda não está ativado</string>
+    <string name="module_is_not_activated_yet_main_user_detailed">%1$s foi instalado, mas ainda não está ativado</string>
+    <string name="module_is_not_activated_yet_multi_user_detailed">%1$s foi instalado no usuário %2$s, mas ainda não está ativado</string>
+    <string name="xposed_module_updated_notification_title">Módulo atualizado</string>
+    <string name="xposed_module_updated_notification_title_system">Módulo atualizado. É necessário reiniciar o sistema</string>
+    <string name="xposed_module_updated_notification_content">%s foi atualizado. Force a parada e reinicie os apps que estão em seu escopo</string>
+    <string name="xposed_module_updated_notification_content_system">%s foi atualizado. Como o escopo contém o Framework do sistema, é necessário reiniciar para aplicar as mudanças</string>
+    <string name="xposed_module_updated_notification_reload">%1$s foi atualizado, %2$s</string>
+    <string name="xposed_module_updated_notification_reload_none">%s foi atualizado</string>
+    <plurals name="xposed_module_updated_notification_reload_reloaded">
+        <item quantity="one">%d processo recarregado a quente</item>
+        <item quantity="many">%d de processos recarregados a quente</item>
+        <item quantity="other">%d processos recarregados a quente</item>
+    </plurals>
+    <plurals name="xposed_module_updated_notification_reload_reloading">
+        <item quantity="one">%d processo recarregando a quente</item>
+        <item quantity="many">%d de processos recarregando a quente</item>
+        <item quantity="other">%d processos recarregando a quente</item>
+    </plurals>
+    <plurals name="xposed_module_updated_notification_reload_failed">
+        <item quantity="one">%d processo falhou na recarga a quente</item>
+        <item quantity="many">%d de processos falharam na recarga a quente</item>
+        <item quantity="other">%d processos falharam na recarga a quente</item>
+    </plurals>
+    <string name="xposed_module_enabled_notification_title">Módulo Xposed ativado</string>
+    <string name="xposed_module_enabled_notification_content">%s foi ativado, toque para configurar o escopo</string>
+    <string name="xposed_module_updated_notification_action_enable">Ativar módulo</string>
     <string name="module_updated_channel_name">Atualização do módulo concluída</string>
     <string name="status_channel_name">Estado do LSPosed</string>
     <string name="lsposed_running_notification_title">LSPosed carregado</string>
     <string name="lsposed_running_notification_content">Toque na notificação para abrir o gerenciador</string>
-    <string name="xposed_module_request_scope_title">Solicitação de Escopo</string>
-    <string name="xposed_module_request_scope_content">%1$s do usuário %2$s está solicitando para adicionar %3$s no seu escopo.</string>
+    <string name="xposed_module_request_scope_title">Solicitação de escopo</string>
+    <string name="xposed_module_request_scope_content">%1$s do usuário %2$s solicita adicionar %3$s ao seu escopo.</string>
+    <string name="xposed_module_request_scope_content_batch">%1$s do usuário %2$s solicita adicionar os seguintes aplicativos ao seu escopo.</string>
     <string name="scope_channel_name">Solicitação de escopo</string>
     <string name="scope_approve">Permitir</string>
     <string name="scope_deny">Negar</string>
-    <string name="nerver_ask_again">Nunca Perguntar</string>
+    <string name="never_ask_again">Nunca perguntar</string>
+    <string name="lsposed_safemode_notification_title">O LSPosed está em modo de segurança</string>
+    <string name="lsposed_safemode_notification_content">Todos os módulos Xposed ficam indisponíveis até a próxima reinicialização</string>
+    <string name="safe_mode_disable_all_modules">Desativar todos os módulos</string>
+    <string name="lsposed_safemode_cleared_notification_title">Todos os módulos estão desativados</string>
+    <plurals name="lsposed_safemode_cleared_notification_content">
+        <item quantity="one">%d módulo está desativado</item>
+        <item quantity="many">%d de módulos estão desativados</item>
+        <item quantity="other">%d módulos estão desativados</item>
+    </plurals>
+    <string name="lsposed_safemode_clear_confirm_notification_title">Confirmar?</string>
+    <plurals name="lsposed_safemode_clear_confirm_notification_content">
+        <item quantity="one">%d módulo será desativado
+Esta operação não pode ser desfeita</item>
+        <item quantity="many">%d de módulos serão desativados
+Esta operação não pode ser desfeita</item>
+        <item quantity="other">%d módulos serão desativados
+Esta operação não pode ser desfeita</item>
+    </plurals>
+    <string name="safe_mode_reboot">Reiniciar</string>
+    <string name="safe_mode_channel_name">Modo de segurança</string>
+    <string name="safe_mode_open_manager">Abrir o gerenciador</string>
+    <string name="safe_mode_back">Voltar</string>
 </resources>

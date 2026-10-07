@@ -1,72 +1,64 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--
-  ~ This file is part of LSPosed.
-  ~
-  ~ LSPosed is free software: you can redistribute it and/or modify
-  ~ it under the terms of the GNU General Public License as published by
-  ~ the Free Software Foundation, either version 3 of the License, or
-  ~ (at your option) any later version.
-  ~
-  ~ LSPosed is distributed in the hope that it will be useful,
-  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
-  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-  ~ GNU General Public License for more details.
-  ~
-  ~ You should have received a copy of the GNU General Public License
-  ~ along with LSPosed.  If not, see <https://www.gnu.org/licenses/>.
-  ~
-  ~ Copyright (C) 2021 LSPosed Contributors
-  -->
-<resources xmlns:tools="http://schemas.android.com/tools" tools:keep="@string/xposed_module_updated_notification_*,@string/module_is_not_activated_*">
+<resources>
     <!-- MainActivity -->
-    <string name="overview">সার সংক্ষেপ </string>
+    <string name="overview">এক নজরে</string>
     <string name="Modules">মডিউল</string>
-    <string name="Logs">তথ্য সার-সংক্ষেপ </string>
-    <string name="Settings">বিন্যাস</string>
-    <string name="About">সম্পর্কিত</string>
+    <string name="Logs">লগ</string>
+    <string name="Settings">সেটিংস</string>
+    <string name="About">সম্পর্কে</string>
     <string name="module_repo">ভান্ডার</string>
+    <string name="about_send_bug_report">বাগ রিপোর্ট পাঠান</string>
+    <string name="bug_report_message">সংক্ষেপে সমস্যাটি বর্ণনা করুন</string>
+    <string name="bug_report_exporting_logs">লগ এক্সপোর্ট করা হচ্ছে…</string>
+    <string name="about_join_telegram">Telegram চ্যানেলে যোগ দিন</string>
+    <string name="email_address_copied">ইমেল ঠিকানা কপি করা হয়েছে</string>
     <string name="translators" comment="Dear translators, please add your home page here following the format. There can be more than one translator. So feel free to append yourself.">bdtipsntricks</string>
-    <string name="not_installed">ইনস্টল করা না</string>
-    <string name="not_install_summary">LSPosed ইনস্টল করা হয় না</string>
+    <string name="not_installed">ইনস্টল করা হয়নি</string>
+    <string name="not_install_summary">LSPosed ইনস্টল করা হয়নি</string>
     <string name="activated">সক্রিয়</string>
     <string name="partial_activated">আংশিক সক্রিয়</string>
     <string name="system_inject_fail_summary">সিস্টেম ফ্রেমওয়ার্ক ইনজেকশন ব্যর্থ হয়েছে</string>
     <string name="system_inject_fail"><![CDATA[এটি বিরল এবং <b>Magisk</b> বা কিছু নিম্নমানের Magisk মডিউলের কারণে হতে পারে।<br/>অনুগ্রহ করে Zygisk এবং LSPosed ব্যতীত Magisk মডিউলগুলি নিষ্ক্রিয় করার চেষ্টা করুন বা বিকাশকারীদের কাছে সম্পূর্ণ লগ জমা দিন।]]></string>
     <string name="system_prop_incorrect_summary">সিস্টেম প্রপ ভুল</string>
-    <string name="system_prop_incorrect"><![CDATA[কিছু প্রয়োজনীয় সিস্টেম বৈশিষ্ট্য মুছে ফেলা বা সংশোধন করা হয়েছে.<br/>মডিউল মাঝে মাঝে অবৈধ হতে পারে।]]></string>
+    <string name="system_prop_incorrect"><![CDATA[কিছু প্রয়োজনীয় সিস্টেম বৈশিষ্ট্য মুছে ফেলা বা সংশোধন করা হয়েছে।<br/>মডিউল মাঝে মাঝে অবৈধ হতে পারে।]]></string>
     <string name="hyrt_unavailable_summary">HyperOS Runtime ইনজেকশন ব্যর্থ হয়েছে</string>
     <string name="hyrt_unavailable">HyperOS Runtime শনাক্ত করা হয়েছে, কিন্তু Zygisk Next API উপলভ্য নয়। নেটিভ মডিউলগুলি HyperOS Runtime প্রসেসে লোড করা হবে না।</string>
     <string name="need_update">আপডেট করতে হবে</string>
+    <string name="developer_warning_title">মডিউল ডেভেলপারদের জন্য টিপস</string>
+    <string name="developer_warning_summary">Android Studio-তে ডিপ্লয় অপ্টিমাইজেশন বন্ধ করুন, অথবা ইনস্টল করতে `gradlew installDebug` কমান্ড ব্যবহার করুন। অন্যথায় মডিউলের APK আপডেট হবে না।</string>
     <string name="info_manager_package_name">ম্যানেজার প্যাকেজের নাম</string>
     <string name="info_system_version">সিস্টেম সংস্করণ</string>
     <string name="info_device">যন্ত্র</string>
     <string name="info_system_abi">সিস্টেম ABI</string>
     <string name="info_dex2oat_wrapper">ডেক্স অপ্টিমাইজার মোড়ক</string>
     <string name="enabled">সক্রিয়</string>
-    <string name="not_enabled">সক্রিয় না</string>
+    <string name="not_enabled">নিষ্ক্রিয়</string>
     <string name="supported">সমর্থিত</string>
     <string name="unsupported">অসমর্থিত</string>
     <string name="mounted">মাউন্ট করা হয়েছে</string>
     <string name="injected">ইনজেক্ট করা হয়েছে</string>
-    <string name="android_version_unsatisfied">অ্যান্ড্রয়েড সংস্করণ অসন্তুষ্ট</string>
-    <string name="crashed">বিধ্বস্ত</string>
+    <string name="android_version_unsatisfied">Android সংস্করণ সমর্থিত নয়</string>
+    <string name="crashed">ক্র্যাশ হয়েছে</string>
     <string name="mount_failed">মাউন্ট ব্যর্থ হয়েছে</string>
     <string name="info_copied">ক্লিপবোর্ডে কপি করা হয়েছে</string>
     <!-- WelcomeDialog -->
-    <string name="parasitic_welcome">LSPosed স্বাগতম</string>
+    <string name="touch_filtered_warning">কোনও অ্যাপ ইন্টারফেস ঢেকে রাখায় ম্যানেজার আপনার প্রতিক্রিয়া যাচাই করতে পারছে না।</string>
+    <string name="parasitic_welcome">LSPosed-এ স্বাগতম</string>
     <string name="parasitic_welcome_summary">আপনি পরজীবী ম্যানেজার ব্যবহার করছেন, যা বিজ্ঞপ্তি থেকে খুলতে পারে।</string>
-    <string name="never_show">কখনও দেখাবে না</string>
-    <string name="app_welcome">পরজীবী ব্যবস্থাপক প্রস্তাবিত</string>
+    <string name="never_show">কখনও দেখাবেন না</string>
+    <string name="app_welcome">পরজীবী ম্যানেজার প্রস্তাবিত</string>
     <string name="app_welcome_summary">LSPosed এখন সনাক্তকরণ এড়াতে সিস্টেম প্যারাসাইটাইজেশন সমর্থন করে, আপনি বিজ্ঞপ্তি থেকে পরজীবী ম্যানেজার খুলতে পারেন। বর্তমান অ্যাপ্লিকেশনটি আনইনস্টল করার পরামর্শ দেওয়া হচ্ছে।</string>
     <!-- LogsActivity -->
-    <string name="menuSaveToSd">সংরক্ষণ</string>
+    <string name="menuSaveToSd">সংরক্ষণ করুন</string>
     <string name="nav_item_logs_verbose">ভার্বোস লগ</string>
     <string name="nav_item_logs_module">মডিউল লগ</string>
     <string name="logs_saving">লগ সংরক্ষণ করা হচ্ছে, অনুগ্রহ করে অপেক্ষা করুন</string>
     <string name="logs_saved">লগ সংরক্ষিত</string>
     <string name="logs_save_failed2">সংরক্ষণ করতে ব্যর্থ হয়েছে:\n%s</string>
+    <string name="logs_preparing">লগ প্রস্তুত করা হচ্ছে, অনুগ্রহ করে অপেক্ষা করুন</string>
+    <string name="logs_prepare_failed">প্রস্তুত করতে ব্যর্থ হয়েছে:\n%s</string>
     <string name="menuClearLog">এখন লগ সাফ করুন</string>
-    <string name="scroll_top">উপরে যান</string>
+    <string name="scroll_top">উপরে স্ক্রোল করুন</string>
     <string name="scroll_bottom">নীচে স্ক্রোল করুন</string>
     <string name="menu_enable_word_wrap">শব্দ মোড়ানো</string>
     <!-- ModulesActivity -->
@@ -75,25 +67,28 @@
     <string name="no_min_version_specified">এই মডিউলটি তার প্রয়োজনীয় Xposed সংস্করণটি নির্দিষ্ট করে না।</string>
     <string name="warning_min_version_too_low">এই মডিউলটি Xposed সংস্করণ %1$d-এর জন্য তৈরি করা হয়েছিল, কিন্তু সংস্করণ %2$d-এ অসামঞ্জস্যপূর্ণ পরিবর্তনের কারণে, এটি নিষ্ক্রিয় করা হয়েছে।</string>
     <string name="warning_deprecated_feature">এই মডিউলটি একটি অপ্রচলিত বৈশিষ্ট্য ব্যবহার করে যা শীঘ্রই সরিয়ে দেওয়া হবে। অনুগ্রহ করে লেখকের সাথে যোগাযোগ করুন অথবা বিকল্প বিবেচনা করুন।</string>
-    <string name="warning_installed_on_external_storage">এই মডিউলটি লোড করা যাবে না কারণ এটি SD কার্ডে ইনস্টল করা আছে, দয়া করে এটিকে অভ্যন্তরীণ সঞ্চয়স্থানে নিয়ে যান৷</string>
+    <string name="warning_installed_on_external_storage">এই মডিউলটি লোড করা যাবে না কারণ এটি SD কার্ডে ইনস্টল করা আছে, দয়া করে এটিকে অভ্যন্তরীণ সঞ্চয়স্থানে নিয়ে যান।</string>
     <string name="module_uninstall">আনইনস্টল করুন</string>
     <string name="module_settings">মডিউল সেটিংস</string>
     <string name="view_in_repo">রেপোতে দেখুন</string>
     <string name="module_uninstall_message">আপনি এই মডিউল আনইনস্টল করতে চান?</string>
     <string name="module_uninstalled">আনইনস্টল %1$s</string>
     <string name="module_uninstall_failed">আনইনস্টল করা যায়নি</string>
-    <string name="module_install_failed">মডিউল যোগ করা ব্যর্থ হয়েছে৷</string>
-    <string name="install_to_user">ব্যবহারকারী %sএ ইনস্টল করুন</string>
-    <string name="expand">বিস্তৃত করা</string>
-    <string name="collapse">পতন</string>
+    <string name="module_install_failed">মডিউল যোগ করা ব্যর্থ হয়েছে।</string>
+    <string name="install_to_user">ব্যবহারকারী %s-এ ইনস্টল করুন</string>
+    <string name="expand">প্রসারিত করুন</string>
+    <string name="collapse">সঙ্কুচিত করুন</string>
     <!-- AppListActivity -->
+    <string name="reset_scope_request_setting">স্কোপ অনুরোধের সেটিং রিসেট করুন</string>
+    <string name="reset_scope_request_setting_done">স্কোপ অনুরোধের সেটিং রিসেট করা হয়েছে</string>
+    <string name="hide_non_system_overlay_failed_no_permission">নন-সিস্টেম ওভারলে লুকানো যায়নি, অনুগ্রহ করে ম্যানেজার আপডেট করুন।</string>
     <string name="compile_speed">পুনরায় অপ্টিমাইজ করুন</string>
     <string name="compile_speed_msg">অপ্টিমাইজ করা…</string>
     <string name="compile_done">অপ্টিমাইজেশান সম্পূর্ণ</string>
     <string name="app_launch">এটি চালু করুন</string>
     <string name="compile_failed">অপ্টিমাইজেশান ব্যর্থ হয়েছে: রিটার্ন মান খালি</string>
     <string name="compile_failed_with_info">অপ্টিমাইজেশান ব্যর্থ হয়েছে: </string>
-    <string name="sort_by_name">আবেদনের নাম</string>
+    <string name="sort_by_name">অ্যাপের নাম</string>
     <string name="sort_by_package_name">প্যাকেজের নাম</string>
     <string name="sort_by_install_time">ইন্সটল করার সময়</string>
     <string name="sort_by_update_time">আপডেটের সময়</string>
@@ -103,18 +98,21 @@
     <string name="enable_module">মডিউল সক্ষম করুন</string>
     <string name="menu_show_games">গেমস</string>
     <string name="menu_show_modules">মডিউল</string>
-    <string name="failed_to_save_scope_list">সুযোগ তালিকা সংরক্ষণ করতে ব্যর্থ হয়েছে</string>
+    <string name="module_scope_list_static_scope">মডিউলটি স্ট্যাটিক স্কোপ ঘোষণা করেছে</string>
+    <string name="failed_to_save_scope_list">স্কোপ তালিকা সংরক্ষণ করতে ব্যর্থ হয়েছে</string>
     <string name="app_version">সংস্করণ: %1$s</string>
     <string name="use_recommended">প্রস্তাবিত</string>
     <string name="use_recommended_message">প্রস্তাবিত অ্যাপ নির্বাচন করবেন?</string>
+    <string name="deselect_all">সবগুলি নির্বাচনমুক্ত করুন</string>
+    <string name="deselect_all_message">নির্বাচিত সব অ্যাপ নির্বাচনমুক্ত করবেন?</string>
     <string name="module_is_not_activated_yet">Xposed মডিউল এখনও সক্রিয় করা হয় নি</string>
-    <string name="requested_by_module">প্রস্তাবিত</string>
+    <string name="requested_by_module">মডিউল প্রস্তাবিত</string>
     <string name="update_available">আপডেট উপলব্ধ: %1$s</string>
     <string name="android_framework">সিস্টেম ফ্রেমওয়ার্ক</string>
     <string name="menu_backup">ব্যাকআপ</string>
     <string name="menu_restore">পুনরুদ্ধার করুন</string>
-    <string name="force_stop">জোরপুর্বক থামা</string>
-    <string name="force_stop_dlg_title">জোরপুর্বক থামা?</string>
+    <string name="force_stop">জোরপূর্বক বন্ধ করুন</string>
+    <string name="force_stop_dlg_title">জোরপূর্বক বন্ধ করবেন?</string>
     <string name="force_stop_dlg_text">আপনি যদি একটি অ্যাপকে জোর করে বন্ধ করেন, তাহলে সেটি খারাপ আচরণ করতে পারে।</string>
     <string name="reboot_required">এই পরিবর্তনটি প্রয়োগ করার জন্য রিবুট প্রয়োজন</string>
     <string name="reboot">রিবুট করুন</string>
@@ -125,46 +123,59 @@
     <!-- SettingsActivity -->
     <string name="settings_group_framework">ফ্রেমওয়ার্ক</string>
     <string name="settings_disable_verbose_log">ভার্বোস লগ অক্ষম করুন</string>
-    <string name="settings_disable_verbose_log_summary">ভার্বোস লগগুলি অন্তর্ভুক্ত করার জন্য সমস্যার প্রতিবেদন করুন</string>
+    <string name="settings_disable_verbose_log_summary">সমস্যা প্রতিবেদন করতে ভার্বোস লগ প্রয়োজন</string>
     <string name="settings_group_theme">থিম</string>
     <string name="settings_backup_and_restore">ব্যাকআপ এবং পুনঃস্থাপন</string>
-    <string name="settings_backup_summary">ব্যাকআপ মডিউল তালিকা এবং সুযোগ তালিকা.</string>
-    <string name="settings_restore_summary">মডিউল তালিকা এবং সুযোগ তালিকা পুনরুদ্ধার করুন।</string>
+    <string name="settings_backup_summary">মডিউল তালিকা এবং স্কোপ তালিকার ব্যাকআপ নিন।</string>
+    <string name="settings_restore_summary">মডিউল তালিকা এবং স্কোপ তালিকা পুনরুদ্ধার করুন।</string>
     <string name="settings_backup">ব্যাকআপ</string>
     <string name="settings_backup_failed2">ব্যাকআপ করতে ব্যর্থ হয়েছে:\n%s</string>
-    <string name="enable_documentui">অনুগ্রহ করে ডকুমেন্টইউআই সক্ষম করুন</string>
+    <string name="enable_documentui">অনুগ্রহ করে DocumentsUI সক্ষম করুন</string>
     <string name="settings_restore">পুনরুদ্ধার করুন</string>
     <string name="settings_restore_failed2">পুনরুদ্ধার করতে ব্যর্থ হয়েছে:\n%s</string>
-    <string name="group_network">অন্তর্জাল</string>
-    <string name="dns_over_http">HTTPS এর উপর DNS</string>
-    <string name="dns_over_http_summary">কিছু দেশে ডিএনএস বিষক্রিয়ার সমাধান</string>
-    <string name="settings_show_hidden_icon_apps_enabled">অ্যাপ্লিকেশানগুলিকে লঞ্চার আইকনগুলি দেখাতে বাধ্য করুন৷</string>
-    <string name="settings_show_hidden_icon_apps_enabled_summary">অ্যান্ড্রয়েড 10 এর পরে, অ্যাপগুলিকে তাদের লঞ্চার আইকনগুলি লুকানোর অনুমতি দেওয়া হয় না। এই সিস্টেম বৈশিষ্ট্যটি নিষ্ক্রিয় করতে টগলটি বন্ধ করুন৷</string>
-    <string name="settings_group_system">পদ্ধতি</string>
+    <string name="group_network">নেটওয়ার্ক</string>
+    <string name="dns_over_http">HTTPS-এর মাধ্যমে DNS</string>
+    <string name="dns_over_http_summary">কিছু দেশে DNS বিষক্রিয়ার সমাধান</string>
+    <string name="settings_repo_cdn">মডিউল ভান্ডার CDN</string>
+    <string name="repo_cdn_default">ডিফল্ট</string>
+    <string name="repo_cdn_backup">ব্যাকআপ</string>
+    <string name="settings_show_hidden_icon_apps_enabled">অ্যাপ্লিকেশনগুলিকে লঞ্চার আইকন দেখাতে বাধ্য করুন।</string>
+    <string name="settings_show_hidden_icon_apps_enabled_summary">Android 10-এর পরে, অ্যাপগুলিকে তাদের লঞ্চার আইকন লুকানোর অনুমতি দেওয়া হয় না। এই সিস্টেম বৈশিষ্ট্যটি নিষ্ক্রিয় করতে টগলটি বন্ধ করুন।</string>
+    <string name="settings_group_system">সিস্টেম</string>
     <string name="settings_language">ভাষা</string>
     <string name="settings_translation_contributors">অনুবাদ অবদানকারী</string>
     <string name="settings_translation">অনুবাদে অংশগ্রহণ করুন</string>
     <string name="settings_translation_summary">আপনার ভাষায় %s অনুবাদ করতে আমাদের সাহায্য করুন</string>
     <string name="settings_enable_status_notification">স্থিতি বিজ্ঞপ্তি</string>
     <string name="settings_enable_status_notification_summary">পরজীবী ম্যানেজার খুলতে পারে এমন একটি বিজ্ঞপ্তি দেখান</string>
-    <string name="settings_update_channel">চ্যানেল আপডেট করুন</string>
+    <string name="settings_update_channel">মডিউল আপডেট চ্যানেল</string>
     <string name="update_channel_stable">স্থিতিশীল</string>
     <string name="update_channel_beta">বেটা</string>
-    <string name="update_channel_nightly">রাতারাতি নির্মাণ</string>
+    <string name="update_channel_nightly">নাইটলি বিল্ড</string>
     <string name="settings_xposed_api_call_protection">Xposed API কল সুরক্ষা</string>
-    <string name="settings_xposed_api_call_protection_summary">এক্সপোজড এপিআই ব্যবহার করতে গতিশীলভাবে লোড করা মডিউল কোড ব্লক করুন, এটি কিছু মডিউল ভেঙে ফেলতে পারে তবে নিরাপত্তার সুবিধা পাবে</string>
+    <string name="settings_xposed_api_call_protection_summary">গতিশীলভাবে লোড করা মডিউল কোডকে Xposed API ব্যবহার করা থেকে ব্লক করুন; এটি কিছু মডিউল নষ্ট করতে পারে তবে নিরাপত্তা বাড়ায়</string>
     <!-- Module Repo -->
+    <string name="settings_invalidate_inline_hooks">ইনলাইন হুক পুনরুদ্ধার করুন</string>
+    <string name="settings_invalidate_inline_hooks_summary">তালিকাভুক্ত অ্যাপগুলির জন্য libart.so পরিষ্কার করে। এটি এলোমেলো ত্রুটি ও ক্র্যাশ ঘটাবে। কেবল নির্দিষ্ট অ্যাপ খুলতে না পারলে ব্যবহার করুন।</string>
+    <string name="failed_to_save_invalidate_inline_hooks_list">ইনলাইন হুক পুনরুদ্ধারের তালিকা সংরক্ষণ করা যায়নি</string>
+    <string name="settings_enable_predictive_back">প্রেডিক্টিভ ব্যাক জেসচার</string>
+    <string name="settings_enable_predictive_back_summary">প্রেডিক্টিভ ব্যাক জেসচারের জন্য সমর্থন সক্ষম করুন।</string>
+    <string name="settings_enable_swipe_dismiss">সোয়াইপ ব্যাক জেসচার</string>
+    <string name="settings_enable_swipe_dismiss_summary">পূর্ববর্তী পাতায় ফিরতে প্রান্ত থেকে সোয়াইপ করুন।</string>
+    <string name="settings_tapjacking_protection">ট্যাপজ্যাকিং প্রতিরোধ</string>
+    <string name="settings_tapjacking_protection_summary">ট্যাপজ্যাকিং আক্রমণ প্রতিরোধে ইন্টারফেস ঢাকা থাকলে স্পর্শ ব্লক করে</string>
     <string name="module_readme">রিডমি</string>
-    <string name="module_releases">মুক্তি দেয়</string>
+    <string name="module_releases">রিলিজ</string>
     <string name="module_information">তথ্য</string>
     <string name="module_information_homepage">হোমপেজ</string>
     <string name="module_information_source_url">সোর্স কোড</string>
     <string name="module_information_collaborators">সহযোগীরা</string>
     <string name="module_release_view_assets">সম্পদ</string>
-    <string name="menu_open_in_browser">ব্রাউজারে খোলা</string>
+    <string name="menu_open_in_browser">ব্রাউজারে খুলুন</string>
+    <string name="menu_share">শেয়ার করুন</string>
     <string name="module_release_load_more">পুরোনো সংস্করণ দেখান</string>
-    <string name="module_release_no_more">আর মুক্তি নেই</string>
-    <string name="sort_upgradable_first">প্রথমে আপগ্রেডযোগ্য</string>
+    <string name="module_release_no_more">আর কোনো রিলিজ নেই</string>
+    <string name="sort_upgradable_first">আপগ্রেডযোগ্য প্রথমে</string>
     <string name="installed">ইনস্টল করা হয়েছে</string>
     <plurals name="module_release_assets_download_count">
         <item quantity="one">%d ডাউনলোড</item>
@@ -175,18 +186,101 @@
     <string name="color_pink">গোলাপী</string>
     <string name="color_purple">বেগুনি</string>
     <string name="color_deep_purple">গভীর বেগুনি</string>
-    <string name="color_indigo">নীল</string>
+    <string name="color_indigo">ইন্ডিগো</string>
     <string name="color_blue">নীল</string>
     <string name="color_light_blue">হালকা নীল</string>
     <string name="color_cyan">সায়ান</string>
     <string name="color_teal">টিল</string>
     <string name="color_green">সবুজ</string>
-    <string name="color_lime">চুন</string>
+    <string name="color_lime">লাইম সবুজ</string>
     <string name="color_yellow">হলুদ</string>
     <string name="color_amber">অ্যাম্বার</string>
     <string name="color_orange">কমলা</string>
     <string name="color_brown">বাদামী</string>
     <string name="color_blue_grey">নীল ধূসর</string>
+    <string name="safe_mode">নিরাপদ মোড</string>
+    <string name="safe_mode_summary">LSPosed নিরাপদ মোডে আছে</string>
+    <string name="safe_mode_summary2">পরবর্তী রিবুট পর্যন্ত সব Xposed মডিউল অনুপলব্ধ।\nকিছু মডিউল সিস্টেম ক্র্যাশ ঘটিয়েছে। অনুগ্রহ করে সেই মডিউলগুলি খুঁজে বন্ধ করুন এবং মডিউল ডেভেলপারদের জানান।</string>
+    <string name="disable_all_modules">সব মডিউল নিষ্ক্রিয় করুন</string>
+    <string name="confirm_disable_all_modules">নিশ্চিত করবেন?</string>
+    <plurals name="message_disable_all_modules">
+        <item quantity="one">%d মডিউল নিষ্ক্রিয় করা হবে।
+এই কাজটি ফিরিয়ে আনা যাবে না।</item>
+        <item quantity="other">%d মডিউল নিষ্ক্রিয় করা হবে।
+এই কাজটি ফিরিয়ে আনা যাবে না।</item>
+    </plurals>
+    <string name="disable_success_title">সফল হয়েছে</string>
+    <string name="hook_debug_title">হুক ডিবাগ</string>
+    <string name="debugging_title">ডিবাগিং</string>
     <string name="developer_mode_title">ডেভেলপার মোড</string>
     <string name="developer_mode_summary">CLI টুল ব্যবহার করে LSPosed সেটিংস ও স্কোপ পরিচালনার অনুমতি দিন</string>
+    <string name="safe_mode_disabled_title">নিরাপদ মোড নিষ্ক্রিয় করুন</string>
+    <string name="safe_mode_disabled_summary">সিস্টেমের উপাদান বারবার বন্ধ হয়ে গেলে নিরাপদ মোডে প্রবেশ করা প্রতিরোধ করুন</string>
+    <string name="hook_debug_summary">হুক করা প্রক্রিয়ার হুক ডিবাগ তথ্য ডাম্প করার অনুমতি দেয়, যা কার্যক্ষমতায় প্রভাব ফেলতে পারে</string>
+    <string name="dump_hook_debug_title">হুক ডিবাগ তথ্য ডাম্প করুন</string>
+    <string name="dump_hook_debug_summary">/data/adb/lspd/log-এ হুক ডিবাগ তথ্য ডাম্প করুন</string>
+    <string name="dump_hook_success">%s-এ ডাম্প করা হয়েছে</string>
+    <string name="dump_hook_failed">ডাম্প করা যায়নি</string>
+    <string name="log_to_daemon_title">ডেমনে লগ পাঠান</string>
+    <string name="log_to_daemon_summary">এটি অ্যাপগুলিকে মডিউল লগ পড়া থেকে বিরত রাখে, তবে কার্যক্ষমতায় প্রভাব ফেলতে পারে</string>
+    <plurals name="disable_success_message">
+        <item quantity="one">%d মডিউল নিষ্ক্রিয় করা হয়েছে</item>
+        <item quantity="other">%d মডিউল নিষ্ক্রিয় করা হয়েছে</item>
+    </plurals>
+    <string name="follow_system">সিস্টেম অনুসরণ করুন</string>
+    <string name="unknown_author">অজানা লেখক</string>
+    <string name="unknown_version">অজানা সংস্করণ</string>
+    <string name="unknown_asset">অজানা সম্পদ</string>
+    <string name="download_asset">ডাউনলোড করুন</string>
+    <string name="nav_back">ফিরুন</string>
+    <string name="nav_rail_expand">নেভিগেশন রেল প্রসারিত করুন</string>
+    <string name="nav_rail_collapse">নেভিগেশন রেল সঙ্কুচিত করুন</string>
+    <string name="menu">মেনু</string>
+    <string name="menu_filter">ফিল্টার</string>
+    <string name="menu_parsed_view">পার্স করা ভিউ</string>
+    <string name="menu_raw_view">মূল ভিউ</string>
+    <string name="settings_ui">UI স্টাইল</string>
+    <string name="settings_ui_summary">ইন্টারফেসের স্টাইল বেছে নিন</string>
+    <string name="settings_theme">থিম</string>
+    <string name="settings_theme_summary">অ্যাপের থিম মোড বেছে নিন</string>
+    <string name="settings_theme_mode_system">সিস্টেম অনুসরণ করুন</string>
+    <string name="settings_theme_mode_light">হালকা</string>
+    <string name="settings_theme_mode_dark">গাঢ়</string>
+    <string name="settings_theme_mode_monet_system">Monet (সিস্টেম অনুসরণ করুন)</string>
+    <string name="settings_theme_mode_monet_light">Monet (হালকা)</string>
+    <string name="settings_theme_mode_monet_dark">Monet (গাঢ়)</string>
+    <string name="settings_key_color">অ্যাকসেন্ট রঙ</string>
+    <string name="settings_key_color_summary">Monet ব্যবহার করার সময় সিড রঙ কাস্টমাইজ করুন</string>
+    <string name="settings_key_color_default">ডিফল্ট</string>
+    <string name="settings_theme_entry">থিম সেটিংস</string>
+    <string name="settings_theme_entry_summary">থিম মোড, অ্যাকসেন্ট রঙ, প্যালেট স্টাইল এবং আরও</string>
+    <string name="settings_palette_style">প্যালেট স্টাইল</string>
+    <string name="settings_palette_style_summary">Material 3 প্যালেট তৈরি করতে ব্যবহৃত টোনাল অ্যালগরিদম</string>
+    <string name="settings_color_spec">রঙের স্পেক</string>
+    <string name="settings_color_spec_summary">Material 3 রঙের স্পেসিফিকেশন সংস্করণ</string>
+    <string name="settings_page_scale">পৃষ্ঠা স্কেল</string>
+    <string name="settings_page_scale_summary">সামগ্রিক ডিসপ্লে স্কেল সমন্বয় করুন</string>
+    <string name="settings_enable_blur">ব্লার</string>
+    <string name="settings_enable_blur_summary">উপরের ও নিচের বারের জন্য ব্লার প্রভাব সক্ষম করুন</string>
+    <string name="settings_floating_bottom_bar">ভাসমান নিচের বার</string>
+    <string name="settings_floating_bottom_bar_summary">Apple-এর মতো স্টাইলের ভাসমান নিচের বার ব্যবহার করুন</string>
+    <string name="settings_enable_glass">লিকুইড গ্লাস</string>
+    <string name="settings_enable_glass_summary">ভাসমান নিচের বারের জন্য লিকুইড গ্লাস প্রভাব সক্ষম করুন</string>
+    <string name="refresh_pulling">রিফ্রেশ করতে নিচে টানুন</string>
+    <string name="refresh_release">রিফ্রেশ করতে ছেড়ে দিন</string>
+    <string name="refresh_refresh">রিফ্রেশ করা হচ্ছে…</string>
+    <string name="refresh_complete">সফলভাবে রিফ্রেশ হয়েছে</string>
+    <string name="time_just_now">এইমাত্র</string>
+    <plurals name="time_minutes_ago">
+        <item quantity="one">%d মিনিট আগে</item>
+        <item quantity="other">%d মিনিট আগে</item>
+    </plurals>
+    <plurals name="time_hours_ago">
+        <item quantity="one">%d ঘণ্টা আগে</item>
+        <item quantity="other">%d ঘণ্টা আগে</item>
+    </plurals>
+    <plurals name="time_days_ago">
+        <item quantity="one">%d দিন আগে</item>
+        <item quantity="other">%d দিন আগে</item>
+    </plurals>
 </resources>

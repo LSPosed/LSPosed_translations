@@ -8,15 +8,52 @@
     <string name="xposed_module_updated_notification_title">Актуализиран модул Xposed</string>
     <string name="xposed_module_updated_notification_title_system">Актуализиран модул Xposed, изисква се рестартиране на системата</string>
     <string name="xposed_module_updated_notification_content">%s е актуализиран, моля, спрете принудително и рестартирайте приложенията в неговия обхват</string>
-    <string name="xposed_module_updated_notification_content_system">%s е актуализиран, тъй като обхватът съдържа System Framework, необходимо е рестартиране, за да се приложат промените</string>
+    <string name="xposed_module_updated_notification_content_system">%s е актуализиран, тъй като обхватът съдържа системната рамка, необходимо е рестартиране, за да се приложат промените</string>
+    <string name="xposed_module_updated_notification_reload">%1$s е актуализиран, %2$s</string>
+    <string name="xposed_module_updated_notification_reload_none">%s е актуализиран</string>
+    <plurals name="xposed_module_updated_notification_reload_reloaded">
+        <item quantity="one">%d процес горещо презареден</item>
+        <item quantity="other">%d процеса горещо презаредени</item>
+    </plurals>
+    <plurals name="xposed_module_updated_notification_reload_reloading">
+        <item quantity="one">%d процес се презарежда горещо</item>
+        <item quantity="other">%d процеса се презареждат горещо</item>
+    </plurals>
+    <plurals name="xposed_module_updated_notification_reload_failed">
+        <item quantity="one">%d процес не се презареди горещо</item>
+        <item quantity="other">%d процеса не се презаредиха горещо</item>
+    </plurals>
+    <string name="xposed_module_enabled_notification_title">Xposed модулът е разрешен</string>
+    <string name="xposed_module_enabled_notification_content">%s е разрешен, докоснете, за да настроите обхвата</string>
+    <string name="xposed_module_updated_notification_action_enable">Активиране на модула</string>
     <string name="module_updated_channel_name">Актуализация на модула е завършена</string>
-    <string name="status_channel_name">Предложен статус на LSP</string>
+    <string name="status_channel_name">Статус LSPosed</string>
     <string name="lsposed_running_notification_title">LSPosed заредени</string>
     <string name="lsposed_running_notification_content">Докоснете известието, за да отворите мениджъра</string>
     <string name="xposed_module_request_scope_title">Заявка за обхват</string>
     <string name="xposed_module_request_scope_content">%1$s при заявки от страна на потребителя %2$s за добавяне на %3$s към неговия обхват.</string>
+    <string name="xposed_module_request_scope_content_batch">%1$s за потребител %2$s иска да добави следните приложения към обхвата си.</string>
     <string name="scope_channel_name">Искане за обхват</string>
     <string name="scope_approve">Одобряване на</string>
     <string name="scope_deny">Отказ</string>
-    <string name="nerver_ask_again">Никога не питайте</string>
+    <string name="never_ask_again">Никога не питайте</string>
+    <string name="lsposed_safemode_notification_title">LSPosed е в безопасен режим</string>
+    <string name="lsposed_safemode_notification_content">Всички Xposed модули са недостъпни до следващото рестартиране</string>
+    <string name="safe_mode_disable_all_modules">Деактивиране на всички модули</string>
+    <string name="lsposed_safemode_cleared_notification_title">Всички модули са деактивирани</string>
+    <plurals name="lsposed_safemode_cleared_notification_content">
+        <item quantity="one">%d модул е деактивиран</item>
+        <item quantity="other">%d модула са деактивирани</item>
+    </plurals>
+    <string name="lsposed_safemode_clear_confirm_notification_title">Потвърждаване?</string>
+    <plurals name="lsposed_safemode_clear_confirm_notification_content">
+        <item quantity="one">%d модул ще бъде деактивиран
+Тази операция не може да бъде отменена</item>
+        <item quantity="other">%d модула ще бъдат деактивирани
+Тази операция не може да бъде отменена</item>
+    </plurals>
+    <string name="safe_mode_reboot">Рестартиране</string>
+    <string name="safe_mode_channel_name">Безопасен режим</string>
+    <string name="safe_mode_open_manager">Отваряне на мениджъра</string>
+    <string name="safe_mode_back">Назад</string>
 </resources>

@@ -1,23 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--
-  ~ This file is part of LSPosed.
-  ~
-  ~ LSPosed is free software: you can redistribute it and/or modify
-  ~ it under the terms of the GNU General Public License as published by
-  ~ the Free Software Foundation, either version 3 of the License, or
-  ~ (at your option) any later version.
-  ~
-  ~ LSPosed is distributed in the hope that it will be useful,
-  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
-  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-  ~ GNU General Public License for more details.
-  ~
-  ~ You should have received a copy of the GNU General Public License
-  ~ along with LSPosed.  If not, see <https://www.gnu.org/licenses/>.
-  ~
-  ~ Copyright (C) 2021 LSPosed Contributors
-  -->
-<resources xmlns:tools="http://schemas.android.com/tools" tools:keep="@string/xposed_module_updated_notification_*,@string/module_is_not_activated_*">
+<resources>
     <!-- MainActivity -->
     <string name="overview">Ringkasan</string>
     <string name="Modules">Modul</string>
@@ -30,30 +12,32 @@
     <string name="bug_report_exporting_logs">Mengekspor log…</string>
     <string name="about_join_telegram">Gabung saluran Telegram</string>
     <string name="email_address_copied">Alamat email disalin</string>
-    <item name="translators" type="string">Neebe3289</item>
+    <string name="translators" comment="Dear translators, please add your home page here following the format. There can be more than one translator. So feel free to append yourself.">Neebe3289</string>
     <string name="not_installed">Tidak terpasang</string>
     <string name="not_install_summary">LSPosed tidak terpasang</string>
     <string name="activated">Aktif</string>
     <string name="partial_activated">Aktif sebagian</string>
     <string name="system_inject_fail_summary">Injeksi kerangka kerja sistem gagal</string>
-    <string name="system_inject_fail"><![CDATA[Ini jarang terjadi dan mungkin disebabkan oleh <b>Magisk</b> atau beberapa modul Magisk berkualitas rendah.<br/>Coba nonaktifkan modul Magisk selain LSPosed atau kirimkan log lengkap ke pengembang.]]></string>
+    <string name="system_inject_fail"><![CDATA[Ini jarang terjadi dan mungkin disebabkan oleh <b>Magisk</b> atau beberapa modul Magisk berkualitas rendah.<br/>Coba nonaktifkan modul Magisk selain Zygisk dan LSPosed, atau kirimkan log lengkap kepada pengembang.]]></string>
     <string name="system_prop_incorrect_summary">Prop sistem salah</string>
     <string name="system_prop_incorrect"><![CDATA[Beberapa properti sistem yang diperlukan dihapus atau diubah.<br/>Modul terkadang tidak valid.]]></string>
     <string name="hyrt_unavailable_summary">Injeksi HyperOS Runtime gagal</string>
     <string name="hyrt_unavailable">HyperOS Runtime terdeteksi, tetapi API Zygisk Next tidak tersedia. Modul native tidak akan dimuat ke dalam proses HyperOS Runtime.</string>
     <string name="need_update">Perlu pembaruan</string>
+    <string name="developer_warning_title">Tips untuk pengembang modul</string>
+    <string name="developer_warning_summary">Nonaktifkan deploy optimization di Android Studio, atau gunakan perintah `gradlew installDebug` untuk memasang. Jika tidak, APK modul tidak akan diperbarui.</string>
     <string name="info_manager_package_name">Nama Paket Manajer</string>
     <string name="info_system_version">Versi Sistem</string>
     <string name="info_device">Perangkat</string>
     <string name="info_system_abi">Sistem ABI</string>
-    <string name="info_dex2oat_wrapper">Pengoptimal Pengemas Dex</string>
+    <string name="info_dex2oat_wrapper">Pembungkus Pengoptimal Dex</string>
     <string name="enabled">Aktif</string>
     <string name="not_enabled">Nonaktif</string>
     <string name="supported">Didukung</string>
     <string name="unsupported">Tidak didukung</string>
     <string name="mounted">Terpasang</string>
     <string name="injected">Diinjeksikan</string>
-    <string name="android_version_unsatisfied">Versi Android tidak tersedia</string>
+    <string name="android_version_unsatisfied">Versi Android tidak didukung</string>
     <string name="crashed">Rusak</string>
     <string name="mount_failed">Mount gagal</string>
     <string name="info_copied">Disalin ke papan klip</string>
@@ -123,17 +107,17 @@
     <string name="app_version">Versi: %1$s</string>
     <string name="use_recommended">Disarankan</string>
     <string name="use_recommended_message">Pilih aplikasi yang disarankan?</string>
-    <string name="deselect_all">Batal pilih semua</string>
-    <string name="deselect_all_message">Batalkan pilih semua aplikasi yang dipilih?</string>
+    <string name="deselect_all">Batalkan semua pilihan</string>
+    <string name="deselect_all_message">Batalkan pilihan semua aplikasi yang dipilih?</string>
     <string name="module_is_not_activated_yet">Modul Xposed belum diaktifkan</string>
-    <string name="requested_by_module">Disarankan</string>
+    <string name="requested_by_module">Rekomendasi modul</string>
     <string name="update_available">Pembaruan tersedia: %1$s</string>
     <string name="android_framework">Kerangka Kerja Sistem</string>
     <string name="menu_backup">Cadangkan</string>
     <string name="menu_restore">Pulihkan</string>
-    <string name="force_stop">Paksa henti</string>
-    <string name="force_stop_dlg_title">Paksa henti?</string>
-    <string name="force_stop_dlg_text">Jika Anda paksa henti suatu aplikasi, maka aplikasi tersebut kemungkinan tidak dapat bekerja normal.</string>
+    <string name="force_stop">Paksa berhenti</string>
+    <string name="force_stop_dlg_title">Paksa berhenti?</string>
+    <string name="force_stop_dlg_text">Jika Anda menghentikan aplikasi secara paksa, fungsinya mungkin akan terganggu.</string>
     <string name="reboot_required">Mulai ulang diperlukan agar perubahan ini dapat diterapkan</string>
     <string name="reboot">Mulai ulang</string>
 
@@ -152,7 +136,7 @@
     <string name="settings_restore_summary">Pulihkan daftar modul dan daftar cakupan</string>
     <string name="settings_backup">Cadangkan</string>
     <string name="settings_backup_failed2">Gagal mencadangkan:\n%s</string>
-    <string name="enable_documentui">Harap aktifkan DocumentUI</string>
+    <string name="enable_documentui">Harap aktifkan DocumentsUI</string>
     <string name="settings_restore">Pulihkan</string>
     <string name="settings_restore_failed2">Gagal memulihkan:\n%s</string>
     <string name="group_network">Jaringan</string>
@@ -167,10 +151,10 @@
     <string name="settings_language">Bahasa</string>
     <string name="settings_translation_contributors">Kontributor terjemahan</string>
     <string name="settings_translation">Berpartisipasi dalam terjemahan</string>
-    <string name="settings_translation_summary">Bantu kami menerjemahkan %s ke dalam bahasamu</string>
+    <string name="settings_translation_summary">Bantu kami menerjemahkan %s ke dalam bahasa Anda</string>
     <string name="settings_enable_status_notification">Notifikasi status</string>
     <string name="settings_enable_status_notification_summary">Tampilkan notifikasi yang dapat membuka manajer parasit</string>
-    <string name="settings_update_channel">Saluran pembaruan</string>
+    <string name="settings_update_channel">Saluran pembaruan modul</string>
     <string name="update_channel_stable">Stabil</string>
     <string name="update_channel_beta">Beta</string>
     <string name="update_channel_nightly">Rilis harian</string>
@@ -179,8 +163,10 @@
     <string name="settings_invalidate_inline_hooks">Invalidasi inline hook</string>
     <string name="settings_invalidate_inline_hooks_summary">Melakukan pembersihan libart.so untuk aplikasi yang terdaftar. Ini berisiko menyebabkan malfungsi atau rusak acak. Gunakan hanya jika aplikasi tertentu tidak dapat dibuka</string>
     <string name="failed_to_save_invalidate_inline_hooks_list">Gagal menyimpan daftar invalidasi inline hook</string>
-    <string name="settings_enable_predictive_back">Gerakan kembali prediktif</string>
-    <string name="settings_enable_predictive_back_summary">Aktifkan dukungan untuk gerakan kembali prediktif</string>
+    <string name="settings_enable_predictive_back">Gestur kembali prediktif</string>
+    <string name="settings_enable_predictive_back_summary">Aktifkan dukungan untuk gestur kembali prediktif</string>
+    <string name="settings_enable_swipe_dismiss">Gestur kembali dengan menggeser</string>
+    <string name="settings_enable_swipe_dismiss_summary">Geser dari tepi layar untuk kembali ke halaman sebelumnya.</string>
     <string name="settings_tapjacking_protection">Mitigasi tapjacking</string>
     <string name="settings_tapjacking_protection_summary">Memblokir input sentuhan saat antarmuka tertutup untuk mencegah serangan tapjacking</string>
 
@@ -194,9 +180,9 @@
     <string name="module_release_view_assets">Aset</string>
     <string name="menu_open_in_browser">Buka di browser</string>
     <string name="menu_share">Bagikan</string>
-    <string name="module_release_load_more">Tampilkan lainnya</string>
+    <string name="module_release_load_more">Tampilkan versi lama</string>
     <string name="module_release_no_more">Tidak ada rilis</string>
-    <string name="sort_upgradable_first">Dapat ditingkatkan</string>
+    <string name="sort_upgradable_first">Dapat ditingkatkan lebih dahulu</string>
     <string name="installed">Terpasang</string>
     <plurals name="module_release_assets_download_count">
         <item quantity="other">%d unduhan</item>
@@ -220,7 +206,7 @@
     <string name="color_brown">Coklat</string>
     <string name="color_blue_grey">Abu-abu kebiruan</string>
     <string name="safe_mode">Mode aman</string>
-    <string name="safe_mode_summary">LSPosed berada di mode aman</string>
+    <string name="safe_mode_summary">LSPosed berada dalam mode aman</string>
     <string name="safe_mode_summary2">Semua modul Xposed tidak tersedia hingga mulai ulang berikutnya. \nBeberapa modul menyebabkan kerusakan sistem. Silakan temukan dan nonaktifkan modul ini, lalu berikan masukan kepada pengembang modul tersebut.</string>
     <string name="disable_all_modules">Nonaktifkan semua modul</string>
     <string name="confirm_disable_all_modules">Konfirmasi?</string>
@@ -230,6 +216,8 @@
     <string name="disable_success_title">Berhasil</string>
     <string name="hook_debug_title">Debug hook</string>
     <string name="debugging_title">Debugging</string>
+    <string name="safe_mode_disabled_title">Nonaktifkan mode aman</string>
+    <string name="safe_mode_disabled_summary">Cegah masuk ke mode aman saat komponen sistem terus berhenti</string>
     <string name="hook_debug_summary">Izinkan pencatatan informasi debug hook dari proses di-hook yang dapat memengaruhi kinerja</string>
     <string name="dump_hook_debug_title">Ekstrak info debug hook</string>
     <string name="dump_hook_debug_summary">Ekstrak informasi debug hook ke /data/adb/lspd/log</string>
@@ -268,8 +256,8 @@
     <string name="settings_theme_mode_monet_system">Monet (Sistem)</string>
     <string name="settings_theme_mode_monet_light">Monet (Terang)</string>
     <string name="settings_theme_mode_monet_dark">Monet (Gelap)</string>
-    <string name="settings_key_color">Warna utama</string>
-    <string name="settings_key_color_summary">Sesuaikan warna utama saat menggunakan Monet</string>
+    <string name="settings_key_color">Warna aksen</string>
+    <string name="settings_key_color_summary">Sesuaikan warna aksen saat menggunakan Monet</string>
     <string name="settings_key_color_default">Bawaan</string>
     <string name="settings_theme_entry">Setelan tema</string>
     <string name="settings_theme_entry_summary">Mode tema, warna aksen, gaya palet dan lainnya</string>
@@ -282,7 +270,7 @@
     <string name="settings_enable_blur">Blur</string>
     <string name="settings_enable_blur_summary">Aktifkan efek blur untuk bilah atas dan bawah</string>
     <string name="settings_floating_bottom_bar">Bilah bawah mengambang</string>
-    <string name="settings_floating_bottom_bar_summary">Gunakan bilah bawah mengambang ala Apple</string>
+    <string name="settings_floating_bottom_bar_summary">Gunakan bilah bawah mengambang bergaya Apple</string>
     <string name="settings_enable_glass">Kaca cair</string>
     <string name="settings_enable_glass_summary">Aktifkan efek kaca cair (liquid glass) untuk bilah bawah mengambang</string>
 

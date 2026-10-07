@@ -1,23 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--
-  ~ This file is part of LSPosed.
-  ~
-  ~ LSPosed is free software: you can redistribute it and/or modify
-  ~ it under the terms of the GNU General Public License as published by
-  ~ the Free Software Foundation, either version 3 of the License, or
-  ~ (at your option) any later version.
-  ~
-  ~ LSPosed is distributed in the hope that it will be useful,
-  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
-  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-  ~ GNU General Public License for more details.
-  ~
-  ~ You should have received a copy of the GNU General Public License
-  ~ along with LSPosed.  If not, see <https://www.gnu.org/licenses/>.
-  ~
-  ~ Copyright (C) 2021 LSPosed Contributors
-  -->
-<resources xmlns:tools="http://schemas.android.com/tools" tools:keep="@string/xposed_module_updated_notification_*,@string/module_is_not_activated_*">
+<resources>
     <!-- MainActivity -->
     <string name="overview">ภาพรวม</string>
     <string name="Modules">โมดูล</string>
@@ -25,91 +7,108 @@
     <string name="Settings">การตั้งค่า</string>
     <string name="About">เกี่ยวกับ</string>
     <string name="module_repo">คลังโมดูล</string>
+    <string name="about_send_bug_report">ส่งรายงานข้อบกพร่อง</string>
+    <string name="bug_report_message">อธิบายปัญหาที่พบโดยสรุป</string>
+    <string name="bug_report_exporting_logs">กำลังส่งออกบันทึก…</string>
+    <string name="about_join_telegram">เข้าร่วมช่อง Telegram</string>
+    <string name="email_address_copied">คัดลอกที่อยู่อีเมลแล้ว</string>
+    <string name="translators">null</string>
     <string name="not_installed">ไม่ได้ติดตั้ง</string>
     <string name="not_install_summary">ไม่ได้ติดตั้ง LSPosed</string>
     <string name="activated">เปิดใช้งานแล้ว</string>
     <string name="partial_activated">เปิดใช้งานบางส่วน</string>
-    <string name="system_inject_fail_summary">Injection ระบบ Framework ล้มเหลว</string>
+    <string name="system_inject_fail_summary">การฉีดเฟรมเวิร์กระบบล้มเหลว</string>
     <string name="system_inject_fail"><![CDATA[สิ่งนี้เกิดขึ้นได้ยากและอาจเกิดจาก <b>Magisk</b> หรือโมดูล Magisk ที่มีคุณภาพต่ำบางตัว<br/>โปรดลองปิดการใช้งานโมดูล Magisk อื่นที่ไม่ใช่ Zygisk และ LSPosed หรือส่งบันทึกแบบเต็มไปยังนักพัฒนา]]></string>
-    <string name="system_prop_incorrect_summary">System prop ไม่ถูกต้อง</string>
+    <string name="system_prop_incorrect_summary">คุณสมบัติระบบไม่ถูกต้อง</string>
     <string name="system_prop_incorrect"><![CDATA[คุณสมบัติระบบที่จำเป็นบางอย่างถูกลบหรือแก้ไข<br/>โมดูลอาจใช้ไม่ได้ในบางครั้ง]]></string>
     <string name="hyrt_unavailable_summary">การฉีดเข้า HyperOS Runtime ล้มเหลว</string>
     <string name="hyrt_unavailable">ตรวจพบ HyperOS Runtime แต่ Zygisk Next API ไม่พร้อมใช้งาน โมดูลเนทีฟจะไม่ถูกโหลดเข้าสู่กระบวนการ HyperOS Runtime</string>
-    <string name="need_update">จำเป็นต้องอัพเดท</string>
+    <string name="need_update">จำเป็นต้องอัปเดต</string>
+    <string name="developer_warning_title">คำแนะนำสำหรับนักพัฒนาโมดูล</string>
+    <string name="developer_warning_summary">โปรดปิดใช้งาน deploy optimizations ใน Android Studio หรือใช้คำสั่ง `gradlew installDebug` ในการติดตั้ง มิฉะนั้น apk ของโมดูลจะไม่ได้รับการอัปเดต</string>
     <string name="info_manager_package_name">ชื่อแพ็คเกจผู้จัดการ</string>
     <string name="info_system_version">เวอร์ชันของระบบ</string>
     <string name="info_device">อุปกรณ์</string>
     <string name="info_system_abi">ระบบ ABI</string>
-    <string name="info_dex2oat_wrapper">Dex Optimizer Wrapper</string>
+    <string name="info_dex2oat_wrapper">ตัวห่อหุ้ม Dex Optimizer</string>
     <string name="enabled">เปิดใช้งาน</string>
     <string name="not_enabled">ไม่ได้เปิดใช้งาน</string>
     <string name="supported">ได้รับการสนับสนุน</string>
     <string name="unsupported">ไม่รองรับ</string>
     <string name="mounted">เมานต์แล้ว</string>
     <string name="injected">ฉีดแล้ว</string>
-    <string name="android_version_unsatisfied">เวอร์ชัน Android ไม่พอใจ</string>
-    <string name="crashed">พัง</string>
+    <string name="android_version_unsatisfied">เวอร์ชัน Android ไม่เป็นไปตามข้อกำหนด</string>
+    <string name="crashed">หยุดทำงาน</string>
     <string name="mount_failed">เมานต์ล้มเหลว</string>
     <string name="info_copied">คัดลอกไปยังคลิปบอร์ดแล้ว</string>
     <!-- WelcomeDialog -->
+    <string name="touch_filtered_warning">เนื่องจากมีแอปบดบังส่วนติดต่อผู้ใช้ ตัวจัดการจึงไม่สามารถยืนยันการตอบสนองของคุณได้</string>
     <string name="parasitic_welcome">ยินดีต้อนรับสู่ LSPosed</string>
-    <string name="parasitic_welcome_summary">คุณกำลังใช้ตัวจัดการ Lsposed ซึ่งสามารถเปิดได้จากการแจ้งเตือน</string>
+    <string name="parasitic_welcome_summary">คุณกำลังใช้ตัวจัดการแบบปรสิต ซึ่งสามารถเปิดได้จากการแจ้งเตือน</string>
     <string name="never_show">ไม่ต้องแสดง</string>
-    <string name="app_welcome">แนะนำ กำจัดไวรัส</string>
+    <string name="app_welcome">แนะนำตัวจัดการแบบปรสิต</string>
     <string name="app_welcome_summary">LSPosed รองรับการปรสิตของระบบเพื่อหลีกเลี่ยงการตรวจจับ คุณสามารถเปิดโปรแกรมจัดการปรสิตได้จากการแจ้งเตือน ขอแนะนำให้ถอนการติดตั้งแอปพลิเคชันปัจจุบัน</string>
     <!-- LogsActivity -->
     <string name="menuSaveToSd">บันทึก</string>
     <string name="nav_item_logs_verbose">บันทึกอย่างละเอียด</string>
     <string name="nav_item_logs_module">บันทึกโมดูล</string>
-    <string name="logs_saving">กำลังบันทึกบันทึก โปรดรอสักครู่</string>
-    <string name="logs_saved">บันทึก Log แล้ว</string>
+    <string name="logs_saving">กำลังบันทึกโปรดรอสักครู่</string>
+    <string name="logs_saved">บันทึกแล้ว</string>
     <string name="logs_save_failed2">ไม่สามารถบันทึก:\n%s</string>
+    <string name="logs_preparing">กำลังเตรียมบันทึก โปรดรอสักครู่</string>
+    <string name="logs_prepare_failed">ไม่สามารถเตรียมได้:\n%s</string>
     <string name="menuClearLog">ล้างบันทึกตอนนี้</string>
     <string name="scroll_top">เลื่อนขึ้นด้านบน</string>
     <string name="scroll_bottom">เลื่อนไปด้านล่าง</string>
     <string name="menu_enable_word_wrap">ตัดคำ</string>
     <!-- ModulesActivity -->
     <string name="warning_xposed_min_version">โมดูลนี้ต้องการเวอร์ชัน Xposed ที่ใหม่กว่า (%d) ดังนั้นจึงไม่สามารถเปิดใช้งานได้</string>
-    <string name="warning_target_version_higher">โมดูลนี้ออกแบบมาสำหรับ Xposed เวอร์ชั่น (%d) ดังนั้นฟังก์ชั่นบางอย่างอาจไม่ทำงาน</string>
+    <string name="warning_target_version_higher">โมดูลนี้ออกแบบมาสำหรับ Xposed เวอร์ชันที่ใหม่กว่า (%d) ดังนั้นฟังก์ชันบางอย่างอาจไม่ทำงาน</string>
     <string name="no_min_version_specified">โมดูลนี้ไม่ได้ระบุเวอร์ชัน Xposed ที่ต้องการ</string>
-    <string name="warning_min_version_too_low">โมดูลนี้ถูกสร้างขึ้นสำหรับ Xposed เวอร์ชัน %1$dแต่เนื่องจากการเปลี่ยนแปลงที่เข้ากันไม่ได้ในเวอร์ชัน %2$dจึงถูกปิดใช้งาน</string>
+    <string name="warning_min_version_too_low">โมดูลนี้ถูกสร้างขึ้นสำหรับ Xposed เวอร์ชัน %1$d แต่เนื่องจากการเปลี่ยนแปลงที่เข้ากันไม่ได้ในเวอร์ชัน %2$d จึงถูกปิดใช้งาน</string>
     <string name="warning_deprecated_feature">โมดูลนี้ใช้ฟีเจอร์ที่เลิกสนับสนุนแล้วและจะถูกนำออกในเร็ว ๆ นี้ โปรดติดต่อผู้พัฒนาหรือพิจารณาทางเลือกอื่น</string>
     <string name="warning_installed_on_external_storage">ไม่สามารถโหลดโมดูลนี้ได้เนื่องจากติดตั้งอยู่ในการ์ด SD โปรดย้ายไปยังที่จัดเก็บข้อมูลภายใน</string>
     <string name="module_uninstall">ถอนการติดตั้ง</string>
     <string name="module_settings">การตั้งค่าโมดูล</string>
-    <string name="view_in_repo">ดูใน Repo</string>
+    <string name="view_in_repo">ดูในคลังโมดูล</string>
     <string name="module_uninstall_message">คุณต้องการถอนการติดตั้งโมดูลนี้หรือไม่?</string>
     <string name="module_uninstalled">ถอนการติดตั้ง %1$s</string>
     <string name="module_uninstall_failed">ถอนการติดตั้งไม่สำเร็จ</string>
     <string name="module_install_failed">การเพิ่มโมดูลล้มเหลว</string>
     <string name="install_to_user">ติดตั้งให้กับผู้ใช้ %s</string>
     <string name="expand">ขยาย</string>
-    <string name="collapse">ทรุด</string>
+    <string name="collapse">ยุบ</string>
     <!-- AppListActivity -->
+    <string name="reset_scope_request_setting">รีเซ็ตการตั้งค่าคำขอขอบเขต</string>
+    <string name="reset_scope_request_setting_done">รีเซ็ตการตั้งค่าคำขอขอบเขตแล้ว</string>
+    <string name="hide_non_system_overlay_failed_no_permission">ไม่สามารถซ่อนโอเวอร์เลย์ที่ไม่ใช่ของระบบได้ โปรดอัปเกรดตัวจัดการ</string>
     <string name="compile_speed">เพิ่มประสิทธิภาพอีกครั้ง</string>
     <string name="compile_speed_msg">การเพิ่มประสิทธิภาพ…</string>
     <string name="compile_done">การเพิ่มประสิทธิภาพเสร็จสมบูรณ์</string>
-    <string name="app_launch">เปิดตัวมัน</string>
+    <string name="app_launch">เปิดแอป</string>
     <string name="compile_failed">การเพิ่มประสิทธิภาพล้มเหลว: ค่าที่ส่งคืนว่างเปล่า</string>
     <string name="compile_failed_with_info">การเพิ่มประสิทธิภาพล้มเหลว: </string>
     <string name="sort_by_name">ชื่อแอปพลิเคชัน</string>
     <string name="sort_by_package_name">ชื่อแพ็คเกจ</string>
-    <string name="sort_by_install_time">ติดตั้งเวลา</string>
-    <string name="sort_by_update_time">อัพเดทเวลา</string>
+    <string name="sort_by_install_time">เวลาติดตั้ง</string>
+    <string name="sort_by_update_time">เวลาอัปเดต</string>
     <string name="sort_reverse">ย้อนกลับ</string>
     <string name="menu_show_system_apps">แอประบบ</string>
     <string name="menu_sort">การเรียงลำดับ</string>
     <string name="enable_module">เปิดใช้งานโมดูล</string>
     <string name="menu_show_games">เกม</string>
     <string name="menu_show_modules">โมดูล</string>
+    <string name="module_scope_list_static_scope">โมดูลประกาศขอบเขตแบบคงที่</string>
     <string name="failed_to_save_scope_list">ไม่สามารถบันทึกรายการขอบเขต</string>
-    <string name="app_version">เวอร์ชั่น: %1$s</string>
+    <string name="app_version">เวอร์ชัน: %1$s</string>
     <string name="use_recommended">ที่แนะนำ</string>
-    <string name="use_recommended_message">เลือกแอพที่แนะนำ?</string>
+    <string name="use_recommended_message">เลือกแอปที่แนะนำ?</string>
+    <string name="deselect_all">ยกเลิกการเลือกทั้งหมด</string>
+    <string name="deselect_all_message">ยกเลิกการเลือกแอปที่เลือกไว้ทั้งหมดหรือไม่</string>
     <string name="module_is_not_activated_yet">โมดูล Xposed ยังไม่ได้เปิดใช้งาน</string>
-    <string name="requested_by_module">ที่แนะนำ</string>
+    <string name="requested_by_module">แนะนำโดยโมดูล</string>
     <string name="update_available">มีการอัปเดต: %1$s</string>
-    <string name="android_framework">กรอบงานระบบ</string>
+    <string name="android_framework">เฟรมเวิร์กระบบ</string>
     <string name="menu_backup">สำรอง</string>
     <string name="menu_restore">คืนค่า</string>
     <string name="force_stop">บังคับหยุด</string>
@@ -119,24 +118,27 @@
     <string name="reboot">รีบูต</string>
     <!-- ModulesActivity and AppListActivity -->
     <string name="modules_other_app">ดูในแอปอื่น</string>
-    <string name="module_app_info">ข้อมูลแอพ</string>
+    <string name="module_app_info">ข้อมูลแอป</string>
     <string name="list_empty">¯\\\\_(ツ)_\/¯\nไม่มีอะไรที่นี่</string>
     <!-- SettingsActivity -->
-    <string name="settings_group_framework">กรอบ</string>
+    <string name="settings_group_framework">เฟรมเวิร์ก</string>
     <string name="settings_disable_verbose_log">ปิดใช้งานบันทึกอย่างละเอียด</string>
-    <string name="settings_disable_verbose_log_summary">แจ้งปัญหาขอรวมบันทึกอย่างละเอียด</string>
+    <string name="settings_disable_verbose_log_summary">โปรดแนบบันทึกอย่างละเอียดเมื่อแจ้งปัญหา</string>
     <string name="settings_group_theme">ธีม</string>
-    <string name="settings_backup_and_restore">สำรองและเรียกคืน</string>
-    <string name="settings_backup_summary">รายการโมดูลสำรองและรายการขอบเขต</string>
+    <string name="settings_backup_and_restore">สำรองและคืนค่า</string>
+    <string name="settings_backup_summary">สำรองรายการโมดูลและรายการขอบเขต</string>
     <string name="settings_restore_summary">คืนค่ารายการโมดูลและรายการขอบเขต</string>
     <string name="settings_backup">สำรอง</string>
     <string name="settings_backup_failed2">การสำรองข้อมูลล้มเหลว:\n%s</string>
-    <string name="enable_documentui">โปรดเปิดใช้งาน DocumentUI</string>
+    <string name="enable_documentui">โปรดเปิดใช้งาน DocumentsUI</string>
     <string name="settings_restore">คืนค่า</string>
-    <string name="settings_restore_failed2">ไม่สามารถกู้คืนได้:\n%s</string>
+    <string name="settings_restore_failed2">ไม่สามารถคืนค่าได้:\n%s</string>
     <string name="group_network">เครือข่าย</string>
     <string name="dns_over_http">DNS ผ่าน HTTPS</string>
-    <string name="dns_over_http_summary">วิธีแก้ปัญหา DNS เป็นขัดข้องในบางประเทศ</string>
+    <string name="dns_over_http_summary">วิธีเลี่ยงการปลอมแปลง DNS ในบางประเทศ</string>
+    <string name="settings_repo_cdn">CDN ของคลังโมดูล</string>
+    <string name="repo_cdn_default">ค่าเริ่มต้น</string>
+    <string name="repo_cdn_backup">สำรอง</string>
     <string name="settings_show_hidden_icon_apps_enabled">บังคับให้แอปแสดงไอคอนตัวเรียกใช้</string>
     <string name="settings_show_hidden_icon_apps_enabled_summary">หลังจาก Android 10 แอปจะไม่ได้รับอนุญาตให้ซ่อนไอคอนตัวเรียกใช้งาน ปิดสวิตช์เพื่อปิดใช้งานคุณลักษณะของระบบนี้</string>
     <string name="settings_group_system">ระบบ</string>
@@ -145,25 +147,35 @@
     <string name="settings_translation">มีส่วนร่วมในการแปล</string>
     <string name="settings_translation_summary">ช่วยเราแปล %s เป็นภาษาของคุณ</string>
     <string name="settings_enable_status_notification">การแจ้งเตือนสถานะ</string>
-    <string name="settings_enable_status_notification_summary">แสดงการแจ้งเตือนที่สามารถเปิดตัวจัดการปรสิต</string>
-    <string name="settings_update_channel">อัพเดทช่อง</string>
-    <string name="update_channel_stable">มั่นคง</string>
+    <string name="settings_enable_status_notification_summary">แสดงการแจ้งเตือนที่สามารถเปิดตัวจัดการแบบปรสิต</string>
+    <string name="settings_update_channel">ช่องทางการอัปเดตโมดูล</string>
+    <string name="update_channel_stable">เสถียร</string>
     <string name="update_channel_beta">เบต้า</string>
-    <string name="update_channel_nightly">สร้างทุกคืน</string>
-    <string name="settings_xposed_api_call_protection">การป้องกันการโทร Xposed API</string>
+    <string name="update_channel_nightly">ไนต์ลี</string>
+    <string name="settings_xposed_api_call_protection">การป้องกันการเรียกใช้ Xposed API</string>
     <string name="settings_xposed_api_call_protection_summary">บล็อกโค้ดโมดูลที่โหลดแบบไดนามิกเพื่อใช้ Xposed API ซึ่งอาจทำให้บางโมดูลเสียหายแต่ได้ประโยชน์ด้านความปลอดภัย</string>
     <!-- Module Repo -->
-    <string name="module_readme">ต้องอ่าน</string>
-    <string name="module_releases">เผยแพร่</string>
+    <string name="settings_invalidate_inline_hooks">ล้าง Hook แบบอินไลน์</string>
+    <string name="settings_invalidate_inline_hooks_summary">ล้าง libart.so สำหรับแอปในรายการ การดำเนินการนี้อาจทำให้เกิดความผิดปกติและแอปหยุดทำงานแบบสุ่ม ใช้เฉพาะเมื่อไม่สามารถเปิดแอปบางตัวได้</string>
+    <string name="failed_to_save_invalidate_inline_hooks_list">ไม่สามารถบันทึกรายการล้าง Hook แบบอินไลน์ ได้</string>
+    <string name="settings_enable_predictive_back">ท่าทางสัมผัสย้อนกลับแบบคาดการณ์</string>
+    <string name="settings_enable_predictive_back_summary">เปิดใช้งานการสนับสนุนท่าทางสัมผัสย้อนกลับแบบคาดการณ์</string>
+    <string name="settings_enable_swipe_dismiss">ท่าทางสัมผัสปัดเพื่อย้อนกลับ</string>
+    <string name="settings_enable_swipe_dismiss_summary">ปัดจากขอบหน้าจอเพื่อกลับไปยังหน้าก่อนหน้า</string>
+    <string name="settings_tapjacking_protection">การป้องกัน tapjacking</string>
+    <string name="settings_tapjacking_protection_summary">บล็อกการสัมผัสขณะที่ส่วนติดต่อผู้ใช้ถูกบดบัง เพื่อป้องกันการโจมตีแบบ tapjacking</string>
+    <string name="module_readme">README</string>
+    <string name="module_releases">เวอร์ชัน</string>
     <string name="module_information">ข้อมูล</string>
     <string name="module_information_homepage">หน้าแรก</string>
     <string name="module_information_source_url">รหัสแหล่งที่มา</string>
     <string name="module_information_collaborators">ผู้ร่วมงาน</string>
-    <string name="module_release_view_assets">คลัง</string>
+    <string name="module_release_view_assets">ไฟล์แนบ</string>
     <string name="menu_open_in_browser">เปิดในเบราว์เซอร์</string>
+    <string name="menu_share">แชร์</string>
     <string name="module_release_load_more">แสดงเวอร์ชันเก่า</string>
-    <string name="module_release_no_more">ไม่ปล่อยอีกแล้ว</string>
-    <string name="sort_upgradable_first">อัพเกรดก่อน</string>
+    <string name="module_release_no_more">ไม่มีเวอร์ชันเพิ่มเติม</string>
+    <string name="sort_upgradable_first">ที่อัปเดตได้ก่อน</string>
     <string name="installed">ติดตั้งแล้ว</string>
     <plurals name="module_release_assets_download_count">
         <item quantity="other">%d ดาวน์โหลด</item>
@@ -185,6 +197,83 @@
     <string name="color_orange">ส้ม</string>
     <string name="color_brown">สีน้ำตาล</string>
     <string name="color_blue_grey">น้ำเงินเทา</string>
+    <string name="safe_mode">โหมดปลอดภัย</string>
+    <string name="safe_mode_summary">LSPosed อยู่ในโหมดปลอดภัย</string>
+    <string name="safe_mode_summary2">โมดูล Xposed ทั้งหมดจะใช้งานไม่ได้จนกว่าจะรีบูตในครั้งถัดไป\nโมดูลบางตัวทำให้ระบบหยุดทำงาน โปรดค้นหาและปิดใช้งานโมดูลเหล่านี้ และแจ้งข้อคิดเห็นไปยังนักพัฒนาโมดูล</string>
+    <string name="disable_all_modules">ปิดใช้งานโมดูลทั้งหมด</string>
+    <string name="confirm_disable_all_modules">ยืนยันหรือไม่</string>
+    <plurals name="message_disable_all_modules">
+        <item quantity="other">โมดูล %d รายการจะถูกปิดใช้งาน
+การดำเนินการนี้ไม่สามารถย้อนกลับได้</item>
+    </plurals>
+    <string name="disable_success_title">สำเร็จ</string>
+    <string name="hook_debug_title">การแก้ไขข้อบกพร่อง Hook</string>
+    <string name="debugging_title">การแก้ไขข้อบกพร่อง</string>
     <string name="developer_mode_title">โหมดนักพัฒนา</string>
     <string name="developer_mode_summary">อนุญาตให้จัดการการตั้งค่าและขอบเขตของ LSPosed โดยใช้เครื่องมือ CLI</string>
+    <string name="safe_mode_disabled_title">ปิดใช้งานโหมดปลอดภัย</string>
+    <string name="safe_mode_disabled_summary">ป้องกันการเข้าสู่โหมดปลอดภัยเมื่อส่วนประกอบของระบบหยุดทำงานซ้ำ ๆ</string>
+    <string name="hook_debug_summary">อนุญาตให้ดัมป์ข้อมูลการแก้ไขข้อบกพร่อง Hook ของโปรเซสที่ถูก hook ซึ่งอาจส่งผลต่อประสิทธิภาพ</string>
+    <string name="dump_hook_debug_title">ดัมป์ข้อมูลการแก้ไขข้อบกพร่อง Hook</string>
+    <string name="dump_hook_debug_summary">ดัมป์ข้อมูลการแก้ไขข้อบกพร่อง Hook ไปยัง /data/adb/lspd/log</string>
+    <string name="dump_hook_success">ดัมป์ไปยัง %s แล้ว</string>
+    <string name="dump_hook_failed">ดัมป์ไม่สำเร็จ</string>
+    <string name="log_to_daemon_title">บันทึกไปยังดีมอน</string>
+    <string name="log_to_daemon_summary">การดำเนินการนี้ป้องกันไม่ให้แอปอ่านบันทึกของโมดูล แต่อาจส่งผลต่อประสิทธิภาพ</string>
+    <plurals name="disable_success_message">
+        <item quantity="other">ปิดใช้งานโมดูล %d รายการแล้ว</item>
+    </plurals>
+    <string name="follow_system">ตามระบบ</string>
+    <string name="unknown_author">ไม่ทราบผู้พัฒนา</string>
+    <string name="unknown_version">ไม่ทราบเวอร์ชัน</string>
+    <string name="unknown_asset">ไม่ทราบไฟล์แนบ</string>
+    <string name="download_asset">ดาวน์โหลด</string>
+    <string name="nav_back">กลับ</string>
+    <string name="nav_rail_expand">ขยายแถบนำทาง</string>
+    <string name="nav_rail_collapse">ยุบแถบนำทาง</string>
+    <string name="menu">เมนู</string>
+    <string name="menu_filter">ตัวกรอง</string>
+    <string name="menu_parsed_view">มุมมองที่แยกวิเคราะห์แล้ว</string>
+    <string name="menu_raw_view">มุมมองดิบ</string>
+    <string name="settings_ui">รูปแบบส่วนติดต่อผู้ใช้</string>
+    <string name="settings_ui_summary">เลือกรูปแบบส่วนติดต่อผู้ใช้ของแอป</string>
+    <string name="settings_theme">ธีม</string>
+    <string name="settings_theme_summary">เลือกโหมดธีมของแอป</string>
+    <string name="settings_theme_mode_system">ตามระบบ</string>
+    <string name="settings_theme_mode_light">สีอ่อน</string>
+    <string name="settings_theme_mode_dark">สีเข้ม</string>
+    <string name="settings_theme_mode_monet_system">Monet (ตามระบบ)</string>
+    <string name="settings_theme_mode_monet_light">Monet (สีอ่อน)</string>
+    <string name="settings_theme_mode_monet_dark">Monet (สีเข้ม)</string>
+    <string name="settings_key_color">สีเน้น</string>
+    <string name="settings_key_color_summary">ปรับแต่งสีตั้งต้นเมื่อใช้ Monet</string>
+    <string name="settings_key_color_default">ค่าเริ่มต้น</string>
+    <string name="settings_theme_entry">การตั้งค่าธีม</string>
+    <string name="settings_theme_entry_summary">โหมดธีม สีเน้น รูปแบบจานสี และอื่น ๆ</string>
+    <string name="settings_palette_style">รูปแบบจานสี</string>
+    <string name="settings_palette_style_summary">อัลกอริทึมโทนสีที่ใช้สร้างจานสี Material 3</string>
+    <string name="settings_color_spec">ข้อกำหนดสี</string>
+    <string name="settings_color_spec_summary">เวอร์ชันข้อกำหนดสีของ Material 3</string>
+    <string name="settings_page_scale">ขนาดการแสดงผล</string>
+    <string name="settings_page_scale_summary">ปรับขนาดการแสดงผลโดยรวม</string>
+    <string name="settings_enable_blur">ความเบลอ</string>
+    <string name="settings_enable_blur_summary">เปิดใช้เอฟเฟกต์ความเบลอสำหรับแถบด้านบนและด้านล่าง</string>
+    <string name="settings_floating_bottom_bar">แถบลอยด้านล่าง</string>
+    <string name="settings_floating_bottom_bar_summary">ใช้แถบลอยด้านล่างในสไตล์คล้าย Apple</string>
+    <string name="settings_enable_glass">Liquid Glass</string>
+    <string name="settings_enable_glass_summary">เปิดใช้เอฟเฟกต์ Liquid Glass สำหรับแถบลอยด้านล่าง</string>
+    <string name="refresh_pulling">ดึงลงเพื่อรีเฟรช</string>
+    <string name="refresh_release">ปล่อยเพื่อรีเฟรช</string>
+    <string name="refresh_refresh">กำลังรีเฟรช…</string>
+    <string name="refresh_complete">รีเฟรชสำเร็จ</string>
+    <string name="time_just_now">เมื่อสักครู่</string>
+    <plurals name="time_minutes_ago">
+        <item quantity="other">%d นาทีที่แล้ว</item>
+    </plurals>
+    <plurals name="time_hours_ago">
+        <item quantity="other">%d ชั่วโมงที่แล้ว</item>
+    </plurals>
+    <plurals name="time_days_ago">
+        <item quantity="other">%d วันที่แล้ว</item>
+    </plurals>
 </resources>

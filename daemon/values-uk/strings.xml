@@ -4,19 +4,68 @@
     <string name="list_separator">, </string>
     <string name="module_is_not_activated_yet">Модуль Xposed ще не активований</string>
     <string name="module_is_not_activated_yet_main_user_detailed">%1$s було встановлено, але ще не активовано</string>
-    <string name="module_is_not_activated_yet_multi_user_detailed">%1$s було встановлено до користувача %2$s, але ще не активовано</string>
+    <string name="module_is_not_activated_yet_multi_user_detailed">%1$s встановлено для користувача %2$s, але ще не активовано</string>
     <string name="xposed_module_updated_notification_title">Модуль Xposed оновлено</string>
     <string name="xposed_module_updated_notification_title_system">Модуль Xposed оновлено, потрібно перезавантаження системи</string>
-    <string name="xposed_module_updated_notification_content">%s було оновлено, будь ласка, примусово перезапустіть програми з області модуля</string>
-    <string name="xposed_module_updated_notification_content_system">%s було оновлено, оскільки область містить System Framework, необхідне перезавантаження для застосування змін</string>
+    <string name="xposed_module_updated_notification_content">%s було оновлено. Примусово зупиніть і перезапустіть додатки в області дії модуля.</string>
+    <string name="xposed_module_updated_notification_content_system">%s було оновлено, оскільки область дії містить системний фреймворк, для застосування змін потрібне перезавантаження</string>
+    <string name="xposed_module_updated_notification_reload">%1$s оновлено, %2$s</string>
+    <string name="xposed_module_updated_notification_reload_none">%s оновлено</string>
+    <plurals name="xposed_module_updated_notification_reload_reloaded">
+        <item quantity="one">%d процес гаряче перезавантажено</item>
+        <item quantity="few">%d процеси гаряче перезавантажено</item>
+        <item quantity="many">%d процесів гаряче перезавантажено</item>
+        <item quantity="other">%d процесу гаряче перезавантажено</item>
+    </plurals>
+    <plurals name="xposed_module_updated_notification_reload_reloading">
+        <item quantity="one">%d процес гаряче перезавантажується</item>
+        <item quantity="few">%d процеси гаряче перезавантажуються</item>
+        <item quantity="many">%d процесів гаряче перезавантажується</item>
+        <item quantity="other">%d процесу гаряче перезавантажується</item>
+    </plurals>
+    <plurals name="xposed_module_updated_notification_reload_failed">
+        <item quantity="one">%d процес не вдалося гаряче перезавантажити</item>
+        <item quantity="few">%d процеси не вдалося гаряче перезавантажити</item>
+        <item quantity="many">%d процесів не вдалося гаряче перезавантажити</item>
+        <item quantity="other">%d процесу не вдалося гаряче перезавантажити</item>
+    </plurals>
+    <string name="xposed_module_enabled_notification_title">Модуль Xposed увімкнено</string>
+    <string name="xposed_module_enabled_notification_content">%s увімкнено, торкніться, щоб налаштувати область дії</string>
+    <string name="xposed_module_updated_notification_action_enable">Активувати модуль</string>
     <string name="module_updated_channel_name">Оновлення модуля завершено</string>
     <string name="status_channel_name">Статус LSPosed</string>
     <string name="lsposed_running_notification_title">LSPosed завантажено</string>
-    <string name="lsposed_running_notification_content">Натисніть на повідомлення, щоб відкрити менеджер</string>
-    <string name="xposed_module_request_scope_title">Запит на визначення обсягу робіт</string>
-    <string name="xposed_module_request_scope_content">%1$s на запит користувача %2$s з проханням додати %3$s до своєї області видимості.</string>
-    <string name="scope_channel_name">Запит обсягу робіт</string>
+    <string name="lsposed_running_notification_content">Натисніть на сповіщення, щоб відкрити менеджер</string>
+    <string name="xposed_module_request_scope_title">Запит області дії</string>
+    <string name="xposed_module_request_scope_content">%1$s у користувача %2$s запитує додати %3$s до своєї області дії.</string>
+    <string name="xposed_module_request_scope_content_batch">%1$s у користувача %2$s запитує додати такі додатки до своєї області дії.</string>
+    <string name="scope_channel_name">Запит області дії</string>
     <string name="scope_approve">Затвердити</string>
     <string name="scope_deny">Відхилити</string>
-    <string name="nerver_ask_again">Ніколи не питай</string>
+    <string name="never_ask_again">Більше не запитувати</string>
+    <string name="lsposed_safemode_notification_title">LSPosed у безпечному режимі</string>
+    <string name="lsposed_safemode_notification_content">Усі модулі Xposed будуть недоступні до наступного перезавантаження</string>
+    <string name="safe_mode_disable_all_modules">Вимкнути всі модулі</string>
+    <string name="lsposed_safemode_cleared_notification_title">Усі модулі вимкнено</string>
+    <plurals name="lsposed_safemode_cleared_notification_content">
+        <item quantity="one">%d модуль вимкнено</item>
+        <item quantity="few">%d модулі вимкнено</item>
+        <item quantity="many">%d модулів вимкнено</item>
+        <item quantity="other">%d модуля вимкнено</item>
+    </plurals>
+    <string name="lsposed_safemode_clear_confirm_notification_title">Підтвердити?</string>
+    <plurals name="lsposed_safemode_clear_confirm_notification_content">
+        <item quantity="one">%d модуль буде вимкнено
+Цю операцію не можна скасувати</item>
+        <item quantity="few">%d модулі буде вимкнено
+Цю операцію не можна скасувати</item>
+        <item quantity="many">%d модулів буде вимкнено
+Цю операцію не можна скасувати</item>
+        <item quantity="other">%d модуля буде вимкнено
+Цю операцію не можна скасувати</item>
+    </plurals>
+    <string name="safe_mode_reboot">Перезавантажити</string>
+    <string name="safe_mode_channel_name">Безпечний режим</string>
+    <string name="safe_mode_open_manager">Відкрити менеджер</string>
+    <string name="safe_mode_back">Назад</string>
 </resources>

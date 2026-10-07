@@ -7,16 +7,59 @@
     <string name="module_is_not_activated_yet_multi_user_detailed">%1$s è stato installato sull\'utente %2$s, ma non è ancora attivo</string>
     <string name="xposed_module_updated_notification_title">Modulo Xposed aggiornato</string>
     <string name="xposed_module_updated_notification_title_system">Modulo Xposed aggiornato, è necessario il riavvio del sistema</string>
-    <string name="xposed_module_updated_notification_content">%s è stato aggiornato, arresta e riavvia le applicazioni per le quali è abilitato</string>
-    <string name="xposed_module_updated_notification_content_system">%s è stato aggiornato. Poiché è abilitato per il framework di sistema, è necessario riavviare per applicare le modifiche</string>
+    <string name="xposed_module_updated_notification_content">%s è stato aggiornato, forza l\'interruzione e riavvia le applicazioni nel suo ambito</string>
+    <string name="xposed_module_updated_notification_content_system">%s è stato aggiornato. Poiché l\'ambito contiene il framework di sistema, è necessario riavviare per applicare le modifiche</string>
+    <string name="xposed_module_updated_notification_reload">%1$s è stato aggiornato, %2$s</string>
+    <string name="xposed_module_updated_notification_reload_none">%s è stato aggiornato</string>
+    <plurals name="xposed_module_updated_notification_reload_reloaded">
+        <item quantity="one">%d processo ricaricato a caldo</item>
+        <item quantity="many">%d processi ricaricati a caldo</item>
+        <item quantity="other">%d processi ricaricati a caldo</item>
+    </plurals>
+    <plurals name="xposed_module_updated_notification_reload_reloading">
+        <item quantity="one">%d processo in ricarica a caldo</item>
+        <item quantity="many">%d processi in ricarica a caldo</item>
+        <item quantity="other">%d processi in ricarica a caldo</item>
+    </plurals>
+    <plurals name="xposed_module_updated_notification_reload_failed">
+        <item quantity="one">Ricarica a caldo non riuscita per %d processo</item>
+        <item quantity="many">Ricarica a caldo non riuscita per %d processi</item>
+        <item quantity="other">Ricarica a caldo non riuscita per %d processi</item>
+    </plurals>
+    <string name="xposed_module_enabled_notification_title">Modulo Xposed abilitato</string>
+    <string name="xposed_module_enabled_notification_content">%s è stato abilitato, tocca per configurare l\'ambito</string>
+    <string name="xposed_module_updated_notification_action_enable">Attiva il modulo</string>
     <string name="module_updated_channel_name">Aggiornamento del modulo completato</string>
     <string name="status_channel_name">Stato LSPosed</string>
     <string name="lsposed_running_notification_title">LSPosed caricato</string>
     <string name="lsposed_running_notification_content">Tocca la notifica per aprire il manager</string>
-    <string name="xposed_module_request_scope_title">Richiesta attivazione</string>
-    <string name="xposed_module_request_scope_content">%1$s sull\'utente %2$s richiede di aggiungere %3$s alle sue attivazioni.</string>
-    <string name="scope_channel_name">Richiesta attivazione</string>
+    <string name="xposed_module_request_scope_title">Richiesta di ambito</string>
+    <string name="xposed_module_request_scope_content">%1$s sull\'utente %2$s richiede di aggiungere %3$s al suo ambito.</string>
+    <string name="xposed_module_request_scope_content_batch">%1$s sull\'utente %2$s richiede di aggiungere le seguenti app al suo ambito.</string>
+    <string name="scope_channel_name">Richiesta di ambito</string>
     <string name="scope_approve">Approva</string>
-    <string name="scope_deny">Nega</string>
-    <string name="nerver_ask_again">Non chiedere mai</string>
+    <string name="scope_deny">Rifiuta</string>
+    <string name="never_ask_again">Non chiedere mai</string>
+    <string name="lsposed_safemode_notification_title">LSPosed è in modalità provvisoria</string>
+    <string name="lsposed_safemode_notification_content">Tutti i moduli Xposed non sono disponibili fino al prossimo riavvio</string>
+    <string name="safe_mode_disable_all_modules">Disabilita tutti i moduli</string>
+    <string name="lsposed_safemode_cleared_notification_title">Tutti i moduli sono stati disabilitati</string>
+    <plurals name="lsposed_safemode_cleared_notification_content">
+        <item quantity="one">%d modulo disabilitato</item>
+        <item quantity="many">%d moduli disabilitati</item>
+        <item quantity="other">%d moduli disabilitati</item>
+    </plurals>
+    <string name="lsposed_safemode_clear_confirm_notification_title">Confermi?</string>
+    <plurals name="lsposed_safemode_clear_confirm_notification_content">
+        <item quantity="one">%d modulo verrà disabilitato
+Questa operazione non può essere annullata</item>
+        <item quantity="many">%d moduli verranno disabilitati
+Questa operazione non può essere annullata</item>
+        <item quantity="other">%d moduli verranno disabilitati
+Questa operazione non può essere annullata</item>
+    </plurals>
+    <string name="safe_mode_reboot">Riavvia</string>
+    <string name="safe_mode_channel_name">Modalità provvisoria</string>
+    <string name="safe_mode_open_manager">Apri il manager</string>
+    <string name="safe_mode_back">Indietro</string>
 </resources>

@@ -4,19 +4,56 @@
     <string name="list_separator">, </string>
     <string name="module_is_not_activated_yet">Xposed মডিউল এখনও সক্রিয় করা হয় নি</string>
     <string name="module_is_not_activated_yet_main_user_detailed">%1$s ইনস্টল করা হয়েছে, কিন্তু এখনও সক্রিয় করা হয়নি</string>
-    <string name="module_is_not_activated_yet_multi_user_detailed">%1$s ব্যবহারকারী %2$sএ ইনস্টল করা হয়েছে, কিন্তু এখনও সক্রিয় করা হয়নি</string>
-    <string name="xposed_module_updated_notification_title">এক্সপোজড মডিউল আপডেট করা হয়েছে</string>
+    <string name="module_is_not_activated_yet_multi_user_detailed">%1$s ব্যবহারকারী %2$s-এ ইনস্টল করা হয়েছে, কিন্তু এখনও সক্রিয় করা হয়নি</string>
+    <string name="xposed_module_updated_notification_title">Xposed মডিউল আপডেট করা হয়েছে</string>
     <string name="xposed_module_updated_notification_title_system">Xposed মডিউল আপডেট করা হয়েছে, সিস্টেম রিবুট প্রয়োজন</string>
-    <string name="xposed_module_updated_notification_content">%s আপডেট করা হয়েছে, অনুগ্রহ করে এর সুযোগে অ্যাপগুলিকে জোর করে থামান এবং পুনরায় চালু করুন</string>
-    <string name="xposed_module_updated_notification_content_system">%s আপডেট করা হয়েছে, যেহেতু সুযোগে সিস্টেম ফ্রেমওয়ার্ক রয়েছে, পরিবর্তনগুলি প্রয়োগ করার জন্য রিবুট প্রয়োজন</string>
+    <string name="xposed_module_updated_notification_content">%s আপডেট করা হয়েছে, অনুগ্রহ করে এর স্কোপে অ্যাপগুলিকে জোর করে থামান এবং পুনরায় চালু করুন</string>
+    <string name="xposed_module_updated_notification_content_system">%s আপডেট করা হয়েছে, যেহেতু স্কোপে সিস্টেম ফ্রেমওয়ার্ক রয়েছে, পরিবর্তনগুলি প্রয়োগ করার জন্য রিবুট প্রয়োজন</string>
+    <string name="xposed_module_updated_notification_reload">%1$s আপডেট করা হয়েছে, %2$s</string>
+    <string name="xposed_module_updated_notification_reload_none">%s আপডেট করা হয়েছে</string>
+    <plurals name="xposed_module_updated_notification_reload_reloaded">
+        <item quantity="one">%d প্রক্রিয়া হট রিলোড করা হয়েছে</item>
+        <item quantity="other">%d প্রক্রিয়া হট রিলোড করা হয়েছে</item>
+    </plurals>
+    <plurals name="xposed_module_updated_notification_reload_reloading">
+        <item quantity="one">%d প্রক্রিয়া হট রিলোড হচ্ছে</item>
+        <item quantity="other">%d প্রক্রিয়া হট রিলোড হচ্ছে</item>
+    </plurals>
+    <plurals name="xposed_module_updated_notification_reload_failed">
+        <item quantity="one">%d প্রক্রিয়ার হট রিলোড ব্যর্থ হয়েছে</item>
+        <item quantity="other">%d প্রক্রিয়ার হট রিলোড ব্যর্থ হয়েছে</item>
+    </plurals>
+    <string name="xposed_module_enabled_notification_title">Xposed মডিউল সক্রিয় করা হয়েছে</string>
+    <string name="xposed_module_enabled_notification_content">%s সক্রিয় করা হয়েছে, স্কোপ সেটআপ করতে ট্যাপ করুন</string>
+    <string name="xposed_module_updated_notification_action_enable">মডিউল সক্রিয় করুন</string>
     <string name="module_updated_channel_name">মডিউল আপডেট সম্পূর্ণ</string>
-    <string name="status_channel_name">LSPপোজড স্ট্যাটাস</string>
-    <string name="lsposed_running_notification_title">LSPosed লোড</string>
+    <string name="status_channel_name">LSPosed স্ট্যাটাস</string>
+    <string name="lsposed_running_notification_title">LSPosed লোড হয়েছে</string>
     <string name="lsposed_running_notification_content">ম্যানেজার খুলতে বিজ্ঞপ্তিতে ট্যাপ করুন</string>
-    <string name="xposed_module_request_scope_title">সুযোগ অনুরোধ</string>
-    <string name="xposed_module_request_scope_content">ব্যবহারকারী %2$s এর সুযোগে %3$s যোগ করার অনুরোধে %1$s।</string>
-    <string name="scope_channel_name">সুযোগ অনুরোধ</string>
+    <string name="xposed_module_request_scope_title">স্কোপ অনুরোধ</string>
+    <string name="xposed_module_request_scope_content">ব্যবহারকারী %2$s-এ %1$s তার স্কোপে %3$s যোগ করার অনুরোধ করছে।</string>
+    <string name="xposed_module_request_scope_content_batch">ব্যবহারকারী %2$s-এ %1$s তার স্কোপে নিম্নলিখিত অ্যাপগুলি যোগ করার অনুরোধ করছে।</string>
+    <string name="scope_channel_name">স্কোপ অনুরোধ</string>
     <string name="scope_approve">অনুমোদন করুন</string>
     <string name="scope_deny">অস্বীকার করুন</string>
-    <string name="nerver_ask_again">কখনো জিজ্ঞাসা করবেন না</string>
+    <string name="never_ask_again">কখনো জিজ্ঞাসা করবেন না</string>
+    <string name="lsposed_safemode_notification_title">LSPosed নিরাপদ মোডে আছে</string>
+    <string name="lsposed_safemode_notification_content">পরবর্তী রিবুট পর্যন্ত সব Xposed মডিউল অনুপলব্ধ</string>
+    <string name="safe_mode_disable_all_modules">সব মডিউল নিষ্ক্রিয় করুন</string>
+    <string name="lsposed_safemode_cleared_notification_title">সব মডিউল নিষ্ক্রিয় করা হয়েছে</string>
+    <plurals name="lsposed_safemode_cleared_notification_content">
+        <item quantity="one">%d মডিউল নিষ্ক্রিয় করা হয়েছে</item>
+        <item quantity="other">%d মডিউল নিষ্ক্রিয় করা হয়েছে</item>
+    </plurals>
+    <string name="lsposed_safemode_clear_confirm_notification_title">নিশ্চিত করবেন?</string>
+    <plurals name="lsposed_safemode_clear_confirm_notification_content">
+        <item quantity="one">%d মডিউল নিষ্ক্রিয় করা হবে
+এই কাজটি ফিরিয়ে আনা যাবে না</item>
+        <item quantity="other">%d মডিউল নিষ্ক্রিয় করা হবে
+এই কাজটি ফিরিয়ে আনা যাবে না</item>
+    </plurals>
+    <string name="safe_mode_reboot">রিবুট করুন</string>
+    <string name="safe_mode_channel_name">নিরাপদ মোড</string>
+    <string name="safe_mode_open_manager">ম্যানেজার খুলুন</string>
+    <string name="safe_mode_back">ফিরুন</string>
 </resources>

@@ -1,23 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--
-  ~ This file is part of LSPosed.
-  ~
-  ~ LSPosed is free software: you can redistribute it and/or modify
-  ~ it under the terms of the GNU General Public License as published by
-  ~ the Free Software Foundation, either version 3 of the License, or
-  ~ (at your option) any later version.
-  ~
-  ~ LSPosed is distributed in the hope that it will be useful,
-  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
-  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-  ~ GNU General Public License for more details.
-  ~
-  ~ You should have received a copy of the GNU General Public License
-  ~ along with LSPosed.  If not, see <https://www.gnu.org/licenses/>.
-  ~
-  ~ Copyright (C) 2021 LSPosed Contributors
-  -->
-<resources xmlns:tools="http://schemas.android.com/tools" tools:keep="@string/xposed_module_updated_notification_*,@string/module_is_not_activated_*">
+<resources>
     <!-- MainActivity -->
     <string name="overview">Overzicht</string>
     <string name="Modules">Modules</string>
@@ -25,135 +7,163 @@
     <string name="Settings">Instellingen</string>
     <string name="About">Over</string>
     <string name="module_repo">Opslagplaats</string>
+    <string name="about_send_bug_report">Foutrapport verzenden</string>
+    <string name="bug_report_message">Beschrijf het probleem kort</string>
+    <string name="bug_report_exporting_logs">Logboeken worden geëxporteerd…</string>
+    <string name="about_join_telegram">Deelnemen aan het Telegram-kanaal</string>
+    <string name="email_address_copied">E-mailadres gekopieerd</string>
     <string name="translators" comment="Dear translators, please add your home page here following the format. There can be more than one translator. So feel free to append yourself.">Pandemic-XDA</string>
     <string name="not_installed">Niet geïnstalleerd</string>
-    <string name="not_install_summary">LSPosed is niet geinstalleerd</string>
+    <string name="not_install_summary">LSPosed is niet geïnstalleerd</string>
     <string name="activated">Geactiveerd</string>
     <string name="partial_activated">Gedeeltelijk geactiveerd</string>
-    <string name="system_inject_fail_summary">Systeem Framework injectie is mislukt</string>
-    <string name="system_inject_fail"><![CDATA[Systeem Framework injectie mislukt.<br/>Dit is zeldzaam en kan worden veroorzaakt door <b>Magisk</b> of sommige Magisk-modules van lage kwaliteit.<br/>Probeer andere Magisk-modules dan Zygisk en LSPosed uit te schakelen of stuur een volledig logboek naar de ontwikkelaars.]]></string>
-    <string name="system_prop_incorrect_summary">Systeem prop incorrect</string>
-    <string name="system_prop_incorrect"><![CDATA[Enkele noodzakelijke systeemeigenschappen verwijderd of gewijzigd.<br/>Modules kunnen af en toe ongeldig worden.]]></string>
+    <string name="system_inject_fail_summary">Systeemframework-injectie mislukt</string>
+    <string name="system_inject_fail"><![CDATA[Dit is zeldzaam en kan worden veroorzaakt door <b>Magisk</b> of sommige Magisk-modules van lage kwaliteit.<br/>Probeer andere Magisk-modules dan Zygisk en LSPosed uit te schakelen, of stuur een volledig logboek naar de ontwikkelaars.]]></string>
+    <string name="system_prop_incorrect_summary">Systeemeigenschap onjuist</string>
+    <string name="system_prop_incorrect"><![CDATA[Enkele noodzakelijke systeemeigenschappen zijn verwijderd of gewijzigd.<br/>Modules kunnen af en toe ongeldig worden.]]></string>
     <string name="hyrt_unavailable_summary">HyperOS Runtime-injectie mislukt</string>
     <string name="hyrt_unavailable">HyperOS Runtime is gedetecteerd, maar de Zygisk Next API is niet beschikbaar. Native modules worden niet in HyperOS Runtime-processen geladen.</string>
     <string name="need_update">Bijwerken is nodig</string>
-    <string name="info_manager_package_name">Naam beheerderspakket</string>
-    <string name="info_system_version">Systeem versie</string>
+    <string name="developer_warning_title">Tips voor moduleontwikkelaars</string>
+    <string name="developer_warning_summary">Schakel deploy-optimalisaties in Android Studio uit, of gebruik de opdracht `gradlew installDebug` om te installeren. Anders wordt de apk van de module niet bijgewerkt.</string>
+    <string name="info_manager_package_name">Naam van het beheerderspakket</string>
+    <string name="info_system_version">Systeemversie</string>
     <string name="info_device">Apparaat</string>
     <string name="info_system_abi">Systeem ABI</string>
-    <string name="info_dex2oat_wrapper">Dex Optimizer Wrapper</string>
+    <string name="info_dex2oat_wrapper">Dex-optimizer-wrapper</string>
     <string name="enabled">Ingeschakeld</string>
     <string name="not_enabled">Niet ingeschakeld</string>
     <string name="supported">Ondersteund</string>
-    <string name="unsupported">Niet-ondersteunde</string>
+    <string name="unsupported">Niet ondersteund</string>
     <string name="mounted">Gekoppeld</string>
     <string name="injected">Geïnjecteerd</string>
-    <string name="android_version_unsatisfied">Android versie onbevredigd</string>
-    <string name="crashed">Crashed</string>
-    <string name="mount_failed">Berg mislukt</string>
-    <string name="info_copied">Gekopieerd naar klembord</string>
+    <string name="android_version_unsatisfied">Android-versie wordt niet ondersteund</string>
+    <string name="crashed">Vastgelopen</string>
+    <string name="mount_failed">Koppelen mislukt</string>
+    <string name="info_copied">Gekopieerd naar het klembord</string>
     <!-- WelcomeDialog -->
+    <string name="touch_filtered_warning">Omdat een app de interface bedekt, kan Manager uw reactie niet verifiëren.</string>
     <string name="parasitic_welcome">Welkom bij LSPosed</string>
-    <string name="parasitic_welcome_summary">Je gebruikt de parasiterende manager, die kan openen vanuit de melding.</string>
+    <string name="parasitic_welcome_summary">U gebruikt de parasitaire manager, die u vanuit de melding kunt openen.</string>
     <string name="never_show">Nooit tonen</string>
     <string name="app_welcome">Parasitaire manager aanbevolen</string>
-    <string name="app_welcome_summary">LSPosed ondersteunt nu systeemparasitisatie om detectie te voorkomen, u kunt parasitaire manager openen vanuit een melding. Het wordt aanbevolen om de huidige applicatie te verwijderen.</string>
+    <string name="app_welcome_summary">LSPosed ondersteunt nu systeemparasitisatie om detectie te voorkomen, u kunt de parasitaire manager vanuit een melding openen. Het wordt aanbevolen om de huidige applicatie te verwijderen.</string>
     <!-- LogsActivity -->
     <string name="menuSaveToSd">Opslaan</string>
-    <string name="nav_item_logs_verbose">Uitgebreide logs</string>
-    <string name="nav_item_logs_module">Modules Logbestanden</string>
+    <string name="nav_item_logs_verbose">Uitgebreide logboeken</string>
+    <string name="nav_item_logs_module">Modulelogboeken</string>
     <string name="logs_saving">Logboek wordt opgeslagen, even geduld a.u.b.</string>
     <string name="logs_saved">Opgeslagen logboeken</string>
     <string name="logs_save_failed2">Opslaan mislukt:\n%s</string>
+    <string name="logs_preparing">Logboek wordt voorbereid, even geduld a.u.b.</string>
+    <string name="logs_prepare_failed">Voorbereiden mislukt:\n%s</string>
     <string name="menuClearLog">Wis het logboek nu</string>
     <string name="scroll_top">Scroll naar boven</string>
     <string name="scroll_bottom">Scroll naar beneden</string>
-    <string name="menu_enable_word_wrap">Woord Omslag</string>
+    <string name="menu_enable_word_wrap">Tekstterugloop</string>
     <!-- ModulesActivity -->
-    <string name="warning_xposed_min_version">Deze module vereist een nieuwere versie van Lsposed (%d) en kan dus niet worden geactiveerd</string>
+    <string name="warning_xposed_min_version">Deze module vereist een nieuwere Xposed-versie (%d) en kan dus niet worden geactiveerd</string>
     <string name="warning_target_version_higher">Deze module is ontworpen voor een nieuwere Xposed-versie (%d) en daarom werken sommige functionaliteiten mogelijk niet</string>
     <string name="no_min_version_specified">Deze module heeft geen vereiste versie voor Xposed opgegeven.</string>
-    <string name="warning_min_version_too_low">Deze module is gemaakt voor de Lsposed-versie %1$d, maar vanwege onverenigbare wijzigingen in de versie %2$d, is het uitgeschakeld</string>
+    <string name="warning_min_version_too_low">Deze module is gemaakt voor de Xposed-versie %1$d, maar vanwege onverenigbare wijzigingen in de versie %2$d, is het uitgeschakeld</string>
     <string name="warning_deprecated_feature">Deze module gebruikt een verouderde functie die binnenkort wordt verwijderd. Neem contact op met de auteur of overweeg een alternatief.</string>
     <string name="warning_installed_on_external_storage">Deze module kan niet worden geladen omdat deze op de SD-kaart is geïnstalleerd. Verplaats deze naar de interne opslag</string>
     <string name="module_uninstall">Verwijderen</string>
     <string name="module_settings">Module instellingen</string>
     <string name="view_in_repo">Bekijk in Repo</string>
     <string name="module_uninstall_message">Wilt u deze module verwijderen?</string>
-    <string name="module_uninstalled">Gedeïnstalleerd %1$s</string>
+    <string name="module_uninstalled">%1$s verwijderd</string>
     <string name="module_uninstall_failed">Verwijderen mislukt</string>
     <string name="module_install_failed">Het toevoegen van de module is mislukt</string>
-    <string name="install_to_user">Installeer naar gebruiker %s</string>
-    <string name="expand">uitbreiden</string>
+    <string name="install_to_user">Installeren voor gebruiker %s</string>
+    <string name="expand">uitvouwen</string>
     <string name="collapse">samenvouwen</string>
     <!-- AppListActivity -->
+    <string name="reset_scope_request_setting">Scopeverzoekinstelling resetten</string>
+    <string name="reset_scope_request_setting_done">Scopeverzoekinstelling is gereset</string>
+    <string name="hide_non_system_overlay_failed_no_permission">Kan niet-systeemoverlay niet verbergen, werk de manager bij.</string>
     <string name="compile_speed">Opnieuw optimaliseren</string>
-    <string name="compile_speed_msg">Optimaliseren…</string>
-    <string name="compile_done">Optimalisatie voltooid.</string>
-    <string name="app_launch">Lanceer het</string>
-    <string name="compile_failed">Optimalisatie mislukt of geretourneerde waarde is leeg.</string>
+    <string name="compile_speed_msg">Bezig met optimaliseren…</string>
+    <string name="compile_done">Optimalisatie voltooid</string>
+    <string name="app_launch">Start de app</string>
+    <string name="compile_failed">Optimalisatie mislukt: geretourneerde waarde is leeg</string>
     <string name="compile_failed_with_info">Optimalisatie is mislukt: </string>
     <string name="sort_by_name">Sorteer op applicatienaam</string>
     <string name="sort_by_package_name">Sorteer op pakketnaam</string>
     <string name="sort_by_install_time">Sorteer op installatietijd</string>
     <string name="sort_by_update_time">Sorteer op updatetijd</string>
     <string name="sort_reverse">Omkeren</string>
-    <string name="menu_show_system_apps">Systeem apps</string>
+    <string name="menu_show_system_apps">Systeem-apps</string>
     <string name="menu_sort">Sorteren</string>
     <string name="enable_module">Schakel module in</string>
     <string name="menu_show_games">Games</string>
     <string name="menu_show_modules">Modules</string>
+    <string name="module_scope_list_static_scope">De module heeft een statische scope opgegeven</string>
     <string name="failed_to_save_scope_list">Scopelijst opslaan is mislukt</string>
     <string name="app_version">Versie: %1$s</string>
     <string name="use_recommended">Aanbevolen</string>
     <string name="use_recommended_message">Aanbevolen apps selecteren?</string>
+    <string name="deselect_all">Alles deselecteren</string>
+    <string name="deselect_all_message">Alle geselecteerde apps deselecteren?</string>
     <string name="module_is_not_activated_yet">Xposed-module is nog niet geactiveerd</string>
-    <string name="requested_by_module">Aanbevolen</string>
+    <string name="requested_by_module">Aanbevolen door module</string>
     <string name="update_available">Update beschikbaar: %1$s</string>
-    <string name="android_framework">Systeem Framework</string>
-    <string name="menu_backup">Backup</string>
+    <string name="android_framework">Systeemframework</string>
+    <string name="menu_backup">Back-up</string>
     <string name="menu_restore">Herstellen</string>
-    <string name="force_stop">Forceer stop</string>
+    <string name="force_stop">Gedwongen stoppen</string>
     <string name="force_stop_dlg_title">Gedwongen stoppen?</string>
-    <string name="force_stop_dlg_text">Als je een app gedwongen stopt, kan deze onverwacht gedrag vertonen.</string>
+    <string name="force_stop_dlg_text">Als u een app gedwongen stopt, kan deze onverwacht gedrag vertonen.</string>
     <string name="reboot_required">Opnieuw opstarten is vereist om deze wijziging door te voeren</string>
-    <string name="reboot">Herstart</string>
+    <string name="reboot">Opnieuw opstarten</string>
     <!-- ModulesActivity and AppListActivity -->
     <string name="modules_other_app">Bekijk in andere app</string>
-    <string name="module_app_info">App informatie</string>
+    <string name="module_app_info">App-info</string>
     <string name="list_empty">¯\\\\_(ツ)_\/¯\nNiets hier</string>
     <!-- SettingsActivity -->
     <string name="settings_group_framework">Framework</string>
     <string name="settings_disable_verbose_log">Schakel uitgebreide logboeken uit</string>
-    <string name="settings_disable_verbose_log_summary">Rapporteer problemen verzoek om uitgebreide logboeken op te nemen</string>
+    <string name="settings_disable_verbose_log_summary">Bij het melden van problemen wordt gevraagd om uitgebreide logboeken toe te voegen</string>
     <string name="settings_group_theme">Thema</string>
-    <string name="settings_backup_and_restore">Backup en herstellen</string>
-    <string name="settings_backup_summary">Backup of herstel de modulelijst en scooplijsten.</string>
-    <string name="settings_restore_summary">Herstel de modulelijst en scooplijsten.</string>
-    <string name="settings_backup">Backup</string>
+    <string name="settings_backup_and_restore">Back-up en herstellen</string>
+    <string name="settings_backup_summary">Back-up maken van de modulelijst en scopelijsten.</string>
+    <string name="settings_restore_summary">Herstel de modulelijst en scopelijsten.</string>
+    <string name="settings_backup">Back-up</string>
     <string name="settings_backup_failed2">Opslaan mislukt:\n%s</string>
-    <string name="enable_documentui">Schakel DocumentUI in</string>
+    <string name="enable_documentui">Schakel DocumentsUI in</string>
     <string name="settings_restore">Herstellen</string>
     <string name="settings_restore_failed2">Herstellen mislukt:\n%s</string>
     <string name="group_network">Netwerk</string>
     <string name="dns_over_http">DNS via HTTPS</string>
     <string name="dns_over_http_summary">Tijdelijke oplossing voor DNS-vergiftiging in sommige landen</string>
-    <string name="settings_show_hidden_icon_apps_enabled">Forceer apps om launcher-pictogrammen weer te geven</string>
-    <string name="settings_show_hidden_icon_apps_enabled_summary">Na Android 10 mogen apps de launcher pictogrammen niet verbergen. Schakel de schakelaar uit om deze functie uit te schakelen.</string>
+    <string name="settings_repo_cdn">CDN van de modulerepository</string>
+    <string name="repo_cdn_default">Standaard</string>
+    <string name="repo_cdn_backup">Back-up</string>
+    <string name="settings_show_hidden_icon_apps_enabled">Dwing apps om launcher-pictogrammen weer te geven</string>
+    <string name="settings_show_hidden_icon_apps_enabled_summary">Na Android 10 mogen apps de launcher-pictogrammen niet verbergen. Schakel de schakelaar uit om deze systeemfunctie uit te schakelen.</string>
     <string name="settings_group_system">Systeem</string>
     <string name="settings_language">Taal</string>
     <string name="settings_translation_contributors">Bijdragers van vertalingen</string>
     <string name="settings_translation">Deelnemen aan vertaling</string>
-    <string name="settings_translation_summary">Help ons %s te vertalen in uw taal</string>
+    <string name="settings_translation_summary">Help ons %s naar uw taal te vertalen</string>
     <string name="settings_enable_status_notification">Statusmelding</string>
-    <string name="settings_enable_status_notification_summary">Toon een melding die parasitaire manager kan openen</string>
-    <string name="settings_update_channel">Kanaal bijwerken</string>
+    <string name="settings_enable_status_notification_summary">Toon een melding waarmee u de parasitaire manager kunt openen</string>
+    <string name="settings_update_channel">Module-updatekanaal</string>
     <string name="update_channel_stable">Stabiel</string>
     <string name="update_channel_beta">Bèta</string>
-    <string name="update_channel_nightly">Nachtelijke bouw</string>
+    <string name="update_channel_nightly">Nachtelijke build</string>
     <string name="settings_xposed_api_call_protection">Xposed API-oproepbeveiliging</string>
-    <string name="settings_xposed_api_call_protection_summary">Blokkeer dynamisch geladen modulecode om Xposed API te gebruiken, dit kan sommige modules breken maar komt de veiligheid ten goede</string>
+    <string name="settings_xposed_api_call_protection_summary">Blokkeer dat dynamisch geladen modulecode de Xposed API gebruikt; dit kan sommige modules breken, maar komt de veiligheid ten goede</string>
     <!-- Module Repo -->
+    <string name="settings_invalidate_inline_hooks">Inline-hooks ongeldig maken</string>
+    <string name="settings_invalidate_inline_hooks_summary">Ruimt libart.so op voor de vermelde apps. Dit veroorzaakt willekeurige storingen en crashes. Gebruik dit alleen als bepaalde apps niet kunnen worden geopend.</string>
+    <string name="failed_to_save_invalidate_inline_hooks_list">De lijst voor het ongeldig maken van inline-hooks kon niet worden opgeslagen</string>
+    <string name="settings_enable_predictive_back">Voorspellend teruggebaar</string>
+    <string name="settings_enable_predictive_back_summary">Schakel ondersteuning voor voorspellende teruggebaren in.</string>
+    <string name="settings_enable_swipe_dismiss">Veeggebaar om terug te gaan</string>
+    <string name="settings_enable_swipe_dismiss_summary">Veeg vanaf de rand om naar de vorige pagina terug te gaan.</string>
+    <string name="settings_tapjacking_protection">Bescherming tegen tapjacking</string>
+    <string name="settings_tapjacking_protection_summary">Blokkeert aanrakingen wanneer de interface wordt bedekt, om tapjacking-aanvallen te voorkomen</string>
     <string name="module_readme">Leesmij</string>
     <string name="module_releases">Publicaties</string>
     <string name="module_information">Informatie</string>
@@ -162,6 +172,7 @@
     <string name="module_information_collaborators">Medewerkers</string>
     <string name="module_release_view_assets">Middelen</string>
     <string name="menu_open_in_browser">Open in de browser</string>
+    <string name="menu_share">Delen</string>
     <string name="module_release_load_more">Laat oudere versies zien</string>
     <string name="module_release_no_more">Geen release meer</string>
     <string name="sort_upgradable_first">Eerst te upgraden</string>
@@ -174,11 +185,11 @@
     <string name="color_red">Rood</string>
     <string name="color_pink">Roze</string>
     <string name="color_purple">Paars</string>
-    <string name="color_deep_purple">Donker paars</string>
+    <string name="color_deep_purple">Donkerpaars</string>
     <string name="color_indigo">Indigo</string>
     <string name="color_blue">Blauw</string>
-    <string name="color_light_blue">Licht blauw</string>
-    <string name="color_cyan">Turquoise</string>
+    <string name="color_light_blue">Lichtblauw</string>
+    <string name="color_cyan">Cyaan</string>
     <string name="color_teal">Groenblauw</string>
     <string name="color_green">Groen</string>
     <string name="color_lime">Limoen</string>
@@ -186,7 +197,90 @@
     <string name="color_amber">Amber</string>
     <string name="color_orange">Oranje</string>
     <string name="color_brown">Bruin</string>
-    <string name="color_blue_grey">Blauw grijs</string>
+    <string name="color_blue_grey">Blauwgrijs</string>
+    <string name="safe_mode">Veilige modus</string>
+    <string name="safe_mode_summary">LSPosed is in de veilige modus</string>
+    <string name="safe_mode_summary2">Alle Xposed-modules zijn niet beschikbaar tot de volgende herstart.\nSommige modules hebben systeemcrashes veroorzaakt. Zoek en schakel deze modules uit en geef uw feedback door aan de moduleontwikkelaars.</string>
+    <string name="disable_all_modules">Alle modules uitschakelen</string>
+    <string name="confirm_disable_all_modules">Bevestigen?</string>
+    <plurals name="message_disable_all_modules">
+        <item quantity="one">%d module wordt uitgeschakeld.
+Deze handeling kan niet ongedaan worden gemaakt.</item>
+        <item quantity="other">%d modules worden uitgeschakeld.
+Deze handeling kan niet ongedaan worden gemaakt.</item>
+    </plurals>
+    <string name="disable_success_title">Gelukt</string>
+    <string name="hook_debug_title">Hook-foutopsporing</string>
+    <string name="debugging_title">Foutopsporing</string>
     <string name="developer_mode_title">Ontwikkelaarsmodus</string>
-    <string name="developer_mode_summary">Beheer van LSPosed-instellingen en -bereiken via het CLI-hulpprogramma toestaan</string>
+    <string name="developer_mode_summary">Beheer van LSPosed-instellingen en scopes via het CLI-hulpprogramma toestaan</string>
+    <string name="safe_mode_disabled_title">Veilige modus uitschakelen</string>
+    <string name="safe_mode_disabled_summary">Voorkom dat de veilige modus wordt geactiveerd wanneer systeemcomponenten blijven stoppen</string>
+    <string name="hook_debug_summary">Sta het dumpen van hook-foutopsporingsinformatie van gehookte processen toe; dit kan de prestaties beïnvloeden</string>
+    <string name="dump_hook_debug_title">Hook-foutopsporingsinformatie dumpen</string>
+    <string name="dump_hook_debug_summary">Hook-foutopsporingsinformatie dumpen naar /data/adb/lspd/log</string>
+    <string name="dump_hook_success">Gedumpt naar %s</string>
+    <string name="dump_hook_failed">Dumpen mislukt</string>
+    <string name="log_to_daemon_title">Logboek naar daemon</string>
+    <string name="log_to_daemon_summary">Hierdoor kunnen modulelogboeken niet door apps worden gelezen, maar dit kan de prestaties beïnvloeden</string>
+    <plurals name="disable_success_message">
+        <item quantity="one">%d module uitgeschakeld</item>
+        <item quantity="other">%d modules uitgeschakeld</item>
+    </plurals>
+    <string name="follow_system">Systeem volgen</string>
+    <string name="unknown_author">Onbekende auteur</string>
+    <string name="unknown_version">Onbekende versie</string>
+    <string name="unknown_asset">Onbekend bestand</string>
+    <string name="download_asset">Downloaden</string>
+    <string name="nav_back">Terug</string>
+    <string name="nav_rail_expand">Navigatierail uitvouwen</string>
+    <string name="nav_rail_collapse">Navigatierail samenvouwen</string>
+    <string name="menu">Menu</string>
+    <string name="menu_filter">Filteren</string>
+    <string name="menu_parsed_view">Verwerkte weergave</string>
+    <string name="menu_raw_view">Ruwe weergave</string>
+    <string name="settings_ui">Interfacestijl</string>
+    <string name="settings_ui_summary">Kies de stijl van de interface</string>
+    <string name="settings_theme">Thema</string>
+    <string name="settings_theme_summary">Kies de themamodus van de app</string>
+    <string name="settings_theme_mode_system">Systeem volgen</string>
+    <string name="settings_theme_mode_light">Licht</string>
+    <string name="settings_theme_mode_dark">Donker</string>
+    <string name="settings_theme_mode_monet_system">Monet (systeem volgen)</string>
+    <string name="settings_theme_mode_monet_light">Monet (licht)</string>
+    <string name="settings_theme_mode_monet_dark">Monet (donker)</string>
+    <string name="settings_key_color">Accentkleur</string>
+    <string name="settings_key_color_summary">Pas de basiskleur aan wanneer Monet wordt gebruikt</string>
+    <string name="settings_key_color_default">Standaard</string>
+    <string name="settings_theme_entry">Thema-instellingen</string>
+    <string name="settings_theme_entry_summary">Themamodus, accentkleur, paletstijl en meer</string>
+    <string name="settings_palette_style">Paletstijl</string>
+    <string name="settings_palette_style_summary">Toonaardalgoritme dat wordt gebruikt om het Material 3-palet af te leiden</string>
+    <string name="settings_color_spec">Kleurspecificatie</string>
+    <string name="settings_color_spec_summary">Versie van de Material 3-kleurspecificatie</string>
+    <string name="settings_page_scale">Paginaschaal</string>
+    <string name="settings_page_scale_summary">Pas de globale weergaveschaal aan</string>
+    <string name="settings_enable_blur">Vervaging</string>
+    <string name="settings_enable_blur_summary">Schakel het vervagingseffect voor de bovenste en onderste balk in</string>
+    <string name="settings_floating_bottom_bar">Zwevende onderbalk</string>
+    <string name="settings_floating_bottom_bar_summary">Gebruik een zwevende onderbalk in Apple-stijl</string>
+    <string name="settings_enable_glass">Vloeibaar glas</string>
+    <string name="settings_enable_glass_summary">Schakel het vloeibaar-glaseffect voor de zwevende onderbalk in</string>
+    <string name="refresh_pulling">Trek omlaag om te vernieuwen</string>
+    <string name="refresh_release">Laat los om te vernieuwen</string>
+    <string name="refresh_refresh">Vernieuwen…</string>
+    <string name="refresh_complete">Vernieuwen gelukt</string>
+    <string name="time_just_now">Zojuist</string>
+    <plurals name="time_minutes_ago">
+        <item quantity="one">%d minuut geleden</item>
+        <item quantity="other">%d minuten geleden</item>
+    </plurals>
+    <plurals name="time_hours_ago">
+        <item quantity="one">%d uur geleden</item>
+        <item quantity="other">%d uur geleden</item>
+    </plurals>
+    <plurals name="time_days_ago">
+        <item quantity="one">%d dag geleden</item>
+        <item quantity="other">%d dagen geleden</item>
+    </plurals>
 </resources>

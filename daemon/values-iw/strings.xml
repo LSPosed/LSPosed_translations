@@ -7,16 +7,65 @@
     <string name="module_is_not_activated_yet_multi_user_detailed">%1$s הותקן למשתמש %2$s, אך אינו מופעל עדיין</string>
     <string name="xposed_module_updated_notification_title">מודול Xposed עודכן</string>
     <string name="xposed_module_updated_notification_title_system">מודול Xposed עודכן, נדרש אתחול המערכת</string>
-    <string name="xposed_module_updated_notification_content">%s עודכן</string>
-    <string name="xposed_module_updated_notification_content_system">%s עודכן, מכיוון שההיקף מכיל System Framework, נדרש אתחול כדי להחיל שינויים</string>
+    <string name="xposed_module_updated_notification_content">%s עודכן, יש לאלץ עצירה ולהפעיל מחדש אפליקציות בהיקף שלו.</string>
+    <string name="xposed_module_updated_notification_content_system">%s עודכן, מכיוון שההיקף מכיל את תשתית המערכת, נדרש אתחול כדי להחיל שינויים</string>
+    <string name="xposed_module_updated_notification_reload">%1$s עודכן, %2$s</string>
+    <string name="xposed_module_updated_notification_reload_none">%s עודכן</string>
+    <plurals name="xposed_module_updated_notification_reload_reloaded">
+        <item quantity="one">%d תהליך נטען מחדש באופן חם</item>
+        <item quantity="two">%d תהליכים נטענו מחדש באופן חם</item>
+        <item quantity="many">%d תהליכים נטענו מחדש באופן חם</item>
+        <item quantity="other">%d תהליכים נטענו מחדש באופן חם</item>
+    </plurals>
+    <plurals name="xposed_module_updated_notification_reload_reloading">
+        <item quantity="one">טעינה חמה מחדש של %d תהליך</item>
+        <item quantity="two">טעינה חמה מחדש של %d תהליכים</item>
+        <item quantity="many">טעינה חמה מחדש של %d תהליכים</item>
+        <item quantity="other">טעינה חמה מחדש של %d תהליכים</item>
+    </plurals>
+    <plurals name="xposed_module_updated_notification_reload_failed">
+        <item quantity="one">טעינה חמה מחדש של %d תהליך נכשלה</item>
+        <item quantity="two">טעינה חמה מחדש של %d תהליכים נכשלה</item>
+        <item quantity="many">טעינה חמה מחדש של %d תהליכים נכשלה</item>
+        <item quantity="other">טעינה חמה מחדש של %d תהליכים נכשלה</item>
+    </plurals>
+    <string name="xposed_module_enabled_notification_title">מודול Xposed הופעל</string>
+    <string name="xposed_module_enabled_notification_content">%s הופעל, הקש כדי להגדיר את ההיקף</string>
+    <string name="xposed_module_updated_notification_action_enable">הפעל את המודול</string>
     <string name="module_updated_channel_name">עדכון המודול הושלם</string>
-    <string name="status_channel_name">סטטוס LSPost</string>
+    <string name="status_channel_name">סטטוס LSPosed</string>
     <string name="lsposed_running_notification_title">LSPosed נטען</string>
-    <string name="lsposed_running_notification_content">הקש על ההודעה כדי לפתוח את המנהל</string>
-    <string name="xposed_module_request_scope_title">Xposed_מודול_מבקש_כותרת_תחום</string>
+    <string name="lsposed_running_notification_content">הקש על ההתראה כדי לפתוח את המנהל</string>
+    <string name="xposed_module_request_scope_title">בקשת היקף</string>
     <string name="xposed_module_request_scope_content">%1$s על משתמש %2$s מבקש להוסיף %3$s להיקף שלו.</string>
-    <string name="scope_channel_name">תחום_שם_ערוץ</string>
-    <string name="scope_approve">אישור_תחום</string>
-    <string name="scope_deny">לְהַכּחִישׁ</string>
-    <string name="nerver_ask_again">לעולם אל תשאל</string>
+    <string name="xposed_module_request_scope_content_batch">%1$s על משתמש %2$s מבקש להוסיף את האפליקציות הבאות להיקף שלו.</string>
+    <string name="scope_channel_name">בקשת היקף</string>
+    <string name="scope_approve">אישור</string>
+    <string name="scope_deny">דחייה</string>
+    <string name="never_ask_again">לעולם אל תשאל</string>
+    <string name="lsposed_safemode_notification_title">LSPosed נמצא במצב בטוח</string>
+    <string name="lsposed_safemode_notification_content">כל מודולי Xposed אינם זמינים עד לאתחול הבא</string>
+    <string name="safe_mode_disable_all_modules">השבת את כל המודולים</string>
+    <string name="lsposed_safemode_cleared_notification_title">כל המודולים הושבתו</string>
+    <plurals name="lsposed_safemode_cleared_notification_content">
+        <item quantity="one">%d מודול מושבת</item>
+        <item quantity="two">%d מודולים מושבתים</item>
+        <item quantity="many">%d מודולים מושבתים</item>
+        <item quantity="other">%d מודולים מושבתים</item>
+    </plurals>
+    <string name="lsposed_safemode_clear_confirm_notification_title">לאשר?</string>
+    <plurals name="lsposed_safemode_clear_confirm_notification_content">
+        <item quantity="one">%d מודול יושבת
+לא ניתן לבטל פעולה זו</item>
+        <item quantity="two">%d מודולים יושבתו
+לא ניתן לבטל פעולה זו</item>
+        <item quantity="many">%d מודולים יושבתו
+לא ניתן לבטל פעולה זו</item>
+        <item quantity="other">%d מודולים יושבתו
+לא ניתן לבטל פעולה זו</item>
+    </plurals>
+    <string name="safe_mode_reboot">הפעל מחדש</string>
+    <string name="safe_mode_channel_name">מצב בטוח</string>
+    <string name="safe_mode_open_manager">פתח את המנהל</string>
+    <string name="safe_mode_back">חזרה</string>
 </resources>

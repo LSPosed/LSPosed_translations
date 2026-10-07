@@ -1,169 +1,180 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--
-  ~ This file is part of LSPosed.
-  ~
-  ~ LSPosed is free software: you can redistribute it and/or modify
-  ~ it under the terms of the GNU General Public License as published by
-  ~ the Free Software Foundation, either version 3 of the License, or
-  ~ (at your option) any later version.
-  ~
-  ~ LSPosed is distributed in the hope that it will be useful,
-  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
-  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-  ~ GNU General Public License for more details.
-  ~
-  ~ You should have received a copy of the GNU General Public License
-  ~ along with LSPosed.  If not, see <https://www.gnu.org/licenses/>.
-  ~
-  ~ Copyright (C) 2021 LSPosed Contributors
-  -->
-<resources xmlns:tools="http://schemas.android.com/tools" tools:keep="@string/xposed_module_updated_notification_*,@string/module_is_not_activated_*">
+<resources>
     <!-- MainActivity -->
     <string name="overview">بررسی کامل</string>
-    <string name="Modules">ماژول‌ ها</string>
-    <string name="Logs">گزارش ها</string>
+    <string name="Modules">ماژول‌ها</string>
+    <string name="Logs">گزارش‌ها</string>
     <string name="Settings">تنظیمات</string>
     <string name="About">درباره</string>
     <string name="module_repo">مخزن</string>
+    <string name="about_send_bug_report">ارسال گزارش اشکال</string>
+    <string name="bug_report_message">مشکل را به‌طور خلاصه توضیح دهید</string>
+    <string name="bug_report_exporting_logs">در حال برون‌ریزی گزارش‌ها…</string>
+    <string name="about_join_telegram">عضویت در کانال تلگرام</string>
+    <string name="email_address_copied">نشانی ایمیل کپی شد</string>
     <string name="translators" comment="Dear translators, please add your home page here following the format. There can be more than one translator. So feel free to append yourself.">rezamqds</string>
     <string name="not_installed">نصب نشده</string>
     <string name="not_install_summary">LSPosed نصب نشده</string>
     <string name="activated">فعال شده</string>
     <string name="partial_activated">تا حدودی فعال شده</string>
     <string name="system_inject_fail_summary">تزریق فریمورک سیستم انجام نشد</string>
-    <string name="system_inject_fail"><![CDATA[این مشکل ممکن است توسط Magisk یا برخی از ماژول های Magisk که دارای کیفیت پایینی هستند ایجاد شود لطفا سعی کنید ماژول‌ های Magisk را به غیر از Zygisk و LSPosed غیرفعال کنید یا گزارش کامل را به توسعه‌ دهندگان ارسال کنید]]></string>
-    <string name="system_prop_incorrect_summary">پایه سیستم نادرست است</string>
-    <string name="system_prop_incorrect"><![CDATA[برخی از ویژگی های ضروری سیستم حذف شده یا تغییر داده شده به همین دلیل ماژول ها ممکن است گاهی اوقات غیرفعال شوند]]></string>
+    <string name="system_inject_fail"><![CDATA[این مشکل ممکن است توسط <b>Magisk</b> یا برخی از ماژول‌های Magisk که دارای کیفیت پایینی هستند ایجاد شود.<br/>لطفا سعی کنید ماژول‌های Magisk را به غیر از Zygisk و LSPosed غیرفعال کنید یا گزارش کامل را به توسعه‌دهندگان ارسال کنید.]]></string>
+    <string name="system_prop_incorrect_summary">ویژگی سیستم نادرست است</string>
+    <string name="system_prop_incorrect"><![CDATA[برخی از ویژگی‌های ضروری سیستم حذف یا تغییر داده شده‌اند.<br/>به همین دلیل ممکن است ماژول‌ها گاهی اوقات غیرفعال شوند.]]></string>
     <string name="hyrt_unavailable_summary">تزریق HyperOS Runtime ناموفق بود</string>
     <string name="hyrt_unavailable">HyperOS Runtime شناسایی شد، اما Zygisk Next API در دسترس نیست. ماژول‌های بومی در فرایندهای HyperOS Runtime بارگذاری نخواهند شد.</string>
-    <string name="need_update">باید به روز رسانی شود</string>
+    <string name="need_update">باید به‌روزرسانی شود</string>
+    <string name="developer_warning_title">نکاتی برای توسعه‌دهنده ماژول</string>
+    <string name="developer_warning_summary">لطفاً بهینه‌سازی‌های استقرار را در Android Studio غیرفعال کنید یا با فرمان `gradlew installDebug` نصب کنید. در غیر این صورت فایل APK ماژول به‌روزرسانی نمی‌شود.</string>
     <string name="info_manager_package_name">نام بسته مدیر</string>
-    <string name="info_system_version">نسخه اندروید</string>
+    <string name="info_system_version">نسخه سیستم</string>
     <string name="info_device">مدل دستگاه</string>
-    <string name="info_system_abi">نوع پردازنده</string>
-    <string name="info_dex2oat_wrapper">Dex Optimizer Wrapper</string>
+    <string name="info_system_abi">ABI سیستم</string>
+    <string name="info_dex2oat_wrapper">پوشش بهینه‌ساز Dex</string>
     <string name="enabled">فعال شده</string>
     <string name="not_enabled">فعال نشده</string>
-    <string name="supported">پشتیبانی می شود</string>
-    <string name="unsupported">پشتیبانی نمی شود</string>
+    <string name="supported">پشتیبانی می‌شود</string>
+    <string name="unsupported">پشتیبانی نمی‌شود</string>
     <string name="mounted">متصل‌شده</string>
     <string name="injected">تزریق‌شده</string>
     <string name="android_version_unsatisfied">نسخه اندروید مناسب نیست</string>
     <string name="crashed">متوقف شده</string>
-    <string name="mount_failed">Mount انجام نشد</string>
+    <string name="mount_failed">متصل نشد</string>
     <string name="info_copied">در کلیپ بورد کپی شد</string>
     <!-- WelcomeDialog -->
+    <string name="touch_filtered_warning">چون برنامه‌ای روی رابط کاربری را پوشانده است، مدیر نمی‌تواند پاسخ شما را تأیید کند.</string>
     <string name="parasitic_welcome">به LSPosed خوش آمدید</string>
-    <string name="parasitic_welcome_summary">شما از برنامه مدیر lsposed استفاده می کنید که می تواند از طریق اعلان باز شود</string>
+    <string name="parasitic_welcome_summary">شما از برنامه مدیر LSPosed استفاده می‌کنید که می‌تواند از طریق اعلان باز شود</string>
     <string name="never_show">هرگز نشان نده</string>
-    <string name="app_welcome">مدیر lsposed توصیه می شود</string>
-    <string name="app_welcome_summary">LSPosed اکنون از پارازیتیزاسیون سیستم برای جلوگیری از شناسایی پشتیبانی می کند شما می توانید مدیر lsposed را از اعلان باز کنید توصیه می شود برنامه فعلی را حذف نصب کنید</string>
+    <string name="app_welcome">مدیر LSPosed توصیه می‌شود</string>
+    <string name="app_welcome_summary">LSPosed اکنون از پارازیتیزاسیون سیستم برای جلوگیری از شناسایی پشتیبانی می‌کند شما می‌توانید مدیر LSPosed را از اعلان باز کنید توصیه می‌شود برنامه فعلی را حذف نصب کنید</string>
     <!-- LogsActivity -->
     <string name="menuSaveToSd">ذخیره</string>
-    <string name="nav_item_logs_verbose">گزارش های کامل</string>
-    <string name="nav_item_logs_module">گزارش های ماژول ها</string>
+    <string name="nav_item_logs_verbose">گزارش‌های کامل</string>
+    <string name="nav_item_logs_module">گزارش‌های ماژول‌ها</string>
     <string name="logs_saving">در حال ذخیره گزارش، لطفاً کمی صبر کنید</string>
-    <string name="logs_saved">گزارش‌ ها ذخیره شده</string>
-    <string name="logs_save_failed2">ذخیره نشد : \n%s</string>
+    <string name="logs_saved">گزارش‌ها ذخیره شده</string>
+    <string name="logs_save_failed2">ذخیره نشد: \n%s</string>
+    <string name="logs_preparing">در حال آماده‌سازی گزارش، لطفاً صبر کنید</string>
+    <string name="logs_prepare_failed">آماده‌سازی انجام نشد:\n%s</string>
     <string name="menuClearLog">حذف گزارش</string>
-    <string name="scroll_top">مشاهده شروع گزارش</string>
-    <string name="scroll_bottom">مشاهده پایان گزارش</string>
-    <string name="menu_enable_word_wrap">بسته بندی کلمات</string>
+    <string name="scroll_top">رفتن به بالا</string>
+    <string name="scroll_bottom">رفتن به پایین</string>
+    <string name="menu_enable_word_wrap">بسته‌بندی کلمات</string>
     <!-- ModulesActivity -->
-    <string name="warning_xposed_min_version">این ماژول به یک نسخه جدیدتر از Xposed (%d) نیاز دارد بنابراین نمی توان آن را فعال کرد</string>
-    <string name="warning_target_version_higher">این ماژول برای نسخه جدیدتر از Xposed (%d) طراحی شده بنابراین ممکن است برخی از عملکرد ها کار نکنند</string>
-    <string name="no_min_version_specified">این ماژول نسخه Xposed مورد نیاز خود را مشخص نمی کند</string>
+    <string name="warning_xposed_min_version">این ماژول به یک نسخه جدیدتر از Xposed (%d) نیاز دارد بنابراین نمی‌توان آن را فعال کرد</string>
+    <string name="warning_target_version_higher">این ماژول برای نسخه جدیدتر از Xposed (%d) طراحی شده بنابراین ممکن است برخی از عملکرد‌ها کار نکنند</string>
+    <string name="no_min_version_specified">این ماژول نسخه Xposed مورد نیاز خود را مشخص نمی‌کند</string>
     <string name="warning_min_version_too_low">این ماژول برای نسخه Xposed %1$d ساخته شده اما به دلیل تغییرات ناسازگار در نسخه %2$d غیرفعال شده</string>
     <string name="warning_deprecated_feature">این ماژول از یک قابلیت منسوخ‌شده استفاده می‌کند که به‌زودی حذف خواهد شد. لطفاً با سازنده تماس بگیرید یا یک جایگزین را در نظر بگیرید.</string>
-    <string name="warning_installed_on_external_storage">این ماژول نمی تواند بارگذاری شود چون در کارت حافظه خارجی نصب شده لطفا آن را به حافظه داخلی انتقال دهید</string>
+    <string name="warning_installed_on_external_storage">این ماژول نمی‌تواند بارگذاری شود چون در کارت حافظه خارجی نصب شده لطفا آن را به حافظه داخلی انتقال دهید</string>
     <string name="module_uninstall">حذف نصب</string>
     <string name="module_settings">تنظیمات ماژول</string>
     <string name="view_in_repo">مشاهده در مخزن</string>
-    <string name="module_uninstall_message">آیا می خواهید این ماژول را حذف نصب کنید؟</string>
+    <string name="module_uninstall_message">آیا می‌خواهید این ماژول را حذف نصب کنید؟</string>
     <string name="module_uninstalled">%1$s حذف نصب شده</string>
-    <string name="module_uninstall_failed">حذف نصب نشده</string>
+    <string name="module_uninstall_failed">حذف نصب انجام نشد</string>
     <string name="module_install_failed">افزودن ماژول انجام نشد</string>
     <string name="install_to_user">برای کاربر %s نصب شود</string>
     <string name="expand">نمایش ادامه متن</string>
     <string name="collapse">بستن ادامه متن</string>
     <!-- AppListActivity -->
-    <string name="compile_speed">بهینه سازی دوباره</string>
-    <string name="compile_speed_msg">در حال بهینه سازی…</string>
-    <string name="compile_done">بهینه‌ سازی کامل شده</string>
+    <string name="reset_scope_request_setting">بازنشانی تنظیمات درخواست محدوده</string>
+    <string name="reset_scope_request_setting_done">تنظیمات درخواست محدوده بازنشانی شد</string>
+    <string name="hide_non_system_overlay_failed_no_permission">پنهان‌سازی لایه رویی غیرسیستمی انجام نشد؛ لطفاً مدیر را به‌روزرسانی کنید.</string>
+    <string name="compile_speed">بهینه‌سازی دوباره</string>
+    <string name="compile_speed_msg">در حال بهینه‌سازی…</string>
+    <string name="compile_done">بهینه‌سازی کامل شده</string>
     <string name="app_launch">اجرای برنامه</string>
-    <string name="compile_failed">بهینه سازی انجام نشد : مقدار برگشتی خالی است</string>
-    <string name="compile_failed_with_info">بهینه سازی انجام نشد : </string>
+    <string name="compile_failed">بهینه‌سازی انجام نشد: مقدار برگشتی خالی است</string>
+    <string name="compile_failed_with_info">بهینه‌سازی انجام نشد: </string>
     <string name="sort_by_name">نام برنامه</string>
     <string name="sort_by_package_name">نام بسته</string>
     <string name="sort_by_install_time">زمان نصب</string>
-    <string name="sort_by_update_time">زمان به روز رسانی</string>
+    <string name="sort_by_update_time">زمان به‌روزرسانی</string>
     <string name="sort_reverse">معکوس</string>
-    <string name="menu_show_system_apps">برنامه های سیستمی</string>
-    <string name="menu_sort">مرتب سازی بر اساس</string>
+    <string name="menu_show_system_apps">برنامه‌های سیستمی</string>
+    <string name="menu_sort">مرتب‌سازی بر اساس</string>
     <string name="enable_module">فعال کردن ماژول</string>
-    <string name="menu_show_games">بازی ها</string>
-    <string name="menu_show_modules">ماژول ها</string>
+    <string name="menu_show_games">بازی‌ها</string>
+    <string name="menu_show_modules">ماژول‌ها</string>
+    <string name="module_scope_list_static_scope">ماژول یک محدوده ایستا اعلام کرده است</string>
     <string name="failed_to_save_scope_list">لیست محدوده ذخیره نشد</string>
-    <string name="app_version">نسخه : %1$s</string>
+    <string name="app_version">نسخه: %1$s</string>
     <string name="use_recommended">توصیه شده</string>
-    <string name="use_recommended_message">آیا می خواهید برنامه های توصیه شده را انتخاب کنید؟</string>
+    <string name="use_recommended_message">آیا می‌خواهید برنامه‌های توصیه شده را انتخاب کنید؟</string>
+    <string name="deselect_all">لغو انتخاب همه</string>
+    <string name="deselect_all_message">همه برنامه‌های انتخاب‌شده لغو انتخاب شوند؟</string>
     <string name="module_is_not_activated_yet">ماژول Xposed هنوز فعال نشده</string>
-    <string name="requested_by_module">توصیه شده</string>
-    <string name="update_available">به روز رسانی موجود است : %1$s</string>
+    <string name="requested_by_module">توصیه‌شده توسط ماژول</string>
+    <string name="update_available">به‌روزرسانی موجود است: %1$s</string>
     <string name="android_framework">فریمورک سیستم</string>
-    <string name="menu_backup">پشتیبان گیری</string>
+    <string name="menu_backup">پشتیبان‌گیری</string>
     <string name="menu_restore">بازگردانی</string>
     <string name="force_stop">توقف اجباری</string>
-    <string name="force_stop_dlg_title">آیا شما می خواهید آن را به صورت اجباری متوقف کنید؟</string>
+    <string name="force_stop_dlg_title">توقف اجباری؟</string>
     <string name="force_stop_dlg_text">اگر یک برنامه را مجبور به توقف کنید ممکن است عملکرد نادرستی داشته باشد</string>
-    <string name="reboot_required">برای انجام این تغییر باید دستگاه خود را خاموش و روشن کنید</string>
-    <string name="reboot">خاموش و روشن کردن دستگاه</string>
+    <string name="reboot_required">برای اعمال این تغییر، راه‌اندازی مجدد لازم است</string>
+    <string name="reboot">راه‌اندازی مجدد</string>
     <!-- ModulesActivity and AppListActivity -->
     <string name="modules_other_app">مشاهده در برنامه دیگر</string>
     <string name="module_app_info">اطلاعات برنامه</string>
     <string name="list_empty">چیزی در اینجا موجود نیست</string>
     <!-- SettingsActivity -->
     <string name="settings_group_framework">فریمورک</string>
-    <string name="settings_disable_verbose_log">غیرفعال کردن گزارش های کامل</string>
-    <string name="settings_disable_verbose_log_summary">گزارش مشکلات را به همراه گزارش های کامل ارسال کنید</string>
-    <string name="settings_group_theme">پس زمینه</string>
-    <string name="settings_backup_and_restore">پشتیبان گیری و بازگردانی</string>
-    <string name="settings_backup_summary">از لیست ماژول ها و لیست های محدوده پشتیبانی گیری می کند</string>
-    <string name="settings_restore_summary">لیست ماژول ها و لیست های محدوده را بازیابی کنید</string>
-    <string name="settings_backup">پشتیبان گیری</string>
-    <string name="settings_backup_failed2">پشتیبان‌گیری انجام نشد : %s</string>
-    <string name="enable_documentui">لطفا رابط کاربری سند را فعال کنید</string>
+    <string name="settings_disable_verbose_log">غیرفعال کردن گزارش‌های کامل</string>
+    <string name="settings_disable_verbose_log_summary">گزارش مشکلات را به همراه گزارش‌های کامل ارسال کنید</string>
+    <string name="settings_group_theme">طرح‌زمینه</string>
+    <string name="settings_backup_and_restore">پشتیبان‌گیری و بازگردانی</string>
+    <string name="settings_backup_summary">از لیست ماژول‌ها و لیست‌های محدوده پشتیبان‌گیری می‌کند</string>
+    <string name="settings_restore_summary">لیست ماژول‌ها و لیست‌های محدوده را بازیابی کنید</string>
+    <string name="settings_backup">پشتیبان‌گیری</string>
+    <string name="settings_backup_failed2">پشتیبان‌گیری انجام نشد: %s</string>
+    <string name="enable_documentui">لطفاً DocumentsUI را فعال کنید</string>
     <string name="settings_restore">بازگردانی</string>
-    <string name="settings_restore_failed2">بازیابی انجام نشد : %s</string>
+    <string name="settings_restore_failed2">بازیابی انجام نشد: %s</string>
     <string name="group_network">شبکه</string>
     <string name="dns_over_http">DNS از طریق HTTPS</string>
-    <string name="dns_over_http_summary">مشکل فیلتر شدن برنامه در برخی کشور ها را با اتصال به DNS برطرف می کند</string>
-    <string name="settings_show_hidden_icon_apps_enabled">اجبار برنامه ها به نمایش آیکون های اجرا کننده خود</string>
-    <string name="settings_show_hidden_icon_apps_enabled_summary">در اندروید ۱۰ به بالا برنامه ها اجازه ندارند آیکون های اجرا کننده خود را مخفی کنند برای غیرفعال کردن این ویژگی سیستمی این کلید را غیرفعال کنید </string>
+    <string name="dns_over_http_summary">دور زدن مسمومیت DNS در برخی کشور‌ها</string>
+    <string name="settings_repo_cdn">CDN مخزن ماژول</string>
+    <string name="repo_cdn_default">پیش‌فرض</string>
+    <string name="repo_cdn_backup">پشتیبان</string>
+    <string name="settings_show_hidden_icon_apps_enabled">اجبار برنامه‌ها به نمایش آیکون‌های اجرا‌کننده خود</string>
+    <string name="settings_show_hidden_icon_apps_enabled_summary">در اندروید ۱۰ به بالا برنامه‌ها اجازه ندارند آیکون‌های اجرا‌کننده خود را مخفی کنند برای غیرفعال کردن این ویژگی سیستمی این کلید را غیرفعال کنید</string>
     <string name="settings_group_system">سیستم</string>
     <string name="settings_language">زبان</string>
-    <string name="settings_translation_contributors">مشارکت کنندگان ترجمه</string>
+    <string name="settings_translation_contributors">مشارکت‌کنندگان ترجمه</string>
     <string name="settings_translation">شرکت در ترجمه</string>
     <string name="settings_translation_summary">به ما کمک کنید تا %s را به زبان شما ترجمه کنیم</string>
     <string name="settings_enable_status_notification">اعلان وضعیت</string>
-    <string name="settings_enable_status_notification_summary">نمایش یک اعلان که می‌تواند مدیر lsposed را باز کند</string>
-    <string name="settings_update_channel">نوع به روز رسانی </string>
+    <string name="settings_enable_status_notification_summary">نمایش یک اعلان که می‌تواند مدیر LSPosed را باز کند</string>
+    <string name="settings_update_channel">کانال به‌روزرسانی ماژول</string>
     <string name="update_channel_stable">نسخه پایدار</string>
     <string name="update_channel_beta">نسخه آزمایشی</string>
     <string name="update_channel_nightly">نسخه ساخت شبانه</string>
-    <string name="settings_xposed_api_call_protection">Xposed API call protection</string>
-    <string name="settings_xposed_api_call_protection_summary">این گزینه کد ماژول بارگذاری شده پویا را برای استفاده از Xposed API مسدود خواهد کرد این کار ممکن است بعضی از ماژول ها را خراب کند اما به امنیت دستگاه کمک خواهد کرد</string>
+    <string name="settings_xposed_api_call_protection">محافظت از فراخوانی Xposed API</string>
+    <string name="settings_xposed_api_call_protection_summary">این گزینه کد ماژول بارگذاری شده پویا را برای استفاده از Xposed API مسدود خواهد کرد این کار ممکن است بعضی از ماژول‌ها را خراب کند اما به امنیت دستگاه کمک خواهد کرد</string>
     <!-- Module Repo -->
-    <string name="module_readme">اطلاعات ماژول</string>
-    <string name="module_releases">نسخه های منتشر شده</string>
+    <string name="settings_invalidate_inline_hooks">بی‌اعتبار کردن هوک‌های درون‌خطی</string>
+    <string name="settings_invalidate_inline_hooks_summary">پاک‌سازی libart.so برای برنامه‌های فهرست‌شده. این کار باعث خرابی‌ها و توقف‌های تصادفی می‌شود؛ تنها زمانی استفاده کنید که برنامه‌های مشخصی باز نمی‌شوند.</string>
+    <string name="failed_to_save_invalidate_inline_hooks_list">ذخیره فهرست بی‌اعتبار کردن هوک‌های درون‌خطی انجام نشد</string>
+    <string name="settings_enable_predictive_back">اشاره بازگشت پیش‌بینانه</string>
+    <string name="settings_enable_predictive_back_summary">فعال کردن پشتیبانی از اشاره‌های بازگشت پیش‌بینانه.</string>
+    <string name="settings_enable_swipe_dismiss">اشاره بازگشت با کشیدن</string>
+    <string name="settings_enable_swipe_dismiss_summary">برای بازگشت به صفحه قبلی، از لبه صفحه بکشید.</string>
+    <string name="settings_tapjacking_protection">کاهش خطر تپ‌جکینگ</string>
+    <string name="settings_tapjacking_protection_summary">هنگام پوشیده شدن رابط کاربری، لمس‌ها را مسدود می‌کند تا از حملات تپ‌جکینگ جلوگیری شود</string>
+    <string name="module_readme">راهنما</string>
+    <string name="module_releases">نسخه‌های منتشر شده</string>
     <string name="module_information">درباره ماژول</string>
     <string name="module_information_homepage">صفحه اصلی</string>
     <string name="module_information_source_url">کد منبع</string>
     <string name="module_information_collaborators">همکاران</string>
-    <string name="module_release_view_assets">مشاهده فایل apk</string>
+    <string name="module_release_view_assets">ضمیمه‌ها</string>
     <string name="menu_open_in_browser">بازکردن در مرورگر</string>
-    <string name="module_release_load_more">نمایش نسخه های قدیمی</string>
-    <string name="module_release_no_more">دیگر خبری از انتشار نیست</string>
+    <string name="menu_share">اشتراک‌گذاری</string>
+    <string name="module_release_load_more">نمایش نسخه‌های قدیمی</string>
+    <string name="module_release_no_more">نسخه دیگری وجود ندارد</string>
     <string name="sort_upgradable_first">اول قابل ارتقا</string>
     <string name="installed">نصب شده است</string>
     <plurals name="module_release_assets_download_count">
@@ -178,15 +189,98 @@
     <string name="color_indigo">نیلی</string>
     <string name="color_blue">آبی</string>
     <string name="color_light_blue">آبی کم رنگ</string>
-    <string name="color_cyan">فیروزه ای</string>
+    <string name="color_cyan">فیروزه‌ای</string>
     <string name="color_teal">سبز آبی</string>
     <string name="color_green">سبز</string>
-    <string name="color_lime">آهکی</string>
+    <string name="color_lime">سبز لیمویی</string>
     <string name="color_yellow">زرد</string>
     <string name="color_amber">کهربایی</string>
     <string name="color_orange">نارنجی</string>
-    <string name="color_brown">قهوه ای</string>
+    <string name="color_brown">قهوه‌ای</string>
     <string name="color_blue_grey">آبی خاکستری</string>
+    <string name="safe_mode">حالت ایمن</string>
+    <string name="safe_mode_summary">LSPosed در حالت ایمن است</string>
+    <string name="safe_mode_summary2">همه ماژول‌های Xposed تا راه‌اندازی مجدد بعدی در دسترس نیستند.\nبرخی ماژول‌ها باعث توقف سیستم شده‌اند. لطفاً این ماژول‌ها را پیدا و غیرفعال کنید و به توسعه‌دهندگان ماژول بازخورد دهید.</string>
+    <string name="disable_all_modules">غیرفعال کردن همه ماژول‌ها</string>
+    <string name="confirm_disable_all_modules">تأیید می‌شود؟</string>
+    <plurals name="message_disable_all_modules">
+        <item quantity="one">%d ماژول غیرفعال خواهد شد.
+این عملیات قابل بازگشت نیست.</item>
+        <item quantity="other">%d ماژول غیرفعال خواهد شد.
+این عملیات قابل بازگشت نیست.</item>
+    </plurals>
+    <string name="disable_success_title">موفق</string>
+    <string name="hook_debug_title">اشکال‌زدایی هوک</string>
+    <string name="debugging_title">اشکال‌زدایی</string>
     <string name="developer_mode_title">حالت توسعه‌دهنده</string>
     <string name="developer_mode_summary">اجازه مدیریت تنظیمات و محدوده‌های LSPosed با استفاده از ابزار CLI</string>
+    <string name="safe_mode_disabled_title">غیرفعال کردن حالت ایمن</string>
+    <string name="safe_mode_disabled_summary">جلوگیری از ورود به حالت ایمن هنگام توقف مکرر اجزای سیستم</string>
+    <string name="hook_debug_summary">اجازه تخلیه اطلاعات اشکال‌زدایی هوک فرایندهای هوک‌شده را می‌دهد که ممکن است بر کارایی تأثیر بگذارد</string>
+    <string name="dump_hook_debug_title">تخلیه اطلاعات اشکال‌زدایی هوک</string>
+    <string name="dump_hook_debug_summary">تخلیه اطلاعات اشکال‌زدایی هوک در /data/adb/lspd/log</string>
+    <string name="dump_hook_success">در %s تخلیه شد</string>
+    <string name="dump_hook_failed">تخلیه انجام نشد</string>
+    <string name="log_to_daemon_title">ثبت گزارش در دیمن</string>
+    <string name="log_to_daemon_summary">این کار مانع خواندن گزارش‌های ماژول توسط برنامه‌ها می‌شود، اما ممکن است بر کارایی تأثیر بگذارد</string>
+    <plurals name="disable_success_message">
+        <item quantity="one">%d ماژول غیرفعال شد</item>
+        <item quantity="other">%d ماژول غیرفعال شد</item>
+    </plurals>
+    <string name="follow_system">پیروی از سیستم</string>
+    <string name="unknown_author">نویسنده ناشناس</string>
+    <string name="unknown_version">نسخه ناشناس</string>
+    <string name="unknown_asset">ضمیمه ناشناس</string>
+    <string name="download_asset">دانلود</string>
+    <string name="nav_back">بازگشت</string>
+    <string name="nav_rail_expand">باز کردن نوار پیمایش</string>
+    <string name="nav_rail_collapse">بستن نوار پیمایش</string>
+    <string name="menu">منو</string>
+    <string name="menu_filter">پالایش</string>
+    <string name="menu_parsed_view">نمای تجزیه‌شده</string>
+    <string name="menu_raw_view">نمای خام</string>
+    <string name="settings_ui">سبک رابط کاربری</string>
+    <string name="settings_ui_summary">سبک رابط کاربری را انتخاب کنید</string>
+    <string name="settings_theme">طرح‌زمینه</string>
+    <string name="settings_theme_summary">حالت طرح‌زمینه برنامه را انتخاب کنید</string>
+    <string name="settings_theme_mode_system">پیروی از سیستم</string>
+    <string name="settings_theme_mode_light">روشن</string>
+    <string name="settings_theme_mode_dark">تیره</string>
+    <string name="settings_theme_mode_monet_system">Monet (پیروی از سیستم)</string>
+    <string name="settings_theme_mode_monet_light">Monet (روشن)</string>
+    <string name="settings_theme_mode_monet_dark">Monet (تیره)</string>
+    <string name="settings_key_color">رنگ تأکیدی</string>
+    <string name="settings_key_color_summary">سفارشی‌سازی رنگ پایه هنگام استفاده از Monet</string>
+    <string name="settings_key_color_default">پیش‌فرض</string>
+    <string name="settings_theme_entry">تنظیمات طرح‌زمینه</string>
+    <string name="settings_theme_entry_summary">حالت طرح‌زمینه، رنگ تأکیدی، سبک پالت و موارد دیگر</string>
+    <string name="settings_palette_style">سبک پالت</string>
+    <string name="settings_palette_style_summary">الگوریتم تنال مورد استفاده برای استخراج پالت Material 3</string>
+    <string name="settings_color_spec">مشخصات رنگ</string>
+    <string name="settings_color_spec_summary">نسخه مشخصات رنگ Material 3</string>
+    <string name="settings_page_scale">مقیاس صفحه</string>
+    <string name="settings_page_scale_summary">تنظیم مقیاس نمایش کلی</string>
+    <string name="settings_enable_blur">تاری</string>
+    <string name="settings_enable_blur_summary">فعال کردن افکت تاری برای نوارهای بالا و پایین</string>
+    <string name="settings_floating_bottom_bar">نوار پایین شناور</string>
+    <string name="settings_floating_bottom_bar_summary">استفاده از نوار پایین شناور به سبک Apple</string>
+    <string name="settings_enable_glass">شیشه مایع</string>
+    <string name="settings_enable_glass_summary">فعال کردن افکت شیشه مایع برای نوار پایین شناور</string>
+    <string name="refresh_pulling">برای تازه‌سازی به پایین بکشید</string>
+    <string name="refresh_release">برای تازه‌سازی رها کنید</string>
+    <string name="refresh_refresh">در حال تازه‌سازی…</string>
+    <string name="refresh_complete">تازه‌سازی با موفقیت انجام شد</string>
+    <string name="time_just_now">همین حالا</string>
+    <plurals name="time_minutes_ago">
+        <item quantity="one">%d دقیقه پیش</item>
+        <item quantity="other">%d دقیقه پیش</item>
+    </plurals>
+    <plurals name="time_hours_ago">
+        <item quantity="one">%d ساعت پیش</item>
+        <item quantity="other">%d ساعت پیش</item>
+    </plurals>
+    <plurals name="time_days_ago">
+        <item quantity="one">%d روز پیش</item>
+        <item quantity="other">%d روز پیش</item>
+    </plurals>
 </resources>

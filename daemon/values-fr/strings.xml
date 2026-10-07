@@ -2,21 +2,64 @@
 <resources>
     <!-- Notification -->
     <string name="list_separator">, </string>
-    <string name="module_is_not_activated_yet">Le module LSPosed n\’est pas encore actif</string>
-    <string name="module_is_not_activated_yet_main_user_detailed">%1$s a été installé, mais n\'a pas été encore activé</string>
-    <string name="module_is_not_activated_yet_multi_user_detailed">%1$s a été installé pour l\'utilisateur %2$s, mais n\'a pas été encore activé</string>
+    <string name="module_is_not_activated_yet">Le module Xposed n’est pas encore activé</string>
+    <string name="module_is_not_activated_yet_main_user_detailed">%1$s a été installé, mais n\'a pas encore été activé</string>
+    <string name="module_is_not_activated_yet_multi_user_detailed">%1$s a été installé pour l\'utilisateur %2$s, mais n\'a pas encore été activé</string>
     <string name="xposed_module_updated_notification_title">Module Xposed mis à jour</string>
     <string name="xposed_module_updated_notification_title_system">Module Xposed mis à jour, redémarrage du système requis</string>
-    <string name="xposed_module_updated_notification_content">%s a été mis à jour, merci de forcer l\’arrêt ou de redémarrer les applis dans leurs champs d\’application</string>
-    <string name="xposed_module_updated_notification_content_system">%s a été mis à jour, étant donné que le champ d\'application est étendu au sous système, un redémarrage est nécessaire pour appliquer les changements</string>
+    <string name="xposed_module_updated_notification_content">%s a été mis à jour, veuillez forcer l’arrêt et redémarrer les applications de son périmètre</string>
+    <string name="xposed_module_updated_notification_content_system">%s a été mis à jour, étant donné que le périmètre contient le framework système, un redémarrage est nécessaire pour appliquer les changements</string>
+    <string name="xposed_module_updated_notification_reload">%1$s a été mis à jour, %2$s</string>
+    <string name="xposed_module_updated_notification_reload_none">%s a été mis à jour</string>
+    <plurals name="xposed_module_updated_notification_reload_reloaded">
+        <item quantity="one">%d processus rechargé à chaud</item>
+        <item quantity="many">%d de processus rechargés à chaud</item>
+        <item quantity="other">%d processus rechargés à chaud</item>
+    </plurals>
+    <plurals name="xposed_module_updated_notification_reload_reloading">
+        <item quantity="one">%d processus en cours de rechargement à chaud</item>
+        <item quantity="many">%d de processus en cours de rechargement à chaud</item>
+        <item quantity="other">%d processus en cours de rechargement à chaud</item>
+    </plurals>
+    <plurals name="xposed_module_updated_notification_reload_failed">
+        <item quantity="one">%d processus n’a pas pu être rechargé à chaud</item>
+        <item quantity="many">%d de processus n’ont pas pu être rechargés à chaud</item>
+        <item quantity="other">%d processus n’ont pas pu être rechargés à chaud</item>
+    </plurals>
+    <string name="xposed_module_enabled_notification_title">Module Xposed activé</string>
+    <string name="xposed_module_enabled_notification_content">%s a été activé, appuyez pour configurer son périmètre</string>
+    <string name="xposed_module_updated_notification_action_enable">Activer le module</string>
     <string name="module_updated_channel_name">Mise à jour du module terminée</string>
     <string name="status_channel_name">Statut LSPosed</string>
     <string name="lsposed_running_notification_title">LSPosed chargé</string>
-    <string name="lsposed_running_notification_content">Appuyer sur la notification pour ouvrir le gestionnaire</string>
-    <string name="xposed_module_request_scope_title">Demande d\'Extension de Portée</string>
-    <string name="xposed_module_request_scope_content">%1$s sur l\'utilisateur %2$s demande d\'ajouter %3$s à son périmètre d\'action.</string>
-    <string name="scope_channel_name">Demande d\'Extension de Portée</string>
+    <string name="lsposed_running_notification_content">Appuyez sur la notification pour ouvrir le gestionnaire</string>
+    <string name="xposed_module_request_scope_title">Demande d\'extension de périmètre</string>
+    <string name="xposed_module_request_scope_content">%1$s sur l\'utilisateur %2$s demande d\'ajouter %3$s à son périmètre.</string>
+    <string name="xposed_module_request_scope_content_batch">%1$s sur l’utilisateur %2$s demande d’ajouter les applications suivantes à son périmètre.</string>
+    <string name="scope_channel_name">Demande d\'extension de périmètre</string>
     <string name="scope_approve">Approuver</string>
     <string name="scope_deny">Refuser</string>
-    <string name="nerver_ask_again">Ne jamais demander</string>
+    <string name="never_ask_again">Ne jamais demander</string>
+    <string name="lsposed_safemode_notification_title">LSPosed est en mode sans échec</string>
+    <string name="lsposed_safemode_notification_content">Tous les modules Xposed sont indisponibles jusqu’au prochain redémarrage</string>
+    <string name="safe_mode_disable_all_modules">Désactiver tous les modules</string>
+    <string name="lsposed_safemode_cleared_notification_title">Tous les modules sont désactivés</string>
+    <plurals name="lsposed_safemode_cleared_notification_content">
+        <item quantity="one">%d module est désactivé</item>
+        <item quantity="many">%d de modules sont désactivés</item>
+        <item quantity="other">%d modules sont désactivés</item>
+    </plurals>
+    <string name="lsposed_safemode_clear_confirm_notification_title">Confirmer ?</string>
+    <plurals name="lsposed_safemode_clear_confirm_notification_content">
+        <item quantity="one">%d module sera désactivé
+Cette opération est irréversible</item>
+        <item quantity="many">%d de modules seront désactivés
+Cette opération est irréversible</item>
+        <item quantity="other">%d modules seront désactivés
+Cette opération est irréversible</item>
+    </plurals>
+    <string name="safe_mode_reboot">Redémarrer</string>
+    <string name="safe_mode_channel_name">Mode sans échec</string>
+    <string name="safe_mode_open_manager">Ouvrir le gestionnaire</string>
+    <string name="safe_mode_back">Retour</string>
 </resources>

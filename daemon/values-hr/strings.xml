@@ -9,14 +9,57 @@
     <string name="xposed_module_updated_notification_title_system">Xposed modul je ažuriran, potrebno je ponovno pokretanje sustava</string>
     <string name="xposed_module_updated_notification_content">%s je ažuriran, prisilno zaustavite i ponovno pokrenite aplikacije u njegovom opsegu</string>
     <string name="xposed_module_updated_notification_content_system">%s je ažuriran, budući da opseg sadrži System Framework, potrebno je ponovno pokretanje za primjenu promjena</string>
+    <string name="xposed_module_updated_notification_reload">%1$s je ažuriran, %2$s</string>
+    <string name="xposed_module_updated_notification_reload_none">%s je ažuriran</string>
+    <plurals name="xposed_module_updated_notification_reload_reloaded">
+        <item quantity="one">%d proces vruće ponovno učitan</item>
+        <item quantity="few">%d procesa vruće ponovno učitana</item>
+        <item quantity="other">%d procesa vruće ponovno učitano</item>
+    </plurals>
+    <plurals name="xposed_module_updated_notification_reload_reloading">
+        <item quantity="one">%d proces se vruće ponovno učitava</item>
+        <item quantity="few">%d procesa se vruće ponovno učitavaju</item>
+        <item quantity="other">%d procesa se vruće ponovno učitava</item>
+    </plurals>
+    <plurals name="xposed_module_updated_notification_reload_failed">
+        <item quantity="one">Vruće ponovno učitavanje %d procesa nije uspjelo</item>
+        <item quantity="few">Vruće ponovno učitavanje %d procesa nije uspjelo</item>
+        <item quantity="other">Vruće ponovno učitavanje %d procesa nije uspjelo</item>
+    </plurals>
+    <string name="xposed_module_enabled_notification_title">Xposed modul omogućen</string>
+    <string name="xposed_module_enabled_notification_content">%s je omogućen, dodirnite za postavljanje opsega</string>
+    <string name="xposed_module_updated_notification_action_enable">Aktiviraj modul</string>
     <string name="module_updated_channel_name">Ažuriranje modula dovršeno</string>
     <string name="status_channel_name">LSPosed status</string>
     <string name="lsposed_running_notification_title">LSPosed je učitan</string>
     <string name="lsposed_running_notification_content">Dodirnite obavijest da otvorite upravitelja</string>
     <string name="xposed_module_request_scope_title">Zahtjev za opseg</string>
     <string name="xposed_module_request_scope_content">%1$s na korisniku %2$s zahtijeva dodavanje %3$s svom opsegu.</string>
+    <string name="xposed_module_request_scope_content_batch">%1$s na korisniku %2$s zahtijeva dodavanje sljedećih aplikacija u svoj opseg.</string>
     <string name="scope_channel_name">Zahtjev za opseg</string>
     <string name="scope_approve">Odobriti</string>
     <string name="scope_deny">Poreći</string>
-    <string name="nerver_ask_again">Nikad ne pitaj</string>
+    <string name="never_ask_again">Nikad ne pitaj</string>
+    <string name="lsposed_safemode_notification_title">LSPosed je u sigurnom načinu rada</string>
+    <string name="lsposed_safemode_notification_content">Svi Xposed moduli nedostupni su do sljedećeg ponovnog pokretanja</string>
+    <string name="safe_mode_disable_all_modules">Onemogući sve module</string>
+    <string name="lsposed_safemode_cleared_notification_title">Svi moduli su onemogućeni</string>
+    <plurals name="lsposed_safemode_cleared_notification_content">
+        <item quantity="one">%d modul je onemogućen</item>
+        <item quantity="few">%d modula su onemogućena</item>
+        <item quantity="other">%d modula je onemogućeno</item>
+    </plurals>
+    <string name="lsposed_safemode_clear_confirm_notification_title">Potvrditi?</string>
+    <plurals name="lsposed_safemode_clear_confirm_notification_content">
+        <item quantity="one">%d modul bit će onemogućen
+Ovaj se postupak ne može poništiti</item>
+        <item quantity="few">%d modula bit će onemogućena
+Ovaj se postupak ne može poništiti</item>
+        <item quantity="other">%d modula bit će onemogućeno
+Ovaj se postupak ne može poništiti</item>
+    </plurals>
+    <string name="safe_mode_reboot">Ponovno pokreni</string>
+    <string name="safe_mode_channel_name">Sigurni način rada</string>
+    <string name="safe_mode_open_manager">Otvori upravitelja</string>
+    <string name="safe_mode_back">Natrag</string>
 </resources>

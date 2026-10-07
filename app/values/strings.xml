@@ -1,23 +1,4 @@
-<!--
-  ~ This file is part of LSPosed.
-  ~
-  ~ LSPosed is free software: you can redistribute it and/or modify
-  ~ it under the terms of the GNU General Public License as published by
-  ~ the Free Software Foundation, either version 3 of the License, or
-  ~ (at your option) any later version.
-  ~
-  ~ LSPosed is distributed in the hope that it will be useful,
-  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
-  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-  ~ GNU General Public License for more details.
-  ~
-  ~ You should have received a copy of the GNU General Public License
-  ~ along with LSPosed.  If not, see <https://www.gnu.org/licenses/>.
-  ~
-  ~ Copyright (C) 2021 LSPosed Contributors
-  -->
-
-<resources xmlns:tools="http://schemas.android.com/tools" tools:keep="@string/xposed_module_updated_notification_*,@string/module_is_not_activated_*">
+<resources>
     <!-- MainActivity -->
     <string name="overview">Overview</string>
     <string name="Modules">Modules</string>
@@ -33,13 +14,13 @@
     <string name="translators" comment="Dear translators, please add your home page here following the format. There can be more than one translator. So feel free to append yourself.">null</string>
 
     <string name="not_installed">Not installed</string>
-    <string name="not_install_summary">LSPosed is not Installed</string>
+    <string name="not_install_summary">LSPosed is not installed</string>
     <string name="activated">Activated</string>
     <string name="partial_activated">Partially activated</string>
     <string name="system_inject_fail_summary">System Framework injection failed</string>
-    <string name="system_inject_fail"><![CDATA[This is rare and may be caused by <b>Magisk</b> or some low-quality Magisk modules.<br/>Please try to disable Magisk modules other than LSPosed or submit full log to developers.]]></string>
+    <string name="system_inject_fail"><![CDATA[This is rare and may be caused by <b>Magisk</b> or some low-quality Magisk modules.<br/>Please try to disable Magisk modules other than Zygisk and LSPosed, or submit a full log to the developers.]]></string>
     <string name="system_prop_incorrect_summary">System prop incorrect</string>
-    <string name="system_prop_incorrect"><![CDATA[Some necessary system properties deleted or modified.<br/>Modules may invalidate occasionally.]]></string>
+    <string name="system_prop_incorrect"><![CDATA[Some necessary system properties have been deleted or modified.<br/>Modules may invalidate occasionally.]]></string>
     <string name="hyrt_unavailable_summary">HyperOS Runtime injection failed</string>
     <string name="hyrt_unavailable">HyperOS Runtime was detected, but Zygisk Next API is unavailable. Native modules will not be loaded into HyperOS Runtime processes.</string>
     <string name="need_update">Need to update</string>
@@ -56,7 +37,7 @@
     <string name="unsupported">Unsupported</string>
     <string name="mounted">Mounted</string>
     <string name="injected">Injected</string>
-    <string name="android_version_unsatisfied">Android version unsatisfied</string>
+    <string name="android_version_unsatisfied">Android version not supported</string>
     <string name="crashed">Crashed</string>
     <string name="mount_failed">Mount failed</string>
     <string name="info_copied">Copied to clipboard</string>
@@ -64,10 +45,10 @@
 
     <!-- WelcomeDialog -->
     <string name="parasitic_welcome">Welcome to LSPosed</string>
-    <string name="parasitic_welcome_summary">You are using the parasitic manager, which can open from notification.</string>
+    <string name="parasitic_welcome_summary">You are using the parasitic manager, which can be opened from the notification.</string>
     <string name="never_show">Never show</string>
     <string name="app_welcome">Parasitic Manager Recommended</string>
-    <string name="app_welcome_summary">LSPosed now supports system parasitization to avoid detection, you can open parasitic manager from notification. It is recommended to uninstall the current application.</string>
+    <string name="app_welcome_summary">LSPosed now supports system parasitization to avoid detection. You can open the parasitic manager from the notification. It is recommended to uninstall the current application.</string>
 
     <!-- LogsActivity -->
     <string name="menuSaveToSd">Save</string>
@@ -95,8 +76,8 @@
     <string name="view_in_repo">View in Repo</string>
     <string name="module_uninstall_message">Do you want to uninstall this module?</string>
     <string name="module_uninstalled">Uninstalled %1$s</string>
-    <string name="module_uninstall_failed">Uninstall unsuccessful</string>
-    <string name="module_install_failed">Adding module failed</string>
+    <string name="module_uninstall_failed">Failed to uninstall</string>
+    <string name="module_install_failed">Failed to add module</string>
     <string name="install_to_user">Install to user %s</string>
     <string name="expand">expand</string>
     <string name="collapse">collapse</string>
@@ -129,7 +110,7 @@
     <string name="deselect_all">Deselect all</string>
     <string name="deselect_all_message">Deselect all selected apps?</string>
     <string name="module_is_not_activated_yet">Xposed module is not activated yet</string>
-    <string name="requested_by_module">Recommended</string>
+    <string name="requested_by_module">Module recommended</string>
     <string name="update_available">Update available: %1$s</string>
     <string name="android_framework">System Framework</string>
     <string name="menu_backup">Backup</string>
@@ -148,19 +129,19 @@
     <!-- SettingsActivity -->
     <string name="settings_group_framework">Framework</string>
     <string name="settings_disable_verbose_log">Disable verbose logs</string>
-    <string name="settings_disable_verbose_log_summary">Report issues request to include verbose logs</string>
+    <string name="settings_disable_verbose_log_summary">Reporting issues requires verbose logs</string>
     <string name="settings_group_theme">Theme</string>
     <string name="settings_backup_and_restore">Backup and restore</string>
     <string name="settings_backup_summary">Backup module list and scope lists.</string>
     <string name="settings_restore_summary">Restore module list and scope lists.</string>
     <string name="settings_backup">Backup</string>
     <string name="settings_backup_failed2">Failed to backup:\n%s</string>
-    <string name="enable_documentui">Please enable DocumentUI</string>
+    <string name="enable_documentui">Please enable DocumentsUI</string>
     <string name="settings_restore">Restore</string>
     <string name="settings_restore_failed2">Failed to restore:\n%s</string>
     <string name="group_network">Network</string>
     <string name="dns_over_http">DNS over HTTPS</string>
-    <string name="dns_over_http_summary">Workaround DNS poisoning in some nations</string>
+    <string name="dns_over_http_summary">Work around DNS poisoning in some regions</string>
     <string name="settings_repo_cdn">Module repository CDN</string>
     <string name="repo_cdn_default">Default</string>
     <string name="repo_cdn_backup">Backup</string>
@@ -173,21 +154,21 @@
     <string name="settings_translation_summary">Help us translate %s into your language</string>
     <string name="settings_enable_status_notification">Status Notification</string>
     <string name="settings_enable_status_notification_summary">Show a notification that can open parasitic manager</string>
-    <string name="settings_update_channel">Update channel</string>
+    <string name="settings_update_channel">Module update channel</string>
     <string name="update_channel_stable">Stable</string>
     <string name="update_channel_beta">Beta</string>
     <string name="update_channel_nightly">Nightly build</string>
     <string name="settings_xposed_api_call_protection">Xposed API call protection</string>
-    <string name="settings_xposed_api_call_protection_summary">Block dynamically loaded module code to use Xposed API, this may break some modules but benefit security</string>
+    <string name="settings_xposed_api_call_protection_summary">Block dynamically loaded module code from using the Xposed API; this may break some modules but improves security</string>
     <string name="settings_invalidate_inline_hooks">Invalidate inline hooks</string>
-    <string name="settings_invalidate_inline_hooks_summary">Cleanup libart.so for listed apps. This will cause random malfunctions and crashes. Use only when unable to open specific apps.</string>
+    <string name="settings_invalidate_inline_hooks_summary">Clean up libart.so for the listed apps. This will cause random malfunctions and crashes. Use only when unable to open specific apps.</string>
     <string name="failed_to_save_invalidate_inline_hooks_list">Failed to save Invalidate inline hooks list</string>
     <string name="settings_enable_predictive_back">Predictive back gesture</string>
     <string name="settings_enable_predictive_back_summary">Enable support for predictive back gestures.</string>
     <string name="settings_enable_swipe_dismiss">Swipe back gesture</string>
     <string name="settings_enable_swipe_dismiss_summary">Swipe from the edge to return to the previous page.</string>
     <string name="settings_tapjacking_protection">Tapjacking Mitigation</string>
-    <string name="settings_tapjacking_protection_summary">Blocks touches when the interface is obscured to prevents tapjacking attacks</string>
+    <string name="settings_tapjacking_protection_summary">Blocks touches when the interface is obscured to prevent tapjacking attacks</string>
     <!-- Module Repo -->
     <string name="module_readme">Readme</string>
     <string name="module_releases">Releases</string>
@@ -199,7 +180,7 @@
     <string name="menu_open_in_browser">Open in browser</string>
     <string name="menu_share">Share</string>
     <string name="module_release_load_more">Show older versions</string>
-    <string name="module_release_no_more">No more release</string>
+    <string name="module_release_no_more">No more releases</string>
     <string name="sort_upgradable_first">Upgradable first</string>
     <string name="installed">Installed</string>
     <plurals name="module_release_assets_download_count">
@@ -227,7 +208,7 @@
 
     <string name="safe_mode">Safe Mode</string>
     <string name="safe_mode_summary">LSPosed is in safe mode</string>
-    <string name="safe_mode_summary2">All Xposed modules are unavailable until next reboot. \nSome modules have caused system crashes. Please find and disable these modules and provide feedback to the module developers.</string>
+    <string name="safe_mode_summary2">All Xposed modules are unavailable until the next reboot.\nSome modules have caused system crashes. Please find and disable these modules and provide feedback to the module developers.</string>
     <string name="disable_all_modules">Disable all modules</string>
     <string name="confirm_disable_all_modules">Confirm?</string>
     <plurals name="message_disable_all_modules">
@@ -240,14 +221,14 @@
     <string name="developer_mode_title">Developer mode</string>
     <string name="developer_mode_summary">Allow managing LSPosed settings and scopes using the CLI tool</string>
     <string name="safe_mode_disabled_title">Disable Safe Mode</string>
-    <string name="safe_mode_disabled_summary">Prevent entering Safe Mode when system components keeps stopping</string>
+    <string name="safe_mode_disabled_summary">Prevent entering Safe Mode when system components keep stopping</string>
     <string name="hook_debug_summary">Allow dumping of hook debugging information of hooked processes, which may have a performance impact</string>
     <string name="dump_hook_debug_title">Dump hook debug info</string>
     <string name="dump_hook_debug_summary">Dump hook debug info to /data/adb/lspd/log</string>
     <string name="dump_hook_success">Dumped to %s</string>
     <string name="dump_hook_failed">Failed to dump</string>
     <string name="log_to_daemon_title">Log to daemon</string>
-    <string name="log_to_daemon_summary">This can avoid module logs being read by apps but may cause performance impact</string>
+    <string name="log_to_daemon_summary">This prevents module logs from being read by apps, but may impact performance</string>
     <plurals name="disable_success_message">
         <item quantity="one">Disabled %d module</item>
         <item quantity="other">Disabled %d modules</item>

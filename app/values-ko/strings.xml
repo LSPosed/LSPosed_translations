@@ -1,24 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--
-  ~ This file is part of LSPosed.
-  ~
-  ~ LSPosed is free software: you can redistribute it and/or modify
-  ~ it under the terms of the GNU General Public License as published by
-  ~ the Free Software Foundation, either version 3 of the License, or
-  ~ (at your option) any later version.
-  ~
-  ~ LSPosed is distributed in the hope that it will be useful,
-  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
-  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-  ~ GNU General Public License for more details.
-  ~
-  ~ You should have received a copy of the GNU General Public License
-  ~ along with LSPosed.  If not, see <https://www.gnu.org/licenses/>.
-  ~
-  ~ Copyright (C) 2021 LSPosed Contributors
-  -->
-
-<resources xmlns:tools="http://schemas.android.com/tools" tools:keep="@string/xposed_module_updated_notification_*,@string/module_is_not_activated_*">
+<resources>
     <!-- MainActivity -->
     <string name="overview">개요</string>
     <string name="Modules">모듈</string>
@@ -26,6 +7,11 @@
     <string name="Settings">설정</string>
     <string name="About">정보</string>
     <string name="module_repo">저장소</string>
+    <string name="about_send_bug_report">버그 신고 보내기</string>
+    <string name="bug_report_message">문제를 간단히 설명해 주세요</string>
+    <string name="bug_report_exporting_logs">로그 내보내는 중…</string>
+    <string name="about_join_telegram">Telegram 채널 가입</string>
+    <string name="email_address_copied">이메일 주소가 복사되었습니다</string>
     <string name="translators" comment="Dear translators, please add your home page here following the format. There can be more than one translator. So feel free to append yourself.">naijun0403, green1052</string>
 
     <string name="not_installed">설치되지 않음</string>
@@ -33,26 +19,26 @@
     <string name="activated">활성화됨</string>
     <string name="partial_activated">부분 활성화됨</string>
     <string name="system_inject_fail_summary">시스템 프레임워크 주입 실패</string>
-    <string name="system_inject_fail"><![CDATA[드문 경우이며 <b>Magisk</b> 또는 품질이 낮은 일부 Magisk 모듈 때문에 발생할 수 있습니다.<br/>LSPosed 이외의 Magisk 모듈을 비활성화해 보거나 전체 로그를 개발자에게 제출해 주세요.]]></string>
+    <string name="system_inject_fail"><![CDATA[드문 경우이며 <b>Magisk</b> 또는 품질이 낮은 일부 Magisk 모듈 때문에 발생할 수 있습니다.<br/>Zygisk와 LSPosed 이외의 Magisk 모듈을 비활성화해 보거나 전체 로그를 개발자에게 제출해 주세요.]]></string>
     <string name="system_prop_incorrect_summary">시스템 속성 오류</string>
     <string name="system_prop_incorrect"><![CDATA[필수 시스템 속성 일부가 삭제되었거나 수정되었습니다.<br/>모듈이 간헐적으로 무효화될 수 있습니다.]]></string>
     <string name="hyrt_unavailable_summary">HyperOS Runtime 주입 실패</string>
     <string name="hyrt_unavailable">HyperOS Runtime이 감지되었지만 Zygisk Next API를 사용할 수 없습니다. 네이티브 모듈은 HyperOS Runtime 프로세스에 로드되지 않습니다.</string>
     <string name="need_update">업데이트 필요</string>
     <string name="developer_warning_title">모듈 개발자를 위한 팁</string>
-    <string name="developer_warning_summary">Android Studio에서 deploy optimizations를 비활성화하거나 `gradlew installDebug` 명령으로 설치해 주세요. 그렇지 않으면 모듈 APK가 업데이트되지 않습니다.</string>
+    <string name="developer_warning_summary">Android Studio에서 배포 최적화를 비활성화하거나 `gradlew installDebug` 명령으로 설치해 주세요. 그렇지 않으면 모듈 APK가 업데이트되지 않습니다.</string>
     <string name="info_manager_package_name">관리자 패키지 이름</string>
     <string name="info_system_version">시스템 버전</string>
     <string name="info_device">기기</string>
     <string name="info_system_abi">시스템 ABI</string>
     <string name="info_dex2oat_wrapper">Dex 최적화기 래퍼</string>
-    <string name="enabled">활성화됨</string>
-    <string name="not_enabled">비활성화됨</string>
+    <string name="enabled">사용 설정됨</string>
+    <string name="not_enabled">사용 안 함</string>
     <string name="supported">지원됨</string>
     <string name="unsupported">지원되지 않음</string>
     <string name="mounted">마운트됨</string>
     <string name="injected">주입됨</string>
-    <string name="android_version_unsatisfied">Android 버전이 맞지 않습니다</string>
+    <string name="android_version_unsatisfied">지원되지 않는 Android 버전입니다</string>
     <string name="crashed">충돌함</string>
     <string name="mount_failed">마운트 실패</string>
     <string name="info_copied">클립보드에 복사됨</string>
@@ -90,7 +76,7 @@
     <string name="module_settings">모듈 설정</string>
     <string name="view_in_repo">저장소에서 보기</string>
     <string name="module_uninstall_message">이 모듈을 제거할까요?</string>
-    <string name="module_uninstalled">%1$s 제거됨</string>
+    <string name="module_uninstalled">%1$s를 제거했습니다</string>
     <string name="module_uninstall_failed">제거에 실패했습니다</string>
     <string name="module_install_failed">모듈 추가 실패</string>
     <string name="install_to_user">사용자 %s에 설치</string>
@@ -122,8 +108,10 @@
     <string name="app_version">버전: %1$s</string>
     <string name="use_recommended">권장</string>
     <string name="use_recommended_message">권장 앱을 선택할까요?</string>
+    <string name="deselect_all">선택 모두 해제</string>
+    <string name="deselect_all_message">선택한 앱을 모두 해제할까요?</string>
     <string name="module_is_not_activated_yet">Xposed 모듈이 아직 활성화되지 않았습니다</string>
-    <string name="requested_by_module">권장</string>
+    <string name="requested_by_module">모듈 권장</string>
     <string name="update_available">업데이트 가능: %1$s</string>
     <string name="android_framework">시스템 프레임워크</string>
     <string name="menu_backup">백업</string>
@@ -149,7 +137,7 @@
     <string name="settings_restore_summary">모듈 목록과 범위 목록을 복원합니다.</string>
     <string name="settings_backup">백업</string>
     <string name="settings_backup_failed2">백업 실패:\n%s</string>
-    <string name="enable_documentui">DocumentUI를 활성화해 주세요</string>
+    <string name="enable_documentui">DocumentsUI를 활성화해 주세요</string>
     <string name="settings_restore">복원</string>
     <string name="settings_restore_failed2">복원 실패:\n%s</string>
     <string name="group_network">네트워크</string>
@@ -167,7 +155,7 @@
     <string name="settings_translation_summary">%s를 여러분의 언어로 번역하는 데 도움을 주세요</string>
     <string name="settings_enable_status_notification">상태 알림</string>
     <string name="settings_enable_status_notification_summary">기생 관리자를 열 수 있는 알림을 표시합니다</string>
-    <string name="settings_update_channel">업데이트 채널</string>
+    <string name="settings_update_channel">모듈 업데이트 채널</string>
     <string name="update_channel_stable">안정판</string>
     <string name="update_channel_beta">베타</string>
     <string name="update_channel_nightly">나이틀리 빌드</string>
@@ -178,6 +166,8 @@
     <string name="failed_to_save_invalidate_inline_hooks_list">인라인 훅 무효화 목록 저장 실패</string>
     <string name="settings_enable_predictive_back">예측형 뒤로가기 제스처</string>
     <string name="settings_enable_predictive_back_summary">예측형 뒤로가기 제스처 지원을 활성화합니다.</string>
+    <string name="settings_enable_swipe_dismiss">스와이프 뒤로가기 제스처</string>
+    <string name="settings_enable_swipe_dismiss_summary">화면 가장자리에서 스와이프하여 이전 페이지로 돌아갑니다.</string>
     <string name="settings_tapjacking_protection">탭재킹 완화</string>
     <string name="settings_tapjacking_protection_summary">인터페이스가 가려졌을 때 터치를 차단하여 탭재킹 공격을 방지합니다</string>
     <!-- Module Repo -->
@@ -186,7 +176,7 @@
     <string name="module_information">정보</string>
     <string name="module_information_homepage">홈페이지</string>
     <string name="module_information_source_url">소스 코드</string>
-    <string name="module_information_collaborators">기여자</string>
+    <string name="module_information_collaborators">공동 작업자</string>
     <string name="module_release_view_assets">에셋</string>
     <string name="menu_open_in_browser">브라우저에서 열기</string>
     <string name="menu_share">공유</string>
@@ -226,6 +216,8 @@
     <string name="disable_success_title">성공</string>
     <string name="hook_debug_title">훅 디버그</string>
     <string name="debugging_title">디버깅</string>
+    <string name="safe_mode_disabled_title">안전 모드 비활성화</string>
+    <string name="safe_mode_disabled_summary">시스템 구성 요소가 계속 중지될 때 안전 모드로 진입하지 않도록 합니다</string>
     <string name="hook_debug_summary">후킹된 프로세스의 훅 디버깅 정보를 덤프하도록 허용합니다. 성능에 영향을 줄 수 있습니다</string>
     <string name="dump_hook_debug_title">훅 디버그 정보 덤프</string>
     <string name="dump_hook_debug_summary">훅 디버그 정보를 /data/adb/lspd/log에 덤프합니다</string>
@@ -241,9 +233,11 @@
     <string name="follow_system">시스템 설정 따름</string>
     <string name="unknown_author">알 수 없는 작성자</string>
     <string name="unknown_version">알 수 없는 버전</string>
-    <string name="unknown_asset">알 수 없는 애셋</string>
+    <string name="unknown_asset">알 수 없는 에셋</string>
     <string name="download_asset">다운로드</string>
     <string name="nav_back">뒤로</string>
+    <string name="nav_rail_expand">탐색 레일 펼치기</string>
+    <string name="nav_rail_collapse">탐색 레일 접기</string>
     <string name="menu">메뉴</string>
     <string name="menu_filter">필터</string>
 
@@ -299,5 +293,5 @@
     </plurals>
 
     <string name="developer_mode_title">개발자 모드</string>
-    <string name="developer_mode_summary">CLI 도구를 사용한 LSPosed 설정 및 적용 범위 관리 허용</string>
+    <string name="developer_mode_summary">CLI 도구를 사용한 LSPosed 설정 및 범위 관리 허용</string>
 </resources>

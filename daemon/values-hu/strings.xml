@@ -2,21 +2,58 @@
 <resources>
     <!-- Notification -->
     <string name="list_separator">, </string>
-    <string name="module_is_not_activated_yet">Az Xposed modul még nincs aktiválva</string>
+    <string name="module_is_not_activated_yet">Az Xposed-modul még nincs aktiválva</string>
     <string name="module_is_not_activated_yet_main_user_detailed">%1$s telepítve lett, de még nincs aktiválva.</string>
-    <string name="module_is_not_activated_yet_multi_user_detailed">%1$s telepítve lett a %2$sfelhasználóhoz, de még nincs aktiválva.</string>
-    <string name="xposed_module_updated_notification_title">Xposed modul frissítve</string>
-    <string name="xposed_module_updated_notification_title_system">Xposed modul frissítve, rendszer újraindítás szükséges</string>
-    <string name="xposed_module_updated_notification_content">%s frissítésre került, kérjük, kényszerítse az alkalmazások leállítását és újraindítását a hatókörében.</string>
-    <string name="xposed_module_updated_notification_content_system">%s frissítve lett, mivel a hatókör tartalmazza a System Framework-et, a változások alkalmazásához szükséges újraindítás szükséges.</string>
+    <string name="module_is_not_activated_yet_multi_user_detailed">%1$s telepítve lett a(z) %2$s felhasználóhoz, de még nincs aktiválva.</string>
+    <string name="xposed_module_updated_notification_title">Xposed-modul frissítve</string>
+    <string name="xposed_module_updated_notification_title_system">Xposed-modul frissítve, a rendszer újraindítása szükséges</string>
+    <string name="xposed_module_updated_notification_content">%s frissült; kérjük, kényszerítse le a hatókörében lévő alkalmazásokat, majd indítsa újra őket.</string>
+    <string name="xposed_module_updated_notification_content_system">%s frissült; mivel a hatókör tartalmazza a rendszer-keretrendszert, a változások alkalmazásához újraindítás szükséges.</string>
+    <string name="xposed_module_updated_notification_reload">%1$s frissült, %2$s</string>
+    <string name="xposed_module_updated_notification_reload_none">%s frissült</string>
+    <plurals name="xposed_module_updated_notification_reload_reloaded">
+        <item quantity="one">%d folyamat forró újratöltése megtörtént</item>
+        <item quantity="other">%d folyamat forró újratöltése megtörtént</item>
+    </plurals>
+    <plurals name="xposed_module_updated_notification_reload_reloading">
+        <item quantity="one">%d folyamat forró újratöltése folyamatban</item>
+        <item quantity="other">%d folyamat forró újratöltése folyamatban</item>
+    </plurals>
+    <plurals name="xposed_module_updated_notification_reload_failed">
+        <item quantity="one">%d folyamat forró újratöltése sikertelen</item>
+        <item quantity="other">%d folyamat forró újratöltése sikertelen</item>
+    </plurals>
+    <string name="xposed_module_enabled_notification_title">Xposed-modul engedélyezve</string>
+    <string name="xposed_module_enabled_notification_content">%s engedélyezve lett, koppintson a hatókör beállításához</string>
+    <string name="xposed_module_updated_notification_action_enable">Modul aktiválása</string>
     <string name="module_updated_channel_name">A modul frissítése befejeződött</string>
     <string name="status_channel_name">LSPosed állapot</string>
     <string name="lsposed_running_notification_title">LSPosed betöltve</string>
     <string name="lsposed_running_notification_content">Érintse meg az értesítést a menedzser megnyitásához</string>
-    <string name="xposed_module_request_scope_title">Hatókör kérés</string>
-    <string name="xposed_module_request_scope_content">%1$s a felhasználó %2$s kérésére a %3$s hozzáadására a hatóköréhez.</string>
-    <string name="scope_channel_name">Hatókör kérés</string>
+    <string name="xposed_module_request_scope_title">Hatókörkérés</string>
+    <string name="xposed_module_request_scope_content">%1$s a(z) %2$s felhasználón kéri a(z) %3$s hozzáadását a hatóköréhez.</string>
+    <string name="xposed_module_request_scope_content_batch">%1$s a(z) %2$s felhasználónál kéri a következő alkalmazások hozzáadását a hatóköréhez.</string>
+    <string name="scope_channel_name">Hatókörkérés</string>
     <string name="scope_approve">Jóváhagyás</string>
-    <string name="scope_deny">Megtagadás</string>
-    <string name="nerver_ask_again">Soha ne kérdezz rá</string>
+    <string name="scope_deny">Elutasítás</string>
+    <string name="never_ask_again">Ne kérdezze többé</string>
+    <string name="lsposed_safemode_notification_title">Az LSPosed biztonságos módban van</string>
+    <string name="lsposed_safemode_notification_content">Minden Xposed-modul elérhetetlen a következő újraindításig</string>
+    <string name="safe_mode_disable_all_modules">Minden modul letiltása</string>
+    <string name="lsposed_safemode_cleared_notification_title">Minden modul le van tiltva</string>
+    <plurals name="lsposed_safemode_cleared_notification_content">
+        <item quantity="one">%d modul le van tiltva</item>
+        <item quantity="other">%d modul le van tiltva</item>
+    </plurals>
+    <string name="lsposed_safemode_clear_confirm_notification_title">Megerősíti?</string>
+    <plurals name="lsposed_safemode_clear_confirm_notification_content">
+        <item quantity="one">%d modul le lesz tiltva
+Ez a művelet nem vonható vissza</item>
+        <item quantity="other">%d modul le lesz tiltva
+Ez a művelet nem vonható vissza</item>
+    </plurals>
+    <string name="safe_mode_reboot">Újraindítás</string>
+    <string name="safe_mode_channel_name">Biztonságos mód</string>
+    <string name="safe_mode_open_manager">Menedzser megnyitása</string>
+    <string name="safe_mode_back">Vissza</string>
 </resources>

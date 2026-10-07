@@ -1,23 +1,4 @@
-<!--
-  ~ This file is part of LSPosed.
-  ~
-  ~ LSPosed is free software: you can redistribute it and/or modify
-  ~ it under the terms of the GNU General Public License as published by
-  ~ the Free Software Foundation, either version 3 of the License, or
-  ~ (at your option) any later version.
-  ~
-  ~ LSPosed is distributed in the hope that it will be useful,
-  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
-  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-  ~ GNU General Public License for more details.
-  ~
-  ~ You should have received a copy of the GNU General Public License
-  ~ along with LSPosed.  If not, see <https://www.gnu.org/licenses/>.
-  ~
-  ~ Copyright (C) 2021 LSPosed Contributors
-  -->
-
-<resources xmlns:tools="http://schemas.android.com/tools" tools:keep="@string/xposed_module_updated_notification_*,@string/module_is_not_activated_*">
+<resources>
     <!-- MainActivity -->
     <string name="overview">لمحة عامة</string>
     <string name="Modules">الإضافات</string>
@@ -25,20 +6,25 @@
     <string name="Settings">الإعدادات</string>
     <string name="About">حول التطبيق</string>
     <string name="module_repo">مخزن الإضافات</string>
+    <string name="about_send_bug_report">إرسال تقرير خطأ</string>
+    <string name="bug_report_message">صِف المشكلة بإيجاز</string>
+    <string name="bug_report_exporting_logs">جارٍ تصدير السجلات…</string>
+    <string name="about_join_telegram">الانضمام إلى قناة Telegram</string>
+    <string name="email_address_copied">تم نسخ عنوان البريد الإلكتروني</string>
     <string name="translators" comment="Dear translators, please add your home page here following the format. There can be more than one translator. So feel free to append yourself."><![CDATA[<b>mast3rz3ro</b> (<a href="https://github.com/mast3rz3ro">Github</a>)<br/><b>ZG089</b> (<a href="https://github.com/ZG089">Github</a>)<br/><b>merbah3266</b> (<a href="https://github.com/merbah3266">Github</a>)]]></string>
     <string name="not_installed">ليس مثبتا</string>
     <string name="not_install_summary">LSPosed ليس مثبتا</string>
     <string name="activated">تم تفعيله</string>
     <string name="partial_activated">مفعل جزئيا</string>
-    <string name="system_inject_fail_summary">فشل في حقن System Framework</string>
-    <string name="system_inject_fail"><![CDATA[هذه حالة نادرة وربما يعود سببها إلى <b>Magisk</b> او ربما بسبب بعض الإضافات الرديئة.<br/>يرجى تجربة تعطيل جميع الإضافات في Magisk ماعدا LSPosed او قم بالإبلاغ عن المشكلة عبر ارفاق السجل بالكامل إلى المطورين.]]></string>
+    <string name="system_inject_fail_summary">فشل في حقن إطار عمل النظام</string>
+    <string name="system_inject_fail"><![CDATA[هذه حالة نادرة وقد يكون سببها <b>Magisk</b> أو بعض إضافات Magisk منخفضة الجودة.<br/>يرجى محاولة تعطيل إضافات Magisk بخلاف Zygisk وLSPosed، أو إرسال سجل كامل إلى المطورين.]]></string>
     <string name="system_prop_incorrect_summary">خطأ في خصائص النظام</string>
     <string name="system_prop_incorrect"><![CDATA[تم حذف او التلاعب ببعض خصائص النظام المهمة.<br/>قد يؤدي هذا احيانا إلى نتائج عكسية في الإضافات.]]></string>
     <string name="hyrt_unavailable_summary">فشل حقن HyperOS Runtime</string>
-    <string name="hyrt_unavailable">تم اكتشاف HyperOS Runtime، لكن واجهة Zygisk Next API غير متاحة. لن يتم تحميل الوحدات الأصلية في عمليات HyperOS Runtime.</string>
+    <string name="hyrt_unavailable">تم اكتشاف HyperOS Runtime، لكن واجهة Zygisk Next API غير متاحة. لن يتم تحميل الإضافات الأصلية في عمليات HyperOS Runtime.</string>
     <string name="need_update">يحتاج إلى تحديث</string>
     <string name="developer_warning_title">تلميحات لمطور الإضافة</string>
-    <string name="developer_warning_summary">يرجى تعطيل خاصية "deploy optimization" في Android Studio، او قم باستخدام الإمر `gradlew installDebug` للتثبيت.</string>
+    <string name="developer_warning_summary">يرجى تعطيل خاصية "deploy optimization" في Android Studio، أو قم باستخدام الأمر `gradlew installDebug` للتثبيت. وإلا فلن يتم تحديث ملف APK الخاص بالإضافة.</string>
     <string name="info_manager_package_name">إسم حزمة المدير</string>
     <string name="info_system_version">إصدار النظام</string>
     <string name="info_device">نوع الجهاز</string>
@@ -50,16 +36,17 @@
     <string name="unsupported">غير مدعوم</string>
     <string name="mounted">مُركّب</string>
     <string name="injected">مُحقن</string>
-    <string name="android_version_unsatisfied">نسخة الاندرويد غير مقبولة</string>
+    <string name="android_version_unsatisfied">إصدار Android غير مدعوم</string>
     <string name="crashed">إنهار التطبيق</string>
     <string name="mount_failed">فشل التركيب</string>
     <string name="info_copied">تم النسخ إلى الحافظة</string>
 
     <!-- WelcomeDialog -->
+    <string name="touch_filtered_warning">لأن أحد التطبيقات يحجب الواجهة، لا يمكن للمدير التحقق من استجابتك.</string>
     <string name="parasitic_welcome">مرحبا بك في LSPosed</string>
     <string name="parasitic_welcome_summary">انت تستخدم مدير الطفيليات، والذي يمكن فتحه من خلال لوحة الإشعارات.</string>
     <string name="never_show">لا تعرض مجددا</string>
-    <string name="app_welcome">ينصح باستخدام خاصية الإلتحام</string>
+    <string name="app_welcome">ينصح باستخدام مدير الطفيليات</string>
     <string name="app_welcome_summary">يدعم LSPosed الان خاصية الإلتحام مع النظام مثل الكائن الطفيلي وذلك لتجنب كشفه، يمكنك فتح مدير الطفيليات من خلال لوحة الإشعارات. ينصح بإلغاء تثبيت التطبيق الحالي.</string>
 
     <!-- LogsActivity -->
@@ -87,7 +74,7 @@
     <string name="module_uninstall_message">هل ترغب في إلغاء تثبيت هذه الإضافة؟</string>
     <string name="module_uninstalled">تم إلغاء تثبيت %1$s</string>
     <string name="module_uninstall_failed">فشل في إلغاء التثبيت</string>
-    <string name="module_install_failed">فشل في نسخ الإضافة</string>
+    <string name="module_install_failed">فشل في تثبيت الإضافة</string>
     <string name="install_to_user">تثبيت في المستخدم %s</string>
     <string name="expand">توسيع</string>
     <string name="collapse">طي</string>
@@ -95,8 +82,9 @@
     <string name="reset_scope_request_setting_done">تم إعادة تعيين إعداد المجال المطلوب</string>
 
     <!-- AppListActivity -->
+    <string name="hide_non_system_overlay_failed_no_permission">تعذّر إخفاء النافذة العائمة غير النظامية، يرجى تحديث المدير.</string>
     <string name="compile_speed">التحسين مجددا</string>
-    <string name="compile_speed_msg">جاري التحسين...</string>
+    <string name="compile_speed_msg">جاري التحسين…</string>
     <string name="compile_done">اكتملت عملية التحسين</string>
     <string name="app_launch">تشغيل التطبيق</string>
     <string name="compile_failed">فشلت عملية التحسين: القيمة المرجعة فارغة</string>
@@ -115,11 +103,13 @@
     <string name="app_version">الإصدار: %1$s</string>
     <string name="use_recommended">الموصى به</string>
     <string name="use_recommended_message">هل تريد إختيار التطبيقات الموصى بها؟</string>
+    <string name="deselect_all">إلغاء اختيار الكل</string>
+    <string name="deselect_all_message">هل تريد إلغاء اختيار جميع التطبيقات المحددة؟</string>
     <string name="module_is_not_activated_yet">إضافة Xposed لم يتم تفعيلها بعد</string>
-    <string name="requested_by_module">الموصى به</string>
+    <string name="requested_by_module">موصى به من الإضافة</string>
     <string name="update_available">يتوفر تحديث: %1$s</string>
-    <string name="android_framework">النظام</string>
-    <string name="menu_backup">إنشاء</string>
+    <string name="android_framework">إطار عمل النظام</string>
+    <string name="menu_backup">نسخ احتياطي</string>
     <string name="menu_restore">استعادة</string>
     <string name="force_stop">إيقاف إجباري</string>
     <string name="force_stop_dlg_title">هل تريد عمل إيقاف إجباري؟</string>
@@ -140,16 +130,19 @@
     <string name="settings_backup_and_restore">النسخة الاحتياطية والاستعادة</string>
     <string name="settings_backup_summary">حفظ قائمة الإضافات وقائمة إعدادات المجال</string>
     <string name="settings_restore_summary">استعادة قائمة الإضافات وقائمة إعدادات المجال</string>
-    <string name="settings_backup">إنشاء</string>
+    <string name="settings_backup">نسخ احتياطي</string>
     <string name="settings_backup_failed2">فشل في إنشاء نسخة احتياطية:\n%s</string>
-    <string name="enable_documentui">يرجى تفعيل تطبيق DocumentUI</string>
+    <string name="enable_documentui">يرجى تفعيل DocumentsUI</string>
     <string name="settings_restore">استعادة</string>
     <string name="settings_restore_failed2">فشل في استعادة:\n%s</string>
     <string name="group_network">الشبكة</string>
     <string name="dns_over_http">إرسال طلبات DNS خلال HTTPS</string>
-    <string name="dns_over_http_summary">حل بديل لتجنب DNS poisoning من بعض المزودين</string>
+    <string name="dns_over_http_summary">حل بديل لتجنب تسميم DNS من بعض المزودين</string>
+    <string name="settings_repo_cdn">CDN مخزن الإضافات</string>
+    <string name="repo_cdn_default">افتراضي</string>
+    <string name="repo_cdn_backup">نسخ احتياطي</string>
     <string name="settings_show_hidden_icon_apps_enabled">إجبار التطبيقات على عرض أيقونة التشغيل</string>
-    <string name="settings_show_hidden_icon_apps_enabled_summary">ابتداءً من اندرويد 10، لم يعد يسمح للتطبيقات بإخفاء أيقونة تشغيلها. لتعطيل هذه الميزة قم بإلغاء تفعيل هذا الخيار. </string>
+    <string name="settings_show_hidden_icon_apps_enabled_summary">ابتداءً من اندرويد 10، لم يعد يسمح للتطبيقات بإخفاء أيقونة تشغيلها. لتعطيل هذه الميزة قم بإلغاء تفعيل هذا الخيار.</string>
     <string name="settings_group_system">النظام</string>
     <string name="settings_language">اللغة</string>
     <string name="settings_translation_contributors">المساهمون في هذه الترجمة</string>
@@ -157,14 +150,18 @@
     <string name="settings_translation_summary">قم بمساعدتنا في ترجمة %s إلى لغتك</string>
     <string name="settings_enable_status_notification">إشعار الحالة</string>
     <string name="settings_enable_status_notification_summary">إظهار إشعار يسمح لك بفتح مدير الطفيليات</string>
-    <string name="settings_update_channel">قناة التحديث</string>
+    <string name="settings_update_channel">قناة تحديث الإضافات</string>
     <string name="update_channel_stable">مستقر</string>
     <string name="update_channel_beta">تجريبي</string>
     <string name="update_channel_nightly">النسخة الليلية</string>
-    <string name="settings_xposed_api_call_protection">حماية ندائات Xposed API</string>
-    <string name="settings_xposed_api_call_protection_summary">حظر كود الإضافة الذي تم تحميله ديناميكيا لإستخدام Xposed API، قد يسبب هذا الخيار بتوقف بعض الإضافات ولكنه مفيد للحماية</string>
+    <string name="settings_xposed_api_call_protection">حماية نداءات Xposed API</string>
+    <string name="settings_xposed_api_call_protection_summary">حظر كود الإضافة الذي تم تحميله ديناميكيا من استخدام Xposed API، قد يؤدي هذا الخيار إلى توقف بعض الإضافات ولكنه مفيد للحماية</string>
 
     <!-- Module Repo -->
+    <string name="settings_enable_swipe_dismiss">إيماءة الرجوع بالسحب</string>
+    <string name="settings_enable_swipe_dismiss_summary">اسحب من حافة الشاشة للعودة إلى الصفحة السابقة.</string>
+    <string name="settings_tapjacking_protection">التخفيف من اختطاف النقر</string>
+    <string name="settings_tapjacking_protection_summary">يحجب اللمسات عند تغطية الواجهة لمنع هجمات اختطاف النقر</string>
     <string name="module_readme">إقرأني</string>
     <string name="module_releases">الإصدارات</string>
     <string name="module_information">معلومات</string>
@@ -173,12 +170,17 @@
     <string name="module_information_collaborators">المساهمون</string>
     <string name="module_release_view_assets">الملحقات</string>
     <string name="menu_open_in_browser">فتح في المتصفح</string>
+    <string name="menu_share">مشاركة</string>
     <string name="module_release_load_more">عرض إصدار أقدم</string>
     <string name="module_release_no_more">لا يوجد إصدار اخر</string>
     <string name="sort_upgradable_first">عرض القابل للترقية اولا</string>
     <string name="installed">تم تثبيته</string>
     <plurals name="module_release_assets_download_count">
+        <item quantity="zero">لا توجد تحميلات</item>
         <item quantity="one">%d تحميل</item>
+        <item quantity="two">%d تحميلان</item>
+        <item quantity="few">%d تحميلات</item>
+        <item quantity="many">%d تحميلًا</item>
         <item quantity="other">%d تحميلات</item>
     </plurals>
 
@@ -187,15 +189,15 @@
     <string name="color_pink">وردي</string>
     <string name="color_purple">بنفسجي</string>
     <string name="color_deep_purple">بنفسجي غامق</string>
-    <string name="color_indigo">نيلي (ازرق بنفسجي)</string>
+    <string name="color_indigo">نيلي</string>
     <string name="color_blue">أزرق</string>
     <string name="color_light_blue">أزرق فاتح</string>
-    <string name="color_cyan">سيان (سماوي)</string>
-    <string name="color_teal">تيلي (اخضر مزرق)</string>
+    <string name="color_cyan">سيان</string>
+    <string name="color_teal">تيلي</string>
     <string name="color_green">أخضر</string>
     <string name="color_lime">ليمي</string>
     <string name="color_yellow">أصفر</string>
-    <string name="color_amber">عنبر (أصفر غامق)</string>
+    <string name="color_amber">عنبر</string>
     <string name="color_orange">برتقالي</string>
     <string name="color_brown">بني</string>
     <string name="color_blue_grey">رمادي ازرق</string>
@@ -205,26 +207,40 @@
     <string name="disable_all_modules">تعطيل جميع الإضافات</string>
     <string name="confirm_disable_all_modules">تأكيد؟</string>
     <plurals name="message_disable_all_modules">
+        <item quantity="zero">لن يتم تعطيل أي إضافة.\nلا يمكن التراجع عن هذه العملية.</item>
         <item quantity="one">%d إضافة سوف يتم تعطيلها.\nلا يمكن التراجع عن هذه العملية.</item>
+        <item quantity="two">%d إضافتان سوف يتم تعطيلهما.\nلا يمكن التراجع عن هذه العملية.</item>
+        <item quantity="few">%d إضافات سوف يتم تعطيلها.\nلا يمكن التراجع عن هذه العملية.</item>
+        <item quantity="many">%d إضافة سوف يتم تعطيلها.\nلا يمكن التراجع عن هذه العملية.</item>
         <item quantity="other">%d إضافات سوف يتم تعطيلها.\nلا يمكن التراجع عن هذه العملية.</item>
     </plurals>
     <string name="disable_success_title">تم بنجاح</string>
     <string name="hook_debug_title">تنقيح الهوك</string>
     <string name="debugging_title">وضع التنقيح</string>
+    <string name="safe_mode_disabled_title">تعطيل الوضع الآمن</string>
+    <string name="safe_mode_disabled_summary">منع الدخول إلى الوضع الآمن عند توقف مكونات النظام بشكل متكرر</string>
     <string name="hook_debug_summary">يسمح بحفظ معلومات تنقيح الهوك للعمليات التي تم عمل هوك لها، قد يؤثر هذا على اداء الجهاز.</string>
     <string name="dump_hook_debug_title">حفظ معلومات تنقيح الهوك</string>
     <string name="dump_hook_debug_summary">حفظ معلومات تنقيح الهوك إلى /data/adb/lspd/log/</string>
+    <string name="dump_hook_success">تم الحفظ إلى %s</string>
+    <string name="dump_hook_failed">فشل الحفظ</string>
+    <string name="log_to_daemon_title">إخراج السجلات إلى البرنامج الخفي</string>
+    <string name="log_to_daemon_summary">هذا يمنع التطبيقات من قراءة سجلات الإضافات، لكنه قد يؤثر على الأداء</string>
     <plurals name="disable_success_message">
+        <item quantity="zero">لم يتم تعطيل أي إضافة</item>
         <item quantity="one">تم تعطيل %d إضافة</item>
+        <item quantity="two">تم تعطيل %d إضافتين</item>
+        <item quantity="few">تم تعطيل %d إضافات</item>
+        <item quantity="many">تم تعطيل %d إضافة</item>
         <item quantity="other">تم تعطيل %d إضافات</item>
     </plurals>
     <string name="logs_preparing">جاري التحضير للسجل، الرجاء الانتظار</string>
     <string name="logs_prepare_failed">فشل في التحضير:\n%s</string>
     <string name="module_scope_list_static_scope">الإضافة أعلنت مجالًا ثابتًا</string>
     
-    <string name="settings_invalidate_inline_hooks">إبطال الـ inline hooks</string>
+    <string name="settings_invalidate_inline_hooks">إبطال الـ hooks المدمجة</string>
     <string name="settings_invalidate_inline_hooks_summary">تنظيف ملف libart.so للتطبيقات المحددة. هذا قد يسبب أعطالًا عشوائية وانهيارات. استخدم فقط عند عدم القدرة على فتح تطبيقات معينة.</string>
-    <string name="failed_to_save_invalidate_inline_hooks_list">فشل في حفظ قائمة إبطال الـ inline hooks</string>
+    <string name="failed_to_save_invalidate_inline_hooks_list">فشل في حفظ قائمة إبطال الـ hooks المدمجة</string>
 
     <string name="settings_enable_predictive_back">إيماءة الرجوع التنبؤية</string>
     <string name="settings_enable_predictive_back_summary">تفعيل دعم إيماءات الرجوع التنبؤية.</string>
@@ -236,6 +252,8 @@
     <string name="unknown_asset">ملحق غير معروف</string>
     <string name="download_asset">تحميل</string>
     <string name="nav_back">رجوع</string>
+    <string name="nav_rail_expand">توسيع شريط التنقل</string>
+    <string name="nav_rail_collapse">طي شريط التنقل</string>
     <string name="menu">القائمة</string>
     <string name="menu_filter">تصفية</string>
     
@@ -244,6 +262,8 @@
     <string name="menu_raw_view">عرض خام</string>
     
     <!-- Theme Mode -->
+    <string name="settings_ui">نمط الواجهة</string>
+    <string name="settings_ui_summary">اختر نمط الواجهة</string>
     <string name="settings_theme">السمة</string>
     <string name="settings_theme_summary">اختر وضع السمة للتطبيق</string>
     <string name="settings_theme_mode_system">اتّباع النظام</string>
@@ -255,6 +275,12 @@
     <string name="settings_key_color">لون التمييز</string>
     <string name="settings_key_color_summary">تخصيص اللون الأساسي عند استخدام Monet</string>
     <string name="settings_key_color_default">افتراضي</string>
+    <string name="settings_theme_entry">إعدادات السمة</string>
+    <string name="settings_theme_entry_summary">وضع السمة ولون التمييز ونمط لوحة الألوان والمزيد</string>
+    <string name="settings_palette_style">نمط لوحة الألوان</string>
+    <string name="settings_palette_style_summary">الخوارزمية اللونية المستخدمة لاشتقاق لوحة ألوان Material 3</string>
+    <string name="settings_color_spec">مواصفات الألوان</string>
+    <string name="settings_color_spec_summary">إصدار مواصفات الألوان في Material 3</string>
     <string name="settings_page_scale">مقياس الصفحة</string>
     <string name="settings_page_scale_summary">تعديل مقياس العرض العام</string>
     <string name="settings_enable_blur">تمويه</string>
@@ -263,4 +289,36 @@
     
     <string name="developer_mode_title">وضع المطوّر</string>
     <string name="developer_mode_summary">السماح بإدارة إعدادات LSPosed والنطاقات باستخدام أداة CLI</string>
+    <string name="settings_floating_bottom_bar_summary">استخدام شريط سفلي عائم بنمط مشابه لـ Apple</string>
+    <string name="settings_enable_glass">الزجاج السائل</string>
+    <string name="settings_enable_glass_summary">تفعيل تأثير الزجاج السائل للشريط السفلي العائم</string>
+    <string name="refresh_pulling">اسحب لأسفل للتحديث</string>
+    <string name="refresh_release">أفلت للتحديث</string>
+    <string name="refresh_refresh">جارٍ التحديث…</string>
+    <string name="refresh_complete">تم التحديث بنجاح</string>
+    <string name="time_just_now">للتو</string>
+    <plurals name="time_minutes_ago">
+        <item quantity="zero">قبل %d دقيقة</item>
+        <item quantity="one">قبل %d دقيقة</item>
+        <item quantity="two">قبل %d دقيقتين</item>
+        <item quantity="few">قبل %d دقائق</item>
+        <item quantity="many">قبل %d دقيقة</item>
+        <item quantity="other">قبل %d دقيقة</item>
+    </plurals>
+    <plurals name="time_hours_ago">
+        <item quantity="zero">قبل %d ساعة</item>
+        <item quantity="one">قبل %d ساعة</item>
+        <item quantity="two">قبل %d ساعتين</item>
+        <item quantity="few">قبل %d ساعات</item>
+        <item quantity="many">قبل %d ساعة</item>
+        <item quantity="other">قبل %d ساعة</item>
+    </plurals>
+    <plurals name="time_days_ago">
+        <item quantity="zero">قبل %d يوم</item>
+        <item quantity="one">قبل %d يوم</item>
+        <item quantity="two">قبل %d يومين</item>
+        <item quantity="few">قبل %d أيام</item>
+        <item quantity="many">قبل %d يوم</item>
+        <item quantity="other">قبل %d يوم</item>
+    </plurals>
 </resources>

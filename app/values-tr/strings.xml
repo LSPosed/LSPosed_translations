@@ -1,32 +1,15 @@
-<!--
-  ~ This file is part of LSPosed.
-  ~
-  ~ LSPosed is free software: you can redistribute it and/or modify
-  ~ it under the terms of the GNU General Public License as published by
-  ~ the Free Software Foundation, either version 3 of the License, or
-  ~ (at your option) any later version.
-  ~
-  ~ LSPosed is distributed in the hope that it will be useful,
-  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
-  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-  ~ GNU General Public License for more details.
-  ~
-  ~ You should have received a copy of the GNU General Public License
-  ~ along with LSPosed.  If not, see <https://www.gnu.org/licenses/>.
-  ~
-  ~ Copyright (C) 2026 LSPosed Contributors
-  -->
-
-<resources xmlns:tools="http://schemas.android.com/tools" tools:keep="@string/xposed_module_updated_notification_*,@string/module_is_not_activated_*">
+<resources>
 
     <!-- MainActivity -->
-    <string name="overview">Genel bakış</string>
+    <string name="overview">Genel Bakış</string>
     <string name="Modules">Modüller</string>
     <string name="Logs">Günlükler</string>
     <string name="Settings">Ayarlar</string>
     <string name="About">Hakkında</string>
     <string name="module_repo">Depo</string>
     <string name="about_send_bug_report">Hata raporu gönder</string>
+    <string name="bug_report_message">Sorunu kısaca açıklayın</string>
+    <string name="bug_report_exporting_logs">Günlükler dışa aktarılıyor…</string>
     <string name="about_join_telegram">Telegram kanalına katıl</string>
     <string name="email_address_copied">E-posta adresi kopyalandı</string>
     <string name="translators" comment="Dear translators, please add your home page here following the format. There can be more than one translator. So feel free to append yourself.">null</string>
@@ -36,7 +19,7 @@
     <string name="activated">Etkinleştirildi</string>
     <string name="partial_activated">Kısmen etkinleştirildi</string>
     <string name="system_inject_fail_summary">Sistem Çerçevesi enjeksiyonu başarısız oldu</string>
-    <string name="system_inject_fail"><![CDATA[Bu nadiren yaşanır ve <b>Magisk</b> veya düşük kaliteli modüller yüzünden olabilir.<br/>Lütfen Zygisk ve LSPosed dışındaki tüm modülleri devre dışı bırakmayı deneyin veya geliştiricilere tam bir hata kaydı gönderin.]]></string>
+    <string name="system_inject_fail"><![CDATA[Bu durum nadiren görülür ve <b>Magisk</b> veya düşük kaliteli bazı Magisk modüllerinden kaynaklanabilir.<br/>Lütfen Zygisk ve LSPosed dışındaki Magisk modüllerini devre dışı bırakmayı deneyin veya geliştiricilere tam bir günlük gönderin.]]></string>
     <string name="system_prop_incorrect_summary">Sistem özelliği hatalı</string>
     <string name="system_prop_incorrect"><![CDATA[Bazı gerekli sistem özellikleri silindi veya değiştirildi.<br/>Modüller zaman zaman çalışmayabilir.]]></string>
     <string name="hyrt_unavailable_summary">HyperOS Runtime enjeksiyonu başarısız oldu</string>
@@ -47,19 +30,19 @@
     <string name="info_manager_package_name">Yönetici paket adı</string>
     <string name="info_system_version">Sistem sürümü</string>
     <string name="info_device">Cihaz</string>
-    <string name="info_system_abi">Sistem Mimarisi</string>
-    <string name="info_dex2oat_wrapper">Dex optimizasyonu</string>
+    <string name="info_system_abi">Sistem ABI</string>
+    <string name="info_dex2oat_wrapper">Dex Optimizer sarmalayıcısı</string>
     <string name="enabled">Etkin</string>
     <string name="not_enabled">Etkin değil</string>
     <string name="supported">Destekleniyor</string>
     <string name="unsupported">Desteklenmiyor</string>
     <string name="mounted">Bağlandı</string>
     <string name="injected">Enjekte edildi</string>
-    <string name="android_version_unsatisfied">Android sürümü yetersiz</string>
+    <string name="android_version_unsatisfied">Android sürümü desteklenmiyor</string>
     <string name="crashed">Çöktü</string>
     <string name="mount_failed">Bağlama başarısız</string>
     <string name="info_copied">Panoya kopyalandı</string>
-    <string name="touch_filtered_warning">Bir uygulama arayüzü engellediği için Yönetici yanıtınızı doğrulayamıyor.</string>
+    <string name="touch_filtered_warning">Bir uygulama arayüzü engellediği için yönetici yanıtınızı doğrulayamıyor.</string>
     
     <!-- WelcomeDialog -->
     <string name="parasitic_welcome">LSPosed\'a hoş geldiniz</string>
@@ -88,20 +71,20 @@
     <string name="no_min_version_specified">Bu modül, ihtiyaç duyduğu Xposed sürümünü belirtmiyor.</string>
     <string name="warning_min_version_too_low">Bu modül Xposed %1$d sürümü için oluşturulmuş; ancak %2$d sürümündeki uyumsuz değişiklikler nedeniyle devre dışı bırakıldı.</string>
     <string name="warning_deprecated_feature">Bu modül, desteği sonlandırılmış ve yakında kaldırılacak bir özellik kullanıyor. Lütfen yazarla iletişime geçin veya bir alternatifi değerlendirin.</string>
-    <string name="warning_installed_on_external_storage">Bu modül yüklenemiyor çünkü SD kartta yüklü, lütfen dahili depolama birimine taşıyın veya SD kart erişimine izin verin</string>
+    <string name="warning_installed_on_external_storage">Bu modül yüklenemiyor çünkü SD kartta yüklü, lütfen dahili depolamaya taşıyın</string>
     <string name="module_uninstall">Kaldır</string>
     <string name="module_settings">Modül ayarları</string>
-    <string name="view_in_repo">Repo\'da görüntüle</string>
+    <string name="view_in_repo">Depoda görüntüle</string>
     <string name="module_uninstall_message">Bu modülü kaldırmak istiyor musunuz?</string>
     <string name="module_uninstalled">%1$s kaldırıldı</string>
     <string name="module_uninstall_failed">Kaldırma başarısız</string>
     <string name="module_install_failed">Modül eklenemedi</string>
-    <string name="install_to_user">Kullanıcıya yükle %s</string>
+    <string name="install_to_user">%s kullanıcısına yükle</string>
     <string name="expand">genişlet</string>
     <string name="collapse">daralt</string>
     <string name="reset_scope_request_setting">Kapsam isteği ayarını sıfırla</string>
     <string name="reset_scope_request_setting_done">Kapsam isteği ayarı sıfırlandı</string>
-    <string name="hide_non_system_overlay_failed_no_permission">Sistem dışı üstte gösterme gizlenemedi, yöneticiyi güncelleyin.</string>
+    <string name="hide_non_system_overlay_failed_no_permission">Sistem dışı üst katman gizlenemedi, lütfen yöneticiyi güncelleyin.</string>
 
     <!-- AppListActivity -->
     <string name="compile_speed">Yeniden optimize et</string>
@@ -110,8 +93,8 @@
     <string name="app_launch">Başlat</string>
     <string name="compile_failed">Optimizasyon başarısız oldu: dönüş değeri boş</string>
     <string name="compile_failed_with_info">Optimizasyon başarısız oldu: </string>
-    <string name="sort_by_name">Uygulama Adı</string>
-    <string name="sort_by_package_name">Paket ismi</string>
+    <string name="sort_by_name">Uygulama adı</string>
+    <string name="sort_by_package_name">Paket adı</string>
     <string name="sort_by_install_time">Yükleme zamanı</string>
     <string name="sort_by_update_time">Güncelleme zamanı</string>
     <string name="sort_reverse">Ters</string>
@@ -125,13 +108,15 @@
     <string name="app_version">Sürüm: %1$s</string>
     <string name="use_recommended">Önerilen</string>
     <string name="use_recommended_message">Önerilen uygulamalar seçilsin mi?</string>
+    <string name="deselect_all">Tüm seçimleri kaldır</string>
+    <string name="deselect_all_message">Seçili tüm uygulamaların seçimi kaldırılsın mı?</string>
     <string name="module_is_not_activated_yet">Xposed modülü henüz etkinleştirilmedi</string>
-    <string name="requested_by_module">Önerilen</string>
-    <string name="update_available">Güncelleme uygun: %1$s</string>
+    <string name="requested_by_module">Modül önerisi</string>
+    <string name="update_available">Güncelleme mevcut: %1$s</string>
     <string name="android_framework">Sistem Çerçevesi</string>
-    <string name="menu_backup">Yedekleme</string>
+    <string name="menu_backup">Yedek</string>
     <string name="menu_restore">Geri yükle</string>
-    <string name="force_stop">Durmaya zorla</string>
+    <string name="force_stop">Zorla durdur</string>
     <string name="force_stop_dlg_title">Zorla durdurulsun mu?</string>
     <string name="force_stop_dlg_text">Bir uygulamayı durdurmaya zorlarsanız, hatalı davranabilir.</string>
     <string name="reboot_required">Bu değişikliğin geçerli olması için yeniden başlatma gerekiyor</string>
@@ -152,15 +137,15 @@
     <string name="settings_restore_summary">Modül ve kapsam listelerini geri yükle.</string>
     <string name="settings_backup">Yedek</string>
     <string name="settings_backup_failed2">Yedekleme başarısız oldu:\n%s</string>
-    <string name="enable_documentui">Lütfen DocumentUI\'yi etkinleştirin</string>
+    <string name="enable_documentui">Lütfen DocumentsUI\'yi etkinleştirin</string>
     <string name="settings_restore">Geri yükle</string>
     <string name="settings_restore_failed2">Geri yüklenemedi:\n%s</string>
     <string name="group_network">Ağ</string>
     <string name="dns_over_http">HTTPS üzerinden DNS</string>
     <string name="dns_over_http_summary">Bazı ülkelerde DNS zehirlenmesi için geçici çözümdür</string>
-    <string name="settings_repo_cdn">Modül Depo CDN\'si</string>
+    <string name="settings_repo_cdn">Modül deposu CDN\'si</string>
     <string name="repo_cdn_default">Varsayılan</string>
-    <string name="repo_cdn_backup">Yedekle</string>
+    <string name="repo_cdn_backup">Yedek</string>
     <string name="settings_show_hidden_icon_apps_enabled">Uygulamaları başlatıcı simgelerini göstermeye zorla</string>
     <string name="settings_show_hidden_icon_apps_enabled_summary">Android 10\'dan sonra, uygulamaların başlatıcı simgelerini gizlemelerine izin verilmez. Bu sistem özelliğini devre dışı bırakmak için düğmeyi kapatın.</string>
     <string name="settings_group_system">Sistem</string>
@@ -170,10 +155,10 @@
     <string name="settings_translation_summary">%s yazılımını çevirmemize yardım edin</string>
     <string name="settings_enable_status_notification">Durum Bildirimi</string>
     <string name="settings_enable_status_notification_summary">Parazit yöneticiyi açabilmek için bir bildirim göster</string>
-    <string name="settings_update_channel">Güncelleme kanalı</string>
+    <string name="settings_update_channel">Modül güncelleme kanalı</string>
     <string name="update_channel_stable">Stabil</string>
     <string name="update_channel_beta">Beta</string>
-    <string name="update_channel_nightly">Gecelik</string>
+    <string name="update_channel_nightly">Gecelik yapı</string>
     <string name="settings_xposed_api_call_protection">Xposed API çağrı koruması</string>
     <string name="settings_xposed_api_call_protection_summary">Xposed API kullanmak için dinamik olarak yüklenen modül kodunu engelleyin, bu bazı modülleri bozabilir ancak güvenliğe faydalı da olabilir</string>
     <string name="settings_invalidate_inline_hooks">Satır içi kancaları (inline hooks) geçersiz kıl</string>
@@ -181,6 +166,8 @@
     <string name="failed_to_save_invalidate_inline_hooks_list">Satır içi kancaları geçersiz kılma listesi kaydedilemedi</string>
     <string name="settings_enable_predictive_back">Tahmini geri hareketi</string>
     <string name="settings_enable_predictive_back_summary">Tahmini geri hareketi (predictive back gesture) desteğini etkinleştirir.</string>
+    <string name="settings_enable_swipe_dismiss">Kaydırmalı geri hareketi</string>
+    <string name="settings_enable_swipe_dismiss_summary">Önceki sayfaya dönmek için ekranın kenarından kaydırın.</string>
     <string name="settings_tapjacking_protection">Dokunma hırsızlığı (Tapjacking) koruması</string>
     <string name="settings_tapjacking_protection_summary">Arayüz başka bir uygulama tarafından perdelendiğinde dokunmaları engeller; sahte dokunma saldırılarını önlemeye yardımcı olur.</string>
 
@@ -197,7 +184,7 @@
     <string name="module_release_load_more">Eski sürümleri göster</string>
     <string name="module_release_no_more">Daha fazla sürüm yok</string>
     <string name="sort_upgradable_first">Önce yükseltilebilir</string>
-    <string name="installed">Kurulmuş</string>
+    <string name="installed">Yüklü</string>
     <plurals name="module_release_assets_download_count">
         <item quantity="one">%d indirme</item>
         <item quantity="other">%d indirme</item>
@@ -210,7 +197,7 @@
     <string name="color_indigo">Çivit</string>
     <string name="color_blue">Mavi</string>
     <string name="color_light_blue">Açık mavi</string>
-    <string name="color_cyan">Cam göbeği</string>
+    <string name="color_cyan">Camgöbeği</string>
     <string name="color_teal">Turkuaz</string>
     <string name="color_green">Yeşil</string>
     <string name="color_lime">Limon</string>
@@ -220,9 +207,9 @@
     <string name="color_brown">Kahverengi</string>
     <string name="color_blue_grey">Mavi gri</string>
 
-    <string name="safe_mode">Güvenli Mod</string>
+    <string name="safe_mode">Güvenli mod</string>
     <string name="safe_mode_summary">LSPosed güvenli modda</string>
-    <string name="safe_mode_summary2">Tüm Xposed modülleri, bir sonraki yeniden başlatmaya kadar devre dışı bırakıldı. \nBazı modüller sistemin çökmesine sebep oldu. Lütfen bu modülleri bulup devre dışı bırakın ve modülün geliştiricilerine geri bildirim gönderin.</string>
+    <string name="safe_mode_summary2">Tüm Xposed modülleri, bir sonraki yeniden başlatmaya kadar kullanılamaz. \nBazı modüller sistemin çökmesine sebep oldu. Lütfen bu modülleri bulup devre dışı bırakın ve modülün geliştiricilerine geri bildirim gönderin.</string>
     <string name="disable_all_modules">Tüm modülleri devre dışı bırak</string>
     <string name="confirm_disable_all_modules">Onaylıyor musunuz?</string>
     <plurals name="message_disable_all_modules">
@@ -232,7 +219,9 @@
     <string name="disable_success_title">Başarılı</string>
     <string name="hook_debug_title">Kanca hata ayıklama</string>
     <string name="debugging_title">Hata ayıklama</string>
-    <string name="hook_debug_summary">Kanca(hook) hata ayıklama bilgilerinin kaydına izin ver (performansı etkileyebilir)</string>
+    <string name="safe_mode_disabled_title">Güvenli modu devre dışı bırak</string>
+    <string name="safe_mode_disabled_summary">Sistem bileşenleri art arda durduğunda güvenli moda girilmesini önler</string>
+    <string name="hook_debug_summary">Kancalanan işlemlerin kanca(hook) hata ayıklama bilgilerinin kaydına izin ver (performansı etkileyebilir)</string>
     <string name="dump_hook_debug_title">Kanca(hook) hata ayıklama bilgilerini kaydet</string>
     <string name="dump_hook_debug_summary">Kanca hata ayıklama bilgilerini /data/adb/lspd/log klasörüne kaydet</string>
     <string name="dump_hook_success">Şuraya kaydedildi: %s</string>
@@ -266,20 +255,20 @@
     <string name="settings_theme">Tema</string>
     <string name="settings_theme_summary">Uygulama tema modunu seçin</string>
     <string name="settings_theme_mode_system">Sisteme uyarla</string>
-    <string name="settings_theme_mode_light">Aydınlık</string>
-    <string name="settings_theme_mode_dark">Karanlık</string>
+    <string name="settings_theme_mode_light">Açık</string>
+    <string name="settings_theme_mode_dark">Koyu</string>
     <string name="settings_theme_mode_monet_system">Monet (Sisteme uyarla)</string>
-    <string name="settings_theme_mode_monet_light">Monet (Aydınlık)</string>
-    <string name="settings_theme_mode_monet_dark">Monet (Karanlık)</string>
+    <string name="settings_theme_mode_monet_light">Monet (Açık)</string>
+    <string name="settings_theme_mode_monet_dark">Monet (Koyu)</string>
     <string name="settings_key_color">Vurgu rengi</string>
     <string name="settings_key_color_summary">Monet için ana rengi belirle</string>
     <string name="settings_key_color_default">Varsayılan</string>
     <string name="settings_theme_entry">Tema ayarları</string>
     <string name="settings_theme_entry_summary">Tema modu, vurgu rengi, palet stili ve daha fazlası</string>
     <string name="settings_palette_style">Palet stili</string>
-    <string name="settings_palette_style_summary">Materyal 3 paletini türetmek için tonlama algoritması kullanıldı</string>
+    <string name="settings_palette_style_summary">Material 3 paletini türetmek için tonlama algoritması kullanıldı</string>
     <string name="settings_color_spec">Renk özellikleri</string>
-    <string name="settings_color_spec_summary">Materyal 3 renk belirtimi sürümü</string>
+    <string name="settings_color_spec_summary">Material 3 renk belirtimi sürümü</string>
     <string name="settings_page_scale">Sayfa ölçeği</string>
     <string name="settings_page_scale_summary">Genel ekran ölçeğini ayarla</string>
     <string name="settings_enable_blur">Bulanıklık</string>

@@ -1,63 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--
-  ~ This file is part of LSPosed.
-  ~
-  ~ LSPosed is free software: you can redistribute it and/or modify
-  ~ it under the terms of the GNU General Public License as published by
-  ~ the Free Software Foundation, either version 3 of the License, or
-  ~ (at your option) any later version.
-  ~
-  ~ LSPosed is distributed in the hope that it will be useful,
-  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
-  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-  ~ GNU General Public License for more details.
-  ~
-  ~ You should have received a copy of the GNU General Public License
-  ~ along with LSPosed.  If not, see <https://www.gnu.org/licenses/>.
-  ~
-  ~ Copyright (C) 2021 LSPosed Contributors
-  -->
-<resources xmlns:tools="http://schemas.android.com/tools" tools:keep="@string/xposed_module_updated_notification_*,@string/module_is_not_activated_*">
+<resources>
     <!-- MainActivity -->
-    <string name="overview">Kodu</string>
+    <string name="overview">Ülevaade</string>
     <string name="Modules">Moodulid</string>
     <string name="Logs">Logid</string>
     <string name="Settings">Seaded</string>
-    <string name="About">Kohta</string>
-    <string name="module_repo">Repo</string>
+    <string name="About">Teave</string>
+    <string name="module_repo">Hoidla</string>
+    <string name="about_send_bug_report">Saada veateade</string>
+    <string name="bug_report_message">Kirjeldage lühidalt probleemi</string>
+    <string name="bug_report_exporting_logs">Logide eksportimine…</string>
+    <string name="about_join_telegram">Liituge Telegrami kanaliga</string>
+    <string name="email_address_copied">E-posti aadress on kopeeritud</string>
     <string name="translators" comment="Dear translators, please add your home page here following the format. There can be more than one translator. So feel free to append yourself.">Subaru Pan</string>
-    <string name="not_installed">Puudub</string>
+    <string name="not_installed">Pole installitud</string>
     <string name="not_install_summary">LSPosed ei ole installitud</string>
     <string name="activated">Aktiveeritud</string>
     <string name="partial_activated">Osaliselt aktiveeritud</string>
-    <string name="system_inject_fail_summary">System Frameworki süstimine ebaõnnestus</string>
-    <string name="system_inject_fail"><![CDATA[Seda esineb harva ja selle põhjuseks võib olla <b>Magisk</b> või mõned madala kvaliteediga Magisk-moodulid.<br/>Palun proovige lülitada välja Magisk\'i moodulid peale Zygisk ja LSPosed või esitage täielik logi arendajatele.]]></string>
-    <string name="system_prop_incorrect_summary">Süsteemi tugi vale</string>
+    <string name="system_inject_fail_summary">Süsteemi raamistiku sisestamine ebaõnnestus</string>
+    <string name="system_inject_fail"><![CDATA[Seda esineb harva ja selle põhjuseks võib olla <b>Magisk</b> või mõned madala kvaliteediga Magisk-moodulid.<br/>Palun proovige välja lülitada muud Magisk-moodulid peale Zygiski ja LSPosedi või esitada arendajatele täielik logi.]]></string>
+    <string name="system_prop_incorrect_summary">Süsteemiomadus on vale</string>
     <string name="system_prop_incorrect"><![CDATA[Mõned vajalikud süsteemiomadused kustutatud või muudetud.<br/>Moodulid võivad aeg-ajalt kehtetuks muutuda.]]></string>
-    <string name="hyrt_unavailable_summary">HyperOS Runtime’i süstimine ebaõnnestus</string>
+    <string name="hyrt_unavailable_summary">HyperOS Runtime’i sisestamine ebaõnnestus</string>
     <string name="hyrt_unavailable">HyperOS Runtime tuvastati, kuid Zygisk Next API pole saadaval. Natiivmooduleid ei laadita HyperOS Runtime’i protsessidesse.</string>
     <string name="need_update">Vaja uuendada</string>
-    <string name="info_manager_package_name">Manager paketi nimi</string>
+    <string name="developer_warning_title">Nõuanded mooduli arendajale</string>
+    <string name="developer_warning_summary">Palun keelake Android Studios juurutamise optimeerimised või kasutage installimiseks käsku `gradlew installDebug`. Vastasel juhul ei uuendata mooduli APK-d.</string>
+    <string name="info_manager_package_name">Halduri paketi nimi</string>
     <string name="info_system_version">Süsteemi versioon</string>
     <string name="info_device">Seade</string>
     <string name="info_system_abi">Süsteemi ABI</string>
-    <string name="info_dex2oat_wrapper">Dex Optimizer Wrapper</string>
+    <string name="info_dex2oat_wrapper">Dexi optimeerija ümbris</string>
     <string name="enabled">Lubatud</string>
     <string name="not_enabled">Pole lubatud</string>
     <string name="supported">Toetatud</string>
     <string name="unsupported">Toetamata</string>
-    <string name="mounted">Paigaldatud</string>
+    <string name="mounted">Ühendatud</string>
     <string name="injected">Sisestatud</string>
-    <string name="android_version_unsatisfied">Androidi versioon ei ole toetatud</string>
+    <string name="android_version_unsatisfied">Androidi versioon ei vasta nõuetele</string>
     <string name="crashed">Kokku jooksnud</string>
-    <string name="mount_failed">Kinnitus ebaõnnestus</string>
+    <string name="mount_failed">Ühendamine ebaõnnestus</string>
     <string name="info_copied">Kopeeritud lõikelauale</string>
     <!-- WelcomeDialog -->
+    <string name="touch_filtered_warning">Kuna üks rakendus varjab liidest, ei saa haldur teie vastust kinnitada.</string>
     <string name="parasitic_welcome">Tere tulemast LSPosedisse</string>
-    <string name="parasitic_welcome_summary">Kasutate parasiitide haldurit, mida saab avada teatisest.</string>
-    <string name="never_show">Mitte kunagi ei näidata</string>
-    <string name="app_welcome">Parasiitide haldur Soovitatav</string>
-    <string name="app_welcome_summary">LSPosed toetab nüüd süsteemi parasiitide tuvastamise vältimiseks, saate avada parasiitide haldaja teatest. Praegune rakendus on soovitatav eemaldada.</string>
+    <string name="parasitic_welcome_summary">Kasutate parasiithaldurit, mida saab avada teatisest.</string>
+    <string name="never_show">Ära näita kunagi</string>
+    <string name="app_welcome">Soovitatav: parasiithaldur</string>
+    <string name="app_welcome_summary">LSPosed toetab nüüd süsteemis parasiteerimist tuvastamise vältimiseks; parasiithalduri saate avada teatisest. Soovitame praeguse rakenduse eemaldada.</string>
     <!-- LogsActivity -->
     <string name="menuSaveToSd">Salvesta</string>
     <string name="nav_item_logs_verbose">Põhjalikud logid</string>
@@ -65,12 +55,14 @@
     <string name="logs_saving">Logi salvestamine, palun oodake</string>
     <string name="logs_saved">Logi salvestatud</string>
     <string name="logs_save_failed2">Salvestamine ebaõnnestus:\n%s</string>
+    <string name="logs_preparing">Logi ettevalmistamine, palun oodake</string>
+    <string name="logs_prepare_failed">Ettevalmistamine ebaõnnestus:\n%s</string>
     <string name="menuClearLog">Kustuta logi kohe</string>
     <string name="scroll_top">Kerige üles</string>
     <string name="scroll_bottom">Kerige alla</string>
-    <string name="menu_enable_word_wrap">Word Wrap</string>
+    <string name="menu_enable_word_wrap">Reamurdmine</string>
     <!-- ModulesActivity -->
-    <string name="warning_xposed_min_version">See moodul nõuab uuemat Xposed versiooni (%d) ja seega ei saa seda aktiveerida.</string>
+    <string name="warning_xposed_min_version">See moodul nõuab uuemat Xposedi versiooni (%d) ja seega ei saa seda aktiveerida.</string>
     <string name="warning_target_version_higher">See moodul on mõeldud uuemale Xposedi versioonile (%d) ja seetõttu ei pruugi mõned funktsioonid töötada</string>
     <string name="no_min_version_specified">See moodul ei täpsusta Xposedi versiooni, mida ta vajab.</string>
     <string name="warning_min_version_too_low">See moodul loodi Xposedi versiooni %1$d jaoks, kuid versioonis %2$d tehtud ühildumatute muudatuste tõttu on see välja lülitatud</string>
@@ -78,15 +70,18 @@
     <string name="warning_installed_on_external_storage">Seda moodulit ei saa laadida, sest see on paigaldatud SD-kaardile, palun viige see sisemällu.</string>
     <string name="module_uninstall">Eemalda</string>
     <string name="module_settings">Mooduli seaded</string>
-    <string name="view_in_repo">Vaata Repos</string>
+    <string name="view_in_repo">Vaata hoidlas</string>
     <string name="module_uninstall_message">Kas soovite selle mooduli eemaldada?</string>
     <string name="module_uninstalled">Eemaldatud %1$s</string>
     <string name="module_uninstall_failed">Eemaldamine ebaõnnestus</string>
     <string name="module_install_failed">Mooduli lisamine ebaõnnestus</string>
     <string name="install_to_user">Installi kasutajale %s</string>
     <string name="expand">laienda</string>
-    <string name="collapse">kollaps</string>
+    <string name="collapse">ahenda</string>
     <!-- AppListActivity -->
+    <string name="reset_scope_request_setting">Lähtesta ulatuse taotluse seade</string>
+    <string name="reset_scope_request_setting_done">Ulatuse taotluse seade on lähtestatud</string>
+    <string name="hide_non_system_overlay_failed_no_permission">Mitte-süsteemse ülekihi peitmine ebaõnnestus, palun uuendage haldurit.</string>
     <string name="compile_speed">Optimeeri uuesti</string>
     <string name="compile_speed_msg">Optimeerimine…</string>
     <string name="compile_done">Optimeeritud</string>
@@ -97,84 +92,100 @@
     <string name="sort_by_package_name">Paketi nimi</string>
     <string name="sort_by_install_time">Installimise aeg</string>
     <string name="sort_by_update_time">Uuendamise aeg</string>
-    <string name="sort_reverse">Tagasipööra</string>
+    <string name="sort_reverse">Vastupidine</string>
     <string name="menu_show_system_apps">Süsteemirakendused</string>
-    <string name="menu_sort">Sortimisalus</string>
+    <string name="menu_sort">Sortimine</string>
     <string name="enable_module">Luba moodul</string>
     <string name="menu_show_games">Mängud</string>
     <string name="menu_show_modules">Moodulid</string>
-    <string name="failed_to_save_scope_list">Ei õnnestunud salvestada reguleerimisala nimekirja</string>
+    <string name="module_scope_list_static_scope">Moodul deklareeris staatilise ulatuse</string>
+    <string name="failed_to_save_scope_list">Ei õnnestunud salvestada ulatusloendit</string>
     <string name="app_version">Versioon: %1$s</string>
     <string name="use_recommended">Soovitatav</string>
-    <string name="use_recommended_message">Valige soovitatavad rakendused?</string>
-    <string name="module_is_not_activated_yet">Xposed moodul ei ole aktiveeritud</string>
-    <string name="requested_by_module">Soovitatav</string>
+    <string name="use_recommended_message">Kas valida soovitatud rakendused?</string>
+    <string name="deselect_all">Tühista kogu valik</string>
+    <string name="deselect_all_message">Kas tühistada kõigi valitud rakenduste valik?</string>
+    <string name="module_is_not_activated_yet">Xposedi moodul ei ole veel aktiveeritud</string>
+    <string name="requested_by_module">Mooduli soovitatud</string>
     <string name="update_available">Uuendus on saadaval: %1$s</string>
     <string name="android_framework">Süsteemi raamistik</string>
     <string name="menu_backup">Varukoopia</string>
     <string name="menu_restore">Taasta</string>
     <string name="force_stop">Sundpeata</string>
     <string name="force_stop_dlg_title">Sundpeata?</string>
-    <string name="force_stop_dlg_text">Kui te peatate rakenduse sunniviisiliselt, võib see halvasti käituda.</string>
-    <string name="reboot_required">Selle muudatuse kohaldamiseks on vajalik taaskäivitamine</string>
-    <string name="reboot">Taaskäivitus</string>
+    <string name="force_stop_dlg_text">Kui sundpeatate rakenduse, võib see toimida valesti.</string>
+    <string name="reboot_required">Selle muudatuse rakendamiseks on vajalik taaskäivitamine</string>
+    <string name="reboot">Taaskäivita</string>
     <!-- ModulesActivity and AppListActivity -->
-    <string name="modules_other_app">Vaadake teises rakenduses</string>
+    <string name="modules_other_app">Vaata teises rakenduses</string>
     <string name="module_app_info">Rakenduse teave</string>
     <string name="list_empty">¯\\\\_(ツ)_\/¯\nSiin pole midagi.</string>
     <!-- SettingsActivity -->
     <string name="settings_group_framework">Raamistik</string>
-    <string name="settings_disable_verbose_log">Lülita sõnalised logid välja</string>
-    <string name="settings_disable_verbose_log_summary">Aruande probleemid taotluse lisada sõnalogid</string>
+    <string name="settings_disable_verbose_log">Lülita põhjalikud logid välja</string>
+    <string name="settings_disable_verbose_log_summary">Probleemidest teatamisel palutakse lisada põhjalikud logid.</string>
     <string name="settings_group_theme">Teema</string>
     <string name="settings_backup_and_restore">Varundamine ja taastamine</string>
-    <string name="settings_backup_summary">Moodulite varukoopiate nimekiri ja ulatusloendid.</string>
-    <string name="settings_restore_summary">Taastab moodulite loendi ja ulatusloendite loendi.</string>
+    <string name="settings_backup_summary">Varundage moodulite loend ja ulatusloendid.</string>
+    <string name="settings_restore_summary">Taastage moodulite loend ja ulatusloendid.</string>
     <string name="settings_backup">Varukoopia</string>
     <string name="settings_backup_failed2">Varundamine ebaõnnestus:\n%s</string>
-    <string name="enable_documentui">Palun lubage DocumentUI</string>
+    <string name="enable_documentui">Palun lubage DocumentsUI</string>
     <string name="settings_restore">Taasta</string>
     <string name="settings_restore_failed2">Ei õnnestunud taastada:\n%s</string>
     <string name="group_network">Võrk</string>
-    <string name="dns_over_http">DNS üle HTTPS</string>
-    <string name="dns_over_http_summary">Workaround DNS mürgistus mõnedes riikides</string>
-    <string name="settings_show_hidden_icon_apps_enabled">Rakenduste sundimine käivitaja ikoonide kuvamiseks</string>
-    <string name="settings_show_hidden_icon_apps_enabled_summary">Pärast Android 10 ei ole rakendustel lubatud oma käivitaja ikoonid ära peita. Selle süsteemifunktsiooni väljalülitamiseks lülitage lüliti välja.</string>
+    <string name="dns_over_http">DNS üle HTTPS-i</string>
+    <string name="dns_over_http_summary">Lahendus DNS-i mürgitamise vastu mõnedes riikides</string>
+    <string name="settings_repo_cdn">Moodulihoidla CDN</string>
+    <string name="repo_cdn_default">Vaikimisi</string>
+    <string name="repo_cdn_backup">Varukoopia</string>
+    <string name="settings_show_hidden_icon_apps_enabled">Sunni rakendused näitama käivitaja ikoone</string>
+    <string name="settings_show_hidden_icon_apps_enabled_summary">Alates Android 10-st ei tohi rakendused oma käivitaja ikoone peita. Selle süsteemifunktsiooni väljalülitamiseks lülitage lüliti välja.</string>
     <string name="settings_group_system">Süsteem</string>
     <string name="settings_language">Keel</string>
-    <string name="settings_translation_contributors">Tõlkimise toetajad</string>
+    <string name="settings_translation_contributors">Tõlke kaastöötajad</string>
     <string name="settings_translation">Osalege tõlkimises</string>
-    <string name="settings_translation_summary">Aita meil tõlkida %s sinu keelde</string>
-    <string name="settings_enable_status_notification">Staatuse teatamine</string>
-    <string name="settings_enable_status_notification_summary">Kuva teatis, mis võib avada parasiitide halduri</string>
-    <string name="settings_update_channel">Uuenduskanal</string>
+    <string name="settings_translation_summary">Aidake meil tõlkida %s oma keelde</string>
+    <string name="settings_enable_status_notification">Oleku teatis</string>
+    <string name="settings_enable_status_notification_summary">Kuva teatis, mis võib avada parasiithalduri</string>
+    <string name="settings_update_channel">Mooduli uuenduskanal</string>
     <string name="update_channel_stable">Stabiilne</string>
     <string name="update_channel_beta">Beeta</string>
-    <string name="update_channel_nightly">Nightly build</string>
-    <string name="settings_xposed_api_call_protection">Xposed API call protection</string>
-    <string name="settings_xposed_api_call_protection_summary">Blokeerige dünaamiliselt laaditud mooduli kood, et kasutada Xposed API-t, see võib mõne mooduli rikkuda, kuid toob kasu turvalisusele</string>
+    <string name="update_channel_nightly">Öine versioon</string>
+    <string name="settings_xposed_api_call_protection">Xposedi API-kutsete kaitse</string>
+    <string name="settings_xposed_api_call_protection_summary">Keelake dünaamiliselt laaditud moodulikoodil Xposed API-t kasutada; see võib mõne mooduli rikkuda, kuid suurendab turvalisust.</string>
     <!-- Module Repo -->
+    <string name="settings_invalidate_inline_hooks">Reasiseste hookide kehtetuks tunnistamine</string>
+    <string name="settings_invalidate_inline_hooks_summary">Puhastab loetletud rakenduste faili libart.so. See põhjustab juhuslikke tõrkeid ja kokkujooksmisi. Kasutage ainult siis, kui teatud rakendusi ei õnnestu avada.</string>
+    <string name="failed_to_save_invalidate_inline_hooks_list">Reasiseste hookide kehtetuks tunnistamise loendi salvestamine ebaõnnestus</string>
+    <string name="settings_enable_predictive_back">Ennustav tagasiminekužest</string>
+    <string name="settings_enable_predictive_back_summary">Lubage ennustavate tagasiminekužestide tugi.</string>
+    <string name="settings_enable_swipe_dismiss">Libistav tagasiminekužest</string>
+    <string name="settings_enable_swipe_dismiss_summary">Eelmisele lehele naasmiseks libistage ekraani servast.</string>
+    <string name="settings_tapjacking_protection">Puudutuskaaperdamise tõrje</string>
+    <string name="settings_tapjacking_protection_summary">Blokeerib puudutused, kui liides on varjatud, et takistada puudutuskaaperdamise rünnakuid</string>
     <string name="module_readme">Readme</string>
     <string name="module_releases">Väljaanded</string>
     <string name="module_information">Teave</string>
     <string name="module_information_homepage">Koduleht</string>
     <string name="module_information_source_url">Lähtekood</string>
-    <string name="module_information_collaborators">Koostööpartnerid</string>
-    <string name="module_release_view_assets">Varad</string>
+    <string name="module_information_collaborators">Kaastöötajad</string>
+    <string name="module_release_view_assets">Manused</string>
     <string name="menu_open_in_browser">Ava brauseris</string>
+    <string name="menu_share">Jaga</string>
     <string name="module_release_load_more">Kuva vanemad versioonid</string>
-    <string name="module_release_no_more">Enam ei ole väljaannet</string>
-    <string name="sort_upgradable_first">Esimesena uuendatav</string>
+    <string name="module_release_no_more">Rohkem väljaandeid ei ole</string>
+    <string name="sort_upgradable_first">Uuendatavad esimesena</string>
     <string name="installed">Paigaldatud</string>
     <plurals name="module_release_assets_download_count">
-        <item quantity="one">allalaaditud on %d kord</item>
-        <item quantity="other">allalaaditud on %d korda</item>
+        <item quantity="one">%d allalaadimine</item>
+        <item quantity="other">%d allalaadimist</item>
     </plurals>
     <!-- Colors -->
     <string name="color_red">Punane</string>
     <string name="color_pink">Roosa</string>
     <string name="color_purple">Lilla</string>
-    <string name="color_deep_purple">Sügavlilla</string>
+    <string name="color_deep_purple">Tumelilla</string>
     <string name="color_indigo">Indigo</string>
     <string name="color_blue">Sinine</string>
     <string name="color_light_blue">Helesinine</string>
@@ -183,10 +194,93 @@
     <string name="color_green">Roheline</string>
     <string name="color_lime">Laimiroheline</string>
     <string name="color_yellow">Kollane</string>
-    <string name="color_amber">Amber</string>
+    <string name="color_amber">Merevaigukollane</string>
     <string name="color_orange">Oranž</string>
     <string name="color_brown">Pruun</string>
-    <string name="color_blue_grey">Sinine hall</string>
+    <string name="color_blue_grey">Sinihall</string>
+    <string name="safe_mode">Turvarežiim</string>
+    <string name="safe_mode_summary">LSPosed on turvarežiimis</string>
+    <string name="safe_mode_summary2">Kõik Xposedi moodulid on kuni järgmise taaskäivitamiseni kättesaamatud.\nMõned moodulid on põhjustanud süsteemi kokkujooksmisi. Palun leidke ja keelake need moodulid ning andke mooduli arendajatele tagasisidet.</string>
+    <string name="disable_all_modules">Keela kõik moodulid</string>
+    <string name="confirm_disable_all_modules">Kas kinnitada?</string>
+    <plurals name="message_disable_all_modules">
+        <item quantity="one">%d moodul keelatakse.
+Seda toimingut ei saa tagasi võtta.</item>
+        <item quantity="other">%d moodulit keelatakse.
+Seda toimingut ei saa tagasi võtta.</item>
+    </plurals>
+    <string name="disable_success_title">Õnnestus</string>
+    <string name="hook_debug_title">Hookide silumine</string>
+    <string name="debugging_title">Silumine</string>
     <string name="developer_mode_title">Arendajarežiim</string>
     <string name="developer_mode_summary">Luba CLI-tööriista abil hallata LSPosedi seadeid ja ulatusi</string>
+    <string name="safe_mode_disabled_title">Keela turvarežiim</string>
+    <string name="safe_mode_disabled_summary">Takistab turvarežiimi sattumist, kui süsteemikomponendid lakkavad korduvalt töötamast</string>
+    <string name="hook_debug_summary">Lubab välja võtta protsesside hookimise silumisteavet, mis võib mõjutada jõudlust</string>
+    <string name="dump_hook_debug_title">Võta hookide silumisteave välja</string>
+    <string name="dump_hook_debug_summary">Võtab hookide silumisteabe välja asukohta /data/adb/lspd/log</string>
+    <string name="dump_hook_success">Välja võetud asukohta %s</string>
+    <string name="dump_hook_failed">Väljavõtmine ebaõnnestus</string>
+    <string name="log_to_daemon_title">Logi saatmine deemonile</string>
+    <string name="log_to_daemon_summary">See takistab rakendustel mooduli logide lugemist, kuid võib mõjutada jõudlust</string>
+    <plurals name="disable_success_message">
+        <item quantity="one">%d moodul keelatud</item>
+        <item quantity="other">%d moodulit keelatud</item>
+    </plurals>
+    <string name="follow_system">Järgi süsteemi</string>
+    <string name="unknown_author">Tundmatu autor</string>
+    <string name="unknown_version">Tundmatu versioon</string>
+    <string name="unknown_asset">Tundmatu manus</string>
+    <string name="download_asset">Laadi alla</string>
+    <string name="nav_back">Tagasi</string>
+    <string name="nav_rail_expand">Laienda navigatsiooniriba</string>
+    <string name="nav_rail_collapse">Ahenda navigatsiooniriba</string>
+    <string name="menu">Menüü</string>
+    <string name="menu_filter">Filtreeri</string>
+    <string name="menu_parsed_view">Jäsendatud vaade</string>
+    <string name="menu_raw_view">Toorvaade</string>
+    <string name="settings_ui">Kasutajaliidese stiil</string>
+    <string name="settings_ui_summary">Valige kasutajaliidese stiil</string>
+    <string name="settings_theme">Teema</string>
+    <string name="settings_theme_summary">Valige rakenduse teemarežiim</string>
+    <string name="settings_theme_mode_system">Järgi süsteemi</string>
+    <string name="settings_theme_mode_light">Hele</string>
+    <string name="settings_theme_mode_dark">Tume</string>
+    <string name="settings_theme_mode_monet_system">Monet (järgi süsteemi)</string>
+    <string name="settings_theme_mode_monet_light">Monet (hele)</string>
+    <string name="settings_theme_mode_monet_dark">Monet (tume)</string>
+    <string name="settings_key_color">Aktsentvärv</string>
+    <string name="settings_key_color_summary">Kohandage seemnevärvi Monet\' kasutamisel</string>
+    <string name="settings_key_color_default">Vaikimisi</string>
+    <string name="settings_theme_entry">Teemaseaded</string>
+    <string name="settings_theme_entry_summary">Teemarežiim, aktsentvärv, paleti stiil ja palju muud</string>
+    <string name="settings_palette_style">Paleti stiil</string>
+    <string name="settings_palette_style_summary">Toonialgoritm, mida kasutatakse Material 3 paleti tuletamiseks</string>
+    <string name="settings_color_spec">Värvispetsifikatsioon</string>
+    <string name="settings_color_spec_summary">Material 3 värvispetsifikatsiooni versioon</string>
+    <string name="settings_page_scale">Lehe mõõtkava</string>
+    <string name="settings_page_scale_summary">Kohandage üldist kuvamõõtkava</string>
+    <string name="settings_enable_blur">Hägustus</string>
+    <string name="settings_enable_blur_summary">Lubage ülemise ja alumise riba hägustusefekt</string>
+    <string name="settings_floating_bottom_bar">Hõljuv alariba</string>
+    <string name="settings_floating_bottom_bar_summary">Kasutage Apple\'i-laadset hõljuvat alariba</string>
+    <string name="settings_enable_glass">Vedel klaas</string>
+    <string name="settings_enable_glass_summary">Lubage hõljuva alariba vedelklaasiefekt</string>
+    <string name="refresh_pulling">Värskendamiseks tõmmake alla</string>
+    <string name="refresh_release">Värskendamiseks vabastage</string>
+    <string name="refresh_refresh">Värskendamine…</string>
+    <string name="refresh_complete">Värskendamine õnnestus</string>
+    <string name="time_just_now">Just praegu</string>
+    <plurals name="time_minutes_ago">
+        <item quantity="one">%d minut tagasi</item>
+        <item quantity="other">%d minutit tagasi</item>
+    </plurals>
+    <plurals name="time_hours_ago">
+        <item quantity="one">%d tund tagasi</item>
+        <item quantity="other">%d tundi tagasi</item>
+    </plurals>
+    <plurals name="time_days_ago">
+        <item quantity="one">%d päev tagasi</item>
+        <item quantity="other">%d päeva tagasi</item>
+    </plurals>
 </resources>

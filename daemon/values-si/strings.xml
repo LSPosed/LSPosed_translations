@@ -4,19 +4,56 @@
     <string name="list_separator">, </string>
     <string name="module_is_not_activated_yet">Xposed මොඩියුලය තවම සක්‍රිය කර නැත</string>
     <string name="module_is_not_activated_yet_main_user_detailed">%1$s ස්ථාපනය කර ඇත, නමුත් තවමත් සක්රිය කර නැත</string>
-    <string name="module_is_not_activated_yet_multi_user_detailed">පරිශීලක %2$sවෙත %1$s ස්ථාපනය කර ඇත, නමුත් තවමත් සක්‍රිය කර නොමැත</string>
+    <string name="module_is_not_activated_yet_multi_user_detailed">%1$s පරිශීලක %2$s වෙත ස්ථාපනය කර ඇත, නමුත් තවමත් සක්‍රිය කර නොමැත</string>
     <string name="xposed_module_updated_notification_title">Xposed මොඩියුලය යාවත්කාලීන කරන ලදී</string>
-    <string name="xposed_module_updated_notification_title_system">Xposed මොඩියුලය යාවත්කාලීන කරන ලදි, පද්ධතිය නැවත ආරම්භ කිරීම අවශ්‍යයි</string>
-    <string name="xposed_module_updated_notification_content">%s යාවත්කාලීන කර ඇත, කරුණාකර එහි විෂය පථය තුළ යෙදුම් බලහත්කාරයෙන් නතර කර නැවත ආරම්භ කරන්න</string>
-    <string name="xposed_module_updated_notification_content_system">%s යාවත්කාලීන කර ඇත, විෂය පථයේ පද්ධති රාමුව අඩංගු බැවින්, වෙනස්කම් යෙදීමට නැවත පණගැන්වීම අවශ්‍ය වේ</string>
+    <string name="xposed_module_updated_notification_title_system">Xposed මොඩියුලය යාවත්කාලීන කරන ලදි, පද්ධතිය පුනරාරම්භ කිරීම අවශ්‍යයි</string>
+    <string name="xposed_module_updated_notification_content">%s යාවත්කාලීන කර ඇත, කරුණාකර එහි විෂය පථය තුළ යෙදුම් බලෙන් නවත්වා යළි අරඹන්න</string>
+    <string name="xposed_module_updated_notification_content_system">%s යාවත්කාලීන කර ඇත, විෂය පථයේ පද්ධති රාමුව අඩංගු බැවින්, වෙනස්කම් යෙදීමට පුනරාරම්භ කිරීම අවශ්‍ය වේ</string>
+    <string name="xposed_module_updated_notification_reload">%1$s යාවත්කාලීන කරන ලදී, %2$s</string>
+    <string name="xposed_module_updated_notification_reload_none">%s යාවත්කාලීන කරන ලදී</string>
+    <plurals name="xposed_module_updated_notification_reload_reloaded">
+        <item quantity="one">ක්‍රියාවලි %dක් උණුසුම් යළි පූරණය කරන ලදී</item>
+        <item quantity="other">ක්‍රියාවලි %dක් උණුසුම් යළි පූරණය කරන ලදී</item>
+    </plurals>
+    <plurals name="xposed_module_updated_notification_reload_reloading">
+        <item quantity="one">ක්‍රියාවලි %dක් උණුසුම් යළි පූරණය වෙමින් පවතී</item>
+        <item quantity="other">ක්‍රියාවලි %dක් උණුසුම් යළි පූරණය වෙමින් පවතී</item>
+    </plurals>
+    <plurals name="xposed_module_updated_notification_reload_failed">
+        <item quantity="one">ක්‍රියාවලි %dක උණුසුම් යළි පූරණය අසාර්ථක විය</item>
+        <item quantity="other">ක්‍රියාවලි %dක උණුසුම් යළි පූරණය අසාර්ථක විය</item>
+    </plurals>
+    <string name="xposed_module_enabled_notification_title">Xposed මොඩියුලය සක්‍රිය කර ඇත</string>
+    <string name="xposed_module_enabled_notification_content">%s සක්‍රිය කර ඇත, විෂය පථය සැකසීමට තට්ටු කරන්න</string>
+    <string name="xposed_module_updated_notification_action_enable">මොඩියුලය සක්‍රිය කරන්න</string>
     <string name="module_updated_channel_name">මොඩියුල යාවත්කාලීන කිරීම සම්පූර්ණයි</string>
-    <string name="status_channel_name">එල්එස්පී තත්ත්වය</string>
-    <string name="lsposed_running_notification_title">LSPposed පටවා ඇත</string>
+    <string name="status_channel_name">LSPosed තත්ත්වය</string>
+    <string name="lsposed_running_notification_title">LSPosed පටවා ඇත</string>
     <string name="lsposed_running_notification_content">කළමනාකරු විවෘත කිරීමට දැනුම්දීම තට්ටු කරන්න</string>
     <string name="xposed_module_request_scope_title">විෂය පථය ඉල්ලීම</string>
     <string name="xposed_module_request_scope_content">පරිශීලක %2$s හි %1$s එහි විෂය පථයට %3$s එකතු කරන ලෙස ඉල්ලා සිටී.</string>
+    <string name="xposed_module_request_scope_content_batch">පරිශීලක %2$s හි %1$s එහි විෂය පථයට පහත යෙදුම් එකතු කරන ලෙස ඉල්ලා සිටී.</string>
     <string name="scope_channel_name">විෂය පථය ඉල්ලීම</string>
     <string name="scope_approve">අනුමත කරන්න</string>
     <string name="scope_deny">ප්රතික්ෂේප කරන්න</string>
-    <string name="nerver_ask_again">කවදාවත් අහන්න එපා</string>
+    <string name="never_ask_again">කිසිවිටෙක නොඅසන්න</string>
+    <string name="lsposed_safemode_notification_title">LSPosed ආරක්ෂිත ප්‍රකාරයේ පවතී</string>
+    <string name="lsposed_safemode_notification_content">ඊළඟ පුනරාරම්භය දක්වා සියලු Xposed මොඩියුල භාවිතයට නොගත හැක</string>
+    <string name="safe_mode_disable_all_modules">සියලු මොඩියුල අක්‍රීය කරන්න</string>
+    <string name="lsposed_safemode_cleared_notification_title">සියලු මොඩියුල අක්‍රීය කර ඇත</string>
+    <plurals name="lsposed_safemode_cleared_notification_content">
+        <item quantity="one">%d මොඩියුලයක් අක්‍රීය කර ඇත</item>
+        <item quantity="other">%d මොඩියුල අක්‍රීය කර ඇත</item>
+    </plurals>
+    <string name="lsposed_safemode_clear_confirm_notification_title">තහවුරු කරන්නද?</string>
+    <plurals name="lsposed_safemode_clear_confirm_notification_content">
+        <item quantity="one">%d මොඩියුලයක් අක්‍රීය වනු ඇත
+මෙම ක්‍රියාව අහෝසි කළ නොහැක</item>
+        <item quantity="other">%d මොඩියුල අක්‍රීය වනු ඇත
+මෙම ක්‍රියාව අහෝසි කළ නොහැක</item>
+    </plurals>
+    <string name="safe_mode_reboot">පුනරාරම්භ කරන්න</string>
+    <string name="safe_mode_channel_name">ආරක්ෂිත ප්‍රකාරය</string>
+    <string name="safe_mode_open_manager">කළමනාකරු විවෘත කරන්න</string>
+    <string name="safe_mode_back">ආපසු</string>
 </resources>

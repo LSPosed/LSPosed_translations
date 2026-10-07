@@ -1,23 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--
-  ~ This file is part of LSPosed.
-  ~
-  ~ LSPosed is free software: you can redistribute it and/or modify
-  ~ it under the terms of the GNU General Public License as published by
-  ~ the Free Software Foundation, either version 3 of the License, or
-  ~ (at your option) any later version.
-  ~
-  ~ LSPosed is distributed in the hope that it will be useful,
-  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
-  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-  ~ GNU General Public License for more details.
-  ~
-  ~ You should have received a copy of the GNU General Public License
-  ~ along with LSPosed.  If not, see <https://www.gnu.org/licenses/>.
-  ~
-  ~ Copyright (C) 2021 LSPosed Contributors
-  -->
-<resources xmlns:tools="http://schemas.android.com/tools" tools:keep="@string/xposed_module_updated_notification_*,@string/module_is_not_activated_*">
+<resources>
     <!-- MainActivity -->
     <string name="overview">Översikt</string>
     <string name="Modules">Moduler</string>
@@ -25,59 +7,69 @@
     <string name="Settings">Inställningar</string>
     <string name="About">Om</string>
     <string name="module_repo">Förvar</string>
+    <string name="about_send_bug_report">Skicka felrapport</string>
+    <string name="bug_report_message">Beskriv problemet kort</string>
+    <string name="bug_report_exporting_logs">Exporterar loggar…</string>
+    <string name="about_join_telegram">Gå med i Telegram-kanalen</string>
+    <string name="email_address_copied">E-postadressen har kopierats</string>
     <string name="translators" comment="Dear translators, please add your home page here following the format. There can be more than one translator. So feel free to append yourself.">Anton J</string>
     <string name="not_installed">Inte installerad</string>
     <string name="not_install_summary">LSPosed är inte installerat</string>
     <string name="activated">Aktiverad</string>
     <string name="partial_activated">Delvis aktiverad</string>
-    <string name="system_inject_fail_summary">Injektion i System Framework misslyckades</string>
+    <string name="system_inject_fail_summary">Injektion i systemramverket misslyckades</string>
     <string name="system_inject_fail"><![CDATA[Detta är sällsynt och kan orsakas av <b>Magisk</b> eller några Magisk-moduler av låg kvalitet.<br/>Försök att inaktivera andra Magisk-moduler än Zygisk och LSPosed eller skicka fullständig logg till utvecklare.]]></string>
-    <string name="system_prop_incorrect_summary">Felaktig System prop</string>
-    <string name="system_prop_incorrect"><![CDATA[Vissa nödvändiga systemegenskaper är raderade eller ändrade.<br/>Moduler kan komma att ogiltigförklara.]]></string>
+    <string name="system_prop_incorrect_summary">Felaktig systemegenskap</string>
+    <string name="system_prop_incorrect"><![CDATA[Vissa nödvändiga systemegenskaper är raderade eller ändrade.<br/>Moduler kan ibland bli ogiltiga.]]></string>
     <string name="hyrt_unavailable_summary">Injektion i HyperOS Runtime misslyckades</string>
     <string name="hyrt_unavailable">HyperOS Runtime identifierades, men Zygisk Next API är inte tillgängligt. Nativa moduler kommer inte att läsas in i HyperOS Runtime-processer.</string>
     <string name="need_update">Behöver uppdateras</string>
-    <string name="info_manager_package_name">Namn på managerpaket</string>
+    <string name="developer_warning_title">Tips för modulutvecklare</string>
+    <string name="developer_warning_summary">Inaktivera deploy-optimeringar i Android Studio eller använd kommandot `gradlew installDebug` för att installera. Annars uppdateras inte modulens apk.</string>
+    <string name="info_manager_package_name">Hanterarens paketnamn</string>
     <string name="info_system_version">Systemversion</string>
     <string name="info_device">Enhet</string>
     <string name="info_system_abi">System ABI</string>
-    <string name="info_dex2oat_wrapper">Dex Optimizer Wrapper</string>
+    <string name="info_dex2oat_wrapper">Dex-optimizer-omslutning</string>
     <string name="enabled">Aktiverad</string>
     <string name="not_enabled">Inte aktiverad</string>
     <string name="supported">Stöds</string>
     <string name="unsupported">Ej stödd</string>
     <string name="mounted">Monterad</string>
     <string name="injected">Injicerad</string>
-    <string name="android_version_unsatisfied">Android-version otillfredsställd</string>
+    <string name="android_version_unsatisfied">Android-versionen uppfyller inte kraven</string>
     <string name="crashed">Kraschade</string>
     <string name="mount_failed">Montering misslyckades</string>
-    <string name="info_copied">Kopieras till urklipp</string>
+    <string name="info_copied">Kopierat till urklipp</string>
     <!-- WelcomeDialog -->
+    <string name="touch_filtered_warning">Eftersom en app skymmer gränssnittet kan hanteraren inte verifiera ditt svar.</string>
     <string name="parasitic_welcome">Välkommen till LSPosed</string>
-    <string name="parasitic_welcome_summary">Du använder Parasitic Manager, som kan öppnas från en avisering.</string>
+    <string name="parasitic_welcome_summary">Du använder parasithanteraren, som kan öppnas från en avisering.</string>
     <string name="never_show">Visa aldrig</string>
-    <string name="app_welcome">Parasitic Manager Rekommenderad</string>
-    <string name="app_welcome_summary">LSPosed stöder nu systemparasitering för att undvika upptäckt, du kan öppna parasithanteraren från anmälan. Det rekommenderas att avinstallera det aktuella programmet.</string>
+    <string name="app_welcome">Parasithanteraren rekommenderas</string>
+    <string name="app_welcome_summary">LSPosed stöder nu systemparasitering för att undvika upptäckt. Du kan öppna parasithanteraren från aviseringen. Det rekommenderas att avinstallera det aktuella programmet.</string>
     <!-- LogsActivity -->
     <string name="menuSaveToSd">Spara</string>
-    <string name="nav_item_logs_verbose">Utförliga Loggar</string>
+    <string name="nav_item_logs_verbose">Utförliga loggar</string>
     <string name="nav_item_logs_module">Modul-loggar</string>
     <string name="logs_saving">Sparar logg, vänligen vänta</string>
-    <string name="logs_saved">Loggar som sparas</string>
+    <string name="logs_saved">Loggar sparade</string>
     <string name="logs_save_failed2">Det gick inte att spara:\n%s</string>
+    <string name="logs_preparing">Förbereder loggen, vänligen vänta</string>
+    <string name="logs_prepare_failed">Det gick inte att förbereda:\n%s</string>
     <string name="menuClearLog">Rensa loggen nu</string>
     <string name="scroll_top">Rulla till toppen</string>
     <string name="scroll_bottom">Rulla till botten</string>
-    <string name="menu_enable_word_wrap">Ord Wrap</string>
+    <string name="menu_enable_word_wrap">Radbrytning</string>
     <!-- ModulesActivity -->
-    <string name="warning_xposed_min_version">Denna modul kräver en nyare Xposed version (%d) och kan därför inte aktiveras</string>
+    <string name="warning_xposed_min_version">Denna modul kräver en nyare Xposed-version (%d) och kan därför inte aktiveras</string>
     <string name="warning_target_version_higher">Den här modulen är utformad för en nyare Xposed-version (%d) och därför kan det hända att vissa funktioner inte fungerar.</string>
-    <string name="no_min_version_specified">Modulen anger inte den Xposed version som den behöver.</string>
-    <string name="warning_min_version_too_low">Denna modul skapades för Xposed version %1$d, men på grund av inkompatibla förändringar i version %2$dhar den inaktiverats</string>
+    <string name="no_min_version_specified">Modulen anger inte den Xposed-version som den behöver.</string>
+    <string name="warning_min_version_too_low">Denna modul skapades för Xposed-version %1$d, men på grund av inkompatibla förändringar i version %2$d har den inaktiverats</string>
     <string name="warning_deprecated_feature">Den här modulen använder en föråldrad funktion som snart kommer att tas bort. Kontakta utvecklaren eller överväg ett alternativ.</string>
     <string name="warning_installed_on_external_storage">Modulen kan inte laddas eftersom den är installerad på SD-kortet, vänligen flytta den till internt lagringsutrymme</string>
     <string name="module_uninstall">Avinstallera</string>
-    <string name="module_settings">Inställningar för modul</string>
+    <string name="module_settings">Modulinställningar</string>
     <string name="view_in_repo">Visa i Repo</string>
     <string name="module_uninstall_message">Vill du avinstallera denna modul?</string>
     <string name="module_uninstalled">Avinstallerade %1$s</string>
@@ -85,8 +77,11 @@
     <string name="module_install_failed">Det gick inte att lägga till modul</string>
     <string name="install_to_user">Installera till användare %s</string>
     <string name="expand">expandera</string>
-    <string name="collapse">kollapsa</string>
+    <string name="collapse">komprimera</string>
     <!-- AppListActivity -->
+    <string name="reset_scope_request_setting">Återställ inställningen för omfattningsbegäran</string>
+    <string name="reset_scope_request_setting_done">Inställningen för omfattningsbegäran har återställts</string>
+    <string name="hide_non_system_overlay_failed_no_permission">Det gick inte att dölja icke-systemöverlägg. Uppgradera hanteraren.</string>
     <string name="compile_speed">Återoptimera</string>
     <string name="compile_speed_msg">Optimerar…</string>
     <string name="compile_done">Optimering slutförd</string>
@@ -95,79 +90,95 @@
     <string name="compile_failed_with_info">Optimering misslyckades: </string>
     <string name="sort_by_name">Programmets namn</string>
     <string name="sort_by_package_name">Paketets namn</string>
-    <string name="sort_by_install_time">Installera tid</string>
-    <string name="sort_by_update_time">Uppdatera tid</string>
+    <string name="sort_by_install_time">Installationstid</string>
+    <string name="sort_by_update_time">Uppdateringstid</string>
     <string name="sort_reverse">Omvänd</string>
-    <string name="menu_show_system_apps">System appar</string>
+    <string name="menu_show_system_apps">Systemappar</string>
     <string name="menu_sort">Sortering</string>
     <string name="enable_module">Aktivera modul</string>
     <string name="menu_show_games">Spel</string>
     <string name="menu_show_modules">Moduler</string>
+    <string name="module_scope_list_static_scope">Modulen har deklarerat en statisk omfattning</string>
     <string name="failed_to_save_scope_list">Det gick inte att spara omfattningslistan</string>
     <string name="app_version">Version: %1$s</string>
     <string name="use_recommended">Rekommenderad</string>
     <string name="use_recommended_message">Välj rekommenderade appar?</string>
-    <string name="module_is_not_activated_yet">Xposed modul är inte aktiverad än</string>
-    <string name="requested_by_module">Rekommenderad</string>
+    <string name="deselect_all">Avmarkera alla</string>
+    <string name="deselect_all_message">Avmarkera alla valda appar?</string>
+    <string name="module_is_not_activated_yet">Xposed-modulen är inte aktiverad än</string>
+    <string name="requested_by_module">Rekommenderas av modulen</string>
     <string name="update_available">Uppdatering tillgänglig: %1$s</string>
-    <string name="android_framework">System ramverk</string>
+    <string name="android_framework">Systemramverk</string>
     <string name="menu_backup">Säkerhetskopiera</string>
     <string name="menu_restore">Återställ</string>
-    <string name="force_stop">Tvinga avslutad</string>
-    <string name="force_stop_dlg_title">Tvinga avslut?</string>
-    <string name="force_stop_dlg_text">Om du tvingar en app att sluta fungerar det inte.</string>
+    <string name="force_stop">Tvinga att avsluta</string>
+    <string name="force_stop_dlg_title">Vill du tvinga appen att avsluta?</string>
+    <string name="force_stop_dlg_text">Om du tvingar appen att avslutas kanske den inte fungerar som den ska.</string>
     <string name="reboot_required">Omstart krävs för att denna ändring ska gälla</string>
-    <string name="reboot">Reboot</string>
+    <string name="reboot">Starta om</string>
     <!-- ModulesActivity and AppListActivity -->
     <string name="modules_other_app">Visa i annan app</string>
     <string name="module_app_info">Information om appen</string>
     <string name="list_empty">¯\\_(ツ)_\/¯\nIngenting här</string>
     <!-- SettingsActivity -->
-    <string name="settings_group_framework">Framework</string>
+    <string name="settings_group_framework">Ramverk</string>
     <string name="settings_disable_verbose_log">Inaktivera utförliga loggar</string>
-    <string name="settings_disable_verbose_log_summary">Begäran om att inkludera verbose-loggar i rapporten</string>
+    <string name="settings_disable_verbose_log_summary">Felrapporter måste innehålla utförliga loggar</string>
     <string name="settings_group_theme">Tema</string>
     <string name="settings_backup_and_restore">Säkerhetskopiera och återställ</string>
     <string name="settings_backup_summary">Säkerhetskopiera modullista och omfattningslistor.</string>
     <string name="settings_restore_summary">Återställ modullista och omfattningslistor.</string>
     <string name="settings_backup">Säkerhetskopiera</string>
     <string name="settings_backup_failed2">Det gick inte att säkerhetskopiera:\n%s</string>
-    <string name="enable_documentui">Aktivera DocumentUI</string>
+    <string name="enable_documentui">Aktivera DocumentsUI</string>
     <string name="settings_restore">Återställ</string>
     <string name="settings_restore_failed2">Det gick inte att återställa:\n%s</string>
     <string name="group_network">Nätverk</string>
     <string name="dns_over_http">DNS över HTTPS</string>
-    <string name="dns_over_http_summary">Workaround DNS-förgiftning i vissa nationer</string>
+    <string name="dns_over_http_summary">Kringgå DNS-förgiftning i vissa länder</string>
+    <string name="settings_repo_cdn">CDN för modulförvaret</string>
+    <string name="repo_cdn_default">Standard</string>
+    <string name="repo_cdn_backup">Reserv</string>
     <string name="settings_show_hidden_icon_apps_enabled">Tvinga appar att visa launcher-ikoner</string>
-    <string name="settings_show_hidden_icon_apps_enabled_summary">Efter Android 10, appar är inte tillåtet att dölja sina launcher ikoner. Stäng av växla för att inaktivera den här systemfunktionen.</string>
+    <string name="settings_show_hidden_icon_apps_enabled_summary">Efter Android 10 får appar inte dölja sina launcher-ikoner. Stäng av reglaget för att inaktivera den här systemfunktionen.</string>
     <string name="settings_group_system">System</string>
     <string name="settings_language">Språk</string>
     <string name="settings_translation_contributors">Bidragande översättare</string>
     <string name="settings_translation">Delta i översättning</string>
     <string name="settings_translation_summary">Hjälp oss att översätta %s till ditt språk</string>
     <string name="settings_enable_status_notification">Meddelande om status</string>
-    <string name="settings_enable_status_notification_summary">Visa en anmälan som kan öppna parasitansvarig</string>
-    <string name="settings_update_channel">Uppdatera kanal</string>
+    <string name="settings_enable_status_notification_summary">Visa en avisering som kan öppna parasithanteraren</string>
+    <string name="settings_update_channel">Moduluppdateringskanal</string>
     <string name="update_channel_stable">Stabil</string>
     <string name="update_channel_beta">Beta</string>
-    <string name="update_channel_nightly">Nattligt bygg</string>
+    <string name="update_channel_nightly">Nattlig version</string>
     <string name="settings_xposed_api_call_protection">Skydd av Xposed API-anrop</string>
-    <string name="settings_xposed_api_call_protection_summary">Blockera dynamiskt laddad modulkod för att använda Xposed API, vilket kan förstöra vissa moduler men gynnar säkerheten.</string>
+    <string name="settings_xposed_api_call_protection_summary">Blockera dynamiskt laddad modulkod från att använda Xposed API, vilket kan förstöra vissa moduler men gynnar säkerheten.</string>
     <!-- Module Repo -->
-    <string name="module_readme">Läsa</string>
-    <string name="module_releases">Släpp</string>
+    <string name="settings_invalidate_inline_hooks">Gör inline-hooks ogiltiga</string>
+    <string name="settings_invalidate_inline_hooks_summary">Rensa libart.so för apparna i listan. Detta orsakar slumpmässiga fel och krascher. Använd endast när vissa appar inte kan öppnas.</string>
+    <string name="failed_to_save_invalidate_inline_hooks_list">Det gick inte att spara listan över inline-hooks som ska göras ogiltiga</string>
+    <string name="settings_enable_predictive_back">Förutsägande bakåtrörelse</string>
+    <string name="settings_enable_predictive_back_summary">Aktivera stöd för förutsägande bakåtrörelser</string>
+    <string name="settings_enable_swipe_dismiss">Bakåtsvepande rörelse</string>
+    <string name="settings_enable_swipe_dismiss_summary">Svep från kanten för att återgå till föregående sida.</string>
+    <string name="settings_tapjacking_protection">Skydd mot tapjacking</string>
+    <string name="settings_tapjacking_protection_summary">Blockerar beröringar när gränssnittet skyms, för att förhindra tapjacking-attacker</string>
+    <string name="module_readme">Läs mig</string>
+    <string name="module_releases">Utgåvor</string>
     <string name="module_information">Information</string>
     <string name="module_information_homepage">Hemsida</string>
     <string name="module_information_source_url">Källkod</string>
     <string name="module_information_collaborators">Medarbetare</string>
-    <string name="module_release_view_assets">Tillgångar</string>
+    <string name="module_release_view_assets">Bilagor</string>
     <string name="menu_open_in_browser">Öppna i webbläsare</string>
+    <string name="menu_share">Dela</string>
     <string name="module_release_load_more">Visa äldre versioner</string>
-    <string name="module_release_no_more">Ingen mer utgåva</string>
+    <string name="module_release_no_more">Inga fler utgåvor</string>
     <string name="sort_upgradable_first">Uppgraderingsbar först</string>
     <string name="installed">Installerad</string>
     <plurals name="module_release_assets_download_count">
-        <item quantity="one">%d ladda ner</item>
+        <item quantity="one">%d nedladdning</item>
         <item quantity="other">%d nedladdningar</item>
     </plurals>
     <!-- Colors -->
@@ -178,15 +189,98 @@
     <string name="color_indigo">Indigo</string>
     <string name="color_blue">Blå</string>
     <string name="color_light_blue">Ljusblå</string>
-    <string name="color_cyan">Turkos</string>
-    <string name="color_teal">Kricka</string>
+    <string name="color_cyan">Cyan</string>
+    <string name="color_teal">Blågrön</string>
     <string name="color_green">Grön</string>
     <string name="color_lime">Limegrön</string>
     <string name="color_yellow">Gul</string>
     <string name="color_amber">Bärnsten</string>
     <string name="color_orange">Orange</string>
     <string name="color_brown">Brun</string>
-    <string name="color_blue_grey">Blå grå</string>
+    <string name="color_blue_grey">Blågrå</string>
+    <string name="safe_mode">Säkert läge</string>
+    <string name="safe_mode_summary">LSPosed är i säkert läge</string>
+    <string name="safe_mode_summary2">Alla Xposed-moduler är otillgängliga till nästa omstart.\nVissa moduler har orsakat systemkrascher. Hitta och inaktivera dessa moduler och lämna återkoppling till modulutvecklarna.</string>
+    <string name="disable_all_modules">Inaktivera alla moduler</string>
+    <string name="confirm_disable_all_modules">Bekräfta?</string>
+    <plurals name="message_disable_all_modules">
+        <item quantity="one">%d modul kommer att inaktiveras.
+Åtgärden kan inte ångras.</item>
+        <item quantity="other">%d moduler kommer att inaktiveras.
+Åtgärden kan inte ångras.</item>
+    </plurals>
+    <string name="disable_success_title">Klart</string>
+    <string name="hook_debug_title">Hook-felsökning</string>
+    <string name="debugging_title">Felsökning</string>
     <string name="developer_mode_title">Utvecklarläge</string>
-    <string name="developer_mode_summary">Tillåt hantering av LSPosed-inställningar och tillämpningsområden med CLI-verktyget</string>
+    <string name="developer_mode_summary">Tillåt hantering av LSPosed-inställningar och omfattningar med CLI-verktyget</string>
+    <string name="safe_mode_disabled_title">Inaktivera säkert läge</string>
+    <string name="safe_mode_disabled_summary">Förhindra att säkert läge aktiveras när systemkomponenter upprepade gånger slutar svara</string>
+    <string name="hook_debug_summary">Tillåt dumpning av hook-felsökningsinformation för processer som använder hooks, vilket kan påverka prestandan</string>
+    <string name="dump_hook_debug_title">Dumpa hook-felsökningsinformation</string>
+    <string name="dump_hook_debug_summary">Dumpa hook-felsökningsinformation till /data/adb/lspd/log</string>
+    <string name="dump_hook_success">Dumpat till %s</string>
+    <string name="dump_hook_failed">Det gick inte att dumpa</string>
+    <string name="log_to_daemon_title">Logga till daemonen</string>
+    <string name="log_to_daemon_summary">Detta förhindrar att modulloggar kan läsas av appar, men kan påverka prestandan</string>
+    <plurals name="disable_success_message">
+        <item quantity="one">Inaktiverade %d modul</item>
+        <item quantity="other">Inaktiverade %d moduler</item>
+    </plurals>
+    <string name="follow_system">Följ systemet</string>
+    <string name="unknown_author">Okänd utvecklare</string>
+    <string name="unknown_version">Okänd version</string>
+    <string name="unknown_asset">Okänd bilaga</string>
+    <string name="download_asset">Ladda ned</string>
+    <string name="nav_back">Tillbaka</string>
+    <string name="nav_rail_expand">Expandera navigeringsfältet</string>
+    <string name="nav_rail_collapse">Komprimera navigeringsfältet</string>
+    <string name="menu">Meny</string>
+    <string name="menu_filter">Filter</string>
+    <string name="menu_parsed_view">Tolkad vy</string>
+    <string name="menu_raw_view">Råvy</string>
+    <string name="settings_ui">Gränssnittsstil</string>
+    <string name="settings_ui_summary">Välj programmets gränssnittsstil</string>
+    <string name="settings_theme">Tema</string>
+    <string name="settings_theme_summary">Välj programmets temaläge</string>
+    <string name="settings_theme_mode_system">Följ systemet</string>
+    <string name="settings_theme_mode_light">Ljust</string>
+    <string name="settings_theme_mode_dark">Mörkt</string>
+    <string name="settings_theme_mode_monet_system">Monet (följ systemet)</string>
+    <string name="settings_theme_mode_monet_light">Monet (ljust)</string>
+    <string name="settings_theme_mode_monet_dark">Monet (mörkt)</string>
+    <string name="settings_key_color">Accentfärg</string>
+    <string name="settings_key_color_summary">Anpassa utgångsfärgen när Monet används</string>
+    <string name="settings_key_color_default">Standard</string>
+    <string name="settings_theme_entry">Temainställningar</string>
+    <string name="settings_theme_entry_summary">Temaläge, accentfärg, palettstil med mera</string>
+    <string name="settings_palette_style">Palettstil</string>
+    <string name="settings_palette_style_summary">Tonalgoritmen som används för att härleda Material 3-paletten</string>
+    <string name="settings_color_spec">Färgspecifikation</string>
+    <string name="settings_color_spec_summary">Version av Material 3-färgspecifikationen</string>
+    <string name="settings_page_scale">Sidskala</string>
+    <string name="settings_page_scale_summary">Justera den globala visningsskalan</string>
+    <string name="settings_enable_blur">Oskärpa</string>
+    <string name="settings_enable_blur_summary">Aktivera oskärpa för de övre och nedre fälten</string>
+    <string name="settings_floating_bottom_bar">Flytande nedre fält</string>
+    <string name="settings_floating_bottom_bar_summary">Använd ett flytande nedre fält i Apple-liknande stil</string>
+    <string name="settings_enable_glass">Liquid Glass</string>
+    <string name="settings_enable_glass_summary">Aktivera Liquid Glass-effekten för det flytande nedre fältet</string>
+    <string name="refresh_pulling">Dra ned för att uppdatera</string>
+    <string name="refresh_release">Släpp för att uppdatera</string>
+    <string name="refresh_refresh">Uppdaterar…</string>
+    <string name="refresh_complete">Uppdateringen lyckades</string>
+    <string name="time_just_now">Nyss</string>
+    <plurals name="time_minutes_ago">
+        <item quantity="one">för %d minut sedan</item>
+        <item quantity="other">för %d minuter sedan</item>
+    </plurals>
+    <plurals name="time_hours_ago">
+        <item quantity="one">för %d timme sedan</item>
+        <item quantity="other">för %d timmar sedan</item>
+    </plurals>
+    <plurals name="time_days_ago">
+        <item quantity="one">för %d dag sedan</item>
+        <item quantity="other">för %d dagar sedan</item>
+    </plurals>
 </resources>

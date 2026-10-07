@@ -1,23 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--
-  ~ This file is part of LSPosed.
-  ~
-  ~ LSPosed is free software: you can redistribute it and/or modify
-  ~ it under the terms of the GNU General Public License as published by
-  ~ the Free Software Foundation, either version 3 of the License, or
-  ~ (at your option) any later version.
-  ~
-  ~ LSPosed is distributed in the hope that it will be useful,
-  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
-  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-  ~ GNU General Public License for more details.
-  ~
-  ~ You should have received a copy of the GNU General Public License
-  ~ along with LSPosed.  If not, see <https://www.gnu.org/licenses/>.
-  ~
-  ~ Copyright (C) 2021 LSPosed Contributors
-  -->
-<resources xmlns:tools="http://schemas.android.com/tools" tools:keep="@string/xposed_module_updated_notification_*,@string/module_is_not_activated_*">
+<resources>
     <!-- MainActivity -->
     <string name="overview">Pregled</string>
     <string name="Modules">Moduli</string>
@@ -25,23 +7,30 @@
     <string name="Settings">Postavke</string>
     <string name="About">Informacije</string>
     <string name="module_repo">Spremište modula</string>
+    <string name="about_send_bug_report">Pošaljite izvješće o pogrešci</string>
+    <string name="bug_report_message">Ukratko opišite problem</string>
+    <string name="bug_report_exporting_logs">Izvoz zapisa…</string>
+    <string name="about_join_telegram">Pridružite se Telegram kanalu</string>
+    <string name="email_address_copied">Adresa e-pošte kopirana</string>
     <string name="translators" comment="Dear translators, please add your home page here following the format. There can be more than one translator. So feel free to append yourself.">https://github.com/cube2412</string>
     <string name="not_installed">Nije instalirano</string>
     <string name="not_install_summary">LSPosed nije instaliran</string>
     <string name="activated">Aktiviran</string>
     <string name="partial_activated">Djelomično aktiviran</string>
-    <string name="system_inject_fail_summary">Injektiranje u System Framework nije uspjelo</string>
+    <string name="system_inject_fail_summary">Injektiranje u sustavski okvir nije uspjelo</string>
     <string name="system_inject_fail"><![CDATA[Ovo je rijetko i može biti uzrokovano aplikacijom <b>Magisk</b> ili nekim Magisk modulima niske kvalitete.<br/>Pokušajte onemogućiti Magisk module koji nisu Zygisk i LSPosed ili pošaljite cijeli zapis programerima.]]></string>
     <string name="system_prop_incorrect_summary">Svojstva sustava nisu ispravna</string>
     <string name="system_prop_incorrect"><![CDATA[Neka od potrebnih svojstva sustava su izbrisana ili izmijenjena.<br/>Moduli povremeno mogu biti nedostupni.]]></string>
     <string name="hyrt_unavailable_summary">Injektiranje u HyperOS Runtime nije uspjelo</string>
     <string name="hyrt_unavailable">Otkriven je HyperOS Runtime, ali Zygisk Next API nije dostupan. Nativni moduli neće se učitavati u procese HyperOS Runtime.</string>
     <string name="need_update">Treba ažurirati</string>
+    <string name="developer_warning_title">Savjeti za razvijatelje modula</string>
+    <string name="developer_warning_summary">Onemogućite optimizacije postavljanja u Android Studiju ili za instalaciju upotrijebite naredbu `gradlew installDebug`. U protivnom se modul apk neće ažurirati.</string>
     <string name="info_manager_package_name">Naziv paketa upravitelja</string>
-    <string name="info_system_version">System verzija</string>
+    <string name="info_system_version">Verzija sustava</string>
     <string name="info_device">Uređaj</string>
-    <string name="info_system_abi">System ABI</string>
-    <string name="info_dex2oat_wrapper">Dex Optimizer Wrapper</string>
+    <string name="info_system_abi">ABI sustava</string>
+    <string name="info_dex2oat_wrapper">Omotač Dex optimizatora</string>
     <string name="enabled">Omogućeno</string>
     <string name="not_enabled">Nije omogućeno</string>
     <string name="supported">Podržano</string>
@@ -53,6 +42,7 @@
     <string name="mount_failed">Postavljanje nije uspjelo</string>
     <string name="info_copied">Kopirano u međuspremnik</string>
     <!-- WelcomeDialog -->
+    <string name="touch_filtered_warning">Budući da aplikacija prekriva sučelje, Upravitelj ne može potvrditi vaš odgovor.</string>
     <string name="parasitic_welcome">Dobrodošli u LSPosed</string>
     <string name="parasitic_welcome_summary">Koristite parazitski upravitelj koji se može otvoriti iz obavijesti.</string>
     <string name="never_show">Nikad ne pokazuj</string>
@@ -65,6 +55,8 @@
     <string name="logs_saving">Spremanje dnevnika, pričekajte</string>
     <string name="logs_saved">Zapisi spremljeni</string>
     <string name="logs_save_failed2">Neuspješno spremanje:\n%s</string>
+    <string name="logs_preparing">Priprema zapisa, pričekajte</string>
+    <string name="logs_prepare_failed">Priprema nije uspjela:\n%s</string>
     <string name="menuClearLog">Očisti zapis sada</string>
     <string name="scroll_top">Pomaknite se na vrh</string>
     <string name="scroll_bottom">Pomaknite se do dna</string>
@@ -87,6 +79,9 @@
     <string name="expand">proširi</string>
     <string name="collapse">sklopi</string>
     <!-- AppListActivity -->
+    <string name="reset_scope_request_setting">Poništi postavku zahtjeva za opseg</string>
+    <string name="reset_scope_request_setting_done">Postavka zahtjeva za opseg poništena</string>
+    <string name="hide_non_system_overlay_failed_no_permission">Skrivanje nesistemskog sloja nije uspjelo, ažurirajte upravitelja.</string>
     <string name="compile_speed">Ponovno optimiziraj</string>
     <string name="compile_speed_msg">Optimizacija…</string>
     <string name="compile_done">Optimizacija dovršena</string>
@@ -103,14 +98,17 @@
     <string name="enable_module">Omogući modul</string>
     <string name="menu_show_games">Igre</string>
     <string name="menu_show_modules">Moduli</string>
+    <string name="module_scope_list_static_scope">Modul je deklarirao statični opseg</string>
     <string name="failed_to_save_scope_list">Spremanje popisa opsega primjene nije uspjelo</string>
     <string name="app_version">Verzija: %1$s</string>
     <string name="use_recommended">Preporučeno</string>
     <string name="use_recommended_message">Odaberi preporučene aplikacije?</string>
+    <string name="deselect_all">Odznači sve</string>
+    <string name="deselect_all_message">Odznačiti sve odabrane aplikacije?</string>
     <string name="module_is_not_activated_yet">Xposed modul još nije aktiviran</string>
-    <string name="requested_by_module">Preporučeno</string>
+    <string name="requested_by_module">Preporučio modul</string>
     <string name="update_available">Dostupno ažuriranje: %1$s</string>
-    <string name="android_framework">System Framework</string>
+    <string name="android_framework">Sustavski okvir</string>
     <string name="menu_backup">Sigurnosna kopija</string>
     <string name="menu_restore">Vrati sigurnosnu kopiju</string>
     <string name="force_stop">Prisilno zaustavi</string>
@@ -132,12 +130,15 @@
     <string name="settings_restore_summary">Lista modula vraćenih iz sigurnosne kopije i opsežne liste.</string>
     <string name="settings_backup">Sigurnosna kopija</string>
     <string name="settings_backup_failed2">Sigurnosno kopiranje nije uspjelo:\n%s</string>
-    <string name="enable_documentui">Molimo omogućite DocumentUI</string>
+    <string name="enable_documentui">Molimo omogućite DocumentsUI</string>
     <string name="settings_restore">Vrati</string>
     <string name="settings_restore_failed2">Nije uspjelo vraćanje:\n%s</string>
     <string name="group_network">Mreža</string>
     <string name="dns_over_http">DNS preko HTTPS-a</string>
     <string name="dns_over_http_summary">Zaobilazno rješenje DNS trovanja u nekim zemljama</string>
+    <string name="settings_repo_cdn">CDN spremišta modula</string>
+    <string name="repo_cdn_default">Zadano</string>
+    <string name="repo_cdn_backup">Sigurnosna kopija</string>
     <string name="settings_show_hidden_icon_apps_enabled">Prisilite aplikacije da prikazuju ikone pokretača</string>
     <string name="settings_show_hidden_icon_apps_enabled_summary">Nakon Androida 10 aplikacijama nije dopušteno skrivanje ikona pokretača. Isključite prekidač da biste onemogućili ovu značajku sustava.</string>
     <string name="settings_group_system">Sustav</string>
@@ -147,13 +148,22 @@
     <string name="settings_translation_summary">Pomozite nam prevesti %s na vaš jezik</string>
     <string name="settings_enable_status_notification">Obavijest o statusu</string>
     <string name="settings_enable_status_notification_summary">Prikaži obavijest koja može otvoriti parazitski upravitelj</string>
-    <string name="settings_update_channel">Ažurirajte kanal</string>
+    <string name="settings_update_channel">Kanal ažuriranja modula</string>
     <string name="update_channel_stable">Stabilan</string>
     <string name="update_channel_beta">Beta</string>
     <string name="update_channel_nightly">Noćna izgradnja</string>
     <string name="settings_xposed_api_call_protection">Xposed API zaštita poziva</string>
     <string name="settings_xposed_api_call_protection_summary">Blokirajte dinamički učitani kod modula za korištenje Xposed API-ja, to može pokvariti neke module, ali doprinosi sigurnosti</string>
     <!-- Module Repo -->
+    <string name="settings_invalidate_inline_hooks">Poništi umetnute hookove</string>
+    <string name="settings_invalidate_inline_hooks_summary">Očistite libart.so za navedene aplikacije. To će uzrokovati nasumične kvarove i rušenja. Upotrijebite samo kada ne možete otvoriti određene aplikacije.</string>
+    <string name="failed_to_save_invalidate_inline_hooks_list">Spremanje popisa za poništavanje umetnutih hookova nije uspjelo</string>
+    <string name="settings_enable_predictive_back">Gesta predviđenog povratka</string>
+    <string name="settings_enable_predictive_back_summary">Omogućite podršku za geste predviđenog povratka.</string>
+    <string name="settings_enable_swipe_dismiss">Gesta povratka povlačenjem</string>
+    <string name="settings_enable_swipe_dismiss_summary">Povucite od ruba zaslona za povratak na prethodnu stranicu.</string>
+    <string name="settings_tapjacking_protection">Ublažavanje otmice dodira</string>
+    <string name="settings_tapjacking_protection_summary">Blokira dodire dok je sučelje prekriveno kako bi se spriječili napadi otmice dodira</string>
     <string name="module_readme">Pročitaj me</string>
     <string name="module_releases">Izdanja</string>
     <string name="module_information">Info</string>
@@ -162,6 +172,7 @@
     <string name="module_information_collaborators">Suradnici</string>
     <string name="module_release_view_assets">Imovina</string>
     <string name="menu_open_in_browser">Otvori u pretraživaču</string>
+    <string name="menu_share">Podijeli</string>
     <string name="module_release_load_more">Prikaži starije verzije</string>
     <string name="module_release_no_more">Nema više puštanja</string>
     <string name="sort_upgradable_first">Prvo nadogradivo</string>
@@ -179,15 +190,104 @@
     <string name="color_indigo">Indigo</string>
     <string name="color_blue">Plava</string>
     <string name="color_light_blue">Svijetlo plava</string>
-    <string name="color_cyan">cijan</string>
-    <string name="color_teal">Teal</string>
-    <string name="color_green">zelena</string>
-    <string name="color_lime">Vapno</string>
+    <string name="color_cyan">Cijan</string>
+    <string name="color_teal">Modrozelena</string>
+    <string name="color_green">Zelena</string>
+    <string name="color_lime">Limetna zelena</string>
     <string name="color_yellow">Žuta boja</string>
-    <string name="color_amber">jantar</string>
-    <string name="color_orange">naranča</string>
+    <string name="color_amber">Jantar</string>
+    <string name="color_orange">Narančasta</string>
     <string name="color_brown">Smeđa</string>
     <string name="color_blue_grey">Plavo siva</string>
+    <string name="safe_mode">Sigurni način rada</string>
+    <string name="safe_mode_summary">LSPosed je u sigurnom načinu rada</string>
+    <string name="safe_mode_summary2">Svi Xposed moduli nedostupni su do sljedećeg ponovnog pokretanja.\nNeki moduli uzrokovali su rušenja sustava. Pronađite i onemogućite te module te pošaljite povratne informacije razvijateljima modula.</string>
+    <string name="disable_all_modules">Onemogući sve module</string>
+    <string name="confirm_disable_all_modules">Potvrditi?</string>
+    <plurals name="message_disable_all_modules">
+        <item quantity="one">%d modul bit će onemogućen.
+Ovaj se postupak ne može poništiti.</item>
+        <item quantity="few">%d modula bit će onemogućena.
+Ovaj se postupak ne može poništiti.</item>
+        <item quantity="other">%d modula bit će onemogućeno.
+Ovaj se postupak ne može poništiti.</item>
+    </plurals>
+    <string name="disable_success_title">Uspjeh</string>
+    <string name="hook_debug_title">Otklanjanje pogrešaka hookova</string>
+    <string name="debugging_title">Otklanjanje pogrešaka</string>
     <string name="developer_mode_title">Način rada za razvojne programere</string>
     <string name="developer_mode_summary">Dopusti upravljanje postavkama i opsezima LSPoseda putem CLI alata</string>
+    <string name="safe_mode_disabled_title">Onemogući sigurni način rada</string>
+    <string name="safe_mode_disabled_summary">Onemogućite prelazak u sigurni način rada kada se sistemske komponente stalno zaustavljaju</string>
+    <string name="hook_debug_summary">Omogućite izbacivanje informacija za otklanjanje pogrešaka hookova hookanih procesa, što može utjecati na performanse</string>
+    <string name="dump_hook_debug_title">Izbaci informacije za otklanjanje pogrešaka hookova</string>
+    <string name="dump_hook_debug_summary">Izbacite informacije za otklanjanje pogrešaka hookova u /data/adb/lspd/log</string>
+    <string name="dump_hook_success">Izbačeno u %s</string>
+    <string name="dump_hook_failed">Izbacivanje nije uspjelo</string>
+    <string name="log_to_daemon_title">Zapisuj u pozadinski servis</string>
+    <string name="log_to_daemon_summary">To sprječava aplikacije da čitaju zapise modula, ali može utjecati na performanse</string>
+    <plurals name="disable_success_message">
+        <item quantity="one">Onemogućen %d modul</item>
+        <item quantity="few">Onemogućena %d modula</item>
+        <item quantity="other">Onemogućeno %d modula</item>
+    </plurals>
+    <string name="follow_system">Slijedi sustav</string>
+    <string name="unknown_author">Nepoznat autor</string>
+    <string name="unknown_version">Nepoznata verzija</string>
+    <string name="unknown_asset">Nepoznata datoteka</string>
+    <string name="download_asset">Preuzmi</string>
+    <string name="nav_back">Natrag</string>
+    <string name="nav_rail_expand">Proširi navigacijsku traku</string>
+    <string name="nav_rail_collapse">Sažmi navigacijsku traku</string>
+    <string name="menu">Izbornik</string>
+    <string name="menu_filter">Filtar</string>
+    <string name="menu_parsed_view">Razriješeni prikaz</string>
+    <string name="menu_raw_view">Izvorni prikaz</string>
+    <string name="settings_ui">Stil sučelja</string>
+    <string name="settings_ui_summary">Odaberite stil sučelja</string>
+    <string name="settings_theme">Tema</string>
+    <string name="settings_theme_summary">Odaberite način rada teme aplikacije</string>
+    <string name="settings_theme_mode_system">Slijedi sustav</string>
+    <string name="settings_theme_mode_light">Svijetlo</string>
+    <string name="settings_theme_mode_dark">Tamno</string>
+    <string name="settings_theme_mode_monet_system">Monet (slijedi sustav)</string>
+    <string name="settings_theme_mode_monet_light">Monet (svijetlo)</string>
+    <string name="settings_theme_mode_monet_dark">Monet (tamno)</string>
+    <string name="settings_key_color">Boja isticanja</string>
+    <string name="settings_key_color_summary">Prilagodite početnu boju pri korištenju Moneta</string>
+    <string name="settings_key_color_default">Zadano</string>
+    <string name="settings_theme_entry">Postavke teme</string>
+    <string name="settings_theme_entry_summary">Način rada teme, boja isticanja, stil palete i više</string>
+    <string name="settings_palette_style">Stil palete</string>
+    <string name="settings_palette_style_summary">Algoritam tona koji se upotrebljava za izvođenje Material 3 palete</string>
+    <string name="settings_color_spec">Specifikacija boja</string>
+    <string name="settings_color_spec_summary">Verzija specifikacije boja Material 3</string>
+    <string name="settings_page_scale">Mjerilo stranice</string>
+    <string name="settings_page_scale_summary">Prilagodite globalno mjerilo prikaza</string>
+    <string name="settings_enable_blur">Zamućenje</string>
+    <string name="settings_enable_blur_summary">Omogućite učinak zamućenja za gornju i donju traku</string>
+    <string name="settings_floating_bottom_bar">Lebdeća donja traka</string>
+    <string name="settings_floating_bottom_bar_summary">Upotrijebite lebdeću donju traku u stilu Applea</string>
+    <string name="settings_enable_glass">Tekuće staklo</string>
+    <string name="settings_enable_glass_summary">Omogućite učinak tekućeg stakla za lebdeću donju traku</string>
+    <string name="refresh_pulling">Povucite prema dolje za osvježavanje</string>
+    <string name="refresh_release">Otvorite za osvježavanje</string>
+    <string name="refresh_refresh">Osvježavanje…</string>
+    <string name="refresh_complete">Uspješno osvježeno</string>
+    <string name="time_just_now">Upravo sad</string>
+    <plurals name="time_minutes_ago">
+        <item quantity="one">prije %d minutu</item>
+        <item quantity="few">prije %d minute</item>
+        <item quantity="other">prije %d minuta</item>
+    </plurals>
+    <plurals name="time_hours_ago">
+        <item quantity="one">prije %d sat</item>
+        <item quantity="few">prije %d sata</item>
+        <item quantity="other">prije %d sati</item>
+    </plurals>
+    <plurals name="time_days_ago">
+        <item quantity="one">prije %d dan</item>
+        <item quantity="few">prije %d dana</item>
+        <item quantity="other">prije %d dana</item>
+    </plurals>
 </resources>

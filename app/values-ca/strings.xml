@@ -1,92 +1,87 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--
-  ~ This file is part of LSPosed.
-  ~
-  ~ LSPosed is free software: you can redistribute it and/or modify
-  ~ it under the terms of the GNU General Public License as published by
-  ~ the Free Software Foundation, either version 3 of the License, or
-  ~ (at your option) any later version.
-  ~
-  ~ LSPosed is distributed in the hope that it will be useful,
-  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
-  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-  ~ GNU General Public License for more details.
-  ~
-  ~ You should have received a copy of the GNU General Public License
-  ~ along with LSPosed.  If not, see <https://www.gnu.org/licenses/>.
-  ~
-  ~ Copyright (C) 2021 LSPosed Contributors
-  -->
-<resources xmlns:tools="http://schemas.android.com/tools" tools:keep="@string/xposed_module_updated_notification_*,@string/module_is_not_activated_*">
+<resources>
     <!-- MainActivity -->
     <string name="overview">Visió general</string>
     <string name="Modules">Mòduls</string>
-    <string name="Logs">Logs</string>
+    <string name="Logs">Registres</string>
     <string name="Settings">Configuració</string>
     <string name="About">Sobre</string>
     <string name="module_repo">Repositori</string>
+    <string name="about_send_bug_report">Envia un informe d\'error</string>
+    <string name="bug_report_message">Descriu breument el problema</string>
+    <string name="bug_report_exporting_logs">S\'estan exportant els registres…</string>
+    <string name="about_join_telegram">Uneix-te al canal de Telegram</string>
+    <string name="email_address_copied">Adreça electrònica copiada</string>
     <string name="translators" comment="Dear translators, please add your home page here following the format. There can be more than one translator. So feel free to append yourself.">Frederic Blay,  Ghost Face, Yannick Kamin</string>
     <string name="not_installed">No instalat</string>
     <string name="not_install_summary">LSPosed no està instal·lat</string>
     <string name="activated">Activat</string>
     <string name="partial_activated">Parcialment activat</string>
     <string name="system_inject_fail_summary">La injecció del marc del sistema ha fallat</string>
-    <string name="system_inject_fail"><![CDATA[Això és poc comú i podria ser causat per <b>Magisk</b> o algún Mòdul de baixa qualitat<br/>Si us plau, prova a desactivar els demés mòduls de magisk excepte Zygisk i LSPosed o envia un informe complet als desarrolladors.]]></string>
-    <string name="system_prop_incorrect_summary">Prop del sistema incorrecte</string>
+    <string name="system_inject_fail"><![CDATA[Això és poc comú i podria ser causat per <b>Magisk</b> o algun mòdul de baixa qualitat de Magisk.<br/>Prova de desactivar els mòduls de Magisk que no siguin Zygisk ni LSPosed, o envia un informe complet als desenvolupadors.]]></string>
+    <string name="system_prop_incorrect_summary">Propietats del sistema incorrectes</string>
     <string name="system_prop_incorrect"><![CDATA[S\'han suprimit o modificat algunes propietats necessàries del sistema.<br/>Els mòduls poden invalidar-se ocasionalment.]]></string>
     <string name="hyrt_unavailable_summary">Ha fallat la injecció de HyperOS Runtime</string>
     <string name="hyrt_unavailable">S’ha detectat HyperOS Runtime, però l’API de Zygisk Next no està disponible. Els mòduls natius no es carregaran als processos de HyperOS Runtime.</string>
     <string name="need_update">Cal actualitzar</string>
+    <string name="developer_warning_title">Consells per als desenvolupadors de mòduls</string>
+    <string name="developer_warning_summary">Desactiveu les optimitzacions de desplegament a Android Studio o instal·leu amb l\'ordre `gradlew installDebug`. En cas contrari, l\'APK del mòdul no s\'actualitzarà.</string>
     <string name="info_manager_package_name">Nom del paquet del gestor</string>
     <string name="info_system_version">Versió del sistema</string>
     <string name="info_device">Dispositiu</string>
-    <string name="info_system_abi">Sistema ABI</string>
+    <string name="info_system_abi">ABI del sistema</string>
     <string name="info_dex2oat_wrapper">Embolcall de Dex Optimizer</string>
     <string name="enabled">Habilitat</string>
     <string name="not_enabled">No habilitat</string>
-    <string name="supported">Admet</string>
+    <string name="supported">Amb suport</string>
     <string name="unsupported">Sense suport</string>
     <string name="mounted">Muntat</string>
     <string name="injected">Injectat</string>
-    <string name="android_version_unsatisfied">La versió d\'Android no està satisfeta</string>
+    <string name="android_version_unsatisfied">Versió d\'Android no compatible</string>
     <string name="crashed">Estavellat</string>
     <string name="mount_failed">El muntatge ha fallat</string>
     <string name="info_copied">S\'ha copiat al porta-retalls</string>
     <!-- WelcomeDialog -->
+    <string name="touch_filtered_warning">Com que una aplicació està tapant la interfície, el gestor no pot verificar la vostra resposta.</string>
     <string name="parasitic_welcome">Benvingut a LSPosed</string>
-    <string name="parasitic_welcome_summary">Esteu utilitzant el gestor de paràsits, que es pot obrir des de la notificació.</string>
+    <string name="parasitic_welcome_summary">Utilitzes el gestor paràsit, que es pot obrir des de la notificació.</string>
     <string name="never_show">No mostris mai</string>
-    <string name="app_welcome">Administrador de paràsits recomanat</string>
-    <string name="app_welcome_summary">LSPosed ara admet la parasitització del sistema per evitar la detecció, podeu obrir el gestor de paràsits des de la notificació. Es recomana desinstal·lar l\'aplicació actual.</string>
+    <string name="app_welcome">Gestor paràsit recomanat</string>
+    <string name="app_welcome_summary">LSPosed ara admet la parasitització del sistema per evitar la detecció, pots obrir el gestor paràsit des de la notificació. Es recomana desinstal·lar l\'aplicació actual.</string>
     <!-- LogsActivity -->
     <string name="menuSaveToSd">Desa</string>
     <string name="nav_item_logs_verbose">Registres detallats</string>
     <string name="nav_item_logs_module">Registres de mòduls</string>
-    <string name="logs_saving">S\'està desant el registre, espereu</string>
-    <string name="logs_saved">Registres guardats</string>
+    <string name="logs_saving">S\'està desant el registre, espera</string>
+    <string name="logs_saved">Registres desats</string>
     <string name="logs_save_failed2">No s\'ha pogut desar:\n%s</string>
+    <string name="logs_preparing">S\'està preparant el registre, espereu</string>
+    <string name="logs_prepare_failed">No s\'ha pogut preparar:\n%s</string>
     <string name="menuClearLog">Esborra el registre ara</string>
-    <string name="scroll_top">Desplaceu-vos cap a dalt</string>
-    <string name="scroll_bottom">Desplaceu-vos cap avall</string>
-    <string name="menu_enable_word_wrap">L\'ajust de línia</string>
+    <string name="scroll_top">Desplaça\'t cap a dalt</string>
+    <string name="scroll_bottom">Desplaça\'t cap avall</string>
+    <string name="menu_enable_word_wrap">Ajust de línia</string>
     <!-- ModulesActivity -->
     <string name="warning_xposed_min_version">Aquest mòdul requereix una versió més nova de Xposed (%d) i per tant no es pot activar</string>
     <string name="warning_target_version_higher">Aquest mòdul està dissenyat per a una versió més nova de Xposed (%d) i per tant algunes funcionalitats poden no funcionar</string>
     <string name="no_min_version_specified">Aquest mòdul no especifica la versió de Xposed que necessita.</string>
     <string name="warning_min_version_too_low">Aquest mòdul es va crear per a Xposed versió %1$d, però a causa de canvis incompatibles a la versió %2$d, s\'ha desactivat</string>
-    <string name="warning_deprecated_feature">Aquest mòdul utilitza una funció obsoleta que s’eliminarà aviat. Contacteu amb l’autor o considereu una alternativa.</string>
-    <string name="warning_installed_on_external_storage">Aquest mòdul no es pot carregar perquè està instal·lat a la targeta SD, moveu-lo a l\'emmagatzematge intern</string>
+    <string name="warning_deprecated_feature">Aquest mòdul utilitza una funció obsoleta que s’eliminarà aviat. Contacta amb l’autor o considera una alternativa.</string>
+    <string name="warning_installed_on_external_storage">Aquest mòdul no es pot carregar perquè està instal·lat a la targeta SD, mou-lo a l\'emmagatzematge intern</string>
     <string name="module_uninstall">Desinstal·la</string>
     <string name="module_settings">Configuració del mòdul</string>
-    <string name="view_in_repo">Veure a Repo</string>
-    <string name="module_uninstall_message">Voleu desinstal·lar aquest mòdul?</string>
+    <string name="view_in_repo">Veure al repositori</string>
+    <string name="module_uninstall_message">Vols desinstal·lar aquest mòdul?</string>
     <string name="module_uninstalled">Desinstal·lat %1$s</string>
     <string name="module_uninstall_failed">La desinstal·lació no s\'ha realitzat correctament</string>
     <string name="module_install_failed">S\'ha produït un error en afegir el mòdul</string>
     <string name="install_to_user">Instal·lar a l\'usuari %s</string>
-    <string name="expand">expandir</string>
-    <string name="collapse">col·lapse</string>
+    <string name="expand">Desplega</string>
+    <string name="collapse">Replega</string>
     <!-- AppListActivity -->
+    <string name="reset_scope_request_setting">Restableix la configuració de sol·licitud d\'àmbit</string>
+    <string name="reset_scope_request_setting_done">S\'ha restablert la configuració de sol·licitud d\'àmbit</string>
+    <string name="hide_non_system_overlay_failed_no_permission">No s\'ha pogut amagar l\'ampliació que no és del sistema, actualitzeu el gestor.</string>
     <string name="compile_speed">Torna a optimitzar</string>
     <string name="compile_speed_msg">Optimització…</string>
     <string name="compile_done">Optimització completa</string>
@@ -97,27 +92,30 @@
     <string name="sort_by_package_name">Nom del paquet</string>
     <string name="sort_by_install_time">Temps d\'instal·lació</string>
     <string name="sort_by_update_time">Hora d\'actualització</string>
-    <string name="sort_reverse">Revés</string>
+    <string name="sort_reverse">Inverteix</string>
     <string name="menu_show_system_apps">Aplicacions del sistema</string>
-    <string name="menu_sort">Classificació</string>
+    <string name="menu_sort">Ordenació</string>
     <string name="enable_module">Activa el mòdul</string>
     <string name="menu_show_games">Jocs</string>
     <string name="menu_show_modules">Mòduls</string>
+    <string name="module_scope_list_static_scope">El mòdul ha declarat un àmbit estàtic</string>
     <string name="failed_to_save_scope_list">No s\'ha pogut desar la llista d\'àmbits</string>
     <string name="app_version">Versió: %1$s</string>
     <string name="use_recommended">Recomanat</string>
     <string name="use_recommended_message">Vols seleccionar aplicacions recomanades?</string>
+    <string name="deselect_all">Desmarca-ho tot</string>
+    <string name="deselect_all_message">Voleu desmarcar totes les aplicacions seleccionades?</string>
     <string name="module_is_not_activated_yet">El mòdul Xposed encara no està activat</string>
-    <string name="requested_by_module">Recomanat</string>
+    <string name="requested_by_module">Recomanat per un mòdul</string>
     <string name="update_available">Actualització disponible: %1$s</string>
     <string name="android_framework">Marc del sistema</string>
     <string name="menu_backup">Còpia de seguretat</string>
     <string name="menu_restore">Restaurar</string>
-    <string name="force_stop">Parada forçada</string>
-    <string name="force_stop_dlg_title">Parada forçada?</string>
-    <string name="force_stop_dlg_text">Si forços l\'aturada d\'una aplicació, és possible que es comporti malament.</string>
+    <string name="force_stop">Força l\'aturada</string>
+    <string name="force_stop_dlg_title">Vols forçar l\'aturada?</string>
+    <string name="force_stop_dlg_text">Si forces l\'aturada d\'una aplicació, és possible que es comporti malament.</string>
     <string name="reboot_required">Cal reiniciar perquè s\'apliqui aquest canvi</string>
-    <string name="reboot">Reinicieu</string>
+    <string name="reboot">Reinicia</string>
     <!-- ModulesActivity and AppListActivity -->
     <string name="modules_other_app">Veure en una altra aplicació</string>
     <string name="module_app_info">Informació de l\'aplicació</string>
@@ -125,49 +123,63 @@
     <!-- SettingsActivity -->
     <string name="settings_group_framework">Marc</string>
     <string name="settings_disable_verbose_log">Desactiva els registres detallats</string>
-    <string name="settings_disable_verbose_log_summary">Sol·licitud d\'informes de problemes per incloure registres detallats</string>
+    <string name="settings_disable_verbose_log_summary">Els informes de problemes han d’incloure registres detallats</string>
     <string name="settings_group_theme">Tema</string>
-    <string name="settings_backup_and_restore">Còpia de seguretat i restaurar</string>
-    <string name="settings_backup_summary">Llista de mòduls de còpia de seguretat i llistes d\'abast.</string>
-    <string name="settings_restore_summary">Restaura la llista de mòduls i les llistes d\'abast.</string>
+    <string name="settings_backup_and_restore">Còpia de seguretat i restauració</string>
+    <string name="settings_backup_summary">Còpia de seguretat de la llista de mòduls i de les llistes d\'àmbits.</string>
+    <string name="settings_restore_summary">Restaura la llista de mòduls i les llistes d\'àmbits.</string>
     <string name="settings_backup">Còpia de seguretat</string>
     <string name="settings_backup_failed2">No s\'ha pogut fer la còpia de seguretat:\n%s</string>
-    <string name="enable_documentui">Si us plau, activeu DocumentUI</string>
+    <string name="enable_documentui">Activeu DocumentsUI</string>
     <string name="settings_restore">Restaurar</string>
     <string name="settings_restore_failed2">No s\'ha pogut restaurar:\n%s</string>
     <string name="group_network">Xarxa</string>
     <string name="dns_over_http">DNS sobre HTTPS</string>
     <string name="dns_over_http_summary">Solució alternativa a l\'enverinament per DNS en algunes nacions</string>
+    <string name="settings_repo_cdn">CDN del repositori de mòduls</string>
+    <string name="repo_cdn_default">Predeterminat</string>
+    <string name="repo_cdn_backup">Còpia de seguretat</string>
     <string name="settings_show_hidden_icon_apps_enabled">Força les aplicacions a mostrar icones del llançador</string>
-    <string name="settings_show_hidden_icon_apps_enabled_summary">Després d\'Android 10, les aplicacions no poden amagar les icones del llançador. Desactiveu el commutador per desactivar aquesta funció del sistema.</string>
+    <string name="settings_show_hidden_icon_apps_enabled_summary">Després d\'Android 10, les aplicacions no poden amagar les icones del llançador. Desactiva el commutador per desactivar aquesta funció del sistema.</string>
     <string name="settings_group_system">Sistema</string>
-    <string name="settings_language">Llenguatge</string>
+    <string name="settings_language">Idioma</string>
     <string name="settings_translation_contributors">Col·laboradors de traducció</string>
     <string name="settings_translation">Participar en la traducció</string>
     <string name="settings_translation_summary">Ajuda\'ns a traduir %s al teu idioma</string>
     <string name="settings_enable_status_notification">Notificació d\'estat</string>
-    <string name="settings_enable_status_notification_summary">Mostra una notificació que pugui obrir el gestor de paràsits</string>
-    <string name="settings_update_channel">Actualitza el canal</string>
+    <string name="settings_enable_status_notification_summary">Mostra una notificació que pugui obrir el gestor paràsit</string>
+    <string name="settings_update_channel">Canal d\'actualització de mòduls</string>
     <string name="update_channel_stable">Estable</string>
     <string name="update_channel_beta">Beta</string>
-    <string name="update_channel_nightly">Construcció nocturna</string>
+    <string name="update_channel_nightly">Compilació nocturna</string>
     <string name="settings_xposed_api_call_protection">Protecció de trucades de l\'API Xposed</string>
-    <string name="settings_xposed_api_call_protection_summary">Bloqueja el codi del mòdul carregat dinàmicament per utilitzar l\'API Xposed, això pot trencar alguns mòduls però beneficiar la seguretat</string>
+    <string name="settings_xposed_api_call_protection_summary">Bloqueja l\'ús de l\'API Xposed per part del codi dels mòduls carregats dinàmicament, això pot trencar alguns mòduls però millora la seguretat</string>
     <!-- Module Repo -->
-    <string name="module_readme">Llegiu-me</string>
-    <string name="module_releases">Alliberaments</string>
+    <string name="settings_invalidate_inline_hooks">Invalida els hooks en línia</string>
+    <string name="settings_invalidate_inline_hooks_summary">Neteja el libart.so de les aplicacions de la llista. Això provocarà errors i bloquejos aleatoris. Utilitzeu-ho només quan no pugueu obrir aplicacions concretes.</string>
+    <string name="failed_to_save_invalidate_inline_hooks_list">No s\'ha pogut desar la llista d\'invalidació dels hooks en línia</string>
+    <string name="settings_enable_predictive_back">Geste de retrocés predictiu</string>
+    <string name="settings_enable_predictive_back_summary">Activa la compatibilitat amb els gestos de retrocés predictiu.</string>
+    <string name="settings_enable_swipe_dismiss">Geste de retrocés lliscant</string>
+    <string name="settings_enable_swipe_dismiss_summary">Llisca des de la vora per tornar a la pàgina anterior.</string>
+    <string name="settings_tapjacking_protection">Mitigació del segrest de tocs</string>
+    <string name="settings_tapjacking_protection_summary">Bloqueja els tocs quan la interfície està tapada per evitar atacs de segrest de tocs</string>
+    <string name="module_readme">Llegeix-me</string>
+    <string name="module_releases">Versions</string>
     <string name="module_information">Informació</string>
     <string name="module_information_homepage">Pàgina d\'inici</string>
     <string name="module_information_source_url">Codi font</string>
     <string name="module_information_collaborators">Col·laboradors</string>
-    <string name="module_release_view_assets">Actius</string>
-    <string name="menu_open_in_browser">Oberta al navegador</string>
+    <string name="module_release_view_assets">Fitxers</string>
+    <string name="menu_open_in_browser">Obre al navegador</string>
+    <string name="menu_share">Comparteix</string>
     <string name="module_release_load_more">Mostra les versions anteriors</string>
-    <string name="module_release_no_more">No més llançament</string>
-    <string name="sort_upgradable_first">Actualitzable primer</string>
+    <string name="module_release_no_more">No hi ha més versions</string>
+    <string name="sort_upgradable_first">Actualitzables primer</string>
     <string name="installed">Instal·lat</string>
     <plurals name="module_release_assets_download_count">
         <item quantity="one">%d descàrrega</item>
+        <item quantity="many">%d de descàrregues</item>
         <item quantity="other">%d descàrregues</item>
     </plurals>
     <!-- Colors -->
@@ -179,14 +191,103 @@
     <string name="color_blue">Blau</string>
     <string name="color_light_blue">Blau clar</string>
     <string name="color_cyan">Cian</string>
-    <string name="color_teal">Teal</string>
-    <string name="color_green">verd</string>
-    <string name="color_lime">Lima</string>
-    <string name="color_yellow">groc</string>
+    <string name="color_teal">Verd blavós</string>
+    <string name="color_green">Verd</string>
+    <string name="color_lime">Llima</string>
+    <string name="color_yellow">Groc</string>
     <string name="color_amber">Ambre</string>
-    <string name="color_orange">taronja</string>
-    <string name="color_brown">marró</string>
+    <string name="color_orange">Taronja</string>
+    <string name="color_brown">Marró</string>
     <string name="color_blue_grey">Gris blau</string>
+    <string name="safe_mode">Mode segur</string>
+    <string name="safe_mode_summary">LSPosed està en mode segur</string>
+    <string name="safe_mode_summary2">Tots els mòduls Xposed no estaran disponibles fins al proper reinici.\nAlguns mòduls han provocat bloquejos del sistema. Trobeu i desactiveu aquests mòduls i informeu-ne els seus desenvolupadors.</string>
+    <string name="disable_all_modules">Desactiva tots els mòduls</string>
+    <string name="confirm_disable_all_modules">Confirmes?</string>
+    <plurals name="message_disable_all_modules">
+        <item quantity="one">Es desactivarà %d mòdul.
+Aquesta operació no es pot desfer.</item>
+        <item quantity="many">Es desactivaran %d mòduls.
+Aquesta operació no es pot desfer.</item>
+        <item quantity="other">Es desactivaran %d mòduls.
+Aquesta operació no es pot desfer.</item>
+    </plurals>
+    <string name="disable_success_title">Fet</string>
+    <string name="hook_debug_title">Depuració de hooks</string>
+    <string name="debugging_title">Depuració</string>
     <string name="developer_mode_title">Mode de desenvolupador</string>
-    <string name="developer_mode_summary">Permet gestionar la configuració i els àmbits de l’LSPosed mitjançant l’eina CLI</string>
+    <string name="developer_mode_summary">Permet gestionar la configuració i els àmbits de LSPosed mitjançant l’eina CLI</string>
+    <string name="safe_mode_disabled_title">Desactiva el mode segur</string>
+    <string name="safe_mode_disabled_summary">Evita entrar en mode segur quan els components del sistema s\'aturen repetidament</string>
+    <string name="hook_debug_summary">Permet abocar informació de depuració dels hooks dels processos enganxats, cosa que pot afectar el rendiment</string>
+    <string name="dump_hook_debug_title">Aboca la informació de depuració dels hooks</string>
+    <string name="dump_hook_debug_summary">Aboca la informació de depuració dels hooks a /data/adb/lspd/log</string>
+    <string name="dump_hook_success">Abocat a %s</string>
+    <string name="dump_hook_failed">No s\'ha pogut abocar</string>
+    <string name="log_to_daemon_title">Registra al dimoni</string>
+    <string name="log_to_daemon_summary">Això evita que les aplicacions puguin llegir els registres dels mòduls, però pot afectar el rendiment</string>
+    <plurals name="disable_success_message">
+        <item quantity="one">S\'ha desactivat %d mòdul</item>
+        <item quantity="many">S\'han desactivat %d mòduls</item>
+        <item quantity="other">S\'han desactivat %d mòduls</item>
+    </plurals>
+    <string name="follow_system">Segueix el sistema</string>
+    <string name="unknown_author">Autor desconegut</string>
+    <string name="unknown_version">Versió desconeguda</string>
+    <string name="unknown_asset">Fitxer desconegut</string>
+    <string name="download_asset">Baixa</string>
+    <string name="nav_back">Enrere</string>
+    <string name="nav_rail_expand">Amplia la barra de navegació</string>
+    <string name="nav_rail_collapse">Replega la barra de navegació</string>
+    <string name="menu">Menú</string>
+    <string name="menu_filter">Filtra</string>
+    <string name="menu_parsed_view">Vista analitzada</string>
+    <string name="menu_raw_view">Vista original</string>
+    <string name="settings_ui">Estil de la interfície</string>
+    <string name="settings_ui_summary">Trieu l\'estil de la interfície</string>
+    <string name="settings_theme">Tema</string>
+    <string name="settings_theme_summary">Trieu el mode de tema de l\'aplicació</string>
+    <string name="settings_theme_mode_system">Segueix el sistema</string>
+    <string name="settings_theme_mode_light">Clar</string>
+    <string name="settings_theme_mode_dark">Fosc</string>
+    <string name="settings_theme_mode_monet_system">Monet (segueix el sistema)</string>
+    <string name="settings_theme_mode_monet_light">Monet (clar)</string>
+    <string name="settings_theme_mode_monet_dark">Monet (fosc)</string>
+    <string name="settings_key_color">Color d\'èmfasi</string>
+    <string name="settings_key_color_summary">Personalitzeu el color de llavor quan feu servir Monet</string>
+    <string name="settings_key_color_default">Predeterminat</string>
+    <string name="settings_theme_entry">Configuració del tema</string>
+    <string name="settings_theme_entry_summary">Mode de tema, color d\'èmfasi, estil de paleta i més</string>
+    <string name="settings_palette_style">Estil de paleta</string>
+    <string name="settings_palette_style_summary">Algorisme tonal emprat per derivar la paleta de Material 3</string>
+    <string name="settings_color_spec">Especificació de color</string>
+    <string name="settings_color_spec_summary">Versió de l\'especificació de color de Material 3</string>
+    <string name="settings_page_scale">Escala de la interfície</string>
+    <string name="settings_page_scale_summary">Ajusteu l\'escala de visualització global</string>
+    <string name="settings_enable_blur">Desenfocament</string>
+    <string name="settings_enable_blur_summary">Activa l\'efecte de desenfocament a les barres superior i inferior</string>
+    <string name="settings_floating_bottom_bar">Barra inferior flotant</string>
+    <string name="settings_floating_bottom_bar_summary">Utilitza una barra inferior flotant d\'estil Apple</string>
+    <string name="settings_enable_glass">Vidre líquid</string>
+    <string name="settings_enable_glass_summary">Activa l\'efecte de vidre líquid a la barra inferior flotant</string>
+    <string name="refresh_pulling">Estira cap avall per actualitzar</string>
+    <string name="refresh_release">Deixa anar per actualitzar</string>
+    <string name="refresh_refresh">S\'està actualitzant…</string>
+    <string name="refresh_complete">Actualitzat correctament</string>
+    <string name="time_just_now">Ara mateix</string>
+    <plurals name="time_minutes_ago">
+        <item quantity="one">Fa %d minut</item>
+        <item quantity="many">Fa %d minuts</item>
+        <item quantity="other">Fa %d minuts</item>
+    </plurals>
+    <plurals name="time_hours_ago">
+        <item quantity="one">Fa %d hora</item>
+        <item quantity="many">Fa %d hores</item>
+        <item quantity="other">Fa %d hores</item>
+    </plurals>
+    <plurals name="time_days_ago">
+        <item quantity="one">Fa %d dia</item>
+        <item quantity="many">Fa %d dies</item>
+        <item quantity="other">Fa %d dies</item>
+    </plurals>
 </resources>

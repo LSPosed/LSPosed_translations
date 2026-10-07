@@ -1,92 +1,88 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--
-  ~ This file is part of LSPosed.
-  ~
-  ~ LSPosed is free software: you can redistribute it and/or modify
-  ~ it under the terms of the GNU General Public License as published by
-  ~ the Free Software Foundation, either version 3 of the License, or
-  ~ (at your option) any later version.
-  ~
-  ~ LSPosed is distributed in the hope that it will be useful,
-  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
-  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-  ~ GNU General Public License for more details.
-  ~
-  ~ You should have received a copy of the GNU General Public License
-  ~ along with LSPosed.  If not, see <https://www.gnu.org/licenses/>.
-  ~
-  ~ Copyright (C) 2021 LSPosed Contributors
-  -->
-<resources xmlns:tools="http://schemas.android.com/tools" tools:keep="@string/xposed_module_updated_notification_*,@string/module_is_not_activated_*">
+<resources>
     <!-- MainActivity -->
     <string name="overview">Prehľad</string>
     <string name="Modules">Moduly</string>
     <string name="Logs">Protokoly</string>
     <string name="Settings">Nastavenia</string>
-    <string name="About">O stránke</string>
+    <string name="About">O aplikácii</string>
     <string name="module_repo">Úložisko</string>
-    <string name="not_installed">Nie je nainštalovaný</string>
+    <string name="about_send_bug_report">Odoslať hlásenie o chybe</string>
+    <string name="bug_report_message">Stručne opíšte problém</string>
+    <string name="bug_report_exporting_logs">Exportujú sa protokoly…</string>
+    <string name="about_join_telegram">Pripojte sa ku kanálu Telegram</string>
+    <string name="email_address_copied">E-mailová adresa bola skopírovaná</string>
+    <string name="translators">null</string>
+    <string name="not_installed">Nenainštalované</string>
     <string name="not_install_summary">LSPosed nie je nainštalovaný</string>
     <string name="activated">Aktivované</string>
     <string name="partial_activated">Čiastočne aktivované</string>
     <string name="system_inject_fail_summary">Vstreknutie systémového rámca zlyhalo</string>
-    <string name="system_inject_fail"><![CDATA[Je to zriedkavé a môže to byť spôsobené <b>Magisk</b> alebo niektorými nekvalitnými modulmi Magisk.<br/>Skúste vypnúť iné moduly Magisk ako Zygisk a LSPosed alebo pošlite vývojárom celý log.]]></string>
-    <string name="system_prop_incorrect_summary">Nesprávna opora systému</string>
+    <string name="system_inject_fail"><![CDATA[Je to zriedkavé a môže to byť spôsobené <b>Magiskom</b> alebo niektorými nekvalitnými modulmi Magisk.<br/>Skúste vypnúť moduly Magisk iné ako Zygisk a LSPosed alebo pošlite vývojárom celý log.]]></string>
+    <string name="system_prop_incorrect_summary">Nesprávna systémová vlastnosť</string>
     <string name="system_prop_incorrect"><![CDATA[Niektoré potrebné vlastnosti systému boli odstránené alebo upravené.<br/>Moduly sa môžu občas znefunkčniť.]]></string>
     <string name="hyrt_unavailable_summary">Vstreknutie do HyperOS Runtime zlyhalo</string>
     <string name="hyrt_unavailable">Bolo zistené prostredie HyperOS Runtime, ale rozhranie Zygisk Next API nie je dostupné. Natívne moduly sa nenačítajú do procesov HyperOS Runtime.</string>
     <string name="need_update">Je potrebné aktualizovať</string>
+    <string name="developer_warning_title">Tipy pre vývojárov modulov</string>
+    <string name="developer_warning_summary">Zakážte v Android Studio optimalizácie nasadenia alebo na inštaláciu použite príkaz `gradlew installDebug`. V opačnom prípade sa apk modulu neaktualizuje.</string>
     <string name="info_manager_package_name">Názov balíka správcu</string>
     <string name="info_system_version">Verzia systému</string>
     <string name="info_device">Zariadenie</string>
-    <string name="info_system_abi">Systém ABI</string>
-    <string name="info_dex2oat_wrapper">Dex Optimizer Wrapper</string>
+    <string name="info_system_abi">ABI systému</string>
+    <string name="info_dex2oat_wrapper">Obal optimalizátora Dex</string>
     <string name="enabled">Povolené</string>
     <string name="not_enabled">Nie je povolené</string>
-    <string name="supported">Podporované stránky</string>
+    <string name="supported">Podporované</string>
     <string name="unsupported">Nepodporované</string>
     <string name="mounted">Pripojené</string>
     <string name="injected">Injektované</string>
-    <string name="android_version_unsatisfied">Verzia pre Android nespokojná</string>
-    <string name="crashed">Havarovaný</string>
-    <string name="mount_failed">Montáž zlyhala</string>
+    <string name="android_version_unsatisfied">Verzia systému Android nevyhovuje</string>
+    <string name="crashed">Havarované</string>
+    <string name="mount_failed">Pripojenie zlyhalo</string>
     <string name="info_copied">Skopírované do schránky</string>
     <!-- WelcomeDialog -->
+    <string name="touch_filtered_warning">Pretože niektorá aplikácia prekrýva rozhranie, správca nemôže overiť vašu odpoveď.</string>
     <string name="parasitic_welcome">Vitajte v LSPosed</string>
     <string name="parasitic_welcome_summary">Používate parazitného správcu, ktorý sa môže otvoriť z oznámenia.</string>
-    <string name="never_show">Nikdy sa neukážte</string>
-    <string name="app_welcome">Odporúčaný parazitický manažér</string>
-    <string name="app_welcome_summary">LSPosed teraz podporuje parazitovanie systému, aby sa zabránilo detekcii, môžete otvoriť správcu parazitov z oznámenia. Odporúča sa odinštalovať aktuálnu aplikáciu.</string>
+    <string name="never_show">Nikdy nezobrazovať</string>
+    <string name="app_welcome">Odporúčaný parazitný správca</string>
+    <string name="app_welcome_summary">LSPosed teraz podporuje systémové parazitovanie, aby sa zabránilo detekcii. Parazitného správcu môžete otvoriť z oznámenia. Odporúča sa odinštalovať aktuálnu aplikáciu.</string>
     <!-- LogsActivity -->
     <string name="menuSaveToSd">Uložiť</string>
-    <string name="nav_item_logs_verbose">Verbálne protokoly</string>
+    <string name="nav_item_logs_verbose">Podrobné protokoly</string>
     <string name="nav_item_logs_module">Protokoly modulov</string>
-    <string name="logs_saving">Ukladanie denníka, počkajte, prosím</string>
+    <string name="logs_saving">Ukladanie protokolu, počkajte prosím</string>
     <string name="logs_saved">Uložené protokoly</string>
     <string name="logs_save_failed2">Nepodarilo sa uložiť:\n%s</string>
+    <string name="logs_preparing">Pripravuje sa protokol, čakajte prosím</string>
+    <string name="logs_prepare_failed">Nepodarilo sa pripraviť:\n%s</string>
     <string name="menuClearLog">Vymazať protokol</string>
     <string name="scroll_top">Prejdite na začiatok</string>
     <string name="scroll_bottom">Prejdite na spodok</string>
-    <string name="menu_enable_word_wrap">Word Wrap</string>
+    <string name="menu_enable_word_wrap">Zalamovanie riadkov</string>
     <!-- ModulesActivity -->
     <string name="warning_xposed_min_version">Tento modul vyžaduje novšiu verziu Xposed (%d), a preto ho nemožno aktivovať</string>
     <string name="warning_target_version_higher">Tento modul je určený pre novšiu verziu Xposed (%d), a preto niektoré funkcie nemusia fungovať</string>
     <string name="no_min_version_specified">Tento modul neuvádza verziu Xposed, ktorú potrebuje.</string>
-    <string name="warning_min_version_too_low">Tento modul bol vytvorený pre verziu Xposed %1$d, ale kvôli nekompatibilným zmenám vo verzii %2$d, bol vypnutý.</string>
+    <string name="warning_min_version_too_low">Tento modul bol vytvorený pre verziu Xposed %1$d, ale kvôli nekompatibilným zmenám vo verzii %2$d bol vypnutý</string>
     <string name="warning_deprecated_feature">Tento modul používa zastaranú funkciu, ktorá bude čoskoro odstránená. Kontaktujte autora alebo zvážte alternatívu.</string>
-    <string name="warning_installed_on_external_storage">Tento modul nie je možné načítať, pretože je nainštalovaný na karte SD, prosím, presuňte ho do internej pamäte</string>
-    <string name="module_uninstall">Odinštalovanie stránky</string>
+    <string name="warning_installed_on_external_storage">Tento modul nie je možné načítať, pretože je nainštalovaný na karte SD, presuňte ho prosím do interného úložiska</string>
+    <string name="module_uninstall">Odinštalovať</string>
     <string name="module_settings">Nastavenia modulu</string>
-    <string name="view_in_repo">Zobraziť v časti Repo</string>
+    <string name="view_in_repo">Zobraziť v úložisku</string>
     <string name="module_uninstall_message">Chcete tento modul odinštalovať?</string>
-    <string name="module_uninstalled">Odinštalovaná stránka %1$s</string>
+    <string name="module_uninstalled">Modul %1$s bol odinštalovaný</string>
     <string name="module_uninstall_failed">Odinštalovanie neúspešné</string>
     <string name="module_install_failed">Pridanie modulu zlyhalo</string>
-    <string name="install_to_user">Inštalácia do používateľa %s</string>
-    <string name="expand">rozšíriť</string>
-    <string name="collapse">zrútenie</string>
+    <string name="install_to_user">Inštalovať používateľovi %s</string>
+    <string name="expand">rozbaliť</string>
+    <string name="collapse">zbaliť</string>
     <!-- AppListActivity -->
-    <string name="compile_speed">Opätovná optimalizácia</string>
+    <string name="reset_scope_request_setting">Obnoviť nastavenie žiadostí o rozsah</string>
+    <string name="reset_scope_request_setting_done">Nastavenie žiadostí o rozsah bolo obnovené</string>
+    <string name="hide_non_system_overlay_failed_no_permission">Nepodarilo sa skryť nesystémové prekrytie, aktualizujte správcu.</string>
+    <string name="compile_speed">Znovu optimalizovať</string>
     <string name="compile_speed_msg">Optimalizácia…</string>
     <string name="compile_done">Optimalizácia dokončená</string>
     <string name="app_launch">Spustite ho</string>
@@ -96,25 +92,28 @@
     <string name="sort_by_package_name">Názov balíka</string>
     <string name="sort_by_install_time">Čas inštalácie</string>
     <string name="sort_by_update_time">Čas aktualizácie</string>
-    <string name="sort_reverse">Reverzný</string>
+    <string name="sort_reverse">Obrátiť poradie</string>
     <string name="menu_show_system_apps">Systémové aplikácie</string>
     <string name="menu_sort">Triedenie</string>
-    <string name="enable_module">Povolenie modulu</string>
+    <string name="enable_module">Povoliť modul</string>
     <string name="menu_show_games">Hry</string>
     <string name="menu_show_modules">Moduly</string>
-    <string name="failed_to_save_scope_list">Nepodarilo sa uložiť zoznam oblastí</string>
+    <string name="module_scope_list_static_scope">Modul deklaroval statický rozsah</string>
+    <string name="failed_to_save_scope_list">Nepodarilo sa uložiť zoznam rozsahov</string>
     <string name="app_version">Verzia: %1$s</string>
-    <string name="use_recommended">Odporúčané stránky</string>
+    <string name="use_recommended">Použiť odporúčané</string>
     <string name="use_recommended_message">Vybrať odporúčané aplikácie?</string>
+    <string name="deselect_all">Zrušiť výber</string>
+    <string name="deselect_all_message">Zrušiť výber všetkých vybraných aplikácií?</string>
     <string name="module_is_not_activated_yet">Modul Xposed ešte nie je aktivovaný</string>
-    <string name="requested_by_module">Odporúčané stránky</string>
+    <string name="requested_by_module">Odporúčané modulom</string>
     <string name="update_available">Dostupná aktualizácia: %1$s</string>
     <string name="android_framework">Systémový rámec</string>
-    <string name="menu_backup">Zálohovanie</string>
-    <string name="menu_restore">Obnovenie</string>
+    <string name="menu_backup">Zálohovať</string>
+    <string name="menu_restore">Obnoviť</string>
     <string name="force_stop">Vynútiť zastavenie</string>
-    <string name="force_stop_dlg_title">Zastaviť?</string>
-    <string name="force_stop_dlg_text">Ak aplikáciu násilne zastavíte, môže sa správať nesprávne.</string>
+    <string name="force_stop_dlg_title">Vynútiť zastavenie?</string>
+    <string name="force_stop_dlg_text">Ak vynútite zastavenie aplikácie, môže sa správať nesprávne.</string>
     <string name="reboot_required">Na uplatnenie tejto zmeny je potrebný reštart</string>
     <string name="reboot">Reštart</string>
     <!-- ModulesActivity and AppListActivity -->
@@ -123,71 +122,179 @@
     <string name="list_empty">¯\\_(ツ)_\/¯\nTu nič nie je</string>
     <!-- SettingsActivity -->
     <string name="settings_group_framework">Rámec</string>
-    <string name="settings_disable_verbose_log">Zakázať slovné protokoly</string>
-    <string name="settings_disable_verbose_log_summary">Žiadosť o nahlásenie problémov, aby obsahovala slovné protokoly</string>
+    <string name="settings_disable_verbose_log">Zakázať podrobné protokoly</string>
+    <string name="settings_disable_verbose_log_summary">Nahlasovanie problémov vyžaduje priloženie podrobných protokolov</string>
     <string name="settings_group_theme">Téma</string>
     <string name="settings_backup_and_restore">Zálohovanie a obnovenie</string>
-    <string name="settings_backup_summary">Záložný zoznam modulov a zoznamy rozsahov.</string>
-    <string name="settings_restore_summary">Obnovenie zoznamu modulov a zoznamov oblastí.</string>
-    <string name="settings_backup">Zálohovanie</string>
+    <string name="settings_backup_summary">Zálohovať zoznam modulov a zoznamy rozsahov.</string>
+    <string name="settings_restore_summary">Obnoviť zoznam modulov a zoznamy rozsahov.</string>
+    <string name="settings_backup">Zálohovať</string>
     <string name="settings_backup_failed2">Nepodarilo sa zálohovať:\n%s</string>
-    <string name="enable_documentui">Povoľte DocumentUI</string>
-    <string name="settings_restore">Obnovenie</string>
+    <string name="enable_documentui">Povoľte DocumentsUI</string>
+    <string name="settings_restore">Obnoviť</string>
     <string name="settings_restore_failed2">Nepodarilo sa obnoviť:\n%s</string>
     <string name="group_network">Sieť</string>
     <string name="dns_over_http">DNS cez HTTPS</string>
     <string name="dns_over_http_summary">Obchádzanie otravy DNS v niektorých krajinách</string>
-    <string name="settings_show_hidden_icon_apps_enabled">Vynútenie aplikácií, aby zobrazovali ikony spúšťača</string>
+    <string name="settings_repo_cdn">CDN úložiska modulov</string>
+    <string name="repo_cdn_default">Predvolené</string>
+    <string name="repo_cdn_backup">Záloha</string>
+    <string name="settings_show_hidden_icon_apps_enabled">Prinútiť aplikácie zobrazovať ikony spúšťača</string>
     <string name="settings_show_hidden_icon_apps_enabled_summary">Po systéme Android 10 aplikácie nemôžu skrývať ikony spúšťača. Vypnutím prepínača túto systémovú funkciu zakážete.</string>
     <string name="settings_group_system">Systém</string>
     <string name="settings_language">Jazyk</string>
     <string name="settings_translation_contributors">Spolupracovníci na preklade</string>
-    <string name="settings_translation">Zúčastnite sa na preklade</string>
-    <string name="settings_translation_summary">Pomôžte nám preložiť stránku %s do vášho jazyka</string>
+    <string name="settings_translation">Zúčastnite sa prekladu</string>
+    <string name="settings_translation_summary">Pomôžte nám preložiť %s do vášho jazyka</string>
     <string name="settings_enable_status_notification">Oznámenie o stave</string>
-    <string name="settings_enable_status_notification_summary">Zobrazenie oznámenia, ktoré môže otvoriť parazitický správca</string>
-    <string name="settings_update_channel">Aktualizačný kanál</string>
+    <string name="settings_enable_status_notification_summary">Zobrazenie oznámenia, ktoré môže otvoriť parazitného správcu</string>
+    <string name="settings_update_channel">Aktualizačný kanál modulov</string>
     <string name="update_channel_stable">Stabilné</string>
     <string name="update_channel_beta">Beta</string>
     <string name="update_channel_nightly">Nočné zostavenie</string>
     <string name="settings_xposed_api_call_protection">Ochrana volaní Xposed API</string>
-    <string name="settings_xposed_api_call_protection_summary">Blokovať dynamicky načítaný kód modulu, aby používal Xposed API, čo môže rozbiť niektoré moduly, ale prospeje bezpečnosti</string>
+    <string name="settings_xposed_api_call_protection_summary">Zablokovať dynamicky načítanému kódu modulov používanie Xposed API; môže to narušiť niektoré moduly, ale prospeje to bezpečnosti</string>
     <!-- Module Repo -->
-    <string name="module_readme">Readme</string>
-    <string name="module_releases">Uvoľňuje</string>
+    <string name="settings_invalidate_inline_hooks">Zneplatniť inline hooky</string>
+    <string name="settings_invalidate_inline_hooks_summary">Vyčistí libart.so pre uvedené aplikácie. Spôsobí to náhodné poruchy a pády. Použite len vtedy, keď sa konkrétne aplikácie nedajú otvoriť.</string>
+    <string name="failed_to_save_invalidate_inline_hooks_list">Nepodarilo sa uložiť zoznam pre zneplatnenie inline hookov</string>
+    <string name="settings_enable_predictive_back">Prediktívne gesto späť</string>
+    <string name="settings_enable_predictive_back_summary">Povoliť podporu prediktívnych gest späť.</string>
+    <string name="settings_enable_swipe_dismiss">Gesto potiahnutia späť</string>
+    <string name="settings_enable_swipe_dismiss_summary">Potiahnutím od okraja obrazovky sa vrátite na predchádzajúcu stránku.</string>
+    <string name="settings_tapjacking_protection">Ochrana proti tapjackingu</string>
+    <string name="settings_tapjacking_protection_summary">Blokuje dotyky, keď je rozhranie prekryté, aby sa zabránilo útokom typu tapjacking</string>
+    <string name="module_readme">Čítaj ma</string>
+    <string name="module_releases">Vydania</string>
     <string name="module_information">Informácie</string>
     <string name="module_information_homepage">Domovská stránka</string>
     <string name="module_information_source_url">Zdrojový kód</string>
     <string name="module_information_collaborators">Spolupracovníci</string>
-    <string name="module_release_view_assets">Aktíva</string>
+    <string name="module_release_view_assets">Prílohy</string>
     <string name="menu_open_in_browser">Otvoriť v prehliadači</string>
-    <string name="module_release_load_more">Zobrazenie starších verzií</string>
-    <string name="module_release_no_more">Žiadne ďalšie uvoľňovanie</string>
+    <string name="menu_share">Zdieľať</string>
+    <string name="module_release_load_more">Zobraziť staršie verzie</string>
+    <string name="module_release_no_more">Žiadne ďalšie vydania</string>
     <string name="sort_upgradable_first">Najskôr aktualizovateľné</string>
     <string name="installed">Nainštalované</string>
     <plurals name="module_release_assets_download_count">
-        <item quantity="one">%d stiahnuť</item>
-        <item quantity="few">%d Na stiahnutie</item>
-        <item quantity="many">%d Na stiahnutie</item>
-        <item quantity="other">%d Na stiahnutie</item>
+        <item quantity="one">%d stiahnutie</item>
+        <item quantity="few">%d stiahnutia</item>
+        <item quantity="many">%d stiahnutí</item>
+        <item quantity="other">%d stiahnutí</item>
     </plurals>
     <!-- Colors -->
     <string name="color_red">Červená</string>
     <string name="color_pink">Ružová</string>
     <string name="color_purple">Fialová</string>
-    <string name="color_deep_purple">Tmavo fialová</string>
+    <string name="color_deep_purple">Tmavofialová</string>
     <string name="color_indigo">Indigo</string>
     <string name="color_blue">Modrá</string>
     <string name="color_light_blue">Svetlomodrá</string>
-    <string name="color_cyan">Cyan</string>
-    <string name="color_teal">Teal</string>
+    <string name="color_cyan">Azúrová</string>
+    <string name="color_teal">Modrozelená</string>
     <string name="color_green">Zelená</string>
-    <string name="color_lime">Vápno</string>
+    <string name="color_lime">Limetková</string>
     <string name="color_yellow">Žltá</string>
-    <string name="color_amber">Amber</string>
+    <string name="color_amber">Jantárová</string>
     <string name="color_orange">Oranžová</string>
     <string name="color_brown">Hnedá</string>
-    <string name="color_blue_grey">Modrá šedá</string>
+    <string name="color_blue_grey">Modrošedá</string>
+    <string name="safe_mode">Bezpečný režim</string>
+    <string name="safe_mode_summary">LSPosed je v bezpečnom režime</string>
+    <string name="safe_mode_summary2">Všetky moduly Xposed sú nedostupné až do ďalšieho reštartu.\nNiektoré moduly spôsobili pády systému. Nájdite a zakážte tieto moduly a poskytnite spätnú väzbu vývojárom modulov.</string>
+    <string name="disable_all_modules">Zakázať všetky moduly</string>
+    <string name="confirm_disable_all_modules">Potvrdiť?</string>
+    <plurals name="message_disable_all_modules">
+        <item quantity="one">%d modul bude zakázaný.
+Túto operáciu nie je možné vrátiť.</item>
+        <item quantity="few">%d moduly budú zakázané.
+Túto operáciu nie je možné vrátiť.</item>
+        <item quantity="many">%d modulov bude zakázaných.
+Túto operáciu nie je možné vrátiť.</item>
+        <item quantity="other">%d modulov bude zakázaných.
+Túto operáciu nie je možné vrátiť.</item>
+    </plurals>
+    <string name="disable_success_title">Úspech</string>
+    <string name="hook_debug_title">Ladenie hookov</string>
+    <string name="debugging_title">Ladenie</string>
     <string name="developer_mode_title">Režim pre vývojárov</string>
     <string name="developer_mode_summary">Povoliť správu nastavení a rozsahov LSPosed pomocou nástroja CLI</string>
+    <string name="safe_mode_disabled_title">Zakázať bezpečný režim</string>
+    <string name="safe_mode_disabled_summary">Zabrániť prechodu do bezpečného režimu, keď systémové komponenty neustále padajú</string>
+    <string name="hook_debug_summary">Povoliť ukladanie ladiacich informácií o hookoch hookovaných procesov, čo môže mať vplyv na výkon</string>
+    <string name="dump_hook_debug_title">Uložiť ladiace informácie o hookoch</string>
+    <string name="dump_hook_debug_summary">Uložiť ladiace informácie o hookoch do /data/adb/lspd/log</string>
+    <string name="dump_hook_success">Uložené do %s</string>
+    <string name="dump_hook_failed">Uloženie zlyhalo</string>
+    <string name="log_to_daemon_title">Zapisovať protokol do démona</string>
+    <string name="log_to_daemon_summary">Zabráni aplikáciám čítať protokoly modulov, ale môže to mať vplyv na výkon</string>
+    <plurals name="disable_success_message">
+        <item quantity="one">Zakázaný %d modul</item>
+        <item quantity="few">Zakázané %d moduly</item>
+        <item quantity="many">Zakázaných %d modulov</item>
+        <item quantity="other">Zakázaných %d modulov</item>
+    </plurals>
+    <string name="follow_system">Podľa systému</string>
+    <string name="unknown_author">Neznámy autor</string>
+    <string name="unknown_version">Neznáma verzia</string>
+    <string name="unknown_asset">Neznáma príloha</string>
+    <string name="download_asset">Stiahnuť</string>
+    <string name="nav_back">Späť</string>
+    <string name="nav_rail_expand">Rozbaliť navigačný panel</string>
+    <string name="nav_rail_collapse">Zbaliť navigačný panel</string>
+    <string name="menu">Ponuka</string>
+    <string name="menu_filter">Filter</string>
+    <string name="menu_parsed_view">Spracované zobrazenie</string>
+    <string name="menu_raw_view">Surové zobrazenie</string>
+    <string name="settings_ui">Štýl rozhrania</string>
+    <string name="settings_ui_summary">Vyberte štýl rozhrania</string>
+    <string name="settings_theme">Téma</string>
+    <string name="settings_theme_summary">Vyberte režim témy aplikácie</string>
+    <string name="settings_theme_mode_system">Podľa systému</string>
+    <string name="settings_theme_mode_light">Svetlá</string>
+    <string name="settings_theme_mode_dark">Tmavá</string>
+    <string name="settings_theme_mode_monet_system">Monet (podľa systému)</string>
+    <string name="settings_theme_mode_monet_light">Monet (svetlá)</string>
+    <string name="settings_theme_mode_monet_dark">Monet (tmavá)</string>
+    <string name="settings_key_color">Farba zvýraznenia</string>
+    <string name="settings_key_color_summary">Prispôsobiť východiskovú farbu pri používaní Monet</string>
+    <string name="settings_key_color_default">Predvolená</string>
+    <string name="settings_theme_entry">Nastavenia témy</string>
+    <string name="settings_theme_entry_summary">Režim témy, farba zvýraznenia, štýl palety a ďalšie</string>
+    <string name="settings_palette_style">Štýl palety</string>
+    <string name="settings_palette_style_summary">Tónový algoritmus použitý na odvodenie palety Material 3</string>
+    <string name="settings_color_spec">Špecifikácia farieb</string>
+    <string name="settings_color_spec_summary">Verzia špecifikácie farieb Material 3</string>
+    <string name="settings_page_scale">Mierka stránky</string>
+    <string name="settings_page_scale_summary">Upraviť globálnu mierku zobrazenia</string>
+    <string name="settings_enable_blur">Rozmazanie</string>
+    <string name="settings_enable_blur_summary">Povoliť efekt rozmazania pre hornú a dolnú lištu</string>
+    <string name="settings_floating_bottom_bar">Plávajúca dolná lišta</string>
+    <string name="settings_floating_bottom_bar_summary">Použiť plávajúcu dolnú lištu v štýle Apple</string>
+    <string name="settings_enable_glass">Tekuté sklo</string>
+    <string name="settings_enable_glass_summary">Povoliť efekt tekutého skla pre plávajúcu dolnú lištu</string>
+    <string name="refresh_pulling">Potiahnutím nadol obnovíte</string>
+    <string name="refresh_release">Pustite na obnovenie</string>
+    <string name="refresh_refresh">Obnovuje sa…</string>
+    <string name="refresh_complete">Úspešne obnovené</string>
+    <string name="time_just_now">Práve teraz</string>
+    <plurals name="time_minutes_ago">
+        <item quantity="one">pred %d minútou</item>
+        <item quantity="few">pred %d minútami</item>
+        <item quantity="many">pred %d minútami</item>
+        <item quantity="other">pred %d minútami</item>
+    </plurals>
+    <plurals name="time_hours_ago">
+        <item quantity="one">pred %d hodinou</item>
+        <item quantity="few">pred %d hodinami</item>
+        <item quantity="many">pred %d hodinami</item>
+        <item quantity="other">pred %d hodinami</item>
+    </plurals>
+    <plurals name="time_days_ago">
+        <item quantity="one">pred %d dňom</item>
+        <item quantity="few">pred %d dňami</item>
+        <item quantity="many">pred %d dňami</item>
+        <item quantity="other">pred %d dňami</item>
+    </plurals>
 </resources>

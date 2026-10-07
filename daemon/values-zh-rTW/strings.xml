@@ -1,14 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Notification -->
-    <string name="list_separator">，</string>
+    <string name="list_separator">、 </string>
     <string name="module_is_not_activated_yet">Xposed 模組尚未啟用</string>
     <string name="module_is_not_activated_yet_main_user_detailed">%1$s 已安裝，但尚未啟用</string>
     <string name="module_is_not_activated_yet_multi_user_detailed">%1$s 已安裝到使用者 %2$s，但尚未啟用</string>
     <string name="xposed_module_updated_notification_title">Xposed 模組已更新</string>
     <string name="xposed_module_updated_notification_title_system">Xposed 模組已更新，需要重新啟動</string>
-    <string name="xposed_module_updated_notification_content">%s 已更新，請強制停止並重新開啟其作用域內的程式</string>
-    <string name="xposed_module_updated_notification_content_system">%s 已更新，由於作用域包含系統框架，需重啟以套用修改</string>
+    <string name="xposed_module_updated_notification_content">%s 已更新，請強制停止並重新開啟其作用域內的應用程式</string>
+    <string name="xposed_module_updated_notification_content_system">%s 已更新，由於作用域包含系統框架，需重新啟動以套用變更</string>
+    <string name="xposed_module_updated_notification_reload">%1$s 已更新，%2$s</string>
+    <string name="xposed_module_updated_notification_reload_none">%s 已更新</string>
+    <plurals name="xposed_module_updated_notification_reload_reloaded">
+        <item quantity="other">%d 個行程已熱重載</item>
+    </plurals>
+    <plurals name="xposed_module_updated_notification_reload_reloading">
+        <item quantity="other">%d 個行程熱重載中</item>
+    </plurals>
+    <plurals name="xposed_module_updated_notification_reload_failed">
+        <item quantity="other">%d 個行程熱重載失敗</item>
+    </plurals>
+    <string name="xposed_module_enabled_notification_title">Xposed 模組已啟用</string>
+    <string name="xposed_module_enabled_notification_content">%s 已啟用，輕觸以設定作用域</string>
     <string name="xposed_module_updated_notification_action_enable">啟用模組</string>
     <string name="module_updated_channel_name">模組更新完成</string>
     <string name="status_channel_name">LSPosed 狀態</string>
@@ -20,9 +33,9 @@
     <string name="scope_channel_name">作用域請求</string>
     <string name="scope_approve">允許</string>
     <string name="scope_deny">拒絕</string>
-    <string name="nerver_ask_again">不再詢問</string>
+    <string name="never_ask_again">不再詢問</string>
     <string name="lsposed_safemode_notification_title">LSPosed 處於安全模式</string>
-    <string name="lsposed_safemode_notification_content">所有 Xposed 模組不可用，直到下次重啟</string>
+    <string name="lsposed_safemode_notification_content">所有 Xposed 模組不可用，直到下次重新啟動</string>
     <string name="safe_mode_disable_all_modules">停用所有模組</string>
     <string name="lsposed_safemode_cleared_notification_title">所有模組已被停用</string>
     <plurals name="lsposed_safemode_cleared_notification_content">
@@ -30,10 +43,10 @@
     </plurals>
     <string name="lsposed_safemode_clear_confirm_notification_title">確認？</string>
     <plurals name="lsposed_safemode_clear_confirm_notification_content">
-        <item quantity="other">%d 個模組將被停用\n此操作不可撤銷</item>
+        <item quantity="other">%d 個模組將被停用\n此操作無法復原</item>
     </plurals>
     <string name="safe_mode_reboot">重新啟動</string>
     <string name="safe_mode_channel_name">安全模式</string>
-    <string name="safe_mode_open_manager">開啟管理器</string>
+    <string name="safe_mode_open_manager">開啟管理員</string>
     <string name="safe_mode_back">返回</string>
 </resources>

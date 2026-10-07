@@ -6,9 +6,20 @@
     <string name="module_is_not_activated_yet_main_user_detailed">%1$s đã được cài đặt, nhưng chưa được kích hoạt</string>
     <string name="module_is_not_activated_yet_multi_user_detailed">%1$s đã được cài đặt cho người dùng %2$s, nhưng chưa được kích hoạt</string>
     <string name="xposed_module_updated_notification_title">Mô-đun Xposed đã cập nhật</string>
-    <string name="xposed_module_updated_notification_title_system">Mô-đun Xposed đã cập nhật, khởi động lại hệ thống là cần thiết</string>
+    <string name="xposed_module_updated_notification_title_system">Mô-đun Xposed đã cập nhật, cần khởi động lại hệ thống</string>
     <string name="xposed_module_updated_notification_content">%s đã cập nhật, vui lòng buộc dừng và khởi động lại ứng dụng trong phạm vi của nó</string>
     <string name="xposed_module_updated_notification_content_system">%s đã cập nhật, vì phạm vi chứa Framework hệ thống, nên cần phải khởi động lại để áp dụng các thay đổi</string>
+    <string name="xposed_module_updated_notification_reload">%1$s đã cập nhật, %2$s</string>
+    <string name="xposed_module_updated_notification_reload_none">%s đã cập nhật</string>
+    <plurals name="xposed_module_updated_notification_reload_reloaded">
+        <item quantity="other">%d tiến trình đã tải lại nóng</item>
+    </plurals>
+    <plurals name="xposed_module_updated_notification_reload_reloading">
+        <item quantity="other">%d tiến trình đang tải lại nóng</item>
+    </plurals>
+    <plurals name="xposed_module_updated_notification_reload_failed">
+        <item quantity="other">%d tiến trình tải lại nóng thất bại</item>
+    </plurals>
     <string name="xposed_module_enabled_notification_title">Mô-đun Xposed đã bật</string>
     <string name="xposed_module_enabled_notification_content">%s đã được bật, nhấn để thiết lập phạm vi</string>
     <string name="xposed_module_updated_notification_action_enable">Kích hoạt mô-đun</string>
@@ -22,8 +33,8 @@
     <string name="scope_channel_name">Yêu cầu phạm vi</string>
     <string name="scope_approve">Phê duyệt</string>
     <string name="scope_deny">Từ chối</string>
-    <string name="nerver_ask_again">Không bao giờ hỏi lại</string>
-    <string name="lsposed_safemode_notification_title">LSPosed đang ở Chế độ An toàn</string>
+    <string name="never_ask_again">Không bao giờ hỏi lại</string>
+    <string name="lsposed_safemode_notification_title">LSPosed đang ở chế độ an toàn</string>
     <string name="lsposed_safemode_notification_content">Tất cả mô-đun Xposed sẽ không khả dụng cho đến lần khởi động lại tiếp theo</string>
     <string name="safe_mode_disable_all_modules">Tắt tất cả mô-đun</string>
     <string name="lsposed_safemode_cleared_notification_title">Tất cả mô-đun đã tắt</string>
@@ -35,7 +46,7 @@
         <item quantity="other">%d mô-đun sẽ bị tắt.\nThao tác này không thể hoàn tác được</item>
     </plurals>
     <string name="safe_mode_reboot">Khởi động lại</string>
-    <string name="safe_mode_channel_name">Chế độ An toàn</string>
+    <string name="safe_mode_channel_name">Chế độ an toàn</string>
     <string name="safe_mode_open_manager">Mở trình quản lý</string>
     <string name="safe_mode_back">Quay lại</string>
 </resources>

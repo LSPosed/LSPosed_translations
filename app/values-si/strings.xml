@@ -1,41 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--
-  ~ This file is part of LSPosed.
-  ~
-  ~ LSPosed is free software: you can redistribute it and/or modify
-  ~ it under the terms of the GNU General Public License as published by
-  ~ the Free Software Foundation, either version 3 of the License, or
-  ~ (at your option) any later version.
-  ~
-  ~ LSPosed is distributed in the hope that it will be useful,
-  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
-  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-  ~ GNU General Public License for more details.
-  ~
-  ~ You should have received a copy of the GNU General Public License
-  ~ along with LSPosed.  If not, see <https://www.gnu.org/licenses/>.
-  ~
-  ~ Copyright (C) 2021 LSPosed Contributors
-  -->
-<resources xmlns:tools="http://schemas.android.com/tools" tools:keep="@string/xposed_module_updated_notification_*,@string/module_is_not_activated_*">
+<resources>
     <!-- MainActivity -->
     <string name="overview">දළ විශ්ලේෂණය</string>
     <string name="Modules">මොඩියුල</string>
-    <string name="Logs">සටහන්</string>
-    <string name="Settings">සැකසීම </string>
+    <string name="Logs">ලොග්</string>
+    <string name="Settings">සැකසීම්</string>
     <string name="About">මේ ගැන</string>
     <string name="module_repo">ගබඩාව</string>
+    <string name="about_send_bug_report">දෝෂ වාර්තාව යවන්න</string>
+    <string name="bug_report_message">ගැටලුව කෙටියෙන් විස්තර කරන්න</string>
+    <string name="bug_report_exporting_logs">ලොග් අපනයනය කරමින්…</string>
+    <string name="about_join_telegram">Telegram නාලිකාවට එක්වන්න</string>
+    <string name="email_address_copied">විද්‍යුත් තැපැල් ලිපිනය පිටපත් කර ඇත</string>
+    <string name="translators">null</string>
     <string name="not_installed">ස්ථාපනය කර නැත</string>
     <string name="not_install_summary">LSPosed ස්ථාපනය කර නැත</string>
     <string name="activated">සක්රිය කර ඇත</string>
     <string name="partial_activated">බාගෙට ඇක්ටිව් කර ඇත</string>
-    <string name="system_inject_fail_summary">පද්ධති ෆ්‍රෙම්වවර් ඉන්ජෙක්ෂන් ෆෙල්ඩ්</string>
-    <string name="system_inject_fail"><![CDATA[මෙය කලාතුරකින් වන අතර <b>Magisk</b> හෝ සමහර අඩු ගුණාත්මක Magisk මොඩියුල නිසා ඇති විය හැක.<br/>කරුණාකර Zygisk සහ LSPosed හැර අනෙකුත් Magisk මොඩියුල අක්‍රිය කිර උත්සාහ කරන්න හෝ ඩිවලොපර්ස්ලට සම්පූර්ණ ලොගය ඉදිරිපත් කරන්න.]]></string>
+    <string name="system_inject_fail_summary">පද්ධති රාමු ඉන්ජෙක්ෂනය අසාර්ථක විය</string>
+    <string name="system_inject_fail"><![CDATA[මෙය කලාතුරකින් වන අතර <b>Magisk</b> හෝ සමහර අඩු ගුණාත්මක Magisk මොඩියුල නිසා ඇති විය හැක.<br/>කරුණාකර Zygisk සහ LSPosed හැර අනෙකුත් Magisk මොඩියුල අක්‍රිය කිරීමට උත්සාහ කරන්න හෝ සංවර්ධකයන්ට සම්පූර්ණ ලොගය ඉදිරිපත් කරන්න.]]></string>
     <string name="system_prop_incorrect_summary">පද්ධති ප්‍රෝප් වැරදියි</string>
-    <string name="system_prop_incorrect"><![CDATA[සමහර අවශ්‍ය පද්ධති ගුණාංග මකා හෝ වෙනස් කරන ඇත.<br/>මොඩියුල වරින් වර අවලංගු විය හැක.]]></string>
-    <string name="hyrt_unavailable_summary">HyperOS Runtime එන්නත් කිරීම අසාර්ථකයි</string>
+    <string name="system_prop_incorrect"><![CDATA[සමහර අවශ්‍ය පද්ධති ගුණාංග මකා දමා හෝ වෙනස් කර ඇත.<br/>මොඩියුල වරින් වර අවලංගු විය හැක.]]></string>
+    <string name="hyrt_unavailable_summary">HyperOS Runtime ඉන්ජෙක්ෂනය අසාර්ථකයි</string>
     <string name="hyrt_unavailable">HyperOS Runtime හඳුනාගන්නා ලදී, නමුත් Zygisk Next API ලබා ගත නොහැක. නේටිව් මොඩියුල HyperOS Runtime ක්‍රියාවලි තුළට පූරණය නොකෙරේ.</string>
-    <string name="need_update">අප්ඩේට් කිරීම අවශ්‍ය වේ</string>
+    <string name="need_update">යාවත්කාලීන කිරීම අවශ්‍ය වේ</string>
+    <string name="developer_warning_title">මොඩියුල සංවර්ධකයන් සඳහා ඉඟි</string>
+    <string name="developer_warning_summary">කරුණාකර Android Studio හි යෙදවීමේ ප්‍රශස්තකරණ අක්‍රීය කරන්න, නැතහොත් ස්ථාපනය සඳහා `gradlew installDebug` විධානය භාවිත කරන්න. එසේ නොකළහොත් මොඩියුල apk යාවත්කාලීන නොවේ.</string>
     <string name="info_manager_package_name">කළමනාකරු පැකේජයේ නම</string>
     <string name="info_system_version">පද්ධති අනුවාදය</string>
     <string name="info_device">උපාංගය</string>
@@ -43,58 +33,64 @@
     <string name="info_dex2oat_wrapper">ඩෙක්ස් ඔප්ටිමයිසේර් ව්‍රප්පර්</string>
     <string name="enabled">සක්‍රීය කර ඇත</string>
     <string name="not_enabled">සක්‍රීය කර නැත</string>
-    <string name="supported">සහාය දුන්නා</string>
+    <string name="supported">සහාය දක්වයි</string>
     <string name="unsupported">සහාය නොදක්වයි</string>
     <string name="mounted">සවිකර ඇත</string>
     <string name="injected">ඇතුළු කර ඇත</string>
     <string name="android_version_unsatisfied">Android අනුවාදය තෘප්තිමත් නොවේ</string>
-    <string name="crashed">කඩා වැටුණා</string>
+    <string name="crashed">කඩා වැටී ඇත</string>
     <string name="mount_failed">සවි කිරීම අසාර්ථක විය</string>
     <string name="info_copied">පසුරු පුවරුවට පිටපත් කර ඇත</string>
     <!-- WelcomeDialog -->
-    <string name="parasitic_welcome">LSPposed වෙත සාදරයෙන් පිළිගනිමු</string>
-    <string name="parasitic_welcome_summary">දැනුම්දීමකින් විවෘත කළ හැකි පරපෝෂිත කළමනාකරු ඔබ භාවිත කරයි.</string>
-    <string name="never_show">කවදාවත් පෙන්වන්න එපා</string>
+    <string name="touch_filtered_warning">යෙදුමක් අතුරු මුහුණත ආවරණය කරන බැවින් කළමනාකරුට ඔබේ ප්‍රතිචාරය තහවුරු කළ නොහැක.</string>
+    <string name="parasitic_welcome">LSPosed වෙත සාදරයෙන් පිළිගනිමු</string>
+    <string name="parasitic_welcome_summary">ඔබ භාවිත කරන්නේ දැනුම්දීමකින් විවෘත කළ හැකි පරපෝෂිත කළමනාකරුය.</string>
+    <string name="never_show">කිසිවිටෙක නොපෙන්වන්න</string>
     <string name="app_welcome">පරපෝෂිත කළමනාකරු නිර්දේශ කෙරේ</string>
     <string name="app_welcome_summary">LSPosed දැන් හඳුනාගැනීම වැළැක්වීම සඳහා පද්ධති පරපෝෂිතකරණයට සහය දක්වයි, ඔබට දැනුම්දීමෙන් පරපෝෂිත කළමනාකරු විවෘත කළ හැක. වත්මන් යෙදුම අස්ථාපනය කිරීම නිර්දේශ කෙරේ.</string>
     <!-- LogsActivity -->
     <string name="menuSaveToSd">සුරකින්න</string>
-    <string name="nav_item_logs_verbose">වාචික ලඝු-සටහන්</string>
+    <string name="nav_item_logs_verbose">විස්තරාත්මක ලොග්</string>
     <string name="nav_item_logs_module">මොඩියුල ලොග්</string>
     <string name="logs_saving">ලොගය සුරකිමින්, කරුණාකර රැඳී සිටින්න</string>
-    <string name="logs_saved">ලඝු-සටහන් සුරකින ලදී</string>
+    <string name="logs_saved">ලොග් සුරකින ලදී</string>
     <string name="logs_save_failed2">සුරැකීමට අසමත් විය:\n%s</string>
+    <string name="logs_preparing">ලොගය සූදානම් කරමින්, කරුණාකර රැඳී සිටින්න</string>
+    <string name="logs_prepare_failed">සූදානම් කිරීමට අසමත් විය:\n%s</string>
     <string name="menuClearLog">දැන් ලොගය හිස් කරන්න</string>
     <string name="scroll_top">ඉහළට අනුචලනය කරන්න</string>
     <string name="scroll_bottom">පහළට අනුචලනය කරන්න</string>
-    <string name="menu_enable_word_wrap">වචන එතුම</string>
+    <string name="menu_enable_word_wrap">වචන එතීම</string>
     <!-- ModulesActivity -->
     <string name="warning_xposed_min_version">මෙම මොඩියුලයට නව Xposed අනුවාදයක් අවශ්‍ය වේ (%d) එබැවින් සක්‍රිය කළ නොහැක</string>
-    <string name="warning_target_version_higher">මෙම මොඩියුලය නවතම Xposed අනුවාදයක් සඳහා නිර්මාණය කර ඇත (%d) එබැවින් සමහර ක්‍රියාකාරීත්වයන් ක්‍රියා නොකරනු ඇත</string>
+    <string name="warning_target_version_higher">මෙම මොඩියුලය නව Xposed අනුවාදයක් සඳහා නිර්මාණය කර ඇත (%d) එබැවින් සමහර ක්‍රියාකාරීත්වයන් ක්‍රියා නොකරනු ඇත</string>
     <string name="no_min_version_specified">මෙම මොඩියුලය එයට අවශ්‍ය Xposed අනුවාදය සඳහන් නොකරයි.</string>
-    <string name="warning_min_version_too_low">මෙම මොඩියුලය Xposed අනුවාදය %1$dසඳහා නිර්මාණය කරන ලද නමුත් %2$dඅනුවාදයේ නොගැලපෙන වෙනස්කම් හේතුවෙන් එය අක්‍රීය කර ඇත</string>
+    <string name="warning_min_version_too_low">මෙම මොඩියුලය Xposed අනුවාදය %1$d සඳහා නිර්මාණය කරන ලද නමුත් %2$d අනුවාදයේ නොගැලපෙන වෙනස්කම් හේතුවෙන් එය අක්‍රීය කර ඇත</string>
     <string name="warning_deprecated_feature">මෙම මොඩියුලය දැනටමත් යල් පැන ගිය ලෙස සලකුණු කර ඇති සහ ඉක්මනින් ඉවත් කිරීමට නියමිත විශේෂාංගයක් භාවිත කරයි. කරුණාකර කර්තෘ අමතන්න හෝ විකල්පයක් සලකා බලන්න.</string>
     <string name="warning_installed_on_external_storage">මෙම මොඩියුලය SD පතෙහි ස්ථාපනය කර ඇති නිසා එය පූරණය කළ නොහැක, කරුණාකර එය අභ්‍යන්තර ආචයනය වෙත ගෙන යන්න</string>
     <string name="module_uninstall">අස්ථාපනය කරන්න</string>
     <string name="module_settings">මොඩියුල සැකසුම්</string>
-    <string name="view_in_repo">Repo හි බලන්න</string>
+    <string name="view_in_repo">ගබඩාවේ බලන්න</string>
     <string name="module_uninstall_message">ඔබට මෙම මොඩියුලය අස්ථාපනය කිරීමට අවශ්‍යද?</string>
-    <string name="module_uninstalled">අස්ථාපනය %1$s</string>
+    <string name="module_uninstalled">%1$s අස්ථාපනය කරන ලදී</string>
     <string name="module_uninstall_failed">අස්ථාපනය අසාර්ථකයි</string>
     <string name="module_install_failed">මොඩියුලය එකතු කිරීම අසාර්ථක විය</string>
-    <string name="install_to_user">පරිශීලක %sවෙත ස්ථාපනය කරන්න</string>
+    <string name="install_to_user">පරිශීලක %s වෙත ස්ථාපනය කරන්න</string>
     <string name="expand">පුළුල් කරන්න</string>
-    <string name="collapse">කඩා වැටීම</string>
+    <string name="collapse">හකුළන්න</string>
     <!-- AppListActivity -->
+    <string name="reset_scope_request_setting">විෂය පථ ඉල්ලීම් සැකසුම නැවත සකසන්න</string>
+    <string name="reset_scope_request_setting_done">විෂය පථ ඉල්ලීම් සැකසුම නැවත සකසන ලදී</string>
+    <string name="hide_non_system_overlay_failed_no_permission">පද්ධති නොවන උඩින් පෙන්වන කවුළුව සැඟවීමට අසමත් විය, කරුණාකර කළමනාකරු යාවත්කාලීන කරන්න.</string>
     <string name="compile_speed">නැවත ප්‍රශස්ත කරන්න</string>
     <string name="compile_speed_msg">ප්‍රශස්තකරණය…</string>
     <string name="compile_done">ප්‍රශස්තකරණය සම්පූර්ණයි</string>
     <string name="app_launch">එය දියත් කරන්න</string>
     <string name="compile_failed">ප්‍රශස්තකරණය අසාර්ථක විය: ආපසු ලැබෙන අගය හිස්ය</string>
     <string name="compile_failed_with_info">ප්‍රශස්තකරණය අසාර්ථක විය: </string>
-    <string name="sort_by_name">අයදුම්පත් නම</string>
+    <string name="sort_by_name">යෙදුම් නම</string>
     <string name="sort_by_package_name">පැකේජයේ නම</string>
-    <string name="sort_by_install_time">කාලය ස්ථාපනය කරන්න</string>
+    <string name="sort_by_install_time">ස්ථාපන කාලය</string>
     <string name="sort_by_update_time">යාවත්කාලීන කාලය</string>
     <string name="sort_reverse">ආපසු හැරවීම</string>
     <string name="menu_show_system_apps">පද්ධති යෙදුම්</string>
@@ -102,72 +98,88 @@
     <string name="enable_module">මොඩියුලය සක්රිය කරන්න</string>
     <string name="menu_show_games">ක්රීඩා</string>
     <string name="menu_show_modules">මොඩියුල</string>
+    <string name="module_scope_list_static_scope">මොඩියුලය ස්ථිතික විෂය පථයක් ප්‍රකාශ කර ඇත</string>
     <string name="failed_to_save_scope_list">විෂය පථ ලැයිස්තුව සුරැකීමට අසමත් විය</string>
     <string name="app_version">අනුවාදය: %1$s</string>
     <string name="use_recommended">නිර්දේශ කර ඇත</string>
     <string name="use_recommended_message">නිර්දේශිත යෙදුම් තෝරන්නද?</string>
+    <string name="deselect_all">සියල්ල තේරීම ඉවත් කරන්න</string>
+    <string name="deselect_all_message">තෝරාගත් සියලු යෙදුම් තේරීම ඉවත් කරන්නද?</string>
     <string name="module_is_not_activated_yet">Xposed මොඩියුලය තවම සක්‍රිය කර නැත</string>
-    <string name="requested_by_module">නිර්දේශ කර ඇත</string>
+    <string name="requested_by_module">මොඩියුලය නිර්දේශ කරයි</string>
     <string name="update_available">යාවත්කාලීන ලබා ගත හැක: %1$s</string>
     <string name="android_framework">පද්ධති රාමුව</string>
     <string name="menu_backup">උපස්ථ</string>
     <string name="menu_restore">ප්‍රතිෂ්ඨාපනය කරන්න</string>
     <string name="force_stop">බලෙන් නවත්වන්න</string>
-    <string name="force_stop_dlg_title">බලෙන් නතර කරන්නද?</string>
+    <string name="force_stop_dlg_title">බලෙන් නවත්වන්නද?</string>
     <string name="force_stop_dlg_text">ඔබ යෙදුමක් නැවැත්වීමට බල කළහොත්, එය වැරදි ලෙස හැසිරිය හැක.</string>
-    <string name="reboot_required">මෙම වෙනස යෙදීම සඳහා නැවත පණගැන්වීම අවශ්‍ය වේ</string>
-    <string name="reboot">නැවත ආරම්භ කරන්න</string>
+    <string name="reboot_required">මෙම වෙනස යෙදීම සඳහා පුනරාරම්භ කිරීම අවශ්‍ය වේ</string>
+    <string name="reboot">පුනරාරම්භ කරන්න</string>
     <!-- ModulesActivity and AppListActivity -->
     <string name="modules_other_app">වෙනත් යෙදුමක බලන්න</string>
     <string name="module_app_info">යෙදුම් තොරතුරු</string>
     <string name="list_empty">¯\\\\_(ツ)_\/¯\nමෙහි කිසිවක් නැත</string>
     <!-- SettingsActivity -->
     <string name="settings_group_framework">රාමුව</string>
-    <string name="settings_disable_verbose_log">වාචික ලඝු-සටහන් අක්‍රීය කරන්න</string>
-    <string name="settings_disable_verbose_log_summary">වාචික ලඝු-සටහන් ඇතුළත් කිරීමට ගැටළු ඉල්ලීම් වාර්තා කරන්න</string>
+    <string name="settings_disable_verbose_log">විස්තරාත්මක ලොග් අක්‍රීය කරන්න</string>
+    <string name="settings_disable_verbose_log_summary">ගැටළු වාර්තා කිරීමේදී විස්තරාත්මක ලොග් ඇතුළත් කරන්න</string>
     <string name="settings_group_theme">තේමාව</string>
-    <string name="settings_backup_and_restore">උපස්ථ සහ නැවත ස්ථාපිත</string>
-    <string name="settings_backup_summary">උපස්ථ මොඩියුල ලැයිස්තුව සහ විෂය පථ ලැයිස්තු.</string>
-    <string name="settings_restore_summary">මොඩියුල ලැයිස්තුව සහ විෂය පථ ලැයිස්තු ප්‍රතිසාධනය කරන්න.</string>
+    <string name="settings_backup_and_restore">උපස්ථ සහ ප්‍රතිෂ්ඨාපනය</string>
+    <string name="settings_backup_summary">මොඩියුල ලැයිස්තුව සහ විෂය පථ ලැයිස්තු උපස්ථ කරන්න.</string>
+    <string name="settings_restore_summary">මොඩියුල ලැයිස්තුව සහ විෂය පථ ලැයිස්තු ප්‍රතිෂ්ඨාපනය කරන්න.</string>
     <string name="settings_backup">උපස්ථ</string>
     <string name="settings_backup_failed2">උපස්ථ කිරීමට අසමත් විය:\n%s</string>
-    <string name="enable_documentui">කරුණාකර DocumentUI සබල කරන්න</string>
+    <string name="enable_documentui">කරුණාකර DocumentsUI සබල කරන්න</string>
     <string name="settings_restore">ප්‍රතිෂ්ඨාපනය කරන්න</string>
-    <string name="settings_restore_failed2">ප්‍රතිසාධනය කිරීමට අපොහොසත් විය:\n%s</string>
+    <string name="settings_restore_failed2">ප්‍රතිෂ්ඨාපනය කිරීමට අසමත් විය:\n%s</string>
     <string name="group_network">ජාල</string>
     <string name="dns_over_http">HTTPS හරහා DNS</string>
-    <string name="dns_over_http_summary">සමහර රටවල ඩීඑන්එස් විෂ වීම සඳහා විසඳුම්</string>
+    <string name="dns_over_http_summary">සමහර රටවල DNS විෂ වීම සඳහා විසඳුම්</string>
+    <string name="settings_repo_cdn">මොඩියුල ගබඩා CDN</string>
+    <string name="repo_cdn_default">පෙරනිමි</string>
+    <string name="repo_cdn_backup">උපස්ථ</string>
     <string name="settings_show_hidden_icon_apps_enabled">දියත් කිරීමේ අයිකන පෙන්වීමට යෙදුම් බල කරන්න</string>
     <string name="settings_show_hidden_icon_apps_enabled_summary">Android 10 ට පසුව, යෙදුම් වලට ඔවුන්ගේ දියත් කිරීමේ අයිකන සැඟවීමට ඉඩ නොදේ. මෙම පද්ධති විශේෂාංගය අක්‍රිය කිරීමට ටොගලය අක්‍රිය කරන්න.</string>
-    <string name="settings_group_system">පද්ධති</string>
+    <string name="settings_group_system">පද්ධතිය</string>
     <string name="settings_language">භාෂාව</string>
     <string name="settings_translation_contributors">පරිවර්තන දායකයින්</string>
     <string name="settings_translation">පරිවර්තනයට සහභාගී වන්න</string>
-    <string name="settings_translation_summary">%s ඔබේ භාෂාවට පරිවර්තනය කිරීමට අපට උදවු කරන්න</string>
+    <string name="settings_translation_summary">%s ඔබේ භාෂාවට පරිවර්තනය කිරීමට අපට උදව් කරන්න</string>
     <string name="settings_enable_status_notification">තත්ත්ව දැනුම්දීම</string>
     <string name="settings_enable_status_notification_summary">පරපෝෂිත කළමනාකරු විවෘත කළ හැකි දැනුම්දීමක් පෙන්වන්න</string>
-    <string name="settings_update_channel">නාලිකාව යාවත්කාලීන කරන්න</string>
+    <string name="settings_update_channel">මොඩියුල යාවත්කාලීන නාලිකාව</string>
     <string name="update_channel_stable">ස්ථාවර</string>
     <string name="update_channel_beta">බීටා</string>
-    <string name="update_channel_nightly">රාත්රී ගොඩනැගීම</string>
+    <string name="update_channel_nightly">රාත්රී බිල්ඩය</string>
     <string name="settings_xposed_api_call_protection">Xposed API ඇමතුම් ආරක්ෂාව</string>
     <string name="settings_xposed_api_call_protection_summary">Xposed API භාවිතා කිරීමට ගතිකව පටවන ලද මොඩියුල කේතය අවහිර කරන්න, මෙය සමහර මොඩියුල බිඳ දැමිය හැකි නමුත් ආරක්ෂාවට ප්‍රතිලාභ ලබා දෙයි</string>
     <!-- Module Repo -->
-    <string name="module_readme">කියවන්න</string>
-    <string name="module_releases">නිකුත් කරයි</string>
+    <string name="settings_invalidate_inline_hooks">ඉන්ලයින් hook අවලංගු කරන්න</string>
+    <string name="settings_invalidate_inline_hooks_summary">ලැයිස්තුගත යෙදුම් සඳහා libart.so පිරිසිදු කරයි. මෙය අහඹු දෝෂ හා කඩාවැටීම් ඇති කරයි. නිශ්චිත යෙදුම් විවෘත කළ නොහැකි විට පමණක් භාවිත කරන්න.</string>
+    <string name="failed_to_save_invalidate_inline_hooks_list">ඉන්ලයින් hook අවලංගු කිරීමේ ලැයිස්තුව සුරැකීමට අසමත් විය</string>
+    <string name="settings_enable_predictive_back">පුරෝකථන ආපසු අභිනය</string>
+    <string name="settings_enable_predictive_back_summary">පුරෝකථන ආපසු අභිනය සඳහා සහාය සක්‍රිය කරන්න.</string>
+    <string name="settings_enable_swipe_dismiss">අදින ආපසු අභිනය</string>
+    <string name="settings_enable_swipe_dismiss_summary">පෙර පිටුවට ආපසු යාමට තිරයේ දාරයේ සිට අදින්න.</string>
+    <string name="settings_tapjacking_protection">ටැප්ජැකිං අවම කිරීම</string>
+    <string name="settings_tapjacking_protection_summary">ටැප්ජැකිං ප්‍රහාර වැළැක්වීම සඳහා මුහුණත ආවරණය වූ විට ස්පර්ශ අවහිර කරයි</string>
+    <string name="module_readme">README</string>
+    <string name="module_releases">නිකුතුම්</string>
     <string name="module_information">තොරතුරු</string>
     <string name="module_information_homepage">මුල් පිටුව</string>
     <string name="module_information_source_url">ප්රභව කේතය</string>
     <string name="module_information_collaborators">සහයෝගිතාකරුවන්</string>
-    <string name="module_release_view_assets">වත්කම්</string>
+    <string name="module_release_view_assets">සම්පත්</string>
     <string name="menu_open_in_browser">බ්‍රවුසරයේ විවෘත කරන්න</string>
+    <string name="menu_share">බෙදාගන්න</string>
     <string name="module_release_load_more">පැරණි අනුවාද පෙන්වන්න</string>
-    <string name="module_release_no_more">තවත් නිදහස් කිරීමක් නැත</string>
-    <string name="sort_upgradable_first">පළමුව උසස් කළ හැකිය</string>
+    <string name="module_release_no_more">තවත් නිකුතුම් නැත</string>
+    <string name="sort_upgradable_first">උසස් කළ හැකි ඒවා පළමුව</string>
     <string name="installed">ස්ථාපනය කර ඇත</string>
     <plurals name="module_release_assets_download_count">
         <item quantity="one">%d බාගැනීම</item>
-        <item quantity="other">බාගැනීම් %d</item>
+        <item quantity="other">%d බාගැනීම්</item>
     </plurals>
     <!-- Colors -->
     <string name="color_red">රතු</string>
@@ -183,9 +195,92 @@
     <string name="color_lime">දෙහි</string>
     <string name="color_yellow">කහ</string>
     <string name="color_amber">ඇම්බර්</string>
-    <string name="color_orange">දොඩම්</string>
+    <string name="color_orange">තැඹිලි</string>
     <string name="color_brown">දුඹුරු</string>
     <string name="color_blue_grey">නිල් අළු</string>
+    <string name="safe_mode">ආරක්ෂිත ප්‍රකාරය</string>
+    <string name="safe_mode_summary">LSPosed ආරක්ෂිත ප්‍රකාරයේ පවතී</string>
+    <string name="safe_mode_summary2">ඊළඟ පුනරාරම්භය දක්වා සියලු Xposed මොඩියුල භාවිතයට නොගත හැක.\nසමහර මොඩියුල පද්ධතිය කඩා වැටීමට හේතු වී ඇත. කරුණාකර මෙම මොඩියුල සොයා අක්‍රීය කර මොඩියුල සංවර්ධකයන්ට ප්‍රතිචාර දෙන්න.</string>
+    <string name="disable_all_modules">සියලු මොඩියුල අක්‍රීය කරන්න</string>
+    <string name="confirm_disable_all_modules">තහවුරු කරන්නද?</string>
+    <plurals name="message_disable_all_modules">
+        <item quantity="one">%d මොඩියුලයක් අක්‍රීය වනු ඇත.
+මෙම ක්‍රියාව අහෝසි කළ නොහැක.</item>
+        <item quantity="other">%d මොඩියුල අක්‍රීය වනු ඇත.
+මෙම ක්‍රියාව අහෝසි කළ නොහැක.</item>
+    </plurals>
+    <string name="disable_success_title">සාර්ථකයි</string>
+    <string name="hook_debug_title">Hook දෝෂ නිරාකරණය</string>
+    <string name="debugging_title">දෝෂ නිරාකරණය</string>
     <string name="developer_mode_title">සංවර්ධක ප්‍රකාරය</string>
     <string name="developer_mode_summary">CLI මෙවලම භාවිතයෙන් LSPosed සැකසුම් සහ විෂය පථ කළමනාකරණයට ඉඩ දෙන්න</string>
+    <string name="safe_mode_disabled_title">ආරක්ෂිත ප්‍රකාරය අක්‍රීය කරන්න</string>
+    <string name="safe_mode_disabled_summary">පද්ධති සංරචක නිතර නතර වන විට ආරක්ෂිත ප්‍රකාරයට ඇතුළුවීම වළක්වන්න</string>
+    <string name="hook_debug_summary">hook කරන ලද ක්‍රියාවලිවල hook දෝෂ නිරාකරණ තොරතුරු උපුටා ගැනීමට ඉඩ දෙන්න, මෙය ක්‍රියාකාරීත්වයට බලපෑමක් විය හැක</string>
+    <string name="dump_hook_debug_title">Hook දෝෂ නිරාකරණ තොරතුරු උපුටා ගන්න</string>
+    <string name="dump_hook_debug_summary">Hook දෝෂ නිරාකරණ තොරතුරු /data/adb/lspd/log වෙත උපුටා ගන්න</string>
+    <string name="dump_hook_success">%s වෙත උපුටා ගන්නා ලදී</string>
+    <string name="dump_hook_failed">උපුටා ගැනීමට අසමත් විය</string>
+    <string name="log_to_daemon_title">ඩේමනයට ලොග් කරන්න</string>
+    <string name="log_to_daemon_summary">මෙය මොඩියුල ලොග් යෙදුම් මගින් කියවීම වළක්වයි, නමුත් ක්‍රියාකාරීත්වයට බලපෑමක් විය හැක</string>
+    <plurals name="disable_success_message">
+        <item quantity="one">%d මොඩියුලයක් අක්‍රීය කරන ලදී</item>
+        <item quantity="other">%d මොඩියුල අක්‍රීය කරන ලදී</item>
+    </plurals>
+    <string name="follow_system">පද්ධතිය අනුගමනය කරන්න</string>
+    <string name="unknown_author">නොදන්නා කර්තෘ</string>
+    <string name="unknown_version">නොදන්නා අනුවාදය</string>
+    <string name="unknown_asset">නොදන්නා සම්පත</string>
+    <string name="download_asset">බාගන්න</string>
+    <string name="nav_back">ආපසු</string>
+    <string name="nav_rail_expand">නාවිකරණ තීරුව පුළුල් කරන්න</string>
+    <string name="nav_rail_collapse">නාවිකරණ තීරුව හකුළන්න</string>
+    <string name="menu">මෙනුව</string>
+    <string name="menu_filter">පෙරහන</string>
+    <string name="menu_parsed_view">විග්‍රහ කළ දසුන</string>
+    <string name="menu_raw_view">අමු දසුන</string>
+    <string name="settings_ui">අතුරු මුහුණතේ විලාසය</string>
+    <string name="settings_ui_summary">යෙදුමේ අතුරු මුහුණතේ විලාසය තෝරන්න</string>
+    <string name="settings_theme">තේමාව</string>
+    <string name="settings_theme_summary">යෙදුමේ තේමා ප්‍රකාරය තෝරන්න</string>
+    <string name="settings_theme_mode_system">පද්ධතිය අනුගමනය කරන්න</string>
+    <string name="settings_theme_mode_light">ලා</string>
+    <string name="settings_theme_mode_dark">අඳුරු</string>
+    <string name="settings_theme_mode_monet_system">Monet (පද්ධතිය අනුගමනය කරන්න)</string>
+    <string name="settings_theme_mode_monet_light">Monet (ලා)</string>
+    <string name="settings_theme_mode_monet_dark">Monet (අඳුරු)</string>
+    <string name="settings_key_color">අවධාරක වර්ණය</string>
+    <string name="settings_key_color_summary">Monet භාවිත කරන විට මූල වර්ණය අභිරුචිකරණය කරන්න</string>
+    <string name="settings_key_color_default">පෙරනිමි</string>
+    <string name="settings_theme_entry">තේමා සැකසුම්</string>
+    <string name="settings_theme_entry_summary">තේමා ප්‍රකාරය, අවධාරක වර්ණය, වර්ණ පුවරු විලාසය සහ තවත්</string>
+    <string name="settings_palette_style">වර්ණ පුවරු විලාසය</string>
+    <string name="settings_palette_style_summary">Material 3 වර්ණ පුවරුව ව්‍යුත්පන්න කිරීමට භාවිත කරන ස්වර ඇල්ගොරිතමය</string>
+    <string name="settings_color_spec">වර්ණ පිරිවිතරය</string>
+    <string name="settings_color_spec_summary">Material 3 වර්ණ පිරිවිතර අනුවාදය</string>
+    <string name="settings_page_scale">පිටු පරිමාණය</string>
+    <string name="settings_page_scale_summary">ගෝලීය සංදර්ශන පරිමාණය සකසන්න</string>
+    <string name="settings_enable_blur">බොඳ කිරීම</string>
+    <string name="settings_enable_blur_summary">ඉහළ සහ පහළ තීරු සඳහා බොඳ කිරීමේ බලපෑම සක්‍රිය කරන්න</string>
+    <string name="settings_floating_bottom_bar">පාවෙන පහළ තීරුව</string>
+    <string name="settings_floating_bottom_bar_summary">Apple විලාසයට සමාන පාවෙන පහළ තීරුවක් භාවිත කරන්න</string>
+    <string name="settings_enable_glass">දියර වීදුරුව</string>
+    <string name="settings_enable_glass_summary">පාවෙන පහළ තීරුව සඳහා දියර වීදුරු බලපෑම සක්‍රිය කරන්න</string>
+    <string name="refresh_pulling">නැවුම් කිරීමට පහළට අදින්න</string>
+    <string name="refresh_release">නැවුම් කිරීමට මුදා හරින්න</string>
+    <string name="refresh_refresh">නැවුම් කරමින්…</string>
+    <string name="refresh_complete">සාර්ථකව නැවුම් කරන ලදී</string>
+    <string name="time_just_now">දැන්</string>
+    <plurals name="time_minutes_ago">
+        <item quantity="one">මිනිත්තු %dකට පෙර</item>
+        <item quantity="other">මිනිත්තු %dකට පෙර</item>
+    </plurals>
+    <plurals name="time_hours_ago">
+        <item quantity="one">පැය %dකට පෙර</item>
+        <item quantity="other">පැය %dකට පෙර</item>
+    </plurals>
+    <plurals name="time_days_ago">
+        <item quantity="one">දින %dකට පෙර</item>
+        <item quantity="other">දින %dකට පෙර</item>
+    </plurals>
 </resources>

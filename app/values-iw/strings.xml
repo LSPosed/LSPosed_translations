@@ -1,23 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--
-  ~ This file is part of LSPosed.
-  ~
-  ~ LSPosed is free software: you can redistribute it and/or modify
-  ~ it under the terms of the GNU General Public License as published by
-  ~ the Free Software Foundation, either version 3 of the License, or
-  ~ (at your option) any later version.
-  ~
-  ~ LSPosed is distributed in the hope that it will be useful,
-  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
-  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-  ~ GNU General Public License for more details.
-  ~
-  ~ You should have received a copy of the GNU General Public License
-  ~ along with LSPosed.  If not, see <https://www.gnu.org/licenses/>.
-  ~
-  ~ Copyright (C) 2021 LSPosed Contributors
-  -->
-<resources xmlns:tools="http://schemas.android.com/tools" tools:keep="@string/xposed_module_updated_notification_*,@string/module_is_not_activated_*">
+<resources>
     <!-- MainActivity -->
     <string name="overview">סקירה כללית</string>
     <string name="Modules">מודולים</string>
@@ -25,17 +7,25 @@
     <string name="Settings">הגדרות</string>
     <string name="About">אודות</string>
     <string name="module_repo">מאגר מידע</string>
+    <string name="about_send_bug_report">שלח דוח באגים</string>
+    <string name="bug_report_message">תאר בקצרה את הבעיה</string>
+    <string name="bug_report_exporting_logs">מייצא לוגים…</string>
+    <string name="about_join_telegram">הצטרף לערוץ Telegram</string>
+    <string name="email_address_copied">כתובת האימייל הועתקה</string>
+    <string name="translators">null</string>
     <string name="not_installed">לא מותקן</string>
     <string name="not_install_summary">LSPosed אינו מותקן</string>
     <string name="activated">הופעל</string>
     <string name="partial_activated">הופעל חלקית</string>
     <string name="system_inject_fail_summary">הזרקת תשתית המערכת נכשלה</string>
-    <string name="system_inject_fail"><![CDATA[זה נדיר ועלול להיגרם על ידי <b>Magisk</b> או מודולי Magisk באיכות נמוכה.<br/>אנא נסה להשבית מודולי Magisk שאינם Zygisk ו-LSPosed או שלח דיווח לוג מלא למפתחים.]]></string>
+    <string name="system_inject_fail"><![CDATA[זה נדיר ועלול להיגרם על ידי <b>Magisk</b> או מודולי Magisk באיכות נמוכה.<br/>אנא נסה להשבית מודולי Magisk שאינם Zygisk ו-LSPosed, או שלח לוג מלא למפתחים.]]></string>
     <string name="system_prop_incorrect_summary">מאפיין המערכת שגוי</string>
     <string name="system_prop_incorrect"><![CDATA[חלק ממאפייני המערכת הדרושים נמחקו או שונו.<br/>המודולים עשויים להתבטל מדי פעם.]]></string>
     <string name="hyrt_unavailable_summary">ההזרקה ל-HyperOS Runtime נכשלה</string>
-    <string name="hyrt_unavailable">זוהה HyperOS Runtime, אך Zygisk Next API אינו זמין. מודולים מקוריים לא ייטענו לתהליכי HyperOS Runtime.</string>
+    <string name="hyrt_unavailable">זוהה HyperOS Runtime, אך Zygisk Next API אינו זמין. מודולים נייטיביים לא ייטענו לתהליכי HyperOS Runtime.</string>
     <string name="need_update">צריך לעדכן</string>
+    <string name="developer_warning_title">עצות למפתח המודול</string>
+    <string name="developer_warning_summary">אנא בטל את אופטימיזציות הפריסה ב-Android Studio, או השתמש בפקודה `gradlew installDebug` כדי להתקין. אחרת קובץ ה-apk של המודול לא יעודכן.</string>
     <string name="info_manager_package_name">שם חבילת מנהל</string>
     <string name="info_system_version">גרסת מערכת</string>
     <string name="info_device">מכשיר</string>
@@ -49,9 +39,10 @@
     <string name="injected">מוזרק</string>
     <string name="android_version_unsatisfied">גרסת אנדרואיד לא מספקת</string>
     <string name="crashed">התרסק</string>
-    <string name="mount_failed">ה-mount נכשל</string>
+    <string name="mount_failed">החיבור נכשל</string>
     <string name="info_copied">הועתק ללוח</string>
     <!-- WelcomeDialog -->
+    <string name="touch_filtered_warning">כיוון שאפליקציה מסתירה את הממשק, המנהל לא יכול לאמת את תגובתך.</string>
     <string name="parasitic_welcome">ברוכים הבאים ל-LSPosed</string>
     <string name="parasitic_welcome_summary">הנך משתמש בגרסת אפליקציית ניהול בתצורת טפיל, שיכולה להיפתח מהתראה.</string>
     <string name="never_show">לעולם אל תראה</string>
@@ -64,28 +55,33 @@
     <string name="logs_saving">שומר יומן, אנא המתן</string>
     <string name="logs_saved">לוגים נשמרו</string>
     <string name="logs_save_failed2">השמירה נכשלה:\n%s</string>
+    <string name="logs_preparing">מכין לוג, אנא המתן</string>
+    <string name="logs_prepare_failed">ההכנה נכשלה:\n%s</string>
     <string name="menuClearLog">נקה לוגים עכשיו</string>
     <string name="scroll_top">גלול למעלה</string>
     <string name="scroll_bottom">גלול למטה</string>
     <string name="menu_enable_word_wrap">עטיפת מילה</string>
     <!-- ModulesActivity -->
-    <string name="warning_xposed_min_version">מודול זה דורש גרסה חדשה יותר של LSPosed (%d) ולכן לא יכול להיות מופעל</string>
+    <string name="warning_xposed_min_version">מודול זה דורש גרסה חדשה יותר של Xposed (%d) ולכן לא יכול להיות מופעל</string>
     <string name="warning_target_version_higher">מודול זה מיועד לגרסה חדשה יותר של Xposed (%d) ולכן ייתכן שחלק מהפונקציונליות לא תופעל כהלכה</string>
-    <string name="no_min_version_specified">מודול זה לא מציין את גסרת ה- LSPosed שהוא צריך.</string>
-    <string name="warning_min_version_too_low">מודול זה נוצר בשביל LSPosed גרסה %1$d, אך בשל חוסר תאימות לאחור בגרסה %2$d, הוא הופסק</string>
+    <string name="no_min_version_specified">מודול זה לא מציין את גרסת ה-Xposed שהוא צריך.</string>
+    <string name="warning_min_version_too_low">מודול זה נוצר בשביל Xposed גרסה %1$d, אך בשל שינויים שאינם תואמים בגרסה %2$d, הוא הושבת</string>
     <string name="warning_deprecated_feature">מודול זה משתמש בתכונה שהוצאה משימוש ותוסר בקרוב. יש לפנות למחבר או לשקול חלופה.</string>
     <string name="warning_installed_on_external_storage">מודול זה לא יכול להיטען מכיוון שהוא מותקן על כרטיס ה-SD, אנא העבר אותו לאחסון פנימי</string>
     <string name="module_uninstall">הסר התקנה</string>
     <string name="module_settings">הגדרות מודול</string>
-    <string name="view_in_repo">הצג ברפוסיטורי</string>
-    <string name="module_uninstall_message">האם אתה בטוח שאתה רוצב להסיר את התנקת המודול?</string>
+    <string name="view_in_repo">הצג במאגר</string>
+    <string name="module_uninstall_message">האם אתה בטוח שאתה רוצה להסיר את ההתקנה של המודול?</string>
     <string name="module_uninstalled">%1$s הוסר</string>
-    <string name="module_uninstall_failed">הסרת ההתקנה הושלמה בהצלחה</string>
-    <string name="module_install_failed">הוספת המודל נכשלה</string>
+    <string name="module_uninstall_failed">הסרת ההתקנה נכשלה</string>
+    <string name="module_install_failed">הוספת המודול נכשלה</string>
     <string name="install_to_user">התקן למשתמש %s</string>
     <string name="expand">להרחיב</string>
-    <string name="collapse">התמוטטות</string>
+    <string name="collapse">כיווץ</string>
     <!-- AppListActivity -->
+    <string name="reset_scope_request_setting">אפס את הגדרת בקשת ההיקף</string>
+    <string name="reset_scope_request_setting_done">הגדרת בקשת ההיקף אופסה</string>
+    <string name="hide_non_system_overlay_failed_no_permission">הסתרת חלון צף שאינו של המערכת נכשלה. אנא עדכן את המנהל.</string>
     <string name="compile_speed">מטב מחדש</string>
     <string name="compile_speed_msg">ממטב…</string>
     <string name="compile_done">אופטימיזציה הושלמה.</string>
@@ -98,45 +94,51 @@
     <string name="sort_by_update_time">מיין על פי זמן העדכון</string>
     <string name="sort_reverse">להפוך</string>
     <string name="menu_show_system_apps">אפליקציות מערכת</string>
-    <string name="menu_sort">ממיין</string>
+    <string name="menu_sort">מיון</string>
     <string name="enable_module">הפעל מודול</string>
     <string name="menu_show_games">משחקים</string>
     <string name="menu_show_modules">מודולים</string>
+    <string name="module_scope_list_static_scope">המודול הצהיר על היקף סטטי</string>
     <string name="failed_to_save_scope_list">נכשל לשמור רשימת תחומים</string>
     <string name="app_version">גרסה: %1$s</string>
     <string name="use_recommended">מומלץ</string>
     <string name="use_recommended_message">בחר אפליקציות מומלצות?</string>
+    <string name="deselect_all">בטל את כל הבחירות</string>
+    <string name="deselect_all_message">לבטל את הבחירה של כל האפליקציות שנבחרו?</string>
     <string name="module_is_not_activated_yet">מודול Xposed עדיין לא הופעל</string>
-    <string name="requested_by_module">מומלץ</string>
+    <string name="requested_by_module">מומלץ על ידי המודול</string>
     <string name="update_available">עדכון זמין: %1$s</string>
-    <string name="android_framework">מערכת Framework</string>
+    <string name="android_framework">תשתית המערכת</string>
     <string name="menu_backup">גיבוי</string>
     <string name="menu_restore">שחזור</string>
     <string name="force_stop">אלץ עצירה</string>
-    <string name="force_stop_dlg_title">אצץ עצירה?</string>
-    <string name="force_stop_dlg_text">אם אתה תאלץ עצירה לאפליקציה, היא עלולה להתנהג בצורה לא רצויה.</string>
+    <string name="force_stop_dlg_title">לאלץ עצירה?</string>
+    <string name="force_stop_dlg_text">אם תאלץ עצירה של אפליקציה, ייתכן שהיא לא תפעל כהלכה.</string>
     <string name="reboot_required">הפעלה מחדש דרושה בכדי שהשינויים יכנסו לתוקף</string>
     <string name="reboot">הפעל מחדש</string>
     <!-- ModulesActivity and AppListActivity -->
     <string name="modules_other_app">הצג באפליקציה אחרת</string>
     <string name="module_app_info">מידע על האפליקציה</string>
-    <string name="list_empty">¯\\\\_(ツ)_\/¯\n אין פה כלום</string>
+    <string name="list_empty">¯\\\\_(ツ)_\/¯\nאין כאן כלום</string>
     <!-- SettingsActivity -->
-    <string name="settings_group_framework">Framework</string>
-    <string name="settings_disable_verbose_log">בטל verbose logs</string>
-    <string name="settings_disable_verbose_log_summary">בקשת דיווח על בעיות לכלול יומנים מילוליים</string>
+    <string name="settings_group_framework">תשתית</string>
+    <string name="settings_disable_verbose_log">בטל לוגים מפורטים</string>
+    <string name="settings_disable_verbose_log_summary">בעת דיווח על בעיות יש לכלול לוגים מפורטים</string>
     <string name="settings_group_theme">ערכת נושא</string>
     <string name="settings_backup_and_restore">גיבוי ושחזור</string>
     <string name="settings_backup_summary">גיבוי רשימת מודולים ורשימות היקף.</string>
     <string name="settings_restore_summary">שחזר את רשימת המודולים ורשימות ההיקף.</string>
     <string name="settings_backup">גיבוי</string>
     <string name="settings_backup_failed2">גיבוי נכשל:\n%s</string>
-    <string name="enable_documentui">אנא הפעל את DocumentUI</string>
+    <string name="enable_documentui">אנא הפעל את DocumentsUI</string>
     <string name="settings_restore">שחזור</string>
-    <string name="settings_restore_failed2">השחזור נכשל::\n%s</string>
+    <string name="settings_restore_failed2">השחזור נכשל:\n%s</string>
     <string name="group_network">רשת</string>
     <string name="dns_over_http">DNS על פני HTTPS</string>
     <string name="dns_over_http_summary">מעקף הרעלת DNS במדינות מסוימות</string>
+    <string name="settings_repo_cdn">CDN של מאגר המודולים</string>
+    <string name="repo_cdn_default">ברירת מחדל</string>
+    <string name="repo_cdn_backup">גיבוי</string>
     <string name="settings_show_hidden_icon_apps_enabled">כפה על אפליקציות להציג סמלי מפעיל</string>
     <string name="settings_show_hidden_icon_apps_enabled_summary">לאחר Android 10, אפליקציות אינן מורשות להסתיר את סמלי המשגר שלהן. בטל את הלחצן הדו-מצבי כדי להפוך תכונת מערכת זו ללא זמינה.</string>
     <string name="settings_group_system">מערכת</string>
@@ -144,27 +146,37 @@
     <string name="settings_translation_contributors">תורמים לתרגום</string>
     <string name="settings_translation">השתתף בתרגום</string>
     <string name="settings_translation_summary">עזור לנו לתרגם את %s לשפה שלך</string>
-    <string name="settings_enable_status_notification">הודעת סטטוס</string>
-    <string name="settings_enable_status_notification_summary">הצג הודעה שיכולה לפתוח מנהל טפילי</string>
-    <string name="settings_update_channel">ערוץ עדכון</string>
+    <string name="settings_enable_status_notification">התראת סטטוס</string>
+    <string name="settings_enable_status_notification_summary">הצג התראה שיכולה לפתוח את אפליקציית הניהול בתצורת טפיל</string>
+    <string name="settings_update_channel">ערוץ עדכון מודולים</string>
     <string name="update_channel_stable">יציב</string>
     <string name="update_channel_beta">בטא</string>
-    <string name="update_channel_nightly">בניה לילית</string>
+    <string name="update_channel_nightly">בנייה לילית</string>
     <string name="settings_xposed_api_call_protection">הגנה מפני קריאות Xposed API</string>
     <string name="settings_xposed_api_call_protection_summary">חסום קוד מודול שנטען באופן דינמי לשימוש ב-Xposed API, זה עשוי לשבור מודולים מסוימים אך להועיל לאבטחה</string>
     <!-- Module Repo -->
+    <string name="settings_invalidate_inline_hooks">בטל תוקף של hooks מוטמעים</string>
+    <string name="settings_invalidate_inline_hooks_summary">נקה את libart.so עבור האפליקציות ברשימה. הדבר יגרום לתקלות ולקריסות אקראיות. השתמש בכך רק כאשר לא ניתן לפתוח אפליקציות מסוימות.</string>
+    <string name="failed_to_save_invalidate_inline_hooks_list">שמירת רשימת ביטול התוקף של hooks מוטמעים נכשלה</string>
+    <string name="settings_enable_predictive_back">מחוות חזרה חזויה</string>
+    <string name="settings_enable_predictive_back_summary">הפעל תמיכה במחוות חזרה חזויה</string>
+    <string name="settings_enable_swipe_dismiss">מחוות חזרה בהחלקה</string>
+    <string name="settings_enable_swipe_dismiss_summary">החלק מהקצה כדי לחזור לדף הקודם.</string>
+    <string name="settings_tapjacking_protection">צמצום חטיפת הקשות</string>
+    <string name="settings_tapjacking_protection_summary">חוסם מגעים כאשר הממשק מוסתר כדי למנוע התקפות חטיפת הקשות</string>
     <string name="module_readme">קרא אותי</string>
     <string name="module_releases">גרסאות</string>
     <string name="module_information">מידע</string>
     <string name="module_information_homepage">דף בית</string>
     <string name="module_information_source_url">קוד מקור</string>
-    <string name="module_information_collaborators">מפתחים</string>
+    <string name="module_information_collaborators">משתפי פעולה</string>
     <string name="module_release_view_assets">קבצים</string>
     <string name="menu_open_in_browser">פתח בדפדפן</string>
+    <string name="menu_share">שיתוף</string>
     <string name="module_release_load_more">הראה גרסאות ישנות</string>
     <string name="module_release_no_more">אין עוד גרסאות</string>
-    <string name="sort_upgradable_first">ניתן לשדרוג תחילה</string>
-    <string name="installed">מוּתקָן</string>
+    <string name="sort_upgradable_first">ניתן לשדרג תחילה</string>
+    <string name="installed">מותקן</string>
     <plurals name="module_release_assets_download_count">
         <item quantity="one">%d הורדה</item>
         <item quantity="two">%d הורדות</item>
@@ -188,6 +200,101 @@
     <string name="color_orange">כתום</string>
     <string name="color_brown">חום</string>
     <string name="color_blue_grey">כחול אפור</string>
+    <string name="safe_mode">מצב בטוח</string>
+    <string name="safe_mode_summary">LSPosed נמצא במצב בטוח</string>
+    <string name="safe_mode_summary2">כל מודולי Xposed אינם זמינים עד לאתחול הבא.\nמודולים מסוימים גרמו לקריסות מערכת. אנא אתר והשבת מודולים אלה ודווח למפתחי המודולים.</string>
+    <string name="disable_all_modules">השבת את כל המודולים</string>
+    <string name="confirm_disable_all_modules">לאשר?</string>
+    <plurals name="message_disable_all_modules">
+        <item quantity="one">%d מודול יושבת.
+לא ניתן לבטל פעולה זו.</item>
+        <item quantity="two">%d מודולים יושבתו.
+לא ניתן לבטל פעולה זו.</item>
+        <item quantity="many">%d מודולים יושבתו.
+לא ניתן לבטל פעולה זו.</item>
+        <item quantity="other">%d מודולים יושבתו.
+לא ניתן לבטל פעולה זו.</item>
+    </plurals>
+    <string name="disable_success_title">הצלחה</string>
+    <string name="hook_debug_title">ניפוי באגים של hooks</string>
+    <string name="debugging_title">ניפוי באגים</string>
     <string name="developer_mode_title">מצב מפתח</string>
     <string name="developer_mode_summary">אפשר לנהל את ההגדרות והטווחים של LSPosed באמצעות כלי ה־CLI</string>
+    <string name="safe_mode_disabled_title">השבת את מצב בטוח</string>
+    <string name="safe_mode_disabled_summary">מנע כניסה למצב בטוח כאשר רכיבי המערכת מפסיקים לפעול שוב ושוב</string>
+    <string name="hook_debug_summary">אפשר יצירת דאמפ של מידע ניפוי באגים של hooks בתהליכים שעברו hooking, דבר שעלול להשפיע על הביצועים</string>
+    <string name="dump_hook_debug_title">צור דאמפ של מידע ניפוי באגים של hooks</string>
+    <string name="dump_hook_debug_summary">צור דאמפ של מידע ניפוי באגים של hooks אל /data/adb/lspd/log</string>
+    <string name="dump_hook_success">בוצע דאמפ אל %s</string>
+    <string name="dump_hook_failed">יצירת הדאמפ נכשלה</string>
+    <string name="log_to_daemon_title">רישום לוגים אל הדמון</string>
+    <string name="log_to_daemon_summary">הדבר מונע מאפליקציות לקרוא לוגים של מודולים, אך עלול להשפיע על הביצועים</string>
+    <plurals name="disable_success_message">
+        <item quantity="one">הושבת %d מודול</item>
+        <item quantity="two">הושבתו %d מודולים</item>
+        <item quantity="many">הושבתו %d מודולים</item>
+        <item quantity="other">הושבתו %d מודולים</item>
+    </plurals>
+    <string name="follow_system">לפי המערכת</string>
+    <string name="unknown_author">מחבר לא ידוע</string>
+    <string name="unknown_version">גרסה לא ידועה</string>
+    <string name="unknown_asset">קובץ לא ידוע</string>
+    <string name="download_asset">הורדה</string>
+    <string name="nav_back">חזרה</string>
+    <string name="nav_rail_expand">הרחב את סרגל הניווט</string>
+    <string name="nav_rail_collapse">כווץ את סרגל הניווט</string>
+    <string name="menu">תפריט</string>
+    <string name="menu_filter">סינון</string>
+    <string name="menu_parsed_view">תצוגה מנותחת</string>
+    <string name="menu_raw_view">תצוגה גולמית</string>
+    <string name="settings_ui">סגנון הממשק</string>
+    <string name="settings_ui_summary">בחר את סגנון הממשק</string>
+    <string name="settings_theme">ערכת נושא</string>
+    <string name="settings_theme_summary">בחר את מצב ערכת הנושא של האפליקציה</string>
+    <string name="settings_theme_mode_system">לפי המערכת</string>
+    <string name="settings_theme_mode_light">בהיר</string>
+    <string name="settings_theme_mode_dark">כהה</string>
+    <string name="settings_theme_mode_monet_system">Monet (לפי המערכת)</string>
+    <string name="settings_theme_mode_monet_light">Monet (בהיר)</string>
+    <string name="settings_theme_mode_monet_dark">Monet (כהה)</string>
+    <string name="settings_key_color">צבע הדגשה</string>
+    <string name="settings_key_color_summary">התאם אישית את צבע המקור בעת שימוש ב-Monet</string>
+    <string name="settings_key_color_default">ברירת מחדל</string>
+    <string name="settings_theme_entry">הגדרות ערכת נושא</string>
+    <string name="settings_theme_entry_summary">מצב ערכת הנושא, צבע הדגשה, סגנון לוח הצבעים ועוד</string>
+    <string name="settings_palette_style">סגנון לוח הצבעים</string>
+    <string name="settings_palette_style_summary">אלגוריתם הגוונים המשמש להפקת לוח הצבעים של Material 3</string>
+    <string name="settings_color_spec">מפרט צבעים</string>
+    <string name="settings_color_spec_summary">גרסת מפרט הצבעים של Material 3</string>
+    <string name="settings_page_scale">קנה מידה של העמוד</string>
+    <string name="settings_page_scale_summary">התאם את קנה המידה הגלובלי של התצוגה</string>
+    <string name="settings_enable_blur">טשטוש</string>
+    <string name="settings_enable_blur_summary">הפעל אפקט טשטוש עבור הסרגל העליון והתחתון</string>
+    <string name="settings_floating_bottom_bar">סרגל תחתון צף</string>
+    <string name="settings_floating_bottom_bar_summary">השתמש בסרגל תחתון צף בסגנון Apple</string>
+    <string name="settings_enable_glass">זכוכית נוזלית</string>
+    <string name="settings_enable_glass_summary">הפעל אפקט זכוכית נוזלית עבור הסרגל התחתון הצף</string>
+    <string name="refresh_pulling">משוך למטה כדי לרענן</string>
+    <string name="refresh_release">שחרר כדי לרענן</string>
+    <string name="refresh_refresh">מרענן…</string>
+    <string name="refresh_complete">הרענון הושלם</string>
+    <string name="time_just_now">הרגע</string>
+    <plurals name="time_minutes_ago">
+        <item quantity="one">לפני %d דקה</item>
+        <item quantity="two">לפני %d דקות</item>
+        <item quantity="many">לפני %d דקות</item>
+        <item quantity="other">לפני %d דקות</item>
+    </plurals>
+    <plurals name="time_hours_ago">
+        <item quantity="one">לפני %d שעה</item>
+        <item quantity="two">לפני %d שעות</item>
+        <item quantity="many">לפני %d שעות</item>
+        <item quantity="other">לפני %d שעות</item>
+    </plurals>
+    <plurals name="time_days_ago">
+        <item quantity="one">לפני %d יום</item>
+        <item quantity="two">לפני %d ימים</item>
+        <item quantity="many">לפני %d ימים</item>
+        <item quantity="other">לפני %d ימים</item>
+    </plurals>
 </resources>

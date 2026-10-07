@@ -5,18 +5,55 @@
     <string name="module_is_not_activated_yet">ماژول Xposed هنوز فعال نشده</string>
     <string name="module_is_not_activated_yet_main_user_detailed">ماژول %1$s نصب شده اما هنوز فعال نشده</string>
     <string name="module_is_not_activated_yet_multi_user_detailed">ماژول %1$s برای کاربر %2$s نصب شده اما هنوز فعال نشده</string>
-    <string name="xposed_module_updated_notification_title">ماژول Xposed به روز رسانی شده</string>
-    <string name="xposed_module_updated_notification_title_system">ماژول Xposed به روز رسانی شده لطفا دستگاه را خاموش و روشن کنید</string>
-    <string name="xposed_module_updated_notification_content">%s به‌روزرسانی شده لطفا برنامه‌ها را متوقف کرده و سپس دوباره در محدوده اجرا کنید</string>
-    <string name="xposed_module_updated_notification_content_system">%s به‌روزرسانی شده و چون محدوده آن شامل فریمورک سیستم است برای انجام تغییرات باید دستگاه خود را خاموش و روشن کنید</string>
-    <string name="module_updated_channel_name">به روز رسانی ماژول کامل شده</string>
-    <string name="status_channel_name">وضعیت lsposed </string>
-    <string name="lsposed_running_notification_title">مدیر lsposed بارگذاری شده</string>
-    <string name="lsposed_running_notification_content">با لمس این اعلان مدیر lsposed باز خواهد شد</string>
+    <string name="xposed_module_updated_notification_title">ماژول Xposed به‌روزرسانی شد</string>
+    <string name="xposed_module_updated_notification_title_system">ماژول Xposed به‌روزرسانی شد، راه‌اندازی مجدد سیستم لازم است</string>
+    <string name="xposed_module_updated_notification_content">%s به‌روزرسانی شد؛ لطفاً برنامه‌های موجود در محدوده آن را به‌صورت اجباری متوقف و دوباره اجرا کنید</string>
+    <string name="xposed_module_updated_notification_content_system">%s به‌روزرسانی شد؛ چون محدوده آن شامل فریمورک سیستم است، برای اعمال تغییرات باید دستگاه را راه‌اندازی مجدد کنید</string>
+    <string name="xposed_module_updated_notification_reload">%1$s به‌روزرسانی شد، %2$s</string>
+    <string name="xposed_module_updated_notification_reload_none">%s به‌روزرسانی شد</string>
+    <plurals name="xposed_module_updated_notification_reload_reloaded">
+        <item quantity="one">%d فرایند به‌صورت داغ بارگذاری مجدد شد</item>
+        <item quantity="other">%d فرایند به‌صورت داغ بارگذاری مجدد شد</item>
+    </plurals>
+    <plurals name="xposed_module_updated_notification_reload_reloading">
+        <item quantity="one">%d فرایند در حال بارگذاری مجدد داغ است</item>
+        <item quantity="other">%d فرایند در حال بارگذاری مجدد داغ است</item>
+    </plurals>
+    <plurals name="xposed_module_updated_notification_reload_failed">
+        <item quantity="one">بارگذاری مجدد داغ %d فرایند انجام نشد</item>
+        <item quantity="other">بارگذاری مجدد داغ %d فرایند انجام نشد</item>
+    </plurals>
+    <string name="xposed_module_enabled_notification_title">ماژول Xposed فعال شد</string>
+    <string name="xposed_module_enabled_notification_content">%s فعال شد؛ برای تنظیم محدوده ضربه بزنید</string>
+    <string name="xposed_module_updated_notification_action_enable">فعال کردن ماژول</string>
+    <string name="module_updated_channel_name">به‌روزرسانی ماژول کامل شد</string>
+    <string name="status_channel_name">وضعیت LSPosed</string>
+    <string name="lsposed_running_notification_title">LSPosed بارگذاری شد</string>
+    <string name="lsposed_running_notification_content">برای باز کردن مدیر LSPosed، این اعلان را لمس کنید</string>
     <string name="xposed_module_request_scope_title">درخواست محدوده</string>
     <string name="xposed_module_request_scope_content">%1$s در کاربر %2$s درخواست می‌کند %3$s را به محدوده خود اضافه کند</string>
+    <string name="xposed_module_request_scope_content_batch">%1$s در کاربر %2$s درخواست می‌کند برنامه‌های زیر را به محدوده خود اضافه کند.</string>
     <string name="scope_channel_name">درخواست محدوده</string>
-    <string name="scope_approve">تایید</string>
+    <string name="scope_approve">تأیید</string>
     <string name="scope_deny">رد</string>
-    <string name="nerver_ask_again">هرگز نپرس</string>
+    <string name="never_ask_again">هرگز نپرس</string>
+    <string name="lsposed_safemode_notification_title">LSPosed در حالت ایمن است</string>
+    <string name="lsposed_safemode_notification_content">همه ماژول‌های Xposed تا راه‌اندازی مجدد بعدی در دسترس نیستند</string>
+    <string name="safe_mode_disable_all_modules">غیرفعال کردن همه ماژول‌ها</string>
+    <string name="lsposed_safemode_cleared_notification_title">همه ماژول‌ها غیرفعال شدند</string>
+    <plurals name="lsposed_safemode_cleared_notification_content">
+        <item quantity="one">%d ماژول غیرفعال است</item>
+        <item quantity="other">%d ماژول غیرفعال است</item>
+    </plurals>
+    <string name="lsposed_safemode_clear_confirm_notification_title">تأیید می‌شود؟</string>
+    <plurals name="lsposed_safemode_clear_confirm_notification_content">
+        <item quantity="one">%d ماژول غیرفعال خواهد شد
+این عملیات قابل بازگشت نیست</item>
+        <item quantity="other">%d ماژول غیرفعال خواهد شد
+این عملیات قابل بازگشت نیست</item>
+    </plurals>
+    <string name="safe_mode_reboot">راه‌اندازی مجدد</string>
+    <string name="safe_mode_channel_name">حالت ایمن</string>
+    <string name="safe_mode_open_manager">باز کردن مدیر</string>
+    <string name="safe_mode_back">بازگشت</string>
 </resources>

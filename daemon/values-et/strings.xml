@@ -2,21 +2,58 @@
 <resources>
     <!-- Notification -->
     <string name="list_separator">, </string>
-    <string name="module_is_not_activated_yet">Xposed moodul ei ole aktiveeritud</string>
-    <string name="module_is_not_activated_yet_main_user_detailed">%1$s on paigaldatud, kuid ei ole aktiveeritud</string>
-    <string name="module_is_not_activated_yet_multi_user_detailed">%1$s on paigaldatud kasutajale %2$s, kuid ei ole aktiveeritud</string>
-    <string name="xposed_module_updated_notification_title">Xposed moodul uuendatud</string>
-    <string name="xposed_module_updated_notification_title_system">Xposed moodul uuendatud, süsteemi taaskäivitamine vajalik</string>
-    <string name="xposed_module_updated_notification_content">%s on uuendatud, siis peatage ja taaskäivitage rakendused, mis kuuluvad selle kohaldamisalasse.</string>
-    <string name="xposed_module_updated_notification_content_system">%s on uuendatud, kuna reguleerimisala sisaldab System Framework, vajalik taaskäivitamine, et rakendada muudatusi</string>
+    <string name="module_is_not_activated_yet">Xposedi moodul ei ole veel aktiveeritud</string>
+    <string name="module_is_not_activated_yet_main_user_detailed">%1$s on paigaldatud, kuid ei ole veel aktiveeritud</string>
+    <string name="module_is_not_activated_yet_multi_user_detailed">%1$s on paigaldatud kasutajale %2$s, kuid ei ole veel aktiveeritud</string>
+    <string name="xposed_module_updated_notification_title">Xposedi moodul uuendatud</string>
+    <string name="xposed_module_updated_notification_title_system">Xposedi moodul uuendatud, süsteemi taaskäivitamine on vajalik</string>
+    <string name="xposed_module_updated_notification_content">%s on uuendatud, sundpeatage ja taaskäivitage rakendused, mis kuuluvad selle ulatusse.</string>
+    <string name="xposed_module_updated_notification_content_system">%s on uuendatud, kuna ulatus sisaldab süsteemi raamistikku, on muudatuste rakendamiseks vajalik taaskäivitamine</string>
+    <string name="xposed_module_updated_notification_reload">%1$s on uuendatud, %2$s</string>
+    <string name="xposed_module_updated_notification_reload_none">%s on uuendatud</string>
+    <plurals name="xposed_module_updated_notification_reload_reloaded">
+        <item quantity="one">%d protsess on kuumlaaditud</item>
+        <item quantity="other">%d protsessi on kuumlaaditud</item>
+    </plurals>
+    <plurals name="xposed_module_updated_notification_reload_reloading">
+        <item quantity="one">%d protsess kuumlaadimisel</item>
+        <item quantity="other">%d protsessi kuumlaadimisel</item>
+    </plurals>
+    <plurals name="xposed_module_updated_notification_reload_failed">
+        <item quantity="one">%d protsessi kuumlaadimine ebaõnnestus</item>
+        <item quantity="other">%d protsessi kuumlaadimine ebaõnnestus</item>
+    </plurals>
+    <string name="xposed_module_enabled_notification_title">Xposedi moodul on lubatud</string>
+    <string name="xposed_module_enabled_notification_content">%s on lubatud, puudutage ulatuse seadistamiseks</string>
+    <string name="xposed_module_updated_notification_action_enable">Aktiveeri moodul</string>
     <string name="module_updated_channel_name">Mooduli uuendamine lõpetatud</string>
     <string name="status_channel_name">LSPosedi staatus</string>
     <string name="lsposed_running_notification_title">LSPosed laaditud</string>
     <string name="lsposed_running_notification_content">Halduri avamiseks puudutage märguannet</string>
-    <string name="xposed_module_request_scope_title">Ulatuse Taotlus</string>
-    <string name="xposed_module_request_scope_content">%1$s kasutajal %2$s taotleb %3$s lisamist oma ulatusse.</string>
+    <string name="xposed_module_request_scope_title">Ulatuse taotlus</string>
+    <string name="xposed_module_request_scope_content">%1$s kasutaja %2$s juures taotleb %3$s lisamist oma ulatusse.</string>
+    <string name="xposed_module_request_scope_content_batch">%1$s kasutaja %2$s juures taotleb järgmiste rakenduste lisamist oma ulatusse.</string>
     <string name="scope_channel_name">Ulatuse taotlus</string>
     <string name="scope_approve">Kinnita</string>
     <string name="scope_deny">Keela</string>
-    <string name="nerver_ask_again">Ära Enam Küsi</string>
+    <string name="never_ask_again">Ära küsi enam</string>
+    <string name="lsposed_safemode_notification_title">LSPosed on turvarežiimis</string>
+    <string name="lsposed_safemode_notification_content">Kõik Xposedi moodulid on kuni järgmise taaskäivitamiseni kättesaamatud</string>
+    <string name="safe_mode_disable_all_modules">Keela kõik moodulid</string>
+    <string name="lsposed_safemode_cleared_notification_title">Kõik moodulid on keelatud</string>
+    <plurals name="lsposed_safemode_cleared_notification_content">
+        <item quantity="one">%d moodul on keelatud</item>
+        <item quantity="other">%d moodulit on keelatud</item>
+    </plurals>
+    <string name="lsposed_safemode_clear_confirm_notification_title">Kas kinnitada?</string>
+    <plurals name="lsposed_safemode_clear_confirm_notification_content">
+        <item quantity="one">%d moodul keelatakse
+Seda toimingut ei saa tagasi võtta</item>
+        <item quantity="other">%d moodulit keelatakse
+Seda toimingut ei saa tagasi võtta</item>
+    </plurals>
+    <string name="safe_mode_reboot">Taaskäivita</string>
+    <string name="safe_mode_channel_name">Turvarežiim</string>
+    <string name="safe_mode_open_manager">Ava haldur</string>
+    <string name="safe_mode_back">Tagasi</string>
 </resources>

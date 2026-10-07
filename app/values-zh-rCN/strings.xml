@@ -1,23 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--
-  ~ This file is part of LSPosed.
-  ~
-  ~ LSPosed is free software: you can redistribute it and/or modify
-  ~ it under the terms of the GNU General Public License as published by
-  ~ the Free Software Foundation, either version 3 of the License, or
-  ~ (at your option) any later version.
-  ~
-  ~ LSPosed is distributed in the hope that it will be useful,
-  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
-  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-  ~ GNU General Public License for more details.
-  ~
-  ~ You should have received a copy of the GNU General Public License
-  ~ along with LSPosed.  If not, see <https://www.gnu.org/licenses/>.
-  ~
-  ~ Copyright (C) 2021 LSPosed Contributors
-  -->
-<resources xmlns:tools="http://schemas.android.com/tools" tools:keep="@string/xposed_module_updated_notification_*,@string/module_is_not_activated_*">
+<resources>
     <!-- MainActivity -->
     <string name="overview">概览</string>
     <string name="Modules">模块</string>
@@ -48,18 +30,18 @@
     <string name="info_system_version">系统版本</string>
     <string name="info_device">设备</string>
     <string name="info_system_abi">系统架构</string>
-    <string name="info_dex2oat_wrapper">Dex 优化器包装</string>
+    <string name="info_dex2oat_wrapper">Dex 优化器包装器</string>
     <string name="enabled">已启用</string>
     <string name="not_enabled">未启用</string>
     <string name="supported">支持</string>
     <string name="unsupported">不支持</string>
     <string name="mounted">已挂载</string>
     <string name="injected">已注入</string>
-    <string name="android_version_unsatisfied">系统版本不受支持</string>
+    <string name="android_version_unsatisfied">Android 版本不受支持</string>
     <string name="crashed">崩溃</string>
     <string name="mount_failed">挂载失败</string>
     <string name="info_copied">已复制到剪贴板</string>
-    <string name="touch_filtered_warning">由于某个应用遮挡了界面，因此管理器无法验证您的回应。</string>
+    <string name="touch_filtered_warning">由于某个应用遮挡了界面，因此管理器无法验证你的回应。</string>
 
     <!-- WelcomeDialog -->
     <string name="parasitic_welcome">欢迎使用 LSPosed</string>
@@ -75,13 +57,13 @@
     <string name="logs_saved">日志已保存</string>
     <string name="logs_save_failed2">保存失败：\n%s</string>
     <string name="logs_preparing">正在准备日志，请稍候</string>
-    <string name="logs_prepare_failed">准备失败:\n%s</string>
+    <string name="logs_prepare_failed">准备失败：\n%s</string>
     <string name="menuClearLog">立即清空日志</string>
     <string name="scroll_top">滚动到顶部</string>
     <string name="scroll_bottom">滚动到底部</string>
     <string name="menu_enable_word_wrap">自动换行</string>
     <!-- ModulesActivity -->
-    <string name="warning_xposed_min_version">此模块需要更新的 Xposed 版本（%d），因此无法激活</string>
+    <string name="warning_xposed_min_version">此模块需要较新的 Xposed 版本（%d），因此无法激活</string>
     <string name="warning_target_version_higher">此模块是为较新的 Xposed 版本（%d）设计的，因此某些功能可能无法使用</string>
     <string name="no_min_version_specified">该模块未指定所需的 Xposed 版本</string>
     <string name="warning_min_version_too_low">由于该模块开发时所基于 Xposed %1$d 版本不再兼容 %2$d 版本中的变更，该模块现已被停用</string>
@@ -132,13 +114,13 @@
     <string name="menu_restore">恢复</string>
     <string name="force_stop">强行停止</string>
     <string name="force_stop_dlg_title">要强行停止吗？</string>
-    <string name="force_stop_dlg_text">强行停止某个应用可能会使其异常。</string>
-    <string name="reboot_required">重启以应用此更改</string>
-    <string name="reboot">重启系统</string>
+    <string name="force_stop_dlg_text">强行停止某个应用可能会导致其出现异常。</string>
+    <string name="reboot_required">重新启动以应用此更改</string>
+    <string name="reboot">重新启动</string>
     <!-- ModulesActivity and AppListActivity -->
-    <string name="modules_other_app">在其它应用中查看</string>
+    <string name="modules_other_app">在其他应用中查看</string>
     <string name="module_app_info">应用信息</string>
-    <string name="list_empty">¯\\\\_(ツ)_\/¯\n空空如也</string>
+    <string name="list_empty">¯\\_(ツ)_\/¯\n空空如也</string>
     <!-- SettingsActivity -->
     <string name="settings_group_framework">框架</string>
     <string name="settings_disable_verbose_log">禁用详细日志</string>
@@ -149,7 +131,7 @@
     <string name="settings_restore_summary">恢复模块列表与作用域列表</string>
     <string name="settings_backup">备份</string>
     <string name="settings_backup_failed2">备份失败：\n%s</string>
-    <string name="enable_documentui">请启用文档应用</string>
+    <string name="enable_documentui">请启用 DocumentsUI</string>
     <string name="settings_restore">恢复</string>
     <string name="settings_restore_failed2">恢复失败：\n%s</string>
     <string name="group_network">网络</string>
@@ -164,7 +146,7 @@
     <string name="settings_language">语言</string>
     <string name="settings_translation_contributors">译者</string>
     <string name="settings_translation">参与翻译</string>
-    <string name="settings_translation_summary">帮助我们把 %s 翻译到你的语言</string>
+    <string name="settings_translation_summary">帮助我们将 %s 翻译成你的语言</string>
     <string name="settings_enable_status_notification">状态通知</string>
     <string name="settings_enable_status_notification_summary">显示一个通知以打开寄生管理器</string>
     <string name="settings_update_channel">模块更新通道</string>
@@ -172,7 +154,7 @@
     <string name="update_channel_beta">测试版</string>
     <string name="update_channel_nightly">每夜版</string>
     <string name="settings_xposed_api_call_protection">Xposed API 调用保护</string>
-    <string name="settings_xposed_api_call_protection_summary">阻止模块动态加载的代码使用 Xposed API，这会使某些模块失效，但有利于安全性</string>
+    <string name="settings_xposed_api_call_protection_summary">阻止模块动态加载的代码使用 Xposed API，这可能会使某些模块失效，但有利于安全性</string>
     <string name="settings_invalidate_inline_hooks">还原内联钩子</string>
     <string name="settings_invalidate_inline_hooks_summary">对列表中的应用清理 libart.so，这会导致随机故障和崩溃，仅当无法打开特定应用时使用</string>
     <string name="failed_to_save_invalidate_inline_hooks_list">无法保存还原内联钩子列表</string>
@@ -219,7 +201,7 @@
 
     <string name="safe_mode">安全模式</string>
     <string name="safe_mode_summary">LSPosed 处于安全模式</string>
-    <string name="safe_mode_summary2">所有 Xposed 模块不可用，直到下次重启。\n一些模块导致了系统崩溃，请找出并禁用这些模块并向模块开发者反馈。</string>
+    <string name="safe_mode_summary2">所有 Xposed 模块不可用，直到下次重新启动。\n一些模块导致了系统崩溃，请找出并禁用这些模块并向模块开发者反馈。</string>
     <string name="disable_all_modules">禁用所有模块</string>
     <string name="confirm_disable_all_modules">确认？</string>
     <plurals name="message_disable_all_modules">
@@ -238,7 +220,7 @@
     <string name="dump_hook_success">已转储至 %s</string>
     <string name="dump_hook_failed">转储失败</string>
     <string name="log_to_daemon_title">输出日志到守护进程</string>
-    <string name="log_to_daemon_summary">这能避免模块日志被 app 读取，但可能带来性能影响</string>
+    <string name="log_to_daemon_summary">这能避免模块日志被应用读取，但可能带来性能影响</string>
     <plurals name="disable_success_message">
         <item quantity="other">已禁用 %d 个模块</item>
     </plurals>

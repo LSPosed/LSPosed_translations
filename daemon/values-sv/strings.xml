@@ -2,21 +2,58 @@
 <resources>
     <!-- Notification -->
     <string name="list_separator">, </string>
-    <string name="module_is_not_activated_yet">Xposed modul är inte aktiverad än</string>
+    <string name="module_is_not_activated_yet">Xposed-modulen är inte aktiverad än</string>
     <string name="module_is_not_activated_yet_main_user_detailed">%1$s har installerats, men är ännu inte aktiverad.</string>
     <string name="module_is_not_activated_yet_multi_user_detailed">%1$s har installerats för användaren %2$s, men är ännu inte aktiverad.</string>
-    <string name="xposed_module_updated_notification_title">Xposed modul uppdaterad</string>
-    <string name="xposed_module_updated_notification_title_system">Xposed modul uppdaterad, systemomstart krävs</string>
-    <string name="xposed_module_updated_notification_content">%s har uppdaterats. Tvinga stopp och starta om appar i dess omfattning</string>
-    <string name="xposed_module_updated_notification_content_system">%s har uppdaterats, eftersom omfattningen innehåller Systemramverk, krävs omstart för att tillämpa ändringar</string>
-    <string name="module_updated_channel_name">Uppdatering av modulen slutförd</string>
-    <string name="status_channel_name">LSPosed status</string>
+    <string name="xposed_module_updated_notification_title">Xposed-modul uppdaterad</string>
+    <string name="xposed_module_updated_notification_title_system">Xposed-modul uppdaterad, systemomstart krävs</string>
+    <string name="xposed_module_updated_notification_content">%s har uppdaterats. Tvinga att avsluta och starta om apparna i dess omfattning</string>
+    <string name="xposed_module_updated_notification_content_system">%s har uppdaterats. Eftersom omfattningen innehåller systemramverket krävs en omstart för att tillämpa ändringarna</string>
+    <string name="xposed_module_updated_notification_reload">%1$s har uppdaterats, %2$s</string>
+    <string name="xposed_module_updated_notification_reload_none">%s har uppdaterats</string>
+    <plurals name="xposed_module_updated_notification_reload_reloaded">
+        <item quantity="one">%d process har hot-omladdats</item>
+        <item quantity="other">%d processer har hot-omladdats</item>
+    </plurals>
+    <plurals name="xposed_module_updated_notification_reload_reloading">
+        <item quantity="one">%d process hot-omladdas</item>
+        <item quantity="other">%d processer hot-omladdas</item>
+    </plurals>
+    <plurals name="xposed_module_updated_notification_reload_failed">
+        <item quantity="one">%d process misslyckades med hot-omladdning</item>
+        <item quantity="other">%d processer misslyckades med hot-omladdning</item>
+    </plurals>
+    <string name="xposed_module_enabled_notification_title">Xposed-modulen har aktiverats</string>
+    <string name="xposed_module_enabled_notification_content">%s har aktiverats, tryck för att ställa in omfattningen</string>
+    <string name="xposed_module_updated_notification_action_enable">Aktivera modul</string>
+    <string name="module_updated_channel_name">Moduluppdatering slutförd</string>
+    <string name="status_channel_name">LSPosed-status</string>
     <string name="lsposed_running_notification_title">LSPosed laddad</string>
-    <string name="lsposed_running_notification_content">Tryck på meddelandet för att öppna administratören</string>
-    <string name="xposed_module_request_scope_title">Begäran om tillämpningsområde</string>
-    <string name="xposed_module_request_scope_content">%1$s om användaren %2$s begär att %3$s ska läggas till i dess räckvidd.</string>
-    <string name="scope_channel_name">Begäran om tillämpningsområde</string>
-    <string name="scope_approve">Godkänna</string>
-    <string name="scope_deny">Förneka</string>
-    <string name="nerver_ask_again">Fråga aldrig</string>
+    <string name="lsposed_running_notification_content">Tryck på meddelandet för att öppna hanteraren</string>
+    <string name="xposed_module_request_scope_title">Begäran om omfattning</string>
+    <string name="xposed_module_request_scope_content">%1$s på användare %2$s begär att %3$s ska läggas till i dess omfattning.</string>
+    <string name="xposed_module_request_scope_content_batch">%1$s på användare %2$s begär att följande appar läggs till i dess omfattning.</string>
+    <string name="scope_channel_name">Begäran om omfattning</string>
+    <string name="scope_approve">Godkänn</string>
+    <string name="scope_deny">Avvisa</string>
+    <string name="never_ask_again">Fråga aldrig</string>
+    <string name="lsposed_safemode_notification_title">LSPosed är i säkert läge</string>
+    <string name="lsposed_safemode_notification_content">Alla Xposed-moduler är otillgängliga till nästa omstart</string>
+    <string name="safe_mode_disable_all_modules">Inaktivera alla moduler</string>
+    <string name="lsposed_safemode_cleared_notification_title">Alla moduler har inaktiverats</string>
+    <plurals name="lsposed_safemode_cleared_notification_content">
+        <item quantity="one">%d modul har inaktiverats</item>
+        <item quantity="other">%d moduler har inaktiverats</item>
+    </plurals>
+    <string name="lsposed_safemode_clear_confirm_notification_title">Bekräfta?</string>
+    <plurals name="lsposed_safemode_clear_confirm_notification_content">
+        <item quantity="one">%d modul kommer att inaktiveras
+Åtgärden kan inte ångras</item>
+        <item quantity="other">%d moduler kommer att inaktiveras
+Åtgärden kan inte ångras</item>
+    </plurals>
+    <string name="safe_mode_reboot">Starta om</string>
+    <string name="safe_mode_channel_name">Säkert läge</string>
+    <string name="safe_mode_open_manager">Öppna hanteraren</string>
+    <string name="safe_mode_back">Tillbaka</string>
 </resources>

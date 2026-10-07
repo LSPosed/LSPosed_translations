@@ -1,23 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--
-  ~ This file is part of LSPosed.
-  ~
-  ~ LSPosed is free software: you can redistribute it and/or modify
-  ~ it under the terms of the GNU General Public License as published by
-  ~ the Free Software Foundation, either version 3 of the License, or
-  ~ (at your option) any later version.
-  ~
-  ~ LSPosed is distributed in the hope that it will be useful,
-  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
-  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-  ~ GNU General Public License for more details.
-  ~
-  ~ You should have received a copy of the GNU General Public License
-  ~ along with LSPosed.  If not, see <https://www.gnu.org/licenses/>.
-  ~
-  ~ Copyright (C) 2021 LSPosed Contributors
-  -->
-<resources xmlns:tools="http://schemas.android.com/tools" tools:keep="@string/xposed_module_updated_notification_*,@string/module_is_not_activated_*">
+<resources>
     <!-- MainActivity -->
     <string name="overview">Yleiskatsaus</string>
     <string name="Modules">Moduulit</string>
@@ -25,67 +7,81 @@
     <string name="Settings">Asetukset</string>
     <string name="About">Tietoja</string>
     <string name="module_repo">Versiovarasto</string>
+    <string name="about_send_bug_report">Lähetä virheraportti</string>
+    <string name="bug_report_message">Kuvaile ongelma lyhyesti</string>
+    <string name="bug_report_exporting_logs">Viedään lokeja…</string>
+    <string name="about_join_telegram">Liity Telegram-kanavalle</string>
+    <string name="email_address_copied">Sähköpostiosoite kopioitu</string>
+    <string name="translators">null</string>
     <string name="not_installed">Ei asennettu</string>
-    <string name="not_install_summary">LSPosed ei ole asennettu</string>
+    <string name="not_install_summary">LSPosediä ei ole asennettu</string>
     <string name="activated">Aktivoitu</string>
     <string name="partial_activated">Osittain aktivoitu</string>
     <string name="system_inject_fail_summary">Järjestelmän kehysinjektointi epäonnistui</string>
-    <string name="system_inject_fail"><![CDATA[Tämä on harvinaista ja voi johtua <b>Magisk</b> tai joitakin heikkolaatuisia Magisk moduuleja.<br/>Yritä poistaa käytöstä muut Magisk moduulit kuin Zygisk ja LSPosed tai lähettää täysi loki kehittäjille.]]></string>
-    <string name="system_prop_incorrect_summary">Järjestelmän prop virheellinen</string>
-    <string name="system_prop_incorrect"><![CDATA[Jotkut tarvittavat järjestelmän ominaisuudet poistettu tai muokattu.<br/>Moduulit voivat mitätöidä satunnaisesti.]]></string>
+    <string name="system_inject_fail"><![CDATA[Tämä on harvinaista ja voi johtua <b>Magiskista</b> tai joistakin heikkolaatuisista Magisk-moduuleista.<br/>Yritä poistaa käytöstä muut Magisk-moduulit kuin Zygisk ja LSPosed tai lähettää täysi loki kehittäjille.]]></string>
+    <string name="system_prop_incorrect_summary">Järjestelmän ominaisuus virheellinen</string>
+    <string name="system_prop_incorrect"><![CDATA[Jotkut tarvittavat järjestelmän ominaisuudet on poistettu tai muokattu.<br/>Moduulit voivat lakata toimimasta ajoittain.]]></string>
     <string name="hyrt_unavailable_summary">HyperOS Runtimen injektointi epäonnistui</string>
     <string name="hyrt_unavailable">HyperOS Runtime havaittiin, mutta Zygisk Next API ei ole käytettävissä. Natiivimoduuleja ei ladata HyperOS Runtime -prosesseihin.</string>
     <string name="need_update">Täytyy päivittää</string>
-    <string name="info_manager_package_name">Manager-paketin nimi</string>
+    <string name="developer_warning_title">Vinkkejä moduulien kehittäjille</string>
+    <string name="developer_warning_summary">Poista Android Studiossa käytöstä käyttöönoton optimoinnit tai asenna `gradlew installDebug` -komennolla. Muussa tapauksessa moduulin apk-tiedostoa ei päivitetä.</string>
+    <string name="info_manager_package_name">Hallintaohjelman paketin nimi</string>
     <string name="info_system_version">Järjestelmän versio</string>
     <string name="info_device">Laite</string>
-    <string name="info_system_abi">Järjestelmä ABI</string>
-    <string name="info_dex2oat_wrapper">Dex Optimizer Wrapper</string>
+    <string name="info_system_abi">Järjestelmän ABI</string>
+    <string name="info_dex2oat_wrapper">Dex-optimoijan kääre</string>
     <string name="enabled">Käytössä</string>
     <string name="not_enabled">Ei käytössä</string>
     <string name="supported">Tuettu</string>
     <string name="unsupported">Ei tuettu</string>
     <string name="mounted">Liitetty</string>
     <string name="injected">Injektoitu</string>
-    <string name="android_version_unsatisfied">Android-versio tyytymätön</string>
-    <string name="crashed">Crashed</string>
-    <string name="mount_failed">Kiinnitys epäonnistui</string>
+    <string name="android_version_unsatisfied">Android-version vaatimukset eivät täyty</string>
+    <string name="crashed">Kaatunut</string>
+    <string name="mount_failed">Liittäminen epäonnistui</string>
     <string name="info_copied">Kopioitu leikepöydälle</string>
     <!-- WelcomeDialog -->
+    <string name="touch_filtered_warning">Koska jokin sovellus peittää käyttöliittymän, hallintaohjelma ei voi vahvistaa vastaustasi.</string>
     <string name="parasitic_welcome">Tervetuloa LSPosed</string>
     <string name="parasitic_welcome_summary">Käytät loishallintaohjelmaa, joka voidaan avata ilmoituksesta.</string>
     <string name="never_show">Älä näytä koskaan</string>
-    <string name="app_welcome">Parasitic Manager Suositellaan</string>
+    <string name="app_welcome">Loishallintaohjelmaa suositellaan</string>
     <string name="app_welcome_summary">LSPosed tukee nyt järjestelmän loisimista havaitsemisen välttämiseksi, voit avata loishallinnan ilmoituksesta. On suositeltavaa poistaa nykyinen sovellus.</string>
     <!-- LogsActivity -->
     <string name="menuSaveToSd">Tallenna</string>
-    <string name="nav_item_logs_verbose">Verbose Lokit</string>
-    <string name="nav_item_logs_module">Moduulien Lokit</string>
+    <string name="nav_item_logs_verbose">Sanalliset lokit</string>
+    <string name="nav_item_logs_module">Moduulien lokit</string>
     <string name="logs_saving">Lokin tallentaminen, odota</string>
-    <string name="logs_saved">Tallennetut lokit</string>
+    <string name="logs_saved">Lokit tallennettu</string>
     <string name="logs_save_failed2">Tallennus epäonnistui:\n%s</string>
+    <string name="logs_preparing">Valmistellaan lokia, odota</string>
+    <string name="logs_prepare_failed">Valmistelu epäonnistui:\n%s</string>
     <string name="menuClearLog">Tyhjennä loki nyt</string>
     <string name="scroll_top">Vieritä ylös</string>
-    <string name="scroll_bottom">Siirry alareunaan</string>
-    <string name="menu_enable_word_wrap">Sanan Rivitys</string>
+    <string name="scroll_bottom">Vieritä alas</string>
+    <string name="menu_enable_word_wrap">Rivitys</string>
     <!-- ModulesActivity -->
-    <string name="warning_xposed_min_version">Tämä moduuli vaatii uudemman Xposed version (%d) eikä sitä näin ollen voi aktivoida</string>
+    <string name="warning_xposed_min_version">Tämä moduuli vaatii uudemman Xposed-version (%d) eikä sitä näin ollen voi aktivoida</string>
     <string name="warning_target_version_higher">Tämä moduuli on suunniteltu uudemmalle Xposed-versiolle (%d), joten jotkin toiminnot eivät välttämättä toimi.</string>
-    <string name="no_min_version_specified">Tämä moduuli ei määrittele tarvitsemaansa Xposed versiota.</string>
-    <string name="warning_min_version_too_low">Tämä moduuli on luotu Xposed versiolle %1$d, mutta koska versiossa %2$don tehty yhteensopimattomia muutoksia, se on poistettu käytöstä</string>
+    <string name="no_min_version_specified">Tämä moduuli ei määrittele tarvitsemaansa Xposed-versiota.</string>
+    <string name="warning_min_version_too_low">Tämä moduuli on luotu Xposed-versiolle %1$d, mutta koska versiossa %2$d on tehty yhteensopimattomia muutoksia, se on poistettu käytöstä</string>
     <string name="warning_deprecated_feature">Tämä moduuli käyttää vanhentunutta ominaisuutta, joka poistetaan pian. Ota yhteyttä tekijään tai harkitse vaihtoehtoa.</string>
     <string name="warning_installed_on_external_storage">Tätä moduulia ei voi ladata, koska se on asennettu SD-kortille, siirrä se sisäiseen tallennustilaan</string>
     <string name="module_uninstall">Poista</string>
     <string name="module_settings">Moduulin asetukset</string>
-    <string name="view_in_repo">Näytä repossa</string>
+    <string name="view_in_repo">Näytä versiovarastossa</string>
     <string name="module_uninstall_message">Haluatko poistaa tämän moduulin?</string>
-    <string name="module_uninstalled">Poista %1$s</string>
+    <string name="module_uninstalled">Poistettu %1$s</string>
     <string name="module_uninstall_failed">Poisto epäonnistui</string>
     <string name="module_install_failed">Moduulin lisääminen epäonnistui</string>
     <string name="install_to_user">Asenna käyttäjälle %s</string>
     <string name="expand">laajenna</string>
     <string name="collapse">pienennä</string>
     <!-- AppListActivity -->
+    <string name="reset_scope_request_setting">Nollaa käyttöaluepyyntöasetus</string>
+    <string name="reset_scope_request_setting_done">Käyttöaluepyyntöasetus nollattu</string>
+    <string name="hide_non_system_overlay_failed_no_permission">Järjestelmään kuulumattoman peittokuvan piilottaminen epäonnistui, päivitä hallintaohjelma.</string>
     <string name="compile_speed">Uudelleenoptimoi</string>
     <string name="compile_speed_msg">Optimoidaan…</string>
     <string name="compile_done">Optimointi valmis</string>
@@ -94,7 +90,7 @@
     <string name="compile_failed_with_info">Optimointi epäonnistui: </string>
     <string name="sort_by_name">Sovelluksen nimi</string>
     <string name="sort_by_package_name">Paketin nimi</string>
-    <string name="sort_by_install_time">Asenna aika</string>
+    <string name="sort_by_install_time">Asennusaika</string>
     <string name="sort_by_update_time">Päivityksen aika</string>
     <string name="sort_reverse">Käänteinen</string>
     <string name="menu_show_system_apps">Järjestelmäsovellukset</string>
@@ -102,90 +98,189 @@
     <string name="enable_module">Ota moduuli käyttöön</string>
     <string name="menu_show_games">Pelit</string>
     <string name="menu_show_modules">Moduulit</string>
-    <string name="failed_to_save_scope_list">Valmistelulistan tallentaminen epäonnistui</string>
+    <string name="module_scope_list_static_scope">Moduuli ilmoitti staattisen käyttöalueen</string>
+    <string name="failed_to_save_scope_list">Käyttöalueluettelon tallentaminen epäonnistui</string>
     <string name="app_version">Versio: %1$s</string>
     <string name="use_recommended">Suositeltu</string>
     <string name="use_recommended_message">Valitse suositellut sovellukset?</string>
-    <string name="module_is_not_activated_yet">Xposed moduuli ei ole vielä aktivoitu</string>
-    <string name="requested_by_module">Suositeltu</string>
+    <string name="deselect_all">Poista kaikki valinnat</string>
+    <string name="deselect_all_message">Poistetaanko valinnat kaikista valituista sovelluksista?</string>
+    <string name="module_is_not_activated_yet">Xposed-moduuli ei ole vielä aktivoitu</string>
+    <string name="requested_by_module">Moduulin suosittelema</string>
     <string name="update_available">Päivitys saatavilla: %1$s</string>
-    <string name="android_framework">Järjestelmän Puitteet</string>
+    <string name="android_framework">Järjestelmän kehys</string>
     <string name="menu_backup">Varmuuskopio</string>
     <string name="menu_restore">Palauta</string>
     <string name="force_stop">Pakota lopetus</string>
     <string name="force_stop_dlg_title">Pakotetaanko lopetus?</string>
-    <string name="force_stop_dlg_text">Jos pakotat sovelluksen pysähtymään, se saattaa käyttäytyä väärin.</string>
+    <string name="force_stop_dlg_text">Jos pakotat sovelluksen sulkeutumaan, se ei välttämättä enää toimi oikein.</string>
     <string name="reboot_required">Uudelleenkäynnistys vaaditaan tämän muutoksen käyttöönottamiseksi</string>
-    <string name="reboot">Reboot</string>
+    <string name="reboot">Käynnistä uudelleen</string>
     <!-- ModulesActivity and AppListActivity -->
     <string name="modules_other_app">Näytä toisessa sovelluksessa</string>
     <string name="module_app_info">Sovelluksen tiedot</string>
-    <string name="list_empty">¯\\_(ツ)_\/¯\nEi mitään tässä</string>
+    <string name="list_empty">¯\\_(ツ)_\/¯\nTäällä ei ole mitään</string>
     <!-- SettingsActivity -->
-    <string name="settings_group_framework">Framework</string>
-    <string name="settings_disable_verbose_log">Sanallisten lokien poistaminen käytöstä</string>
-    <string name="settings_disable_verbose_log_summary">Raportti pyytää sisällyttämään sanalliset lokit</string>
+    <string name="settings_group_framework">Kehys</string>
+    <string name="settings_disable_verbose_log">Poista sanalliset lokit käytöstä</string>
+    <string name="settings_disable_verbose_log_summary">Ongelmista raportoitaessa pyydetään liittämään mukaan sanalliset lokit.</string>
     <string name="settings_group_theme">Teema</string>
     <string name="settings_backup_and_restore">Varmuuskopioi ja palauta</string>
-    <string name="settings_backup_summary">Varmuuskopioi moduulien listat ja sisällysluettelot.</string>
-    <string name="settings_restore_summary">Palauta moduulien luettelo ja sisällysluettelot.</string>
+    <string name="settings_backup_summary">Varmuuskopioi moduuliluettelo ja käyttöalueluettelot.</string>
+    <string name="settings_restore_summary">Palauta moduuliluettelo ja käyttöalueluettelot.</string>
     <string name="settings_backup">Varmuuskopio</string>
     <string name="settings_backup_failed2">Varmuuskopiointi epäonnistui:\n%s</string>
-    <string name="enable_documentui">Ota DocumentUI käyttöön</string>
+    <string name="enable_documentui">Ota DocumentsUI käyttöön</string>
     <string name="settings_restore">Palauta</string>
     <string name="settings_restore_failed2">Palautus epäonnistui:\n%s</string>
     <string name="group_network">Verkko</string>
-    <string name="dns_over_http">DNS yli HTTPS</string>
-    <string name="dns_over_http_summary">Workaround DNS myrkytys joissakin kansoissa</string>
-    <string name="settings_show_hidden_icon_apps_enabled">Pakota sovellukset näyttämään käynnistimen kuvakkeet</string>
-    <string name="settings_show_hidden_icon_apps_enabled_summary">Android 10:n jälkeen sovellukset eivät saa piilottaa niiden käynnistyskuvakkeita. Poista valinta käytöstä poistaaksesi järjestelmän ominaisuuden.</string>
+    <string name="dns_over_http">DNS HTTPS:n kautta</string>
+    <string name="dns_over_http_summary">Kiertotapa DNS-myrkytykseen joissakin maissa</string>
+    <string name="settings_repo_cdn">Versiovaraston CDN</string>
+    <string name="repo_cdn_default">Oletus</string>
+    <string name="repo_cdn_backup">Varmuuskopio</string>
+    <string name="settings_show_hidden_icon_apps_enabled">Pakota sovellukset näyttämään käynnistyskuvakkeet</string>
+    <string name="settings_show_hidden_icon_apps_enabled_summary">Android 10:n jälkeen sovellukset eivät saa piilottaa käynnistyskuvakkeitaan. Kytke kytkin pois päältä, jos haluat poistaa tämän järjestelmäominaisuuden käytöstä.</string>
     <string name="settings_group_system">Järjestelmä</string>
     <string name="settings_language">Kieli</string>
-    <string name="settings_translation_contributors">Käännöksen osallistujat</string>
+    <string name="settings_translation_contributors">Käännökseen osallistuneet</string>
     <string name="settings_translation">Osallistu käännökseen</string>
     <string name="settings_translation_summary">Auta meitä kääntämään %s kielellesi</string>
     <string name="settings_enable_status_notification">Tilailmoitus</string>
     <string name="settings_enable_status_notification_summary">Näytä ilmoitus, joka voi avata loishallintaohjelman</string>
-    <string name="settings_update_channel">Päivitä kanava</string>
+    <string name="settings_update_channel">Moduulin päivityskanava</string>
     <string name="update_channel_stable">Vakaa</string>
     <string name="update_channel_beta">Beeta</string>
-    <string name="update_channel_nightly">Yöllinen rakentaminen</string>
+    <string name="update_channel_nightly">Yöversio</string>
     <string name="settings_xposed_api_call_protection">Xposedin API-kutsujen suojaus</string>
-    <string name="settings_xposed_api_call_protection_summary">Estetään dynaamisesti ladatun moduulin koodin käyttö Xposed API:n avulla, mikä saattaa rikkoa joitakin moduuleja mutta hyödyttää turvallisuutta.</string>
+    <string name="settings_xposed_api_call_protection_summary">Estä dynaamisesti ladattua moduulikoodia käyttämästä Xposed API:a; tämä saattaa rikkoa joitakin moduuleja, mutta parantaa turvallisuutta.</string>
     <!-- Module Repo -->
-    <string name="module_readme">Luennot</string>
+    <string name="settings_invalidate_inline_hooks">Mitätöi inline-hookit</string>
+    <string name="settings_invalidate_inline_hooks_summary">Puhdista libart.so luettelossa olevista sovelluksista. Tämä aiheuttaa satunnaisia toimintahäiriöitä ja kaatumisia. Käytä vain, jos tietyt sovellukset eivät avaudu.</string>
+    <string name="failed_to_save_invalidate_inline_hooks_list">Inline-hookien mitätöintiluettelon tallentaminen epäonnistui</string>
+    <string name="settings_enable_predictive_back">Ennakoiva paluuele</string>
+    <string name="settings_enable_predictive_back_summary">Ota ennakoivien paluueleiden tuki käyttöön.</string>
+    <string name="settings_enable_swipe_dismiss">Pyyhkäisypaluuele</string>
+    <string name="settings_enable_swipe_dismiss_summary">Palaa edelliselle sivulle pyyhkäisemällä näytön reunalta.</string>
+    <string name="settings_tapjacking_protection">Napautuskaappauksen torjunta</string>
+    <string name="settings_tapjacking_protection_summary">Estää kosketukset, kun käyttöliittymä on peitetty, napautuskaappaushyökkäysten estämiseksi</string>
+    <string name="module_readme">Lue minut</string>
     <string name="module_releases">Julkaisut</string>
     <string name="module_information">Tiedot</string>
     <string name="module_information_homepage">Kotisivu</string>
     <string name="module_information_source_url">Lähdekoodi</string>
     <string name="module_information_collaborators">Yhteistyökumppanit</string>
-    <string name="module_release_view_assets">Laitteet</string>
+    <string name="module_release_view_assets">Liitteet</string>
     <string name="menu_open_in_browser">Avaa selaimessa</string>
+    <string name="menu_share">Jaa</string>
     <string name="module_release_load_more">Näytä vanhemmat versiot</string>
-    <string name="module_release_no_more">Ei enää versiota</string>
-    <string name="sort_upgradable_first">Päivitettävissä ensin</string>
+    <string name="module_release_no_more">Ei enää julkaisuja</string>
+    <string name="sort_upgradable_first">Päivitettävät ensin</string>
     <string name="installed">Asennettu</string>
     <plurals name="module_release_assets_download_count">
-        <item quantity="one">%d lataa</item>
-        <item quantity="other">%d lataukset</item>
+        <item quantity="one">%d lataus</item>
+        <item quantity="other">%d latausta</item>
     </plurals>
     <!-- Colors -->
     <string name="color_red">Punainen</string>
     <string name="color_pink">Pinkki</string>
     <string name="color_purple">Violetti</string>
-    <string name="color_deep_purple">Syvä violetti</string>
+    <string name="color_deep_purple">Tumma violetti</string>
     <string name="color_indigo">Indigo</string>
     <string name="color_blue">Sininen</string>
-    <string name="color_light_blue">Vaalea sininen</string>
+    <string name="color_light_blue">Vaaleansininen</string>
     <string name="color_cyan">Syaani</string>
-    <string name="color_teal">Sinappi</string>
+    <string name="color_teal">Sinivihreä</string>
     <string name="color_green">Vihreä</string>
-    <string name="color_lime">Limea</string>
+    <string name="color_lime">Limenvihreä</string>
     <string name="color_yellow">Keltainen</string>
     <string name="color_amber">Meripihka</string>
     <string name="color_orange">Oranssi</string>
     <string name="color_brown">Ruskea</string>
-    <string name="color_blue_grey">Sininen harmaa</string>
+    <string name="color_blue_grey">Siniharmaa</string>
+    <string name="safe_mode">Suojattu tila</string>
+    <string name="safe_mode_summary">LSPosed on suojatussa tilassa</string>
+    <string name="safe_mode_summary2">Kaikki Xposed-moduulit ovat poissa käytöstä seuraavaan uudelleenkäynnistykseen asti.\nJotkin moduulit ovat aiheuttaneet järjestelmän kaatumisia. Etsi ja poista nämä moduulit käytöstä ja ilmoita niistä moduulien kehittäjille.</string>
+    <string name="disable_all_modules">Poista kaikki moduulit käytöstä</string>
+    <string name="confirm_disable_all_modules">Vahvistetaanko?</string>
+    <plurals name="message_disable_all_modules">
+        <item quantity="one">%d moduuli poistetaan käytöstä.
+Tätä toimintoa ei voi peruuttaa.</item>
+        <item quantity="other">%d moduulia poistetaan käytöstä.
+Tätä toimintoa ei voi peruuttaa.</item>
+    </plurals>
+    <string name="disable_success_title">Onnistui</string>
+    <string name="hook_debug_title">Hook-vianetsintä</string>
+    <string name="debugging_title">Vianetsintä</string>
     <string name="developer_mode_title">Kehittäjätila</string>
     <string name="developer_mode_summary">Salli LSPosed-asetusten ja -käyttöalueiden hallinta CLI-työkalulla</string>
+    <string name="safe_mode_disabled_title">Poista suojattu tila käytöstä</string>
+    <string name="safe_mode_disabled_summary">Estä suojattuun tilaan siirtyminen, kun järjestelmän komponentit kaatuvat toistuvasti</string>
+    <string name="hook_debug_summary">Salli hookattujen prosessien hook-vianetsintätietojen vedostaminen, mikä voi vaikuttaa suorituskykyyn</string>
+    <string name="dump_hook_debug_title">Vedosta hook-vianetsintätiedot</string>
+    <string name="dump_hook_debug_summary">Vedosta hook-vianetsintätiedot kohteeseen /data/adb/lspd/log</string>
+    <string name="dump_hook_success">Vedostettu kohteeseen %s</string>
+    <string name="dump_hook_failed">Vedostus epäonnistui</string>
+    <string name="log_to_daemon_title">Kirjaa loki taustapalveluun</string>
+    <string name="log_to_daemon_summary">Tämä estää sovelluksia lukemasta moduulien lokeja, mutta voi vaikuttaa suorituskykyyn</string>
+    <plurals name="disable_success_message">
+        <item quantity="one">Poistettu käytöstä %d moduuli</item>
+        <item quantity="other">Poistettu käytöstä %d moduulia</item>
+    </plurals>
+    <string name="follow_system">Seuraa järjestelmää</string>
+    <string name="unknown_author">Tuntematon tekijä</string>
+    <string name="unknown_version">Tuntematon versio</string>
+    <string name="unknown_asset">Tuntematon liite</string>
+    <string name="download_asset">Lataa</string>
+    <string name="nav_back">Takaisin</string>
+    <string name="nav_rail_expand">Laajenna navigointipalkki</string>
+    <string name="nav_rail_collapse">Pienennä navigointipalkki</string>
+    <string name="menu">Valikko</string>
+    <string name="menu_filter">Suodata</string>
+    <string name="menu_parsed_view">Jäsennetty näkymä</string>
+    <string name="menu_raw_view">Käsittelemätön näkymä</string>
+    <string name="settings_ui">Käyttöliittymän tyyli</string>
+    <string name="settings_ui_summary">Valitse käyttöliittymän tyyli</string>
+    <string name="settings_theme">Teema</string>
+    <string name="settings_theme_summary">Valitse sovelluksen teematila</string>
+    <string name="settings_theme_mode_system">Seuraa järjestelmää</string>
+    <string name="settings_theme_mode_light">Vaalea</string>
+    <string name="settings_theme_mode_dark">Tumma</string>
+    <string name="settings_theme_mode_monet_system">Monet (seuraa järjestelmää)</string>
+    <string name="settings_theme_mode_monet_light">Monet (vaalea)</string>
+    <string name="settings_theme_mode_monet_dark">Monet (tumma)</string>
+    <string name="settings_key_color">Korostusväri</string>
+    <string name="settings_key_color_summary">Mukauta siemenväriä, kun käytössä on Monet</string>
+    <string name="settings_key_color_default">Oletus</string>
+    <string name="settings_theme_entry">Teema-asetukset</string>
+    <string name="settings_theme_entry_summary">Teematila, korostusväri, paletin tyyli ja paljon muuta</string>
+    <string name="settings_palette_style">Paletin tyyli</string>
+    <string name="settings_palette_style_summary">Sävyalgoritmi, jolla Material 3 -paletti johdetaan</string>
+    <string name="settings_color_spec">Värimääritys</string>
+    <string name="settings_color_spec_summary">Material 3 -värimäärityksen versio</string>
+    <string name="settings_page_scale">Sivun skaala</string>
+    <string name="settings_page_scale_summary">Säädä yleistä näyttöskaalaa</string>
+    <string name="settings_enable_blur">Sumennus</string>
+    <string name="settings_enable_blur_summary">Ota sumennustehoste käyttöön ylä- ja alapalkissa</string>
+    <string name="settings_floating_bottom_bar">Kelluva alapalkki</string>
+    <string name="settings_floating_bottom_bar_summary">Käytä Applen tyylistä kelluvaa alapalkkia</string>
+    <string name="settings_enable_glass">Nestemäinen lasi</string>
+    <string name="settings_enable_glass_summary">Ota nestemäisen lasin tehoste käyttöön kelluvassa alapalkissa</string>
+    <string name="refresh_pulling">Vedä alas päivittääksesi</string>
+    <string name="refresh_release">Päivitä vapauttamalla</string>
+    <string name="refresh_refresh">Päivitetään…</string>
+    <string name="refresh_complete">Päivitys onnistui</string>
+    <string name="time_just_now">Juuri äsken</string>
+    <plurals name="time_minutes_ago">
+        <item quantity="one">%d minuutti sitten</item>
+        <item quantity="other">%d minuuttia sitten</item>
+    </plurals>
+    <plurals name="time_hours_ago">
+        <item quantity="one">%d tunti sitten</item>
+        <item quantity="other">%d tuntia sitten</item>
+    </plurals>
+    <plurals name="time_days_ago">
+        <item quantity="one">%d päivä sitten</item>
+        <item quantity="other">%d päivää sitten</item>
+    </plurals>
 </resources>

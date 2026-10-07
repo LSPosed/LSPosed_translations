@@ -1,46 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--
-  ~ This file is part of LSPosed.
-  ~
-  ~ LSPosed is free software: you can redistribute it and/or modify
-  ~ it under the terms of the GNU General Public License as published by
-  ~ the Free Software Foundation, either version 3 of the License, or
-  ~ (at your option) any later version.
-  ~
-  ~ LSPosed is distributed in the hope that it will be useful,
-  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
-  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-  ~ GNU General Public License for more details.
-  ~
-  ~ You should have received a copy of the GNU General Public License
-  ~ along with LSPosed.  If not, see <https://www.gnu.org/licenses/>.
-  ~
-  ~ Copyright (C) 2021 LSPosed Contributors
-  -->
-<resources xmlns:tools="http://schemas.android.com/tools" tools:keep="@string/xposed_module_updated_notification_*,@string/module_is_not_activated_*">
+<resources>
     <!-- MainActivity -->
     <string name="overview">Огляд</string>
     <string name="Modules">Модулі</string>
-    <string name="Logs">Звіти</string>
+    <string name="Logs">Журнали</string>
     <string name="Settings">Налаштування</string>
-    <string name="About">Детальніше</string>
+    <string name="About">Про додаток</string>
     <string name="module_repo">Репозиторій</string>
+    <string name="about_send_bug_report">Надіслати звіт про помилку</string>
+    <string name="bug_report_message">Стисло опишіть проблему</string>
+    <string name="bug_report_exporting_logs">Експорт журналів…</string>
+    <string name="about_join_telegram">Приєднатися до каналу Telegram</string>
+    <string name="email_address_copied">Адресу електронної пошти скопійовано</string>
     <string name="translators" comment="Dear translators, please add your home page here following the format. There can be more than one translator. So feel free to append yourself.">AlexPechkin</string>
     <string name="not_installed">Не встановлено</string>
     <string name="not_install_summary">LSPosed не встановлено</string>
     <string name="activated">Активовано</string>
     <string name="partial_activated">Частково активовано</string>
-    <string name="system_inject_fail_summary">Помилка ін\'єкції System Framework</string>
-    <string name="system_inject_fail"><![CDATA[Це рідкісна проблема, яка може бути спричинена <b>Magisk</b> або деякими неякісними модулями Magisk.<br/>Спробуйте вимкнути всі модулі Magisk, крім Zygisk та LSPosed, або надішліть повний звіт розробникам.]]></string>
-    <string name="system_prop_incorrect_summary">Неправильні системні налаштування</string>
-    <string name="system_prop_incorrect"><![CDATA[Деякі необхідні параметри системи видалені або змінені.<br/>Модулі можуть не працювати належним чином.]]></string>
+    <string name="system_inject_fail_summary">Помилка ін\'єкції системного фреймворку</string>
+    <string name="system_inject_fail"><![CDATA[Це рідкісна проблема, яка може бути спричинена <b>Magisk</b> або деякими неякісними модулями Magisk.<br/>Спробуйте вимкнути всі модулі Magisk, крім Zygisk та LSPosed, або надішліть повний журнал розробникам.]]></string>
+    <string name="system_prop_incorrect_summary">Некоректні системні властивості</string>
+    <string name="system_prop_incorrect"><![CDATA[Деякі необхідні системні властивості видалено або змінено.<br/>Модулі можуть час від часу переставати працювати.]]></string>
     <string name="hyrt_unavailable_summary">Помилка ін’єкції в HyperOS Runtime</string>
     <string name="hyrt_unavailable">Виявлено HyperOS Runtime, але API Zygisk Next недоступний. Нативні модулі не завантажуватимуться в процеси HyperOS Runtime.</string>
     <string name="need_update">Потрібно оновити</string>
+    <string name="developer_warning_title">Поради для розробника модулів</string>
+    <string name="developer_warning_summary">Будь ласка, вимкніть оптимізацію розгортання в Android Studio або скористайтеся командою `gradlew installDebug` для встановлення. Інакше APK модуля не буде оновлено.</string>
     <string name="info_manager_package_name">Ім\'я пакета менеджера</string>
     <string name="info_system_version">Версія Android</string>
     <string name="info_device">Пристрій</string>
-    <string name="info_system_abi">Розрядність процесора</string>
+    <string name="info_system_abi">Архітектура системи (ABI)</string>
     <string name="info_dex2oat_wrapper">Обгортка Dex Optimizer</string>
     <string name="enabled">Увімкнено</string>
     <string name="not_enabled">Вимкнено</string>
@@ -49,28 +38,31 @@
     <string name="mounted">Змонтовано</string>
     <string name="injected">Інжектовано</string>
     <string name="android_version_unsatisfied">Версія Android не підтримується</string>
-    <string name="crashed">Помилка</string>
-    <string name="mount_failed">Не вдалося під\'єднати</string>
+    <string name="crashed">Збій</string>
+    <string name="mount_failed">Не вдалося змонтувати</string>
     <string name="info_copied">Скопійовано до буфера обміну</string>
     <!-- WelcomeDialog -->
+    <string name="touch_filtered_warning">Оскільки певний додаток перекриває інтерфейс, менеджер не може перевірити вашу відповідь.</string>
     <string name="parasitic_welcome">Ласкаво просимо до LSPosed</string>
-    <string name="parasitic_welcome_summary">Ви використовуєте паразитний менеджер, який може відкриватися з повідомлення.</string>
+    <string name="parasitic_welcome_summary">Ви використовуєте паразитний менеджер, який можна відкрити зі сповіщення.</string>
     <string name="never_show">Ніколи не показувати</string>
-    <string name="app_welcome">Рекомендується менеджер-паразит</string>
-    <string name="app_welcome_summary">LSPosed тепер підтримує паразитування системи, щоб уникнути виявлення, ви можете відкрити диспетчер паразитів з повідомлення. Рекомендується видалити поточну програму.</string>
+    <string name="app_welcome">Рекомендується паразитний менеджер</string>
+    <string name="app_welcome_summary">LSPosed тепер підтримує паразитування системи, щоб уникнути виявлення, ви можете відкрити паразитний менеджер зі сповіщення. Рекомендується видалити поточний додаток.</string>
     <!-- LogsActivity -->
     <string name="menuSaveToSd">Зберегти</string>
-    <string name="nav_item_logs_verbose">Детальні звіти</string>
-    <string name="nav_item_logs_module">Звіти модулів</string>
+    <string name="nav_item_logs_verbose">Детальні журнали</string>
+    <string name="nav_item_logs_module">Журнали модулів</string>
     <string name="logs_saving">Збереження журналу, зачекайте</string>
     <string name="logs_saved">Журнали збережено</string>
     <string name="logs_save_failed2">Не вдалося зберегти:\n%s</string>
+    <string name="logs_preparing">Підготовка журналу, зачекайте</string>
+    <string name="logs_prepare_failed">Не вдалося підготувати:\n%s</string>
     <string name="menuClearLog">Очистити журнал зараз</string>
     <string name="scroll_top">Прокрутити догори</string>
     <string name="scroll_bottom">Прокрутити донизу</string>
     <string name="menu_enable_word_wrap">Перенесення слів</string>
     <!-- ModulesActivity -->
-    <string name="warning_xposed_min_version">Цей модуль вимагає новішої версії Xposed (%d), тому його неможливо застосувати</string>
+    <string name="warning_xposed_min_version">Цей модуль вимагає новішої версії Xposed (%d), тому його неможливо активувати</string>
     <string name="warning_target_version_higher">Цей модуль розроблено для новішої версії Xposed (%d), тому деякі функції можуть не працювати</string>
     <string name="no_min_version_specified">У цьому модулі не вказано необхідну для нього версію Xposed.</string>
     <string name="warning_min_version_too_low">Цей модуль був створений для Xposed версії %1$d, але через несумісні зміни у версії %2$d його було вимкнено</string>
@@ -87,73 +79,91 @@
     <string name="expand">розгорнути</string>
     <string name="collapse">згорнути</string>
     <!-- AppListActivity -->
+    <string name="reset_scope_request_setting">Скинути налаштування запиту області дії</string>
+    <string name="reset_scope_request_setting_done">Налаштування запиту області дії скинуто</string>
+    <string name="hide_non_system_overlay_failed_no_permission">Не вдалося приховати несистемне накладення, оновіть менеджер.</string>
     <string name="compile_speed">Повторна оптимізація</string>
     <string name="compile_speed_msg">Оптимізація…</string>
     <string name="compile_done">Оптимізація завершена</string>
     <string name="app_launch">Запустити</string>
     <string name="compile_failed">Помилка оптимізації: повернуте значення порожнє</string>
     <string name="compile_failed_with_info">Помилка оптимізації: </string>
-    <string name="sort_by_name">За назвою програми</string>
+    <string name="sort_by_name">За назвою додатка</string>
     <string name="sort_by_package_name">За іменем пакету</string>
     <string name="sort_by_install_time">За часом встановлення</string>
     <string name="sort_by_update_time">За часом оновлення</string>
-    <string name="sort_reverse">У зворотньому порядку</string>
-    <string name="menu_show_system_apps">Системні програми</string>
+    <string name="sort_reverse">У зворотному порядку</string>
+    <string name="menu_show_system_apps">Системні додатки</string>
     <string name="menu_sort">Сортування</string>
     <string name="enable_module">Увімкнути модуль</string>
     <string name="menu_show_games">Ігри</string>
     <string name="menu_show_modules">Модулі</string>
-    <string name="failed_to_save_scope_list">Не вдалося зберегти список областей</string>
+    <string name="module_scope_list_static_scope">Модуль оголосив статичну область дії</string>
+    <string name="failed_to_save_scope_list">Не вдалося зберегти список областей дії</string>
     <string name="app_version">Версія: %1$s</string>
-    <string name="use_recommended">Рекомендовано</string>
-    <string name="use_recommended_message">Вибрати рекомендовані програми?</string>
-    <string name="module_is_not_activated_yet">Модуль LSPosed ще не активований</string>
-    <string name="requested_by_module">Рекомендовано</string>
+    <string name="use_recommended">Вибрати рекомендовані</string>
+    <string name="use_recommended_message">Вибрати рекомендовані додатки?</string>
+    <string name="deselect_all">Скасувати весь вибір</string>
+    <string name="deselect_all_message">Скасувати вибір усіх вибраних додатків?</string>
+    <string name="module_is_not_activated_yet">Модуль Xposed ще не активований</string>
+    <string name="requested_by_module">Рекомендовано модулем</string>
     <string name="update_available">Доступне оновлення: %1$s</string>
-    <string name="android_framework">System Framework</string>
+    <string name="android_framework">Системний фреймворк</string>
     <string name="menu_backup">Створити резервну копію</string>
     <string name="menu_restore">Відновити з резервної копії</string>
     <string name="force_stop">Примусово зупинити</string>
     <string name="force_stop_dlg_title">Примусово зупинити?</string>
-    <string name="force_stop_dlg_text">Примусове зупинення додатку, може мати наслідки.</string>
+    <string name="force_stop_dlg_text">Після примусового зупинення додаток може працювати неналежним чином.</string>
     <string name="reboot_required">Для застосування цієї зміни потрібне перезавантаження</string>
     <string name="reboot">Перезавантажити</string>
     <!-- ModulesActivity and AppListActivity -->
     <string name="modules_other_app">Переглянути в іншому додатку</string>
-    <string name="module_app_info">Про програму</string>
+    <string name="module_app_info">Інформація про додаток</string>
     <string name="list_empty">¯\\\\_(ツ)_\/¯\nТут нічого немає</string>
     <!-- SettingsActivity -->
-    <string name="settings_group_framework">Framework</string>
+    <string name="settings_group_framework">Фреймворк</string>
     <string name="settings_disable_verbose_log">Вимкнути детальні журнали</string>
-    <string name="settings_disable_verbose_log_summary">Вимоги до звітів про проблеми, що виникають, включати розгорнуті журнали</string>
+    <string name="settings_disable_verbose_log_summary">Під час повідомлення про проблеми потрібно додавати детальні журнали</string>
     <string name="settings_group_theme">Тема</string>
     <string name="settings_backup_and_restore">Резервне копіювання та відновлення</string>
-    <string name="settings_backup_summary">Зберегти список увімкнених модулів та їхніх програм-жертв</string>
-    <string name="settings_restore_summary">Відновити список увімкнених модулів та їхніх програм-жертв</string>
+    <string name="settings_backup_summary">Зберегти список модулів та списки областей дії</string>
+    <string name="settings_restore_summary">Відновити список модулів та списки областей дії</string>
     <string name="settings_backup">Створити резервну копію</string>
     <string name="settings_backup_failed2">Не вдалося створити резервну копію:\n%s</string>
-    <string name="enable_documentui">Будь ласка, увімкніть DocumentUI</string>
+    <string name="enable_documentui">Будь ласка, увімкніть DocumentsUI</string>
     <string name="settings_restore">Відновити з резервної копії</string>
-    <string name="settings_restore_failed2">Не вдалося зберегти:\n%s</string>
+    <string name="settings_restore_failed2">Не вдалося відновити:\n%s</string>
     <string name="group_network">Мережа</string>
     <string name="dns_over_http">DNS поверх HTTPS</string>
-    <string name="dns_over_http_summary">Обійти регіональне DNS-блокування</string>
+    <string name="dns_over_http_summary">Обійти отруєння DNS у деяких країнах</string>
+    <string name="settings_repo_cdn">CDN репозиторію модулів</string>
+    <string name="repo_cdn_default">За умовчанням</string>
+    <string name="repo_cdn_backup">Резервна копія</string>
     <string name="settings_show_hidden_icon_apps_enabled">Примусово показувати значки запуску</string>
-    <string name="settings_show_hidden_icon_apps_enabled_summary">Починаючи з Android 10, програмам не дозволяється приховувати свої значки запуску. Вимкніть перемикач, щоб вимкнути цю системну функцію.</string>
+    <string name="settings_show_hidden_icon_apps_enabled_summary">Починаючи з Android 10, додаткам не дозволяється приховувати свої значки запуску. Вимкніть перемикач, щоб вимкнути цю системну функцію.</string>
     <string name="settings_group_system">Система</string>
     <string name="settings_language">Мова</string>
     <string name="settings_translation_contributors">Автори перекладу</string>
     <string name="settings_translation">Допомогти з перекладом</string>
-    <string name="settings_translation_summary">Доповнити український переклад %s</string>
-    <string name="settings_enable_status_notification">Повідомлення про статус</string>
-    <string name="settings_enable_status_notification_summary">Показати повідомлення, яке може відкрити паразитний менеджер</string>
-    <string name="settings_update_channel">Канал оновлень</string>
+    <string name="settings_translation_summary">Допоможіть нам перекласти %s українською мовою</string>
+    <string name="settings_enable_status_notification">Сповіщення про статус</string>
+    <string name="settings_enable_status_notification_summary">Показати сповіщення, яке може відкрити паразитний менеджер</string>
+    <string name="settings_update_channel">Канал оновлення модулів</string>
     <string name="update_channel_stable">Стабільний</string>
     <string name="update_channel_beta">Бета-версія</string>
     <string name="update_channel_nightly">Нічна збірка</string>
     <string name="settings_xposed_api_call_protection">Захист викликів Xposed API</string>
-    <string name="settings_xposed_api_call_protection_summary">Блокування динамічно завантаженого коду модуля для використання Xposed API, це може призвести до поломки деяких модулів, але покращить безпеку</string>
+    <string name="settings_xposed_api_call_protection_summary">Заборонити динамічно завантаженому коду модулів використовувати Xposed API. Це може порушити роботу деяких модулів, але підвищить безпеку.</string>
     <!-- Module Repo -->
+    <string name="settings_invalidate_inline_hooks">Анулювати інлайн-хуки</string>
+    <string name="settings_invalidate_inline_hooks_summary">Очистити libart.so для зазначених додатків. Це призведе до випадкових несправностей і збоїв. Використовуйте, лише якщо не вдається відкрити певні додатки.</string>
+    <string name="failed_to_save_invalidate_inline_hooks_list">Не вдалося зберегти список інлайн-хуків</string>
+    <string name="settings_enable_predictive_back">Прогнозований жест повернення</string>
+    <string name="settings_enable_predictive_back_summary">Увімкнути підтримку прогнозованих жестів повернення</string>
+    <string name="settings_enable_swipe_dismiss">Жест повернення проведенням</string>
+    <string name="settings_enable_swipe_dismiss_summary">Проведіть від краю екрана, щоб повернутися на попередню сторінку.</string>
+    <string name="settings_tapjacking_protection">Захист від перехоплення натискань</string>
+    <string name="settings_tapjacking_protection_summary">Блокує дотики, коли інтерфейс перекрито, щоб запобігти атакам типу tapjacking.</string>
     <string name="module_readme">Опис</string>
     <string name="module_releases">Релізи</string>
     <string name="module_information">Інформація</string>
@@ -162,15 +172,16 @@
     <string name="module_information_collaborators">Співавтори</string>
     <string name="module_release_view_assets">Вкладення</string>
     <string name="menu_open_in_browser">Відкрити в браузері</string>
-    <string name="module_release_load_more">Показувати старіші версії</string>
+    <string name="menu_share">Поділитися</string>
+    <string name="module_release_load_more">Показати старіші версії</string>
     <string name="module_release_no_more">Більше релізів немає</string>
-    <string name="sort_upgradable_first">Спершу нові версії</string>
-    <string name="installed">встановлено</string>
+    <string name="sort_upgradable_first">Спочатку оновлювані</string>
+    <string name="installed">Встановлено</string>
     <plurals name="module_release_assets_download_count">
-        <item quantity="one">%d завантажити</item>
-        <item quantity="few">%d завантажень</item>
+        <item quantity="one">%d завантаження</item>
+        <item quantity="few">%d завантаження</item>
         <item quantity="many">%d завантажень</item>
-        <item quantity="other">%d завантажень</item>
+        <item quantity="other">%d завантаження</item>
     </plurals>
     <!-- Colors -->
     <string name="color_red">Червоний</string>
@@ -189,6 +200,101 @@
     <string name="color_orange">Помаранчевий</string>
     <string name="color_brown">Коричневий</string>
     <string name="color_blue_grey">Блакитно-сірий</string>
+    <string name="safe_mode">Безпечний режим</string>
+    <string name="safe_mode_summary">LSPosed у безпечному режимі</string>
+    <string name="safe_mode_summary2">Усі модулі Xposed будуть недоступні до наступного перезавантаження.\nДеякі модулі спричинили збої системи. Знайдіть і вимкніть ці модулі та повідомте про це розробникам модулів.</string>
+    <string name="disable_all_modules">Вимкнути всі модулі</string>
+    <string name="confirm_disable_all_modules">Підтвердити?</string>
+    <plurals name="message_disable_all_modules">
+        <item quantity="one">%d модуль буде вимкнено.
+Цю операцію не можна скасувати.</item>
+        <item quantity="few">%d модулі буде вимкнено.
+Цю операцію не можна скасувати.</item>
+        <item quantity="many">%d модулів буде вимкнено.
+Цю операцію не можна скасувати.</item>
+        <item quantity="other">%d модуля буде вимкнено.
+Цю операцію не можна скасувати.</item>
+    </plurals>
+    <string name="disable_success_title">Успішно</string>
+    <string name="hook_debug_title">Налагодження хуків</string>
+    <string name="debugging_title">Налагодження</string>
     <string name="developer_mode_title">Режим розробника</string>
     <string name="developer_mode_summary">Дозволити керування налаштуваннями й областями дії LSPosed за допомогою інструмента CLI</string>
+    <string name="safe_mode_disabled_title">Вимкнути безпечний режим</string>
+    <string name="safe_mode_disabled_summary">Запобігати входу в безпечний режим, коли системні компоненти постійно зупиняються</string>
+    <string name="hook_debug_summary">Дозволити збереження налагоджувальної інформації хуків для процесів із хуками, що може вплинути на продуктивність</string>
+    <string name="dump_hook_debug_title">Зберегти налагоджувальну інформацію хуків</string>
+    <string name="dump_hook_debug_summary">Зберегти налагоджувальну інформацію хуків у /data/adb/lspd/log</string>
+    <string name="dump_hook_success">Збережено в %s</string>
+    <string name="dump_hook_failed">Не вдалося зберегти</string>
+    <string name="log_to_daemon_title">Записувати журнали в демон</string>
+    <string name="log_to_daemon_summary">Це унеможливлює читання журналів модулів додатками, але може вплинути на продуктивність</string>
+    <plurals name="disable_success_message">
+        <item quantity="one">Вимкнено %d модуль</item>
+        <item quantity="few">Вимкнено %d модулі</item>
+        <item quantity="many">Вимкнено %d модулів</item>
+        <item quantity="other">Вимкнено %d модуля</item>
+    </plurals>
+    <string name="follow_system">Як у системі</string>
+    <string name="unknown_author">Невідомий автор</string>
+    <string name="unknown_version">Невідома версія</string>
+    <string name="unknown_asset">Невідоме вкладення</string>
+    <string name="download_asset">Завантажити</string>
+    <string name="nav_back">Назад</string>
+    <string name="nav_rail_expand">Розгорнути панель навігації</string>
+    <string name="nav_rail_collapse">Згорнути панель навігації</string>
+    <string name="menu">Меню</string>
+    <string name="menu_filter">Фільтр</string>
+    <string name="menu_parsed_view">Оброблений вигляд</string>
+    <string name="menu_raw_view">Необроблений вигляд</string>
+    <string name="settings_ui">Стиль інтерфейсу</string>
+    <string name="settings_ui_summary">Виберіть стиль інтерфейсу</string>
+    <string name="settings_theme">Тема</string>
+    <string name="settings_theme_summary">Виберіть режим теми додатка</string>
+    <string name="settings_theme_mode_system">Як у системі</string>
+    <string name="settings_theme_mode_light">Світла</string>
+    <string name="settings_theme_mode_dark">Темна</string>
+    <string name="settings_theme_mode_monet_system">Monet (як у системі)</string>
+    <string name="settings_theme_mode_monet_light">Monet (світла)</string>
+    <string name="settings_theme_mode_monet_dark">Monet (темна)</string>
+    <string name="settings_key_color">Акцентний колір</string>
+    <string name="settings_key_color_summary">Налаштуйте початковий колір під час використання Monet</string>
+    <string name="settings_key_color_default">За умовчанням</string>
+    <string name="settings_theme_entry">Налаштування теми</string>
+    <string name="settings_theme_entry_summary">Режим теми, акцентний колір, стиль палітри тощо</string>
+    <string name="settings_palette_style">Стиль палітри</string>
+    <string name="settings_palette_style_summary">Тональний алгоритм, який використовується для побудови палітри Material 3</string>
+    <string name="settings_color_spec">Специфікація кольору</string>
+    <string name="settings_color_spec_summary">Версія колірної специфікації Material 3</string>
+    <string name="settings_page_scale">Масштаб сторінок</string>
+    <string name="settings_page_scale_summary">Налаштування глобального масштабу відображення</string>
+    <string name="settings_enable_blur">Розмиття</string>
+    <string name="settings_enable_blur_summary">Увімкнути ефект розмиття для верхньої та нижньої панелей</string>
+    <string name="settings_floating_bottom_bar">Плаваюча нижня панель</string>
+    <string name="settings_floating_bottom_bar_summary">Використовувати плаваючу нижню панель у стилі Apple</string>
+    <string name="settings_enable_glass">Рідке скло</string>
+    <string name="settings_enable_glass_summary">Увімкнути ефект рідкого скла для плаваючої нижньої панелі</string>
+    <string name="refresh_pulling">Потягніть униз для оновлення</string>
+    <string name="refresh_release">Відпустіть для оновлення</string>
+    <string name="refresh_refresh">Оновлення…</string>
+    <string name="refresh_complete">Оновлено успішно</string>
+    <string name="time_just_now">Щойно</string>
+    <plurals name="time_minutes_ago">
+        <item quantity="one">%d хвилину тому</item>
+        <item quantity="few">%d хвилини тому</item>
+        <item quantity="many">%d хвилин тому</item>
+        <item quantity="other">%d хвилини тому</item>
+    </plurals>
+    <plurals name="time_hours_ago">
+        <item quantity="one">%d годину тому</item>
+        <item quantity="few">%d години тому</item>
+        <item quantity="many">%d годин тому</item>
+        <item quantity="other">%d години тому</item>
+    </plurals>
+    <plurals name="time_days_ago">
+        <item quantity="one">%d день тому</item>
+        <item quantity="few">%d дні тому</item>
+        <item quantity="many">%d днів тому</item>
+        <item quantity="other">%d дня тому</item>
+    </plurals>
 </resources>

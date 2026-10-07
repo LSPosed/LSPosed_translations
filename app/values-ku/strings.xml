@@ -1,82 +1,87 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--
-  ~ This file is part of LSPosed.
-  ~
-  ~ LSPosed is free software: you can redistribute it and/or modify
-  ~ it under the terms of the GNU General Public License as published by
-  ~ the Free Software Foundation, either version 3 of the License, or
-  ~ (at your option) any later version.
-  ~
-  ~ LSPosed is distributed in the hope that it will be useful,
-  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
-  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-  ~ GNU General Public License for more details.
-  ~
-  ~ You should have received a copy of the GNU General Public License
-  ~ along with LSPosed.  If not, see <https://www.gnu.org/licenses/>.
-  ~
-  ~ Copyright (C) 2021 LSPosed Contributors
-  -->
-<resources xmlns:tools="http://schemas.android.com/tools" tools:keep="@string/xposed_module_updated_notification_*,@string/module_is_not_activated_*">
+<resources>
     <!-- MainActivity -->
+    <string name="overview">Nêrîna giştî</string>
+    <string name="Modules">Modul</string>
+    <string name="Logs">Têketin</string>
+    <string name="Settings">Mîheng</string>
+    <string name="About">Der barê</string>
+    <string name="module_repo">Repo</string>
+    <string name="about_send_bug_report">Rapora çewtiyê bişîne</string>
+    <string name="bug_report_message">Pirsgirêkê bi kurtî rave bike</string>
+    <string name="bug_report_exporting_logs">Têketin tên hinardekirin…</string>
+    <string name="about_join_telegram">Tevlî kanala Telegram bibe</string>
+    <string name="email_address_copied">Navnîşana e-nameyê hate kopî kirin</string>
+    <string name="translators">null</string>
     <string name="not_installed">Ne hatiye sazkirin</string>
-    <string name="not_install_summary">LSPosed nayê Sazkirin</string>
-    <string name="activated">Çalak kirin</string>
-    <string name="partial_activated">Qismî aktîf kirin</string>
+    <string name="not_install_summary">LSPosed nehatiye sazkirin</string>
+    <string name="activated">Çalakkirî</string>
+    <string name="partial_activated">Qismî çalakkirî</string>
     <string name="system_inject_fail_summary">Derzkirina Çarçoveya Pergalê têk çû</string>
-    <string name="system_inject_fail"><![CDATA[Ev kêm e û dibe ku ji hêla <b>Magisk</b> an hin modulên Magisk-a kêm-kalîteyê ve çêbibe.<br/>Ji kerema xwe hewl bidin ku modulên Magisk ji bilî Zygisk û LSPosed neçalak bikin an jî têketinek tevahî ji pêşdebiran re bişînin.]]></string>
+    <string name="system_inject_fail"><![CDATA[Ev kêm e û dibe ku ji hêla <b>Magisk</b> an hin modulên Magisk ên kêm-kalîteyê ve çêbibe.<br/>Ji kerema xwe hewl bidin ku modulên Magisk ji bilî Zygisk û LSPosed neçalak bikin an jî têketinek tevahî ji pêşdebiran re bişînin.]]></string>
+    <string name="system_prop_incorrect_summary">Taybetmendiya pergalê çewt e</string>
     <string name="system_prop_incorrect"><![CDATA[Hin taybetmendiyên pergalê yên pêwîst jêbirin an guherandin.<br/>Dibe ku modul carinan betal bibin.]]></string>
     <string name="hyrt_unavailable_summary">Derzkirina HyperOS Runtime têk çû</string>
     <string name="hyrt_unavailable">HyperOS Runtime hate dîtin, lê Zygisk Next API ne berdest e. Modulên xwemalî dê di pêvajoyên HyperOS Runtime de neyên barkirin.</string>
     <string name="need_update">Pêdivî ye ku nûve bike</string>
+    <string name="developer_warning_title">Şîret ji pêşdebirê modulê re</string>
+    <string name="developer_warning_summary">Ji kerema xwe li ser Android Studio optîmîzasyonên bicîhkirinê neçalak bike, an jî fermanaya `gradlew installDebug` bi kar bîne da ku saz bike. Wekî din apk-ya modulê nayê nûve kirin.</string>
     <string name="info_manager_package_name">Navê pakêta rêveberê</string>
     <string name="info_system_version">Guhertoya pergalê</string>
-    <string name="info_device">Sazî</string>
-    <string name="info_system_abi">Pergala ABI</string>
-    <string name="info_dex2oat_wrapper">Dex Optimizer Wrapper</string>
-    <string name="enabled">Enabled</string>
-    <string name="not_enabled">Ne çalak kirin</string>
-    <string name="supported">Piştgirî kirin</string>
-    <string name="unsupported">Piştgirî nekirin</string>
+    <string name="info_device">Cîhaz</string>
+    <string name="info_system_abi">ABI ya pergalê</string>
+    <string name="info_dex2oat_wrapper">Pêçeka optîmîzatora Dex</string>
+    <string name="enabled">Çalak</string>
+    <string name="not_enabled">Ne çalakkirî</string>
+    <string name="supported">Piştgirîkirî</string>
+    <string name="unsupported">Piştgirî nekirî</string>
     <string name="mounted">Montkirî</string>
     <string name="injected">Derzîkirî</string>
-    <string name="android_version_unsatisfied">Guhertoya Android-ê ne razî ye</string>
-    <string name="crashed">Qeza kirin</string>
+    <string name="android_version_unsatisfied">Guhertoya Android-ê nayê piştgirîkirin</string>
+    <string name="crashed">Qeza kir</string>
+    <string name="mount_failed">Montkirin bi ser neket</string>
     <string name="info_copied">Li clipboardê hate kopî kirin</string>
     <!-- WelcomeDialog -->
+    <string name="touch_filtered_warning">Ji ber ku sepanek navrûyê vedişêre, Rêveber nikare bersiva we piştrast bike.</string>
     <string name="parasitic_welcome">Hûn bi xêr hatin LSPosed</string>
     <string name="parasitic_welcome_summary">Hûn rêveberê parazît bikar tînin, ku dikare ji ragihandinê vebe.</string>
     <string name="never_show">Qet nîşan nedin</string>
-    <string name="app_welcome">Rêvebirê Parazît Pêşniyar kirin</string>
+    <string name="app_welcome">Rêvebirê Parazît Pêşniyarkirî</string>
     <string name="app_welcome_summary">LSPosed naha parazîtkirina pergalê piştgirî dike da ku ji tespîtê dûr bixe, hûn dikarin rêveberê parazît ji ragihandinê vekin. Tê pêşniyar kirin ku serîlêdana heyî jêbirin.</string>
     <!-- LogsActivity -->
-    <string name="menuSaveToSd">Rizgarkirin</string>
-    <string name="nav_item_logs_verbose">Têketinên Verbose</string>
+    <string name="menuSaveToSd">Tomar bike</string>
+    <string name="nav_item_logs_verbose">Têketinên hûrgilî</string>
     <string name="nav_item_logs_module">Têketinên Modulan</string>
-    <string name="logs_saved">Têketin xilas kirin</string>
-    <string name="logs_save_failed2">Sazkirin bi ser neket:\n%s</string>
+    <string name="logs_saving">Têketin tên tomarkirin, ji kerema xwe li bendê bimîne</string>
+    <string name="logs_saved">Têketin hatin tomarkirin</string>
+    <string name="logs_save_failed2">Tomarkirin bi ser neket:\n%s</string>
+    <string name="logs_preparing">Têketin tên amadekirin, ji kerema xwe li bendê bimîne</string>
+    <string name="logs_prepare_failed">Amadekirin bi ser neket:\n%s</string>
     <string name="menuClearLog">Naha têketinê paqij bike</string>
-    <string name="scroll_top">Scroll to top</string>
-    <string name="scroll_bottom">Scroll to bottom</string>
+    <string name="scroll_top">Biçe jor</string>
+    <string name="scroll_bottom">Biçe jêr</string>
     <string name="menu_enable_word_wrap">Peyv Wrap</string>
     <!-- ModulesActivity -->
     <string name="warning_xposed_min_version">Vê modulê guhertoyek nû ya Xposed (%d) hewce dike û ji ber vê yekê nayê çalak kirin</string>
     <string name="warning_target_version_higher">Ev modul ji bo guhertoyek nû ya Xposed (%d) hatî çêkirin û ji ber vê yekê dibe ku hin fonksiyon nexebitin</string>
     <string name="no_min_version_specified">Ev modul guhertoya Xposed ya ku jê re hewce dike diyar nake.</string>
-    <string name="warning_min_version_too_low">Ev modul ji bo guhertoya Xposed %1$dhate afirandin, lê ji ber guheztinên nelihev ên di guhertoya %2$d-ê de, ew hate asteng kirin.</string>
+    <string name="warning_min_version_too_low">Ev modul ji bo guhertoya Xposed %1$d hate afirandin, lê ji ber guheztinên nelihev ên di guhertoya %2$d-ê de, ew hate asteng kirin.</string>
     <string name="warning_deprecated_feature">Ev modul taybetmendiyek ku hatiye betalkirin û dê di demek nêzîk de were rakirin bi kar tîne. Ji kerema xwe bi nivîskar re têkilî daynin an alternatîfekê bifikirin.</string>
-    <string name="warning_installed_on_external_storage">Ev modul nikare were barkirin ji ber ku ew li ser qerta SD-ê hatî saz kirin, ji kerema xwe wê biguhezînin hilana hundurîn</string>
+    <string name="warning_installed_on_external_storage">Ev modul nikare were barkirin ji ber ku ew li ser qerta SD-ê hatî saz kirin, ji kerema xwe wê biguhezînin bo embara hundurîn</string>
     <string name="module_uninstall">Rakirin</string>
     <string name="module_settings">Mîhengên Modulê</string>
     <string name="view_in_repo">Di Repo de bibînin</string>
     <string name="module_uninstall_message">Ma hûn dixwazin vê modulê rakin?</string>
-    <string name="module_uninstalled">Rakir %1$s</string>
-    <string name="module_uninstall_failed">Rakirina neserketî ye</string>
+    <string name="module_uninstalled">%1$s hate rakirin</string>
+    <string name="module_uninstall_failed">Rakirin bi ser neket</string>
     <string name="module_install_failed">Zêdekirina modulê têk çû</string>
-    <string name="install_to_user">Ji bikarhêner %sre saz bike</string>
+    <string name="install_to_user">Ji bikarhêner %s re saz bike</string>
     <string name="expand">firehkirin</string>
     <string name="collapse">jiberhevketin</string>
     <!-- AppListActivity -->
+    <string name="reset_scope_request_setting">Mîhenga daxwaza qadê vesaz bike</string>
+    <string name="reset_scope_request_setting_done">Mîhenga daxwaza qadê hate vesazkirin</string>
+    <string name="hide_non_system_overlay_failed_no_permission">Veşartina overlayê ya ne-pergalî bi ser neket, ji kerema xwe rêveberê nûve bike</string>
     <string name="compile_speed">Ji nû ve xweşbîn bikin</string>
     <string name="compile_speed_msg">Optimîzekirin…</string>
     <string name="compile_done">Optimîzasyon qediya</string>
@@ -86,95 +91,196 @@
     <string name="sort_by_name">Navê serîlêdanê</string>
     <string name="sort_by_package_name">Navê pakêtê</string>
     <string name="sort_by_install_time">Dema sazkirinê</string>
-    <string name="sort_by_update_time">Wextê nûve bike</string>
-    <string name="sort_reverse">Gara paşî</string>
+    <string name="sort_by_update_time">Dema nûvekirinê</string>
+    <string name="sort_reverse">Berevajî</string>
     <string name="menu_show_system_apps">Sepanên pergalê</string>
     <string name="menu_sort">Rêzkirin</string>
     <string name="enable_module">Modulê çalak bike</string>
-    <string name="menu_show_games">Games</string>
-    <string name="menu_show_modules">Modules</string>
-    <string name="failed_to_save_scope_list">Hilbijartina navnîşa çarçovê bi ser neket</string>
+    <string name="menu_show_games">Lîstik</string>
+    <string name="menu_show_modules">Modul</string>
+    <string name="module_scope_list_static_scope">Modulê qada statîk diyar kir</string>
+    <string name="failed_to_save_scope_list">Tomarkirina navnîşa qadê bi ser neket</string>
     <string name="app_version">Versiyon: %1$s</string>
-    <string name="use_recommended">Pêşniyar kirin</string>
+    <string name="use_recommended">Pêşniyarkirî</string>
     <string name="use_recommended_message">Serlêdanên pêşniyarkirî hilbijêrin?</string>
+    <string name="deselect_all">Hemûyan hilnebijêre</string>
+    <string name="deselect_all_message">Ma hûn dixwazin hilbijartina hemû sepanan rake?</string>
     <string name="module_is_not_activated_yet">Modula Xposed hîn nehatiye çalak kirin</string>
-    <string name="requested_by_module">Pêşniyar kirin</string>
+    <string name="requested_by_module">Ji hêla modulê ve tê pêşniyar kirin</string>
     <string name="update_available">Nûvekirin heye: %1$s</string>
-    <string name="android_framework">Çarçoveya Sîstemê</string>
-    <string name="menu_backup">Backup</string>
+    <string name="android_framework">Çarçoveya Pergalê</string>
+    <string name="menu_backup">Kopîgirtin</string>
+    <string name="menu_restore">Vegerandin</string>
     <string name="force_stop">Bi zorê rawestandin</string>
     <string name="force_stop_dlg_title">Rawestandina zorê?</string>
     <string name="force_stop_dlg_text">Ger hûn bi zorê sepanek rawestînin, dibe ku ew xelet tevbigere.</string>
     <string name="reboot_required">Ji bo sepandina vê guherînê ji nû ve destpêkirinê hewce ye</string>
-    <string name="reboot">Reboot</string>
+    <string name="reboot">Nûdestpêkirin</string>
     <!-- ModulesActivity and AppListActivity -->
     <string name="modules_other_app">Di sepana din de bibînin</string>
-    <string name="module_app_info">Agahdariya Appê</string>
-    <string name="list_empty">¯\\\\_(ツ)_\/¯\nLi vir tiştek tune</string>
+    <string name="module_app_info">Agahdariya sepanê</string>
+    <string name="list_empty">¯\\_(ツ)_\/¯\nLi vir tiştek tune</string>
     <!-- SettingsActivity -->
     <string name="settings_group_framework">Çarçove</string>
-    <string name="settings_disable_verbose_log">Têketinên devkî neçalak bike</string>
-    <string name="settings_disable_verbose_log_summary">Daxwaza pirsgirêkan rapor bikin ku têketinên devkî tê de bin</string>
+    <string name="settings_disable_verbose_log">Têketinên hûrgilî neçalak bike</string>
+    <string name="settings_disable_verbose_log_summary">Ji bo ragihandina pirsgirêkan têketinên hûrgilî pêwîst in</string>
     <string name="settings_group_theme">Mijad</string>
-    <string name="settings_backup_and_restore">Backup û restore</string>
-    <string name="settings_backup_summary">Lîsteya modulê paşvekêşîn û navnîşên çarçovê.</string>
-    <string name="settings_restore_summary">Lîsteya modul û navnîşên çarçovê vegerînin.</string>
-    <string name="settings_backup">Backup</string>
-    <string name="settings_backup_failed2">Piştgiriya bi ser neket:\n%s</string>
-    <string name="enable_documentui">Ji kerema xwe DocumentUI çalak bike</string>
+    <string name="settings_backup_and_restore">Kopîgirtin û vegerandin</string>
+    <string name="settings_backup_summary">Kopîgirtina lîsteya modulan û navnîşên qadê.</string>
+    <string name="settings_restore_summary">Lîsteya modulan û navnîşên qadê vegerînin.</string>
+    <string name="settings_backup">Kopîgirtin</string>
+    <string name="settings_backup_failed2">Kopîgirtin bi ser neket:\n%s</string>
+    <string name="enable_documentui">Ji kerema xwe DocumentsUI çalak bike</string>
+    <string name="settings_restore">Vegerandin</string>
     <string name="settings_restore_failed2">Vegerandin bi ser neket:\n%s</string>
-    <string name="group_network">Network</string>
+    <string name="group_network">Tor</string>
     <string name="dns_over_http">DNS li ser HTTPS</string>
     <string name="dns_over_http_summary">Li hin welatan jehrîkirina DNS-ê çareser bikin</string>
+    <string name="settings_repo_cdn">CDN-ya repoya modulan</string>
+    <string name="repo_cdn_default">Wekî heyî</string>
+    <string name="repo_cdn_backup">Kopîgirtin</string>
     <string name="settings_show_hidden_icon_apps_enabled">Bi zorê serlêdanan bikin ku îkonên destpêker nîşan bidin</string>
-    <string name="settings_show_hidden_icon_apps_enabled_summary">Piştî Android 10, serîlêdan destûr nayê dayîn ku îkonên xwe yên destpêker veşêrin. Ji bo neçalakkirina vê taybetmendiya pergalê, guheztinê vekin.</string>
-    <string name="settings_group_system">Sîstem</string>
+    <string name="settings_show_hidden_icon_apps_enabled_summary">Piştî Android 10, serîlêdan destûr nayê dayîn ku îkonên xwe yên destpêker veşêrin. Ji bo neçalakkirina vê taybetmendiya pergalê, guheztinê bigirin.</string>
+    <string name="settings_group_system">Pergal</string>
     <string name="settings_language">Ziman</string>
     <string name="settings_translation_contributors">Beşdarên wergerê</string>
     <string name="settings_translation">Beşdarî wergerê bibin</string>
     <string name="settings_translation_summary">Alîkariya me bikin ku %s wergerînin zimanê we</string>
-    <string name="settings_enable_status_notification">Notification Status</string>
+    <string name="settings_enable_status_notification">Agahdariya Rewşê</string>
     <string name="settings_enable_status_notification_summary">Agahdariyek nîşan bide ku dikare rêveberê parazît veke</string>
-    <string name="settings_update_channel">Kanalê nûve bikin</string>
+    <string name="settings_update_channel">Kanala nûvekirina modulan</string>
     <string name="update_channel_stable">Stewr</string>
     <string name="update_channel_beta">Beta</string>
     <string name="update_channel_nightly">Avakirina şevê</string>
     <string name="settings_xposed_api_call_protection">Parastina banga Xposed API</string>
     <string name="settings_xposed_api_call_protection_summary">Koda modulê ya bi dînamîk barkirî asteng bike ku Xposed API bikar bîne, ev dibe ku hin modulan bişkîne lê ji ewlehiyê sûd werdigire</string>
     <!-- Module Repo -->
-    <string name="module_readme">Readme</string>
-    <string name="module_releases">Releases</string>
-    <string name="module_information">Info</string>
-    <string name="module_information_homepage">Homepage</string>
+    <string name="settings_invalidate_inline_hooks">Hookên inline betal bike</string>
+    <string name="settings_invalidate_inline_hooks_summary">Ji bo sepanên di navnîşê de libart.so paqij bike. Ev dê bibe sedema xeletiyên rasthatî û qezayan. Tenê dema ku sepanên diyarkirî venebin bi kar bîne.</string>
+    <string name="failed_to_save_invalidate_inline_hooks_list">Tomarkirina navnîşa hookên inline bi ser neket</string>
+    <string name="settings_enable_predictive_back">Jestara vegerê ya pêşbînîkirî</string>
+    <string name="settings_enable_predictive_back_summary">Piştgirî ji bo jestarên vegerê yên pêşbînîkirî çalak bike.</string>
+    <string name="settings_enable_swipe_dismiss">Jestara vegerê ya bi kişandinê</string>
+    <string name="settings_enable_swipe_dismiss_summary">Ji keviya ekranê bikişîne da ku vegerî ser rûpela berê.</string>
+    <string name="settings_tapjacking_protection">Parastina li hemberî tapjacking-ê</string>
+    <string name="settings_tapjacking_protection_summary">Dema navrû were veşartin, destdanan asteng dike da ku êrîşên tapjacking-ê pêşî bigire</string>
+    <string name="module_readme">Min bixwîne</string>
+    <string name="module_releases">Berdan</string>
+    <string name="module_information">Agahdarî</string>
+    <string name="module_information_homepage">Malper</string>
     <string name="module_information_source_url">Koda çavkaniyê</string>
     <string name="module_information_collaborators">Hevkar</string>
-    <string name="module_release_view_assets">Tiştan</string>
+    <string name="module_release_view_assets">Pel</string>
     <string name="menu_open_in_browser">Di gerokê de vekin</string>
+    <string name="menu_share">Parve bike</string>
     <string name="module_release_load_more">Guhertoyên kevntir nîşan bide</string>
-    <string name="module_release_no_more">Bêtir berdan</string>
-    <string name="sort_upgradable_first">Pêşî nûvekirin</string>
-    <string name="installed">Saz kirin</string>
+    <string name="module_release_no_more">Berdana din tune</string>
+    <string name="sort_upgradable_first">Pêşî yên nûvebar</string>
+    <string name="installed">Sazkirî</string>
     <plurals name="module_release_assets_download_count">
-        <item quantity="one">%d download</item>
-        <item quantity="other">%d downloads</item>
+        <item quantity="one">%d daxistin</item>
+        <item quantity="other">%d daxistin</item>
     </plurals>
     <!-- Colors -->
-    <string name="color_red">sor</string>
+    <string name="color_red">Sor</string>
     <string name="color_pink">Pembe</string>
     <string name="color_purple">Mor</string>
-    <string name="color_deep_purple">binefşî ya kûr</string>
-    <string name="color_indigo">Indigo</string>
+    <string name="color_deep_purple">Binefşî ya kûr</string>
+    <string name="color_indigo">Nîlî</string>
     <string name="color_blue">Şîn</string>
     <string name="color_light_blue">Şînê vebûyî</string>
-    <string name="color_cyan">Cyan</string>
-    <string name="color_teal">Teal</string>
+    <string name="color_cyan">Fîrozî</string>
+    <string name="color_teal">Şîna kesk</string>
     <string name="color_green">Kesk</string>
-    <string name="color_lime">Lime</string>
+    <string name="color_lime">Lîmonî</string>
     <string name="color_yellow">Zer</string>
     <string name="color_amber">Aqût</string>
-    <string name="color_orange">porteqalî</string>
-    <string name="color_brown">qehweyî</string>
+    <string name="color_orange">Porteqalî</string>
+    <string name="color_brown">Qehweyî</string>
     <string name="color_blue_grey">Şîn gewr</string>
+    <string name="safe_mode">Moda ewle</string>
+    <string name="safe_mode_summary">LSPosed di moda ewle de ye</string>
+    <string name="safe_mode_summary2">Hemû modulên Xposed heta nûdestpêkirina bê ne berdest in.\nHin modul bûne sedema qezayên pergalê. Ji kerema xwe van modulan bibîne û neçalak bike û bertekê bide pêşdebirên modulan.</string>
+    <string name="disable_all_modules">Hemû modulan neçalak bike</string>
+    <string name="confirm_disable_all_modules">Piştrast bike?</string>
+    <plurals name="message_disable_all_modules">
+        <item quantity="one">%d modul dê were neçalak kirin.
+Ev çalakî nayê vegerandin.</item>
+        <item quantity="other">%d modul dê werin neçalak kirin.
+Ev çalakî nayê vegerandin.</item>
+    </plurals>
+    <string name="disable_success_title">Serkeftin</string>
+    <string name="hook_debug_title">Debugkirina Hook</string>
+    <string name="debugging_title">Debugkirin</string>
     <string name="developer_mode_title">Moda pêşdebir</string>
     <string name="developer_mode_summary">Destûr bide ku mîheng û qada LSPosed bi amûra CLI bên birêvebirin</string>
+    <string name="safe_mode_disabled_title">Moda ewle neçalak bike</string>
+    <string name="safe_mode_disabled_summary">Dema ku pêkhateyên pergalê berdewam rawestin, nehêle bikeve moda ewle</string>
+    <string name="hook_debug_summary">Destûrê bide ku agahdariya debugkirina hookan a pêvajoyên hookkirî were dumpkirin, ku dibe ku bandorek li ser performansê hebe</string>
+    <string name="dump_hook_debug_title">Agahdariya debugkirina hookan dump bike</string>
+    <string name="dump_hook_debug_summary">Agahdariya debugkirina hookan li /data/adb/lspd/log dump bike</string>
+    <string name="dump_hook_success">Li %s hate dumpkirin</string>
+    <string name="dump_hook_failed">Dumpkirin bi ser neket</string>
+    <string name="log_to_daemon_title">Têketin bo daemonê</string>
+    <string name="log_to_daemon_summary">Ev rê li ber xwendina têketinên modulan ji hêla sepanan digire, lê dibe ku bandorek li ser performansê hebe</string>
+    <plurals name="disable_success_message">
+        <item quantity="one">%d modul hate neçalak kirin</item>
+        <item quantity="other">%d modul hatin neçalak kirin</item>
+    </plurals>
+    <string name="follow_system">Li gorî pergalê</string>
+    <string name="unknown_author">Nivîskarê nenas</string>
+    <string name="unknown_version">Guhertoya nenas</string>
+    <string name="unknown_asset">Pela nenas</string>
+    <string name="download_asset">Daxistin</string>
+    <string name="nav_back">Paş</string>
+    <string name="nav_rail_expand">Raya navîgasyonê fireh bike</string>
+    <string name="nav_rail_collapse">Raya navîgasyonê teng bike</string>
+    <string name="menu">Menû</string>
+    <string name="menu_filter">Parzûn</string>
+    <string name="menu_parsed_view">Dîmena parsekirî</string>
+    <string name="menu_raw_view">Dîmena xav</string>
+    <string name="settings_ui">Şêwaza navrûyê</string>
+    <string name="settings_ui_summary">Şêwaza navrûyê hilbijêre</string>
+    <string name="settings_theme">Mijad</string>
+    <string name="settings_theme_summary">Moda mijadê ya sepanê hilbijêre</string>
+    <string name="settings_theme_mode_system">Li gorî pergalê</string>
+    <string name="settings_theme_mode_light">Ron</string>
+    <string name="settings_theme_mode_dark">Tarî</string>
+    <string name="settings_theme_mode_monet_system">Monet (Li gorî pergalê)</string>
+    <string name="settings_theme_mode_monet_light">Monet (Ron)</string>
+    <string name="settings_theme_mode_monet_dark">Monet (Tarî)</string>
+    <string name="settings_key_color">Rengê sereke</string>
+    <string name="settings_key_color_summary">Dema Monet tê bikar anîn, rengê bingehîn li gorî xwe biguherîne</string>
+    <string name="settings_key_color_default">Wekî heyî</string>
+    <string name="settings_theme_entry">Mîhengên mijadê</string>
+    <string name="settings_theme_entry_summary">Moda mijadê, rengê sereke, şêwaza paletê û bêtir</string>
+    <string name="settings_palette_style">Şêwaza paletê</string>
+    <string name="settings_palette_style_summary">Algorîtmaya tonê ya ku ji bo afirandina paleta Material 3 tê bikar anîn</string>
+    <string name="settings_color_spec">Standarda rengan</string>
+    <string name="settings_color_spec_summary">Guhertoya standarda rengan a Material 3</string>
+    <string name="settings_page_scale">Pîvana rûpelê</string>
+    <string name="settings_page_scale_summary">Pîvana nîşandana giştî eyar bike</string>
+    <string name="settings_enable_blur">Mijkirin</string>
+    <string name="settings_enable_blur_summary">Bandora mijkirinê ji bo barên jorîn û jêrîn çalak bike</string>
+    <string name="settings_floating_bottom_bar">Bara jêrîn a hilawîstî</string>
+    <string name="settings_floating_bottom_bar_summary">Bara jêrîn a hilawîstî bi şêwaza Apple bi kar bîne</string>
+    <string name="settings_enable_glass">Cama şil</string>
+    <string name="settings_enable_glass_summary">Bandora cama şil ji bo bara jêrîn a hilawîstî çalak bike</string>
+    <string name="refresh_pulling">Ji bo nûvekirinê ber bi jêr bikişîne</string>
+    <string name="refresh_release">Ji bo nûvekirinê berde</string>
+    <string name="refresh_refresh">Tê nûvekirin…</string>
+    <string name="refresh_complete">Bi serkeftî hate nûvekirin</string>
+    <string name="time_just_now">Hîn niha</string>
+    <plurals name="time_minutes_ago">
+        <item quantity="one">%d deqîqe berê</item>
+        <item quantity="other">%d deqîqe berê</item>
+    </plurals>
+    <plurals name="time_hours_ago">
+        <item quantity="one">%d saet berê</item>
+        <item quantity="other">%d saet berê</item>
+    </plurals>
+    <plurals name="time_days_ago">
+        <item quantity="one">%d roj berê</item>
+        <item quantity="other">%d roj berê</item>
+    </plurals>
 </resources>

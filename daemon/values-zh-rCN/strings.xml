@@ -8,7 +8,7 @@
     <string name="xposed_module_updated_notification_title">Xposed 模块已更新</string>
     <string name="xposed_module_updated_notification_title_system">Xposed 模块已更新，需要重新启动</string>
     <string name="xposed_module_updated_notification_content">%s 已更新，请强行停止并重新打开其作用域内的应用</string>
-    <string name="xposed_module_updated_notification_content_system">%s 已更新，由于作用域包含系统框架，需重启以应用更改</string>
+    <string name="xposed_module_updated_notification_content_system">%s 已更新，由于作用域包含系统框架，需重新启动以应用更改</string>
     <string name="xposed_module_updated_notification_reload">%1$s 已更新，%2$s</string>
     <string name="xposed_module_updated_notification_reload_none">%s 已更新</string>
     <plurals name="xposed_module_updated_notification_reload_reloaded">
@@ -33,9 +33,9 @@
     <string name="scope_channel_name">作用域请求</string>
     <string name="scope_approve">允许</string>
     <string name="scope_deny">拒绝</string>
-    <string name="nerver_ask_again">不再询问</string>
+    <string name="never_ask_again">不再询问</string>
     <string name="lsposed_safemode_notification_title">LSPosed 处于安全模式</string>
-    <string name="lsposed_safemode_notification_content">所有 Xposed 模块不可用，直到下次重启</string>
+    <string name="lsposed_safemode_notification_content">所有 Xposed 模块不可用，直到下次重新启动</string>
     <string name="safe_mode_disable_all_modules">禁用所有模块</string>
     <string name="lsposed_safemode_cleared_notification_title">所有模块已被禁用</string>
     <plurals name="lsposed_safemode_cleared_notification_content">
