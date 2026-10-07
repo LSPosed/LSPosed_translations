@@ -12,13 +12,13 @@
     <string name="xposed_module_updated_notification_reload">%1$s telah diperbarui, %2$s</string>
     <string name="xposed_module_updated_notification_reload_none">%s telah diperbarui</string>
     <plurals name="xposed_module_updated_notification_reload_reloaded">
-        <item quantity="other">%d proses dimuat ulang panas</item>
+        <item quantity="other">%d proses dimuat ulang</item>
     </plurals>
     <plurals name="xposed_module_updated_notification_reload_reloading">
-        <item quantity="other">%d proses sedang dimuat ulang panas</item>
+        <item quantity="other">%d proses sedang dimuat ulang</item>
     </plurals>
     <plurals name="xposed_module_updated_notification_reload_failed">
-        <item quantity="other">%d proses gagal dimuat ulang panas</item>
+        <item quantity="other">%d proses gagal dimuat ulang</item>
     </plurals>
     <string name="xposed_module_enabled_notification_title">Modul Xposed diaktifkan</string>
     <string name="xposed_module_enabled_notification_content">%s telah diaktifkan, ketuk untuk mengatur cakupan.</string>
