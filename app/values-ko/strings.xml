@@ -161,9 +161,9 @@
     <string name="update_channel_nightly">나이틀리 빌드</string>
     <string name="settings_xposed_api_call_protection">Xposed API 호출 보호</string>
     <string name="settings_xposed_api_call_protection_summary">동적으로 로드된 모듈 코드의 Xposed API 사용을 차단합니다. 일부 모듈이 깨질 수 있지만 보안에 도움이 됩니다</string>
-    <string name="settings_invalidate_inline_hooks">인라인 훅 무효화</string>
-    <string name="settings_invalidate_inline_hooks_summary">선택한 앱에 대해 libart.so를 정리합니다. 무작위 오작동과 충돌이 발생할 수 있습니다. 특정 앱을 열 수 없을 때만 사용하세요.</string>
-    <string name="failed_to_save_invalidate_inline_hooks_list">인라인 훅 무효화 목록 저장 실패</string>
+    <string name="settings_disable_inline_hooks">인라인 훅 비활성화</string>
+    <string name="settings_disable_inline_hooks_summary">목록에 있는 앱에서 인라인 훅을 비활성화합니다. 무작위 오작동과 충돌이 발생할 수 있습니다. 특정 앱을 열 수 없을 때만 사용하세요.</string>
+    <string name="failed_to_save_disable_inline_hooks_list">인라인 훅 비활성화 목록 저장 실패</string>
     <string name="settings_enable_predictive_back">예측형 뒤로가기 제스처</string>
     <string name="settings_enable_predictive_back_summary">예측형 뒤로가기 제스처 지원을 활성화합니다.</string>
     <string name="settings_enable_swipe_dismiss">스와이프 뒤로가기 제스처</string>

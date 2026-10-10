@@ -161,9 +161,9 @@
     <string name="update_channel_nightly">Gecelik yapı</string>
     <string name="settings_xposed_api_call_protection">Xposed API çağrı koruması</string>
     <string name="settings_xposed_api_call_protection_summary">Xposed API kullanmak için dinamik olarak yüklenen modül kodunu engelleyin, bu bazı modülleri bozabilir ancak güvenliğe faydalı da olabilir</string>
-    <string name="settings_invalidate_inline_hooks">Satır içi kancaları (inline hooks) geçersiz kıl</string>
-    <string name="settings_invalidate_inline_hooks_summary">Listelenen uygulamalar için libart.so dosyasını temizler. Bu, rastgele hatalara ve çökmelere neden olacaktır. Yalnızca belirli uygulamaları açamadığınız durumlarda kullanın.</string>
-    <string name="failed_to_save_invalidate_inline_hooks_list">Satır içi kancaları geçersiz kılma listesi kaydedilemedi</string>
+    <string name="settings_disable_inline_hooks">Satır içi kancaları (inline hooks) devre dışı bırak</string>
+    <string name="settings_disable_inline_hooks_summary">Listelenen uygulamalar için satır içi kancaları devre dışı bırakır. Bu, rastgele hatalara ve çökmelere neden olacaktır. Yalnızca belirli uygulamaları açamadığınız durumlarda kullanın.</string>
+    <string name="failed_to_save_disable_inline_hooks_list">Satır içi kancaları devre dışı bırakılan uygulamaların listesi kaydedilemedi</string>
     <string name="settings_enable_predictive_back">Tahmini geri hareketi</string>
     <string name="settings_enable_predictive_back_summary">Tahmini geri hareketi (predictive back gesture) desteğini etkinleştirir.</string>
     <string name="settings_enable_swipe_dismiss">Kaydırmalı geri hareketi</string>

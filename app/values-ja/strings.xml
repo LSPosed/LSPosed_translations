@@ -160,9 +160,9 @@
     <string name="update_channel_nightly">ナイトリービルド</string>
     <string name="settings_xposed_api_call_protection">Xposed API の呼び出し保護</string>
     <string name="settings_xposed_api_call_protection_summary">動的にロードされたモジュールコードが Xposed API を使用することをブロックします。これにより一部のモジュールが壊れる可能性がありますが、セキュリティは向上します</string>
-    <string name="settings_invalidate_inline_hooks">インラインフックを復元</string>
-    <string name="settings_invalidate_inline_hooks_summary">リスト内のアプリの libart.so をクリーンアップします。予期しない不具合やクラッシュが発生する可能性があるため、特定のアプリを起動できない場合にのみ使用してください</string>
-    <string name="failed_to_save_invalidate_inline_hooks_list">インラインフックの復元リストを保存できません</string>
+    <string name="settings_disable_inline_hooks">インラインフックを無効化</string>
+    <string name="settings_disable_inline_hooks_summary">リスト内のアプリでインラインフックを無効にします。予期しない不具合やクラッシュが発生する可能性があるため、特定のアプリを起動できない場合にのみ使用してください</string>
+    <string name="failed_to_save_disable_inline_hooks_list">インラインフック無効化リストを保存できません</string>
     <string name="settings_enable_predictive_back">予測型「戻る」ジェスチャー</string>
     <string name="settings_enable_predictive_back_summary">予測型「戻る」ジェスチャーのサポートを有効化します</string>
     <string name="settings_enable_swipe_dismiss">スワイプで戻るジェスチャー</string>

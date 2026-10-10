@@ -155,9 +155,9 @@
     <string name="settings_xposed_api_call_protection">Xposed API कॉल सुरक्षा</string>
     <string name="settings_xposed_api_call_protection_summary">गतिशील रूप से लोड किए गए मॉड्यूल कोड को Xposed API के उपयोग से रोकें; इससे कुछ मॉड्यूल टूट सकते हैं, लेकिन सुरक्षा बेहतर होती है।</string>
     <!-- Module Repo -->
-    <string name="settings_invalidate_inline_hooks">इनलाइन हुक अमान्य करें</string>
-    <string name="settings_invalidate_inline_hooks_summary">सूचीबद्ध ऐप्स के लिए libart.so साफ़ करें। इससे अनियमित खराबी और क्रैश हो सकते हैं। इसका उपयोग केवल तब करें जब विशिष्ट ऐप्स खोलने में असमर्थ हों।</string>
-    <string name="failed_to_save_invalidate_inline_hooks_list">इनलाइन हुक अमान्य करने की सूची सहेजने में विफल</string>
+    <string name="settings_disable_inline_hooks">इनलाइन हुक अक्षम करें</string>
+    <string name="settings_disable_inline_hooks_summary">सूचीबद्ध ऐप्स के लिए इनलाइन हुक अक्षम करता है। इससे अनियमित खराबी और क्रैश हो सकते हैं। इसका उपयोग केवल तब करें जब विशिष्ट ऐप्स खोलने में असमर्थ हों।</string>
+    <string name="failed_to_save_disable_inline_hooks_list">इनलाइन हुक अक्षम करने वाली ऐप्स की सूची सहेजने में विफल</string>
     <string name="settings_enable_predictive_back">पूर्वानुमानित वापसी जेस्चर</string>
     <string name="settings_enable_predictive_back_summary">पूर्वानुमानित वापसी जेस्चर के लिए समर्थन सक्षम करें।</string>
     <string name="settings_enable_swipe_dismiss">स्वाइप वापसी जेस्चर</string>

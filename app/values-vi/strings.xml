@@ -160,9 +160,9 @@
     <string name="update_channel_nightly">Bản dựng hàng đêm</string>
     <string name="settings_xposed_api_call_protection">Bảo vệ lệnh gọi API Xposed</string>
     <string name="settings_xposed_api_call_protection_summary">Chặn mã mô-đun được tải động để sử dụng Xposed API, điều này có thể làm hỏng một số mô-đun nhưng mang lại lợi ích về bảo mật.</string>
-    <string name="settings_invalidate_inline_hooks">Vô hiệu hóa các hook nội tuyến</string>
-    <string name="settings_invalidate_inline_hooks_summary">Dọn dẹp libart.so cho các ứng dụng được liệt kê. Thao tác này sẽ gây ra trục trặc và lỗi ngẫu nhiên. Chỉ sử dụng khi không thể mở các ứng dụng cụ thể.</string>
-    <string name="failed_to_save_invalidate_inline_hooks_list">Thất bại khi lưu danh sách vô hiệu hóa các hook nội tuyến.</string>
+    <string name="settings_disable_inline_hooks">Tắt các hook nội tuyến</string>
+    <string name="settings_disable_inline_hooks_summary">Tắt các hook nội tuyến cho các ứng dụng được liệt kê. Thao tác này sẽ gây ra trục trặc và lỗi ngẫu nhiên. Chỉ sử dụng khi không thể mở các ứng dụng cụ thể.</string>
+    <string name="failed_to_save_disable_inline_hooks_list">Không thể lưu danh sách ứng dụng đã tắt hook nội tuyến</string>
     <string name="settings_enable_predictive_back">Cử chỉ quay lại dự đoán</string>
     <string name="settings_enable_predictive_back_summary">Bật hỗ trợ cho cử chỉ quay lại dự đoán.</string>
     <string name="settings_enable_swipe_dismiss">Cử chỉ vuốt để quay lại</string>

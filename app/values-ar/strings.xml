@@ -238,9 +238,9 @@
     <string name="logs_prepare_failed">فشل في التحضير:\n%s</string>
     <string name="module_scope_list_static_scope">الإضافة أعلنت مجالًا ثابتًا</string>
     
-    <string name="settings_invalidate_inline_hooks">إبطال الـ hooks المدمجة</string>
-    <string name="settings_invalidate_inline_hooks_summary">تنظيف ملف libart.so للتطبيقات المحددة. هذا قد يسبب أعطالًا عشوائية وانهيارات. استخدم فقط عند عدم القدرة على فتح تطبيقات معينة.</string>
-    <string name="failed_to_save_invalidate_inline_hooks_list">فشل في حفظ قائمة إبطال الـ hooks المدمجة</string>
+    <string name="settings_disable_inline_hooks">تعطيل الخطافات المضمنة</string>
+    <string name="settings_disable_inline_hooks_summary">تعطيل الخطافات المضمنة للتطبيقات المدرجة. هذا قد يسبب أعطالًا عشوائية وانهيارات. استخدم فقط عند عدم القدرة على فتح تطبيقات معينة.</string>
+    <string name="failed_to_save_disable_inline_hooks_list">فشل حفظ قائمة تعطيل الخطافات المضمنة</string>
 
     <string name="settings_enable_predictive_back">إيماءة الرجوع التنبؤية</string>
     <string name="settings_enable_predictive_back_summary">تفعيل دعم إيماءات الرجوع التنبؤية.</string>

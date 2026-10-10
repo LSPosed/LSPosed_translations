@@ -155,9 +155,9 @@
     <string name="settings_xposed_api_call_protection">הגנה מפני קריאות Xposed API</string>
     <string name="settings_xposed_api_call_protection_summary">חסום קוד מודול שנטען באופן דינמי לשימוש ב-Xposed API, זה עשוי לשבור מודולים מסוימים אך להועיל לאבטחה</string>
     <!-- Module Repo -->
-    <string name="settings_invalidate_inline_hooks">בטל תוקף של hooks מוטמעים</string>
-    <string name="settings_invalidate_inline_hooks_summary">נקה את libart.so עבור האפליקציות ברשימה. הדבר יגרום לתקלות ולקריסות אקראיות. השתמש בכך רק כאשר לא ניתן לפתוח אפליקציות מסוימות.</string>
-    <string name="failed_to_save_invalidate_inline_hooks_list">שמירת רשימת ביטול התוקף של hooks מוטמעים נכשלה</string>
+    <string name="settings_disable_inline_hooks">השבתת hooks מוטמעים</string>
+    <string name="settings_disable_inline_hooks_summary">משבית hooks מוטמעים עבור האפליקציות ברשימה. הדבר יגרום לתקלות ולקריסות אקראיות. השתמש בכך רק כאשר לא ניתן לפתוח אפליקציות מסוימות.</string>
+    <string name="failed_to_save_disable_inline_hooks_list">שמירת רשימת האפליקציות עם hooks מוטמעים מושבתים נכשלה</string>
     <string name="settings_enable_predictive_back">מחוות חזרה חזויה</string>
     <string name="settings_enable_predictive_back_summary">הפעל תמיכה במחוות חזרה חזויה</string>
     <string name="settings_enable_swipe_dismiss">מחוות חזרה בהחלקה</string>

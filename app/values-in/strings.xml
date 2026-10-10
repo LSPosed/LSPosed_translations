@@ -160,9 +160,9 @@
     <string name="update_channel_nightly">Rilis harian</string>
     <string name="settings_xposed_api_call_protection">Proteksi panggilan API Xposed</string>
     <string name="settings_xposed_api_call_protection_summary">Memblokir kode modul yang dimuat secara dinamis untuk menggunakan API Xposed, ini mungkin mengganggu beberapa modul namun lebih aman</string>
-    <string name="settings_invalidate_inline_hooks">Invalidasi inline hook</string>
-    <string name="settings_invalidate_inline_hooks_summary">Melakukan pembersihan libart.so untuk aplikasi yang terdaftar. Ini berisiko menyebabkan malfungsi atau rusak acak. Gunakan hanya jika aplikasi tertentu tidak dapat dibuka</string>
-    <string name="failed_to_save_invalidate_inline_hooks_list">Gagal menyimpan daftar invalidasi inline hook</string>
+    <string name="settings_disable_inline_hooks">Nonaktifkan inline hook</string>
+    <string name="settings_disable_inline_hooks_summary">Menonaktifkan inline hook untuk aplikasi yang terdaftar. Ini berisiko menyebabkan malfungsi atau rusak acak. Gunakan hanya jika aplikasi tertentu tidak dapat dibuka</string>
+    <string name="failed_to_save_disable_inline_hooks_list">Gagal menyimpan daftar aplikasi dengan inline hook yang dinonaktifkan</string>
     <string name="settings_enable_predictive_back">Gestur kembali prediktif</string>
     <string name="settings_enable_predictive_back_summary">Aktifkan dukungan untuk gestur kembali prediktif</string>
     <string name="settings_enable_swipe_dismiss">Gestur geser kembali</string>

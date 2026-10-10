@@ -155,9 +155,9 @@
     <string name="settings_xposed_api_call_protection">Xposed API কল সুরক্ষা</string>
     <string name="settings_xposed_api_call_protection_summary">গতিশীলভাবে লোড করা মডিউল কোডকে Xposed API ব্যবহার করা থেকে ব্লক করুন; এটি কিছু মডিউল নষ্ট করতে পারে তবে নিরাপত্তা বাড়ায়</string>
     <!-- Module Repo -->
-    <string name="settings_invalidate_inline_hooks">ইনলাইন হুক পুনরুদ্ধার করুন</string>
-    <string name="settings_invalidate_inline_hooks_summary">তালিকাভুক্ত অ্যাপগুলির জন্য libart.so পরিষ্কার করে। এটি এলোমেলো ত্রুটি ও ক্র্যাশ ঘটাবে। কেবল নির্দিষ্ট অ্যাপ খুলতে না পারলে ব্যবহার করুন।</string>
-    <string name="failed_to_save_invalidate_inline_hooks_list">ইনলাইন হুক পুনরুদ্ধারের তালিকা সংরক্ষণ করা যায়নি</string>
+    <string name="settings_disable_inline_hooks">ইনলাইন হুক নিষ্ক্রিয় করুন</string>
+    <string name="settings_disable_inline_hooks_summary">তালিকাভুক্ত অ্যাপগুলির জন্য ইনলাইন হুক নিষ্ক্রিয় করে। এটি এলোমেলো ত্রুটি ও ক্র্যাশ ঘটাবে। কেবল নির্দিষ্ট অ্যাপ খুলতে না পারলে ব্যবহার করুন।</string>
+    <string name="failed_to_save_disable_inline_hooks_list">ইনলাইন হুক নিষ্ক্রিয় করার তালিকা সংরক্ষণ করা যায়নি</string>
     <string name="settings_enable_predictive_back">প্রেডিক্টিভ ব্যাক জেসচার</string>
     <string name="settings_enable_predictive_back_summary">প্রেডিক্টিভ ব্যাক জেসচারের জন্য সমর্থন সক্ষম করুন।</string>
     <string name="settings_enable_swipe_dismiss">সোয়াইপ ব্যাক জেসচার</string>

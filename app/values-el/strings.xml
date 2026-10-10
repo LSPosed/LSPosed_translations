@@ -155,9 +155,9 @@
     <string name="settings_xposed_api_call_protection">Προστασία κλήσεων Xposed API</string>
     <string name="settings_xposed_api_call_protection_summary">Αποκλείστε τον δυναμικά φορτωμένο κώδικα των πρόσθετων από τη χρήση του Xposed API· αυτό μπορεί να σπάσει ορισμένα πρόσθετα αλλά βελτιώνει την ασφάλεια</string>
     <!-- Module Repo -->
-    <string name="settings_invalidate_inline_hooks">Ακύρωση ενσωματωμένων hooks</string>
-    <string name="settings_invalidate_inline_hooks_summary">Καθαρισμός του libart.so για τις εφαρμογές της λίστας. Αυτό θα προκαλέσει τυχαίες δυσλειτουργίες και σφάλματα. Χρησιμοποιήστε το μόνο όταν δεν μπορείτε να ανοίξετε συγκεκριμένες εφαρμογές.</string>
-    <string name="failed_to_save_invalidate_inline_hooks_list">Αποτυχία αποθήκευσης της λίστας ακύρωσης των ενσωματωμένων hooks</string>
+    <string name="settings_disable_inline_hooks">Απενεργοποίηση ενσωματωμένων hooks</string>
+    <string name="settings_disable_inline_hooks_summary">Απενεργοποιεί τα ενσωματωμένα hooks για τις εφαρμογές της λίστας. Αυτό θα προκαλέσει τυχαίες δυσλειτουργίες και σφάλματα. Χρησιμοποιήστε το μόνο όταν δεν μπορείτε να ανοίξετε συγκεκριμένες εφαρμογές.</string>
+    <string name="failed_to_save_disable_inline_hooks_list">Αποτυχία αποθήκευσης της λίστας εφαρμογών με απενεργοποιημένα ενσωματωμένα hooks</string>
     <string name="settings_enable_predictive_back">Χειρονομία προβλεπτικής επιστροφής</string>
     <string name="settings_enable_predictive_back_summary">Ενεργοποίηση υποστήριξης για χειρονομίες προβλεπτικής επιστροφής.</string>
     <string name="settings_enable_swipe_dismiss">Χειρονομία επιστροφής με σύρσιμο</string>

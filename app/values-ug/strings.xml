@@ -154,9 +154,9 @@
 <string name="update_channel_nightly">ھەر كېچىلىك قۇرۇلما</string>
 <string name="settings_xposed_api_call_protection">Xposed API چاقىرىش قوغدىشى</string>
 <string name="settings_xposed_api_call_protection_summary">دىنامىك يۈكلەنگەن مودۇل كودىنىڭ Xposed API نى ئىشلىتىشىنى چەكلەش؛ بۇ بەزى مودۇللارنى بۇزۇشى مۇمكىن، ئەمما بىخەتەرلىكنى ئاشۇرىدۇ</string>
-<string name="settings_invalidate_inline_hooks">ئىچكى ئىلمەكلەرنى بىكار قىلىش</string>
-<string name="settings_invalidate_inline_hooks_summary">تىزىملىكتىكى ئەپلەر ئۈچۈن libart.so نى پاكىتلاش. بۇ تاسادىپىي ئىقتىدار بۇزۇلۇشى ۋە يىمىرىلىشلەرنى كەلتۈرۈپ چىقىرىشى مۇمكىن. پەقەت مەلۇم ئەپلەرنى ئاچالمىغان ۋاقىتتا ئىشلىتىڭ.</string>
-<string name="failed_to_save_invalidate_inline_hooks_list">ئىچكى ئىلمەكلەرنى بىكار قىلىش تىزىملىكىنى ساقلاش مەغلۇب بولدى</string>
+<string name="settings_disable_inline_hooks">ئىچكى ئىلمەكلەرنى چەكلەش</string>
+<string name="settings_disable_inline_hooks_summary">تىزىملىكتىكى ئەپلەر ئۈچۈن ئىچكى ئىلمەكلەرنى چەكلەيدۇ. بۇ تاسادىپىي ئىقتىدار بۇزۇلۇشى ۋە يىمىرىلىشلەرنى كەلتۈرۈپ چىقىرىشى مۇمكىن. پەقەت مەلۇم ئەپلەرنى ئاچالمىغان ۋاقىتتا ئىشلىتىڭ.</string>
+<string name="failed_to_save_disable_inline_hooks_list">ئىچكى ئىلمەكلەر چەكلەنگەن ئەپلەر تىزىملىكىنى ساقلاش مەغلۇب بولدى</string>
 <string name="settings_enable_predictive_back">ئالدىن مۆلچەرلىگۈچى قايتىش ئىشارىسى</string>
 <string name="settings_enable_predictive_back_summary">ئالدىن مۆلچەرلىگۈچى قايتىش ئىشارىلىرىنى قوللاشنى ئىشقا سېلىش.</string>
     <string name="settings_enable_swipe_dismiss">سىيرىپ قايتىش ئىشارىسى</string>

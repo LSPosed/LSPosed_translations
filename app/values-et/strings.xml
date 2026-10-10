@@ -155,9 +155,9 @@
     <string name="settings_xposed_api_call_protection">Xposedi API-kutsete kaitse</string>
     <string name="settings_xposed_api_call_protection_summary">Keelake dünaamiliselt laaditud moodulikoodil Xposed API-t kasutada; see võib mõne mooduli rikkuda, kuid suurendab turvalisust.</string>
     <!-- Module Repo -->
-    <string name="settings_invalidate_inline_hooks">Reasiseste hookide kehtetuks tunnistamine</string>
-    <string name="settings_invalidate_inline_hooks_summary">Puhastab loetletud rakenduste faili libart.so. See põhjustab juhuslikke tõrkeid ja kokkujooksmisi. Kasutage ainult siis, kui teatud rakendusi ei õnnestu avada.</string>
-    <string name="failed_to_save_invalidate_inline_hooks_list">Reasiseste hookide kehtetuks tunnistamise loendi salvestamine ebaõnnestus</string>
+    <string name="settings_disable_inline_hooks">Keela reasiseseid hooke</string>
+    <string name="settings_disable_inline_hooks_summary">Keelab loetletud rakendustes reasiseseid hooke. See põhjustab juhuslikke tõrkeid ja kokkujooksmisi. Kasutage ainult siis, kui teatud rakendusi ei õnnestu avada.</string>
+    <string name="failed_to_save_disable_inline_hooks_list">Keelatud reasiseste hookidega rakenduste loendi salvestamine ebaõnnestus</string>
     <string name="settings_enable_predictive_back">Ennustav tagasiminekužest</string>
     <string name="settings_enable_predictive_back_summary">Lubage ennustavate tagasiminekužestide tugi.</string>
     <string name="settings_enable_swipe_dismiss">Libistav tagasiminekužest</string>

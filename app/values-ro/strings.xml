@@ -155,9 +155,9 @@
     <string name="settings_xposed_api_call_protection">Protecția apelurilor API Xposed</string>
     <string name="settings_xposed_api_call_protection_summary">Blocați utilizarea API-ului Xposed de către codul modulelor încărcate dinamic, acest lucru poate defecta unele module, dar îmbunătățește securitatea</string>
     <!-- Module Repo -->
-    <string name="settings_invalidate_inline_hooks">Invalidează hook-urile inline</string>
-    <string name="settings_invalidate_inline_hooks_summary">Curăță libart.so pentru aplicațiile din listă. Acest lucru va cauza defecțiuni și blocări aleatorii. Utilizați-l numai când nu puteți deschide anumite aplicații.</string>
-    <string name="failed_to_save_invalidate_inline_hooks_list">Salvarea listei de invalidare a hook-urilor inline a eșuat</string>
+    <string name="settings_disable_inline_hooks">Dezactivează hook-urile inline</string>
+    <string name="settings_disable_inline_hooks_summary">Dezactivează hook-urile inline pentru aplicațiile din listă. Acest lucru va cauza defecțiuni și blocări aleatorii. Utilizați-l numai când nu puteți deschide anumite aplicații.</string>
+    <string name="failed_to_save_disable_inline_hooks_list">Salvarea listei de aplicații cu hook-uri inline dezactivate a eșuat</string>
     <string name="settings_enable_predictive_back">Gest de întoarcere predictivă</string>
     <string name="settings_enable_predictive_back_summary">Activați suportul pentru gesturile de întoarcere predictivă.</string>
     <string name="settings_enable_swipe_dismiss">Gest de întoarcere prin glisare</string>

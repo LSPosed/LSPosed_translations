@@ -157,9 +157,9 @@
     <string name="update_channel_nightly">Начная зборка</string> 
     <string name="settings_xposed_api_call_protection">Абарона выклікаў Xposed API</string> 
     <string name="settings_xposed_api_call_protection_summary">Забараніце дынамічна загружанаму коду модуля выкарыстоўваць Xposed API, гэта можа прывесці да паломкі некаторых модуляў, але прынясе карысць бяспецы</string> 
-    <string name="settings_invalidate_inline_hooks">Ануляваць убудаваныя перахопнікі</string> 
-    <string name="settings_invalidate_inline_hooks_summary">Ачыстка libart.so для пералічаных праграм. Гэта прывядзе да выпадковых непаладак і збояў. Выкарыстоўвайце толькі тады, калі немагчыма адкрыць пэўныя праграмы.</string> 
-    <string name="failed_to_save_invalidate_inline_hooks_list">Не ўдалося захаваць спіс анулявання ўбудаваных перахопнікаў</string> 
+    <string name="settings_disable_inline_hooks">Адключыць убудаваныя перахопнікі</string>
+    <string name="settings_disable_inline_hooks_summary">Адключае ўбудаваныя перахопнікі для пералічаных праграм. Гэта прывядзе да выпадковых непаладак і збояў. Выкарыстоўвайце толькі тады, калі немагчыма адкрыць пэўныя праграмы.</string>
+    <string name="failed_to_save_disable_inline_hooks_list">Не ўдалося захаваць спіс праграм з адключанымі ўбудаванымі перахопнікамі</string>
     <string name="settings_enable_predictive_back">Прагнастычны жэст вяртання</string> 
     <string name="settings_enable_predictive_back_summary">Уключыць падтрымку прагнастычных жэстаў вяртання.</string> 
     <string name="settings_enable_swipe_dismiss">Жэст вяртання пацягваннем</string>

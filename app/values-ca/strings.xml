@@ -155,9 +155,9 @@
     <string name="settings_xposed_api_call_protection">Protecció de trucades de l\'API Xposed</string>
     <string name="settings_xposed_api_call_protection_summary">Bloqueja l\'ús de l\'API Xposed per part del codi dels mòduls carregats dinàmicament, això pot trencar alguns mòduls però millora la seguretat</string>
     <!-- Module Repo -->
-    <string name="settings_invalidate_inline_hooks">Invalida els hooks en línia</string>
-    <string name="settings_invalidate_inline_hooks_summary">Neteja el libart.so de les aplicacions de la llista. Això provocarà errors i bloquejos aleatoris. Utilitzeu-ho només quan no pugueu obrir aplicacions concretes.</string>
-    <string name="failed_to_save_invalidate_inline_hooks_list">No s\'ha pogut desar la llista d\'invalidació dels hooks en línia</string>
+    <string name="settings_disable_inline_hooks">Desactiva els hooks en línia</string>
+    <string name="settings_disable_inline_hooks_summary">Desactiva els hooks en línia de les aplicacions de la llista. Això provocarà errors i bloquejos aleatoris. Utilitzeu-ho només quan no pugueu obrir aplicacions concretes.</string>
+    <string name="failed_to_save_disable_inline_hooks_list">No s\'ha pogut desar la llista d\'aplicacions amb els hooks en línia desactivats</string>
     <string name="settings_enable_predictive_back">Geste de retrocés predictiu</string>
     <string name="settings_enable_predictive_back_summary">Activa la compatibilitat amb els gestos de retrocés predictiu.</string>
     <string name="settings_enable_swipe_dismiss">Geste de retrocés lliscant</string>

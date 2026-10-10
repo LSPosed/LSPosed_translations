@@ -155,9 +155,9 @@
     <string name="settings_xposed_api_call_protection">Защита на повикванията на Xposed API</string>
     <string name="settings_xposed_api_call_protection_summary">Блокира динамично заредения код на модулите да използва Xposed API; това може да наруши работата на някои модули, но подобрява сигурността</string>
     <!-- Module Repo -->
-    <string name="settings_invalidate_inline_hooks">Възстановяване на вградени hook-ове</string>
-    <string name="settings_invalidate_inline_hooks_summary">Изчиства libart.so за приложенията от списъка. Това ще причини случайни неизправности и сривове. Използвайте само когато не можете да отворите определени приложения.</string>
-    <string name="failed_to_save_invalidate_inline_hooks_list">Неуспешно запазване на списъка за възстановяване на вградени hook-ове</string>
+    <string name="settings_disable_inline_hooks">Деактивиране на вградени hook-ове</string>
+    <string name="settings_disable_inline_hooks_summary">Деактивира вградените hook-ове за приложенията от списъка. Това ще причини случайни неизправности и сривове. Използвайте само когато не можете да отворите определени приложения.</string>
+    <string name="failed_to_save_disable_inline_hooks_list">Неуспешно запазване на списъка с деактивирани вградени hook-ове</string>
     <string name="settings_enable_predictive_back">Жест за предвидимо връщане назад</string>
     <string name="settings_enable_predictive_back_summary">Разрешаване на поддръжката на жестове за предвидимо връщане назад</string>
     <string name="settings_enable_swipe_dismiss">Жест за връщане с плъзгане</string>

@@ -155,9 +155,9 @@
     <string name="settings_xposed_api_call_protection">Xposed API کال تحفظ</string>
     <string name="settings_xposed_api_call_protection_summary">متحرک طور پر لوڈ کیے گئے ماڈیول کوڈ کو Xposed API استعمال کرنے سے بلاک کریں، یہ کچھ ماڈیولز کو توڑ سکتا ہے لیکن سیکیورٹی کے لیے مفید ہے</string>
     <!-- Module Repo -->
-    <string name="settings_invalidate_inline_hooks">ان لائن ہکس باطل کریں</string>
-    <string name="settings_invalidate_inline_hooks_summary">فہرست میں شامل ایپس کے لیے libart.so صاف کریں۔ اس سے بے ترتیب خرابیاں اور کریش ہو سکتے ہیں۔ صرف اس صورت میں استعمال کریں جب مخصوص ایپس نہ کھل سکیں۔</string>
-    <string name="failed_to_save_invalidate_inline_hooks_list">ان لائن ہکس باطل کرنے کی فہرست محفوظ نہیں ہو سکی</string>
+    <string name="settings_disable_inline_hooks">ان لائن ہکس غیر فعال کریں</string>
+    <string name="settings_disable_inline_hooks_summary">فہرست میں شامل ایپس کے لیے ان لائن ہکس غیر فعال کرتا ہے۔ اس سے بے ترتیب خرابیاں اور کریش ہو سکتے ہیں۔ صرف اس صورت میں استعمال کریں جب مخصوص ایپس نہ کھل سکیں۔</string>
+    <string name="failed_to_save_disable_inline_hooks_list">ان لائن ہکس غیر فعال کرنے والی ایپس کی فہرست محفوظ نہیں ہو سکی</string>
     <string name="settings_enable_predictive_back">پیش گوئی والا واپسی اشارہ</string>
     <string name="settings_enable_predictive_back_summary">پیش گوئی والے واپسی اشاروں کی معاونت فعال کریں۔</string>
     <string name="settings_enable_swipe_dismiss">سوائپ واپسی اشارہ</string>

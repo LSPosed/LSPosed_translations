@@ -155,9 +155,9 @@
     <string name="update_channel_nightly">每夜版</string>
     <string name="settings_xposed_api_call_protection">Xposed API 呼叫保護</string>
     <string name="settings_xposed_api_call_protection_summary">封鎖模組動態載入的程式碼使用 Xposed API，這可能導致部分模組失效，但有助於提升安全性</string>
-    <string name="settings_invalidate_inline_hooks">還原內聯 Hook</string>
-    <string name="settings_invalidate_inline_hooks_summary">對清單中的應用程式清理 libart.so。此操作可能導致隨機故障及閃退，僅建議在無法開啟特定應用程式時使用。</string>
-    <string name="failed_to_save_invalidate_inline_hooks_list">無法儲存還原內聯 Hook 清單</string>
+    <string name="settings_disable_inline_hooks">停用內聯 Hook</string>
+    <string name="settings_disable_inline_hooks_summary">停用清單中應用程式的內聯 Hook。此操作可能導致隨機故障及閃退，僅建議在無法開啟特定應用程式時使用</string>
+    <string name="failed_to_save_disable_inline_hooks_list">無法儲存停用內聯 Hook 的應用程式清單</string>
     <string name="settings_enable_predictive_back">預測性返回手勢</string>
     <string name="settings_enable_predictive_back_summary">啟用對預測性返回手勢的支援</string>
     <string name="settings_enable_swipe_dismiss">橫移返回手勢</string>
@@ -221,7 +221,7 @@
     <string name="dump_hook_success">已轉儲至 %s</string>
     <string name="dump_hook_failed">轉儲失敗</string>
     <string name="log_to_daemon_title">輸出日誌到守護程序</string>
-    <string name="log_to_daemon_summary">這樣可以避免模組日誌被應用程式讀取，但可能影響效能。</string>
+    <string name="log_to_daemon_summary">這樣可以避免模組日誌被應用程式讀取，但可能影響效能</string>
     <plurals name="disable_success_message">
         <item quantity="other">已停用 %d 個模組</item>
     </plurals>

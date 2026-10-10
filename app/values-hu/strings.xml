@@ -155,9 +155,9 @@
     <string name="settings_xposed_api_call_protection">Xposed API-hívásvédelem</string>
     <string name="settings_xposed_api_call_protection_summary">Megakadályozza, hogy a dinamikusan betöltött modulkód az Xposed API-t használja; ez néhány modult tönkretehet, de a biztonság javára válik</string>
     <!-- Module Repo -->
-    <string name="settings_invalidate_inline_hooks">Beágyazott hookok érvénytelenítése</string>
-    <string name="settings_invalidate_inline_hooks_summary">A felsorolt alkalmazások libart.so fájljának megtisztítása. Ez véletlenszerű hibás működést és összeomlásokat okoz. Csak akkor használja, ha bizonyos alkalmazásokat nem tud megnyitni.</string>
-    <string name="failed_to_save_invalidate_inline_hooks_list">A beágyazott hookok érvénytelenítési listájának mentése sikertelen</string>
+    <string name="settings_disable_inline_hooks">Beágyazott hookok letiltása</string>
+    <string name="settings_disable_inline_hooks_summary">Letiltja a beágyazott hookokat a felsorolt alkalmazásoknál. Ez véletlenszerű hibás működést és összeomlásokat okoz. Csak akkor használja, ha bizonyos alkalmazásokat nem tud megnyitni.</string>
+    <string name="failed_to_save_disable_inline_hooks_list">A letiltott beágyazott hookokkal rendelkező alkalmazások listájának mentése sikertelen</string>
     <string name="settings_enable_predictive_back">Prediktív vissza-kézmozdulat</string>
     <string name="settings_enable_predictive_back_summary">A prediktív vissza-kézmozdulatok támogatásának engedélyezése.</string>
     <string name="settings_enable_swipe_dismiss">Vissza-kézmozdulat</string>

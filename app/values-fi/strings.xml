@@ -155,9 +155,9 @@
     <string name="settings_xposed_api_call_protection">Xposedin API-kutsujen suojaus</string>
     <string name="settings_xposed_api_call_protection_summary">Estä dynaamisesti ladattua moduulikoodia käyttämästä Xposed API:a; tämä saattaa rikkoa joitakin moduuleja, mutta parantaa turvallisuutta.</string>
     <!-- Module Repo -->
-    <string name="settings_invalidate_inline_hooks">Mitätöi inline-hookit</string>
-    <string name="settings_invalidate_inline_hooks_summary">Puhdista libart.so luettelossa olevista sovelluksista. Tämä aiheuttaa satunnaisia toimintahäiriöitä ja kaatumisia. Käytä vain, jos tietyt sovellukset eivät avaudu.</string>
-    <string name="failed_to_save_invalidate_inline_hooks_list">Inline-hookien mitätöintiluettelon tallentaminen epäonnistui</string>
+    <string name="settings_disable_inline_hooks">Poista inline-hookit käytöstä</string>
+    <string name="settings_disable_inline_hooks_summary">Poistaa inline-hookit käytöstä luettelossa olevilta sovelluksilta. Tämä aiheuttaa satunnaisia toimintahäiriöitä ja kaatumisia. Käytä vain, jos tietyt sovellukset eivät avaudu.</string>
+    <string name="failed_to_save_disable_inline_hooks_list">Inline-hookit käytöstä poistavien sovellusten luettelon tallentaminen epäonnistui</string>
     <string name="settings_enable_predictive_back">Ennakoiva paluuele</string>
     <string name="settings_enable_predictive_back_summary">Ota ennakoivien paluueleiden tuki käyttöön.</string>
     <string name="settings_enable_swipe_dismiss">Pyyhkäisypaluuele</string>

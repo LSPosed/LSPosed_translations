@@ -161,9 +161,9 @@
     <string name="update_channel_nightly">Ночные сборки</string>
     <string name="settings_xposed_api_call_protection">Защита вызовов Xposed API</string>
     <string name="settings_xposed_api_call_protection_summary">Запретить динамически загружаемому коду модулей использовать Xposed API; это может нарушить работу некоторых модулей, но повысит безопасность.</string>
-    <string name="settings_invalidate_inline_hooks">Аннулировать инлайн-хуки</string>
-    <string name="settings_invalidate_inline_hooks_summary">Очистите libart.so для перечисленных приложений. Это приведёт к случайным неполадкам и сбоям. Используйте эту функцию, только если не удаётся открыть определённые приложения.</string>
-    <string name="failed_to_save_invalidate_inline_hooks_list">Не удалось сохранить список инлайн-хуков</string>
+    <string name="settings_disable_inline_hooks">Отключить инлайн-хуки</string>
+    <string name="settings_disable_inline_hooks_summary">Отключает инлайн-хуки для перечисленных приложений. Это приведёт к случайным неполадкам и сбоям. Используйте эту функцию, только если не удаётся открыть определённые приложения.</string>
+    <string name="failed_to_save_disable_inline_hooks_list">Не удалось сохранить список приложений с отключёнными инлайн-хуками</string>
     <string name="settings_enable_predictive_back">Предсказательный жест назад</string>
     <string name="settings_enable_predictive_back_summary">Включить поддержку предсказательного жеста назад</string>
     <string name="settings_enable_swipe_dismiss">Жест возврата смахиванием</string>

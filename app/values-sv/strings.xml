@@ -155,9 +155,9 @@
     <string name="settings_xposed_api_call_protection">Skydd av Xposed API-anrop</string>
     <string name="settings_xposed_api_call_protection_summary">Blockera dynamiskt laddad modulkod från att använda Xposed API, vilket kan förstöra vissa moduler men gynnar säkerheten.</string>
     <!-- Module Repo -->
-    <string name="settings_invalidate_inline_hooks">Gör inline-hooks ogiltiga</string>
-    <string name="settings_invalidate_inline_hooks_summary">Rensa libart.so för apparna i listan. Detta orsakar slumpmässiga fel och krascher. Använd endast när vissa appar inte kan öppnas.</string>
-    <string name="failed_to_save_invalidate_inline_hooks_list">Det gick inte att spara listan över inline-hooks som ska göras ogiltiga</string>
+    <string name="settings_disable_inline_hooks">Inaktivera inline-hooks</string>
+    <string name="settings_disable_inline_hooks_summary">Inaktiverar inline-hooks för apparna i listan. Detta orsakar slumpmässiga fel och krascher. Använd endast när vissa appar inte kan öppnas.</string>
+    <string name="failed_to_save_disable_inline_hooks_list">Det gick inte att spara listan över appar med inaktiverade inline-hooks</string>
     <string name="settings_enable_predictive_back">Förutsägande bakåtrörelse</string>
     <string name="settings_enable_predictive_back_summary">Aktivera stöd för förutsägande bakåtrörelser</string>
     <string name="settings_enable_swipe_dismiss">Bakåtsvepande rörelse</string>

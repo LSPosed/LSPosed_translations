@@ -155,9 +155,9 @@
     <string name="settings_xposed_api_call_protection">Xposed API-anropsbeskyttelse</string>
     <string name="settings_xposed_api_call_protection_summary">Blokker dynamisk lastet modulkode fra å bruke Xposed API. Dette kan ødelegge enkelte moduler, men er bra for sikkerheten.</string>
     <!-- Module Repo -->
-    <string name="settings_invalidate_inline_hooks">Ugyldiggjør inline-hooks</string>
-    <string name="settings_invalidate_inline_hooks_summary">Rydder opp i libart.so for appene i listen. Dette vil føre til tilfeldige feil og krasj. Bruk det bare når du ikke kan åpne bestemte apper.</string>
-    <string name="failed_to_save_invalidate_inline_hooks_list">Kunne ikke lagre listen over ugyldiggjorte inline-hooks</string>
+    <string name="settings_disable_inline_hooks">Deaktiver inline-hooks</string>
+    <string name="settings_disable_inline_hooks_summary">Deaktiverer inline-hooks for appene i listen. Dette vil føre til tilfeldige feil og krasj. Bruk det bare når du ikke kan åpne bestemte apper.</string>
+    <string name="failed_to_save_disable_inline_hooks_list">Kunne ikke lagre listen over apper med deaktiverte inline-hooks</string>
     <string name="settings_enable_predictive_back">Forutsigende tilbakebevegelse</string>
     <string name="settings_enable_predictive_back_summary">Aktiver støtte for forutsigende tilbakebevegelser</string>
     <string name="settings_enable_swipe_dismiss">Tilbakebevegelse ved sveip</string>

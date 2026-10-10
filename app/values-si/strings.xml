@@ -155,9 +155,9 @@
     <string name="settings_xposed_api_call_protection">Xposed API ඇමතුම් ආරක්ෂාව</string>
     <string name="settings_xposed_api_call_protection_summary">Xposed API භාවිතා කිරීමට ගතිකව පටවන ලද මොඩියුල කේතය අවහිර කරන්න, මෙය සමහර මොඩියුල බිඳ දැමිය හැකි නමුත් ආරක්ෂාවට ප්‍රතිලාභ ලබා දෙයි</string>
     <!-- Module Repo -->
-    <string name="settings_invalidate_inline_hooks">ඉන්ලයින් hook අවලංගු කරන්න</string>
-    <string name="settings_invalidate_inline_hooks_summary">ලැයිස්තුගත යෙදුම් සඳහා libart.so පිරිසිදු කරයි. මෙය අහඹු දෝෂ හා කඩාවැටීම් ඇති කරයි. නිශ්චිත යෙදුම් විවෘත කළ නොහැකි විට පමණක් භාවිත කරන්න.</string>
-    <string name="failed_to_save_invalidate_inline_hooks_list">ඉන්ලයින් hook අවලංගු කිරීමේ ලැයිස්තුව සුරැකීමට අසමත් විය</string>
+    <string name="settings_disable_inline_hooks">ඉන්ලයින් hook අක්‍රිය කරන්න</string>
+    <string name="settings_disable_inline_hooks_summary">ලැයිස්තුගත යෙදුම් සඳහා ඉන්ලයින් hook අක්‍රිය කරයි. මෙය අහඹු දෝෂ හා කඩාවැටීම් ඇති කරයි. නිශ්චිත යෙදුම් විවෘත කළ නොහැකි විට පමණක් භාවිත කරන්න.</string>
+    <string name="failed_to_save_disable_inline_hooks_list">ඉන්ලයින් hook අක්‍රිය කළ යෙදුම් ලැයිස්තුව සුරැකීමට අසමත් විය</string>
     <string name="settings_enable_predictive_back">පුරෝකථන ආපසු අභිනය</string>
     <string name="settings_enable_predictive_back_summary">පුරෝකථන ආපසු අභිනය සඳහා සහාය සක්‍රිය කරන්න.</string>
     <string name="settings_enable_swipe_dismiss">අදින ආපසු අභිනය</string>

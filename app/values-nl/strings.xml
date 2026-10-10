@@ -155,9 +155,9 @@
     <string name="settings_xposed_api_call_protection">Xposed API-oproepbeveiliging</string>
     <string name="settings_xposed_api_call_protection_summary">Blokkeer dat dynamisch geladen modulecode de Xposed API gebruikt; dit kan sommige modules breken, maar komt de veiligheid ten goede</string>
     <!-- Module Repo -->
-    <string name="settings_invalidate_inline_hooks">Inline-hooks ongeldig maken</string>
-    <string name="settings_invalidate_inline_hooks_summary">Ruimt libart.so op voor de vermelde apps. Dit veroorzaakt willekeurige storingen en crashes. Gebruik dit alleen als bepaalde apps niet kunnen worden geopend.</string>
-    <string name="failed_to_save_invalidate_inline_hooks_list">De lijst voor het ongeldig maken van inline-hooks kon niet worden opgeslagen</string>
+    <string name="settings_disable_inline_hooks">Inline-hooks uitschakelen</string>
+    <string name="settings_disable_inline_hooks_summary">Schakelt inline-hooks uit voor de vermelde apps. Dit veroorzaakt willekeurige storingen en crashes. Gebruik dit alleen als bepaalde apps niet kunnen worden geopend.</string>
+    <string name="failed_to_save_disable_inline_hooks_list">De lijst met apps waarvoor inline-hooks zijn uitgeschakeld kon niet worden opgeslagen</string>
     <string name="settings_enable_predictive_back">Voorspellend teruggebaar</string>
     <string name="settings_enable_predictive_back_summary">Schakel ondersteuning voor voorspellende teruggebaren in.</string>
     <string name="settings_enable_swipe_dismiss">Veeggebaar om terug te gaan</string>

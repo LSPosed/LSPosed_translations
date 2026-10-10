@@ -155,9 +155,9 @@
     <string name="settings_xposed_api_call_protection">Xposed API zaštita poziva</string>
     <string name="settings_xposed_api_call_protection_summary">Blokirajte dinamički učitani kod modula za korištenje Xposed API-ja, to može pokvariti neke module, ali doprinosi sigurnosti</string>
     <!-- Module Repo -->
-    <string name="settings_invalidate_inline_hooks">Poništi umetnute hookove</string>
-    <string name="settings_invalidate_inline_hooks_summary">Očistite libart.so za navedene aplikacije. To će uzrokovati nasumične kvarove i rušenja. Upotrijebite samo kada ne možete otvoriti određene aplikacije.</string>
-    <string name="failed_to_save_invalidate_inline_hooks_list">Spremanje popisa za poništavanje umetnutih hookova nije uspjelo</string>
+    <string name="settings_disable_inline_hooks">Onemogući umetnute hookove</string>
+    <string name="settings_disable_inline_hooks_summary">Onemogućuje umetnute hookove za navedene aplikacije. To će uzrokovati nasumične kvarove i rušenja. Upotrijebite samo kada ne možete otvoriti određene aplikacije.</string>
+    <string name="failed_to_save_disable_inline_hooks_list">Spremanje popisa aplikacija s onemogućenim umetnutim hookovima nije uspjelo</string>
     <string name="settings_enable_predictive_back">Gesta predviđenog povratka</string>
     <string name="settings_enable_predictive_back_summary">Omogućite podršku za geste predviđenog povratka.</string>
     <string name="settings_enable_swipe_dismiss">Gesta povratka povlačenjem</string>

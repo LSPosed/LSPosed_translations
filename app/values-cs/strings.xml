@@ -155,9 +155,9 @@
     <string name="settings_xposed_api_call_protection">Ochrana volání rozhraní Xposed API</string>
     <string name="settings_xposed_api_call_protection_summary">Zablokovat dynamicky načítanému kódu modulů používání rozhraní Xposed API; může to narušit některé moduly, ale prospěje to bezpečnosti</string>
     <!-- Module Repo -->
-    <string name="settings_invalidate_inline_hooks">Zneplatnit inline hooky</string>
-    <string name="settings_invalidate_inline_hooks_summary">Vyčistí libart.so pro aplikace v seznamu. Způsobí to náhodné poruchy a pády. Použijte jen tehdy, když nelze otevřít konkrétní aplikace.</string>
-    <string name="failed_to_save_invalidate_inline_hooks_list">Seznam zneplatněných inline hooků se nepodařilo uložit</string>
+    <string name="settings_disable_inline_hooks">Zakázat inline hooky</string>
+    <string name="settings_disable_inline_hooks_summary">Zakáže inline hooky pro aplikace v seznamu. Způsobí to náhodné poruchy a pády. Použijte jen tehdy, když nelze otevřít konkrétní aplikace.</string>
+    <string name="failed_to_save_disable_inline_hooks_list">Seznam aplikací se zakázanými inline hooky se nepodařilo uložit</string>
     <string name="settings_enable_predictive_back">Gesto prediktivního návratu</string>
     <string name="settings_enable_predictive_back_summary">Povolit podporu gest prediktivního návratu.</string>
     <string name="settings_enable_swipe_dismiss">Gesto návratu přejetím</string>

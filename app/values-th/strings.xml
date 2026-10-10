@@ -155,9 +155,9 @@
     <string name="settings_xposed_api_call_protection">การป้องกันการเรียกใช้ Xposed API</string>
     <string name="settings_xposed_api_call_protection_summary">บล็อกโค้ดโมดูลที่โหลดแบบไดนามิกเพื่อใช้ Xposed API ซึ่งอาจทำให้บางโมดูลเสียหายแต่ได้ประโยชน์ด้านความปลอดภัย</string>
     <!-- Module Repo -->
-    <string name="settings_invalidate_inline_hooks">ล้าง Hook แบบอินไลน์</string>
-    <string name="settings_invalidate_inline_hooks_summary">ล้าง libart.so สำหรับแอปในรายการ การดำเนินการนี้อาจทำให้เกิดความผิดปกติและแอปหยุดทำงานแบบสุ่ม ใช้เฉพาะเมื่อไม่สามารถเปิดแอปบางตัวได้</string>
-    <string name="failed_to_save_invalidate_inline_hooks_list">ไม่สามารถบันทึกรายการล้าง Hook แบบอินไลน์ ได้</string>
+    <string name="settings_disable_inline_hooks">ปิดใช้งาน Hook แบบอินไลน์</string>
+    <string name="settings_disable_inline_hooks_summary">ปิดใช้งาน Hook แบบอินไลน์สำหรับแอปในรายการ การดำเนินการนี้อาจทำให้เกิดความผิดปกติและแอปหยุดทำงานแบบสุ่ม ใช้เฉพาะเมื่อไม่สามารถเปิดแอปบางตัวได้</string>
+    <string name="failed_to_save_disable_inline_hooks_list">ไม่สามารถบันทึกรายการแอปที่ปิดใช้งาน Hook แบบอินไลน์ได้</string>
     <string name="settings_enable_predictive_back">ท่าทางสัมผัสย้อนกลับแบบคาดการณ์</string>
     <string name="settings_enable_predictive_back_summary">เปิดใช้งานการสนับสนุนท่าทางสัมผัสย้อนกลับแบบคาดการณ์</string>
     <string name="settings_enable_swipe_dismiss">ท่าทางสัมผัสปัดเพื่อย้อนกลับ</string>

@@ -155,9 +155,9 @@
     <string name="settings_xposed_api_call_protection">محافظت از فراخوانی Xposed API</string>
     <string name="settings_xposed_api_call_protection_summary">این گزینه کد ماژول بارگذاری شده پویا را برای استفاده از Xposed API مسدود خواهد کرد این کار ممکن است بعضی از ماژول‌ها را خراب کند اما به امنیت دستگاه کمک خواهد کرد</string>
     <!-- Module Repo -->
-    <string name="settings_invalidate_inline_hooks">بی‌اعتبار کردن هوک‌های درون‌خطی</string>
-    <string name="settings_invalidate_inline_hooks_summary">پاک‌سازی libart.so برای برنامه‌های فهرست‌شده. این کار باعث خرابی‌ها و توقف‌های تصادفی می‌شود؛ تنها زمانی استفاده کنید که برنامه‌های مشخصی باز نمی‌شوند.</string>
-    <string name="failed_to_save_invalidate_inline_hooks_list">ذخیره فهرست بی‌اعتبار کردن هوک‌های درون‌خطی انجام نشد</string>
+    <string name="settings_disable_inline_hooks">غیرفعال کردن هوک‌های درون‌خطی</string>
+    <string name="settings_disable_inline_hooks_summary">هوک‌های درون‌خطی را برای برنامه‌های فهرست‌شده غیرفعال می‌کند. این کار باعث خرابی‌ها و توقف‌های تصادفی می‌شود؛ تنها زمانی استفاده کنید که برنامه‌های مشخصی باز نمی‌شوند.</string>
+    <string name="failed_to_save_disable_inline_hooks_list">ذخیره فهرست برنامه‌های دارای هوک‌های درون‌خطی غیرفعال انجام نشد</string>
     <string name="settings_enable_predictive_back">اشاره بازگشت پیش‌بینانه</string>
     <string name="settings_enable_predictive_back_summary">فعال کردن پشتیبانی از اشاره‌های بازگشت پیش‌بینانه.</string>
     <string name="settings_enable_swipe_dismiss">اشاره بازگشت با کشیدن</string>

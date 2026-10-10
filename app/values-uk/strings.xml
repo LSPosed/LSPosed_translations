@@ -155,9 +155,9 @@
     <string name="settings_xposed_api_call_protection">Захист викликів Xposed API</string>
     <string name="settings_xposed_api_call_protection_summary">Заборонити динамічно завантаженому коду модулів використовувати Xposed API. Це може порушити роботу деяких модулів, але підвищить безпеку.</string>
     <!-- Module Repo -->
-    <string name="settings_invalidate_inline_hooks">Анулювати інлайн-хуки</string>
-    <string name="settings_invalidate_inline_hooks_summary">Очистити libart.so для зазначених додатків. Це призведе до випадкових несправностей і збоїв. Використовуйте, лише якщо не вдається відкрити певні додатки.</string>
-    <string name="failed_to_save_invalidate_inline_hooks_list">Не вдалося зберегти список інлайн-хуків</string>
+    <string name="settings_disable_inline_hooks">Вимкнути інлайн-хуки</string>
+    <string name="settings_disable_inline_hooks_summary">Вимикає інлайн-хуки для зазначених додатків. Це призведе до випадкових несправностей і збоїв. Використовуйте, лише якщо не вдається відкрити певні додатки.</string>
+    <string name="failed_to_save_disable_inline_hooks_list">Не вдалося зберегти список додатків із вимкненими інлайн-хуками</string>
     <string name="settings_enable_predictive_back">Прогнозований жест повернення</string>
     <string name="settings_enable_predictive_back_summary">Увімкнути підтримку прогнозованих жестів повернення</string>
     <string name="settings_enable_swipe_dismiss">Жест повернення проведенням</string>

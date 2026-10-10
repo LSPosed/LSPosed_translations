@@ -155,9 +155,9 @@
     <string name="settings_xposed_api_call_protection">Xposed API-Aufrufschutz</string>
     <string name="settings_xposed_api_call_protection_summary">Dynamisch geladenen Modulcode daran hindern, die Xposed-API zu verwenden. Dies kann einige Module beeinträchtigen, kommt aber der Sicherheit zugute</string>
     <!-- Module Repo -->
-    <string name="settings_invalidate_inline_hooks">Inline-Hooks zurücksetzen</string>
-    <string name="settings_invalidate_inline_hooks_summary">Bereinigt libart.so für die aufgelisteten Apps. Dies führt zu zufälligen Fehlfunktionen und Abstürzen. Nur verwenden, wenn sich bestimmte Apps nicht öffnen lassen.</string>
-    <string name="failed_to_save_invalidate_inline_hooks_list">Liste der Inline-Hooks zum Zurücksetzen konnte nicht gespeichert werden</string>
+    <string name="settings_disable_inline_hooks">Inline-Hooks deaktivieren</string>
+    <string name="settings_disable_inline_hooks_summary">Deaktiviert Inline-Hooks für die aufgelisteten Apps. Dies führt zu zufälligen Fehlfunktionen und Abstürzen. Nur verwenden, wenn sich bestimmte Apps nicht öffnen lassen.</string>
+    <string name="failed_to_save_disable_inline_hooks_list">Liste der Apps mit deaktivierten Inline-Hooks konnte nicht gespeichert werden</string>
     <string name="settings_enable_predictive_back">Vorausschauende Zurück-Geste</string>
     <string name="settings_enable_predictive_back_summary">Unterstützung für vorausschauende Zurück-Gesten aktivieren</string>
     <string name="settings_enable_swipe_dismiss">Wischgeste zum Zurückkehren</string>

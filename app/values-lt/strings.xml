@@ -155,9 +155,9 @@
     <string name="settings_xposed_api_call_protection">Xposed API kvietimų apsauga</string>
     <string name="settings_xposed_api_call_protection_summary">Užblokuoti dinamiškai įkelto modulio kodo naudojimąsi Xposed API, tai gali sugadinti kai kuriuos modulius, bet naudinga saugumui</string>
     <!-- Module Repo -->
-    <string name="settings_invalidate_inline_hooks">Atšaukti įterptinius hokus</string>
-    <string name="settings_invalidate_inline_hooks_summary">Išvalyti išvardytų programų libart.so. Tai sukels atsitiktinių sutrikimų ir strigčių. Naudokite tik tada, kai nepavyksta atidaryti konkrečių programų.</string>
-    <string name="failed_to_save_invalidate_inline_hooks_list">Nepavyko išsaugoti įterptinių hokų atšaukimo sąrašo</string>
+    <string name="settings_disable_inline_hooks">Išjungti įterptinius hokus</string>
+    <string name="settings_disable_inline_hooks_summary">Išjungia įterptinius hokus išvardytose programose. Tai sukels atsitiktinių sutrikimų ir strigčių. Naudokite tik tada, kai nepavyksta atidaryti konkrečių programų.</string>
+    <string name="failed_to_save_disable_inline_hooks_list">Nepavyko išsaugoti programų su išjungtais įterptiniais hokais sąrašo</string>
     <string name="settings_enable_predictive_back">Nuspėjamasis grįžimo gestas</string>
     <string name="settings_enable_predictive_back_summary">Įgalinti nuspėjamojo grįžimo gestų palaikymą.</string>
     <string name="settings_enable_swipe_dismiss">Grįžimo braukimo gestas</string>

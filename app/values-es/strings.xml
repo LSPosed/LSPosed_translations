@@ -154,9 +154,9 @@
     <string name="update_channel_nightly">Compilación nocturna</string>
     <string name="settings_xposed_api_call_protection">Protección de llamadas a la API Xposed</string>
     <string name="settings_xposed_api_call_protection_summary">Bloquear que el código de los módulos cargados dinámicamente use la API de Xposed; esto puede romper algunos módulos, pero mejora la seguridad</string>
-    <string name="settings_invalidate_inline_hooks">Invalidar hooks inline</string>
-    <string name="settings_invalidate_inline_hooks_summary">Limpia libart.so en las aplicaciones de la lista. Esto provocará fallos aleatorios y cierres inesperados. Úsalo solo cuando no puedas abrir ciertas aplicaciones.</string>
-    <string name="failed_to_save_invalidate_inline_hooks_list">Error al guardar la lista de invalidación de hooks inline</string>
+    <string name="settings_disable_inline_hooks">Desactivar hooks inline</string>
+    <string name="settings_disable_inline_hooks_summary">Desactiva los hooks inline en las aplicaciones de la lista. Esto provocará fallos aleatorios y cierres inesperados. Úsalo solo cuando no puedas abrir ciertas aplicaciones.</string>
+    <string name="failed_to_save_disable_inline_hooks_list">Error al guardar la lista de aplicaciones con hooks inline desactivados</string>
     <string name="settings_enable_predictive_back">Gesto de retroceso predictivo</string>
     <string name="settings_enable_predictive_back_summary">Activa la compatibilidad con los gestos de retroceso predictivo.</string>
     <string name="settings_enable_swipe_dismiss">Gesto de retroceso por deslizamiento</string>

@@ -155,9 +155,9 @@
     <string name="settings_xposed_api_call_protection">Ochrona wywołania Xposed API</string>
     <string name="settings_xposed_api_call_protection_summary">Blokuj dynamicznie ładowanemu kodowi modułu używanie API Xposed; może to zepsuć niektóre moduły, ale zwiększy bezpieczeństwo</string>
     <!-- Module Repo -->
-    <string name="settings_invalidate_inline_hooks">Unieważnij hooki inline</string>
-    <string name="settings_invalidate_inline_hooks_summary">Wyczyść libart.so dla aplikacji z listy. Spowoduje to losowe usterki i awarie. Używaj tylko wtedy, gdy nie można otworzyć określonych aplikacji.</string>
-    <string name="failed_to_save_invalidate_inline_hooks_list">Nie udało się zapisać listy unieważniania hooków inline</string>
+    <string name="settings_disable_inline_hooks">Wyłącz hooki inline</string>
+    <string name="settings_disable_inline_hooks_summary">Wyłącza hooki inline dla aplikacji z listy. Spowoduje to losowe usterki i awarie. Używaj tylko wtedy, gdy nie można otworzyć określonych aplikacji.</string>
+    <string name="failed_to_save_disable_inline_hooks_list">Nie udało się zapisać listy aplikacji z wyłączonymi hookami inline</string>
     <string name="settings_enable_predictive_back">Gest predykcyjnego cofania</string>
     <string name="settings_enable_predictive_back_summary">Włącz obsługę gestów predykcyjnego cofania.</string>
     <string name="settings_enable_swipe_dismiss">Gest cofania przez przesunięcie</string>

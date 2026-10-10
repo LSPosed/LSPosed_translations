@@ -155,9 +155,9 @@
     <string name="settings_xposed_api_call_protection">Parastina banga Xposed API</string>
     <string name="settings_xposed_api_call_protection_summary">Koda modulê ya bi dînamîk barkirî asteng bike ku Xposed API bikar bîne, ev dibe ku hin modulan bişkîne lê ji ewlehiyê sûd werdigire</string>
     <!-- Module Repo -->
-    <string name="settings_invalidate_inline_hooks">Hookên inline betal bike</string>
-    <string name="settings_invalidate_inline_hooks_summary">Ji bo sepanên di navnîşê de libart.so paqij bike. Ev dê bibe sedema xeletiyên rasthatî û qezayan. Tenê dema ku sepanên diyarkirî venebin bi kar bîne.</string>
-    <string name="failed_to_save_invalidate_inline_hooks_list">Tomarkirina navnîşa hookên inline bi ser neket</string>
+    <string name="settings_disable_inline_hooks">Hookên inline neçalak bike</string>
+    <string name="settings_disable_inline_hooks_summary">Ji bo sepanên di navnîşê de hookên inline neçalak dike. Ev dê bibe sedema xeletiyên rasthatî û qezayan. Tenê dema ku sepanên diyarkirî venebin bi kar bîne.</string>
+    <string name="failed_to_save_disable_inline_hooks_list">Tomarkirina navnîşa sepanên ku hookên inline lê neçalak in bi ser neket</string>
     <string name="settings_enable_predictive_back">Jestara vegerê ya pêşbînîkirî</string>
     <string name="settings_enable_predictive_back_summary">Piştgirî ji bo jestarên vegerê yên pêşbînîkirî çalak bike.</string>
     <string name="settings_enable_swipe_dismiss">Jestara vegerê ya bi kişandinê</string>

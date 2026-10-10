@@ -160,9 +160,9 @@
     <string name="update_channel_nightly">Nightly build</string>
     <string name="settings_xposed_api_call_protection">Xposed API call protection</string>
     <string name="settings_xposed_api_call_protection_summary">Block dynamically loaded module code from using the Xposed API; this may break some modules but improves security</string>
-    <string name="settings_invalidate_inline_hooks">Invalidate inline hooks</string>
-    <string name="settings_invalidate_inline_hooks_summary">Clean up libart.so for the listed apps. This will cause random malfunctions and crashes. Use only when unable to open specific apps.</string>
-    <string name="failed_to_save_invalidate_inline_hooks_list">Failed to save Invalidate inline hooks list</string>
+    <string name="settings_disable_inline_hooks">Disable inline hooks</string>
+    <string name="settings_disable_inline_hooks_summary">Disable inline hooks for the listed apps. This may cause random malfunctions and crashes. Use only when unable to open specific apps.</string>
+    <string name="failed_to_save_disable_inline_hooks_list">Failed to save list of apps with inline hooks disabled</string>
     <string name="settings_enable_predictive_back">Predictive back gesture</string>
     <string name="settings_enable_predictive_back_summary">Enable support for predictive back gestures.</string>
     <string name="settings_enable_swipe_dismiss">Swipe back gesture</string>

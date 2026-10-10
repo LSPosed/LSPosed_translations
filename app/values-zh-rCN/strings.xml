@@ -155,9 +155,9 @@
     <string name="update_channel_nightly">每夜版</string>
     <string name="settings_xposed_api_call_protection">Xposed API 调用保护</string>
     <string name="settings_xposed_api_call_protection_summary">阻止模块动态加载的代码使用 Xposed API，这可能会使某些模块失效，但有利于安全性</string>
-    <string name="settings_invalidate_inline_hooks">还原内联钩子</string>
-    <string name="settings_invalidate_inline_hooks_summary">对列表中的应用清理 libart.so，这会导致随机故障和崩溃，仅当无法打开特定应用时使用</string>
-    <string name="failed_to_save_invalidate_inline_hooks_list">无法保存还原内联钩子列表</string>
+    <string name="settings_disable_inline_hooks">禁用内联钩子</string>
+    <string name="settings_disable_inline_hooks_summary">为列表中的应用禁用内联钩子。这可能导致随机故障和崩溃，仅在特定应用无法打开时使用</string>
+    <string name="failed_to_save_disable_inline_hooks_list">无法保存禁用内联钩子的应用列表</string>
     <string name="settings_enable_predictive_back">预测性返回手势</string>
     <string name="settings_enable_predictive_back_summary">启用对预测性返回手势的支持</string>
     <string name="settings_enable_swipe_dismiss">横移返回手势</string>

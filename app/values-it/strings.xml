@@ -155,9 +155,9 @@
     <string name="settings_xposed_api_call_protection">Protezione delle chiamate API di Xposed</string>
     <string name="settings_xposed_api_call_protection_summary">Blocca l\'utilizzo dell\'API Xposed da parte del codice dei moduli caricati dinamicamente, ciò può compromettere alcuni moduli ma migliora la sicurezza</string>
     <!-- Module Repo -->
-    <string name="settings_invalidate_inline_hooks">Invalida gli hook inline</string>
-    <string name="settings_invalidate_inline_hooks_summary">Esegui la pulizia di libart.so per le app elencate. Ciò causerà malfunzionamenti casuali e arresti anomali. Usala solo quando non riesci ad aprire determinate app.</string>
-    <string name="failed_to_save_invalidate_inline_hooks_list">Impossibile salvare l\'elenco degli hook inline da invalidare</string>
+    <string name="settings_disable_inline_hooks">Disabilita gli hook inline</string>
+    <string name="settings_disable_inline_hooks_summary">Disabilita gli hook inline per le app elencate. Ciò causerà malfunzionamenti casuali e arresti anomali. Usala solo quando non riesci ad aprire determinate app.</string>
+    <string name="failed_to_save_disable_inline_hooks_list">Impossibile salvare l\'elenco delle app con gli hook inline disabilitati</string>
     <string name="settings_enable_predictive_back">Gesto indietro predittivo</string>
     <string name="settings_enable_predictive_back_summary">Attiva il supporto per i gesti indietro predittivi</string>
     <string name="settings_enable_swipe_dismiss">Gesto di scorrimento indietro</string>
