@@ -114,7 +114,7 @@
     <string name="requested_by_module">Modül önerisi</string>
     <string name="update_available">Güncelleme mevcut: %1$s</string>
     <string name="android_framework">Sistem Çerçevesi</string>
-    <string name="menu_backup">Yedek</string>
+    <string name="menu_backup">Yedekle</string>
     <string name="menu_restore">Geri yükle</string>
     <string name="force_stop">Zorla durdur</string>
     <string name="force_stop_dlg_title">Zorla durdurulsun mu?</string>
