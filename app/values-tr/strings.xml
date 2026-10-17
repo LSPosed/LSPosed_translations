@@ -12,7 +12,7 @@
     <string name="bug_report_exporting_logs">Günlükler dışa aktarılıyor…</string>
     <string name="about_join_telegram">Telegram kanalına katıl</string>
     <string name="email_address_copied">E-posta adresi kopyalandı</string>
-    <string name="translators" comment="Dear translators, please add your home page here following the format. There can be more than one translator. So feel free to append yourself.">null</string>
+    <string name="translators" comment="Dear translators, please add your home page here following the format. There can be more than one translator. So feel free to append yourself.">Burak DEMİR, Bedircan AYAYDIN, Furkan KARCIOĞLU, Ahmet AÇIKGÖZ, Sir-C</string>
     
     <string name="not_installed">Yüklü değil</string>
     <string name="not_install_summary">LSPosed yüklü değil</string>
