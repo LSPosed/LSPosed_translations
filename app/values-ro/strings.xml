@@ -100,6 +100,12 @@
     <string name="menu_show_modules">Module</string>
     <string name="module_scope_list_static_scope">Modulul a declarat un domeniu de aplicare static</string>
     <string name="failed_to_save_scope_list">Nu s-a putut salva lista domeniilor de aplicare</string>
+    <string name="scope_request_title">Cerere de domeniu de aplicare</string>
+    <string name="scope_request_message">%1$s la utilizatorul %2$s solicită adăugarea următoarelor aplicații în domeniul său de aplicare.</string>
+    <string name="scope_approve">Aprobă</string>
+    <string name="scope_deny">Refuză</string>
+    <string name="never_ask_again">Nu mai întreba</string>
+    <string name="scope_request_no_apps">Nicio aplicație instalată în această cerere</string>
     <string name="app_scopes">Domenii de aplicare ale aplicațiilor</string>
     <string name="no_app_scoped">Nicio aplicație nu se află în domeniul de aplicare al vreunui modul</string>
     <string name="view_module_scopes">Vezi domeniile de aplicare ale modulelor</string>

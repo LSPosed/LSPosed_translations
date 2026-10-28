@@ -105,6 +105,12 @@
     <string name="menu_show_modules">Modüller</string>
     <string name="module_scope_list_static_scope">Modül statik kapsam bildirdi</string>
     <string name="failed_to_save_scope_list">Kapsam listesi kaydedilemedi</string>
+    <string name="scope_request_title">Kapsam İsteği</string>
+    <string name="scope_request_message">%1$s, %2$s kullanıcısında şu uygulamaları kapsamına eklemek istiyor.</string>
+    <string name="scope_approve">Onayla</string>
+    <string name="scope_deny">Reddet</string>
+    <string name="never_ask_again">Bir daha sorma</string>
+    <string name="scope_request_no_apps">Bu istekte yüklü uygulama yok</string>
     <string name="app_scopes">Uygulama kapsamları</string>
     <string name="no_app_scoped">Hiçbir uygulama herhangi bir modülün kapsamında değil</string>
     <string name="view_module_scopes">Modül kapsamlarını görüntüle</string>

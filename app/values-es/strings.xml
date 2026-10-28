@@ -100,6 +100,12 @@
     <string name="menu_show_modules">Módulos</string>
     <string name="module_scope_list_static_scope">El módulo declaró un ámbito estático</string>
     <string name="failed_to_save_scope_list">Fallo al guardar la lista de ámbitos</string>
+    <string name="scope_request_title">Solicitud de ámbito</string>
+    <string name="scope_request_message">%1$s en el usuario %2$s solicita añadir las siguientes aplicaciones a su ámbito.</string>
+    <string name="scope_approve">Aprobar</string>
+    <string name="scope_deny">Denegar</string>
+    <string name="never_ask_again">No preguntar de nuevo</string>
+    <string name="scope_request_no_apps">No hay aplicaciones instaladas en esta solicitud</string>
     <string name="app_scopes">Ámbitos de aplicaciones</string>
     <string name="no_app_scoped">Ninguna aplicación está en el ámbito de ningún módulo</string>
     <string name="view_module_scopes">Ver ámbitos de módulos</string>

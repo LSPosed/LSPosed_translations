@@ -100,6 +100,12 @@
     <string name="menu_show_games">الالعاب</string>
     <string name="menu_show_modules">الإضافات</string>
     <string name="failed_to_save_scope_list">فشل في حفظ إعداد المجال</string>
+    <string name="scope_request_title">طلب المجال</string>
+    <string name="scope_request_message">%1$s على المستخدم %2$s يطلب إضافة التطبيقات التالية إلى مجاله.</string>
+    <string name="scope_approve">موافقة</string>
+    <string name="scope_deny">رفض</string>
+    <string name="never_ask_again">لا تسأل مرة أخرى</string>
+    <string name="scope_request_no_apps">لا توجد تطبيقات مثبتة في هذا الطلب</string>
     <string name="app_scopes">مجالات التطبيقات</string>
     <string name="no_app_scoped">لا يوجد تطبيق مُدرج في مجال أي إضافة</string>
     <string name="view_module_scopes">عرض مجالات الإضافات</string>

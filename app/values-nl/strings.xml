@@ -100,6 +100,12 @@
     <string name="menu_show_modules">Modules</string>
     <string name="module_scope_list_static_scope">De module heeft een statische scope opgegeven</string>
     <string name="failed_to_save_scope_list">Scopelijst opslaan is mislukt</string>
+    <string name="scope_request_title">Scopeverzoek</string>
+    <string name="scope_request_message">%1$s op gebruiker %2$s vraagt de volgende apps aan de scope toe te voegen.</string>
+    <string name="scope_approve">Goedkeuren</string>
+    <string name="scope_deny">Weigeren</string>
+    <string name="never_ask_again">Nooit meer vragen</string>
+    <string name="scope_request_no_apps">Geen geïnstalleerde apps in dit verzoek</string>
     <string name="app_scopes">App-scopes</string>
     <string name="no_app_scoped">Geen enkele app valt binnen de scope van een module</string>
     <string name="view_module_scopes">Modulescopes bekijken</string>

@@ -100,6 +100,12 @@
     <string name="menu_show_modules">Moduliai</string>
     <string name="module_scope_list_static_scope">Modulis deklaravo statinę taikymo sritį</string>
     <string name="failed_to_save_scope_list">Nepavyko išsaugoti taikymo sričių sąrašo</string>
+    <string name="scope_request_title">Taikymo srities prašymas</string>
+    <string name="scope_request_message">%1$s naudotojo %2$s prašo pridėti šias programas į savo taikymo sritį.</string>
+    <string name="scope_approve">Patvirtinti</string>
+    <string name="scope_deny">Atmesti</string>
+    <string name="never_ask_again">Daugiau neklausti</string>
+    <string name="scope_request_no_apps">Šiame prašyme nėra įdiegtų programų</string>
     <string name="app_scopes">Programų taikymo sritys</string>
     <string name="no_app_scoped">Nė viena programa nepatenka į jokio modulio taikymo sritį</string>
     <string name="view_module_scopes">Rodyti modulių taikymo sritis</string>

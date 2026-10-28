@@ -104,6 +104,12 @@
     <string name="menu_show_modules">モジュール</string>
     <string name="module_scope_list_static_scope">モジュールは静的スコープを宣言しています</string>
     <string name="failed_to_save_scope_list">スコープリストの保存に失敗しました</string>
+    <string name="scope_request_title">スコープ要求</string>
+    <string name="scope_request_message">%1$s（ユーザー %2$s）が以下のアプリをスコープに追加するよう要求しています。</string>
+    <string name="scope_approve">承認</string>
+    <string name="scope_deny">拒否</string>
+    <string name="never_ask_again">今後確認しない</string>
+    <string name="scope_request_no_apps">この要求にインストール済みのアプリはありません</string>
     <string name="app_scopes">アプリのスコープ</string>
     <string name="no_app_scoped">どのモジュールのスコープにもアプリが含まれていません</string>
     <string name="view_module_scopes">モジュールのスコープを表示</string>

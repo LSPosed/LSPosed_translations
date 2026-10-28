@@ -100,6 +100,12 @@
     <string name="menu_show_modules">मॉड्यूल</string>
     <string name="module_scope_list_static_scope">मॉड्यूल ने स्थिर दायरा घोषित किया है</string>
     <string name="failed_to_save_scope_list">दायरे की सूची सहेजने में विफल</string>
+    <string name="scope_request_title">दायरा अनुरोध</string>
+    <string name="scope_request_message">%1$s, उपयोगकर्ता %2$s पर, अपने दायरे में निम्नलिखित अनुप्रयोगों को जोड़ने का अनुरोध करता है।</string>
+    <string name="scope_approve">स्वीकार करें</string>
+    <string name="scope_deny">अस्वीकार करें</string>
+    <string name="never_ask_again">फिर कभी न पूछें</string>
+    <string name="scope_request_no_apps">इस अनुरोध में कोई इंस्टॉल किया गया अनुप्रयोग नहीं है</string>
     <string name="app_scopes">अनुप्रयोगों के दायरे</string>
     <string name="no_app_scoped">कोई अनुप्रयोग किसी मॉड्यूल के दायरे में नहीं है</string>
     <string name="view_module_scopes">मॉड्यूल के दायरे देखें</string>

@@ -105,6 +105,12 @@
     <string name="menu_show_modules">Модули</string>
     <string name="module_scope_list_static_scope">Модуль объявил статическую область действия</string>
     <string name="failed_to_save_scope_list">Не удалось сохранить список области действия</string>
+    <string name="scope_request_title">Запрос области действия</string>
+    <string name="scope_request_message">%1$s у пользователя %2$s запрашивает добавление следующих приложений в свою область действия.</string>
+    <string name="scope_approve">Разрешить</string>
+    <string name="scope_deny">Отклонить</string>
+    <string name="never_ask_again">Больше не спрашивать</string>
+    <string name="scope_request_no_apps">В этом запросе нет установленных приложений</string>
     <string name="app_scopes">Области действия приложений</string>
     <string name="no_app_scoped">Ни одно приложение не входит в область действия какого-либо модуля</string>
     <string name="view_module_scopes">Просмотр областей действия модулей</string>

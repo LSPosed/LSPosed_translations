@@ -100,6 +100,12 @@
     <string name="menu_show_modules">Mòduls</string>
     <string name="module_scope_list_static_scope">El mòdul ha declarat un àmbit estàtic</string>
     <string name="failed_to_save_scope_list">No s\'ha pogut desar la llista d\'àmbits</string>
+    <string name="scope_request_title">Sol·licitud d\'àmbit</string>
+    <string name="scope_request_message">%1$s a l\'usuari %2$s sol·licita afegir les aplicacions següents al seu àmbit.</string>
+    <string name="scope_approve">Aprova</string>
+    <string name="scope_deny">Denega</string>
+    <string name="never_ask_again">No preguntis mai</string>
+    <string name="scope_request_no_apps">No hi ha aplicacions instal·lades en aquesta sol·licitud</string>
     <string name="app_scopes">Àmbits de les aplicacions</string>
     <string name="no_app_scoped">Cap aplicació no és a l\'àmbit de cap mòdul</string>
     <string name="view_module_scopes">Veure els àmbits dels mòduls</string>

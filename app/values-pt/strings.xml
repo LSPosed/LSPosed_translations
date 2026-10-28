@@ -100,6 +100,12 @@
     <string name="menu_show_modules">Módulos</string>
     <string name="module_scope_list_static_scope">O módulo declarou um âmbito estático</string>
     <string name="failed_to_save_scope_list">Falha ao guardar a lista de âmbitos</string>
+    <string name="scope_request_title">Pedido de âmbito</string>
+    <string name="scope_request_message">%1$s no utilizador %2$s pede para adicionar as seguintes aplicações ao seu âmbito.</string>
+    <string name="scope_approve">Aprovar</string>
+    <string name="scope_deny">Recusar</string>
+    <string name="never_ask_again">Não perguntar novamente</string>
+    <string name="scope_request_no_apps">Nenhuma aplicação instalada neste pedido</string>
     <string name="app_scopes">Âmbitos das aplicações</string>
     <string name="no_app_scoped">Nenhuma aplicação está no âmbito de nenhum módulo</string>
     <string name="view_module_scopes">Ver âmbitos dos módulos</string>

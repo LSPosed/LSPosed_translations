@@ -101,6 +101,12 @@
     <string name="menu_show_modules">Модулі</string>
     <string name="module_scope_list_static_scope">Модуль абвясціў статычную вобласць дзеяння</string>
     <string name="failed_to_save_scope_list">Не атрымалася захаваць спіс абласцей дзеяння</string>
+    <string name="scope_request_title">Запыт вобласці дзеяння</string>
+    <string name="scope_request_message">%1$s у карыстальніка %2$s запытвае дадаць наступныя праграмы ў сваю вобласць дзеяння.</string>
+    <string name="scope_approve">Адобрыць</string>
+    <string name="scope_deny">Адхіліць</string>
+    <string name="never_ask_again">Больш не пытаць</string>
+    <string name="scope_request_no_apps">У гэтым запыце няма ўсталяваных праграм</string>
     <string name="app_scopes">Вобласці дзеяння праграм</string>
     <string name="no_app_scoped">Ніводная праграма не ўваходзіць у вобласць дзеяння любога модуля</string>
     <string name="view_module_scopes">Праглядзець вобласці дзеяння модуляў</string>

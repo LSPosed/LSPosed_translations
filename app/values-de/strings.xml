@@ -100,6 +100,12 @@
     <string name="menu_show_modules">Module</string>
     <string name="module_scope_list_static_scope">Das Modul hat einen statischen Scope deklariert</string>
     <string name="failed_to_save_scope_list">Speichern der Scope-Liste fehlgeschlagen</string>
+    <string name="scope_request_title">Scope-Anfrage</string>
+    <string name="scope_request_message">%1$s auf Benutzer %2$s fordert an, die folgenden Apps zum Scope hinzuzufügen.</string>
+    <string name="scope_approve">Zustimmen</string>
+    <string name="scope_deny">Ablehnen</string>
+    <string name="never_ask_again">Nie mehr fragen</string>
+    <string name="scope_request_no_apps">Keine installierten Apps in dieser Anfrage</string>
     <string name="app_scopes">App-Scopes</string>
     <string name="no_app_scoped">Keine App ist im Scope eines Moduls</string>
     <string name="view_module_scopes">Modul-Scopes anzeigen</string>

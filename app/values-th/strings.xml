@@ -100,6 +100,12 @@
     <string name="menu_show_modules">โมดูล</string>
     <string name="module_scope_list_static_scope">โมดูลประกาศขอบเขตแบบคงที่</string>
     <string name="failed_to_save_scope_list">ไม่สามารถบันทึกรายการขอบเขต</string>
+    <string name="scope_request_title">คำขอขอบเขต</string>
+    <string name="scope_request_message">%1$s บนผู้ใช้ %2$s ขอเพิ่มแอปต่อไปนี้ในขอบเขตของตน</string>
+    <string name="scope_approve">อนุมัติ</string>
+    <string name="scope_deny">ปฏิเสธ</string>
+    <string name="never_ask_again">ไม่ต้องถามอีก</string>
+    <string name="scope_request_no_apps">ไม่มีแอปที่ติดตั้งแล้วในคำขอนี้</string>
     <string name="app_scopes">ขอบเขตของแอป</string>
     <string name="no_app_scoped">ไม่มีแอปอยู่ในขอบเขตของโมดูลใดเลย</string>
     <string name="view_module_scopes">ดูขอบเขตของโมดูล</string>

@@ -100,6 +100,12 @@
     <string name="menu_show_modules">Moduler</string>
     <string name="module_scope_list_static_scope">Modulen har deklarerat en statisk omfattning</string>
     <string name="failed_to_save_scope_list">Det gick inte att spara omfattningslistan</string>
+    <string name="scope_request_title">Omfattningsbegäran</string>
+    <string name="scope_request_message">%1$s på användare %2$s begär att lägga till följande appar i sin omfattning.</string>
+    <string name="scope_approve">Godkänn</string>
+    <string name="scope_deny">Avvisa</string>
+    <string name="never_ask_again">Fråga aldrig igen</string>
+    <string name="scope_request_no_apps">Inga installerade appar i denna begäran</string>
     <string name="app_scopes">Apparnas omfattningar</string>
     <string name="no_app_scoped">Ingen app finns i någon moduls omfattning</string>
     <string name="view_module_scopes">Visa modulernas omfattningar</string>

@@ -100,6 +100,12 @@
     <string name="menu_show_modules">মডিউল</string>
     <string name="module_scope_list_static_scope">মডিউলটি স্ট্যাটিক স্কোপ ঘোষণা করেছে</string>
     <string name="failed_to_save_scope_list">স্কোপ তালিকা সংরক্ষণ করতে ব্যর্থ হয়েছে</string>
+    <string name="scope_request_title">স্কোপ অনুরোধ</string>
+    <string name="scope_request_message">%1$s ব্যবহারকারী %2$s-এ তার স্কোপে নিম্নলিখিত অ্যাপগুলি যোগ করার অনুরোধ করছে।</string>
+    <string name="scope_approve">অনুমোদন করুন</string>
+    <string name="scope_deny">প্রত্যাখ্যান করুন</string>
+    <string name="never_ask_again">আর কখনও জিজ্ঞাসা করবেন না</string>
+    <string name="scope_request_no_apps">এই অনুরোধে কোনো ইনস্টল করা অ্যাপ নেই</string>
     <string name="app_scopes">অ্যাপ স্কোপ</string>
     <string name="no_app_scoped">কোনো মডিউলের স্কোপে কোনো অ্যাপ নেই</string>
     <string name="view_module_scopes">মডিউল স্কোপ দেখুন</string>

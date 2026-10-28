@@ -100,6 +100,12 @@
     <string name="menu_show_modules">Moduli</string>
     <string name="module_scope_list_static_scope">Il modulo ha dichiarato un ambito statico</string>
     <string name="failed_to_save_scope_list">Impossibile salvare l\'elenco degli ambiti</string>
+    <string name="scope_request_title">Richiesta di ambito</string>
+    <string name="scope_request_message">%1$s sull\'utente %2$s richiede di aggiungere le seguenti app al proprio ambito.</string>
+    <string name="scope_approve">Approva</string>
+    <string name="scope_deny">Nega</string>
+    <string name="never_ask_again">Non chiedere più</string>
+    <string name="scope_request_no_apps">Nessuna app installata in questa richiesta</string>
     <string name="app_scopes">Ambiti delle app</string>
     <string name="no_app_scoped">Nessuna app è nell\'ambito di un modulo</string>
     <string name="view_module_scopes">Visualizza gli ambiti dei moduli</string>

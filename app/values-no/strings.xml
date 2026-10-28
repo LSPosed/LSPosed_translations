@@ -100,6 +100,12 @@
     <string name="menu_show_modules">Moduler</string>
     <string name="module_scope_list_static_scope">Modulen erklærte statisk virkeområde</string>
     <string name="failed_to_save_scope_list">Kunne ikke lagre virkeområdelisten</string>
+    <string name="scope_request_title">Virkeområdeforespørsel</string>
+    <string name="scope_request_message">%1$s på bruker %2$s ber om å legge til følgende apper i virkeområdet sitt.</string>
+    <string name="scope_approve">Godkjenn</string>
+    <string name="scope_deny">Avslå</string>
+    <string name="never_ask_again">Spør aldri igjen</string>
+    <string name="scope_request_no_apps">Ingen installerte apper i denne forespørselen</string>
     <string name="app_scopes">Appenes virkeområder</string>
     <string name="no_app_scoped">Ingen app er i virkeområdet til noen modul</string>
     <string name="view_module_scopes">Vis modulenes virkeområder</string>

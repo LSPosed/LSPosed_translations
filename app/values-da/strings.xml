@@ -100,6 +100,12 @@
     <string name="menu_show_modules">Moduler</string>
     <string name="module_scope_list_static_scope">Modulet har erklæret statisk anvendelsesområde</string>
     <string name="failed_to_save_scope_list">Kunne ikke gemme listen over anvendelsesområder</string>
+    <string name="scope_request_title">Anmodning om anvendelsesområde</string>
+    <string name="scope_request_message">%1$s på bruger %2$s anmoder om at føje følgende apps til sit anvendelsesområde.</string>
+    <string name="scope_approve">Godkend</string>
+    <string name="scope_deny">Afvis</string>
+    <string name="never_ask_again">Spørg aldrig</string>
+    <string name="scope_request_no_apps">Ingen installerede apps i denne anmodning</string>
     <string name="app_scopes">Appenes anvendelsesområder</string>
     <string name="no_app_scoped">Ingen app er i anvendelsesområdet for nogen modul</string>
     <string name="view_module_scopes">Se modulernes anvendelsesområder</string>

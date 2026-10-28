@@ -100,6 +100,12 @@
     <string name="menu_show_modules">Modulok</string>
     <string name="module_scope_list_static_scope">A modul statikus hatókört deklarált</string>
     <string name="failed_to_save_scope_list">Nem sikerült elmenteni a hatókörlistát</string>
+    <string name="scope_request_title">Hatókörkérés</string>
+    <string name="scope_request_message">%1$s a(z) %2$s felhasználón kéri a következő alkalmazások hozzáadását a hatóköréhez.</string>
+    <string name="scope_approve">Jóváhagyás</string>
+    <string name="scope_deny">Elutasítás</string>
+    <string name="never_ask_again">Többé ne kérdezze</string>
+    <string name="scope_request_no_apps">Ebben a kérésben nincsenek telepített alkalmazások</string>
     <string name="app_scopes">Alkalmazások hatókörei</string>
     <string name="no_app_scoped">Egyetlen alkalmazás sem tartozik egyetlen modul hatókörébe sem</string>
     <string name="view_module_scopes">Modulhatókörök megtekintése</string>

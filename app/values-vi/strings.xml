@@ -104,6 +104,12 @@
     <string name="menu_show_modules">Mô-đun</string>
     <string name="module_scope_list_static_scope">Mô-đun đã khai báo phạm vi tĩnh</string>
     <string name="failed_to_save_scope_list">Thất bại khi lưu danh sách phạm vi</string>
+    <string name="scope_request_title">Yêu cầu phạm vi</string>
+    <string name="scope_request_message">%1$s trên người dùng %2$s yêu cầu thêm các ứng dụng sau vào phạm vi của nó.</string>
+    <string name="scope_approve">Chấp thuận</string>
+    <string name="scope_deny">Từ chối</string>
+    <string name="never_ask_again">Không hỏi lại</string>
+    <string name="scope_request_no_apps">Không có ứng dụng nào đã cài trong yêu cầu này</string>
     <string name="app_scopes">Phạm vi ứng dụng</string>
     <string name="no_app_scoped">Không có ứng dụng nào trong phạm vi của bất kỳ mô-đun nào</string>
     <string name="view_module_scopes">Xem phạm vi mô-đun</string>

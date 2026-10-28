@@ -100,6 +100,12 @@
     <string name="menu_show_modules">Moodulid</string>
     <string name="module_scope_list_static_scope">Moodul deklareeris staatilise ulatuse</string>
     <string name="failed_to_save_scope_list">Ei õnnestunud salvestada ulatusloendit</string>
+    <string name="scope_request_title">Ulatuse taotlus</string>
+    <string name="scope_request_message">%1$s kasutajal %2$s taotleb järgmiste rakenduste lisamist oma ulatusse.</string>
+    <string name="scope_approve">Kinnita</string>
+    <string name="scope_deny">Keeldu</string>
+    <string name="never_ask_again">Ära enam küsi</string>
+    <string name="scope_request_no_apps">Selles taotluses pole paigaldatud rakendusi</string>
     <string name="app_scopes">Rakenduste ulatused</string>
     <string name="no_app_scoped">Ükski rakendus ei ole ühegi mooduli ulatuses</string>
     <string name="view_module_scopes">Vaata moodulite ulatusi</string>

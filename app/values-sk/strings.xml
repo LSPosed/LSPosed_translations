@@ -100,6 +100,12 @@
     <string name="menu_show_modules">Moduly</string>
     <string name="module_scope_list_static_scope">Modul deklaroval statický rozsah</string>
     <string name="failed_to_save_scope_list">Nepodarilo sa uložiť zoznam rozsahov</string>
+    <string name="scope_request_title">Žiadosť o rozsah</string>
+    <string name="scope_request_message">%1$s u používateľa %2$s žiada o pridanie nasledujúcich aplikácií do svojho rozsahu.</string>
+    <string name="scope_approve">Schváliť</string>
+    <string name="scope_deny">Odmietnuť</string>
+    <string name="never_ask_again">Už sa nepýtať</string>
+    <string name="scope_request_no_apps">V tejto žiadosti nie sú žiadne nainštalované aplikácie</string>
     <string name="app_scopes">Rozsahy aplikácií</string>
     <string name="no_app_scoped">Žiadna aplikácia nie je v rozsahu žiadneho modulu</string>
     <string name="view_module_scopes">Zobraziť rozsahy modulov</string>

@@ -100,6 +100,12 @@
     <string name="menu_show_modules">Modules</string>
     <string name="module_scope_list_static_scope">Le module a déclaré un périmètre statique</string>
     <string name="failed_to_save_scope_list">Échec de l\'enregistrement de la liste des périmètres</string>
+    <string name="scope_request_title">Demande de périmètre</string>
+    <string name="scope_request_message">%1$s sur l\'utilisateur %2$s demande d\'ajouter les applications suivantes à son périmètre.</string>
+    <string name="scope_approve">Approuver</string>
+    <string name="scope_deny">Refuser</string>
+    <string name="never_ask_again">Ne plus demander</string>
+    <string name="scope_request_no_apps">Aucune application installée dans cette demande</string>
     <string name="app_scopes">Périmètres des applications</string>
     <string name="no_app_scoped">Aucune application n\'est dans le périmètre d\'un module</string>
     <string name="view_module_scopes">Afficher les périmètres des modules</string>

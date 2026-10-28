@@ -105,6 +105,12 @@
     <string name="menu_show_modules">모듈</string>
     <string name="module_scope_list_static_scope">이 모듈은 정적 범위를 선언했습니다</string>
     <string name="failed_to_save_scope_list">범위 목록 저장 실패</string>
+    <string name="scope_request_title">범위 요청</string>
+    <string name="scope_request_message">%1$s(사용자 %2$s)이(가) 다음 앱을 범위에 추가하도록 요청합니다.</string>
+    <string name="scope_approve">승인</string>
+    <string name="scope_deny">거부</string>
+    <string name="never_ask_again">다시 묻지 않기</string>
+    <string name="scope_request_no_apps">이 요청에 설치된 앱이 없습니다</string>
     <string name="app_scopes">앱 범위</string>
     <string name="no_app_scoped">어느 모듈의 범위에도 앱이 없습니다</string>
     <string name="view_module_scopes">모듈 범위 보기</string>
