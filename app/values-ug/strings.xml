@@ -100,6 +100,10 @@
 <string name="menu_show_modules">مودۇللار</string>
 <string name="module_scope_list_static_scope">مودۇل سىتاتىك دائىرە جاكارلىغان</string>
 <string name="failed_to_save_scope_list">دائىرە تىزىملىكىنى ساقلاش مەغلۇب بولدى</string>
+    <string name="app_scopes">ئەپ دائىرىلىرى</string>
+    <string name="no_app_scoped">ھېچقانداق ئەپ ھېچقانداق مودۇلنىڭ دائىرىسىدە ئەمەس</string>
+    <string name="view_module_scopes">مودۇل دائىرىلىرىنى كۆرۈش</string>
+    <string name="no_module_scoped_this_app">ھېچقانداق مودۇل بۇ ئەپنى ئۆز دائىرىسىگە قوشمىغان</string>
 <string name="app_version">نۇسخا: %1$s</string>
 <string name="use_recommended">تەۋسىيە قىلىنغان</string>
 <string name="use_recommended_message">تەۋسىيە قىلىنغان ئەپلەرنى تاللامسىز؟</string>

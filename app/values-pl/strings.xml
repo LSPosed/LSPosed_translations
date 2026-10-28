@@ -100,6 +100,10 @@
     <string name="menu_show_modules">Moduły</string>
     <string name="module_scope_list_static_scope">Moduł zadeklarował statyczny zakres</string>
     <string name="failed_to_save_scope_list">Nie udało się zapisać listy zakresu</string>
+    <string name="app_scopes">Zakresy aplikacji</string>
+    <string name="no_app_scoped">Żadna aplikacja nie jest w zakresie żadnego modułu</string>
+    <string name="view_module_scopes">Wyświetl zakresy modułów</string>
+    <string name="no_module_scoped_this_app">Żaden moduł nie ma tej aplikacji w swoim zakresie</string>
     <string name="app_version">Wersja: %1$s</string>
     <string name="use_recommended">Zalecane</string>
     <string name="use_recommended_message">Wybrać zalecane aplikacje?</string>

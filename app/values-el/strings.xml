@@ -100,6 +100,10 @@
     <string name="menu_show_modules">Πρόσθετα</string>
     <string name="module_scope_list_static_scope">Το πρόσθετο δήλωσε στατικό πεδίο εφαρμογής</string>
     <string name="failed_to_save_scope_list">Αποτυχία αποθήκευσης της λίστας πεδίου</string>
+    <string name="app_scopes">Πεδία εφαρμογής</string>
+    <string name="no_app_scoped">Καμία εφαρμογή δεν είναι στο πεδίο εφαρμογής κάποιου προσθέτου</string>
+    <string name="view_module_scopes">Προβολή πεδίων εφαρμογής προσθέτων</string>
+    <string name="no_module_scoped_this_app">Κανένα πρόσθετο δεν έχει αυτή την εφαρμογή στο πεδίο του</string>
     <string name="app_version">Έκδοση: %1$s</string>
     <string name="use_recommended">Προτεινόμενο</string>
     <string name="use_recommended_message">Επιλέξτε προτεινόμενες εφαρμογές;</string>

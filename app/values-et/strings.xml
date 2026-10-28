@@ -100,6 +100,10 @@
     <string name="menu_show_modules">Moodulid</string>
     <string name="module_scope_list_static_scope">Moodul deklareeris staatilise ulatuse</string>
     <string name="failed_to_save_scope_list">Ei õnnestunud salvestada ulatusloendit</string>
+    <string name="app_scopes">Rakenduste ulatused</string>
+    <string name="no_app_scoped">Ükski rakendus ei ole ühegi mooduli ulatuses</string>
+    <string name="view_module_scopes">Vaata moodulite ulatusi</string>
+    <string name="no_module_scoped_this_app">Ühelgi moodulil ei ole seda rakendust oma ulatuses</string>
     <string name="app_version">Versioon: %1$s</string>
     <string name="use_recommended">Soovitatav</string>
     <string name="use_recommended_message">Kas valida soovitatud rakendused?</string>

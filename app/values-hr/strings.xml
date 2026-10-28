@@ -100,6 +100,10 @@
     <string name="menu_show_modules">Moduli</string>
     <string name="module_scope_list_static_scope">Modul je deklarirao statični opseg</string>
     <string name="failed_to_save_scope_list">Spremanje popisa opsega primjene nije uspjelo</string>
+    <string name="app_scopes">Opsezi aplikacija</string>
+    <string name="no_app_scoped">Nijedna aplikacija nije u opsegu nijednog modula</string>
+    <string name="view_module_scopes">Pogledaj opsege modula</string>
+    <string name="no_module_scoped_this_app">Nijedan modul nema ovu aplikaciju u svom opsegu</string>
     <string name="app_version">Verzija: %1$s</string>
     <string name="use_recommended">Preporučeno</string>
     <string name="use_recommended_message">Odaberi preporučene aplikacije?</string>

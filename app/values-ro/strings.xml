@@ -100,6 +100,10 @@
     <string name="menu_show_modules">Module</string>
     <string name="module_scope_list_static_scope">Modulul a declarat un domeniu de aplicare static</string>
     <string name="failed_to_save_scope_list">Nu s-a putut salva lista domeniilor de aplicare</string>
+    <string name="app_scopes">Domenii de aplicare ale aplicațiilor</string>
+    <string name="no_app_scoped">Nicio aplicație nu se află în domeniul de aplicare al vreunui modul</string>
+    <string name="view_module_scopes">Vezi domeniile de aplicare ale modulelor</string>
+    <string name="no_module_scoped_this_app">Niciun modul nu are această aplicație în domeniul său de aplicare</string>
     <string name="app_version">Versiune: %1$s</string>
     <string name="use_recommended">Recomandate</string>
     <string name="use_recommended_message">Selectați aplicațiile recomandate?</string>

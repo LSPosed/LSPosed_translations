@@ -100,6 +100,10 @@
     <string name="menu_show_modules">ماژول‌ها</string>
     <string name="module_scope_list_static_scope">ماژول یک محدوده ایستا اعلام کرده است</string>
     <string name="failed_to_save_scope_list">لیست محدوده ذخیره نشد</string>
+    <string name="app_scopes">محدوده‌های برنامه‌ها</string>
+    <string name="no_app_scoped">هیچ برنامه‌ای در محدوده هیچ ماژولی نیست</string>
+    <string name="view_module_scopes">مشاهده محدوده‌های ماژول‌ها</string>
+    <string name="no_module_scoped_this_app">هیچ ماژولی این برنامه را در محدوده خود ندارد</string>
     <string name="app_version">نسخه: %1$s</string>
     <string name="use_recommended">توصیه شده</string>
     <string name="use_recommended_message">آیا می‌خواهید برنامه‌های توصیه شده را انتخاب کنید؟</string>

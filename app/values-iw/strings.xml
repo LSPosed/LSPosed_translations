@@ -100,6 +100,10 @@
     <string name="menu_show_modules">מודולים</string>
     <string name="module_scope_list_static_scope">המודול הצהיר על היקף סטטי</string>
     <string name="failed_to_save_scope_list">נכשל לשמור רשימת תחומים</string>
+    <string name="app_scopes">היקפי אפליקציות</string>
+    <string name="no_app_scoped">אין אפליקציה בהיקף של אף מודול</string>
+    <string name="view_module_scopes">הצג היקפי מודולים</string>
+    <string name="no_module_scoped_this_app">אף מודול אינו כולל אפליקציה זו בהיקף שלו</string>
     <string name="app_version">גרסה: %1$s</string>
     <string name="use_recommended">מומלץ</string>
     <string name="use_recommended_message">בחר אפליקציות מומלצות?</string>

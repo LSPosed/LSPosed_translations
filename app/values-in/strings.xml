@@ -104,6 +104,10 @@
     <string name="menu_show_modules">Modul</string>
     <string name="module_scope_list_static_scope">Modul menetapkan cakupan statis</string>
     <string name="failed_to_save_scope_list">Gagal menyimpan ke daftar cakupan</string>
+    <string name="app_scopes">Cakupan aplikasi</string>
+    <string name="no_app_scoped">Tidak ada aplikasi dalam cakupan modul mana pun</string>
+    <string name="view_module_scopes">Lihat cakupan modul</string>
+    <string name="no_module_scoped_this_app">Tidak ada modul yang menyertakan aplikasi ini dalam cakupannya</string>
     <string name="app_version">Versi: %1$s</string>
     <string name="use_recommended">Disarankan</string>
     <string name="use_recommended_message">Pilih aplikasi yang disarankan?</string>

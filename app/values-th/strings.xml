@@ -100,6 +100,10 @@
     <string name="menu_show_modules">โมดูล</string>
     <string name="module_scope_list_static_scope">โมดูลประกาศขอบเขตแบบคงที่</string>
     <string name="failed_to_save_scope_list">ไม่สามารถบันทึกรายการขอบเขต</string>
+    <string name="app_scopes">ขอบเขตของแอป</string>
+    <string name="no_app_scoped">ไม่มีแอปอยู่ในขอบเขตของโมดูลใดเลย</string>
+    <string name="view_module_scopes">ดูขอบเขตของโมดูล</string>
+    <string name="no_module_scoped_this_app">ไม่มีโมดูลใดมีแอปนี้อยู่ในขอบเขต</string>
     <string name="app_version">เวอร์ชัน: %1$s</string>
     <string name="use_recommended">ที่แนะนำ</string>
     <string name="use_recommended_message">เลือกแอปที่แนะนำ?</string>

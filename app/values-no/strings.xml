@@ -100,6 +100,10 @@
     <string name="menu_show_modules">Moduler</string>
     <string name="module_scope_list_static_scope">Modulen erklærte statisk virkeområde</string>
     <string name="failed_to_save_scope_list">Kunne ikke lagre virkeområdelisten</string>
+    <string name="app_scopes">Appenes virkeområder</string>
+    <string name="no_app_scoped">Ingen app er i virkeområdet til noen modul</string>
+    <string name="view_module_scopes">Vis modulenes virkeområder</string>
+    <string name="no_module_scoped_this_app">Ingen modul har denne appen i virkeområdet sitt</string>
     <string name="app_version">Versjon: %1$s</string>
     <string name="use_recommended">Anbefalt</string>
     <string name="use_recommended_message">Velg anbefalte apper?</string>

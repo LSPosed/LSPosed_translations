@@ -100,6 +100,10 @@
     <string name="menu_show_modules">Moduler</string>
     <string name="module_scope_list_static_scope">Modulen har deklarerat en statisk omfattning</string>
     <string name="failed_to_save_scope_list">Det gick inte att spara omfattningslistan</string>
+    <string name="app_scopes">Apparnas omfattningar</string>
+    <string name="no_app_scoped">Ingen app finns i någon moduls omfattning</string>
+    <string name="view_module_scopes">Visa modulernas omfattningar</string>
+    <string name="no_module_scoped_this_app">Ingen modul har den här appen i sin omfattning</string>
     <string name="app_version">Version: %1$s</string>
     <string name="use_recommended">Rekommenderad</string>
     <string name="use_recommended_message">Välj rekommenderade appar?</string>

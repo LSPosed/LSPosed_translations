@@ -100,6 +100,10 @@
     <string name="menu_show_modules">Módulos</string>
     <string name="module_scope_list_static_scope">O módulo declarou um escopo estático</string>
     <string name="failed_to_save_scope_list">Falha ao salvar a lista de escopos</string>
+    <string name="app_scopes">Escopos dos apps</string>
+    <string name="no_app_scoped">Nenhum app está no escopo de nenhum módulo</string>
+    <string name="view_module_scopes">Ver escopos dos módulos</string>
+    <string name="no_module_scoped_this_app">Nenhum módulo tem este app em seu escopo</string>
     <string name="app_version">Versão: %1$s</string>
     <string name="use_recommended">Recomendações</string>
     <string name="use_recommended_message">Selecionar os aplicativos recomendados?</string>

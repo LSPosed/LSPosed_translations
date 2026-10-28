@@ -100,6 +100,10 @@
     <string name="menu_show_games">الالعاب</string>
     <string name="menu_show_modules">الإضافات</string>
     <string name="failed_to_save_scope_list">فشل في حفظ إعداد المجال</string>
+    <string name="app_scopes">مجالات التطبيقات</string>
+    <string name="no_app_scoped">لا يوجد تطبيق مُدرج في مجال أي إضافة</string>
+    <string name="view_module_scopes">عرض مجالات الإضافات</string>
+    <string name="no_module_scoped_this_app">لا توجد إضافة تُدرج هذا التطبيق في مجالها</string>
     <string name="app_version">الإصدار: %1$s</string>
     <string name="use_recommended">الموصى به</string>
     <string name="use_recommended_message">هل تريد إختيار التطبيقات الموصى بها؟</string>

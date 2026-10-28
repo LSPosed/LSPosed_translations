@@ -100,6 +100,10 @@
     <string name="menu_show_modules">Модулі</string>
     <string name="module_scope_list_static_scope">Модуль оголосив статичну область дії</string>
     <string name="failed_to_save_scope_list">Не вдалося зберегти список областей дії</string>
+    <string name="app_scopes">Області дії додатків</string>
+    <string name="no_app_scoped">Жоден додаток не входить до області дії будь-якого модуля</string>
+    <string name="view_module_scopes">Переглянути області дії модулів</string>
+    <string name="no_module_scoped_this_app">Жоден модуль не включає цей додаток до своєї області дії</string>
     <string name="app_version">Версія: %1$s</string>
     <string name="use_recommended">Вибрати рекомендовані</string>
     <string name="use_recommended_message">Вибрати рекомендовані додатки?</string>

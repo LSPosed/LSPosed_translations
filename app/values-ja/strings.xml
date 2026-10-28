@@ -104,6 +104,10 @@
     <string name="menu_show_modules">モジュール</string>
     <string name="module_scope_list_static_scope">モジュールは静的スコープを宣言しています</string>
     <string name="failed_to_save_scope_list">スコープリストの保存に失敗しました</string>
+    <string name="app_scopes">アプリのスコープ</string>
+    <string name="no_app_scoped">どのモジュールのスコープにもアプリが含まれていません</string>
+    <string name="view_module_scopes">モジュールのスコープを表示</string>
+    <string name="no_module_scoped_this_app">このアプリをスコープに含むモジュールはありません</string>
     <string name="app_version">バージョン: %1$s</string>
     <string name="use_recommended">おすすめ</string>
     <string name="use_recommended_message">おすすめのアプリを選択しますか？</string>

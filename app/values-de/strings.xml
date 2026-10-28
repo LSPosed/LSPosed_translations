@@ -100,6 +100,10 @@
     <string name="menu_show_modules">Module</string>
     <string name="module_scope_list_static_scope">Das Modul hat einen statischen Scope deklariert</string>
     <string name="failed_to_save_scope_list">Speichern der Scope-Liste fehlgeschlagen</string>
+    <string name="app_scopes">App-Scopes</string>
+    <string name="no_app_scoped">Keine App ist im Scope eines Moduls</string>
+    <string name="view_module_scopes">Modul-Scopes anzeigen</string>
+    <string name="no_module_scoped_this_app">Kein Modul hat diese App im Scope</string>
     <string name="app_version">Version: %1$s</string>
     <string name="use_recommended">Empfohlen</string>
     <string name="use_recommended_message">Empfohlene Apps auswählen?</string>

@@ -100,6 +100,10 @@
     <string name="menu_show_modules">Módulos</string>
     <string name="module_scope_list_static_scope">O módulo declarou um âmbito estático</string>
     <string name="failed_to_save_scope_list">Falha ao guardar a lista de âmbitos</string>
+    <string name="app_scopes">Âmbitos das aplicações</string>
+    <string name="no_app_scoped">Nenhuma aplicação está no âmbito de nenhum módulo</string>
+    <string name="view_module_scopes">Ver âmbitos dos módulos</string>
+    <string name="no_module_scoped_this_app">Nenhum módulo tem esta aplicação no seu âmbito</string>
     <string name="app_version">Versão: %1$s</string>
     <string name="use_recommended">Recomendações</string>
     <string name="use_recommended_message">Selecionar as aplicações recomendadas?</string>

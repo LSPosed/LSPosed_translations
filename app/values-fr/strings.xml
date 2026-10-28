@@ -100,6 +100,10 @@
     <string name="menu_show_modules">Modules</string>
     <string name="module_scope_list_static_scope">Le module a déclaré un périmètre statique</string>
     <string name="failed_to_save_scope_list">Échec de l\'enregistrement de la liste des périmètres</string>
+    <string name="app_scopes">Périmètres des applications</string>
+    <string name="no_app_scoped">Aucune application n\'est dans le périmètre d\'un module</string>
+    <string name="view_module_scopes">Afficher les périmètres des modules</string>
+    <string name="no_module_scoped_this_app">Aucun module n\'inclut cette application dans son périmètre</string>
     <string name="app_version">Version : %1$s</string>
     <string name="use_recommended">Recommandé</string>
     <string name="use_recommended_message">Sélectionner les applications recommandées ?</string>

@@ -100,6 +100,10 @@
     <string name="menu_show_modules">ماڈیولز</string>
     <string name="module_scope_list_static_scope">ماڈیول نے جامد دائرہ کار کا اعلان کیا</string>
     <string name="failed_to_save_scope_list">دائرہ کار کی فہرست کو محفوظ کرنے میں ناکام</string>
+    <string name="app_scopes">ایپس کے دائرہ کار</string>
+    <string name="no_app_scoped">کوئی ایپ کسی ماڈیول کے دائرہ کار میں نہیں ہے</string>
+    <string name="view_module_scopes">ماڈیولز کے دائرہ کار دیکھیں</string>
+    <string name="no_module_scoped_this_app">کوئی ماڈیول اس ایپ کو اپنے دائرہ کار میں شامل نہیں کرتا</string>
     <string name="app_version">ورژن: %1$s</string>
     <string name="use_recommended">تجویز کردہ</string>
     <string name="use_recommended_message">تجویز کردہ ایپس منتخب کریں؟</string>

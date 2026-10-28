@@ -104,6 +104,10 @@
     <string name="menu_show_modules">Mô-đun</string>
     <string name="module_scope_list_static_scope">Mô-đun đã khai báo phạm vi tĩnh</string>
     <string name="failed_to_save_scope_list">Thất bại khi lưu danh sách phạm vi</string>
+    <string name="app_scopes">Phạm vi ứng dụng</string>
+    <string name="no_app_scoped">Không có ứng dụng nào trong phạm vi của bất kỳ mô-đun nào</string>
+    <string name="view_module_scopes">Xem phạm vi mô-đun</string>
+    <string name="no_module_scoped_this_app">Không có mô-đun nào có ứng dụng này trong phạm vi</string>
     <string name="app_version">Phiên bản: %1$s</string>
     <string name="use_recommended">Khuyến nghị</string>
     <string name="use_recommended_message">Chọn các ứng dụng được khuyến nghị?</string>

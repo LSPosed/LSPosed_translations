@@ -100,6 +100,10 @@
     <string name="menu_show_modules">Moduulit</string>
     <string name="module_scope_list_static_scope">Moduuli ilmoitti staattisen käyttöalueen</string>
     <string name="failed_to_save_scope_list">Käyttöalueluettelon tallentaminen epäonnistui</string>
+    <string name="app_scopes">Sovellusten käyttöalueet</string>
+    <string name="no_app_scoped">Mikään sovellus ei ole minkään moduulin käyttöalueella</string>
+    <string name="view_module_scopes">Näytä moduulien käyttöalueet</string>
+    <string name="no_module_scoped_this_app">Millään moduulilla ei ole tätä sovellusta käyttöalueellaan</string>
     <string name="app_version">Versio: %1$s</string>
     <string name="use_recommended">Suositeltu</string>
     <string name="use_recommended_message">Valitse suositellut sovellukset?</string>

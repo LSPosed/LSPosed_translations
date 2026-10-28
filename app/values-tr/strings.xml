@@ -105,6 +105,10 @@
     <string name="menu_show_modules">Modüller</string>
     <string name="module_scope_list_static_scope">Modül statik kapsam bildirdi</string>
     <string name="failed_to_save_scope_list">Kapsam listesi kaydedilemedi</string>
+    <string name="app_scopes">Uygulama kapsamları</string>
+    <string name="no_app_scoped">Hiçbir uygulama herhangi bir modülün kapsamında değil</string>
+    <string name="view_module_scopes">Modül kapsamlarını görüntüle</string>
+    <string name="no_module_scoped_this_app">Hiçbir modül bu uygulamayı kapsamında bulundurmuyor</string>
     <string name="app_version">Sürüm: %1$s</string>
     <string name="use_recommended">Önerilen</string>
     <string name="use_recommended_message">Önerilen uygulamalar seçilsin mi?</string>

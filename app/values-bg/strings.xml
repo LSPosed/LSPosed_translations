@@ -100,6 +100,10 @@
     <string name="menu_show_modules">Модули</string>
     <string name="module_scope_list_static_scope">Модулът е декларирал статичен обхват</string>
     <string name="failed_to_save_scope_list">Неуспешно запазване на списъка с обхвата</string>
+    <string name="app_scopes">Обхвати на приложенията</string>
+    <string name="no_app_scoped">Няма приложение в обхвата на който и да е модул</string>
+    <string name="view_module_scopes">Преглед на обхватите на модулите</string>
+    <string name="no_module_scoped_this_app">Нито един модул не включва това приложение в обхвата си</string>
     <string name="app_version">Версия: %1$s</string>
     <string name="use_recommended">Препоръчителен</string>
     <string name="use_recommended_message">Изберете препоръчани приложения?</string>

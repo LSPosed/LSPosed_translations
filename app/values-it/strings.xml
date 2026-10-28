@@ -100,6 +100,10 @@
     <string name="menu_show_modules">Moduli</string>
     <string name="module_scope_list_static_scope">Il modulo ha dichiarato un ambito statico</string>
     <string name="failed_to_save_scope_list">Impossibile salvare l\'elenco degli ambiti</string>
+    <string name="app_scopes">Ambiti delle app</string>
+    <string name="no_app_scoped">Nessuna app è nell\'ambito di un modulo</string>
+    <string name="view_module_scopes">Visualizza gli ambiti dei moduli</string>
+    <string name="no_module_scoped_this_app">Nessun modulo include questa app nel proprio ambito</string>
     <string name="app_version">Versione: %1$s</string>
     <string name="use_recommended">Seleziona consigliate</string>
     <string name="use_recommended_message">Selezionare le app consigliate?</string>

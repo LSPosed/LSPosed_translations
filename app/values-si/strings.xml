@@ -100,6 +100,10 @@
     <string name="menu_show_modules">මොඩියුල</string>
     <string name="module_scope_list_static_scope">මොඩියුලය ස්ථිතික විෂය පථයක් ප්‍රකාශ කර ඇත</string>
     <string name="failed_to_save_scope_list">විෂය පථ ලැයිස්තුව සුරැකීමට අසමත් විය</string>
+    <string name="app_scopes">යෙදුම් විෂය පථ</string>
+    <string name="no_app_scoped">කිසිදු මොඩියුලයක විෂය පථයේ යෙදුමක් නොමැත</string>
+    <string name="view_module_scopes">මොඩියුල විෂය පථ බලන්න</string>
+    <string name="no_module_scoped_this_app">මෙම යෙදුම කිසිදු මොඩියුලයක විෂය පථයේ නොමැත</string>
     <string name="app_version">අනුවාදය: %1$s</string>
     <string name="use_recommended">නිර්දේශ කර ඇත</string>
     <string name="use_recommended_message">නිර්දේශිත යෙදුම් තෝරන්නද?</string>

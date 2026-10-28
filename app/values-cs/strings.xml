@@ -100,6 +100,10 @@
     <string name="menu_show_modules">Moduly</string>
     <string name="module_scope_list_static_scope">Modul deklaroval statický rozsah</string>
     <string name="failed_to_save_scope_list">Nepodařilo se uložit seznam rozsahů</string>
+    <string name="app_scopes">Rozsahy aplikací</string>
+    <string name="no_app_scoped">Žádná aplikace není v rozsahu žádného modulu</string>
+    <string name="view_module_scopes">Zobrazit rozsahy modulů</string>
+    <string name="no_module_scoped_this_app">Žádný modul nemá tuto aplikaci ve svém rozsahu</string>
     <string name="app_version">Verze: %1$s</string>
     <string name="use_recommended">Zvolit doporučené</string>
     <string name="use_recommended_message">Vybrat doporučené aplikace?</string>

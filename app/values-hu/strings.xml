@@ -100,6 +100,10 @@
     <string name="menu_show_modules">Modulok</string>
     <string name="module_scope_list_static_scope">A modul statikus hatókört deklarált</string>
     <string name="failed_to_save_scope_list">Nem sikerült elmenteni a hatókörlistát</string>
+    <string name="app_scopes">Alkalmazások hatókörei</string>
+    <string name="no_app_scoped">Egyetlen alkalmazás sem tartozik egyetlen modul hatókörébe sem</string>
+    <string name="view_module_scopes">Modulhatókörök megtekintése</string>
+    <string name="no_module_scoped_this_app">Egyetlen modul sem tartalmazza ezt az alkalmazást a hatókörében</string>
     <string name="app_version">Verzió: %1$s</string>
     <string name="use_recommended">Ajánlott</string>
     <string name="use_recommended_message">Kiválasztja az ajánlott alkalmazásokat?</string>

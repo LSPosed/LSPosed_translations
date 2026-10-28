@@ -100,6 +100,10 @@
     <string name="menu_show_modules">মডিউল</string>
     <string name="module_scope_list_static_scope">মডিউলটি স্ট্যাটিক স্কোপ ঘোষণা করেছে</string>
     <string name="failed_to_save_scope_list">স্কোপ তালিকা সংরক্ষণ করতে ব্যর্থ হয়েছে</string>
+    <string name="app_scopes">অ্যাপ স্কোপ</string>
+    <string name="no_app_scoped">কোনো মডিউলের স্কোপে কোনো অ্যাপ নেই</string>
+    <string name="view_module_scopes">মডিউল স্কোপ দেখুন</string>
+    <string name="no_module_scoped_this_app">কোনো মডিউল এই অ্যাপটিকে নিজের স্কোপে রাখেনি</string>
     <string name="app_version">সংস্করণ: %1$s</string>
     <string name="use_recommended">প্রস্তাবিত</string>
     <string name="use_recommended_message">প্রস্তাবিত অ্যাপ নির্বাচন করবেন?</string>

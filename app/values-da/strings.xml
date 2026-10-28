@@ -100,6 +100,10 @@
     <string name="menu_show_modules">Moduler</string>
     <string name="module_scope_list_static_scope">Modulet har erklæret statisk anvendelsesområde</string>
     <string name="failed_to_save_scope_list">Kunne ikke gemme listen over anvendelsesområder</string>
+    <string name="app_scopes">Appenes anvendelsesområder</string>
+    <string name="no_app_scoped">Ingen app er i anvendelsesområdet for nogen modul</string>
+    <string name="view_module_scopes">Se modulernes anvendelsesområder</string>
+    <string name="no_module_scoped_this_app">Ingen modul har denne app i sit anvendelsesområde</string>
     <string name="app_version">Version %1$s</string>
     <string name="use_recommended">Anbefalet</string>
     <string name="use_recommended_message">Vælg anbefalede apps?</string>

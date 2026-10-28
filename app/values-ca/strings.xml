@@ -100,6 +100,10 @@
     <string name="menu_show_modules">Mòduls</string>
     <string name="module_scope_list_static_scope">El mòdul ha declarat un àmbit estàtic</string>
     <string name="failed_to_save_scope_list">No s\'ha pogut desar la llista d\'àmbits</string>
+    <string name="app_scopes">Àmbits de les aplicacions</string>
+    <string name="no_app_scoped">Cap aplicació no és a l\'àmbit de cap mòdul</string>
+    <string name="view_module_scopes">Veure els àmbits dels mòduls</string>
+    <string name="no_module_scoped_this_app">Cap mòdul no té aquesta aplicació al seu àmbit</string>
     <string name="app_version">Versió: %1$s</string>
     <string name="use_recommended">Recomanat</string>
     <string name="use_recommended_message">Vols seleccionar aplicacions recomanades?</string>
