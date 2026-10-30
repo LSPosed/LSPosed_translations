@@ -12,7 +12,7 @@
     <string name="bug_report_exporting_logs">Günlükler dışa aktarılıyor…</string>
     <string name="about_join_telegram">Telegram kanalına katıl</string>
     <string name="email_address_copied">E-posta adresi kopyalandı</string>
-    <string name="translators" comment="Dear translators, please add your home page here following the format. There can be more than one translator. So feel free to append yourself.">null</string>
+    <string name="translators" comment="Dear translators, please add your home page here following the format. There can be more than one translator. So feel free to append yourself.">Burak DEMİR, Bedircan AYAYDIN, Furkan KARCIOĞLU, Ahmet AÇIKGÖZ, Sir-C</string>
     
     <string name="not_installed">Yüklü değil</string>
     <string name="not_install_summary">LSPosed yüklü değil</string>
@@ -124,7 +124,7 @@
     <string name="requested_by_module">Modül önerisi</string>
     <string name="update_available">Güncelleme mevcut: %1$s</string>
     <string name="android_framework">Sistem Çerçevesi</string>
-    <string name="menu_backup">Yedek</string>
+    <string name="menu_backup">Yedekle</string>
     <string name="menu_restore">Geri yükle</string>
     <string name="force_stop">Zorla durdur</string>
     <string name="force_stop_dlg_title">Zorla durdurulsun mu?</string>
